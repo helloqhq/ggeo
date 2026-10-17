@@ -47,15 +47,15 @@
     "sources": [
       {
         "label": {
-          "en": "Official product information",
-          "zh": "官方产品资料"
+          "en": "Peec AI official product features",
+          "zh": "Peec AI 官方产品功能"
         },
         "url": "https://peec.ai/"
       },
       {
         "label": {
-          "en": "Official documentation / plans",
-          "zh": "官方文档 / 方案"
+          "en": "Peec AI pricing and plans",
+          "zh": "Peec AI 定价与方案"
         },
         "url": "https://peec.ai/pricing"
       }
@@ -112,15 +112,15 @@
     "sources": [
       {
         "label": {
-          "en": "Official product information",
-          "zh": "官方产品资料"
+          "en": "Profound official product features",
+          "zh": "Profound 官方产品功能"
         },
         "url": "https://www.tryprofound.com/features"
       },
       {
         "label": {
-          "en": "Official documentation / plans",
-          "zh": "官方文档 / 方案"
+          "en": "Profound pricing and plans",
+          "zh": "Profound 定价与方案"
         },
         "url": "https://www.tryprofound.com/pricing"
       }
@@ -155,11 +155,13 @@
     "features": {
       "en": [
         "Track mentions and cited source links for your monitored prompts.",
-        "Explore prompt research, competitive visibility and GEO audit recommendations."
+        "Explore prompt research, competitive visibility and GEO audit recommendations.",
+        "Google AI Mode, Gemini and Claude monitoring are paid add-ons."
       ],
       "zh": [
         "跟踪监测提示词下的品牌提及与引用来源链接。",
-        "研究提示词、竞品曝光与 GEO 诊断建议。"
+        "研究提示词、竞品曝光与 GEO 诊断建议。",
+        "Google AI Mode、Gemini 和 Claude 监控需要付费加购。"
       ]
     },
     "audience": {
@@ -170,21 +172,24 @@
       "ChatGPT",
       "Google AI Overviews",
       "Perplexity",
-      "Microsoft Copilot"
+      "Microsoft Copilot",
+      "Google AI Mode",
+      "Gemini",
+      "Claude"
     ],
     "pricing": "Paid",
     "sources": [
       {
         "label": {
-          "en": "Official product information",
-          "zh": "官方产品资料"
+          "en": "OtterlyAI official product features",
+          "zh": "OtterlyAI 官方产品功能"
         },
         "url": "https://otterly.ai/features/"
       },
       {
         "label": {
-          "en": "Official documentation / plans",
-          "zh": "官方文档 / 方案"
+          "en": "OtterlyAI pricing and plans",
+          "zh": "OtterlyAI 定价与方案"
         },
         "url": "https://help.otterly.ai/pricing-of-otterlyai"
       }
@@ -219,11 +224,13 @@
     "features": {
       "en": [
         "Measure brand visibility, mentions, citations and sentiment in AI search.",
-        "Investigate sources and competitors to inform content and optimization actions."
+        "Investigate sources and competitors to inform content and optimization actions.",
+        "Paid plans expand engine coverage; the Essential offer lists introductory credits rather than a confirmed recurring free allowance."
       ],
       "zh": [
         "测量 AI 搜索中的品牌曝光、提及、引用与情绪。",
-        "研究来源与竞品，为内容和优化行动提供参考。"
+        "研究来源与竞品，为内容和优化行动提供参考。",
+        "付费方案扩展平台覆盖；Essential 标注的是初始免费额度，未确认有周期性免费配额。"
       ]
     },
     "audience": {
@@ -235,21 +242,23 @@
       "Perplexity",
       "Gemini",
       "Claude",
-      "Google AI Overviews"
+      "Google AI Overviews",
+      "Google AI Mode",
+      "Microsoft Copilot"
     ],
-    "pricing": "Unknown",
+    "pricing": "Paid",
     "sources": [
       {
         "label": {
-          "en": "Official product information",
-          "zh": "官方产品资料"
+          "en": "AthenaHQ official product features",
+          "zh": "AthenaHQ 官方产品功能"
         },
         "url": "https://athenahq.ai/platform/"
       },
       {
         "label": {
-          "en": "Official documentation / plans",
-          "zh": "官方文档 / 方案"
+          "en": "AthenaHQ pricing and plans",
+          "zh": "AthenaHQ 定价与方案"
         },
         "url": "https://athenahq.ai/plans"
       }
@@ -284,11 +293,13 @@
     "features": {
       "en": [
         "Monitor how brands appear in AI-generated answers across supported engines.",
-        "Review competitor insights, citations, website analytics and AI crawler activity."
+        "Review competitor insights, citations, website analytics and AI crawler activity.",
+        "AI Mode and AI Overviews are listed on higher-tier plans; coverage varies by plan."
       ],
       "zh": [
         "监控品牌在支持平台的 AI 回答中的表现。",
-        "查看竞品洞察、引用、网站分析及 AI 爬虫活动。"
+        "查看竞品洞察、引用、网站分析及 AI 爬虫活动。",
+        "AI Mode 和 AI Overviews 列于较高方案中，平台覆盖随方案变化。"
       ]
     },
     "audience": {
@@ -300,21 +311,24 @@
       "Claude",
       "Gemini",
       "Perplexity",
-      "Google AI Overviews"
+      "Google AI Overviews",
+      "DeepSeek",
+      "Grok",
+      "Google AI Mode"
     ],
     "pricing": "Paid",
     "sources": [
       {
         "label": {
-          "en": "Official product information",
-          "zh": "官方产品资料"
+          "en": "Promptmonitor official product features",
+          "zh": "Promptmonitor 官方产品功能"
         },
         "url": "https://promptmonitor.io/"
       },
       {
         "label": {
-          "en": "Official documentation / plans",
-          "zh": "官方文档 / 方案"
+          "en": "Promptmonitor pricing and plans",
+          "zh": "Promptmonitor 定价与方案"
         },
         "url": "https://promptmonitor.io/pricing"
       }
@@ -365,21 +379,23 @@
       "Google AI Overviews",
       "Perplexity",
       "Google AI Mode",
-      "Microsoft Copilot"
+      "Microsoft Copilot",
+      "Bing AI Overview",
+      "Gemini"
     ],
     "pricing": "Paid",
     "sources": [
       {
         "label": {
-          "en": "Official product information",
-          "zh": "官方产品资料"
+          "en": "ZipTie official product features",
+          "zh": "ZipTie 官方产品功能"
         },
         "url": "https://ziptie.ai/product/"
       },
       {
         "label": {
-          "en": "Official documentation / plans",
-          "zh": "官方文档 / 方案"
+          "en": "ZipTie pricing and plans",
+          "zh": "ZipTie 定价与方案"
         },
         "url": "https://ziptie.ai/pricing/"
       }
@@ -436,15 +452,15 @@
     "sources": [
       {
         "label": {
-          "en": "Official product information",
-          "zh": "官方产品资料"
+          "en": "Rankscale official product features",
+          "zh": "Rankscale 官方产品功能"
         },
         "url": "https://rankscale.ai/"
       },
       {
         "label": {
-          "en": "Official documentation / plans",
-          "zh": "官方文档 / 方案"
+          "en": "Rankscale pricing and plans",
+          "zh": "Rankscale 定价与方案"
         },
         "url": "https://rankscale.ai/pricing"
       }
@@ -496,14 +512,16 @@
       "Google AI Mode",
       "Gemini",
       "Perplexity",
-      "Claude"
+      "Claude",
+      "Microsoft Copilot",
+      "Meta AI"
     ],
     "pricing": "Paid",
     "sources": [
       {
         "label": {
-          "en": "Official product information",
-          "zh": "官方产品资料"
+          "en": "LLMrefs official product features",
+          "zh": "LLMrefs 官方产品功能"
         },
         "url": "https://llmrefs.com/"
       }
@@ -554,15 +572,15 @@
     "sources": [
       {
         "label": {
-          "en": "Official product information",
-          "zh": "官方产品资料"
+          "en": "Scrunch official feature documentation",
+          "zh": "Scrunch 官方功能文档"
         },
         "url": "https://helpcenter.scrunchai.com/en/articles/11833527-understanding-the-site-audit-tool-in-scrunch"
       },
       {
         "label": {
-          "en": "Official documentation / plans",
-          "zh": "官方文档 / 方案"
+          "en": "Scrunch pricing and plans",
+          "zh": "Scrunch 定价与方案"
         },
         "url": "https://scrunch.com/faqs/what-is-the-pricing-for-scrunch-plans"
       }
@@ -614,14 +632,21 @@
       "Perplexity",
       "Gemini"
     ],
-    "pricing": "Unknown",
+    "pricing": "Paid",
     "sources": [
       {
         "label": {
-          "en": "Official product information",
-          "zh": "官方产品资料"
+          "en": "Geoptie official product features",
+          "zh": "Geoptie 官方产品功能"
         },
         "url": "https://geoptie.com/"
+      },
+      {
+        "label": {
+          "en": "Geoptie pricing and plans",
+          "zh": "Geoptie 定价与方案"
+        },
+        "url": "https://geoptie.com/pricing"
       }
     ],
     "verifiedAt": "2026-10-18",
@@ -669,23 +694,34 @@
       "ChatGPT",
       "Claude",
       "Gemini",
-      "Perplexity"
+      "Perplexity",
+      "Google AI Overviews",
+      "Google AI Mode",
+      "Microsoft Copilot",
+      "Grok"
     ],
-    "pricing": "Unknown",
+    "pricing": "Paid",
     "sources": [
       {
         "label": {
-          "en": "Official product information",
-          "zh": "官方产品资料"
+          "en": "Writesonic official feature documentation",
+          "zh": "Writesonic 官方功能文档"
         },
         "url": "https://docs.writesonic.com/docs/content-optimization"
       },
       {
         "label": {
-          "en": "Official documentation / plans",
-          "zh": "官方文档 / 方案"
+          "en": "Writesonic official feature documentation",
+          "zh": "Writesonic 官方功能文档"
         },
         "url": "https://docs.writesonic.com/docs/geo-getting-started"
+      },
+      {
+        "label": {
+          "en": "Writesonic GEO pricing and platform coverage",
+          "zh": "Writesonic GEO 定价与平台覆盖"
+        },
+        "url": "https://writesonic.com/pricing"
       }
     ],
     "verifiedAt": "2026-10-18",
@@ -738,22 +774,22 @@
     "sources": [
       {
         "label": {
-          "en": "Official product information",
-          "zh": "官方产品资料"
+          "en": "Surfer official feature documentation",
+          "zh": "Surfer 官方功能文档"
         },
         "url": "https://docs.surferseo.com/en/articles/7859434-what-is-surfer"
       },
       {
         "label": {
-          "en": "Official documentation / plans",
-          "zh": "官方文档 / 方案"
+          "en": "Surfer official feature documentation",
+          "zh": "Surfer 官方功能文档"
         },
         "url": "https://docs.surferseo.com/en/articles/11667466-ai-tracker"
       },
       {
         "label": {
-          "en": "Official documentation / plans",
-          "zh": "官方文档 / 方案"
+          "en": "Surfer pricing and plans",
+          "zh": "Surfer 定价与方案"
         },
         "url": "https://docs.surferseo.com/en/articles/7545943-pricing-faq"
       }
@@ -810,15 +846,15 @@
     "sources": [
       {
         "label": {
-          "en": "Official product information",
-          "zh": "官方产品资料"
+          "en": "Plausible Analytics official product features",
+          "zh": "Plausible Analytics 官方产品功能"
         },
         "url": "https://plausible.io/docs/top-referrers"
       },
       {
         "label": {
-          "en": "Official documentation / plans",
-          "zh": "官方文档 / 方案"
+          "en": "Plausible Analytics pricing and plans",
+          "zh": "Plausible Analytics 定价与方案"
         },
         "url": "https://plausible.io/docs/subscription-plans"
       }
@@ -873,15 +909,15 @@
     "sources": [
       {
         "label": {
-          "en": "Official product information",
-          "zh": "官方产品资料"
+          "en": "Ahrefs Web Analytics official product features",
+          "zh": "Ahrefs Web Analytics 官方产品功能"
         },
         "url": "https://ahrefs.com/web-analytics"
       },
       {
         "label": {
-          "en": "Official documentation / plans",
-          "zh": "官方文档 / 方案"
+          "en": "Ahrefs Web Analytics official feature documentation",
+          "zh": "Ahrefs Web Analytics 官方功能文档"
         },
         "url": "https://help.ahrefs.com/en/articles/10247870-about-ahrefs-web-analytics"
       }
@@ -938,22 +974,22 @@
     "sources": [
       {
         "label": {
-          "en": "Official product information",
-          "zh": "官方产品资料"
+          "en": "Local Falcon official product features",
+          "zh": "Local Falcon 官方产品功能"
         },
         "url": "https://www.localfalcon.com/"
       },
       {
         "label": {
-          "en": "Official documentation / plans",
-          "zh": "官方文档 / 方案"
+          "en": "Local Falcon supported scan platforms",
+          "zh": "Local Falcon 支持的扫描平台"
         },
         "url": "https://docs.localfalcon.com/guides/platforms"
       },
       {
         "label": {
-          "en": "Official documentation / plans",
-          "zh": "官方文档 / 方案"
+          "en": "Local Falcon pricing and plans",
+          "zh": "Local Falcon 定价与方案"
         },
         "url": "https://www.localfalcon.com/pricing"
       }
@@ -999,20 +1035,26 @@
       "en": "Location-based brands comparing local discovery across search channels.",
       "zh": "需要跨搜索渠道对比本地发现表现的门店品牌。"
     },
-    "platforms": [],
+    "platforms": [
+      "ChatGPT",
+      "Gemini",
+      "Claude",
+      "Perplexity",
+      "Google AI Overviews"
+    ],
     "pricing": "Unknown",
     "sources": [
       {
         "label": {
-          "en": "Official product information",
-          "zh": "官方产品资料"
+          "en": "Yext Scout official product features",
+          "zh": "Yext Scout 官方产品功能"
         },
         "url": "https://www.yext.com/platform/scout"
       },
       {
         "label": {
-          "en": "Official documentation / plans",
-          "zh": "官方文档 / 方案"
+          "en": "Yext Scout official feature documentation",
+          "zh": "Yext Scout 官方功能文档"
         },
         "url": "https://help.yext.com/hc/en-us/articles/37152756031643-What-is-Scout"
       }
@@ -1020,6 +1062,637 @@
     "verifiedAt": "2026-10-18",
     "status": "published",
     "featuredOrder": 16,
+    "sponsored": false
+  },
+  {
+    "slug": "semrush-ai-visibility",
+    "name": "Semrush AI Visibility Toolkit",
+    "category": "ai-visibility",
+    "website": "https://www.semrush.com/features/ai-visibility/",
+    "logo": null,
+    "description": {
+      "en": "Measure brand visibility, research prompts and compare competitors in AI answers.",
+      "zh": "衡量品牌在 AI 回答中的曝光，研究提示词并比较竞品。"
+    },
+    "tags": {
+      "en": [
+        "AI visibility",
+        "Prompt research",
+        "Site audit"
+      ],
+      "zh": [
+        "AI 曝光",
+        "提示词研究",
+        "网站诊断"
+      ]
+    },
+    "features": {
+      "en": [
+        "Compare brand mentions and sentiment with competitors, and identify visibility gaps.",
+        "Track selected prompts daily and audit technical issues that may affect AI crawler access."
+      ],
+      "zh": [
+        "比较品牌与竞品的提及和情绪，识别曝光缺口。",
+        "每日跟踪指定提示词，并诊断可能影响 AI 爬虫访问的技术问题。"
+      ]
+    },
+    "audience": {
+      "en": "SEO and marketing teams combining AI visibility research with an ongoing search workflow.",
+      "zh": "需要将 AI 曝光研究纳入日常搜索工作流的 SEO 与营销团队。"
+    },
+    "platforms": [
+      "ChatGPT",
+      "Google AI Mode"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "Semrush AI visibility product features",
+          "zh": "Semrush AI 曝光产品功能"
+        },
+        "url": "https://www.semrush.com/features/ai-visibility/"
+      },
+      {
+        "label": {
+          "en": "Semrush AI Visibility Toolkit features and billing",
+          "zh": "Semrush AI Visibility Toolkit 功能与计费"
+        },
+        "url": "https://www.semrush.com/kb/1493-ai-visibility-toolkit"
+      },
+      {
+        "label": {
+          "en": "Semrush AI Visibility pricing",
+          "zh": "Semrush AI Visibility 定价"
+        },
+        "url": "https://www.semrush.com/pricing/ai/"
+      }
+    ],
+    "verifiedAt": "2026-10-18",
+    "status": "published",
+    "featuredOrder": 17,
+    "sponsored": false
+  },
+  {
+    "slug": "se-ranking-ai-search",
+    "name": "SE Ranking AI Search Toolkit",
+    "category": "citations",
+    "website": "https://seranking.com/ai-visibility-tracker.html",
+    "logo": null,
+    "description": {
+      "en": "Track linked and unlinked brand mentions and examine the sources behind AI answers.",
+      "zh": "跟踪带链接及不带链接的品牌提及，分析 AI 回答背后的引用来源。"
+    },
+    "tags": {
+      "en": [
+        "Cited pages",
+        "Source analysis",
+        "Competitors"
+      ],
+      "zh": [
+        "引用页面",
+        "来源分析",
+        "竞品"
+      ]
+    },
+    "features": {
+      "en": [
+        "Inspect cited domains, URLs and prompt-level answers across supported AI platforms.",
+        "Compare competitor visibility and organize source coverage by market and language."
+      ],
+      "zh": [
+        "查看支持平台上的引用域名、URL 与提示词级回答。",
+        "比较竞品曝光，并按市场和语言研究来源覆盖。"
+      ]
+    },
+    "audience": {
+      "en": "SEO teams and agencies investigating which pages and domains influence AI answers.",
+      "zh": "需要研究哪些页面和域名影响 AI 回答的 SEO 团队与代理机构。"
+    },
+    "platforms": [
+      "ChatGPT",
+      "Google AI Overviews",
+      "Google AI Mode",
+      "Gemini"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "SE Ranking AI visibility and source analysis",
+          "zh": "SE Ranking AI 曝光与来源分析"
+        },
+        "url": "https://seranking.com/ai-visibility-tracker.html"
+      },
+      {
+        "label": {
+          "en": "SE Ranking subscriptions",
+          "zh": "SE Ranking 订阅方案"
+        },
+        "url": "https://seranking.com/subscription.html"
+      }
+    ],
+    "verifiedAt": "2026-10-18",
+    "status": "published",
+    "featuredOrder": 18,
+    "sponsored": false
+  },
+  {
+    "slug": "promptwatch",
+    "name": "Promptwatch",
+    "category": "prompts",
+    "website": "https://promptwatch.com/",
+    "logo": null,
+    "description": {
+      "en": "Monitor recurring business prompts and connect AI answers with citations and crawler activity.",
+      "zh": "持续监测业务提示词，关联 AI 回答、引用与爬虫活动。"
+    },
+    "tags": {
+      "en": [
+        "Prompt tracking",
+        "Citations",
+        "Crawler analytics"
+      ],
+      "zh": [
+        "提示词监控",
+        "引用",
+        "爬虫分析"
+      ]
+    },
+    "features": {
+      "en": [
+        "Track brand visibility and share of voice for selected prompts across AI platforms.",
+        "Review cited sources and use crawler logs and content-gap analysis to guide follow-up work."
+      ],
+      "zh": [
+        "在多个 AI 平台上跟踪指定提示词下的品牌曝光与声量份额。",
+        "查看引用来源，结合爬虫日志和内容缺口分析安排后续工作。"
+      ]
+    },
+    "audience": {
+      "en": "Marketing teams and agencies maintaining repeatable prompt monitoring and reporting.",
+      "zh": "需要持续开展提示词监测和报告的营销团队与代理机构。"
+    },
+    "platforms": [
+      "ChatGPT",
+      "Claude",
+      "Gemini",
+      "Perplexity",
+      "Google AI Overviews",
+      "Google AI Mode"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "Promptwatch monitoring and analytics features",
+          "zh": "Promptwatch 监控与分析功能"
+        },
+        "url": "https://promptwatch.com/"
+      },
+      {
+        "label": {
+          "en": "Promptwatch plans and engine coverage",
+          "zh": "Promptwatch 方案与平台覆盖"
+        },
+        "url": "https://promptwatch.com/pricing"
+      }
+    ],
+    "verifiedAt": "2026-10-18",
+    "status": "published",
+    "featuredOrder": 19,
+    "sponsored": false
+  },
+  {
+    "slug": "ahrefs-brand-radar",
+    "name": "Ahrefs Brand Radar",
+    "category": "competitors",
+    "website": "https://ahrefs.com/brand-radar",
+    "logo": null,
+    "description": {
+      "en": "Compare brands in AI answers using indexed responses and custom prompt tracking.",
+      "zh": "结合回答索引与自定义提示词监测，比较品牌在 AI 回答中的表现。"
+    },
+    "tags": {
+      "en": [
+        "Share of voice",
+        "Brand comparison",
+        "Custom prompts"
+      ],
+      "zh": [
+        "声量份额",
+        "品牌对比",
+        "自定义提示词"
+      ]
+    },
+    "features": {
+      "en": [
+        "Compare brand mentions, citation share and the pages or domains cited by AI engines.",
+        "Research existing AI response indexes or schedule checks for your own prompts; Claude is available through custom prompts."
+      ],
+      "zh": [
+        "比较品牌提及、引用份额以及 AI 平台引用的页面和域名。",
+        "研究现有 AI 回答索引，或为自定义提示词安排检查；Claude 通过自定义提示词提供。"
+      ]
+    },
+    "audience": {
+      "en": "SEO and brand teams comparing their AI presence with competitors and investigating citation gaps.",
+      "zh": "需要比较品牌与竞品 AI 表现并研究引用缺口的 SEO 与品牌团队。"
+    },
+    "platforms": [
+      "ChatGPT",
+      "Perplexity",
+      "Gemini",
+      "Microsoft Copilot",
+      "Google AI Overviews",
+      "Google AI Mode",
+      "Claude"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "Ahrefs Brand Radar product information",
+          "zh": "Ahrefs Brand Radar 产品资料"
+        },
+        "url": "https://ahrefs.com/brand-radar"
+      },
+      {
+        "label": {
+          "en": "Brand Radar coverage, methodology and pricing",
+          "zh": "Brand Radar 覆盖、方法与定价"
+        },
+        "url": "https://help.ahrefs.com/en/articles/11064852-what-is-brand-radar-and-how-to-use-it"
+      }
+    ],
+    "verifiedAt": "2026-10-18",
+    "status": "published",
+    "featuredOrder": 20,
+    "sponsored": false
+  },
+  {
+    "slug": "hubspot-ai-search-grader",
+    "name": "HubSpot AI Search Grader",
+    "category": "ai-visibility",
+    "website": "https://www.hubspot.com/ai-search-grader",
+    "logo": null,
+    "description": {
+      "en": "Get a free snapshot of how AI models describe and position your brand.",
+      "zh": "免费查看 AI 模型如何描述和定位你的品牌。"
+    },
+    "tags": {
+      "en": [
+        "Brand perception",
+        "Visibility check",
+        "Sentiment"
+      ],
+      "zh": [
+        "品牌认知",
+        "曝光检查",
+        "情绪分析"
+      ]
+    },
+    "features": {
+      "en": [
+        "Request a one-time brand perception analysis covering sentiment, recognition and competitive position.",
+        "The official page describes training-data-based model responses; ongoing monitoring is a separate HubSpot AEO product."
+      ],
+      "zh": [
+        "获取一次性的品牌认知分析，覆盖情绪、认知与竞争定位。",
+        "官方说明以模型训练数据中的品牌认知作答；持续监控由独立的 HubSpot AEO 产品提供。"
+      ]
+    },
+    "audience": {
+      "en": "Brand and marketing teams looking for an initial AI perception snapshot.",
+      "zh": "希望初步了解 AI 品牌认知的品牌与营销团队。"
+    },
+    "platforms": [
+      "ChatGPT",
+      "Perplexity",
+      "Gemini"
+    ],
+    "pricing": "Free",
+    "sources": [
+      {
+        "label": {
+          "en": "HubSpot AI Search Grader scope and free diagnostic",
+          "zh": "HubSpot AI Search Grader 范围与免费诊断"
+        },
+        "url": "https://www.hubspot.com/ai-search-grader"
+      }
+    ],
+    "verifiedAt": "2026-10-18",
+    "status": "published",
+    "featuredOrder": 21,
+    "sponsored": false
+  },
+  {
+    "slug": "airops",
+    "name": "AirOps",
+    "category": "content-geo",
+    "website": "https://www.airops.com/",
+    "logo": null,
+    "description": {
+      "en": "Use AI search insights to plan, create and refresh brand content.",
+      "zh": "结合 AI 搜索洞察规划、生产和更新品牌内容。"
+    },
+    "tags": {
+      "en": [
+        "Content workflows",
+        "AI discovery",
+        "Brand governance"
+      ],
+      "zh": [
+        "内容工作流",
+        "AI 发现",
+        "品牌规范"
+      ]
+    },
+    "features": {
+      "en": [
+        "Combine brand knowledge, agents and review workflows to research, publish and refresh content.",
+        "Connect content production with competitor insights and AI search visibility; engine coverage depends on the plan."
+      ],
+      "zh": [
+        "结合品牌知识、Agent 和审核工作流，研究、发布并更新内容。",
+        "关联内容生产、竞品洞察与 AI 搜索曝光；平台覆盖取决于方案。"
+      ]
+    },
+    "audience": {
+      "en": "Content and growth teams managing repeatable content workflows for AI discovery.",
+      "zh": "需要为 AI 发现建立持续内容工作流的内容与增长团队。"
+    },
+    "platforms": [
+      "ChatGPT"
+    ],
+    "pricing": "Unknown",
+    "sources": [
+      {
+        "label": {
+          "en": "AirOps AI discovery and content workflows",
+          "zh": "AirOps AI 发现与内容工作流"
+        },
+        "url": "https://www.airops.com/"
+      },
+      {
+        "label": {
+          "en": "AirOps plans and task-based billing",
+          "zh": "AirOps 方案与按任务计费说明"
+        },
+        "url": "https://www.airops.com/pricing"
+      }
+    ],
+    "verifiedAt": "2026-10-18",
+    "status": "published",
+    "featuredOrder": 22,
+    "sponsored": false
+  },
+  {
+    "slug": "frase",
+    "name": "Frase",
+    "category": "content-geo",
+    "website": "https://www.frase.io/",
+    "logo": null,
+    "description": {
+      "en": "Research, write and optimize content while monitoring its visibility in AI search.",
+      "zh": "研究、撰写和优化内容，同时监测其在 AI 搜索中的曝光。"
+    },
+    "tags": {
+      "en": [
+        "Content optimization",
+        "GEO scoring",
+        "AI visibility"
+      ],
+      "zh": [
+        "内容优化",
+        "GEO 评分",
+        "AI 曝光"
+      ]
+    },
+    "features": {
+      "en": [
+        "Create content briefs and drafts, then use SEO and GEO scoring to identify coverage gaps.",
+        "Combine site audits and content updates with brand citation monitoring; AI engine coverage varies by plan."
+      ],
+      "zh": [
+        "制作内容简报与草稿，使用 SEO 和 GEO 评分识别信息覆盖缺口。",
+        "结合网站诊断、内容更新与品牌引用监测；AI 平台覆盖随方案变化。"
+      ]
+    },
+    "audience": {
+      "en": "Content teams and agencies managing research, optimization and AI visibility in one workflow.",
+      "zh": "希望在同一流程中完成研究、优化和 AI 曝光监测的内容团队与代理机构。"
+    },
+    "platforms": [
+      "ChatGPT",
+      "Perplexity",
+      "Claude",
+      "Gemini"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "Frase content and AI search features",
+          "zh": "Frase 内容与 AI 搜索功能"
+        },
+        "url": "https://www.frase.io/features"
+      },
+      {
+        "label": {
+          "en": "Frase pricing and plan limits",
+          "zh": "Frase 定价与方案限制"
+        },
+        "url": "https://www.frase.io/pricing"
+      }
+    ],
+    "verifiedAt": "2026-10-18",
+    "status": "published",
+    "featuredOrder": 23,
+    "sponsored": false
+  },
+  {
+    "slug": "cloudflare-ai-crawl-control",
+    "name": "Cloudflare AI Crawl Control",
+    "category": "ai-traffic",
+    "website": "https://www.cloudflare.com/ai-crawl-control/",
+    "logo": null,
+    "description": {
+      "en": "Analyze AI crawler requests and manage how AI services access your website.",
+      "zh": "分析 AI 爬虫请求，管理 AI 服务对网站的访问。"
+    },
+    "tags": {
+      "en": [
+        "AI crawlers",
+        "Request analytics",
+        "Access control"
+      ],
+      "zh": [
+        "AI 爬虫",
+        "请求分析",
+        "访问控制"
+      ]
+    },
+    "features": {
+      "en": [
+        "Inspect AI crawler activity and request patterns on domains using Cloudflare.",
+        "Manage crawler access and review robots.txt behavior; free-plan metrics cover the past 24 hours."
+      ],
+      "zh": [
+        "查看使用 Cloudflare 的域名上的 AI 爬虫活动与请求模式。",
+        "管理爬虫访问并检查 robots.txt 遵循情况；免费方案的指标覆盖过去 24 小时。"
+      ]
+    },
+    "audience": {
+      "en": "Website operators and publishers measuring AI crawler access to their content.",
+      "zh": "需要衡量 AI 爬虫内容访问情况的网站运营者与出版方。"
+    },
+    "platforms": [],
+    "pricing": "Freemium",
+    "sources": [
+      {
+        "label": {
+          "en": "Cloudflare AI Crawl Control overview",
+          "zh": "Cloudflare AI Crawl Control 概述"
+        },
+        "url": "https://developers.cloudflare.com/ai-crawl-control/"
+      },
+      {
+        "label": {
+          "en": "Cloudflare setup and free-plan limits",
+          "zh": "Cloudflare 配置与免费方案限制"
+        },
+        "url": "https://developers.cloudflare.com/ai-crawl-control/get-started/"
+      }
+    ],
+    "verifiedAt": "2026-10-18",
+    "status": "published",
+    "featuredOrder": 24,
+    "sponsored": false
+  },
+  {
+    "slug": "brightlocal-ai-visibility",
+    "name": "BrightLocal Local AI Visibility",
+    "category": "local-geo",
+    "website": "https://www.brightlocal.com/local-seo-tools/local-ai-visibility/",
+    "logo": null,
+    "description": {
+      "en": "Measure AI recommendations for each business location and compare local competitors.",
+      "zh": "衡量各门店获得 AI 推荐的情况，并与本地竞品比较。"
+    },
+    "tags": {
+      "en": [
+        "Location visibility",
+        "Local competitors",
+        "Citation gaps"
+      ],
+      "zh": [
+        "门店曝光",
+        "本地竞品",
+        "引用缺口"
+      ]
+    },
+    "features": {
+      "en": [
+        "Track location-level visibility and prompt results in ChatGPT, Google AI Mode and AI Overviews.",
+        "Compare local competitors and cited sources, then use citation-gap findings in the BrightLocal workflow."
+      ],
+      "zh": [
+        "跟踪门店在 ChatGPT、Google AI Mode 和 AI Overviews 中的曝光及提示词结果。",
+        "比较本地竞品与引用来源，将引用缺口分析用于 BrightLocal 工作流。"
+      ]
+    },
+    "audience": {
+      "en": "Local businesses, multi-location teams and agencies managing location-level AI search visibility.",
+      "zh": "需要管理门店级 AI 搜索曝光的本地企业、连锁团队与代理机构。"
+    },
+    "platforms": [
+      "ChatGPT",
+      "Google AI Mode",
+      "Google AI Overviews"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "BrightLocal Local AI Visibility features",
+          "zh": "BrightLocal 本地 AI 曝光功能"
+        },
+        "url": "https://www.brightlocal.com/local-seo-tools/local-ai-visibility/"
+      },
+      {
+        "label": {
+          "en": "BrightLocal pricing and included tools",
+          "zh": "BrightLocal 定价与包含工具"
+        },
+        "url": "https://www.brightlocal.com/pricing/"
+      }
+    ],
+    "verifiedAt": "2026-10-18",
+    "status": "published",
+    "featuredOrder": 25,
+    "sponsored": false
+  },
+  {
+    "slug": "bing-webmaster-ai-performance",
+    "name": "Bing Webmaster Tools AI Performance",
+    "category": "citations",
+    "website": "https://www.bing.com/webmasters/about",
+    "logo": null,
+    "description": {
+      "en": "See how your website pages are cited in Microsoft AI answers.",
+      "zh": "查看网站页面在微软 AI 回答中被引用的情况。"
+    },
+    "tags": {
+      "en": [
+        "Page citations",
+        "Grounding queries",
+        "Publisher analytics"
+      ],
+      "zh": [
+        "页面引用",
+        "检索查询",
+        "出版方分析"
+      ]
+    },
+    "features": {
+      "en": [
+        "Review citation counts, cited URLs and citation trends across Microsoft Copilot and AI-generated summaries in Bing.",
+        "Inspect sampled grounding queries used to retrieve cited content; citation counts do not measure answer position or referral visits."
+      ],
+      "zh": [
+        "查看 Microsoft Copilot 和 Bing AI 摘要中的引用次数、被引 URL 与引用趋势。",
+        "查看用于检索被引内容的查询样本；引用次数不衡量回答中的位置或引荐访问。"
+      ]
+    },
+    "audience": {
+      "en": "Website owners and publishers investigating citations of their own content in Microsoft AI experiences.",
+      "zh": "希望研究自身内容在微软 AI 产品中被引用情况的网站所有者与出版方。"
+    },
+    "platforms": [
+      "Microsoft Copilot",
+      "Bing"
+    ],
+    "pricing": "Free",
+    "sources": [
+      {
+        "label": {
+          "en": "Bing Webmaster Tools official product and free access",
+          "zh": "Bing Webmaster Tools 官方产品与免费使用"
+        },
+        "url": "https://www.bing.com/webmasters/about"
+      },
+      {
+        "label": {
+          "en": "Bing official AI Performance announcement and metrics",
+          "zh": "Bing 官方 AI Performance 公告与指标说明"
+        },
+        "url": "https://blogs.bing.com/webmaster/2026/2/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview/"
+      }
+    ],
+    "verifiedAt": "2026-10-18",
+    "status": "published",
+    "featuredOrder": 26,
     "sponsored": false
   }
 ]
