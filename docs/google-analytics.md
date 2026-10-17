@@ -18,12 +18,15 @@
 - 资源：`sc-domain:ggeo.ai`，覆盖整个域名。
 - [Search Console 入口](https://search.google.com/search-console?resource_id=sc-domain%3Aggeo.ai)。
 - 已在 Cloudflare 添加根域名 TXT：`google-site-verification=cEVXAcxbNv3ccBq7zQfVvWlsJuttR6rBywx4tQ-zqyM`，TTL Auto，Google 已确认所有权验证成功。保留该记录以维持验证，原 DNS 记录保留。
-- 已提交 `https://ggeo.ai/sitemap.xml`，Google 显示“已成功提交站点地图”。提交不代表已完成收录，搜索表现与索引数据需等待 Google 处理。
+- 已提交 `https://ggeo.ai/sitemap.xml`。列表最初短暂显示“无法抓取”，随后详情显示“已成功处理站点地图”，发现 60 个网页。成功处理不代表已完成收录，搜索表现与索引数据需等待 Google 处理。
+- 已将域名资源关联到 GA4 的 `ggeo.ai Web` 数据流，Google 显示“链接已创建”，关联日期为 2026-10-18。
 
 ## 验证
 
 - `npm run validate`、`npm run build`、`npm test` 检查数据、全部静态页面及 HTTP 行为。
 - 统计测试覆盖生产域名加载、本地与预览域名禁用、根目录跳转排除、单次配置及广告信号限制。
 - 英文首页与中文隐私页浏览器预览正常，本地页面没有 Google 统计请求。
+- 生产提交 `ab79543` 已经由 [GitHub Pages 工作流](https://github.com/helloqhq/ggeo/actions/runs/39064735800) 成功部署。
+- 线上 `/en/` 与 `/zh/` 均加载 `G-XTJ8ZHP8TT`，各页面只初始化一次；两种语言的 `page_view` POST 请求均获 `www.google-analytics.com/g/collect` 的 HTTP 204 响应。该响应确认 Google 已接收事件，正式报告仍需处理时间。
 
 Google 代码实现依据：[页面浏览衡量](https://developers.google.com/analytics/devguides/collection/ga4/views)、[隐私控制](https://developers.google.com/tag-platform/security/guides/privacy)。
