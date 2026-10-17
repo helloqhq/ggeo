@@ -4,6 +4,7 @@ import {readFile,readdir} from 'node:fs/promises';
 import {spawn} from 'node:child_process';
 import {resolve} from 'node:path';
 import {once} from 'node:events';
+import {runInNewContext} from 'node:vm';
 import {readData,validateData,root} from '../scripts/validate-data.mjs';
 import {createRenderer} from '../src/templates.mjs';
 const original=await readData(),clone=()=>structuredClone(original);
@@ -12,8 +13,29 @@ test('content validates with all eight canonical categories',()=>{
   assert.equal(validateData(original).tools,original.tools.filter(t=>t.status==='published').length);
   assert.equal(original.categories.length,8);
 });
+test('GA4 only loads on the production hostname and skips the root redirect',async()=>{
+  const source=await readFile(resolve(root,'src/analytics.mjs'),'utf8'),measurementId='G-TEST12345';
+  const run=(hostname,pathname,id=measurementId)=>{
+    const scripts=[],window={};
+    const document={querySelector:()=>({dataset:{googleAnalyticsId:id,siteHostname:'ggeo.ai'}}),createElement:()=>({}),head:{append:script=>scripts.push(script)}};
+    runInNewContext(source,{window,document,location:{hostname,pathname}});
+    return {scripts,window};
+  };
+  for(const [hostname,pathname,id] of [['127.0.0.1','/en/'],['localhost','/zh/'],['preview.example.com','/en/'],['ggeo.ai','/'],['ggeo.ai','/en/','']]){
+    const result=run(hostname,pathname,id);assert.equal(result.scripts.length,0);assert.equal(result.window.dataLayer,undefined);
+  }
+  for(const pathname of ['/en/','/zh/tools/peec-ai/','/en/search/']){
+    const {scripts,window}=run('ggeo.ai',pathname);
+    assert.equal(scripts.length,1);assert.equal(scripts[0].async,true);
+    assert.equal(scripts[0].src,`https://www.googletagmanager.com/gtag/js?id=${measurementId}`);
+    assert.equal(window.dataLayer[0][0],'consent');assert.equal(window.dataLayer[0][2].ad_user_data,'denied');
+    const config=Array.from(window.dataLayer[2]);
+    assert.equal(config[0],'config');assert.equal(config[1],measurementId);
+    assert.equal(config[2].allow_google_signals,false);assert.equal(config[2].allow_ad_personalization_signals,false);
+  }
+});
 test('rejects duplicate websites, missing translations, invalid references and dates',()=>{
-  for(const mutate of [d=>d.tools[1].website=d.tools[0].website,d=>delete d.tools[0].description.zh,d=>d.tools[0].category='unknown',d=>d.tools[0].sources=[],d=>d.tools[0].verifiedAt='2026-02-30',d=>d.tools[0].website='javascript:alert(1)',d=>d.site.affiliateLinks['not-a-tool']='https://example.com']){
+  for(const mutate of [d=>d.tools[1].website=d.tools[0].website,d=>delete d.tools[0].description.zh,d=>d.tools[0].category='unknown',d=>d.tools[0].sources=[],d=>d.tools[0].verifiedAt='2026-02-30',d=>d.tools[0].website='javascript:alert(1)',d=>d.site.affiliateLinks['not-a-tool']='https://example.com',d=>d.site.googleAnalyticsId='G-invalid"><script>']){
     const data=clone();mutate(data);assert.throws(()=>validateData(data));
   }
 });
@@ -41,6 +63,8 @@ test('every generated page has one H1, valid structured data, language metadata 
   const files=await htmlFiles();assert.equal(files.length,2*(1+original.categories.length+original.tools.filter(t=>t.status==='published').length+1+1+4)+2);
   for(const file of files){
     const html=await read(file);assert.equal((html.match(/<h1[ >]/g)||[]).length,1,file);
+    assert.equal((html.match(/src="\/assets\/analytics\.mjs"/g)||[]).length,original.site.googleAnalyticsId?1:0,file);
+    if(original.site.googleAnalyticsId)assert.ok(html.includes(`data-google-analytics-id="${original.site.googleAnalyticsId}"`),file);
     if(file.startsWith('en/')||file.startsWith('zh/')){
       assert.ok(html.includes(`lang="${file.startsWith('en/')?'en':'zh-CN'}"`),file);
       for(const tag of ['canonical','hreflang="en"','hreflang="zh-CN"','hreflang="x-default"'])assert.ok(html.includes(tag),file+': '+tag);

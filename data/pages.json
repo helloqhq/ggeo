@@ -15,8 +15,8 @@
           "zh": "浏览网站"
         },
         "body": {
-          "en": "The current site does not use analytics, advertising scripts, tracking cookies, accounts, or a backend database. Your hosting provider may process standard request logs such as IP address, request time and user agent to serve and protect the site.",
-          "zh": "当前网站没有接入分析服务、广告脚本、跟踪 Cookie、账号或后端数据库。托管服务商可能为提供及保护网站而处理 IP 地址、请求时间、浏览器信息等标准访问日志。"
+          "en": "We use Google Analytics 4 to understand page views, traffic sources, scrolling, outbound tool clicks, site searches and file downloads. Google Analytics uses cookies and processes data such as page URLs, search terms, referring sites, browser and device information, and approximate location. Google signals and advertising personalization are disabled in our tag configuration. We do not send submission form contents to Google Analytics. The site has no accounts or backend database. Our hosting provider may process standard request logs to serve and protect the site.",
+          "zh": "我们使用 Google Analytics 4 了解页面浏览、流量来源、滚动、工具外链点击、站内搜索及文件下载情况。Google Analytics 使用 Cookie，处理页面网址、搜索词、来源网站、浏览器与设备信息及大致地理位置等数据。统计代码已关闭 Google 信号和广告个性化。我们不会将推荐表单内容发送至 Google Analytics。网站没有账号或后端数据库；托管服务商可能为提供及保护网站而处理标准访问日志。"
         }
       },
       {
@@ -35,8 +35,8 @@
           "zh": "外部网站与隐私请求"
         },
         "body": {
-          "en": "External links lead to independent websites with their own policies. To request access to or deletion of information you emailed us, contact helloqhq123@gmail.com. If analytics or ads are added in the future, this policy and any required consent controls must be updated before activation.",
-          "zh": "外部链接指向独立网站，其隐私规则各自适用。如需查询或删除你通过邮件提供的资料，请联系 helloqhq123@gmail.com。未来启用分析或广告前，应更新本政策并按需要增加同意管理。"
+          "en": "External links lead to independent websites with their own policies. Google's Privacy Policy explains how Google processes Analytics data. You can manage cookies in your browser or use Google's Google Analytics Opt-out Browser Add-on. To request access to or deletion of information you emailed us, contact helloqhq123@gmail.com.",
+          "zh": "外部链接指向独立网站，其隐私规则各自适用。Google 的隐私政策说明其如何处理 Analytics 数据。你可以通过浏览器管理 Cookie，或使用 Google Analytics 停用浏览器插件。如需查询或删除你通过邮件提供的资料，请联系 helloqhq123@gmail.com。"
         }
       }
     ]

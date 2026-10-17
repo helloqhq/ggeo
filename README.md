@@ -30,6 +30,7 @@ data/                    JSON 内容与运营配置
 src/templates.mjs        首页、分类、详情、搜索及辅助页模板
 src/components.mjs       服务端与搜索共享的卡片、图标及转义函数
 src/app.mjs              浏览器搜索、分类状态、邮件草稿与 JSON 下载
+src/analytics.mjs        生产域名的 Google Analytics 4 加载
 src/styles.css           深色视觉、响应式、焦点与减少动态效果适配
 scripts/                 数据校验、静态构建、本地开发/预览服务器
 tests/                   内容约束、静态内链、SEO 与 HTTP 行为检查
@@ -58,7 +59,15 @@ skill 附有字段约定与运营配置格式。它作为项目内可移植交�
 
 提交表单校验必填项、URL、描述长度和已公开官网重复情况，并有蜜罐字段。提交按钮在访客的邮件客户端准备草稿，收件人为 `helloqhq123@gmail.com`，访客需要自行发送。另可下载待审 JSON 后邮件发送。页面不会声称已收到邮件，也不自动发布工具；浏览器校验不替代人工审核或服务端反垃圾。
 
-广告、联盟链接和友情链接默认关闭或为空。编辑 `data/site.json` 配置后构建生效；联盟链接在详情页自动披露并附 sponsored 属性，赞助卡片显示明确标签。启用商业关系前，需同步更新法务说明中“初版未启用”的表述。当前不接入分析、Cookie 或第三方广告脚本。
+广告、联盟链接和友情链接默认关闭或为空。编辑 `data/site.json` 配置后构建生效；联盟链接在详情页自动披露并附 sponsored 属性，赞助卡片显示明确标签。启用商业关系前，需同步更新法务说明中“初版未启用”的表述。
+
+## Google Analytics 与 Search Console
+
+`data/site.json` 的 `googleAnalyticsId` 配置本站 GA4 衡量 ID，当前为 `G-XTJ8ZHP8TT`。共用模板会为所有中英页面加载统计模块，仅当浏览器主机名等于 `site.url` 的生产主机名时才加载 Google 代码；本地预览、其他预览域名和根目录跳转不计入统计。清空或移除此字段可关闭代码加载。
+
+GA4 数据流 `ggeo.ai Web` 收集页面浏览、滚动、出站点击、站内搜索及文件下载；已关闭自动表单与视频互动事件。代码关闭 Google 信号和广告个性化，隐私政策已同步说明 Cookie 和数据用途。搜索词及来源网址可能进入统计，请勿在搜索框中输入敏感资料。
+
+Search Console 使用 `sc-domain:ggeo.ai` 域名资源，通过 Cloudflare 根域名 TXT 记录验证所有权。验证依赖 DNS，无需在页面重复添加验证标签；请保留该 TXT 记录。站点地图为 `https://ggeo.ai/sitemap.xml`。Google 管理端配置与上线检查见 [Google 统计配置记录](docs/google-analytics.md)。
 
 ## 静态部署
 

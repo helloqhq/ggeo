@@ -21,6 +21,7 @@ export function validateData(data) {
   url(site.url,'site.url');if(site.url.endsWith('/'))fail('site.url: omit trailing slash');
   if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(site.contactEmail))fail('site.contactEmail: invalid email');
   date(site.updatedAt,'site.updatedAt');
+  if(site.googleAnalyticsId&&!/^G-[A-Z0-9]+$/.test(site.googleAnalyticsId))fail('site.googleAnalyticsId: expected GA4 measurement ID');
   const expected=['ai-visibility','citations','prompts','competitors','geo-audit','content-geo','ai-traffic','local-geo'];
   if(categories.map(c=>c.slug).join()!==expected.join())fail('categories: preserve the eight canonical slugs and order');
   for(const c of categories){for(const field of ['name','description','guide'])localized(c[field],`category ${c.slug}.${field}`);if(!['chart','link','message','users','shield','document','activity','pin'].includes(c.icon))fail(`category ${c.slug}: unsupported icon`);}

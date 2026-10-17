@@ -35,6 +35,8 @@
 
 ## 运营配置格式
 
+`googleAnalyticsId` 是可选 GA4 衡量 ID（`G-` 加大写字母与数字），空值或缺省时不加载统计代码。更换 ID 或启停分析服务时同步检查 `pages.json` 的隐私说明。Search Console 域名验证使用 DNS TXT，不属于工具资料。
+
 `affiliateLinks` 是以工具 slug 为 key、联盟 URL 为 value 的对象。没有联盟关系时保持 `{}`，普通官网链接取工具的 `website`。
 
 `ads` 默认为 `[]`。单个版位格式（以下仅示例结构，不可直接发布虚构内容）：
