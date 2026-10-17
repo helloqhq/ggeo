@@ -62,10 +62,12 @@ skill 附有字段约定与运营配置格式。它作为项目内可移植交�
 
 ## 静态部署
 
+生产仓库为 [helloqhq/ggeo](https://github.com/helloqhq/ggeo)，站点域名为 [ggeo.ai](https://ggeo.ai/)。`.github/workflows/pages.yml` 会在每次推送到 `main` 后依次执行数据校验、静态构建与测试，并将 `dist/` 发布到 GitHub Pages；也可从 Actions 手动运行。Pages 设置使用 GitHub Actions 来源，并绑定 `ggeo.ai`；`public/CNAME` 和 `.nojekyll` 会复制至静态产物。DNS 配置及上线核验见 [部署记录](docs/deployment.md)。
+
 将 `dist/` 作为静态站点根目录发布，使用目录索引路由，支持 `/en/tools/peec-ai/` 这类地址。默认生产域名配置为 `https://ggeo.ai`；改域名时修改 `data/site.json` 的 `url` 后重新构建 canonical、hreflang、sitemap 和 robots。
 
 - Cloudflare Pages / Netlify：构建命令 `npm run build`，发布目录 `dist`；随构建附带 `_redirects` 和 `_headers`。使用平台默认静态 404 行为，不设置 SPA 全路径回退。
 - Nginx：`index index.html;`，配置 `location / { try_files $uri $uri/ =404; }` 及 `error_page 404 /404.html;`，根路径可 301 到 `/en/`。
 - 其他平台：为未知地址返回 `404.html` 与 HTTP 404；不能把所有地址重写为首页并返回 200。
 
-本地服务器已验证真正的 HTTP 404、根路径跳转、目录尾斜杠跳转与模块 MIME 类型；最终部署平台的状态码和规则需在上线后复查。本次未发布到域名。
+本地服务器已验证真正的 HTTP 404、根路径跳转、目录尾斜杠跳转与模块 MIME 类型；最终部署平台的状态码和规则需在上线后复查。生产环境已发布至 GitHub Pages，自定义域名与 HTTPS 状态以部署记录为准。
