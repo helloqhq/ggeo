@@ -29,6 +29,6 @@
 - 统计测试覆盖同意前阻断、生产域名同意后加载、本地与预览域名禁用、根目录跳转排除、单次配置、广告信号限制及撤回停用。偏好测试覆盖拒绝、自定义、关闭不保存、180 天到期、跨页记忆、跨标签页撤回及存储不可用。
 - 英文首页与中文隐私页浏览器预览正常，本地页面没有 Google 统计请求。
 - Cookie 设置功能加入前，生产提交 `ab79543` 已经由 [GitHub Pages 工作流](https://github.com/helloqhq/ggeo/actions/runs/39064735800) 成功部署。该版本的中英 `page_view` 请求曾获 HTTP 204 响应，确认当时 Google 已接收事件。
-- Cookie 设置功能目前仅完成源码、构建及本地验证；上述历史线上结果不能证明新版已部署或同意控制已在线生效。
+- Cookie 设置功能已于 2026-10-18 随提交 `5784487` 发布，[GitHub Pages 工作流](https://github.com/helloqhq/ggeo/actions/runs/39071398652) 成功。线上已验证同意前零 Google 请求、接受后加载一次 GA4、跨语言共享及撤回后刷新并清理 GA Cookie。详见 [Cookie 偏好功能](cookie-preferences.md) 和 [部署记录](deployment.md)。
 
 Google 代码实现依据：[页面浏览衡量](https://developers.google.com/analytics/devguides/collection/ga4/views)、[隐私控制](https://developers.google.com/tag-platform/security/guides/privacy)。

@@ -34,6 +34,15 @@
 
 ## 后续发布
 
+### Cookie 偏好功能（2026-10-18）
+
+- 功能源码提交：`5784487`；[发布工作流](https://github.com/helloqhq/ggeo/actions/runs/39071398652) 已 completed / success，build 和 deploy 均成功。本地与 CI 的数据校验、构建和 13 项测试全部通过。
+- 已核对线上中英首页、两种语言隐私政策、`analytics.mjs`、`cookie-consent.mjs` 和 `styles.css`，均与本地构建逐字节一致。
+- 全新浏览器访问中文首页：横幅可用，无 Google 标签或统计请求。接受全部后初始化一次 GA4，产生 Google 标签和统计请求及 `_ga` Cookie；转到英文页面后保留同意。
+- 英文页脚重新打开 Cookie 设置并选择仅必要：页面刷新，GA 停用标志开启，无 Google 标签、统计请求或可访问的 GA Cookie；转回中文后仍保持拒绝。未发现浏览器脚本错误。
+
+### 发布流程
+
 修改 JSON 或源码后提交并推送 `main`。工作流检查不通过时不会部署新站；修复数据或代码后再推送。查看 Actions 成功状态和站点实际内容，不能仅以 git push 成功判定已上线。
 
 GitHub Pages 不读取 Cloudflare Pages/Netlify 的 `_redirects` 与 `_headers`。当前依靠静态目录索引、根页英文跳转、页面自身 noindex 元数据和 GitHub 原生 404；未知路由不能配置 SPA 首页回退。

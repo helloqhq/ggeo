@@ -22,6 +22,8 @@
 
 浏览器已检查英文首页、中文首页与中文隐私页，验证初始选项、关闭不保存、自定义保存、拒绝、跨语言记忆、页脚重开及 390px 移动端布局；本地没有 Google 统计请求或浏览器脚本错误。生产域名启用与撤回通过隔离的代码测试验证，没有向线上站点发送测试访问事件。英文设置面板的自动无障碍检查没有报告违规，颜色对比仍结合截图人工检查。
 
-当前未发布至线上。构建生成 84 个 HTML 页面；正文、canonical、hreflang 与结构化数据保持静态可读取。
+2026-10-18 已发布至线上，源码提交 `5784487`，[GitHub Pages 工作流](https://github.com/helloqhq/ggeo/actions/runs/39071398652) 的构建与部署均成功。构建生成 84 个 HTML 页面；正文、canonical、hreflang 与结构化数据保持静态可读取。
+
+线上中英首页、隐私页及三个 Cookie 相关资源与本地构建逐字节一致。全新浏览器会话首次访问没有 Google 请求；接受全部后仅初始化一次 GA4，并观察到 Google 标签及统计请求和 `_ga` Cookie。切换至英文仍保留同意。通过页脚选择仅必要后页面刷新，GA 停用标志为 true、Google 标签和请求均为零、可访问的 GA Cookie 已清空；再切回中文仍保持拒绝。线上检查未发现浏览器脚本错误。
 
 实现依据：[Google 同意模式](https://developers.google.com/tag-platform/security/concepts/consent-mode)、[GA 停用标志](https://developers.google.com/tag-platform/security/guides/privacy)、[Google 搜索弹窗指南](https://developers.google.com/search/docs/appearance/avoid-intrusive-interstitials)。180 天是已确认的产品期限，不代表法律强制期限。
