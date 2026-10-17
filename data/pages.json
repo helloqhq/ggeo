@@ -15,8 +15,18 @@
           "zh": "浏览网站"
         },
         "body": {
-          "en": "We use Google Analytics 4 to understand page views, traffic sources, scrolling, outbound tool clicks, site searches and file downloads. Google Analytics uses cookies and processes data such as page URLs, search terms, referring sites, browser and device information, and approximate location. Google signals and advertising personalization are disabled in our tag configuration. We do not send submission form contents to Google Analytics. The site has no accounts or backend database. Our hosting provider may process standard request logs to serve and protect the site.",
-          "zh": "我们使用 Google Analytics 4 了解页面浏览、流量来源、滚动、工具外链点击、站内搜索及文件下载情况。Google Analytics 使用 Cookie，处理页面网址、搜索词、来源网站、浏览器与设备信息及大致地理位置等数据。统计代码已关闭 Google 信号和广告个性化。我们不会将推荐表单内容发送至 Google Analytics。网站没有账号或后端数据库；托管服务商可能为提供及保护网站而处理标准访问日志。"
+          "en": "Only after you allow visit analytics, we load Google Analytics 4 to understand page views, traffic sources, scrolling, outbound tool clicks, site searches and file downloads. Google Analytics uses cookies and processes data such as page URLs, search terms, referring sites, browser and device information, and approximate location. Google signals and advertising personalization are disabled in our tag configuration. We do not send submission form contents to Google Analytics. The site has no accounts or backend database. Our hosting provider may process standard request logs to serve and protect the site.",
+          "zh": "仅在你同意访问分析后，我们才加载 Google Analytics 4 了解页面浏览、流量来源、滚动、工具外链点击、站内搜索及文件下载情况。Google Analytics 使用 Cookie，处理页面网址、搜索词、来源网站、浏览器与设备信息及大致地理位置等数据。统计代码已关闭 Google 信号和广告个性化。我们不会将推荐表单内容发送至 Google Analytics。网站没有账号或后端数据库；托管服务商可能为提供及保护网站而处理标准访问日志。"
+        }
+      },
+      {
+        "title": {
+          "en": "Cookie preferences",
+          "zh": "Cookie 偏好"
+        },
+        "body": {
+          "en": "You can accept all, choose necessary only, or customize visit analytics in our Cookie banner. Before a choice, or when analytics is declined, we do not load Google Analytics or send analytics requests to Google. Necessary local storage saves your choice for 180 days under ggeo-cookie-preferences, shared across English and Chinese pages in the same browser and site origin. If storage is unavailable, your choice applies only to the current page. You can reopen Cookie settings in the footer anytime. Withdrawing analytics permission disables collection, clears accessible first-party Google Analytics cookies and refreshes the page; it does not erase data already sent to Google. Advertising tracking is not enabled.",
+          "zh": "你可以在 Cookie 横幅中接受全部、选择仅必要，或自定义访问分析。在你作出选择前，以及拒绝分析时，我们不会加载 Google Analytics 或向 Google 发送统计请求。必要的本地存储通过 ggeo-cookie-preferences 保存选择 180 天，在同一浏览器、同一网站来源的中英页面共用；存储不可用时，选择仅对当前页面有效。你可随时通过页脚重新打开 Cookie 设置。撤回分析授权后，我们会停止收集、清理可访问的第一方 Google Analytics Cookie 并刷新页面；这不会删除已发送至 Google 的数据。本站未启用广告追踪。"
         }
       },
       {

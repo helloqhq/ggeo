@@ -9,7 +9,7 @@ export async function build() {
   const out=resolve(root,'dist'),stage=resolve(root,'.dist-building');
   await rm(stage,{recursive:true,force:true});await mkdir(resolve(stage,'assets'),{recursive:true});
   await cp(resolve(root,'public'),stage,{recursive:true});
-  for(const name of ['styles.css','app.mjs','components.mjs','analytics.mjs'])await cp(resolve(root,'src',name),resolve(stage,'assets',name));
+  for(const name of ['styles.css','app.mjs','components.mjs','analytics.mjs','cookie-consent.mjs'])await cp(resolve(root,'src',name),resolve(stage,'assets',name));
   await writeFile(resolve(stage,'assets/directory.json'),JSON.stringify({site:{contactEmail:data.site.contactEmail},tools:published,categories:data.categories,ui:data.ui}));
   let count=0;const urls=[];
   const emit=async(path,html,index=true)=>{const target=resolve(stage,path,'index.html');await mkdir(resolve(stage,path),{recursive:true});await writeFile(target,html);count++;if(index)urls.push('/'+path+'/');};

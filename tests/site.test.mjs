@@ -13,26 +13,36 @@ test('content validates with all eight canonical categories',()=>{
   assert.equal(validateData(original).tools,original.tools.filter(t=>t.status==='published').length);
   assert.equal(original.categories.length,8);
 });
-test('GA4 only loads on the production hostname and skips the root redirect',async()=>{
-  const source=await readFile(resolve(root,'src/analytics.mjs'),'utf8'),measurementId='G-TEST12345';
-  const run=(hostname,pathname,id=measurementId)=>{
-    const scripts=[],window={};
+test('GA4 waits for consent and only loads once on production content pages',async()=>{
+  const source=(await readFile(resolve(root,'src/analytics.mjs'),'utf8')).replace(/^import .*;\n/m,''),measurementId='G-TEST12345';
+  const run=(hostname,pathname,initial=false,id=measurementId)=>{
+    const scripts=[],window={};let change,reloads=0,cleans=0;
     const document={querySelector:()=>({dataset:{googleAnalyticsId:id,siteHostname:'ggeo.ai'}}),createElement:()=>({}),head:{append:script=>scripts.push(script)}};
-    runInNewContext(source,{window,document,location:{hostname,pathname}});
-    return {scripts,window};
+    runInNewContext(source,{window,document,location:{hostname,pathname,reload:()=>reloads++},initCookieConsent:callback=>{change=callback;callback(initial);},clearAnalyticsCookies:()=>cleans++});
+    return {scripts,window,change,get reloads(){return reloads;},get cleans(){return cleans;}};
   };
   for(const [hostname,pathname,id] of [['127.0.0.1','/en/'],['localhost','/zh/'],['preview.example.com','/en/'],['ggeo.ai','/'],['ggeo.ai','/en/','']]){
-    const result=run(hostname,pathname,id);assert.equal(result.scripts.length,0);assert.equal(result.window.dataLayer,undefined);
+    const result=run(hostname,pathname,true,id);assert.equal(result.scripts.length,0);assert.equal(result.window.dataLayer,undefined);
   }
   for(const pathname of ['/en/','/zh/tools/peec-ai/','/en/search/']){
-    const {scripts,window}=run('ggeo.ai',pathname);
+    const result=run('ggeo.ai',pathname),{scripts,window}=result;
+    assert.equal(scripts.length,0);assert.equal(window.dataLayer,undefined);
+    assert.equal(window[`ga-disable-${measurementId}`],true);assert.equal(result.cleans,1);
+    result.change(false);assert.equal(scripts.length,0);assert.equal(result.reloads,0);
+    result.change(true);result.change(true);
     assert.equal(scripts.length,1);assert.equal(scripts[0].async,true);
     assert.equal(scripts[0].src,`https://www.googletagmanager.com/gtag/js?id=${measurementId}`);
-    assert.equal(window.dataLayer[0][0],'consent');assert.equal(window.dataLayer[0][2].ad_user_data,'denied');
-    const config=Array.from(window.dataLayer[2]);
+    assert.equal(window.dataLayer[0][0],'consent');assert.equal(window.dataLayer[0][2].analytics_storage,'denied');
+    for(const field of ['ad_storage','ad_user_data','ad_personalization'])assert.equal(window.dataLayer[0][2][field],'denied');
+    assert.equal(window.dataLayer[1][1],'update');assert.equal(window.dataLayer[1][2].analytics_storage,'granted');
+    const config=Array.from(window.dataLayer[3]);
     assert.equal(config[0],'config');assert.equal(config[1],measurementId);
     assert.equal(config[2].allow_google_signals,false);assert.equal(config[2].allow_ad_personalization_signals,false);
+    result.change(false);assert.equal(window[`ga-disable-${measurementId}`],true);
+    assert.equal(result.reloads,1);assert.equal(scripts.length,1);
+    assert.equal(window.dataLayer.length,4,'withdrawal does not queue cookieless pings');
   }
+  assert.equal(run('ggeo.ai','/zh/',true).scripts.length,1,'remembered consent loads analytics');
 });
 test('rejects duplicate websites, missing translations, invalid references and dates',()=>{
   for(const mutate of [d=>d.tools[1].website=d.tools[0].website,d=>delete d.tools[0].description.zh,d=>d.tools[0].category='unknown',d=>d.tools[0].sources=[],d=>d.tools[0].verifiedAt='2026-02-30',d=>d.tools[0].website='javascript:alert(1)',d=>d.site.affiliateLinks['not-a-tool']='https://example.com',d=>d.site.googleAnalyticsId='G-invalid"><script>']){
@@ -63,7 +73,9 @@ test('every generated page has one H1, valid structured data, language metadata 
   const files=await htmlFiles();assert.equal(files.length,2*(1+original.categories.length+original.tools.filter(t=>t.status==='published').length+1+1+4)+2);
   for(const file of files){
     const html=await read(file);assert.equal((html.match(/<h1[ >]/g)||[]).length,1,file);
-    assert.equal((html.match(/src="\/assets\/analytics\.mjs"/g)||[]).length,original.site.googleAnalyticsId?1:0,file);
+    assert.equal((html.match(/src="\/assets\/analytics\.mjs"/g)||[]).length,1,file);
+    for(const id of ['cookie-banner','cookie-dialog','cookie-settings','cookie-analytics'])assert.ok(html.includes(`id="${id}"`),file);
+    assert.ok(!/id="cookie-analytics"[^>]*checked/.test(html),file);
     if(original.site.googleAnalyticsId)assert.ok(html.includes(`data-google-analytics-id="${original.site.googleAnalyticsId}"`),file);
     if(file.startsWith('en/')||file.startsWith('zh/')){
       assert.ok(html.includes(`lang="${file.startsWith('en/')?'en':'zh-CN'}"`),file);
