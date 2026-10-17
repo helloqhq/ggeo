@@ -1,0 +1,1025 @@
+[
+  {
+    "slug": "peec-ai",
+    "name": "Peec AI",
+    "category": "ai-visibility",
+    "website": "https://peec.ai/",
+    "logo": null,
+    "description": {
+      "en": "Track brand visibility, position and sentiment across AI search engines.",
+      "zh": "监测品牌在 AI 搜索中的曝光、位置与情绪倾向。"
+    },
+    "tags": {
+      "en": [
+        "Brand monitoring",
+        "Sentiment",
+        "Reporting"
+      ],
+      "zh": [
+        "品牌监控",
+        "情绪分析",
+        "报告"
+      ]
+    },
+    "features": {
+      "en": [
+        "Organize prompts and monitor how your brand appears in AI answers.",
+        "Compare competitors and investigate cited sources."
+      ],
+      "zh": [
+        "整理提示词，持续监测品牌在 AI 回答中的表现。",
+        "比较竞品并调查被引用的信息来源。"
+      ]
+    },
+    "audience": {
+      "en": "Marketing teams building an ongoing AI search reporting workflow.",
+      "zh": "需要持续跟踪 AI 搜索表现的营销团队。"
+    },
+    "platforms": [
+      "ChatGPT",
+      "Perplexity",
+      "Google AI Mode",
+      "Google AI Overviews",
+      "Gemini",
+      "Microsoft Copilot"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "Official product information",
+          "zh": "官方产品资料"
+        },
+        "url": "https://peec.ai/"
+      },
+      {
+        "label": {
+          "en": "Official documentation / plans",
+          "zh": "官方文档 / 方案"
+        },
+        "url": "https://peec.ai/pricing"
+      }
+    ],
+    "verifiedAt": "2026-10-18",
+    "status": "published",
+    "featuredOrder": 1,
+    "sponsored": false
+  },
+  {
+    "slug": "profound",
+    "name": "Profound",
+    "category": "ai-visibility",
+    "website": "https://www.tryprofound.com/",
+    "logo": null,
+    "description": {
+      "en": "Analyze brand mentions, sentiment and discoverability across AI search.",
+      "zh": "分析品牌在 AI 搜索中的提及、情绪与可发现性。"
+    },
+    "tags": {
+      "en": [
+        "Brand visibility",
+        "AI analytics",
+        "Content"
+      ],
+      "zh": [
+        "品牌曝光",
+        "AI 分析",
+        "内容"
+      ]
+    },
+    "features": {
+      "en": [
+        "Monitor AI brand mentions and compare your visibility with competitors.",
+        "Connect answer insights with AI traffic, crawler analytics and content workflows."
+      ],
+      "zh": [
+        "监测 AI 品牌提及，并与竞品曝光进行比较。",
+        "将回答洞察与 AI 流量、爬虫分析和内容工作流结合。"
+      ]
+    },
+    "audience": {
+      "en": "Brand and marketing teams evaluating AI search at enterprise scale.",
+      "zh": "评估企业级 AI 搜索表现的品牌与营销团队。"
+    },
+    "platforms": [
+      "ChatGPT",
+      "Perplexity",
+      "Google AI Mode",
+      "Gemini",
+      "Claude"
+    ],
+    "pricing": "Contact Sales",
+    "sources": [
+      {
+        "label": {
+          "en": "Official product information",
+          "zh": "官方产品资料"
+        },
+        "url": "https://www.tryprofound.com/features"
+      },
+      {
+        "label": {
+          "en": "Official documentation / plans",
+          "zh": "官方文档 / 方案"
+        },
+        "url": "https://www.tryprofound.com/pricing"
+      }
+    ],
+    "verifiedAt": "2026-10-18",
+    "status": "published",
+    "featuredOrder": 2,
+    "sponsored": false
+  },
+  {
+    "slug": "otterly-ai",
+    "name": "OtterlyAI",
+    "category": "citations",
+    "website": "https://otterly.ai/",
+    "logo": null,
+    "description": {
+      "en": "Monitor brand mentions and the source links cited in AI search answers.",
+      "zh": "监测 AI 搜索回答中的品牌提及与引用链接。"
+    },
+    "tags": {
+      "en": [
+        "Citations",
+        "Brand mentions",
+        "GEO audits"
+      ],
+      "zh": [
+        "引用追踪",
+        "品牌提及",
+        "GEO 诊断"
+      ]
+    },
+    "features": {
+      "en": [
+        "Track mentions and cited source links for your monitored prompts.",
+        "Explore prompt research, competitive visibility and GEO audit recommendations."
+      ],
+      "zh": [
+        "跟踪监测提示词下的品牌提及与引用来源链接。",
+        "研究提示词、竞品曝光与 GEO 诊断建议。"
+      ]
+    },
+    "audience": {
+      "en": "SEO specialists and agencies tracking how brands are cited in AI answers.",
+      "zh": "需要追踪品牌引用情况的 SEO 从业者与代理机构。"
+    },
+    "platforms": [
+      "ChatGPT",
+      "Google AI Overviews",
+      "Perplexity",
+      "Microsoft Copilot"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "Official product information",
+          "zh": "官方产品资料"
+        },
+        "url": "https://otterly.ai/features/"
+      },
+      {
+        "label": {
+          "en": "Official documentation / plans",
+          "zh": "官方文档 / 方案"
+        },
+        "url": "https://help.otterly.ai/pricing-of-otterlyai"
+      }
+    ],
+    "verifiedAt": "2026-10-18",
+    "status": "published",
+    "featuredOrder": 3,
+    "sponsored": false
+  },
+  {
+    "slug": "athenahq",
+    "name": "AthenaHQ",
+    "category": "citations",
+    "website": "https://athenahq.ai/",
+    "logo": null,
+    "description": {
+      "en": "Explore the citations and sources shaping your brand’s AI search presence.",
+      "zh": "探索影响品牌 AI 搜索表现的引用与信息来源。"
+    },
+    "tags": {
+      "en": [
+        "Source analysis",
+        "Citations",
+        "Competitors"
+      ],
+      "zh": [
+        "来源分析",
+        "引用追踪",
+        "竞品"
+      ]
+    },
+    "features": {
+      "en": [
+        "Measure brand visibility, mentions, citations and sentiment in AI search.",
+        "Investigate sources and competitors to inform content and optimization actions."
+      ],
+      "zh": [
+        "测量 AI 搜索中的品牌曝光、提及、引用与情绪。",
+        "研究来源与竞品，为内容和优化行动提供参考。"
+      ]
+    },
+    "audience": {
+      "en": "Marketing teams connecting citation analysis with content decisions.",
+      "zh": "希望将引用分析用于内容决策的营销团队。"
+    },
+    "platforms": [
+      "ChatGPT",
+      "Perplexity",
+      "Gemini",
+      "Claude",
+      "Google AI Overviews"
+    ],
+    "pricing": "Unknown",
+    "sources": [
+      {
+        "label": {
+          "en": "Official product information",
+          "zh": "官方产品资料"
+        },
+        "url": "https://athenahq.ai/platform/"
+      },
+      {
+        "label": {
+          "en": "Official documentation / plans",
+          "zh": "官方文档 / 方案"
+        },
+        "url": "https://athenahq.ai/plans"
+      }
+    ],
+    "verifiedAt": "2026-10-18",
+    "status": "published",
+    "featuredOrder": 4,
+    "sponsored": false
+  },
+  {
+    "slug": "promptmonitor",
+    "name": "Promptmonitor",
+    "category": "prompts",
+    "website": "https://promptmonitor.io/",
+    "logo": null,
+    "description": {
+      "en": "Follow your prompts to find brand mentions and gaps in AI visibility.",
+      "zh": "围绕提示词追踪品牌提及与 AI 曝光缺口。"
+    },
+    "tags": {
+      "en": [
+        "Prompt tracking",
+        "Citations",
+        "AI crawlers"
+      ],
+      "zh": [
+        "提示词监控",
+        "引用",
+        "AI 爬虫"
+      ]
+    },
+    "features": {
+      "en": [
+        "Monitor how brands appear in AI-generated answers across supported engines.",
+        "Review competitor insights, citations, website analytics and AI crawler activity."
+      ],
+      "zh": [
+        "监控品牌在支持平台的 AI 回答中的表现。",
+        "查看竞品洞察、引用、网站分析及 AI 爬虫活动。"
+      ]
+    },
+    "audience": {
+      "en": "Teams maintaining a repeatable set of business-relevant prompts.",
+      "zh": "需要持续监测业务相关提示词的团队。"
+    },
+    "platforms": [
+      "ChatGPT",
+      "Claude",
+      "Gemini",
+      "Perplexity",
+      "Google AI Overviews"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "Official product information",
+          "zh": "官方产品资料"
+        },
+        "url": "https://promptmonitor.io/"
+      },
+      {
+        "label": {
+          "en": "Official documentation / plans",
+          "zh": "官方文档 / 方案"
+        },
+        "url": "https://promptmonitor.io/pricing"
+      }
+    ],
+    "verifiedAt": "2026-10-18",
+    "status": "published",
+    "featuredOrder": 5,
+    "sponsored": false
+  },
+  {
+    "slug": "ziptie",
+    "name": "ZipTie",
+    "category": "prompts",
+    "website": "https://ziptie.ai/",
+    "logo": null,
+    "description": {
+      "en": "Track brand mentions and citations across the prompts you care about.",
+      "zh": "围绕关心的提示词，追踪品牌提及与引用。"
+    },
+    "tags": {
+      "en": [
+        "Prompt monitoring",
+        "AI answers",
+        "Sources"
+      ],
+      "zh": [
+        "提示词监控",
+        "AI 回答",
+        "信息来源"
+      ]
+    },
+    "features": {
+      "en": [
+        "Monitor whether AI answers mention or cite your brand.",
+        "Analyze answer sources and connect published changes with later AI citations."
+      ],
+      "zh": [
+        "监测 AI 回答是否提及或引用你的品牌。",
+        "分析回答来源，并对照内容变更后的引用情况。"
+      ]
+    },
+    "audience": {
+      "en": "SEO and content teams studying visibility changes over time.",
+      "zh": "研究曝光变化的 SEO 与内容团队。"
+    },
+    "platforms": [
+      "ChatGPT",
+      "Google AI Overviews",
+      "Perplexity",
+      "Google AI Mode",
+      "Microsoft Copilot"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "Official product information",
+          "zh": "官方产品资料"
+        },
+        "url": "https://ziptie.ai/product/"
+      },
+      {
+        "label": {
+          "en": "Official documentation / plans",
+          "zh": "官方文档 / 方案"
+        },
+        "url": "https://ziptie.ai/pricing/"
+      }
+    ],
+    "verifiedAt": "2026-10-18",
+    "status": "published",
+    "featuredOrder": 6,
+    "sponsored": false
+  },
+  {
+    "slug": "rankscale",
+    "name": "Rankscale",
+    "category": "competitors",
+    "website": "https://rankscale.ai/",
+    "logo": null,
+    "description": {
+      "en": "Compare brand mentions, citations and sentiment across AI search engines.",
+      "zh": "比较不同 AI 搜索平台上的品牌提及、引用与情绪。"
+    },
+    "tags": {
+      "en": [
+        "Competitors",
+        "Share of voice",
+        "Source analysis"
+      ],
+      "zh": [
+        "竞品",
+        "声量份额",
+        "来源分析"
+      ]
+    },
+    "features": {
+      "en": [
+        "Track brand mentions, rankings, citations and sentiment across AI engines.",
+        "Investigate competitors and sources alongside prompt research and page audits."
+      ],
+      "zh": [
+        "跟踪各 AI 平台的品牌提及、排名、引用与情绪。",
+        "结合提示词研究和页面诊断，分析竞品及引用来源。"
+      ]
+    },
+    "audience": {
+      "en": "Marketers and agencies comparing brands across a defined prompt set.",
+      "zh": "需要在指定提示词范围比较品牌表现的营销人员与代理机构。"
+    },
+    "platforms": [
+      "ChatGPT",
+      "Perplexity",
+      "Gemini",
+      "Claude",
+      "Google AI Mode"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "Official product information",
+          "zh": "官方产品资料"
+        },
+        "url": "https://rankscale.ai/"
+      },
+      {
+        "label": {
+          "en": "Official documentation / plans",
+          "zh": "官方文档 / 方案"
+        },
+        "url": "https://rankscale.ai/pricing"
+      }
+    ],
+    "verifiedAt": "2026-10-18",
+    "status": "published",
+    "featuredOrder": 7,
+    "sponsored": false
+  },
+  {
+    "slug": "llmrefs",
+    "name": "LLMrefs",
+    "category": "competitors",
+    "website": "https://llmrefs.com/",
+    "logo": null,
+    "description": {
+      "en": "Benchmark competitors and discover which sources appear in AI answers.",
+      "zh": "对比竞品表现，发现 AI 回答中的引用来源。"
+    },
+    "tags": {
+      "en": [
+        "Benchmarking",
+        "Keywords",
+        "Citations"
+      ],
+      "zh": [
+        "竞品对比",
+        "关键词",
+        "引用"
+      ]
+    },
+    "features": {
+      "en": [
+        "Track keyword-based brand visibility and generate related prompts.",
+        "Compare share of voice and position metrics, and analyze cited sources."
+      ],
+      "zh": [
+        "围绕关键词追踪品牌曝光，并生成相关提示词。",
+        "比较声量份额与位置指标，分析引用来源。"
+      ]
+    },
+    "audience": {
+      "en": "SEO teams that want a keyword-led approach to AI search comparisons.",
+      "zh": "希望用关键词组织 AI 搜索对比的 SEO 团队。"
+    },
+    "platforms": [
+      "ChatGPT",
+      "Google AI Overviews",
+      "Google AI Mode",
+      "Gemini",
+      "Perplexity",
+      "Claude"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "Official product information",
+          "zh": "官方产品资料"
+        },
+        "url": "https://llmrefs.com/"
+      }
+    ],
+    "verifiedAt": "2026-10-18",
+    "status": "published",
+    "featuredOrder": 8,
+    "sponsored": false
+  },
+  {
+    "slug": "scrunch",
+    "name": "Scrunch",
+    "category": "geo-audit",
+    "website": "https://scrunch.com/",
+    "logo": null,
+    "description": {
+      "en": "Identify website barriers that affect AI discovery and interpretation.",
+      "zh": "发现影响 AI 发现与理解网站的内容和技术障碍。"
+    },
+    "tags": {
+      "en": [
+        "Site audits",
+        "AI readiness",
+        "Agent experience"
+      ],
+      "zh": [
+        "网站诊断",
+        "AI 就绪",
+        "Agent 体验"
+      ]
+    },
+    "features": {
+      "en": [
+        "Evaluate how website pages are optimized for AI visibility with Site Audit.",
+        "Use page-level findings to identify technical and content optimization opportunities."
+      ],
+      "zh": [
+        "使用 Site Audit 评估页面针对 AI 曝光的优化情况。",
+        "通过页面级发现定位技术与内容优化机会。"
+      ]
+    },
+    "audience": {
+      "en": "Website and marketing teams investigating AI discovery issues.",
+      "zh": "需要调查 AI 发现问题的网站与营销团队。"
+    },
+    "platforms": [],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "Official product information",
+          "zh": "官方产品资料"
+        },
+        "url": "https://helpcenter.scrunchai.com/en/articles/11833527-understanding-the-site-audit-tool-in-scrunch"
+      },
+      {
+        "label": {
+          "en": "Official documentation / plans",
+          "zh": "官方文档 / 方案"
+        },
+        "url": "https://scrunch.com/faqs/what-is-the-pricing-for-scrunch-plans"
+      }
+    ],
+    "verifiedAt": "2026-10-18",
+    "status": "published",
+    "featuredOrder": 9,
+    "sponsored": false
+  },
+  {
+    "slug": "geoptie",
+    "name": "Geoptie",
+    "category": "geo-audit",
+    "website": "https://geoptie.com/",
+    "logo": null,
+    "description": {
+      "en": "Audit your site’s AI search readiness and find areas to improve.",
+      "zh": "诊断网站的 AI 搜索就绪情况并发现改进方向。"
+    },
+    "tags": {
+      "en": [
+        "GEO audits",
+        "Content checks",
+        "AI readiness"
+      ],
+      "zh": [
+        "GEO 诊断",
+        "内容检查",
+        "AI 就绪"
+      ]
+    },
+    "features": {
+      "en": [
+        "Run GEO audits covering content structure, citation signals and technical optimization.",
+        "Explore content checks and AI visibility monitoring as part of its GEO toolkit."
+      ],
+      "zh": [
+        "围绕内容结构、引用信号及技术优化运行 GEO 诊断。",
+        "使用 GEO 工具集中的内容检查与 AI 曝光监控能力。"
+      ]
+    },
+    "audience": {
+      "en": "Website owners looking for an initial GEO diagnostic workflow.",
+      "zh": "希望开展初步 GEO 诊断的网站所有者。"
+    },
+    "platforms": [
+      "ChatGPT",
+      "Claude",
+      "Perplexity",
+      "Gemini"
+    ],
+    "pricing": "Unknown",
+    "sources": [
+      {
+        "label": {
+          "en": "Official product information",
+          "zh": "官方产品资料"
+        },
+        "url": "https://geoptie.com/"
+      }
+    ],
+    "verifiedAt": "2026-10-18",
+    "status": "published",
+    "featuredOrder": 10,
+    "sponsored": false
+  },
+  {
+    "slug": "writesonic",
+    "name": "Writesonic",
+    "category": "content-geo",
+    "website": "https://writesonic.com/",
+    "logo": null,
+    "description": {
+      "en": "Improve content structure and coverage for AI-generated search answers.",
+      "zh": "改进内容结构与信息覆盖，使其更适用于 AI 搜索回答。"
+    },
+    "tags": {
+      "en": [
+        "Content optimization",
+        "GEO",
+        "Content gaps"
+      ],
+      "zh": [
+        "内容优化",
+        "GEO",
+        "内容缺口"
+      ]
+    },
+    "features": {
+      "en": [
+        "Identify content gaps and optimization opportunities using its GEO workflow.",
+        "Improve content for AI comprehension and citation with editorial review."
+      ],
+      "zh": [
+        "通过 GEO 工作流识别内容缺口与优化机会。",
+        "在编辑审核基础上，改进内容以便 AI 理解与引用。"
+      ]
+    },
+    "audience": {
+      "en": "Content and marketing teams adapting their editorial workflow to AI search.",
+      "zh": "希望让编辑流程适应 AI 搜索的内容与营销团队。"
+    },
+    "platforms": [
+      "ChatGPT",
+      "Claude",
+      "Gemini",
+      "Perplexity"
+    ],
+    "pricing": "Unknown",
+    "sources": [
+      {
+        "label": {
+          "en": "Official product information",
+          "zh": "官方产品资料"
+        },
+        "url": "https://docs.writesonic.com/docs/content-optimization"
+      },
+      {
+        "label": {
+          "en": "Official documentation / plans",
+          "zh": "官方文档 / 方案"
+        },
+        "url": "https://docs.writesonic.com/docs/geo-getting-started"
+      }
+    ],
+    "verifiedAt": "2026-10-18",
+    "status": "published",
+    "featuredOrder": 11,
+    "sponsored": false
+  },
+  {
+    "slug": "surfer",
+    "name": "Surfer",
+    "category": "content-geo",
+    "website": "https://surferseo.com/",
+    "logo": null,
+    "description": {
+      "en": "Optimize content coverage and follow brand visibility in AI search.",
+      "zh": "优化内容信息覆盖，并追踪品牌在 AI 搜索中的曝光。"
+    },
+    "tags": {
+      "en": [
+        "Content editor",
+        "AI visibility",
+        "Content coverage"
+      ],
+      "zh": [
+        "内容编辑",
+        "AI 曝光",
+        "信息覆盖"
+      ]
+    },
+    "features": {
+      "en": [
+        "Use the Content Editor to improve outlines, topical coverage and internal links.",
+        "Pair content optimization with AI Tracker to inspect brand mentions and citations."
+      ],
+      "zh": [
+        "使用内容编辑器改善提纲、主题覆盖与内部链接。",
+        "结合 AI Tracker 查看品牌提及与引用情况。"
+      ]
+    },
+    "audience": {
+      "en": "Editors and SEO teams that combine content optimization with AI monitoring.",
+      "zh": "需要结合内容优化和 AI 监控的编辑与 SEO 团队。"
+    },
+    "platforms": [
+      "ChatGPT",
+      "Gemini",
+      "Perplexity"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "Official product information",
+          "zh": "官方产品资料"
+        },
+        "url": "https://docs.surferseo.com/en/articles/7859434-what-is-surfer"
+      },
+      {
+        "label": {
+          "en": "Official documentation / plans",
+          "zh": "官方文档 / 方案"
+        },
+        "url": "https://docs.surferseo.com/en/articles/11667466-ai-tracker"
+      },
+      {
+        "label": {
+          "en": "Official documentation / plans",
+          "zh": "官方文档 / 方案"
+        },
+        "url": "https://docs.surferseo.com/en/articles/7545943-pricing-faq"
+      }
+    ],
+    "verifiedAt": "2026-10-18",
+    "status": "published",
+    "featuredOrder": 12,
+    "sponsored": false
+  },
+  {
+    "slug": "plausible",
+    "name": "Plausible Analytics",
+    "category": "ai-traffic",
+    "website": "https://plausible.io/",
+    "logo": null,
+    "description": {
+      "en": "Measure website visits referred by ChatGPT and other AI assistants.",
+      "zh": "统计由 ChatGPT 等 AI 助手带来的网站访问。"
+    },
+    "tags": {
+      "en": [
+        "AI referrals",
+        "Web analytics",
+        "Attribution"
+      ],
+      "zh": [
+        "AI 来源",
+        "网站分析",
+        "归因"
+      ]
+    },
+    "features": {
+      "en": [
+        "Group traffic from known AI assistants using referral-source reporting.",
+        "Compare referred visits with other acquisition channels in a privacy-focused analytics workflow."
+      ],
+      "zh": [
+        "通过来源报告汇总已识别的 AI 助手流量。",
+        "在注重隐私的分析流程中比较 AI 来源访问与其他获客渠道。"
+      ]
+    },
+    "audience": {
+      "en": "Website owners measuring AI referral visits rather than brand mentions.",
+      "zh": "希望衡量 AI 实际引荐访问的网站所有者。"
+    },
+    "platforms": [
+      "ChatGPT",
+      "Claude",
+      "Perplexity",
+      "Gemini",
+      "Microsoft Copilot"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "Official product information",
+          "zh": "官方产品资料"
+        },
+        "url": "https://plausible.io/docs/top-referrers"
+      },
+      {
+        "label": {
+          "en": "Official documentation / plans",
+          "zh": "官方文档 / 方案"
+        },
+        "url": "https://plausible.io/docs/subscription-plans"
+      }
+    ],
+    "verifiedAt": "2026-10-18",
+    "status": "published",
+    "featuredOrder": 13,
+    "sponsored": false
+  },
+  {
+    "slug": "ahrefs-web-analytics",
+    "name": "Ahrefs Web Analytics",
+    "category": "ai-traffic",
+    "website": "https://ahrefs.com/web-analytics",
+    "logo": null,
+    "description": {
+      "en": "See which AI chatbots send visitors to your verified website.",
+      "zh": "查看哪些 AI 聊天工具为已验证的网站带来访问。"
+    },
+    "tags": {
+      "en": [
+        "AI traffic",
+        "Referrers",
+        "Web analytics"
+      ],
+      "zh": [
+        "AI 流量",
+        "访问来源",
+        "网站分析"
+      ]
+    },
+    "features": {
+      "en": [
+        "Monitor visits referred by AI chatbots such as ChatGPT, Perplexity and Gemini.",
+        "View aggregated traffic trends in a cookie-free website analytics product."
+      ],
+      "zh": [
+        "监测 ChatGPT、Perplexity 和 Gemini 等 AI 工具带来的访问。",
+        "通过无 Cookie 的网站分析产品查看汇总流量趋势。"
+      ]
+    },
+    "audience": {
+      "en": "Owners of verified websites who want a free starting point for AI traffic measurement.",
+      "zh": "希望从免费 AI 流量统计开始的已验证网站所有者。"
+    },
+    "platforms": [
+      "ChatGPT",
+      "Perplexity",
+      "Gemini"
+    ],
+    "pricing": "Free",
+    "sources": [
+      {
+        "label": {
+          "en": "Official product information",
+          "zh": "官方产品资料"
+        },
+        "url": "https://ahrefs.com/web-analytics"
+      },
+      {
+        "label": {
+          "en": "Official documentation / plans",
+          "zh": "官方文档 / 方案"
+        },
+        "url": "https://help.ahrefs.com/en/articles/10247870-about-ahrefs-web-analytics"
+      }
+    ],
+    "verifiedAt": "2026-10-18",
+    "status": "published",
+    "featuredOrder": 14,
+    "sponsored": false
+  },
+  {
+    "slug": "local-falcon",
+    "name": "Local Falcon",
+    "category": "local-geo",
+    "website": "https://www.localfalcon.com/",
+    "logo": null,
+    "description": {
+      "en": "Track location-level visibility in AI answers alongside local map rankings.",
+      "zh": "跟踪门店在 AI 回答中的曝光，并对照本地地图排名。"
+    },
+    "tags": {
+      "en": [
+        "Local visibility",
+        "Location tracking",
+        "Competitors"
+      ],
+      "zh": [
+        "本地曝光",
+        "门店追踪",
+        "竞品"
+      ]
+    },
+    "features": {
+      "en": [
+        "Measure local business visibility across supported AI search platforms.",
+        "Compare AI visibility with traditional map rankings and local competitors."
+      ],
+      "zh": [
+        "衡量本地企业在支持的 AI 搜索平台中的曝光。",
+        "对照传统地图排名与本地竞品表现。"
+      ]
+    },
+    "audience": {
+      "en": "Local businesses, multi-location brands and local SEO agencies.",
+      "zh": "本地企业、连锁品牌及本地 SEO 代理机构。"
+    },
+    "platforms": [
+      "ChatGPT",
+      "Gemini",
+      "Grok",
+      "Google AI Overviews",
+      "Google AI Mode"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "Official product information",
+          "zh": "官方产品资料"
+        },
+        "url": "https://www.localfalcon.com/"
+      },
+      {
+        "label": {
+          "en": "Official documentation / plans",
+          "zh": "官方文档 / 方案"
+        },
+        "url": "https://docs.localfalcon.com/guides/platforms"
+      },
+      {
+        "label": {
+          "en": "Official documentation / plans",
+          "zh": "官方文档 / 方案"
+        },
+        "url": "https://www.localfalcon.com/pricing"
+      }
+    ],
+    "verifiedAt": "2026-10-18",
+    "status": "published",
+    "featuredOrder": 15,
+    "sponsored": false
+  },
+  {
+    "slug": "yext-scout",
+    "name": "Yext Scout",
+    "category": "local-geo",
+    "website": "https://www.yext.com/platform/scout",
+    "logo": null,
+    "description": {
+      "en": "Understand how your locations appear in AI and traditional search.",
+      "zh": "了解各门店在 AI 搜索与传统搜索中的表现。"
+    },
+    "tags": {
+      "en": [
+        "Local AI search",
+        "Benchmarking",
+        "Brand sentiment"
+      ],
+      "zh": [
+        "本地 AI 搜索",
+        "竞品对比",
+        "品牌情绪"
+      ]
+    },
+    "features": {
+      "en": [
+        "Analyze brand discoverability and local competitor performance in AI and Google search.",
+        "Explore brand sentiment and recommendations to improve visibility."
+      ],
+      "zh": [
+        "分析品牌在 AI 和 Google 搜索中的可发现性及本地竞品表现。",
+        "查看品牌情绪与曝光改进建议。"
+      ]
+    },
+    "audience": {
+      "en": "Location-based brands comparing local discovery across search channels.",
+      "zh": "需要跨搜索渠道对比本地发现表现的门店品牌。"
+    },
+    "platforms": [],
+    "pricing": "Unknown",
+    "sources": [
+      {
+        "label": {
+          "en": "Official product information",
+          "zh": "官方产品资料"
+        },
+        "url": "https://www.yext.com/platform/scout"
+      },
+      {
+        "label": {
+          "en": "Official documentation / plans",
+          "zh": "官方文档 / 方案"
+        },
+        "url": "https://help.yext.com/hc/en-us/articles/37152756031643-What-is-Scout"
+      }
+    ],
+    "verifiedAt": "2026-10-18",
+    "status": "published",
+    "featuredOrder": 16,
+    "sponsored": false
+  }
+]

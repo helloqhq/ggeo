@@ -1,0 +1,322 @@
+{
+  "allTools": {
+    "en": "All tools",
+    "zh": "全部工具"
+  },
+  "submit": {
+    "en": "Submit a tool",
+    "zh": "提交工具"
+  },
+  "search": {
+    "en": "Search",
+    "zh": "搜索"
+  },
+  "searchPlaceholder": {
+    "en": "Search GEO tools, features, or categories…",
+    "zh": "搜索 GEO 工具、功能或分类…"
+  },
+  "searchLabel": {
+    "en": "Search the directory",
+    "zh": "搜索工具目录"
+  },
+  "searchHint": {
+    "en": "Find your next tool for AI visibility, citations, and GEO.",
+    "zh": "发现适合你的 AI 曝光监控、引用追踪与 GEO 工具。"
+  },
+  "heroTitle": {
+    "en": "Best <span>GEO Tools</span> Directory",
+    "zh": "发现值得关注的 <span>GEO 工具</span>"
+  },
+  "heroDescription": {
+    "en": "Discover and compare AI search visibility tools.",
+    "zh": "发现和比较 AI 搜索曝光工具。"
+  },
+  "eyebrow": {
+    "en": "THE DIRECTORY FOR AI SEARCH",
+    "zh": "面向 AI 搜索的工具目录"
+  },
+  "browse": {
+    "en": "Browse by category",
+    "zh": "按分类发现工具"
+  },
+  "browseHint": {
+    "en": "A focused collection. A clearer starting point.",
+    "zh": "专注 GEO，帮你找到清晰的起点。"
+  },
+  "viewAll": {
+    "en": "View all",
+    "zh": "查看全部"
+  },
+  "details": {
+    "en": "View details",
+    "zh": "查看详情"
+  },
+  "privacy-policy": {
+    "en": "Privacy Policy",
+    "zh": "隐私政策"
+  },
+  "disclaimer": {
+    "en": "Disclaimer",
+    "zh": "免责声明"
+  },
+  "contact": {
+    "en": "Contact Us",
+    "zh": "联系我们"
+  },
+  "partner-links": {
+    "en": "Partner Links",
+    "zh": "友情链接"
+  },
+  "brandDescription": {
+    "en": "Discover the best GEO tools.",
+    "zh": "发现优质 GEO 工具。"
+  },
+  "rights": {
+    "en": "All rights reserved.",
+    "zh": "保留所有权利。"
+  },
+  "editorial": {
+    "en": "Independently curated. Sources included.",
+    "zh": "独立编辑整理 · 信息来源可查"
+  },
+  "directory": {
+    "en": "Directory",
+    "zh": "工具目录"
+  },
+  "tools": {
+    "en": "tools",
+    "zh": "个工具"
+  },
+  "category": {
+    "en": "Category",
+    "zh": "分类"
+  },
+  "back": {
+    "en": "Back to all tools",
+    "zh": "返回全部工具"
+  },
+  "visit": {
+    "en": "Visit website",
+    "zh": "访问官网"
+  },
+  "pricing": {
+    "en": "Pricing model",
+    "zh": "价格模式"
+  },
+  "platforms": {
+    "en": "Platforms & scope",
+    "zh": "平台与适用范围"
+  },
+  "overview": {
+    "en": "What it does",
+    "zh": "功能概述"
+  },
+  "audience": {
+    "en": "Who it is for",
+    "zh": "适用人群"
+  },
+  "sources": {
+    "en": "Sources & verification",
+    "zh": "来源与核验"
+  },
+  "verified": {
+    "en": "Last checked",
+    "zh": "最近核验"
+  },
+  "sourceNote": {
+    "en": "Checked against official product information. This is a source review, not a hands-on test. Features and plans may change.",
+    "zh": "依据官方产品资料核验，未进行实际使用测试。功能与方案可能变化。"
+  },
+  "pricingNote": {
+    "en": "Check the vendor for current plans and limits. A free trial is not a free plan.",
+    "zh": "最新方案和限制请以官网为准。免费试用不等于永久免费。"
+  },
+  "unknownPlatforms": {
+    "en": "See the official product documentation for current coverage.",
+    "zh": "当前支持范围请查看官方产品文档。"
+  },
+  "alternatives": {
+    "en": "Explore related tools",
+    "zh": "发现相关工具"
+  },
+  "categoryGuide": {
+    "en": "How to choose",
+    "zh": "选型建议"
+  },
+  "searchResults": {
+    "en": "Search results",
+    "zh": "搜索结果"
+  },
+  "resultsFor": {
+    "en": "Results for",
+    "zh": "搜索词"
+  },
+  "noResults": {
+    "en": "No tools found",
+    "zh": "没有找到匹配工具"
+  },
+  "noResultsHint": {
+    "en": "Try a product name, a feature like citations, or browse a category.",
+    "zh": "试试产品名称、“引用”等功能词，或按分类浏览。"
+  },
+  "emptySearch": {
+    "en": "What are you looking for?",
+    "zh": "你在寻找什么工具？"
+  },
+  "emptySearchHint": {
+    "en": "Enter a tool name, feature, or category to get started.",
+    "zh": "输入工具名、功能或分类开始搜索。"
+  },
+  "sponsored": {
+    "en": "Sponsored",
+    "zh": "赞助"
+  },
+  "advertisement": {
+    "en": "Advertisement",
+    "zh": "广告"
+  },
+  "affiliate": {
+    "en": "This is an affiliate link. We may earn a commission if you sign up or purchase, at no extra cost to you.",
+    "zh": "此链接为联盟链接。如果你注册或购买，我们可能获得佣金，你无需额外支付费用。"
+  },
+  "submitTitle": {
+    "en": "Know a tool we should include?",
+    "zh": "有值得收录的 GEO 工具？"
+  },
+  "submitIntro": {
+    "en": "Help make the directory more useful. Tell us about a tool built for AI search.",
+    "zh": "推荐与 AI 搜索相关的工具，帮助我们完善目录。"
+  },
+  "submitNote": {
+    "en": "Your email app will open with a draft. You must send the email yourself. Every submission is reviewed before publication.",
+    "zh": "提交后会打开邮件客户端草稿，请自行发送邮件。所有推荐均经审核后发布。"
+  },
+  "nameLabel": {
+    "en": "Tool name",
+    "zh": "工具名称"
+  },
+  "urlLabel": {
+    "en": "Official website",
+    "zh": "官网地址"
+  },
+  "descriptionLabel": {
+    "en": "Short description",
+    "zh": "简短介绍"
+  },
+  "emailLabel": {
+    "en": "Your email (optional)",
+    "zh": "你的邮箱（选填）"
+  },
+  "prepareEmail": {
+    "en": "Prepare submission email",
+    "zh": "生成提交邮件"
+  },
+  "download": {
+    "en": "Download submission instead",
+    "zh": "下载推荐资料"
+  },
+  "noEmail": {
+    "en": "No email app? Download the JSON and email it to",
+    "zh": "没有邮件客户端？下载 JSON 后发送至"
+  },
+  "reviewTitle": {
+    "en": "Thoughtful curation, not automatic listings.",
+    "zh": "认真整理，审核后收录。"
+  },
+  "reviewText": {
+    "en": "We check relevance, official sources, and duplicate listings. Submitting a tool does not guarantee inclusion or priority placement.",
+    "zh": "我们会核验相关性、官方资料与重复收录情况。提交不保证收录或优先展示。"
+  },
+  "duplicate": {
+    "en": "This website is already in the directory. Explore the existing listing or contact us with an update.",
+    "zh": "该网站已被收录。请查看现有条目，或通过邮件提供更新。"
+  },
+  "prepared": {
+    "en": "Email draft requested. Send it in your email app to complete your submission. If it did not open, download the JSON below.",
+    "zh": "已请求打开邮件草稿，请在邮件客户端发送以完成推荐。如未打开，可下载下方 JSON。"
+  },
+  "downloaded": {
+    "en": "Submission downloaded. Email the file to our contact address for review.",
+    "zh": "推荐资料已下载，请将文件发送至联系邮箱以供审核。"
+  },
+  "invalidUrl": {
+    "en": "Enter a valid public http:// or https:// website address.",
+    "zh": "请输入有效的公开 http:// 或 https:// 官网地址。"
+  },
+  "notFound": {
+    "en": "This page is off the map.",
+    "zh": "这个页面暂时找不到。"
+  },
+  "notFoundText": {
+    "en": "The link may have changed. Let’s find your way back to the directory.",
+    "zh": "链接可能已变更，返回目录继续发现工具。"
+  },
+  "contactTitle": {
+    "en": "Let’s keep the directory useful.",
+    "zh": "一起完善这个工具目录。"
+  },
+  "contactIntro": {
+    "en": "Found outdated information, have a question, or want to discuss a partnership? Email us.",
+    "zh": "发现资料过时、有疑问，或希望洽谈合作？欢迎通过邮件联系。"
+  },
+  "emailUs": {
+    "en": "Email us",
+    "zh": "发送邮件"
+  },
+  "contactSubmit": {
+    "en": "Recommending a tool? Use the submission form so we have the details to review.",
+    "zh": "推荐新工具？请使用提交表单提供待审核资料。"
+  },
+  "partnersEmpty": {
+    "en": "Good connections take time.",
+    "zh": "我们正在寻找有价值的连接。"
+  },
+  "partnersIntro": {
+    "en": "We curate relevant resources for the GEO community. No partner links are published yet. For editorial partnerships, get in touch.",
+    "zh": "我们会筛选与 GEO 社群相关的优质资源。目前暂无公开友情链接，内容合作请通过邮件联系。"
+  },
+  "independent": {
+    "en": "Selected for relevance, not ratings.",
+    "zh": "按相关性整理，不设虚构评分。"
+  },
+  "home": {
+    "en": "Home",
+    "zh": "首页"
+  },
+  "skip": {
+    "en": "Skip to content",
+    "zh": "跳至正文"
+  },
+  "selectCategory": {
+    "en": "Choose a category",
+    "zh": "请选择分类"
+  },
+  "required": {
+    "en": "Required fields",
+    "zh": "必填项"
+  },
+  "mailPrivacy": {
+    "en": "This form does not upload or store your data. Email is handled by your email provider.",
+    "zh": "此表单不会上传或存储资料；邮件由你的邮件服务商处理。"
+  },
+  "priceFree": {
+    "en": "Free",
+    "zh": "免费"
+  },
+  "priceFreemium": {
+    "en": "Freemium",
+    "zh": "免费及付费"
+  },
+  "pricePaid": {
+    "en": "Paid",
+    "zh": "付费"
+  },
+  "priceContact Sales": {
+    "en": "Contact Sales",
+    "zh": "联系销售"
+  },
+  "priceUnknown": {
+    "en": "Unknown",
+    "zh": "暂未核实"
+  }
+}

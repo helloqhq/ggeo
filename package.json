@@ -1,0 +1,15 @@
+{
+  "name": "ggeo-ai",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A bilingual, statically generated GEO tools directory.",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "validate": "node scripts/validate-data.mjs",
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/serve.mjs --dev",
+    "preview": "node scripts/serve.mjs",
+    "test": "node --test tests/*.test.mjs"
+  }
+}

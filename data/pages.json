@@ -1,0 +1,76 @@
+{
+  "privacy-policy": {
+    "title": {
+      "en": "Privacy Policy",
+      "zh": "隐私政策"
+    },
+    "intro": {
+      "en": "A simple directory, with a straightforward approach to privacy.",
+      "zh": "我们以清晰的方式说明目录如何处理数据。"
+    },
+    "sections": [
+      {
+        "title": {
+          "en": "Browsing this site",
+          "zh": "浏览网站"
+        },
+        "body": {
+          "en": "The current site does not use analytics, advertising scripts, tracking cookies, accounts, or a backend database. Your hosting provider may process standard request logs such as IP address, request time and user agent to serve and protect the site.",
+          "zh": "当前网站没有接入分析服务、广告脚本、跟踪 Cookie、账号或后端数据库。托管服务商可能为提供及保护网站而处理 IP 地址、请求时间、浏览器信息等标准访问日志。"
+        }
+      },
+      {
+        "title": {
+          "en": "Search and tool submissions",
+          "zh": "搜索与工具推荐"
+        },
+        "body": {
+          "en": "Search runs in your browser. Query text is included in the page URL and may appear in browser history or hosting logs. Submission data stays in the form until you choose to open an email draft or download a file. Email is sent only through your email app and is handled by your email provider and Gmail. If you send us an email, we use its contents to review your request and respond. Do not include sensitive information.",
+          "zh": "搜索在浏览器内执行。查询词会出现在页面 URL 中，可能保留在浏览历史或托管日志内。推荐资料保留在表单中，直到你选择打开邮件草稿或下载文件。邮件由你通过邮件客户端发送，并由你的邮件服务商及 Gmail 处理。收到邮件后，我们会使用其中资料审核请求及回复。请勿提交敏感信息。"
+        }
+      },
+      {
+        "title": {
+          "en": "External websites and requests",
+          "zh": "外部网站与隐私请求"
+        },
+        "body": {
+          "en": "External links lead to independent websites with their own policies. To request access to or deletion of information you emailed us, contact helloqhq123@gmail.com. If analytics or ads are added in the future, this policy and any required consent controls must be updated before activation.",
+          "zh": "外部链接指向独立网站，其隐私规则各自适用。如需查询或删除你通过邮件提供的资料，请联系 helloqhq123@gmail.com。未来启用分析或广告前，应更新本政策并按需要增加同意管理。"
+        }
+      }
+    ]
+  },
+  "disclaimer": {
+    "title": {
+      "en": "Disclaimer",
+      "zh": "免责声明"
+    },
+    "intro": {
+      "en": "Useful information starts with clear expectations.",
+      "zh": "清晰说明信息来源与使用边界。"
+    },
+    "sections": [
+      {
+        "title": {
+          "en": "Product information",
+          "zh": "产品资料"
+        },
+        "body": {
+          "en": "We summarize official product information and link to our sources. Unless explicitly stated, listings are not hands-on reviews. Features, supported platforms and pricing can change. Confirm important details directly with the vendor before purchasing. We do not guarantee AI rankings, traffic or business results.",
+          "zh": "我们根据官方产品资料整理介绍并提供来源链接。除非明确说明，条目不代表实际使用评测。功能、支持平台与价格可能变化，购买前请向厂商确认关键细节。我们不保证 AI 排名、访问量或商业结果。"
+        }
+      },
+      {
+        "title": {
+          "en": "Editorial and commercial relationships",
+          "zh": "编辑与商业关系"
+        },
+        "body": {
+          "en": "ggeo.ai is an independent directory. Inclusion is not an endorsement or an official partnership. Sponsored placements are labeled. If an affiliate link is configured, the relevant tool page discloses that we may earn a commission. The initial directory has no active affiliate links or paid placements. Product names and trademarks belong to their respective owners; letter tiles are neutral placeholders, not vendor logos.",
+          "zh": "ggeo.ai 是独立目录，收录不表示官方合作或背书。赞助展示会明确标注；配置联盟链接时，相应详情页会披露佣金关系。首批目录未启用联盟链接或付费展示。产品名称与商标归各自所有者；字母图块为中性占位，非厂商 Logo。"
+        }
+      }
+    ]
+  }
+}
