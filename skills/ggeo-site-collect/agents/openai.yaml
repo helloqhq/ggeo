@@ -1,0 +1,4 @@
+interface:
+  display_name: "GEO 站点搜集与收录"
+  short_description: "全网发现并核验合规 GEO 工具，按本站 JSON 约定完成双语导航收录"
+  default_prompt: "使用 $ggeo-site-collect 全网搜集与 ggeo.ai 主题契合的合法合规 GEO 工具，查重并核验官方资料，按本站 JSON 约定添加到中英导航目录，完成验证并汇报暂缓原因。"

@@ -36,6 +36,7 @@ scripts/                 数据校验、静态构建、本地开发/预览服务
 tests/                   内容约束、静态内链、SEO 与 HTTP 行为检查
 public/                  favicon、静态托管配置、可选图片
 skills/ggeo-data-update/  可复用的数据更新 skill
+skills/ggeo-site-collect/ 全网发现、筛选与双语收录新 GEO 工具的 skill
 docs/                    PRD、原型、决策与验收记录
 ```
 
@@ -51,7 +52,13 @@ docs/                    PRD、原型、决策与验收记录
 
 > 使用 `skills/ggeo-data-update/SKILL.md` 审核这份工具推荐 JSON；先核验来源与重复官网，将待我决定的工具保留为 draft。
 
-skill 附有字段约定与运营配置格式。它作为项目内可移植交付物保存在 `skills/`，尚未复制到个人全局技能目录。需要在其他项目中自动发现时，将整个 `ggeo-data-update` 文件夹安装到所用 agent 的 skills 目录。
+发现并收录新工具时：
+
+> 使用 `skills/ggeo-site-collect/SKILL.md`，全网搜集并添加最多 10 个与本站主题契合、通过相关性与合法合规风险筛选的 GEO 工具，完成官网查重、官方来源核验、中英 JSON 录入及验证，报告暂缓原因。
+
+仅研究时可明确要求“只搜集候选，不修改目录”。搜集 skill 默认将合格新工具写入 `data/tools.json`，不批量添加友情链接；核验不足的站点留在搜集记录。每轮记录保存在 `docs/research/`，以日期命名。
+
+两个 skill 作为项目内可移植交付物保存在 `skills/`，尚未复制到个人全局技能目录；根目录 `AGENTS.md` 会引导本项目的相应任务。搜集 skill 复用数据更新 skill 的字段约定，需要保留二者的同级目录结构。
 
 公开工具记录必须完成双语、有真实官方来源和核验日。`draft` 与 `hidden` 不生成工具页面、卡片、搜索记录或 sitemap 项；删除已发布 slug 会使原 URL 返回 404，确需迁移时应增加托管平台的 301 规则。
 
