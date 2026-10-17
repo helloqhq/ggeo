@@ -7,5 +7,22 @@
   "googleAnalyticsId": "G-XTJ8ZHP8TT",
   "affiliateLinks": {},
   "ads": [],
-  "partnerLinks": []
+  "partnerLinks": [
+    {
+      "title": { "en": "UTool", "zh": "U途工具" },
+      "description": {
+        "en": "Online tools for JSON, text, images, encoding and everyday development tasks.",
+        "zh": "提供 JSON、文本、图片、编码转换等在线工具，辅助日常开发。"
+      },
+      "url": "https://utool.top/"
+    },
+    {
+      "title": { "en": "AI Brief", "zh": "AI 简报" },
+      "description": {
+        "en": "Updates on AI models, coding agents and platforms, with pricing plan information.",
+        "zh": "汇集 AI 模型、编程 Agent 与平台动态，并整理计费方案信息。"
+      },
+      "url": "https://go2-ai.com/"
+    }
+  ]
 }
