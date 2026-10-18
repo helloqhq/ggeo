@@ -1024,11 +1024,13 @@
     "features": {
       "en": [
         "Analyze brand discoverability and local competitor performance in AI and Google search.",
-        "Explore brand sentiment and recommendations to improve visibility."
+        "Explore brand sentiment and recommendations to improve visibility.",
+        "Trace the websites and content sources cited when AI platforms mention your brand."
       ],
       "zh": [
         "分析品牌在 AI 和 Google 搜索中的可发现性及本地竞品表现。",
-        "查看品牌情绪与曝光改进建议。"
+        "查看品牌情绪与曝光改进建议。",
+        "追踪 AI 平台提及品牌时引用的网站与内容来源。"
       ]
     },
     "audience": {
@@ -1411,11 +1413,13 @@
     "features": {
       "en": [
         "Combine brand knowledge, agents and review workflows to research, publish and refresh content.",
-        "Connect content production with competitor insights and AI search visibility; engine coverage depends on the plan."
+        "Connect content production with competitor insights and AI search visibility; engine coverage depends on the plan.",
+        "Solo lists ChatGPT-only insights; introductory testing credits and a trial do not establish an ongoing free plan."
       ],
       "zh": [
         "结合品牌知识、Agent 和审核工作流，研究、发布并更新内容。",
-        "关联内容生产、竞品洞察与 AI 搜索曝光；平台覆盖取决于方案。"
+        "关联内容生产、竞品洞察与 AI 搜索曝光；平台覆盖取决于方案。",
+        "Solo 列出的洞察仅覆盖 ChatGPT；初始测试积分与试用不代表持续免费方案。"
       ]
     },
     "audience": {
@@ -1693,6 +1697,711 @@
     "verifiedAt": "2026-10-18",
     "status": "published",
     "featuredOrder": 26,
+    "sponsored": false
+  },
+  {
+    "slug": "querying-ai",
+    "name": "querying.ai",
+    "category": "citations",
+    "website": "https://querying.ai/en",
+    "logo": null,
+    "description": {
+      "en": "Collect AI answers and cited sources through an API, with scheduled brand monitoring.",
+      "zh": "通过 API 采集 AI 回答与引用来源，并定期监测品牌表现。"
+    },
+    "tags": {
+      "en": [
+        "Citation API",
+        "Scheduled monitoring",
+        "Source analysis"
+      ],
+      "zh": [
+        "引用 API",
+        "定期监测",
+        "来源分析"
+      ]
+    },
+    "features": {
+      "en": [
+        "Return AI answers, citation URLs and search queries as structured data for GEO analysis.",
+        "Schedule prompts by engine and country, then inspect brand mentions, cited domains and competitor share of voice.",
+        "Subscriptions use task credits; introductory free credits do not renew as a free plan."
+      ],
+      "zh": [
+        "将 AI 回答、引用 URL 与检索查询整理为结构化数据，用于 GEO 分析。",
+        "按引擎与国家定期运行提示词，查看品牌提及、被引域名和竞品声量占比。",
+        "订阅按任务积分计费；初始赠送积分不代表持续免费方案。"
+      ]
+    },
+    "audience": {
+      "en": "Developers and agencies building citation analysis or multi-brand GEO reporting.",
+      "zh": "开发引用分析工具或多品牌 GEO 报告的开发者与代理机构。"
+    },
+    "platforms": [
+      "ChatGPT",
+      "Gemini"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "querying.ai official API and engine capabilities",
+          "zh": "querying.ai 官方 API 与引擎能力"
+        },
+        "url": "https://querying.ai/en"
+      },
+      {
+        "label": {
+          "en": "querying.ai scheduled monitoring and citation metrics",
+          "zh": "querying.ai 定期监测与引用指标"
+        },
+        "url": "https://querying.ai/zh/monitors"
+      },
+      {
+        "label": {
+          "en": "querying.ai subscription plans and credits",
+          "zh": "querying.ai 订阅方案与积分"
+        },
+        "url": "https://querying.ai/zh/pricing"
+      }
+    ],
+    "verifiedAt": "2026-10-18",
+    "status": "published",
+    "featuredOrder": 27,
+    "sponsored": false
+  },
+  {
+    "slug": "waikay",
+    "name": "Waikay",
+    "category": "prompts",
+    "website": "https://waikay.io/",
+    "logo": null,
+    "description": {
+      "en": "Schedule prompt tracking and examine what AI answers say about your brand.",
+      "zh": "定期追踪提示词，分析 AI 回答如何描述品牌。"
+    },
+    "tags": {
+      "en": [
+        "Prompt tracking",
+        "Brand facts",
+        "Topic reports"
+      ],
+      "zh": [
+        "提示词追踪",
+        "品牌事实",
+        "主题报告"
+      ]
+    },
+    "features": {
+      "en": [
+        "Group prompts by topic and choose models and a weekly, every-two-days or daily tracking cadence.",
+        "Analyze brand mentions, citations, factual gaps and competitors, with topic reports and action plans.",
+        "API and browser-based model modes have different credit costs; the initial free credits do not renew."
+      ],
+      "zh": [
+        "按主题整理提示词，选择模型及每周、每两天或每日的追踪频率。",
+        "分析品牌提及、引用、事实缺口与竞品，生成主题报告与行动建议。",
+        "API 与浏览器采样模式的积分消耗不同；初始免费积分不续充。"
+      ]
+    },
+    "audience": {
+      "en": "Brand managers and agencies organizing recurring prompt and brand-knowledge reviews.",
+      "zh": "需要定期复核提示词表现与品牌知识的品牌负责人和代理机构。"
+    },
+    "platforms": [
+      "ChatGPT",
+      "Gemini",
+      "Claude",
+      "Perplexity",
+      "Google AI Mode",
+      "Microsoft Copilot"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "Waikay brand analysis and subscription plans",
+          "zh": "Waikay 品牌分析与订阅方案"
+        },
+        "url": "https://waikay.io/"
+      },
+      {
+        "label": {
+          "en": "Waikay prompt cadence, model modes and credits",
+          "zh": "Waikay 提示词频率、模型模式与积分"
+        },
+        "url": "https://waikay.io/how-credits-are-used-on-waikay/"
+      },
+      {
+        "label": {
+          "en": "Waikay non-renewing introductory credits",
+          "zh": "Waikay 不续充的初始免费积分"
+        },
+        "url": "https://waikay.io/free/"
+      }
+    ],
+    "verifiedAt": "2026-10-18",
+    "status": "published",
+    "featuredOrder": 28,
+    "sponsored": false
+  },
+  {
+    "slug": "goodie",
+    "name": "Goodie",
+    "category": "content-geo",
+    "website": "https://higoodie.com/",
+    "logo": null,
+    "description": {
+      "en": "Use citation and competitor insights to create and refine content for AI search.",
+      "zh": "结合引用与竞品洞察，创作和优化面向 AI 搜索的内容。"
+    },
+    "tags": {
+      "en": [
+        "Content studio",
+        "Citation gaps",
+        "Brand voice"
+      ],
+      "zh": [
+        "内容工作室",
+        "引用缺口",
+        "品牌语气"
+      ]
+    },
+    "features": {
+      "en": [
+        "Identify content opportunities from sources cited for competitors and generate structured, question-driven drafts.",
+        "Set brand voice and editorial guidelines, then review, edit and export content for your publishing workflow.",
+        "Monitor AI mentions, citations and sentiment; engine coverage and action allowances vary by plan."
+      ],
+      "zh": [
+        "从竞品的被引来源中发现内容机会，生成结构化、围绕问题展开的草稿。",
+        "设置品牌语气与编辑规范，再审核、修改并导出内容，用于现有发布流程。",
+        "监测 AI 提及、引用和情绪；平台覆盖与操作额度随套餐变化。"
+      ]
+    },
+    "audience": {
+      "en": "Content teams connecting AI citation research with editorial production and review.",
+      "zh": "希望将 AI 引用研究接入内容生产和审核流程的团队。"
+    },
+    "platforms": [
+      "ChatGPT",
+      "Perplexity",
+      "Google AI Overviews",
+      "Google AI Mode",
+      "Microsoft Copilot",
+      "Gemini",
+      "Claude"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "Goodie Content Studio workflow and editorial controls",
+          "zh": "Goodie Content Studio 工作流与编辑控制"
+        },
+        "url": "https://higoodie.com/features/content-studio/"
+      },
+      {
+        "label": {
+          "en": "Goodie plans and AI engine coverage",
+          "zh": "Goodie 方案与 AI 平台覆盖"
+        },
+        "url": "https://higoodie.com/pricing/"
+      }
+    ],
+    "verifiedAt": "2026-10-18",
+    "status": "published",
+    "featuredOrder": 29,
+    "sponsored": false
+  },
+  {
+    "slug": "analyze-ai",
+    "name": "Analyze AI",
+    "category": "ai-traffic",
+    "website": "https://www.tryanalyze.ai/",
+    "logo": null,
+    "description": {
+      "en": "Connect AI answer visibility with referral visits, landing pages and conversions.",
+      "zh": "关联 AI 回答曝光与引荐访问、落地页和转化表现。"
+    },
+    "tags": {
+      "en": [
+        "AI referrals",
+        "GA4 integration",
+        "Landing pages"
+      ],
+      "zh": [
+        "AI 引荐",
+        "GA4 集成",
+        "落地页"
+      ]
+    },
+    "features": {
+      "en": [
+        "Connect GA4 to inspect AI referral traffic, receiving pages, engagement and conversion trends.",
+        "Compare referral visits with tracked mentions and citations; assistants that omit referrers are not fully counted.",
+        "Prompt tracking covers ChatGPT, Google AI Mode and Perplexity on Growth; additional engines depend on the plan or add-ons."
+      ],
+      "zh": [
+        "连接 GA4，查看 AI 引荐流量、接收页面、互动与转化趋势。",
+        "对照引荐访问与监测到的提及和引用；不传递来源信息的 AI 访问无法完整计入。",
+        "Growth 的提示词监测包含 ChatGPT、Google AI Mode 与 Perplexity；其他平台取决于方案或加购。"
+      ]
+    },
+    "audience": {
+      "en": "Marketing and analytics teams measuring the visits and outcomes associated with AI search.",
+      "zh": "需要衡量 AI 搜索带来的访问与业务结果的营销和分析团队。"
+    },
+    "platforms": [
+      "ChatGPT",
+      "Google AI Mode",
+      "Perplexity",
+      "DeepSeek",
+      "Grok",
+      "Gemini",
+      "Claude"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "Analyze AI referral analytics and measurement limits",
+          "zh": "Analyze AI 引荐分析与测量限制"
+        },
+        "url": "https://www.tryanalyze.ai/docs/traffic-analytics/overview"
+      },
+      {
+        "label": {
+          "en": "Analyze AI plans, GA4 integration and engine add-ons",
+          "zh": "Analyze AI 方案、GA4 集成与平台加购"
+        },
+        "url": "https://www.tryanalyze.ai/pricing"
+      }
+    ],
+    "verifiedAt": "2026-10-18",
+    "status": "published",
+    "featuredOrder": 30,
+    "sponsored": false
+  },
+  {
+    "slug": "evertune",
+    "name": "Evertune",
+    "category": "competitors",
+    "website": "https://www.evertune.ai/",
+    "logo": null,
+    "description": {
+      "en": "Benchmark brand visibility against competitors across AI search models.",
+      "zh": "跨 AI 搜索模型对比品牌与竞品的曝光表现。"
+    },
+    "tags": {
+      "en": [
+        "Competitor benchmarks",
+        "Prompt research",
+        "Visibility trends"
+      ],
+      "zh": [
+        "竞品基准",
+        "提示词研究",
+        "曝光趋势"
+      ]
+    },
+    "features": {
+      "en": [
+        "Compare brand visibility with category competitors and investigate strengths and content gaps.",
+        "Use prompt research and repeated answer sampling to examine changing AI responses.",
+        "Model coverage and sampling depth vary by plan; high-volume sampling is listed for Pro and Enterprise."
+      ],
+      "zh": [
+        "对比品牌与同品类竞品的曝光，调查优势与内容缺口。",
+        "结合提示词研究和重复回答采样，观察 AI 回答的变化。",
+        "模型覆盖与采样深度随方案变化；高频重复采样列于 Pro 和 Enterprise。"
+      ]
+    },
+    "audience": {
+      "en": "Brand and research teams comparing competitive positioning in AI answers.",
+      "zh": "需要比较 AI 回答中竞争定位的品牌与研究团队。"
+    },
+    "platforms": [
+      "ChatGPT",
+      "Claude",
+      "Gemini",
+      "Google AI Overviews",
+      "Google AI Mode",
+      "Perplexity",
+      "Microsoft Copilot",
+      "DeepSeek",
+      "Meta AI"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "Evertune competitive visibility and prompt research",
+          "zh": "Evertune 竞品曝光与提示词研究"
+        },
+        "url": "https://www.evertune.ai/"
+      },
+      {
+        "label": {
+          "en": "Evertune plans and sampling limits",
+          "zh": "Evertune 方案与采样限制"
+        },
+        "url": "https://www.evertune.ai/pricing"
+      }
+    ],
+    "verifiedAt": "2026-10-18",
+    "status": "published",
+    "featuredOrder": 31,
+    "sponsored": false
+  },
+  {
+    "slug": "birdeye-ai-search",
+    "name": "Birdeye AI Search",
+    "category": "local-geo",
+    "website": "https://birdeye.com/ai-search/",
+    "logo": null,
+    "description": {
+      "en": "Compare AI search visibility and cited sources for brands and individual locations.",
+      "zh": "对比品牌及各门店的 AI 搜索曝光与引用来源。"
+    },
+    "tags": {
+      "en": [
+        "Location reporting",
+        "Local competitors",
+        "Citation share"
+      ],
+      "zh": [
+        "门店报告",
+        "本地竞品",
+        "引用份额"
+      ]
+    },
+    "features": {
+      "en": [
+        "Switch between brand and location reporting to examine AI visibility trends, citations and competitor share of voice.",
+        "Filter reports by location, theme and selected AI sites; Google AI, Grok and Claude require enabling in report settings."
+      ],
+      "zh": [
+        "在品牌与门店视图间切换，查看 AI 曝光趋势、引用与竞品声量占比。",
+        "按门店、主题与 AI 平台筛选；Google AI、Grok 和 Claude 需在报告设置中启用。"
+      ]
+    },
+    "audience": {
+      "en": "Multi-location businesses and agencies investigating local discovery in AI answers.",
+      "zh": "需要研究 AI 回答中本地发现表现的多门店企业与代理机构。"
+    },
+    "platforms": [
+      "ChatGPT",
+      "Gemini",
+      "Perplexity",
+      "Google AI Mode",
+      "Google AI Overviews",
+      "Grok",
+      "Claude"
+    ],
+    "pricing": "Contact Sales",
+    "sources": [
+      {
+        "label": {
+          "en": "Birdeye local AI Search product",
+          "zh": "Birdeye 本地 AI Search 产品"
+        },
+        "url": "https://birdeye.com/ai-search/"
+      },
+      {
+        "label": {
+          "en": "Birdeye platform coverage and location report configuration",
+          "zh": "Birdeye 平台覆盖与门店报告设置"
+        },
+        "url": "https://support.birdeye.com/en/articles/12913616-how-to-use-visibility-reports-in-ai-search"
+      },
+      {
+        "label": {
+          "en": "Birdeye pricing by deployed products and locations",
+          "zh": "Birdeye 按产品与门店配置报价"
+        },
+        "url": "https://birdeye.com/pricing/"
+      }
+    ],
+    "verifiedAt": "2026-10-18",
+    "status": "published",
+    "featuredOrder": 32,
+    "sponsored": false
+  },
+  {
+    "slug": "botify",
+    "name": "Botify",
+    "category": "ai-traffic",
+    "website": "https://www.botify.com/",
+    "logo": null,
+    "description": {
+      "en": "Analyze AI crawler activity alongside AI answer visibility and website data.",
+      "zh": "结合网站数据与 AI 回答曝光，分析 AI 爬虫的访问活动。"
+    },
+    "tags": {
+      "en": [
+        "AI bot logs",
+        "Crawl analytics",
+        "Visibility dashboard"
+      ],
+      "zh": [
+        "AI 爬虫日志",
+        "抓取分析",
+        "曝光面板"
+      ]
+    },
+    "features": {
+      "en": [
+        "Use website logs to distinguish AI training, indexing and assistant bot activity; bot visits do not prove answer citations.",
+        "The optional AI Visibility dashboard measures brand mentions and citations across ChatGPT, Perplexity and Google AI Mode.",
+        "GSC-based prompt campaigns require connected GSC data, while AI Discovery reporting requires server traffic data."
+      ],
+      "zh": [
+        "通过网站日志区分 AI 训练、索引与助手爬虫活动；爬虫访问不代表页面已被回答引用。",
+        "可选的 AI Visibility 面板衡量 ChatGPT、Perplexity 与 Google AI Mode 中的品牌提及和引用。",
+        "基于 GSC 的提示词监测需要接入 GSC 数据；AI Discovery 报告需要服务器流量数据。"
+      ]
+    },
+    "audience": {
+      "en": "Enterprise SEO and technical teams studying AI access to their own websites.",
+      "zh": "需要分析 AI 如何访问自有网站的企业 SEO 与技术团队。"
+    },
+    "platforms": [
+      "ChatGPT",
+      "Perplexity",
+      "Google AI Mode"
+    ],
+    "pricing": "Contact Sales",
+    "sources": [
+      {
+        "label": {
+          "en": "Botify AI bot classification and log analysis",
+          "zh": "Botify AI 爬虫分类与日志分析"
+        },
+        "url": "https://support.botify.com/en/articles/10139856-understanding-ai-bot-data-in-botify"
+      },
+      {
+        "label": {
+          "en": "Botify AI Visibility coverage and data prerequisites",
+          "zh": "Botify AI Visibility 覆盖与数据前提"
+        },
+        "url": "https://support.botify.com/en/articles/12384083-getting-started-with-the-ai-visibility-dashboard"
+      },
+      {
+        "label": {
+          "en": "Botify subscription plans and feature limits",
+          "zh": "Botify 订阅方案与功能限制"
+        },
+        "url": "https://support.botify.com/en/articles/9108632-botify-subscription-plans"
+      },
+      {
+        "label": {
+          "en": "Botify sales and demo contact",
+          "zh": "Botify 销售与演示联系"
+        },
+        "url": "https://www.botify.com/contact-us"
+      }
+    ],
+    "verifiedAt": "2026-10-18",
+    "status": "published",
+    "featuredOrder": 33,
+    "sponsored": false
+  },
+  {
+    "slug": "conductor-monitoring",
+    "name": "Conductor Monitoring",
+    "category": "geo-audit",
+    "website": "https://www.conductor.com/platform/monitoring/",
+    "logo": null,
+    "description": {
+      "en": "Monitor technical website changes that can affect AI and search visibility.",
+      "zh": "监测可能影响 AI 与搜索曝光的网站技术变化。"
+    },
+    "tags": {
+      "en": [
+        "Technical AEO",
+        "Page health",
+        "Change alerts"
+      ],
+      "zh": [
+        "技术 AEO",
+        "页面健康",
+        "变更告警"
+      ]
+    },
+    "features": {
+      "en": [
+        "Continuously detect technical AEO and SEO issues and prioritize affected pages.",
+        "Route change alerts to relevant teams and review page snapshots and change history.",
+        "Monitoring capacity and history depend on the subscription; the free offer is a limited trial."
+      ],
+      "zh": [
+        "持续检测技术 AEO 与 SEO 问题，确定需优先处理的页面。",
+        "向相关团队发送变更告警，并查看页面快照与变更历史。",
+        "监测规模与历史保留取决于订阅方案；免费入口为限时试用。"
+      ]
+    },
+    "audience": {
+      "en": "Website and SEO teams monitoring technical changes that may reduce AI discoverability.",
+      "zh": "需要监测技术变化、防止 AI 可发现性下降的网站与 SEO 团队。"
+    },
+    "platforms": [],
+    "pricing": "Contact Sales",
+    "sources": [
+      {
+        "label": {
+          "en": "Conductor Monitoring technical AEO and change detection",
+          "zh": "Conductor Monitoring 技术 AEO 与变更检测"
+        },
+        "url": "https://www.conductor.com/platform/monitoring/"
+      },
+      {
+        "label": {
+          "en": "Conductor plans, monitoring limits and sales consultation",
+          "zh": "Conductor 方案、监测限制与销售咨询"
+        },
+        "url": "https://www.conductor.com/pricing/"
+      }
+    ],
+    "verifiedAt": "2026-10-18",
+    "status": "published",
+    "featuredOrder": 34,
+    "sponsored": false
+  },
+  {
+    "slug": "geoly",
+    "name": "GEOly",
+    "category": "citations",
+    "website": "https://www.geoly.ai/",
+    "logo": null,
+    "description": {
+      "en": "Trace cited pages and compare how AI answers mention and describe your brand.",
+      "zh": "追溯被引页面，对比 AI 回答如何提及和描述品牌。"
+    },
+    "tags": {
+      "en": [
+        "Citation sources",
+        "Answer evidence",
+        "Market comparison"
+      ],
+      "zh": [
+        "引用来源",
+        "回答证据",
+        "市场对比"
+      ]
+    },
+    "features": {
+      "en": [
+        "Review original AI answers, cited domains and pages, and the source passages behind citation markers.",
+        "Track brand mentions, competitive share and sentiment by country and prompt.",
+        "Six AI platforms are listed, but each plan includes a different subset; the Basic trial lasts three days."
+      ],
+      "zh": [
+        "查看 AI 回答原文、被引域名与页面，以及引用标记对应的来源段落。",
+        "按国家与提示词追踪品牌提及、竞争份额和情绪。",
+        "官方列出六个 AI 平台，各套餐覆盖不同子集；Basic 免费试用为三天。"
+      ]
+    },
+    "audience": {
+      "en": "Consumer brands and agencies investigating AI citation sources across markets.",
+      "zh": "需要跨市场研究 AI 引用来源的消费品牌与代理机构。"
+    },
+    "platforms": [
+      "ChatGPT",
+      "Perplexity",
+      "Gemini",
+      "Microsoft Copilot",
+      "Google AI Mode",
+      "Google AI Overviews"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "GEOly answer evidence, citation analysis and plans",
+          "zh": "GEOly 回答证据、引用分析与方案"
+        },
+        "url": "https://www.geoly.ai/zh"
+      },
+      {
+        "label": {
+          "en": "GEOly prompt configuration and management",
+          "zh": "GEOly 提示词设置与管理"
+        },
+        "url": "https://www.geoly.ai/zh/docs/geoly-prompts"
+      }
+    ],
+    "verifiedAt": "2026-10-18",
+    "status": "published",
+    "featuredOrder": 35,
+    "sponsored": false
+  },
+  {
+    "slug": "brandlight",
+    "name": "Brandlight",
+    "category": "ai-visibility",
+    "website": "https://www.brandlight.ai/",
+    "logo": null,
+    "description": {
+      "en": "Monitor AI brand mentions, sentiment, cited sources and competitive positioning.",
+      "zh": "监测 AI 中的品牌提及、情绪、引用来源与竞争定位。"
+    },
+    "tags": {
+      "en": [
+        "Brand visibility",
+        "Sentiment",
+        "Source intelligence"
+      ],
+      "zh": [
+        "品牌曝光",
+        "情绪分析",
+        "来源洞察"
+      ]
+    },
+    "features": {
+      "en": [
+        "Analyze how AI answers portray a brand, including mention frequency, sentiment and influential sources.",
+        "Investigate query intent and citation sources, and compare visibility with competitors.",
+        "Enterprise access is arranged through sales; confirm the required engines and usage limits in the order."
+      ],
+      "zh": [
+        "分析 AI 回答如何呈现品牌，包括提及频率、情绪和影响回答的来源。",
+        "调查查询意图与引用来源，并对比竞品的曝光表现。",
+        "企业服务需联系销售；所需引擎与使用限制应在订单中确认。"
+      ]
+    },
+    "audience": {
+      "en": "Enterprise brand and communications teams reviewing brand portrayal in AI answers.",
+      "zh": "需要复核 AI 回答中品牌形象的企业品牌与传播团队。"
+    },
+    "platforms": [],
+    "pricing": "Contact Sales",
+    "sources": [
+      {
+        "label": {
+          "en": "Brandlight visibility, sentiment and citation analysis",
+          "zh": "Brandlight 曝光、情绪与引用分析"
+        },
+        "url": "https://www.brandlight.ai/product/visibility-insights"
+      },
+      {
+        "label": {
+          "en": "Brandlight official product and sales access",
+          "zh": "Brandlight 官方产品与销售入口"
+        },
+        "url": "https://www.brandlight.ai/"
+      },
+      {
+        "label": {
+          "en": "Brandlight enterprise orders, fees and usage limits",
+          "zh": "Brandlight 企业订单、费用与使用限制"
+        },
+        "url": "https://www.brandlight.ai/terms-of-use"
+      }
+    ],
+    "verifiedAt": "2026-10-18",
+    "status": "published",
+    "featuredOrder": 36,
     "sponsored": false
   }
 ]
