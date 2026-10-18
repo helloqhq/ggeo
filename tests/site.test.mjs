@@ -89,6 +89,20 @@ test('every generated page has one H1, valid structured data, language metadata 
     }
   }
 });
+test('directory pages do not advertise products for sale or unsupported reviews',async()=>{
+  const allowedTypes=new Set(['WebSite','Organization','ItemList','ListItem','BreadcrumbList']);
+  const check=(value,file)=>{
+    if(!value||typeof value!=='object')return;
+    for(const type of [value['@type']||[]].flat())assert.ok(allowedTypes.has(type),`${file}: unsupported schema type ${type}`);
+    for(const key of ['offers','review','aggregateRating','shippingDetails','hasMerchantReturnPolicy'])assert.ok(!(key in value),`${file}: unsupported ${key}`);
+    for(const child of Object.values(value))check(child,file);
+  };
+  for(const file of await htmlFiles()){
+    const html=await read(file);
+    assert.ok(!/\s(?:itemtype|typeof)=["'][^"']*(?:Product|Offer|Review|Rating)/i.test(html),file);
+    for(const match of html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g))check(JSON.parse(match[1]),file);
+  }
+});
 test('sitemap excludes search and all translated pages declare reciprocal alternates',async()=>{
   const sitemap=await read('sitemap.xml');assert.ok(!sitemap.includes('/search/'));
   for(const lang of ['en','zh'])assert.ok((await read(lang+'/search/index.html')).includes('noindex,follow'));
