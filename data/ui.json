@@ -383,6 +383,14 @@
     "en": "Cookie preferences saved.",
     "zh": "Cookie 偏好已保存。"
   },
+  "legalUpdatedAt": {
+    "en": "Last updated",
+    "zh": "更新日期"
+  },
+  "legalReferences": {
+    "en": "Related privacy notices",
+    "zh": "相关隐私说明"
+  },
   "cookieSession": {
     "en": "Browser storage is unavailable. Your choice applies only to this page; you will be asked again on your next visit.",
     "zh": "浏览器存储不可用，选择仅对当前页面有效，下次访问时将重新询问。"

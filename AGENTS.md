@@ -4,4 +4,5 @@
 - 修改工具资料、分类介绍、核验时间、广告或联盟配置时，先读取 `skills/ggeo-data-update/SKILL.md` 及其按需引用的数据约定。
 - `docs/ggeo-ai-v3-PRD.md` 是产品依据；已确认的纯静态与邮件审核调整记录在 `docs/adr/0001-static-content-workflow.md`。使用 `GLOSSARY.md` 中的术语。
 - 内容源在 `data/*.json`，模板和浏览器交互在 `src/`。`dist/` 为构建产物，不能直接编辑。运行时保持纯静态，不添加后端或数据库。
+- 隐私政策（隐私协议）与免责声明为独立维护的固定法律文案。后续工具采集、资料更新、翻译、核验日期、排序及广告／联盟配置更新，不得修改 `data/pages.json` 中这两页的中英文内容、来源链接和 `updatedAt`，也不得通过模板或界面文案间接改写；法律页日期不得跟随 `site.updatedAt`。只有用户明确要求修订法律文案时才可修改，并同步更新 `tests/legal-pages.test.mjs` 的内容指纹。发现运营或数据处理变更与现有文案冲突时，报告差异及建议，不擅自改写文案或启用不匹配的处理方式。
 - 内容变更后运行 `npm run validate`、`npm run build`、`npm test`。浏览器受影响时，启动预览检查对应中英页面。测试中的本地 HTTP 检查需要允许回环网络监听。

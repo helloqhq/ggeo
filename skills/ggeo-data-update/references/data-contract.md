@@ -8,7 +8,7 @@
 | `data/categories.json` | 固定 8 类的名称、描述、选型建议与简洁图标 |
 | `data/site.json` | 域名、联系邮箱、内容更新时间、联盟链接、广告和友情链接 |
 | `data/ui.json` | 全站导航、按钮、搜索与表单等双语界面文案 |
-| `data/pages.json` | 中英隐私政策与免责声明 |
+| `data/pages.json` | 固定的中英隐私政策与免责声明；日常数据更新不得修改 |
 
 ## 工具记录
 
@@ -35,7 +35,7 @@
 
 ## 运营配置格式
 
-`googleAnalyticsId` 是可选 GA4 衡量 ID（`G-` 加大写字母与数字），空值或缺省时不加载统计代码。更换 ID 或启停分析服务时同步检查 `pages.json` 的隐私说明。Search Console 域名验证使用 DNS TXT，不属于工具资料。
+`googleAnalyticsId` 是可选 GA4 衡量 ID（`G-` 加大写字母与数字），空值或缺省时不加载统计代码。更换 ID 或启停分析服务时只读核对 `pages.json` 的隐私说明；有冲突则报告，不自动修改法律文案或启用不匹配的处理方式。Search Console 域名验证使用 DNS TXT，不属于工具资料。
 
 `affiliateLinks` 是以工具 slug 为 key、联盟 URL 为 value 的对象。没有联盟关系时保持 `{}`，普通官网链接取工具的 `website`。
 
@@ -54,6 +54,12 @@
 ```
 
 `type` 可为 `advertisement` 或 `sponsored`。`afterCategory` 指首页分类后的版位，初始建议使用 `citations` 或 `geo-audit`。`partnerLinks` 元素为 `{ "title": {"en":"...","zh":"..."}, "description": {"en":"...","zh":"..."}, "url":"https://..." }`，空数组显示诚实的空状态。
+
+## 固定法律页面
+
+`pages.json` 的 `privacy-policy` 与 `disclaimer` 各有独立 `updatedAt`（`YYYY-MM-DD`），不继承 `site.updatedAt`。`title`、`intro`、`sections[].title` 与 `sections[].body` 均为中英文本；可选 `sources` 使用与工具来源一致的 `{ "label": { "en": "...", "zh": "..." }, "url": "https://..." }` 数组。
+
+上述内容、来源、日期及其渲染不属于日常采集与数据维护范围。仅用户明确要求修订法律文案时才可更新，并在审阅后同步调整 `tests/legal-pages.test.mjs` 的 SHA-256 指纹；不得为通过日常数据更新测试而重置指纹。若运营、联系信息或数据处理变更使文案不符，报告差异与建议，保留现有文案。
 
 ## 提交审核
 

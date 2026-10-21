@@ -50,9 +50,17 @@ export function validateData(data) {
     for(const source of tool.sources||[]){url(source.url,`${label}.source`);localized(source.label,`${label}.source.label`);}
   }
   for(const [key,value] of Object.entries(ui))localized(value,`ui.${key}`);
-  const referencedKeys=['allTools','submit','search','heroTitle','searchResults','noResults','prepared','downloaded','duplicate','invalidUrl','priceFree','priceFreemium','pricePaid','priceContact Sales','priceUnknown'];
+  const referencedKeys=['allTools','submit','search','heroTitle','searchResults','noResults','prepared','downloaded','duplicate','invalidUrl','priceFree','priceFreemium','pricePaid','priceContact Sales','priceUnknown','legalUpdatedAt','legalReferences'];
   for(const key of referencedKeys)if(!ui[key])fail(`ui.${key}: missing`);
-  for(const key of ['privacy-policy','disclaimer']){const page=pages[key];localized(page?.title,`pages.${key}.title`);localized(page?.intro,`pages.${key}.intro`);if(!page?.sections?.length)fail(`pages.${key}: sections required`);for(const section of page?.sections||[]){localized(section.title,`pages.${key}.section.title`);localized(section.body,`pages.${key}.section.body`);}}
+  for(const key of ['privacy-policy','disclaimer']){
+    const page=pages[key];
+    localized(page?.title,`pages.${key}.title`);localized(page?.intro,`pages.${key}.intro`);
+    date(page?.updatedAt,`pages.${key}.updatedAt`);
+    if(!page?.sections?.length)fail(`pages.${key}: sections required`);
+    for(const section of page?.sections||[]){localized(section.title,`pages.${key}.section.title`);localized(section.body,`pages.${key}.section.body`);}
+    if(page?.sources!==undefined&&!Array.isArray(page.sources))fail(`pages.${key}.sources: expected array`);
+    for(const source of Array.isArray(page?.sources)?page.sources:[]){url(source.url,`pages.${key}.source`);localized(source.label,`pages.${key}.source.label`);}
+  }
   if(!site.affiliateLinks||typeof site.affiliateLinks!=='object'||Array.isArray(site.affiliateLinks))fail('site.affiliateLinks: expected object');
   for(const [key,value] of Object.entries(site.affiliateLinks||{})){if(!tools.some(t=>t.slug===key&&t.status==='published'))fail(`affiliate ${key}: unknown published tool`);url(value,`affiliate ${key}`);}
   if(!Array.isArray(site.ads)||!Array.isArray(site.partnerLinks))fail('site.ads and site.partnerLinks: arrays required');

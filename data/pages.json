@@ -4,50 +4,148 @@
       "en": "Privacy Policy",
       "zh": "隐私政策"
     },
+    "updatedAt": "2026-10-21",
     "intro": {
-      "en": "A simple directory, with a straightforward approach to privacy.",
-      "zh": "我们以清晰的方式说明目录如何处理数据。"
+      "en": "This policy explains how the operator of ggeo.ai handles information when you browse the GEO tools directory, search, submit a tool or contact us, and how you can exercise your privacy rights.",
+      "zh": "本政策说明 ggeo.ai 运营者在你浏览 GEO 工具目录、搜索、推荐工具或联系我们时如何处理信息，以及你如何行使隐私权利。"
     },
     "sections": [
       {
         "title": {
-          "en": "Browsing this site",
-          "zh": "浏览网站"
+          "en": "1. Operator and scope",
+          "zh": "一、运营者与适用范围"
         },
         "body": {
-          "en": "Only after you allow visit analytics, we load Google Analytics 4 to understand page views, traffic sources, scrolling, outbound tool clicks, site searches and file downloads. Google Analytics uses cookies and processes data such as page URLs, search terms, referring sites, browser and device information, and approximate location. Google signals and advertising personalization are disabled in our tag configuration. We do not send submission form contents to Google Analytics. The site has no accounts or backend database. Our hosting provider may process standard request logs to serve and protect the site.",
-          "zh": "仅在你同意访问分析后，我们才加载 Google Analytics 4 了解页面浏览、流量来源、滚动、工具外链点击、站内搜索及文件下载情况。Google Analytics 使用 Cookie，处理页面网址、搜索词、来源网站、浏览器与设备信息及大致地理位置等数据。统计代码已关闭 Google 信号和广告个性化。我们不会将推荐表单内容发送至 Google Analytics。网站没有账号或后端数据库；托管服务商可能为提供及保护网站而处理标准访问日志。"
+          "en": "This policy applies to ggeo.ai and its English and Chinese pages. The operator is referred to as the “ggeo.ai operator” or “we”; contact helloqhq123@gmail.com for privacy matters. We provide navigation and information about third-party GEO tools. The site has no visitor accounts, online checkout or backend submission database. This policy covers our information handling; independent tool providers and external websites have their own policies.",
+          "zh": "本政策适用于 ggeo.ai 及其中英文页面。本站运营者在本政策中称为“ggeo.ai 运营者”或“我们”，隐私联系邮箱为 helloqhq123@gmail.com。本站提供第三方 GEO 工具的导航与资料介绍，不设访客账号、在线支付或后端推荐资料数据库。本政策说明本站的信息处理；独立工具服务商与外部网站另有各自的隐私规则。"
         }
       },
       {
         "title": {
-          "en": "Cookie preferences",
-          "zh": "Cookie 偏好"
+          "en": "2. Page delivery and local search",
+          "zh": "二、网页访问与本地搜索"
         },
         "body": {
-          "en": "You can accept all, choose necessary only, or customize visit analytics in our Cookie banner. Before a choice, or when analytics is declined, we do not load Google Analytics or send analytics requests to Google. Necessary local storage saves your choice for 180 days under ggeo-cookie-preferences, shared across English and Chinese pages in the same browser and site origin. If storage is unavailable, your choice applies only to the current page. You can reopen Cookie settings in the footer anytime. Withdrawing analytics permission disables collection, clears accessible first-party Google Analytics cookies and refreshes the page; it does not erase data already sent to Google. Advertising tracking is not enabled.",
-          "zh": "你可以在 Cookie 横幅中接受全部、选择仅必要，或自定义访问分析。在你作出选择前，以及拒绝分析时，我们不会加载 Google Analytics 或向 Google 发送统计请求。必要的本地存储通过 ggeo-cookie-preferences 保存选择 180 天，在同一浏览器、同一网站来源的中英页面共用；存储不可用时，选择仅对当前页面有效。你可随时通过页脚重新打开 Cookie 设置。撤回分析授权后，我们会停止收集、清理可访问的第一方 Google Analytics Cookie 并刷新页面；这不会删除已发送至 Google 的数据。本站未启用广告追踪。"
+          "en": "GitHub Pages hosts the site. Delivering pages and protecting the service involves network requests that may expose your IP address, request time, requested URL, referring page and browser or device information to hosting and delivery providers. Their processing follows their applicable terms and privacy policies. Search matching runs in your browser using the public directory. Search text appears in the URL and may remain in browser history and request logs; with analytics enabled, it may also enter analytics. Do not enter personal or confidential information in search terms or URL parameters.",
+          "zh": "本站通过 GitHub Pages 托管。提供网页和保障服务涉及网络请求，托管及分发服务商可能接触你的 IP 地址、请求时间、访问网址、来源页面及浏览器或设备信息，其处理适用相应服务条款与隐私政策。站内搜索基于公开目录在浏览器内匹配；搜索词会出现在网址中，可能留在浏览历史与请求日志内，同意访问分析后也可能进入统计。请勿在搜索词或网址参数中填写个人信息或保密资料。"
         }
       },
       {
         "title": {
-          "en": "Search and tool submissions",
-          "zh": "搜索与工具推荐"
+          "en": "3. Optional visit analytics",
+          "zh": "三、可选择的访问分析"
         },
         "body": {
-          "en": "Search runs in your browser. Query text is included in the page URL and may appear in browser history or hosting logs. Submission data stays in the form until you choose to open an email draft or download a file. Email is sent only through your email app and is handled by your email provider and Gmail. If you send us an email, we use its contents to review your request and respond. Do not include sensitive information.",
-          "zh": "搜索在浏览器内执行。查询词会出现在页面 URL 中，可能保留在浏览历史或托管日志内。推荐资料保留在表单中，直到你选择打开邮件草稿或下载文件。邮件由你通过邮件客户端发送，并由你的邮件服务商及 Gmail 处理。收到邮件后，我们会使用其中资料审核请求及回复。请勿提交敏感信息。"
+          "en": "Only after you allow visit analytics do we load Google Analytics 4 on the production site to understand use and improve the directory. Depending on enabled measurement features, this may include page views, traffic sources, scrolling, outbound clicks, searches and file downloads. Google may receive page URLs and search terms, referrers, cookie identifiers, browser and device information, and network information used to derive approximate location. Our tag disables Google signals and advertising personalization. We do not intentionally send submission form fields or email contents to Analytics. Before a choice, or when analytics is declined, we do not load the Google analytics tag or send analytics requests, including cookieless measurement requests. Declining does not prevent directory browsing, search or submission preparation.",
+          "zh": "仅在你允许访问分析后，我们才在正式站点加载 Google Analytics 4，以了解使用情况并改善目录。根据已启用的衡量功能，统计可能包括页面浏览、流量来源、滚动、外链点击、站内搜索与文件下载。Google 可能接收页面网址与搜索词、来源页面、Cookie 标识符、浏览器与设备信息，以及用于推断大致位置的网络信息。本站统计代码关闭了 Google 信号与广告个性化，不主动向 Analytics 发送推荐表单字段或邮件正文。你未作选择或拒绝分析时，本站不加载 Google 统计代码，也不发送包括无 Cookie 衡量在内的统计请求。拒绝不会影响目录浏览、搜索或准备推荐资料。"
         }
       },
       {
         "title": {
-          "en": "External websites and requests",
-          "zh": "外部网站与隐私请求"
+          "en": "4. Cookies, local storage and withdrawal",
+          "zh": "四、Cookie、本地存储与撤回选择"
         },
         "body": {
-          "en": "External links lead to independent websites with their own policies. Google's Privacy Policy explains how Google processes Analytics data. You can manage cookies in your browser or use Google's Google Analytics Opt-out Browser Add-on. To request access to or deletion of information you emailed us, contact helloqhq123@gmail.com.",
-          "zh": "外部链接指向独立网站，其隐私规则各自适用。Google 的隐私政策说明其如何处理 Analytics 数据。你可以通过浏览器管理 Cookie，或使用 Google Analytics 停用浏览器插件。如需查询或删除你通过邮件提供的资料，请联系 helloqhq123@gmail.com。"
+          "en": "The Cookie banner offers Accept all, Necessary only and customized visit analytics. Necessary local storage named ggeo-cookie-preferences saves your choice and expiry for 180 days across both languages on the same browser and site origin. After expiry you will be asked again; if storage is unavailable, the choice applies only to the current page. Analytics may set first-party cookies such as _ga and _ga_<id>; Google's documented default lifetime is two years, with possible renewal on use or earlier browser removal. This differs from the 180-day preference lifetime and server-side retention. You can change your choice through Cookie settings in the footer. Withdrawing disables collection, clears accessible first-party GA cookies and reloads a page with a loaded tag. It does not automatically delete previously transmitted data. Advertising tracking is not enabled on this site.",
+          "zh": "Cookie 横幅提供“接受全部”“仅必要”和自定义访问分析。必要的本地存储 ggeo-cookie-preferences 保存选择及到期时间，期限为 180 天，同一浏览器、同一网站来源的中英页面共用。到期后重新询问；存储不可用时，选择仅对当前页面有效。访问分析可能设置 _ga、_ga_<id> 等第一方 Cookie；Google 文档载明默认有效期为两年，使用时可能续期，也可能被浏览器提前清除。这与偏好的 180 天期限及服务端数据保存期限不同。你可随时通过页脚“Cookie 设置”修改选择。撤回后会停用收集、清除可访问的第一方 GA Cookie，并在已加载统计代码时刷新页面；撤回不会自动删除此前已传送的数据。本站未启用广告追踪。"
         }
+      },
+      {
+        "title": {
+          "en": "5. Tool submissions and email",
+          "zh": "五、工具推荐与邮件联系"
+        },
+        "body": {
+          "en": "The form prepares a tool name, website, category, description, optional contact email and submission time in your browser. It does not automatically upload or send those fields to us. Opening an email draft passes the prepared information to your email application; sending requires your action. Downloading JSON saves a local file and does not deliver it to us. If you email us, your email provider and our Gmail provider process it. We use sender details, messages and attachments to review tools, respond, handle corrections or rights requests, and keep necessary correspondence. Published listings contain public product information; we do not include submitter email addresses or private correspondence in directory records. Only provide information you are entitled to share. Avoid passwords, identity documents, payment details and other sensitive information.",
+          "zh": "推荐表单在浏览器中准备工具名称、官网、分类、介绍、选填联系邮箱及提交时间，不会自动将这些字段上传或发送给我们。打开邮件草稿会把已准备的资料交给你的邮件应用，须由你自行发送；下载 JSON 只生成本地文件，并不代表本站收到资料。你发送邮件后，你的邮件服务商与我们使用的 Gmail 会处理邮件；我们使用发件信息、正文及附件审核工具、回复、处理纠错或权利请求，并保留必要往来记录。公开目录收录公开产品资料，不将推荐者邮箱或私人通信写入工具记录。请仅提供有权分享的资料，避免提交密码、身份证件、支付信息及其他敏感信息。"
+        }
+      },
+      {
+        "title": {
+          "en": "6. Service providers, disclosure and overseas processing",
+          "zh": "六、服务商、对外提供与境外处理"
+        },
+        "body": {
+          "en": "We use GitHub Pages for hosting and delivery, Google Analytics for consent-based analytics, and Gmail for correspondence. These providers may process information outside your country or region, including in the United States; their policies linked below explain their processing and safeguards. Following an external tool, advertisement or affiliate link brings you under that destination's information handling, including its attribution and cookies. We do not sell your personal information or provide submitted email addresses to listed tools for marketing. Information may be disclosed when legally required or to address a lawful request, limited as required by applicable law. This notice does not replace separate consent or other procedures required for overseas transfers or other regulated disclosures; those requirements must be met before the relevant processing.",
+          "zh": "本站使用 GitHub Pages 托管与分发、Google Analytics 开展经同意的访问分析、Gmail 处理通信。这些服务商可能在你所在国家或地区以外（包括美国）处理信息，其隐私政策与保护措施见下方链接。访问外部工具、广告或联盟链接后，目的站会按其规则处理信息，包括其使用的归因方式与 Cookie。我们不出售你的个人信息，也不将推荐者邮箱提供给收录工具用于营销。依法必须提供或处理合法请求时，我们会依适用法律限制披露范围。本说明不能替代跨境提供或其他受监管披露所需的单独同意或法定程序；开展相关处理前，我们仍须满足相应要求。"
+        }
+      },
+      {
+        "title": {
+          "en": "7. Retention and security",
+          "zh": "七、保存期限与信息安全"
+        },
+        "body": {
+          "en": "Cookie preferences last for the 180 days described above. We retain email and request records only as long as needed for review, responses, related disputes or legal retention duties, and delete or anonymize them when no longer needed. Hosting logs follow provider retention rules. Analytics user-level and event-level retention depends on GA property settings; cookie expiry does not determine deletion of server data, and aggregated reports may have a different lifecycle. Contact us about retention or deletion of data relating to your visit or correspondence. We apply reasonable access restrictions and safeguards to information under our control and address security incidents as required by law; no internet transmission or storage can be guaranteed completely secure.",
+          "zh": "Cookie 偏好按前述规则保存 180 天。邮件与请求记录仅在完成审核、回复、处理相关争议或履行法定保存义务所必需的期限内保留，不再需要时删除或匿名化。托管日志适用服务商的保存规则；Analytics 用户级和事件级数据的保存受 GA 属性设置控制，Cookie 到期不决定服务端数据的删除，汇总报表的保存周期也可能不同。你可通过邮箱查询与你的访问或通信有关的数据保存及删除情况。我们对所控制的信息采取合理的访问限制与安全措施，依法处理信息安全事件；互联网传输与存储无法保证绝对安全。"
+        }
+      },
+      {
+        "title": {
+          "en": "8. Your rights and requests",
+          "zh": "八、你的权利与申请方式"
+        },
+        "body": {
+          "en": "Subject to applicable law, you may request information about our processing, access or a copy, correction, deletion, restriction or objection, withdrawal of consent, and portability where available. Email helloqhq123@gmail.com with “Privacy request” and enough context to locate the relevant correspondence or visit. We may request proportionate verification to protect your information; do not send identity documents unless necessary. We will respond within the applicable legal period and explain any refusal, lawful retention requirement or technical limitation. An email address alone may not identify Analytics records; we will explain available options rather than promise deletion we cannot verify. You may also complain to the competent data protection authority or pursue other remedies provided by law.",
+          "zh": "在适用法律规定范围内，你可要求了解处理规则、查阅或复制、更正、删除、限制或拒绝处理、撤回同意，以及在具备法定条件时转移信息。请向 helloqhq123@gmail.com 发送主题为“隐私请求”的邮件，提供有助于定位相关通信或访问的必要线索。为保护信息，我们可能进行适度身份核验；非确有必要请勿发送身份证件。我们将在适用法律要求的期限内答复，并说明拒绝请求、依法保留或技术限制的理由。仅凭邮箱可能无法识别 Analytics 标识符对应的记录；我们会说明可行处理方式，不承诺无法核实的数据删除。你还可向有管辖权的个人信息保护部门投诉，或依法寻求其他救济。"
+        }
+      },
+      {
+        "title": {
+          "en": "9. Children",
+          "zh": "九、未成年人保护"
+        },
+        "body": {
+          "en": "This directory is intended for people researching professional GEO tools and is not directed at children under 14 or a higher age threshold under applicable law. We do not knowingly seek personal information from those children. A parent or guardian who believes a child has sent us personal information should contact us so we can verify and handle it, including deletion where required. Minors should use external services with appropriate guardian guidance and follow each provider's age requirements.",
+          "zh": "本站面向研究专业 GEO 工具的访客，不专门面向不满十四周岁或适用法律规定更高年龄门槛的儿童，也不主动向其收集个人信息。监护人认为儿童已向本站提供个人信息的，可通过邮箱联系我们核实处理，并在依法需要时删除。未成年人使用外部服务应获得适当的监护指导，并遵守相应服务的年龄要求。"
+        }
+      },
+      {
+        "title": {
+          "en": "10. Changes to this policy",
+          "zh": "十、政策变更"
+        },
+        "body": {
+          "en": "The date above identifies this policy version. Routine directory additions, translations, verification dates and ordering changes do not revise this policy or its date. If information handling materially changes, we must separately review this policy, give notices required by law and obtain fresh consent where required before the changed processing begins. Continued browsing alone is not consent to new purposes. The English and Chinese versions are intended to convey the same meaning; mandatory rights under applicable law remain unaffected.",
+          "zh": "页首日期标识本政策版本。日常工具收录、翻译、核验日期或排序更新不会修订本政策及其日期。信息处理方式发生实质变化时，我们须单独审查政策，在新处理开始前依法告知，并在需要时重新取得同意。继续浏览本身不表示同意新增用途。中英文版本旨在表达相同含义，不影响适用法律赋予你的强制性权利。"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "label": {
+          "en": "GitHub General Privacy Statement",
+          "zh": "GitHub 隐私声明（托管服务）"
+        },
+        "url": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement"
+      },
+      {
+        "label": {
+          "en": "Google Privacy Policy (including Gmail)",
+          "zh": "Google 隐私政策（含 Gmail）"
+        },
+        "url": "https://policies.google.com/privacy"
+      },
+      {
+        "label": {
+          "en": "How Google uses information from partner sites",
+          "zh": "Google 如何使用合作网站的信息"
+        },
+        "url": "https://policies.google.com/technologies/partner-sites"
+      },
+      {
+        "label": {
+          "en": "Google Analytics cookie usage",
+          "zh": "Google Analytics Cookie 说明"
+        },
+        "url": "https://support.google.com/analytics/answer/11397207"
+      },
+      {
+        "label": {
+          "en": "Google Analytics data retention",
+          "zh": "Google Analytics 数据保留说明"
+        },
+        "url": "https://support.google.com/analytics/answer/7667196"
       }
     ]
   },
@@ -56,29 +154,90 @@
       "en": "Disclaimer",
       "zh": "免责声明"
     },
+    "updatedAt": "2026-10-21",
     "intro": {
-      "en": "Useful information starts with clear expectations.",
-      "zh": "清晰说明信息来源与使用边界。"
+      "en": "ggeo.ai provides an independent directory of third-party GEO tools. Please read the information and responsibility boundaries below before relying on a listing or following an external link. Your mandatory legal rights remain protected.",
+      "zh": "ggeo.ai 提供独立的第三方 GEO 工具导航。请在参考目录资料或访问外部链接前阅读以下信息与责任边界说明；你依法享有的强制性权利不受影响。"
     },
     "sections": [
       {
         "title": {
-          "en": "Product information",
-          "zh": "产品资料"
+          "en": "1. Directory role and third-party transactions",
+          "zh": "一、导航服务与第三方交易"
         },
         "body": {
-          "en": "We summarize official product information and link to our sources. Unless explicitly stated, listings are not hands-on reviews. Features, supported platforms and pricing can change. Confirm important details directly with the vendor before purchasing. We do not guarantee AI rankings, traffic or business results.",
-          "zh": "我们根据官方产品资料整理介绍并提供来源链接。除非明确说明，条目不代表实际使用评测。功能、支持平台与价格可能变化，购买前请向厂商确认关键细节。我们不保证 AI 排名、访问量或商业结果。"
+          "en": "We organize public product information and provide navigation links. Unless explicitly stated in a separate arrangement, we do not develop or operate listed tools, act as their agent, collect their subscription payments or perform their contracts. Registration, trials, purchases, renewals, refunds and support are handled between you and the provider under its terms. Inclusion, categories, featured positions and partner links do not establish an official partnership, certification or guarantee. Nothing here excludes duties imposed on us by applicable law for our own activities.",
+          "zh": "本站整理公开产品资料并提供导航链接。除另有明确安排外，本站不开发或运营所收录工具，不作为其代理，不代收订阅费用，也不代为履行服务合同。注册、试用、购买、续费、退款与售后由你与相应服务商依其条款处理。收录、分类、精选位置或友情链接不构成官方合作、认证或担保。本说明不排除适用法律就本站自身行为规定的义务。"
         }
       },
       {
         "title": {
-          "en": "Editorial and commercial relationships",
-          "zh": "编辑与商业关系"
+          "en": "2. Sources, verification and changing information",
+          "zh": "二、资料来源、核验及信息变化"
         },
         "body": {
-          "en": "ggeo.ai is an independent directory. Inclusion is not an endorsement or an official partnership. Sponsored placements are labeled. If an affiliate link is configured, the relevant tool page discloses that we may earn a commission. The initial directory has no active affiliate links or paid placements. Product names and trademarks belong to their respective owners; letter tiles are neutral placeholders, not vendor logos.",
-          "zh": "ggeo.ai 是独立目录，收录不表示官方合作或背书。赞助展示会明确标注；配置联盟链接时，相应详情页会披露佣金关系。首批目录未启用联盟链接或付费展示。产品名称与商标归各自所有者；字母图块为中性占位，非厂商 Logo。"
+          "en": "Listings summarize official websites, documentation and identified sources. We aim to check and correct information, but features, availability, ownership, supported platforms and pricing may change or contain errors. A verification date records editorial comparison with sources on that date, not a security audit, legal compliance certification or continuous monitoring. Unless expressly described, a listing is not a hands-on review. Pricing labels describe a model, not a quote or contractual offer: a free trial is not necessarily a free plan, Unknown means unverified, and platform support may depend on the plan. Confirm important details with the provider before deciding.",
+          "zh": "工具条目依据官网、官方文档及标明的来源进行概述。我们力求核实并纠正资料，但功能、可用性、归属、支持平台及价格可能变化或存在差错。“核验日期”表示编辑在该日比对过资料来源，不代表安全审计、合法合规认证或持续监控；未明确说明时，条目不属于实际使用评测。价格模式标签说明收费方式，不是具体报价或合同要约：免费试用不等于免费套餐，Unknown 表示未明确核验，平台支持可能因套餐而异。作出决定前请向服务商确认关键条件。"
+        }
+      },
+      {
+        "title": {
+          "en": "3. No promise of GEO outcomes or professional advice",
+          "zh": "三、GEO 效果与专业意见边界"
+        },
+        "body": {
+          "en": "Generative search answers, model behavior and visibility measurements vary by time, query, region and platform. We do not promise inclusion in AI answers, citations, rankings, traffic, revenue or any particular commercial result from a listed tool. Category guidance and comparisons are general editorial information, not personalized legal, financial, security or other professional advice. Assess suitability, budget and compliance needs and obtain qualified advice where needed.",
+          "zh": "生成式搜索回答、模型行为及曝光统计会随时间、问题、地区与平台变化。本站不承诺使用任何收录工具后一定被 AI 回答提及或引用，也不保证排名、流量、收入或特定商业结果。分类指南与比较属于一般编辑信息，不是针对你的法律、财务、安全或其他专业意见。请结合用途、预算与合规要求自行判断，必要时咨询具备相应资质的专业人士。"
+        }
+      },
+      {
+        "title": {
+          "en": "4. External links and service risks",
+          "zh": "四、外部链接与服务风险"
+        },
+        "body": {
+          "en": "External websites operate independently and may change, redirect, become unavailable or present security and privacy risks. We do not control their content, data handling, billing or performance and cannot guarantee every link remains safe or available. Check the destination domain, provider identity, privacy terms, permissions, renewal conditions and refund rules before registering, paying or uploading information. Only share data and content you are entitled to provide. Report errors or suspected harmful links with the relevant URL; we will review and take appropriate action, including correction or removal where warranted. Responsibility is determined by applicable law and each party's conduct.",
+          "zh": "外部网站独立运营，可能变更、跳转、停用或出现安全与隐私风险。本站无法控制其内容、数据处理、计费及履约，也无法保证每个链接始终安全或可用。注册、付款或上传资料前，请核对目标域名、服务商身份、隐私条款、权限、续费条件与退款规则，仅提供有权分享的数据和内容。发现错误或疑似有害链接，可附相关网址联系我们；我们会审核，并视情况纠正或移除。各方责任依适用法律及各自行为确定。"
+        }
+      },
+      {
+        "title": {
+          "en": "5. Editorial selection, advertising and affiliate links",
+          "zh": "五、编辑精选、广告与联盟链接"
+        },
+        "body": {
+          "en": "Featured tools reflect editorial selection and display order, not an exhaustive comparison, objective ranking or suitability guarantee. Where present, advertisements and sponsored placements must be labeled. An affiliate link may earn us a commission if you register or purchase; the relevant tool page discloses that relationship. Commercial placement is not certification or a promise of results. Check any offer and its conditions with the provider; we do not promise the lowest price or an exclusive discount. A partner link alone does not establish a paid recommendation or agency relationship.",
+          "zh": "“精选”表示编辑选择与展示顺序，不是穷尽市场的比较、客观排名或适用性保证。存在广告或赞助展示时，须明确标识。联盟链接可能在你注册或购买后使本站获得佣金，相应工具详情页会披露该关系；商业展示不代表认证或效果承诺。优惠是否存在及具体条件以目标服务商说明为准，本站不承诺最低价格或独家折扣。友情链接本身不表示付费推荐或代理关系。"
+        }
+      },
+      {
+        "title": {
+          "en": "6. Intellectual property, submissions and complaints",
+          "zh": "六、知识产权、推荐资料与权利投诉"
+        },
+        "body": {
+          "en": "Product names, trademarks, logos and referenced materials belong to their rights holders. Descriptive use identifies a product or source and does not imply endorsement or affiliation; letter tiles are placeholders, not official logos. Submit accurate materials you are entitled to provide. A submission is a review lead and does not guarantee inclusion, placement, a reply or a publication date. If a listing infringes your rights, exposes personal information or contains a material error, email helloqhq123@gmail.com with the affected URL, issue, evidence and contact method. We will review and take appropriate measures under applicable law. Avoid unnecessary sensitive information in complaints.",
+          "zh": "产品名称、商标、Logo 及引用资料归相应权利人所有，描述性使用旨在识别产品或来源，不表示授权合作或背书；字母图块是占位符，并非官方 Logo。推荐者应提供准确且有权提供的资料。提交仅是待审核线索，不保证收录、展示位置、回复或发布时间。认为条目侵犯权利、泄露个人信息或存在重大错误的，请向 helloqhq123@gmail.com 提供相关页面网址、问题说明、支持证据及联系方式。我们会依法审核并采取适当措施；投诉中请勿提供不必要的敏感信息。"
+        }
+      },
+      {
+        "title": {
+          "en": "7. Availability and limits of responsibility",
+          "zh": "七、服务可用性与责任限制"
+        },
+        "body": {
+          "en": "We aim to keep the directory accessible, but maintenance, network faults, hosting failures and other events may interrupt it. To the extent permitted by applicable law, we do not warrant uninterrupted access, error-free information or a particular result, and do not assume responsibility solely because you independently choose or transact with a third-party service. Liability must be assessed under applicable law, including fault, causation and loss. These limits do not exclude liability for personal injury, property loss caused by our intentional misconduct or gross negligence, breach of statutory personal information duties, or other liability that cannot lawfully be excluded or limited. Your mandatory consumer rights and lawful remedies remain intact.",
+          "zh": "本站力求保持目录可访问，但维护、网络故障、托管异常等情况可能造成中断。在适用法律允许的范围内，本站不保证访问持续不中断、资料完全无误或达到特定结果，也不因你自主选择或与第三方交易这一事实当然承担责任。具体责任须依法结合过错、因果关系及损失认定。本声明不免除造成人身损害、因本站故意或重大过失造成财产损失、违反法定个人信息保护义务，以及其他依法不得排除或限制的责任。你的法定消费者权利与合法救济途径不受影响。"
+        }
+      },
+      {
+        "title": {
+          "en": "8. Interpretation, updates and contact",
+          "zh": "八、解释、更新与联系"
+        },
+        "body": {
+          "en": "Read this statement with the Privacy Policy. The English and Chinese versions are intended to have the same meaning; inconsistencies or invalid provisions are handled under applicable law without displacing mandatory rights. We do not claim a unilateral final right of interpretation or treat browsing alone as a waiver of rights. The date above belongs to this statement; routine directory updates do not change its text or date. Substantive revisions require a separate legal-content update and notices required by law. Send questions, corrections and complaints to helloqhq123@gmail.com; disputes may be brought before the competent authority or court under applicable law.",
+          "zh": "请结合隐私政策阅读本声明。中英文版本旨在含义一致；如有歧义或部分条款无效，依法处理，不减损强制性权利。本站不主张单方最终解释权，也不以单纯浏览视为你放弃权利。页首日期属于本声明，日常目录更新不改变其正文或日期；实质修订须单独更新法律文案，并依法履行告知义务。咨询、纠错与投诉可发送至 helloqhq123@gmail.com；争议可依法向有管辖权的主管部门或法院提出。"
         }
       }
     ]
