@@ -63,6 +63,41 @@ test('escapes editorial content, discloses affiliate links and labels sponsorshi
   assert.ok(html.includes('We may earn a commission'));
   assert.ok(html.includes('sponsor-badge'));
 });
+test('outbound links include UTM in both languages while preserving queries and fragments',()=>{
+  const data=clone(),tool=data.tools[0],label=tool.sources[0].label;
+  tool.website='https://example.com/?ref=partner%20name&token=a%2Fb%3D#pricing';
+  tool.sources=[{label,url:'http://example.com/docs#section'},{label,url:'https://example.com/help?utm_source=partner#faq'}];
+  data.site.partnerLinks=[
+    {title:label,description:label,url:'https://example.com/partner'},
+    {title:label,description:label,url:data.site.url+'/en/'}
+  ];
+  data.site.ads=[{enabled:true,afterCategory:data.categories[0].slug,type:'sponsored',title:label,description:label,cta:label,url:'https://example.com/ad?campaign=geo#offer'}];
+  const {render}=createRenderer(data);
+  for(const lang of ['en','zh']){
+    const detail=render(lang,'tool',tool.slug),partners=render(lang,'page','partner-links');
+    assert.ok(detail.includes('href="https://example.com/?ref=partner%20name&amp;token=a%2Fb%3D&amp;utm_source=ggeo.ai#pricing"'));
+    assert.ok(detail.includes('href="http://example.com/docs?utm_source=ggeo.ai#section"'));
+    assert.ok(detail.includes('href="https://example.com/help?utm_source=partner#faq"'));
+    assert.ok(render(lang,'home').includes('href="https://example.com/ad?campaign=geo&amp;utm_source=ggeo.ai#offer"'));
+    assert.ok(partners.includes('href="https://example.com/partner?utm_source=ggeo.ai"'));
+    assert.ok(partners.includes(`href="${data.site.url}/en/"`));
+    assert.ok(detail.includes(`rel="canonical" href="${data.site.url}/${lang}/tools/${tool.slug}/"`));
+    assert.ok(render(lang,'page','contact').includes(`href="mailto:${data.site.contactEmail}"`));
+    for(const html of [detail,partners,render(lang,'home')])assert.ok(!/href="\/[^\"]*utm_source/.test(html));
+  }
+  for(const [url,expected] of [
+    ['https://example.com/ref?token=a%20b#start','https://example.com/ref?token=a%20b&amp;utm_source=ggeo.ai#start'],
+    ['https://example.com/ref?utm_source=partner&ref=123#start','https://example.com/ref?utm_source=partner&amp;ref=123#start'],
+    ['https://example.com/ref?utm_source=','https://example.com/ref?utm_source=']
+  ]){
+    data.site.affiliateLinks[tool.slug]=url;
+    for(const lang of ['en','zh']){
+      const html=createRenderer(data).render(lang,'tool',tool.slug);
+      assert.ok(html.includes(`class="button visit-link" href="${expected}"`));
+      assert.ok(html.includes('rel="sponsored noopener noreferrer"'));
+    }
+  }
+});
 async function htmlFiles(dir='') {
   let files=[];for(const entry of await readdir(resolve(root,'dist',dir),{withFileTypes:true})){
     const path=dir?dir+'/'+entry.name:entry.name;
