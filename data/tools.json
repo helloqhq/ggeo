@@ -728,12 +728,14 @@
     },
     "features": {
       "en": [
-        "Identify content gaps and optimization opportunities using its GEO workflow.",
-        "Improve content for AI comprehension and citation with editorial review."
+        "Use the Action Center to locate content gaps, title mismatches, missing FAQs and structured-data issues by page.",
+        "Review suggested fixes and export optimization reports; automated recommendations still require editorial fact-checking.",
+        "Current self-service plans list ChatGPT, Gemini and Google AI Overviews; Enterprise offers broader coverage, with action and content allowances varying by plan."
       ],
       "zh": [
-        "通过 GEO 工作流识别内容缺口与优化机会。",
-        "在编辑审核基础上，改进内容以便 AI 理解与引用。"
+        "通过 Action Center 按页面定位内容缺口、标题不匹配、缺失的 FAQ 与结构化数据问题。",
+        "审核修复建议并导出优化报告；自动建议仍需编辑核对事实。",
+        "当前自助套餐列明 ChatGPT、Gemini 和 Google AI Overviews；Enterprise 提供更广覆盖，操作与内容额度随方案变化。"
       ]
     },
     "audience": {
@@ -742,27 +744,22 @@
     },
     "platforms": [
       "ChatGPT",
-      "Claude",
       "Gemini",
-      "Perplexity",
-      "Google AI Overviews",
-      "Google AI Mode",
-      "Microsoft Copilot",
-      "Grok"
+      "Google AI Overviews"
     ],
     "pricing": "Paid",
     "sources": [
       {
         "label": {
-          "en": "Writesonic official feature documentation",
-          "zh": "Writesonic 官方功能文档"
+          "en": "Writesonic Action Center content checks and exports",
+          "zh": "Writesonic Action Center 内容检查与导出"
         },
         "url": "https://docs.writesonic.com/docs/content-optimization"
       },
       {
         "label": {
-          "en": "Writesonic official feature documentation",
-          "zh": "Writesonic 官方功能文档"
+          "en": "Writesonic GEO setup, prompts and competitor analysis",
+          "zh": "Writesonic GEO 设置、提示词与竞品分析"
         },
         "url": "https://docs.writesonic.com/docs/geo-getting-started"
       },
@@ -774,7 +771,7 @@
         "url": "https://writesonic.com/pricing"
       }
     ],
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-24",
     "status": "published",
     "featuredOrder": 11,
     "sponsored": false
@@ -875,12 +872,14 @@
     },
     "features": {
       "en": [
-        "Group traffic from known AI assistants using referral-source reporting.",
-        "Compare referred visits with other acquisition channels in a privacy-focused analytics workflow."
+        "Group recognized referrers such as ChatGPT, Claude, Perplexity, Gemini and Copilot into the AI Assistants acquisition channel.",
+        "Filter by AI sources to inspect landing pages, engagement and goal conversions; conversion attribution uses the last visit source.",
+        "Visits without referrer information may appear as Direct / None. The hosted service uses paid subscriptions after a limited trial."
       ],
       "zh": [
-        "通过来源报告汇总已识别的 AI 助手流量。",
-        "在注重隐私的分析流程中比较 AI 来源访问与其他获客渠道。"
+        "将 ChatGPT、Claude、Perplexity、Gemini 和 Copilot 等已识别来源归入 AI Assistants 获客渠道。",
+        "按 AI 来源筛选落地页、互动和目标转化；转化归因使用促成转化的最后一次访问来源。",
+        "缺少来源信息的访问可能显示为 Direct / None；托管服务在限时试用后需付费订阅。"
       ]
     },
     "audience": {
@@ -898,8 +897,8 @@
     "sources": [
       {
         "label": {
-          "en": "Plausible Analytics official product features",
-          "zh": "Plausible Analytics 官方产品功能"
+          "en": "Plausible AI Assistants channel and attribution limits",
+          "zh": "Plausible AI Assistants 渠道与归因限制"
         },
         "url": "https://plausible.io/docs/top-referrers"
       },
@@ -911,7 +910,7 @@
         "url": "https://plausible.io/docs/subscription-plans"
       }
     ],
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-24",
     "status": "published",
     "featuredOrder": 13,
     "sponsored": false
@@ -940,24 +939,26 @@
     },
     "features": {
       "en": [
-        "Monitor visits referred by AI chatbots such as ChatGPT, Perplexity and Gemini.",
-        "View aggregated traffic trends in a cookie-free website analytics product."
+        "Measure referral visits from AI chatbots including ChatGPT, Perplexity and Gemini, alongside landing pages and custom events.",
+        "Use cookie-free aggregate analytics; daily visitor identifiers do not track the same person across days.",
+        "A continuing free allowance is available per project, with paid Web Analytics add-ons for higher event volumes; this measures human visits separately from Bot Analytics."
       ],
       "zh": [
-        "监测 ChatGPT、Perplexity 和 Gemini 等 AI 工具带来的访问。",
-        "通过无 Cookie 的网站分析产品查看汇总流量趋势。"
+        "衡量 ChatGPT、Perplexity 和 Gemini 等 AI 聊天工具带来的引荐访问，并查看落地页和自定义事件。",
+        "使用无 Cookie 的汇总分析；每日访客标识不会跨日追踪同一人。",
+        "每个项目有持续免费额度，较高事件量需购买 Web Analytics 扩容；真人访问统计与 Bot Analytics 分开。"
       ]
     },
     "audience": {
-      "en": "Owners of verified websites who want a free starting point for AI traffic measurement.",
-      "zh": "希望从免费 AI 流量统计开始的已验证网站所有者。"
+      "en": "Website owners starting with free AI referral measurement and upgrading as traffic grows.",
+      "zh": "希望从免费 AI 引荐统计开始、随流量增长扩容的网站所有者。"
     },
     "platforms": [
       "ChatGPT",
       "Perplexity",
       "Gemini"
     ],
-    "pricing": "Free",
+    "pricing": "Freemium",
     "sources": [
       {
         "label": {
@@ -968,13 +969,13 @@
       },
       {
         "label": {
-          "en": "Ahrefs Web Analytics official feature documentation",
-          "zh": "Ahrefs Web Analytics 官方功能文档"
+          "en": "Ahrefs Web Analytics collection, free allowance and paid add-ons",
+          "zh": "Ahrefs Web Analytics 数据收集、免费额度与付费扩容"
         },
         "url": "https://help.ahrefs.com/en/articles/10247870-about-ahrefs-web-analytics"
       }
     ],
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-24",
     "status": "published",
     "featuredOrder": 14,
     "sponsored": false
@@ -1429,12 +1430,14 @@
     },
     "features": {
       "en": [
-        "Request a one-time brand perception analysis covering sentiment, recognition and competitive position.",
-        "The official page describes training-data-based model responses; ongoing monitoring is a separate HubSpot AEO product."
+        "Request a free, one-time brand perception report across sentiment, presence quality, recognition, share of voice and market position.",
+        "The official page describes responses based on model training data across ChatGPT, Perplexity and Gemini; this is a snapshot rather than continuous prompt monitoring.",
+        "The initial check needs no account; a form provides access to the full report. Ongoing monitoring is offered by the separate paid HubSpot AEO product."
       ],
       "zh": [
-        "获取一次性的品牌认知分析，覆盖情绪、认知与竞争定位。",
-        "官方说明以模型训练数据中的品牌认知作答；持续监控由独立的 HubSpot AEO 产品提供。"
+        "获取一次免费的品牌认知报告，覆盖情绪、呈现质量、品牌认知、声量份额和市场定位。",
+        "官方说明依据 ChatGPT、Perplexity 和 Gemini 的模型训练数据作答；结果是一次快照，不是持续提示词监测。",
+        "初始检查无需账户，完整报告通过表单获取；持续监测由独立的付费 HubSpot AEO 产品提供。"
       ]
     },
     "audience": {
@@ -1456,7 +1459,7 @@
         "url": "https://www.hubspot.com/ai-search-grader"
       }
     ],
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-24",
     "status": "published",
     "featuredOrder": 21,
     "sponsored": false
@@ -1614,12 +1617,14 @@
     },
     "features": {
       "en": [
-        "Inspect AI crawler activity and request patterns on domains using Cloudflare.",
-        "Manage crawler access and review robots.txt behavior; free-plan metrics cover the past 24 hours."
+        "Inspect AI crawler requests by operator, hostname, path and response status on domains whose traffic is proxied through Cloudflare.",
+        "Allow or block individual AI crawlers. Free-plan detection uses user-agent strings and its detailed metrics cover the past 24 hours.",
+        "Enterprise Bot Management enables additional detection and configurable analytics windows; crawler requests are distinct from human referrals or confirmed answer citations."
       ],
       "zh": [
-        "查看使用 Cloudflare 的域名上的 AI 爬虫活动与请求模式。",
-        "管理爬虫访问并检查 robots.txt 遵循情况；免费方案的指标覆盖过去 24 小时。"
+        "在通过 Cloudflare 代理流量的域名上，按运营方、主机名、路径和响应状态检查 AI 爬虫请求。",
+        "允许或拦截单个 AI 爬虫；免费方案依赖 user-agent 字符串识别，详细指标覆盖过去 24 小时。",
+        "Enterprise Bot Management 提供额外识别能力和可配置分析时间窗；爬虫请求不同于真人引荐或已确认的回答引用。"
       ]
     },
     "audience": {
@@ -1644,7 +1649,7 @@
         "url": "https://developers.cloudflare.com/ai-crawl-control/get-started/"
       }
     ],
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-24",
     "status": "published",
     "featuredOrder": 24,
     "sponsored": false
@@ -1673,12 +1678,14 @@
     },
     "features": {
       "en": [
-        "Track location-level visibility and prompt results in ChatGPT, Google AI Mode and AI Overviews.",
-        "Compare local competitors and cited sources, then use citation-gap findings in the BrightLocal workflow."
+        "Track location-level visibility and prompt results across ChatGPT, Google AI Mode and Google AI Overviews.",
+        "Compare local competitors and cited sources, distinguishing named business mentions from source citations.",
+        "The current product allows up to 20 editable prompts per location and is included in the Track, Manage and Grow subscriptions; free access is a limited trial."
       ],
       "zh": [
-        "跟踪门店在 ChatGPT、Google AI Mode 和 AI Overviews 中的曝光及提示词结果。",
-        "比较本地竞品与引用来源，将引用缺口分析用于 BrightLocal 工作流。"
+        "跟踪门店在 ChatGPT、Google AI Mode 和 Google AI Overviews 中的曝光及提示词结果。",
+        "比较本地竞品与被引来源，并区分商家名称提及与来源引用。",
+        "当前每个门店最多设置 20 个可编辑提示词，功能包含在 Track、Manage 和 Grow 订阅中；免费入口为限时试用。"
       ]
     },
     "audience": {
@@ -1707,7 +1714,7 @@
         "url": "https://www.brightlocal.com/pricing/"
       }
     ],
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-24",
     "status": "published",
     "featuredOrder": 25,
     "sponsored": false
@@ -4551,6 +4558,686 @@
     "verifiedAt": "2026-10-24",
     "status": "published",
     "featuredOrder": 65,
+    "sponsored": false
+  },
+  {
+    "slug": "lumar-ai-visibility",
+    "name": "Lumar AI Visibility",
+    "category": "ai-visibility",
+    "website": "https://www.lumar.io/ai-visibility-tracking-lumar/",
+    "logo": null,
+    "description": {
+      "en": "Track brand mentions, sentiment and citations alongside technical website crawl data.",
+      "zh": "结合网站技术抓取数据，追踪品牌提及、情绪与引用。"
+    },
+    "tags": {
+      "en": [
+        "Visibility trends",
+        "Technical context",
+        "Topic reports"
+      ],
+      "zh": [
+        "曝光趋势",
+        "技术背景",
+        "主题报告"
+      ]
+    },
+    "features": {
+      "en": [
+        "Organize custom prompts by topic and compare brand visibility, sentiment and competitors across selected AI models.",
+        "Inspect cited URLs and connect visibility gaps with crawl findings such as rendering, robots rules and structured data.",
+        "Monitoring cadence and the feature package are configured for the engagement; pricing is provided through a tailored quote."
+      ],
+      "zh": [
+        "按主题组织自定义提示词，对比所选 AI 模型中的品牌曝光、情绪与竞品。",
+        "检查被引 URL，并结合渲染、robots 规则和结构化数据等抓取结果调查曝光缺口。",
+        "监测频率和功能组合按合作配置，价格需获取定制报价。"
+      ]
+    },
+    "audience": {
+      "en": "Enterprise SEO and web teams linking AI answer monitoring with technical site analysis.",
+      "zh": "需要结合 AI 回答监测与网站技术分析的企业 SEO 和网站团队。"
+    },
+    "platforms": [
+      "ChatGPT",
+      "Gemini",
+      "Perplexity",
+      "Google AI Overviews",
+      "Google AI Mode",
+      "Claude"
+    ],
+    "pricing": "Contact Sales",
+    "sources": [
+      {
+        "label": {
+          "en": "Lumar AI visibility metrics, platforms and crawl integration",
+          "zh": "Lumar AI 曝光指标、平台与抓取集成"
+        },
+        "url": "https://www.lumar.io/ai-visibility-tracking-lumar/"
+      },
+      {
+        "label": {
+          "en": "Lumar tailored platform pricing",
+          "zh": "Lumar 平台定制报价"
+        },
+        "url": "https://www.lumar.io/pricing/"
+      }
+    ],
+    "verifiedAt": "2026-10-24",
+    "status": "published",
+    "featuredOrder": 66,
+    "sponsored": false
+  },
+  {
+    "slug": "aiclicks",
+    "name": "AIclicks",
+    "category": "citations",
+    "website": "https://aiclicks.io/",
+    "logo": null,
+    "description": {
+      "en": "Find the sources behind AI answers and compare your brand visibility with competitors.",
+      "zh": "分析 AI 回答的来源，对比品牌与竞品的曝光表现。"
+    },
+    "tags": {
+      "en": [
+        "Citation gaps",
+        "Prompt monitoring",
+        "Source analysis"
+      ],
+      "zh": [
+        "引用缺口",
+        "提示词监测",
+        "来源分析"
+      ]
+    },
+    "features": {
+      "en": [
+        "Track prompts and inspect recorded answers, brand mentions, sentiment and cited sources.",
+        "Identify domains that influence answers and turn citation gaps into content and outreach recommendations.",
+        "Plans include different numbers of prompts and AI platforms; the free offer is a short trial rather than a continuing free monitoring plan."
+      ],
+      "zh": [
+        "追踪提示词，检查记录的回答、品牌提及、情绪与被引来源。",
+        "识别影响回答的域名，将引用缺口整理成内容与外联建议。",
+        "各套餐的提示词和 AI 平台数量不同；免费入口为短期试用，不是持续免费监测方案。"
+      ]
+    },
+    "audience": {
+      "en": "Marketing teams and agencies researching citation opportunities across AI search engines.",
+      "zh": "需要跨 AI 搜索平台研究引用机会的营销团队与代理机构。"
+    },
+    "platforms": [
+      "ChatGPT",
+      "Perplexity",
+      "Gemini",
+      "Google AI Overviews",
+      "Google AI Mode",
+      "Claude",
+      "Grok",
+      "DeepSeek",
+      "Meta AI",
+      "Microsoft Copilot"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "AIclicks answer collection, source analysis and engine coverage",
+          "zh": "AIclicks 回答采集、来源分析与平台覆盖"
+        },
+        "url": "https://aiclicks.io/"
+      },
+      {
+        "label": {
+          "en": "AIclicks subscriptions and trial limits",
+          "zh": "AIclicks 订阅与试用限制"
+        },
+        "url": "https://aiclicks.io/pricing"
+      }
+    ],
+    "verifiedAt": "2026-10-24",
+    "status": "published",
+    "featuredOrder": 67,
+    "sponsored": false
+  },
+  {
+    "slug": "dageno",
+    "name": "Dageno",
+    "category": "competitors",
+    "website": "https://www.dageno.ai/",
+    "logo": null,
+    "description": {
+      "en": "Research competitors, citation sources and market gaps in AI search.",
+      "zh": "研究 AI 搜索中的竞品、引用来源与市场缺口。"
+    },
+    "tags": {
+      "en": [
+        "Market comparison",
+        "Citation research",
+        "Regional analysis"
+      ],
+      "zh": [
+        "市场对比",
+        "引用研究",
+        "地区分析"
+      ]
+    },
+    "features": {
+      "en": [
+        "Compare brand and competitor presence across market segments, regions and AI platforms.",
+        "Review original AI answers and citation URLs to investigate missing coverage and content opportunities.",
+        "Starter focuses on single-brand research; recurring reports, MCP, API and multi-brand workflows depend on the paid plan. Standard engine coverage differs from custom Alexa integrations."
+      ],
+      "zh": [
+        "跨市场细分、地区与 AI 平台比较品牌和竞品的呈现。",
+        "查看原始 AI 回答与引用 URL，调查覆盖缺口与内容机会。",
+        "Starter 侧重单品牌研究；定期报告、MCP、API 和多品牌流程取决于付费方案。标准平台覆盖与 Alexa 定制集成分开。"
+      ]
+    },
+    "audience": {
+      "en": "Brand strategists and agencies comparing AI search markets and competitive coverage.",
+      "zh": "需要比较 AI 搜索市场与竞争覆盖的品牌策略团队和代理机构。"
+    },
+    "platforms": [
+      "ChatGPT",
+      "Gemini",
+      "Perplexity",
+      "Google AI Mode",
+      "Google AI Overviews",
+      "Microsoft Copilot",
+      "Grok",
+      "Brave",
+      "Dola"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "Dageno market and AI visibility product overview",
+          "zh": "Dageno 市场与 AI 曝光产品概述"
+        },
+        "url": "https://www.dageno.ai/"
+      },
+      {
+        "label": {
+          "en": "Dageno plan capabilities, engine coverage and trial",
+          "zh": "Dageno 套餐能力、平台覆盖与试用"
+        },
+        "url": "https://www.dageno.ai/pricing"
+      }
+    ],
+    "verifiedAt": "2026-10-24",
+    "status": "published",
+    "featuredOrder": 68,
+    "sponsored": false
+  },
+  {
+    "slug": "radarkit-local-radar",
+    "name": "Radarkit Local Radar",
+    "category": "local-geo",
+    "website": "https://radarkit.ai/features/local-radar",
+    "logo": null,
+    "description": {
+      "en": "Track which local businesses AI recommends and compare their appearance rates and positions.",
+      "zh": "追踪 AI 推荐了哪些本地商家，对比出现比例与位置。"
+    },
+    "tags": {
+      "en": [
+        "Local recommendations",
+        "Business comparisons",
+        "Location sampling"
+      ],
+      "zh": [
+        "本地推荐",
+        "商家对比",
+        "地区采样"
+      ]
+    },
+    "features": {
+      "en": [
+        "Monitor local business recommendations for selected prompts and locations, including appearance rates and answer positions.",
+        "Compare recommended businesses and investigate which competitors appear instead of your own location.",
+        "Local Radar names ChatGPT, Google AI Mode and AI Overviews; the wider Radarkit suite covers more engines. Tracking limits depend on the subscription, with a limited free trial."
+      ],
+      "zh": [
+        "按所选提示词和地区监测本地商家推荐，查看出现比例及回答中的位置。",
+        "比较被推荐商家，调查哪些竞品取代了自有门店。",
+        "Local Radar 明确列出 ChatGPT、Google AI Mode 和 AI Overviews；Radarkit 整体套件覆盖更多平台。追踪额度随订阅变化，免费入口为限时试用。"
+      ]
+    },
+    "audience": {
+      "en": "Local businesses and agencies comparing AI recommendations for individual markets.",
+      "zh": "需要按市场比较 AI 本地推荐的商家与代理机构。"
+    },
+    "platforms": [
+      "ChatGPT",
+      "Google AI Mode",
+      "Google AI Overviews"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "Radarkit Local Radar recommendation metrics and platforms",
+          "zh": "Radarkit Local Radar 推荐指标与平台"
+        },
+        "url": "https://radarkit.ai/features/local-radar"
+      },
+      {
+        "label": {
+          "en": "Radarkit plans, locations and free trial",
+          "zh": "Radarkit 套餐、地区与免费试用"
+        },
+        "url": "https://radarkit.ai/pricing"
+      }
+    ],
+    "verifiedAt": "2026-10-24",
+    "status": "published",
+    "featuredOrder": 69,
+    "sponsored": false
+  },
+  {
+    "slug": "keyword-com-ai-visibility",
+    "name": "Keyword.com AI Visibility",
+    "category": "citations",
+    "website": "https://keyword.com/ai-search-visibility/",
+    "logo": null,
+    "description": {
+      "en": "Inspect AI answer sources, brand mentions and sentiment alongside competitor visibility.",
+      "zh": "结合竞品曝光，检查 AI 回答的来源、品牌提及与情绪。"
+    },
+    "tags": {
+      "en": [
+        "Source citations",
+        "Brand sentiment",
+        "Client reports"
+      ],
+      "zh": [
+        "来源引用",
+        "品牌情绪",
+        "客户报告"
+      ]
+    },
+    "features": {
+      "en": [
+        "Track prompts, brand mentions, cited pages and domains across supported AI search platforms.",
+        "Compare citation frequency and competitor presence, and share read-only dashboards or access metrics through the AI Visibility API.",
+        "AI Visibility is available as a paid standalone plan or within a combined subscription; prompt checks use credits and the free trial has a time limit."
+      ],
+      "zh": [
+        "跨受支持的 AI 搜索平台追踪提示词、品牌提及、被引页面和域名。",
+        "对比引用频率与竞品呈现，分享只读看板或通过 AI Visibility API 获取指标。",
+        "AI Visibility 提供独立付费方案，也可随组合订阅使用；提示词检查消耗积分，免费试用有时限。"
+      ]
+    },
+    "audience": {
+      "en": "SEO agencies and in-house teams explaining AI citations and brand representation to clients.",
+      "zh": "需要向客户解释 AI 引用和品牌呈现的 SEO 代理机构与内部团队。"
+    },
+    "platforms": [
+      "ChatGPT",
+      "Perplexity",
+      "Gemini",
+      "Microsoft Copilot",
+      "Google AI Mode",
+      "Google AI Overviews"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "Keyword.com AI mentions, citations and reporting",
+          "zh": "Keyword.com AI 提及、引用与报告"
+        },
+        "url": "https://keyword.com/ai-search-visibility/"
+      },
+      {
+        "label": {
+          "en": "Keyword.com standalone AI Visibility plans and credits",
+          "zh": "Keyword.com 独立 AI Visibility 方案与积分"
+        },
+        "url": "https://keyword.com/pricing/"
+      }
+    ],
+    "verifiedAt": "2026-10-24",
+    "status": "published",
+    "featuredOrder": 70,
+    "sponsored": false
+  },
+  {
+    "slug": "ahrefs-bot-analytics",
+    "name": "Ahrefs Bot Analytics",
+    "category": "ai-traffic",
+    "website": "https://ahrefs.com/bot-analytics",
+    "logo": null,
+    "description": {
+      "en": "Analyze server-side AI crawler traffic separately from human website visits.",
+      "zh": "通过服务器端数据分析 AI 爬虫流量，并与真人访问分开。"
+    },
+    "tags": {
+      "en": [
+        "AI crawler logs",
+        "Bot categories",
+        "Request verification"
+      ],
+      "zh": [
+        "AI 爬虫日志",
+        "爬虫分类",
+        "请求核对"
+      ]
+    },
+    "features": {
+      "en": [
+        "Filter server-side requests by AI bot category and investigate frequently crawled pages and response status.",
+        "Use supported CDN log integrations; Cloudflare Logpush requires an Enterprise plan, while the Worker method works on any Cloudflare plan.",
+        "Bot verification uses known IP ranges and Cloudflare verification where available. The beta is included with paid Ahrefs plans; bot access alone does not confirm an answer citation."
+      ],
+      "zh": [
+        "按 AI 爬虫类别筛选服务器端请求，调查常被抓取的页面与响应状态。",
+        "使用受支持的 CDN 日志集成；Cloudflare Logpush 需 Enterprise，Worker 方式可用于任意 Cloudflare 方案。",
+        "在资料可用时通过已知 IP 段与 Cloudflare 验证核对爬虫；测试版包含在付费 Ahrefs 套餐内，爬虫访问本身不能证明回答已引用。"
+      ]
+    },
+    "audience": {
+      "en": "Technical SEO and publishing teams investigating AI bot access to their own content.",
+      "zh": "需要调查 AI 爬虫如何访问自有内容的技术 SEO 与出版团队。"
+    },
+    "platforms": [],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "Ahrefs Bot Analytics scope, beta access and integrations",
+          "zh": "Ahrefs Bot Analytics 范围、测试版使用条件与集成"
+        },
+        "url": "https://ahrefs.com/bot-analytics"
+      },
+      {
+        "label": {
+          "en": "Ahrefs bot reports, integration prerequisites and verification limits",
+          "zh": "Ahrefs 爬虫报告、集成前提与验证限制"
+        },
+        "url": "https://help.ahrefs.com/en/articles/14297049-about-bot-analytics"
+      }
+    ],
+    "verifiedAt": "2026-10-24",
+    "status": "published",
+    "featuredOrder": 71,
+    "sponsored": false
+  },
+  {
+    "slug": "hubspot-aeo",
+    "name": "HubSpot AEO",
+    "category": "prompts",
+    "website": "https://www.hubspot.com/products/aeo",
+    "logo": null,
+    "description": {
+      "en": "Monitor selected AI search prompts and turn visibility gaps into content recommendations.",
+      "zh": "监测所选 AI 搜索提示词，将曝光缺口整理成内容建议。"
+    },
+    "tags": {
+      "en": [
+        "Prompt tracking",
+        "Citation analysis",
+        "Content actions"
+      ],
+      "zh": [
+        "提示词追踪",
+        "引用分析",
+        "内容建议"
+      ]
+    },
+    "features": {
+      "en": [
+        "Track brand visibility and competitor share of voice across ChatGPT, Gemini and Perplexity for selected prompts.",
+        "Use suggested prompts and inspect citation pages and domains to prioritize content to create or update.",
+        "Available as a standalone paid product or in eligible Marketing Hub subscriptions. It provides continuing monitoring separately from the free, one-time AI Search Grader."
+      ],
+      "zh": [
+        "按所选提示词追踪品牌在 ChatGPT、Gemini 和 Perplexity 中的曝光与竞品声量份额。",
+        "使用建议提示词，检查被引页面和域名，确定需优先新建或更新的内容。",
+        "可独立付费使用，也包含在符合条件的 Marketing Hub 订阅中；提供持续监测，与免费的一次性 AI Search Grader 分开。"
+      ]
+    },
+    "audience": {
+      "en": "Marketing teams building recurring AI prompt monitoring and content review workflows.",
+      "zh": "需要建立持续 AI 提示词监测与内容复核流程的营销团队。"
+    },
+    "platforms": [
+      "ChatGPT",
+      "Gemini",
+      "Perplexity"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "HubSpot AEO functionality, platforms and purchase options",
+          "zh": "HubSpot AEO 功能、平台与购买方式"
+        },
+        "url": "https://www.hubspot.com/products/aeo"
+      },
+      {
+        "label": {
+          "en": "HubSpot comparison of the one-time Grader and ongoing AEO",
+          "zh": "HubSpot 一次性 Grader 与持续 AEO 的区别"
+        },
+        "url": "https://www.hubspot.com/ai-search-grader"
+      }
+    ],
+    "verifiedAt": "2026-10-24",
+    "status": "published",
+    "featuredOrder": 72,
+    "sponsored": false
+  },
+  {
+    "slug": "oncrawl-ai-search-lens",
+    "name": "Oncrawl AI Search Lens",
+    "category": "ai-traffic",
+    "website": "https://www.oncrawl.com/platform/lenses/ai-search-lens/",
+    "logo": null,
+    "description": {
+      "en": "Connect AI bot logs with technical crawl data to investigate content access and referral gaps.",
+      "zh": "结合 AI 爬虫日志和网站抓取数据，调查内容访问与引荐缺口。"
+    },
+    "tags": {
+      "en": [
+        "AI bot logs",
+        "Crawl correlation",
+        "Traffic funnel"
+      ],
+      "zh": [
+        "AI 爬虫日志",
+        "抓取关联",
+        "流量漏斗"
+      ]
+    },
+    "features": {
+      "en": [
+        "Analyze AI search and user-bot requests alongside crawl metrics such as page depth, load time and structured data.",
+        "Examine a crawl-to-traffic funnel. Its citation metric counts selected AI user-bot visits with HTTP 200 or 304 responses, so it is a proxy for potential citation rather than a recorded answer link.",
+        "The product lists ChatGPT, Perplexity, Claude, Mistral and Gemini bot activity. Plans and premium Lens access are defined in the sales order."
+      ],
+      "zh": [
+        "结合页面深度、加载时间和结构化数据等抓取指标，分析 AI 搜索与用户触发的爬虫请求。",
+        "检查抓取至流量的漏斗；其引用指标统计部分 AI 用户爬虫返回 HTTP 200 或 304 的访问，是潜在引用的代理指标，不是已记录的回答链接。",
+        "产品列明 ChatGPT、Perplexity、Claude、Mistral 和 Gemini 的爬虫活动；方案与高级 Lens 使用权由销售订单确定。"
+      ]
+    },
+    "audience": {
+      "en": "Enterprise technical SEO teams correlating AI crawler activity with site health.",
+      "zh": "需要将 AI 爬虫活动与网站健康数据关联分析的企业技术 SEO 团队。"
+    },
+    "platforms": [
+      "ChatGPT",
+      "Perplexity",
+      "Claude",
+      "Mistral",
+      "Gemini"
+    ],
+    "pricing": "Contact Sales",
+    "sources": [
+      {
+        "label": {
+          "en": "Oncrawl AI Search Lens metrics and citation-proxy definition",
+          "zh": "Oncrawl AI Search Lens 指标与引用代理定义"
+        },
+        "url": "https://www.oncrawl.com/platform/lenses/ai-search-lens/"
+      },
+      {
+        "label": {
+          "en": "Oncrawl AI bot activity and crawl cross-analysis",
+          "zh": "Oncrawl AI 爬虫活动与抓取交叉分析"
+        },
+        "url": "https://www.oncrawl.com/platform/ai-search-visibility/"
+      },
+      {
+        "label": {
+          "en": "Oncrawl subscription plans, premium Lenses and sales orders",
+          "zh": "Oncrawl 订阅方案、高级 Lens 与销售订单"
+        },
+        "url": "https://www.oncrawl.com/tos/"
+      }
+    ],
+    "verifiedAt": "2026-10-24",
+    "status": "published",
+    "featuredOrder": 73,
+    "sponsored": false
+  },
+  {
+    "slug": "proranktracker-ai",
+    "name": "ProRankTracker AI Visibility",
+    "category": "prompts",
+    "website": "https://proranktracker.com/ai-rank-tracker",
+    "logo": null,
+    "description": {
+      "en": "Track daily AI prompt results with separate reporting for brand mentions and citations.",
+      "zh": "每日追踪 AI 提示词结果，分别报告品牌提及与引用。"
+    },
+    "tags": {
+      "en": [
+        "Daily prompts",
+        "Mention tracking",
+        "Agency reports"
+      ],
+      "zh": [
+        "每日提示词",
+        "提及追踪",
+        "代理机构报告"
+      ]
+    },
+    "features": {
+      "en": [
+        "Track custom prompts daily across six AI platforms, separating text mentions from links to your website.",
+        "Research new prompts and compare competitors, with white-label reports and integrations on supported plans.",
+        "Usage is counted per prompt, URL and platform/location combination; the same prompt across multiple platforms consumes multiple units. The free offer is a limited trial."
+      ],
+      "zh": [
+        "跨六个 AI 平台每日追踪自定义提示词，区分文本提及和指向网站的链接。",
+        "研究新提示词并比较竞品，部分方案提供白标报告与集成。",
+        "用量按提示词、URL 与平台／地区组合计算；相同提示词跨多个平台会消耗多个单位。免费入口为限时试用。"
+      ]
+    },
+    "audience": {
+      "en": "SEO agencies and internal teams managing recurring AI prompt checks and client reports.",
+      "zh": "需要定期检查 AI 提示词并制作客户报告的 SEO 代理机构与内部团队。"
+    },
+    "platforms": [
+      "ChatGPT",
+      "Gemini",
+      "Microsoft Copilot",
+      "Perplexity",
+      "Google AI Overviews",
+      "Google AI Mode"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "ProRankTracker AI tracking product and reporting",
+          "zh": "ProRankTracker AI 追踪产品与报告"
+        },
+        "url": "https://proranktracker.com/ai-rank-tracker"
+      },
+      {
+        "label": {
+          "en": "ProRankTracker AI plans, supported engines and usage accounting",
+          "zh": "ProRankTracker AI 套餐、支持平台与用量计算"
+        },
+        "url": "https://proranktracker.com/ai_plans_and_pricing"
+      }
+    ],
+    "verifiedAt": "2026-10-24",
+    "status": "published",
+    "featuredOrder": 74,
+    "sponsored": false
+  },
+  {
+    "slug": "search-atlas-llm-visibility",
+    "name": "Search Atlas LLM Visibility",
+    "category": "competitors",
+    "website": "https://searchatlas.com/llm-visibility/",
+    "logo": null,
+    "description": {
+      "en": "Compare brand mentions, sentiment and share of voice across AI answer platforms.",
+      "zh": "跨 AI 回答平台比较品牌提及、情绪与声量份额。"
+    },
+    "tags": {
+      "en": [
+        "Competitive share",
+        "Brand sentiment",
+        "AI positioning"
+      ],
+      "zh": [
+        "竞争份额",
+        "品牌情绪",
+        "AI 呈现位置"
+      ]
+    },
+    "features": {
+      "en": [
+        "Monitor how your brand appears in AI answers and compare mention prominence, sentiment and share of voice with competitors.",
+        "Current Growth pricing lists ChatGPT, Gemini and Google AI Mode; Pro adds Microsoft Copilot, Perplexity and Claude.",
+        "The current Starter plan lists no LLM Visibility projects. Project and query allowances vary by subscription, and the free offer is a limited trial."
+      ],
+      "zh": [
+        "监测品牌在 AI 回答中的呈现，对比与竞品的提及位置、情绪和声量份额。",
+        "当前 Growth 定价列出 ChatGPT、Gemini 和 Google AI Mode；Pro 增加 Microsoft Copilot、Perplexity 与 Claude。",
+        "当前 Starter 方案不含 LLM Visibility 项目；项目与查询额度随订阅变化，免费入口为限时试用。"
+      ]
+    },
+    "audience": {
+      "en": "Brands and agencies benchmarking AI answer positioning within a broader marketing platform.",
+      "zh": "希望在营销平台中对比 AI 回答竞争定位的品牌与代理机构。"
+    },
+    "platforms": [
+      "ChatGPT",
+      "Gemini",
+      "Google AI Mode",
+      "Microsoft Copilot",
+      "Perplexity",
+      "Claude"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "Search Atlas LLM visibility, sentiment and competitive metrics",
+          "zh": "Search Atlas LLM 曝光、情绪与竞争指标"
+        },
+        "url": "https://searchatlas.com/llm-visibility/"
+      },
+      {
+        "label": {
+          "en": "Search Atlas current LLM project limits and engine coverage",
+          "zh": "Search Atlas 当前 LLM 项目限制与平台覆盖"
+        },
+        "url": "https://searchatlas.com/pricing/"
+      }
+    ],
+    "verifiedAt": "2026-10-24",
+    "status": "published",
+    "featuredOrder": 75,
     "sponsored": false
   }
 ]
