@@ -43,14 +43,31 @@ export function validateData(data) {
     if(tool.status==='published') {
       for(const field of ['description','audience'])localized(tool[field],`${label}.${field}`);
       for(const field of ['tags','features'])localized(tool[field],`${label}.${field}`,true);
+      for(const field of ['useCases','pricingDetails','limitations','selectionNotes'])if(!Array.isArray(tool[field]))fail(`${label}.${field}: required array; use [] when unverified`);
       date(tool.verifiedAt,`${label}.verifiedAt`);
       if(tool.verifiedAt>site.updatedAt)fail(`${label}: verifiedAt cannot exceed site.updatedAt`);
       if(!Array.isArray(tool.sources)||!tool.sources.length)fail(`${label}: published tools require sources`);
     }
     for(const source of tool.sources||[]){url(source.url,`${label}.source`);localized(source.label,`${label}.source.label`);}
+    for(const field of ['useCases','pricingDetails','limitations','selectionNotes']){
+      if(tool[field]!==undefined&&!Array.isArray(tool[field]))fail(`${label}.${field}: expected array`);
+      for(const [i,entry] of (Array.isArray(tool[field])?tool[field]:[]).entries()){
+        const entryLabel=`${label}.${field}[${i}]`;
+        localized(entry?.description,`${entryLabel}.description`);
+        if(entry?.summary!==undefined)localized(entry.summary,`${entryLabel}.summary`);
+        date(entry?.verifiedAt,`${entryLabel}.verifiedAt`);
+        if(entry?.verifiedAt>site.updatedAt)fail(`${entryLabel}.verifiedAt: cannot exceed site.updatedAt`);
+        if(entry?.alternativeSlug!==undefined&&(field!=='selectionNotes'||entry.alternativeSlug===tool.slug||!tools.some(other=>other.slug===entry.alternativeSlug)))fail(`${entryLabel}.alternativeSlug: expected another known tool in selectionNotes`);
+        if(!Array.isArray(entry?.sourceUrls)||!entry.sourceUrls.length)fail(`${entryLabel}.sourceUrls: required nonempty array`);
+        else {
+          if(new Set(entry.sourceUrls).size!==entry.sourceUrls.length)fail(`${entryLabel}.sourceUrls: duplicate source`);
+          for(const sourceUrl of entry.sourceUrls)if(!tool.sources?.some(source=>source.url===sourceUrl))fail(`${entryLabel}.sourceUrls: must reference this tool's sources`);
+        }
+      }
+    }
   }
   for(const [key,value] of Object.entries(ui))localized(value,`ui.${key}`);
-  const referencedKeys=['allTools','submit','search','heroTitle','searchResults','noResults','prepared','downloaded','duplicate','invalidUrl','priceFree','priceFreemium','pricePaid','priceContact Sales','priceUnknown','legalUpdatedAt','legalReferences'];
+  const referencedKeys=['allTools','submit','search','heroTitle','searchResults','noResults','prepared','downloaded','duplicate','invalidUrl','priceFree','priceFreemium','pricePaid','priceContact Sales','priceUnknown','legalUpdatedAt','legalReferences','useCases','useCaseSource','pricingDetails','limitations','selectionNotes','comparisonSubject','comparisonPricing','comparisonUseCases','comparisonLimits','comparisonUnavailable','comparisonScroll'];
   for(const key of referencedKeys)if(!ui[key])fail(`ui.${key}: missing`);
   for(const key of ['privacy-policy','disclaimer']){
     const page=pages[key];

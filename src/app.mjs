@@ -25,7 +25,7 @@ if(page==='search') {
       const terms=query.toLocaleLowerCase().split(/\s+/).filter(Boolean);
       const matches=data.tools.filter(tool=>{
         const c=data.categories.find(c=>c.slug===tool.category);
-        const haystack=[tool.name,tool.description.en,tool.description.zh,...tool.tags.en,...tool.tags.zh,...tool.features.en,...tool.features.zh,c.name.en,c.name.zh,...tool.platforms].join(' ').toLocaleLowerCase();
+        const haystack=[tool.name,tool.description.en,tool.description.zh,...tool.tags.en,...tool.tags.zh,...tool.features.en,...tool.features.zh,...['useCases','pricingDetails','limitations','selectionNotes'].flatMap(field=>tool[field].flatMap(entry=>[entry.description.en,entry.description.zh])),c.name.en,c.name.zh,...tool.platforms].join(' ').toLocaleLowerCase();
         return terms.every(term=>haystack.includes(term));
       });
       document.title=`${t('resultsFor')} “${query}” | ggeo.ai`;

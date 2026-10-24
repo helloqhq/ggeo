@@ -7,6 +7,7 @@ import {once} from 'node:events';
 import {runInNewContext} from 'node:vm';
 import {readData,validateData,root} from '../scripts/validate-data.mjs';
 import {createRenderer} from '../src/templates.mjs';
+import {card,escapeHtml,icon,normalizeWebsite} from '../src/components.mjs';
 const original=await readData(),clone=()=>structuredClone(original);
 const read=path=>readFile(resolve(root,'dist',path),'utf8');
 test('content validates with all eight canonical categories',()=>{
@@ -54,6 +55,101 @@ test('incomplete drafts validate and unpublished tools stay outside the director
   assert.ok(!published.some(t=>t.slug===slug));
   assert.ok(!render('en','home').includes('/tools/'+slug+'/'));
 });
+test('use cases require bilingual text and evidence from the same tool',()=>{
+  const example=original.tools[0].useCases[0];
+  for(const mutate of [
+    tool=>delete tool.useCases,
+    tool=>tool.useCases={},
+    tool=>tool.useCases=[null],
+    tool=>delete tool.useCases[0].description.zh,
+    tool=>tool.useCases[0].sourceUrls=[],
+    tool=>tool.useCases[0].sourceUrls='https://example.com/',
+    tool=>tool.useCases[0].sourceUrls=['https://example.com/unverified'],
+    tool=>tool.useCases[0].sourceUrls=[example.sourceUrls[0],example.sourceUrls[0]],
+    tool=>tool.sources=tool.sources.filter(source=>!example.sourceUrls.includes(source.url))
+  ]){
+    const data=clone();mutate(data.tools[0]);assert.throws(()=>validateData(data),/useCases/);
+  }
+  const data=clone();data.tools[0].useCases=[];
+  assert.doesNotThrow(()=>validateData(data));
+  assert.ok(!createRenderer(data).render('en','tool',data.tools[0].slug).includes('id="useCases"'));
+  data.tools[0].status='draft';delete data.tools[0].useCases;
+  assert.doesNotThrow(()=>validateData(data));
+});
+test('prices, limitations and selection notes reject missing evidence, invalid dates and unknown alternatives',()=>{
+  for(const field of ['pricingDetails','limitations','selectionNotes'])for(const mutate of [
+    tool=>delete tool[field],
+    tool=>delete tool[field][0].description.en,
+    tool=>tool[field][0].summary={en:'Incomplete summary'},
+    tool=>tool[field][0].sourceUrls=[],
+    tool=>tool[field][0].verifiedAt='2026-02-30',
+    tool=>tool[field][0].verifiedAt='2099-01-01'
+  ]){
+    const data=clone();mutate(data.tools[0]);assert.throws(()=>validateData(data));
+  }
+  for(const alternativeSlug of ['not-a-tool',original.tools[0].slug]){
+    const data=clone();data.tools[0].selectionNotes[0].alternativeSlug=alternativeSlug;
+    assert.throws(()=>validateData(data),/alternativeSlug/);
+  }
+  const data=clone(),alternative=data.tools.find(tool=>tool.slug===data.tools[0].selectionNotes[0].alternativeSlug);
+  alternative.status='hidden';
+  const html=createRenderer(data).render('en','tool',data.tools[0].slug);
+  assert.ok(!html.includes(`/tools/${alternative.slug}/`),'hidden comparisons do not produce broken detail links');
+});
+test('every published detail renders in static HTML with working evidence and alternative links',async()=>{
+  for(const tool of original.tools.filter(tool=>tool.status==='published'))for(const lang of ['en','zh']){
+    const html=await read(`${lang}/tools/${tool.slug}/index.html`);
+    const comparisonFields=['pricingDetails','useCases','limitations'];
+    const alternatives=tool.selectionNotes.map(entry=>entry.alternativeSlug?original.tools.find(other=>other.status==='published'&&other.slug===entry.alternativeSlug):original.tools.filter(other=>other.status==='published'&&other.category===tool.category&&other.slug!==tool.slug&&comparisonFields.every(field=>other[field].length)).sort((a,b)=>a.featuredOrder-b.featuredOrder)[0]);
+    if(tool.selectionNotes.length){
+      const tables=[...html.matchAll(/<table class="selection-table">([\s\S]*?)<\/table>/g)];
+      assert.equal(tables.length,tool.selectionNotes.length,`${tool.slug}: selection comparison tables`);
+      assert.ok(html.includes(`<th scope="col">${original.ui.comparisonSubject[lang]}</th>`),`${tool.slug}: localized table heading`);
+      for(const [i,match] of tables.entries()){
+        const table=match[1],alternative=alternatives[i];
+        assert.equal((table.match(/scope="col"/g)||[]).length,3,`${tool.slug}: three comparison columns`);
+        assert.ok(table.includes(escapeHtml(tool.name)),`${tool.slug}: current tool heading`);
+        if(alternative){
+          assert.ok(table.includes(escapeHtml(alternative.name)),`${tool.slug}: alternative heading`);
+          for(const field of comparisonFields)for(const entry of alternative[field])assert.ok(table.includes(escapeHtml((entry.summary||entry.description)[lang])),`${tool.slug}: alternative ${field} content`);
+        }
+      }
+    }
+    const detailFields=['useCases','pricingDetails','limitations','selectionNotes'];
+    const latestDate=[tool.verifiedAt,...detailFields.flatMap(field=>tool[field].map(entry=>entry.verifiedAt)),...alternatives.flatMap(alternative=>alternative?comparisonFields.flatMap(field=>alternative[field].map(entry=>entry.verifiedAt)):[])].sort().at(-1);
+    assert.equal((html.match(/<time\b/g)||[]).length,1,`${tool.slug}: one verification date`);
+    assert.ok(html.includes(`<time datetime="${latestDate}">${latestDate}</time>`),`${tool.slug}: latest verification`);
+    if(tool.useCases.length)assert.ok(html.indexOf(`<h2>${original.ui.audience[lang]}</h2>`)<html.indexOf('id="useCases"'),`${tool.slug}: audience before use cases`);
+    for(const field of ['useCases','pricingDetails','limitations'])for(const useCase of tool[field]){
+      assert.ok(html.includes(escapeHtml(useCase.description[lang])),`${tool.slug}: ${lang} use case`);
+      if(useCase.alternativeSlug)assert.ok(html.includes(`href="/${lang}/tools/${useCase.alternativeSlug}/"`),`${tool.slug}: alternative link`);
+      for(const url of useCase.sourceUrls){
+        const sourceId=`source-${tool.sources.findIndex(source=>source.url===url)+1}`;
+        assert.ok(html.includes(`href="#${sourceId}"`),`${tool.slug}: source link`);
+        assert.ok(html.includes(`<li id="${sourceId}">`),`${tool.slug}: source target`);
+      }
+    }
+  }
+  const data=clone();data.tools[0].useCases[0].description={en:'<script>unsafe</script>',zh:'<b>场景</b>'};
+  for(const lang of ['en','zh']){
+    const html=createRenderer(data).render(lang,'tool',data.tools[0].slug);
+    assert.ok(html.includes(escapeHtml(data.tools[0].useCases[0].description[lang])));
+    assert.ok(!html.includes(data.tools[0].useCases[0].description[lang]));
+  }
+});
+test('search finds use-case-only phrases in either language without indexing source URLs',async()=>{
+  const source=(await readFile(resolve(root,'src/app.mjs'),'utf8')).replace(/^import .*;\n/m,'');
+  const data=clone(),tool=data.tools[0];
+  tool.useCases[0].description={en:'Editorialhandoff workflow',zh:'季度场景复盘'};
+  tool.useCases[0].sourceUrls=['https://example.com/evidenceonlytoken'];
+  for(const lang of ['en','zh'])for(const query of ['Editorialhandoff','季度场景复盘','Editorialhandoff 季度场景复盘','evidenceonlytoken']){
+    const results={},status={};
+    const document={body:{dataset:{language:lang,page:'search'}},querySelectorAll:()=>[],querySelector:()=>({}),getElementById:id=>id==='search-results'?results:status};
+    await runInNewContext(`(async()=>{${source}})()`,{document,location:{search:'?q='+encodeURIComponent(query)},URLSearchParams,fetch:async()=>({ok:true,json:async()=>data}),card,e:escapeHtml,icon,normalizeWebsite});
+    if(query==='evidenceonlytoken')assert.ok(!results.innerHTML.includes(`/tools/${tool.slug}/`));
+    else assert.ok(results.innerHTML.includes(`/${lang}/tools/${tool.slug}/`),`${lang}: ${query}`);
+  }
+});
 test('escapes editorial content, discloses affiliate links and labels sponsorship',()=>{
   const data=clone();data.tools[0].name='<script>alert(1)</script>';data.tools[0].sponsored=true;assert.ok(createRenderer(data).render('en','tool',data.tools[0].slug).includes('rel="sponsored noopener noreferrer"'));data.site.affiliateLinks[data.tools[0].slug]='https://example.com/ref?x=1&y=2';
   const html=createRenderer(data).render('en','tool',data.tools[0].slug);
@@ -67,6 +163,7 @@ test('outbound links include UTM in both languages while preserving queries and 
   const data=clone(),tool=data.tools[0],label=tool.sources[0].label;
   tool.website='https://example.com/?ref=partner%20name&token=a%2Fb%3D#pricing';
   tool.sources=[{label,url:'http://example.com/docs#section'},{label,url:'https://example.com/help?utm_source=partner#faq'}];
+  for(const field of ['useCases','pricingDetails','limitations','selectionNotes'])for(const entry of tool[field])entry.sourceUrls=[tool.sources[0].url];
   data.site.partnerLinks=[
     {title:label,description:label,url:'https://example.com/partner'},
     {title:label,description:label,url:data.site.url+'/en/'}

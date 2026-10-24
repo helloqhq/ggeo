@@ -1,4 +1,4 @@
 interface:
   display_name: "GEO 目录数据更新"
-  short_description: "核验并维护 ggeo.ai 的双语工具资料与 JSON 运营配置"
-  default_prompt: "使用 $ggeo-data-update 核验并更新 ggeo.ai 工具目录数据，完成双语内容及构建验证。"
+  short_description: "维护 ggeo.ai 双语资料、价格与对比摘要，核对信源和日期"
+  default_prompt: "使用 $ggeo-data-update 按数据约定核验并更新 ggeo.ai 双语工具资料、价格和对比摘要，维护信源及日期并完成构建验证。"

@@ -111,6 +111,50 @@
     "en": "What it does",
     "zh": "功能概述"
   },
+  "pricingDetails": {
+    "en": "Pricing & plans",
+    "zh": "价格与套餐"
+  },
+  "limitations": {
+    "en": "Limits & requirements",
+    "zh": "限制与使用前提"
+  },
+  "comparisonSubject": {
+    "en": "Comparison item",
+    "zh": "对比项"
+  },
+  "comparisonPricing": {
+    "en": "Price",
+    "zh": "价格"
+  },
+  "comparisonUseCases": {
+    "en": "Use",
+    "zh": "用途"
+  },
+  "comparisonLimits": {
+    "en": "Limits",
+    "zh": "限制"
+  },
+  "comparisonUnavailable": {
+    "en": "No verified comparison data",
+    "zh": "暂无已核验的对比资料"
+  },
+  "comparisonScroll": {
+    "en": "Swipe to view the full comparison.",
+    "zh": "左右滑动查看完整对比。"
+  },
+  "selectionNotes": {
+    "en": "How to choose",
+    "zh": "选型差异"
+  },
+  "useCases": {
+    "en": "Use cases",
+    "zh": "适用场景"
+  },
+  "useCaseSource": {
+    "en": "Source",
+    "zh": "依据"
+  },
   "audience": {
     "en": "Who it is for",
     "zh": "适用人群"
