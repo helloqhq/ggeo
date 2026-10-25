@@ -9926,5 +9926,1725 @@
         "verifiedAt": "2026-10-24"
       }
     ]
+  },
+  {
+    "slug": "seoptimer-geo-audit",
+    "name": "SEOptimer GEO Audit",
+    "category": "geo-audit",
+    "website": "https://www.seoptimer.com/geo-audit/",
+    "logo": null,
+    "description": {
+      "en": "Audit how ready a website is for AI search, with LLM accessibility, content and prompt visibility checks.",
+      "zh": "审计网站对 AI 搜索的准备度，覆盖 LLM 可访问性、内容与提示词可见性检查。"
+    },
+    "tags": {
+      "en": [
+        "GEO audit",
+        "LLM accessibility",
+        "White-label reports"
+      ],
+      "zh": [
+        "GEO 审计",
+        "LLM 可访问性",
+        "白标报告"
+      ]
+    },
+    "features": {
+      "en": [
+        "Check LLM accessibility signals such as robots.txt, llms.txt, sitemaps, noindex rules and how content renders for machines.",
+        "Analyse content factors including entity definition, trust signals, Q&A structure, citable facts and freshness.",
+        "Test visibility for 40+ discovery prompts across ChatGPT, Claude, Gemini and Perplexity, with competitor share of voice and average position.",
+        "Export white-label PDF GEO audit reports for clients."
+      ],
+      "zh": [
+        "检查 robots.txt、llms.txt、站点地图、noindex 规则及内容对机器的渲染方式等 LLM 可访问性信号。",
+        "分析实体定义、信任信号、问答结构、可引用事实与内容新鲜度等内容因素。",
+        "在 ChatGPT、Claude、Gemini 与 Perplexity 上测试 40 多个发现型提示词的可见性，并对比竞品声量份额与平均位置。",
+        "导出白标 PDF 版 GEO 审计报告给客户。"
+      ]
+    },
+    "audience": {
+      "en": "SEO teams and agencies that need repeatable website audits before and after AI search optimization.",
+      "zh": "需要在 AI 搜索优化前后做可重复网站审计的 SEO 团队与代理商。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Before optimizing for AI search, audit whether AI engines can access and parse the site, covering robots.txt, llms.txt, sitemaps, noindex rules and machine rendering, then fix the flagged blockers.",
+          "zh": "在针对 AI 搜索做优化之前，先审计 AI 引擎能否访问并解析网站，覆盖 robots.txt、llms.txt、站点地图、noindex 规则与机器渲染，再逐项修复被标记的问题。"
+        },
+        "summary": {
+          "en": "Audit AI crawler access and parseability before optimizing.",
+          "zh": "优化前先审计 AI 爬虫的访问与解析。"
+        },
+        "sourceUrls": [
+          "https://www.seoptimer.com/geo-audit/"
+        ],
+        "verifiedAt": "2026-10-25"
+      },
+      {
+        "description": {
+          "en": "Benchmark how the brand and competitors appear for discovery prompts across ChatGPT, Claude, Gemini and Perplexity, using share of voice, average position and platform breakdowns.",
+          "zh": "在 ChatGPT、Claude、Gemini 与 Perplexity 上，用声量份额、平均位置与平台拆分对比品牌与竞品在发现型提示词中的表现。"
+        },
+        "summary": {
+          "en": "Benchmark brand and competitor visibility on discovery prompts.",
+          "zh": "对比品牌与竞品在发现型提示词上的可见性。"
+        },
+        "sourceUrls": [
+          "https://www.seoptimer.com/geo-audit/"
+        ],
+        "verifiedAt": "2026-10-25"
+      }
+    ],
+    "platforms": [
+      "ChatGPT",
+      "Claude",
+      "Gemini",
+      "Perplexity",
+      "Google AI Overviews"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "SEOptimer GEO Audit product page",
+          "zh": "SEOptimer GEO Audit 产品页"
+        },
+        "url": "https://www.seoptimer.com/geo-audit/"
+      },
+      {
+        "label": {
+          "en": "SEOptimer plans and pricing",
+          "zh": "SEOptimer 套餐与定价"
+        },
+        "url": "https://www.seoptimer.com/pricing/"
+      },
+      {
+        "label": {
+          "en": "Sitebulb Labs product page (comparison reference)",
+          "zh": "Sitebulb Labs 产品页（对比参考）"
+        },
+        "url": "https://labs.sitebulb.com/"
+      }
+    ],
+    "verifiedAt": "2026-10-25",
+    "status": "published",
+    "featuredOrder": 76,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "Standalone GEO plans are GEO 1 at $29/month for 50 GEO audits, GEO 2 at $49/month for 100 and GEO 3 at $79/month for 250; with annual billing these convert to about $21.75, $36.75 and $59.25 per month. A 14-day free trial is available.",
+          "zh": "独立 GEO 套餐为 GEO 1 每月 29 美元含 50 次 GEO 审计、GEO 2 每月 49 美元含 100 次、GEO 3 每月 79 美元含 250 次；按年结算分别折算约每月 21.75、36.75 与 59.25 美元。提供 14 天免费试用。"
+        },
+        "summary": {
+          "en": "GEO plans $29/$49/$79 per month for 50/100/250 audits; annual about $21.75/$36.75/$59.25 monthly; 14-day trial.",
+          "zh": "GEO 套餐每月 29/49/79 美元，含 50/100/250 次审计；年付折算约每月 21.75/36.75/59.25 美元；14 天试用。"
+        },
+        "sourceUrls": [
+          "https://www.seoptimer.com/pricing/"
+        ],
+        "verifiedAt": "2026-10-25"
+      },
+      {
+        "description": {
+          "en": "In the main SEOptimer plans, DIY SEO at $29/month includes GEO audits, while the White Label ($39/month) and Lead Generation ($59/month) plans list 10 GEO audits per month in the annual comparison table.",
+          "zh": "在 SEOptimer 主套餐中，每月 29 美元的 DIY SEO 包含 GEO 审计，而 White Label（每月 39 美元）与 Lead Generation（每月 59 美元）在年付对比表中列为每月 10 次 GEO 审计。"
+        },
+        "summary": {
+          "en": "DIY SEO $29/month includes GEO audits; White Label $39 and Lead Generation $59 list 10 GEO audits monthly.",
+          "zh": "DIY SEO 每月 29 美元包含 GEO 审计；White Label 39 美元与 Lead Generation 59 美元按月列 10 次。"
+        },
+        "sourceUrls": [
+          "https://www.seoptimer.com/pricing/"
+        ],
+        "verifiedAt": "2026-10-25"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "GEO audit volume is capped by plan: 50, 100 or 250 per month on the standalone GEO plans, and 10 per month on the White Label and Lead Generation plans.",
+          "zh": "GEO 审计次数受套餐上限约束：独立 GEO 套餐为每月 50、100 或 250 次，White Label 与 Lead Generation 套餐为每月 10 次。"
+        },
+        "summary": {
+          "en": "GEO audits capped at 10–250 per month depending on plan.",
+          "zh": "GEO 审计按套餐每月上限 10–250 次。"
+        },
+        "sourceUrls": [
+          "https://www.seoptimer.com/pricing/"
+        ],
+        "verifiedAt": "2026-10-25"
+      },
+      {
+        "description": {
+          "en": "Prompt visibility checks run on ChatGPT, Claude, Gemini and Perplexity; other AI engines are not listed in the audit scope.",
+          "zh": "提示词可见性检查在 ChatGPT、Claude、Gemini 与 Perplexity 上进行；审计范围未列其他 AI 引擎。"
+        },
+        "summary": {
+          "en": "Prompt checks cover ChatGPT, Claude, Gemini and Perplexity only.",
+          "zh": "提示词检查仅覆盖 ChatGPT、Claude、Gemini 与 Perplexity。"
+        },
+        "sourceUrls": [
+          "https://www.seoptimer.com/geo-audit/"
+        ],
+        "verifiedAt": "2026-10-25"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Choose SEOptimer GEO Audit to get prompt-level AI visibility tests and competitor share of voice inside a repeatable website audit with white-label reports; choose Sitebulb Labs for browser-based, page-level technical checks of AI-agent protocols such as llms.txt, markdown negotiation and agent rules. The former is a paid subscription, while the Labs extension runs its 50 checks locally in the browser.",
+          "zh": "需要在一个可重复的网站审计中同时获得提示词级 AI 可见性测试、竞品声量与白标报告时选 SEOptimer GEO Audit；需要在浏览器本地对 llms.txt、Markdown 协商、Agent 规则等 AI 代理协议做页面级技术检查时选 Sitebulb Labs。前者为付费订阅，后者的浏览器扩展在本地运行约 50 项检查。"
+        },
+        "sourceUrls": [
+          "https://www.seoptimer.com/geo-audit/",
+          "https://www.seoptimer.com/pricing/",
+          "https://labs.sitebulb.com/"
+        ],
+        "verifiedAt": "2026-10-25"
+      }
+    ]
+  },
+  {
+    "slug": "uberall-geo-studio",
+    "name": "Uberall GEO Studio",
+    "category": "local-geo",
+    "website": "https://uberall.com/en-us/products/geo-studio",
+    "logo": null,
+    "description": {
+      "en": "Track and improve how AI assistants present multi-location brands, with monitoring, diagnostics and content actions.",
+      "zh": "监测并改进 AI 助手对多门店品牌的呈现方式，覆盖监控、诊断与内容行动。"
+    },
+    "tags": {
+      "en": [
+        "Multi-location",
+        "Share of voice",
+        "AI visibility score"
+      ],
+      "zh": [
+        "多门店管理",
+        "声量份额",
+        "AI 可见性评分"
+      ]
+    },
+    "features": {
+      "en": [
+        "Monitor share of voice, citations, mentions and brand traits across nine AI models, broken down by persona, location and competitive benchmark.",
+        "Diagnose source breakdowns including Reddit, LinkedIn, TikTok and YouTube, competitor gaps, hallucination detection and prompt patterns.",
+        "Turn gaps into prioritized recommendations scored by effort and impact, and publish content built to be cited to Shopify, WordPress, Webflow and other CMS platforms."
+      ],
+      "zh": [
+        "跨九个 AI 模型监测声量份额、引用、提及与品牌特质，可按画像、门店与竞品基准拆分。",
+        "诊断来源构成（含 Reddit、LinkedIn、TikTok、YouTube）、竞品缺口、幻觉风险与提示词模式。",
+        "将缺口转化为按投入与影响评分的优先建议，并把为被引用而构建的内容发布到 Shopify、WordPress、Webflow 等 CMS。"
+      ]
+    },
+    "audience": {
+      "en": "Enterprise and multi-location brand teams managing AI visibility across markets and stores.",
+      "zh": "跨市场与门店管理 AI 可见性的企业与多门店品牌团队。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Track an AI Visibility Score for a multi-location brand, with share of voice, citations and mentions broken down per location, persona and competitor.",
+          "zh": "追踪多门店品牌的 AI 可见性评分，并将声量份额、引用与提及按门店、画像与竞品拆分查看。"
+        },
+        "summary": {
+          "en": "Track AI visibility per location, persona and competitor.",
+          "zh": "按门店、画像与竞品追踪 AI 可见性。"
+        },
+        "sourceUrls": [
+          "https://uberall.com/en-us/products/geo-studio"
+        ],
+        "verifiedAt": "2026-10-25"
+      },
+      {
+        "description": {
+          "en": "Diagnose which third-party sources, including Reddit, LinkedIn, TikTok and YouTube, AI models draw on when describing the brand, and detect hallucinated or incorrect business facts in answers.",
+          "zh": "诊断 AI 模型在描述品牌时引用了哪些第三方来源（含 Reddit、LinkedIn、TikTok、YouTube），并检测回答中的幻觉或错误商家信息。"
+        },
+        "summary": {
+          "en": "Diagnose cited third-party sources and hallucinated facts.",
+          "zh": "诊断被引第三方来源与幻觉信息。"
+        },
+        "sourceUrls": [
+          "https://uberall.com/en-us/products/geo-studio"
+        ],
+        "verifiedAt": "2026-10-25"
+      },
+      {
+        "description": {
+          "en": "Fill competitor gaps with content created from those gaps and publish it natively to the CMS, then re-check visibility.",
+          "zh": "针对竞品缺口生成内容并原生发布到 CMS，随后复查可见性变化。"
+        },
+        "summary": {
+          "en": "Create gap-driven content, publish to CMS, re-check.",
+          "zh": "按缺口创作内容、发布到 CMS 并复查。"
+        },
+        "sourceUrls": [
+          "https://uberall.com/en-us/products/geo-studio"
+        ],
+        "verifiedAt": "2026-10-25"
+      }
+    ],
+    "platforms": [
+      "ChatGPT",
+      "Perplexity",
+      "Google AI Overviews",
+      "Google AI Mode",
+      "Gemini",
+      "Claude",
+      "Microsoft Copilot",
+      "Grok",
+      "DeepSeek"
+    ],
+    "pricing": "Contact Sales",
+    "sources": [
+      {
+        "label": {
+          "en": "Uberall GEO Studio product page",
+          "zh": "Uberall GEO Studio 产品页"
+        },
+        "url": "https://uberall.com/en-us/products/geo-studio"
+      },
+      {
+        "label": {
+          "en": "Uberall plans overview",
+          "zh": "Uberall 套餐总览"
+        },
+        "url": "https://uberall.com/en-us/pricing"
+      },
+      {
+        "label": {
+          "en": "Yext FAQ on Scout packaging (comparison reference)",
+          "zh": "Yext 关于 Scout 购买方式的 FAQ（对比参考）"
+        },
+        "url": "https://www.yext.com/knowledge-center/yext-faq"
+      }
+    ],
+    "verifiedAt": "2026-10-25",
+    "status": "published",
+    "featuredOrder": 77,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "GEO Studio uses a usage-based credit model with monthly credit packages, banking of unused credits and top-ups; the main Uberall plans are quoted individually and no public prices or credit amounts are listed on the pricing page.",
+          "zh": "GEO Studio 采用按用量的积分模式，提供月度积分包、未用积分结转与加购；Uberall 主套餐按需单独报价，定价页未公布任何公开价格或积分数量。"
+        },
+        "summary": {
+          "en": "Usage-based credits with monthly packages and rollover; no public prices, quote-based.",
+          "zh": "按用量积分计费，月度积分包可结转；无公开价格，需报价。"
+        },
+        "sourceUrls": [
+          "https://uberall.com/en-us/products/geo-studio",
+          "https://uberall.com/en-us/pricing"
+        ],
+        "verifiedAt": "2026-10-25"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "Pricing is quote-based: plan prices and credit package amounts are not published, and access runs through demo or pricing requests.",
+          "zh": "定价为报价制：套餐价格与积分包数量未公开，需通过演示或定价申请获取。"
+        },
+        "summary": {
+          "en": "No public prices; access via demo or quote requests.",
+          "zh": "无公开价格，需申请演示或报价。"
+        },
+        "sourceUrls": [
+          "https://uberall.com/en-us/pricing"
+        ],
+        "verifiedAt": "2026-10-25"
+      },
+      {
+        "description": {
+          "en": "Each analysis consumes credits, so monitoring breadth across locations, personas and nine AI models depends on the purchased credit package.",
+          "zh": "每次分析消耗积分，门店、画像与九个 AI 模型的监测广度取决于所购积分包。"
+        },
+        "summary": {
+          "en": "Every analysis consumes credits from the package.",
+          "zh": "每次分析都消耗积分包额度。"
+        },
+        "sourceUrls": [
+          "https://uberall.com/en-us/products/geo-studio"
+        ],
+        "verifiedAt": "2026-10-25"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Uberall GEO Studio and Yext Scout both target AI visibility for multi-location brands. Uberall meters usage with credits and tracks nine AI models, while Yext states that Scout can be bought on its own or packaged into a solution priced by location count, solution and contract term. Compare both quotes for the same location footprint before choosing.",
+          "zh": "Uberall GEO Studio 与 Yext Scout 都面向多门店品牌的 AI 可见性。Uberall 按积分计量用量并追踪九个 AI 模型；Yext 官方 FAQ 说明 Scout 可单独购买或打包进按门店数量、方案与合同期定价的整套方案。建议按相同门店规模分别询价后再选择。"
+        },
+        "sourceUrls": [
+          "https://uberall.com/en-us/products/geo-studio",
+          "https://uberall.com/en-us/pricing",
+          "https://www.yext.com/knowledge-center/yext-faq"
+        ],
+        "verifiedAt": "2026-10-25"
+      }
+    ]
+  },
+  {
+    "slug": "promptrush",
+    "name": "PromptRush",
+    "category": "prompts",
+    "website": "https://www.promptrush.ai/",
+    "logo": null,
+    "description": {
+      "en": "Run daily prompt scans across five AI search engines and track brand mentions, positions and cited sources.",
+      "zh": "每天在五个 AI 搜索引擎上扫描提示词，追踪品牌提及、位置与引用来源。"
+    },
+    "tags": {
+      "en": [
+        "Prompt tracking",
+        "Daily scans",
+        "Competitor monitoring"
+      ],
+      "zh": [
+        "提示词追踪",
+        "每日扫描",
+        "竞品监控"
+      ]
+    },
+    "features": {
+      "en": [
+        "Scan tracked prompts daily on ChatGPT, Gemini, Perplexity, Google AI Overviews and Google AI Mode, with an AI visibility score overall and per engine.",
+        "Record the full AI answer text for each prompt and auto-detect which competitors are named in the answers.",
+        "Track cited sources and domains, follow historical trends and share reports; projects can be scoped per country."
+      ],
+      "zh": [
+        "每天在 ChatGPT、Gemini、Perplexity、Google AI Overviews 与 Google AI Mode 上扫描追踪的提示词，并给出总体及分引擎的 AI 可见性评分。",
+        "记录每个提示词的完整 AI 回答原文，并自动识别回答中被点名的竞品。",
+        "追踪被引用的来源与域名，查看历史趋势并分享报告；项目可按国家划分。"
+      ]
+    },
+    "audience": {
+      "en": "Marketers who want keyword-rank-style, daily tracking for prompts across AI search engines.",
+      "zh": "希望像关键词排名追踪一样、按天追踪提示词表现的营销人员。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Track a fixed prompt set daily across the five included engines and watch the per-engine visibility score and position changes over time.",
+          "zh": "在五个内置引擎上每日追踪固定提示词集合，观察各引擎可见性评分与位置随时间的变化。"
+        },
+        "summary": {
+          "en": "Daily prompt tracking with per-engine visibility scores.",
+          "zh": "每日追踪提示词并按引擎查看可见性评分。"
+        },
+        "sourceUrls": [
+          "https://www.promptrush.ai/",
+          "https://www.promptrush.ai/pricing/"
+        ],
+        "verifiedAt": "2026-10-25"
+      },
+      {
+        "description": {
+          "en": "Auto-detect which competitors get named inside AI answers for the same prompts and benchmark brand presence against them.",
+          "zh": "自动识别相同提示词下 AI 回答中提及的竞品，并对照比较品牌存在感。"
+        },
+        "summary": {
+          "en": "Auto-detect competitor mentions in AI answers.",
+          "zh": "自动识别 AI 回答中的竞品提及。"
+        },
+        "sourceUrls": [
+          "https://www.promptrush.ai/"
+        ],
+        "verifiedAt": "2026-10-25"
+      },
+      {
+        "description": {
+          "en": "Scope projects per country to compare how the brand appears in AI answers across markets.",
+          "zh": "按国家划分项目，比较品牌在不同市场 AI 回答中的表现。"
+        },
+        "summary": {
+          "en": "Compare AI visibility across countries per project.",
+          "zh": "按项目比较不同国家的 AI 可见性。"
+        },
+        "sourceUrls": [
+          "https://www.promptrush.ai/"
+        ],
+        "verifiedAt": "2026-10-25"
+      }
+    ],
+    "platforms": [
+      "ChatGPT",
+      "Gemini",
+      "Perplexity",
+      "Google AI Overviews",
+      "Google AI Mode"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "PromptRush product and engines",
+          "zh": "PromptRush 产品与支持引擎"
+        },
+        "url": "https://www.promptrush.ai/"
+      },
+      {
+        "label": {
+          "en": "PromptRush plans and Claude add-on",
+          "zh": "PromptRush 套餐与 Claude 附加项"
+        },
+        "url": "https://www.promptrush.ai/pricing/"
+      },
+      {
+        "label": {
+          "en": "OtterlyAI pricing (comparison reference)",
+          "zh": "OtterlyAI 定价（对比参考）"
+        },
+        "url": "https://otterly.ai/pricing"
+      }
+    ],
+    "verifiedAt": "2026-10-25",
+    "status": "published",
+    "featuredOrder": 78,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "Lite is $19/month for 1 project and 25 prompts with daily scans on all five included models, Growth is $99/month for 2 projects and 150 prompts, and Scale is $279/month for 5 projects and 400 prompts; Enterprise is custom. Annual billing is about 15% off and all paid plans carry a 30-day money-back guarantee.",
+          "zh": "Lite 每月 19 美元，含 1 个项目、25 个提示词并在五个内置模型上每日扫描；Growth 每月 99 美元，含 2 个项目、150 个提示词；Scale 每月 279 美元，含 5 个项目、400 个提示词；Enterprise 定制。年付约 85 折，所有付费套餐提供 30 天退款保证。"
+        },
+        "summary": {
+          "en": "Lite/Growth/Scale at $19/$99/$279 per month for 25/150/400 prompts; annual about 15% off; 30-day money-back.",
+          "zh": "Lite/Growth/Scale 每月 19/99/279 美元，含 25/150/400 个提示词；年付约 85 折；30 天退款保证。"
+        },
+        "sourceUrls": [
+          "https://www.promptrush.ai/pricing/"
+        ],
+        "verifiedAt": "2026-10-25"
+      },
+      {
+        "description": {
+          "en": "Claude tracking is a paid add-on on any paid plan: Claude Starter at $39/month for 25 Claude prompts per day, Standard at $69/month for 50 and Plus at $129/month for 100. The add-on runs on the Anthropic API with web search, so results may differ from claude.ai.",
+          "zh": "Claude 追踪是任一付费套餐的可选附加项：Claude Starter 每月 39 美元含每天 25 个 Claude 提示词，Standard 每月 69 美元含 50 个，Plus 每月 129 美元含 100 个。该附加项基于带网络搜索的 Anthropic API，结果可能与 claude.ai 不同。"
+        },
+        "summary": {
+          "en": "Claude add-on $39/$69/$129 per month for 25/50/100 daily prompts; API-based, may differ from claude.ai.",
+          "zh": "Claude 附加项每月 39/69/129 美元，含每天 25/50/100 个提示词；基于 API，结果可能与 claude.ai 有差异。"
+        },
+        "sourceUrls": [
+          "https://www.promptrush.ai/pricing/"
+        ],
+        "verifiedAt": "2026-10-25"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "Claude is only available through the paid add-on, which uses the Anthropic API with web search; PromptRush itself notes results may differ from claude.ai.",
+          "zh": "Claude 仅通过付费附加项提供，该附加项使用带网络搜索的 Anthropic API；PromptRush 自己说明结果可能与 claude.ai 存在差异。"
+        },
+        "summary": {
+          "en": "Claude requires a paid add-on; results may differ from claude.ai.",
+          "zh": "Claude 需付费附加项；结果可能与 claude.ai 不同。"
+        },
+        "sourceUrls": [
+          "https://www.promptrush.ai/pricing/"
+        ],
+        "verifiedAt": "2026-10-25"
+      },
+      {
+        "description": {
+          "en": "Prompt and project counts are capped per plan (25/150/400 prompts and 1/2/5 projects), and there is no standing free tier, only a one-off free visibility report.",
+          "zh": "提示词与项目数受套餐上限约束（25/150/400 个提示词、1/2/5 个项目），没有长期免费版，仅提供一次性免费可见性报告。"
+        },
+        "summary": {
+          "en": "Prompts and projects capped per plan; no standing free tier.",
+          "zh": "提示词与项目数按套餐设上限；无长期免费版。"
+        },
+        "sourceUrls": [
+          "https://www.promptrush.ai/pricing/"
+        ],
+        "verifiedAt": "2026-10-25"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "At similar entry prices, PromptRush Lite ($19/month) includes daily scans for 25 prompts on five engines with Claude as an add-on, while OtterlyAI Lite ($29/month, or $25/month annually) includes 15 prompts with ChatGPT, Google AI Overviews, Perplexity and MS Copilot, and offers Claude, Gemini and AI Mode as paid add-ons. Compare the included engine mix against the platforms your audience actually uses.",
+          "zh": "入门价位相近时对比引擎组合：PromptRush Lite（每月 19 美元）含 25 个提示词在五个引擎上的每日扫描，Claude 需附加项；OtterlyAI Lite（每月 29 美元，年付每月 25 美元）含 15 个提示词，覆盖 ChatGPT、Google AI Overviews、Perplexity 与 MS Copilot，Claude、Gemini 和 AI Mode 为付费附加项。建议按目标受众实际使用的平台选择。"
+        },
+        "sourceUrls": [
+          "https://www.promptrush.ai/pricing/",
+          "https://otterly.ai/pricing"
+        ],
+        "verifiedAt": "2026-10-25"
+      }
+    ]
+  },
+  {
+    "slug": "slate",
+    "name": "Slate",
+    "category": "citations",
+    "website": "https://slatehq.com/",
+    "logo": null,
+    "description": {
+      "en": "Track AI citations and share of voice, then refresh and publish content to recapture them in one workflow.",
+      "zh": "追踪 AI 引用与声量份额，并在同一工作流中更新、发布内容以夺回引用。"
+    },
+    "tags": {
+      "en": [
+        "Citation tracking",
+        "Content workflows",
+        "Share of voice"
+      ],
+      "zh": [
+        "引用追踪",
+        "内容工作流",
+        "声量份额"
+      ]
+    },
+    "features": {
+      "en": [
+        "Track share of voice and citations across ChatGPT, Perplexity, Gemini, Google AI Overviews and Google AI Mode, flagging prompts where competitors own the visibility.",
+        "Run agentic workflows and Power Sheets to research, refresh, optimize and bulk-update content across thousands of URLs.",
+        "Publish finished work natively to Webflow and WordPress, with brand kits keeping generated content on-brand."
+      ],
+      "zh": [
+        "追踪 ChatGPT、Perplexity、Gemini、Google AI Overviews 与 Google AI Mode 上的声量份额与引用，并标记竞品占优的提示词。",
+        "通过 Agent 工作流与 Power Sheets 对数千个 URL 进行研究、更新、优化与批量内容修改。",
+        "将成果原生发布到 Webflow 与 WordPress，品牌套件保持生成内容风格一致。"
+      ]
+    },
+    "audience": {
+      "en": "Content and SEO teams that want citation tracking tied directly to content execution.",
+      "zh": "希望把引用追踪与内容执行直接衔接的内容与 SEO 团队。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Monitor which prompts the brand is cited for across the major LLMs, where share of voice is lost and which prompts competitors own.",
+          "zh": "监测品牌在主流大模型上被引用的提示词、声量份额流失之处以及被竞品占优的提示词。"
+        },
+        "summary": {
+          "en": "Monitor cited prompts and lost share of voice.",
+          "zh": "监测被引提示词与流失的声量份额。"
+        },
+        "sourceUrls": [
+          "https://slatehq.com/"
+        ],
+        "verifiedAt": "2026-10-25"
+      },
+      {
+        "description": {
+          "en": "Refresh underperforming pages in bulk with Power Sheets and agentic workflows, publish updates to the CMS, and re-track citations after the changes.",
+          "zh": "用 Power Sheets 与 Agent 工作流批量更新表现不佳的页面，将更新发布到 CMS，并在修改后复查引用变化。"
+        },
+        "summary": {
+          "en": "Bulk-refresh pages, publish, then re-track citations.",
+          "zh": "批量更新页面、发布后复查引用。"
+        },
+        "sourceUrls": [
+          "https://slatehq.com/"
+        ],
+        "verifiedAt": "2026-10-25"
+      }
+    ],
+    "platforms": [
+      "ChatGPT",
+      "Perplexity",
+      "Gemini",
+      "Google AI Overviews",
+      "Google AI Mode"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "Slate product overview",
+          "zh": "Slate 产品总览"
+        },
+        "url": "https://slatehq.com/"
+      },
+      {
+        "label": {
+          "en": "Slate pricing",
+          "zh": "Slate 定价"
+        },
+        "url": "https://slatehq.com/pricing"
+      },
+      {
+        "label": {
+          "en": "LLM Pulse pricing (comparison reference)",
+          "zh": "LLM Pulse 定价（对比参考）"
+        },
+        "url": "https://llmpulse.ai/pricing"
+      }
+    ],
+    "verifiedAt": "2026-10-25",
+    "status": "published",
+    "featuredOrder": 79,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "Growth is $499/month with 15,000 credits, 10,000 AI answers per month, 1,000 pages monitored and 1 user; Scale is $999/month with 50,000 credits, 20,000 AI answers, 5,000 pages and custom users; Agency is $2,000/month with 100,000 credits, 50,000 AI answers and 10,000 pages. Enterprise is custom, annual billing takes 20% off, and plans use a bring-your-own API key.",
+          "zh": "Growth 每月 499 美元，含 15,000 积分、每月 10,000 次 AI 回答、1,000 个监测页面与 1 个用户；Scale 每月 999 美元，含 50,000 积分、20,000 次 AI 回答、5,000 个页面与自定义用户数；Agency 每月 2,000 美元，含 100,000 积分、50,000 次 AI 回答与 10,000 个页面。Enterprise 定制，年付 8 折，套餐使用自带 API key。"
+        },
+        "summary": {
+          "en": "Growth/Scale/Agency at $499/$999/$2,000 per month with credit, AI-answer and page quotas; annual 20% off; BYO API key.",
+          "zh": "Growth/Scale/Agency 每月 499/999/2,000 美元，含积分、AI 回答与页面配额；年付 8 折；需自带 API key。"
+        },
+        "sourceUrls": [
+          "https://slatehq.com/pricing"
+        ],
+        "verifiedAt": "2026-10-25"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "Monthly quotas apply to AI answers (10,000–50,000) and monitored pages (1,000–10,000) depending on the plan, and the Growth plan is limited to one user.",
+          "zh": "按套餐不同，每月 AI 回答（10,000–50,000 次）与监测页面（1,000–10,000 个）设有配额，Growth 套餐仅限 1 个用户。"
+        },
+        "summary": {
+          "en": "AI-answer and page quotas by plan; Growth single user.",
+          "zh": "AI 回答与页面配额因套餐而异；Growth 仅 1 用户。"
+        },
+        "sourceUrls": [
+          "https://slatehq.com/pricing"
+        ],
+        "verifiedAt": "2026-10-25"
+      },
+      {
+        "description": {
+          "en": "Plans require bringing your own API key for model usage, so model costs sit outside the subscription price.",
+          "zh": "套餐需自带 API key 使用模型，模型成本不在订阅价内。"
+        },
+        "summary": {
+          "en": "Requires your own API key; model costs separate.",
+          "zh": "需自带 API key，模型费用另计。"
+        },
+        "sourceUrls": [
+          "https://slatehq.com/pricing"
+        ],
+        "verifiedAt": "2026-10-25"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "LLM Pulse centers on citation analytics: with EUR monthly billing and weekly tracking, Starter is €49/month for 50 prompts across five included models. Slate starts at $499/month and bundles share-of-voice and citation tracking with content refresh and publishing workflows. Teams that only need to analyse cited sources can start with the cheaper analytics tool.",
+          "zh": "LLM Pulse 以引用分析为核心：欧元月付、每周追踪时 Starter 为每月 49 欧元，含 50 个提示词与五个内置模型。Slate 从每月 499 美元起，把声量与引用追踪同内容更新、发布工作流捆绑。只需分析引用来源的团队可以先选更便宜的纯分析工具。"
+        },
+        "sourceUrls": [
+          "https://slatehq.com/pricing",
+          "https://llmpulse.ai/pricing"
+        ],
+        "verifiedAt": "2026-10-25"
+      }
+    ]
+  },
+  {
+    "slug": "indexly",
+    "name": "Indexly",
+    "category": "ai-traffic",
+    "website": "https://indexly.ai/",
+    "logo": null,
+    "description": {
+      "en": "Measure AI-attributed visits and conversions alongside AI visibility tracking, audits and content agents.",
+      "zh": "在 AI 可见性追踪、审计与内容 Agent 之外，同时度量 AI 归因访问与转化。"
+    },
+    "tags": {
+      "en": [
+        "AI referral traffic",
+        "Lead attribution",
+        "Visibility tracking"
+      ],
+      "zh": [
+        "AI 引荐流量",
+        "线索归因",
+        "可见性追踪"
+      ]
+    },
+    "features": {
+      "en": [
+        "Track AI visibility score, share of voice, sentiment, prompts and citation gaps across ChatGPT, Perplexity, Gemini, Claude, Grok and Google AI Overviews.",
+        "Analyse AI-attributed visits, landing pages, conversions and lead sources, integrating Google Analytics, Google Search Console and ad or social platforms.",
+        "Run an AI readiness audit covering robots.txt, llms.txt and schema, and use content, social, forum and ads agents to publish and capture demand."
+      ],
+      "zh": [
+        "在 ChatGPT、Perplexity、Gemini、Claude、Grok 与 Google AI Overviews 上追踪 AI 可见性评分、声量份额、情绪、提示词与引用缺口。",
+        "分析 AI 归因访问、落地页、转化与线索来源，并可集成 Google Analytics、Google Search Console 及广告或社交平台。",
+        "运行覆盖 robots.txt、llms.txt 与结构化数据的 AI 就绪审计，并用内容、社交、论坛与广告 Agent 发布内容并承接需求。"
+      ]
+    },
+    "audience": {
+      "en": "Growth and content teams that want AI visibility tied to traffic, conversions and leads.",
+      "zh": "希望把 AI 可见性与流量、转化和线索挂钩的增长与内容团队。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Measure AI-attributed visits, landing pages, conversions and lead sources in one view, with Google Analytics and Google Search Console connected.",
+          "zh": "在统一视图里度量 AI 归因访问、落地页、转化与线索来源，并接入 Google Analytics 与 Google Search Console。"
+        },
+        "summary": {
+          "en": "Measure AI visits, conversions and leads with GA/GSC.",
+          "zh": "结合 GA/GSC 度量 AI 访问、转化与线索。"
+        },
+        "sourceUrls": [
+          "https://indexly.ai/"
+        ],
+        "verifiedAt": "2026-10-25"
+      },
+      {
+        "description": {
+          "en": "Audit AI readiness before optimization, covering robots.txt, llms.txt and schema checks.",
+          "zh": "在优化前审计 AI 就绪度，覆盖 robots.txt、llms.txt 与结构化数据检查。"
+        },
+        "summary": {
+          "en": "Audit robots.txt, llms.txt and schema readiness.",
+          "zh": "审计 robots.txt、llms.txt 与结构化数据就绪度。"
+        },
+        "sourceUrls": [
+          "https://indexly.ai/"
+        ],
+        "verifiedAt": "2026-10-25"
+      }
+    ],
+    "platforms": [
+      "ChatGPT",
+      "Perplexity",
+      "Gemini",
+      "Claude",
+      "Grok",
+      "Google AI Overviews"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "Indexly product overview",
+          "zh": "Indexly 产品总览"
+        },
+        "url": "https://indexly.ai/"
+      },
+      {
+        "label": {
+          "en": "Indexly pricing",
+          "zh": "Indexly 定价"
+        },
+        "url": "https://indexly.ai/pricing"
+      }
+    ],
+    "verifiedAt": "2026-10-25",
+    "status": "published",
+    "featuredOrder": 80,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "Starter is $99/month with 50 prompts across workspaces, 100 audited pages per month and 10 articles; Growth is $299/month with 100 prompts, 500 pages, 30 articles and AI Referral Traffic included; Scale is $499/month with 200 prompts, 1,000 pages, 60 articles and content optimization. Annual billing is advertised at a 17% discount, and no free trial is listed.",
+          "zh": "Starter 每月 99 美元，含跨工作区 50 个提示词、每月 100 个审计页面与 10 篇文章；Growth 每月 299 美元，含 100 个提示词、500 个页面、30 篇文章并包含 AI 引荐流量功能；Scale 每月 499 美元，含 200 个提示词、1,000 个页面、60 篇文章与内容优化。年付宣传为 83 折，未列出免费试用。"
+        },
+        "summary": {
+          "en": "Starter/Growth/Scale at $99/$299/$499 per month; AI Referral Traffic only in Growth and above; annual 17% off; no trial listed.",
+          "zh": "Starter/Growth/Scale 每月 99/299/499 美元；AI 引荐流量仅 Growth 及以上包含；年付 83 折；未见试用。"
+        },
+        "sourceUrls": [
+          "https://indexly.ai/pricing"
+        ],
+        "verifiedAt": "2026-10-25"
+      },
+      {
+        "description": {
+          "en": "A separate AI Visibility plan is listed at $99/month for 2 sites, 100 prompts tracked, any 3 AI models, any 2 countries and daily tracking, with hallucination detection, brand sentiment and competitor analysis.",
+          "zh": "另有单独的 AI Visibility 方案，每月 99 美元，含 2 个网站、100 个追踪提示词、任选 3 个 AI 模型、任选 2 个国家并按日追踪，附带幻觉检测、品牌情绪与竞品分析。"
+        },
+        "summary": {
+          "en": "AI Visibility plan $99/month: 2 sites, 100 prompts, any 3 models, 2 countries, daily.",
+          "zh": "AI Visibility 方案每月 99 美元：2 网站、100 提示词、任选 3 模型、2 国家、按日追踪。"
+        },
+        "sourceUrls": [
+          "https://indexly.ai/pricing"
+        ],
+        "verifiedAt": "2026-10-25"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "AI Referral Traffic analytics are only included from the Growth plan upward; the Starter plan excludes it.",
+          "zh": "AI 引荐流量分析仅从 Growth 套餐起包含，Starter 套餐不含。"
+        },
+        "summary": {
+          "en": "AI Referral Traffic needs Growth ($299/month) or above.",
+          "zh": "AI 引荐流量需 Growth（每月 299 美元）及以上。"
+        },
+        "sourceUrls": [
+          "https://indexly.ai/pricing"
+        ],
+        "verifiedAt": "2026-10-25"
+      },
+      {
+        "description": {
+          "en": "Custom reports, white-label options, APIs and a leads dashboard are not included even in the Scale plan, and SSO is listed as coming soon.",
+          "zh": "即便 Scale 套餐也不含自定义报告、白标、API 与线索看板，SSO 标注为即将推出。"
+        },
+        "summary": {
+          "en": "White-label, APIs and leads dashboard not in Scale; SSO upcoming.",
+          "zh": "Scale 仍不含白标、API 与线索看板；SSO 待上线。"
+        },
+        "sourceUrls": [
+          "https://indexly.ai/pricing"
+        ],
+        "verifiedAt": "2026-10-25"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Choose the plan by need: Starter ($99/month) covers visibility tracking and the audit, while AI Referral Traffic analytics with conversions and lead sources require Growth ($299/month) or above. Prompt quotas double between tiers, so size the plan against the number of prompts and pages you track.",
+          "zh": "按需求选套餐：Starter（每月 99 美元）覆盖可见性追踪与审计，而带转化与线索来源的 AI 引荐流量分析需 Growth（每月 299 美元）及以上。提示词配额随套餐翻倍，建议按追踪的提示词与页面数量确定档位。"
+        },
+        "sourceUrls": [
+          "https://indexly.ai/pricing"
+        ],
+        "verifiedAt": "2026-10-25"
+      }
+    ]
+  },
+  {
+    "slug": "signum-ai",
+    "name": "Signum.AI",
+    "category": "ai-visibility",
+    "website": "https://signum.ai/visibility-in-chatgpt-like-tools",
+    "logo": null,
+    "description": {
+      "en": "Track how often a brand and its competitors appear in AI answers, with source analysis and driver attribution.",
+      "zh": "追踪品牌与竞品在 AI 回答中的出现频率，附带来源分析与驱动因素归因。"
+    },
+    "tags": {
+      "en": [
+        "Brand mentions",
+        "Share of voice",
+        "Alerts"
+      ],
+      "zh": [
+        "品牌提及",
+        "声量份额",
+        "变动提醒"
+      ]
+    },
+    "features": {
+      "en": [
+        "Follow prompt-level visibility trends for a brand across ChatGPT, Perplexity and Gemini over time.",
+        "Analyse which publishers and pages drive AI visibility and benchmark share of voice against competitors.",
+        "Attribute visibility shifts to likely causes such as cited sources, content changes and mentions, with real-time alerts and recommendations."
+      ],
+      "zh": [
+        "按提示词级别追踪品牌在 ChatGPT、Perplexity 与 Gemini 上的可见性趋势。",
+        "分析哪些发布方与页面带动了 AI 可见性，并与竞品对比声量份额。",
+        "把可见性变化归因到被引来源、内容变化与提及等可能因素，并提供实时提醒与建议。"
+      ]
+    },
+    "audience": {
+      "en": "Marketing and competitive-intelligence teams watching brand presence in AI answers.",
+      "zh": "关注品牌在 AI 回答中表现的营销与竞争情报团队。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Track how often the brand and named competitors appear in AI answers for priority topics, with share-of-voice benchmarking.",
+          "zh": "针对重点话题追踪品牌与指定竞品在 AI 回答中的出现频率，并进行声量份额对标。"
+        },
+        "summary": {
+          "en": "Benchmark brand and competitor share of voice.",
+          "zh": "对标品牌与竞品的声量份额。"
+        },
+        "sourceUrls": [
+          "https://signum.ai/visibility-in-chatgpt-like-tools"
+        ],
+        "verifiedAt": "2026-10-25"
+      },
+      {
+        "description": {
+          "en": "Investigate which publishers and pages drive AI visibility and connect visibility shifts to likely causes via driver attribution.",
+          "zh": "调查哪些发布方与页面带动 AI 可见性，并通过驱动因素归因把可见性变化与可能原因关联。"
+        },
+        "summary": {
+          "en": "Trace the sources driving AI visibility.",
+          "zh": "追溯带动 AI 可见性的来源。"
+        },
+        "sourceUrls": [
+          "https://signum.ai/visibility-in-chatgpt-like-tools"
+        ],
+        "verifiedAt": "2026-10-25"
+      }
+    ],
+    "platforms": [
+      "ChatGPT",
+      "Perplexity",
+      "Gemini"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "Signum.AI AI visibility product page",
+          "zh": "Signum.AI AI 可见性产品页"
+        },
+        "url": "https://signum.ai/visibility-in-chatgpt-like-tools"
+      },
+      {
+        "label": {
+          "en": "Signum.AI pricing",
+          "zh": "Signum.AI 定价"
+        },
+        "url": "https://signum.ai/pricing"
+      },
+      {
+        "label": {
+          "en": "PromptRush pricing (comparison reference)",
+          "zh": "PromptRush 定价（对比参考）"
+        },
+        "url": "https://www.promptrush.ai/pricing/"
+      }
+    ],
+    "verifiedAt": "2026-10-25",
+    "status": "published",
+    "featuredOrder": 81,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "Pro is $19/month with AI visibility tracking, sources, visibility landscape, recommendations, an activity feed and email alerts; Enterprise is custom-priced and adds API and webhook integrations with a dedicated support manager. A 14-day trial and a 14-day money-back guarantee apply, and a free AI Checker shows a one-off visibility score without a credit card.",
+          "zh": "Pro 每月 19 美元，含 AI 可见性追踪、来源分析、可见性全景、建议、动态流与邮件提醒；Enterprise 定制报价，增加 API 与 Webhook 集成及专属支持经理。提供 14 天试用与 14 天退款保证，免费 AI Checker 无需信用卡即可查看一次性可见性评分。"
+        },
+        "summary": {
+          "en": "Pro $19/month; Enterprise custom; 14-day trial and refund; free one-off AI Checker.",
+          "zh": "Pro 每月 19 美元；Enterprise 定制；14 天试用与退款；免费一次性 AI Checker。"
+        },
+        "sourceUrls": [
+          "https://signum.ai/pricing"
+        ],
+        "verifiedAt": "2026-10-25"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "Tracking covers ChatGPT, Perplexity and Gemini; other AI engines are not listed on the product page.",
+          "zh": "追踪覆盖 ChatGPT、Perplexity 与 Gemini；产品页未列出其他 AI 引擎。"
+        },
+        "summary": {
+          "en": "Covers ChatGPT, Perplexity and Gemini only.",
+          "zh": "仅覆盖 ChatGPT、Perplexity 与 Gemini。"
+        },
+        "sourceUrls": [
+          "https://signum.ai/visibility-in-chatgpt-like-tools"
+        ],
+        "verifiedAt": "2026-10-25"
+      },
+      {
+        "description": {
+          "en": "The Pro plan lists no integrations; API and webhook access is reserved for the Enterprise plan, and prompt, brand or report quotas are not published.",
+          "zh": "Pro 套餐标注不含集成；API 与 Webhook 仅限 Enterprise 套餐，提示词、品牌或报告配额未公开。"
+        },
+        "summary": {
+          "en": "No integrations on Pro; API/webhooks Enterprise-only; quotas unpublished.",
+          "zh": "Pro 无集成；API/Webhook 限 Enterprise；配额未公开。"
+        },
+        "sourceUrls": [
+          "https://signum.ai/pricing"
+        ],
+        "verifiedAt": "2026-10-25"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "At the same $19/month entry price, Signum.AI Pro focuses on visibility trends, source analysis and driver attribution across three engines, while PromptRush Lite spends the budget on daily prompt scans across five engines with full answer text and competitor auto-detection. Pick Signum.AI for cause analysis of visibility shifts and PromptRush for rank-tracker-style daily coverage.",
+          "zh": "同为每月 19 美元入门价：Signum.AI Pro 侧重三个引擎上的可见性趋势、来源分析与驱动归因；PromptRush Lite 把预算用于五个引擎的每日提示词扫描，含完整回答原文与竞品自动识别。需要分析可见性变化原因选 Signum.AI，需要排名追踪式的每日覆盖选 PromptRush。"
+        },
+        "sourceUrls": [
+          "https://signum.ai/pricing",
+          "https://www.promptrush.ai/pricing/"
+        ],
+        "verifiedAt": "2026-10-25"
+      }
+    ]
+  },
+  {
+    "slug": "frizerly",
+    "name": "Frizerly",
+    "category": "content-geo",
+    "website": "https://www.frizerly.com/",
+    "logo": null,
+    "description": {
+      "en": "Auto-publish AEO-structured blog content aimed at AI citations and track brand mentions in AI answers.",
+      "zh": "自动发布面向 AI 引用的 AEO 结构博客内容，并追踪品牌在 AI 回答中的提及。"
+    },
+    "tags": {
+      "en": [
+        "AEO content",
+        "Auto-publishing",
+        "Mention tracking"
+      ],
+      "zh": [
+        "AEO 内容",
+        "自动发布",
+        "提及追踪"
+      ]
+    },
+    "features": {
+      "en": [
+        "Track brand mentions, frequency, position and context in AI answers across ChatGPT, Perplexity, Claude, Gemini and Grok, with share of voice and competitor mentions.",
+        "Auto-publish weekly or daily AEO/GEO blog posts structured to be cited by AI tools, including topic research and product or image inclusion.",
+        "Connect Google Search Console for a Google ranking tracker and combine Google and AI optimization, with auto-sharing to social platforms."
+      ],
+      "zh": [
+        "在 ChatGPT、Perplexity、Claude、Gemini 与 Grok 上追踪品牌提及、频次、位置与语境，附声量份额与竞品提及。",
+        "每周或每日自动发布以被 AI 工具引用为目标构建的 AEO/GEO 博客文章，包含选题研究与产品、图片引用。",
+        "接入 Google Search Console 获得 Google 排名追踪，兼顾 Google 与 AI 优化，并自动分享到社交平台。"
+      ]
+    },
+    "audience": {
+      "en": "Small businesses and local brands that want AI-optimized content published on a schedule.",
+      "zh": "希望按节奏自动发布 AI 优化内容的小企业与本地品牌。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Publish AEO/GEO blog posts on a weekly or daily schedule so the site keeps fresh content designed to be cited in AI Overviews and ChatGPT answers.",
+          "zh": "按每周或每日节奏发布 AEO/GEO 博客文章，让网站持续新增为 AI Overviews 与 ChatGPT 回答引用而设计的新内容。"
+        },
+        "summary": {
+          "en": "Scheduled AEO/GEO blog publishing for AI citations.",
+          "zh": "按计划发布面向 AI 引用的 AEO/GEO 博客。"
+        },
+        "sourceUrls": [
+          "https://www.frizerly.com/track-brand-mentions-ai-answers.html",
+          "https://www.frizerly.com/pricing.html"
+        ],
+        "verifiedAt": "2026-10-25"
+      },
+      {
+        "description": {
+          "en": "Track how often the brand and competitors are mentioned in AI answers across five platforms and follow the trends.",
+          "zh": "追踪品牌与竞品在五个平台 AI 回答中的提及频率并观察趋势。"
+        },
+        "summary": {
+          "en": "Track brand and competitor mentions in AI answers.",
+          "zh": "追踪品牌与竞品在 AI 回答中的提及。"
+        },
+        "sourceUrls": [
+          "https://www.frizerly.com/track-brand-mentions-ai-answers.html"
+        ],
+        "verifiedAt": "2026-10-25"
+      }
+    ],
+    "platforms": [
+      "ChatGPT",
+      "Perplexity",
+      "Claude",
+      "Gemini",
+      "Grok"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "Frizerly AI answer tracking overview",
+          "zh": "Frizerly AI 回答追踪功能页"
+        },
+        "url": "https://www.frizerly.com/track-brand-mentions-ai-answers.html"
+      },
+      {
+        "label": {
+          "en": "Frizerly pricing",
+          "zh": "Frizerly 定价"
+        },
+        "url": "https://www.frizerly.com/pricing.html"
+      }
+    ],
+    "verifiedAt": "2026-10-25",
+    "status": "published",
+    "featuredOrder": 82,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "Standard is $49/month, or $29/month billed annually, with one auto-published blog per week. Pro SEO/AEO is $149/month, or $99/month annually, with five blogs per week, AEO/GEO posts for AI Overviews and ChatGPT citations, ranking tracking and competitor spying. Pro SEO/AEO + AI Agents is $199/month, or $149/month annually, with seven blogs per week and five extra agents. Additional domains are priced as add-ons, and a free trial shows published content before paying.",
+          "zh": "Standard 每月 49 美元（年付每月 29 美元），每周自动发布 1 篇博客。Pro SEO/AEO 每月 149 美元（年付每月 99 美元），每周 5 篇，含面向 AI Overviews 与 ChatGPT 引用的 AEO/GEO 文章、排名追踪与竞品窥探。Pro SEO/AEO + AI Agents 每月 199 美元（年付每月 149 美元），每周 7 篇并附 5 个额外 Agent。额外域名按加购计价，免费试用可先看到发布效果再付费。"
+        },
+        "summary": {
+          "en": "Standard $49, Pro SEO/AEO $149, Pro + AI Agents $199 per month (annual $29/$99/$149); weekly blogs 1/5/7; domain add-ons; free trial.",
+          "zh": "Standard 49、Pro SEO/AEO 149、Pro+AI Agents 199 美元/月（年付 29/99/149）；每周 1/5/7 篇；域名加购；有免费试用。"
+        },
+        "sourceUrls": [
+          "https://www.frizerly.com/pricing.html"
+        ],
+        "verifiedAt": "2026-10-25"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "Auto-publishing volume is capped per plan at one, five or seven blogs per week, and AEO/GEO blog features start from the Pro SEO/AEO plan, not Standard.",
+          "zh": "自动发布量按套餐限制为每周 1、5 或 7 篇，AEO/GEO 博客功能从 Pro SEO/AEO 套餐起才提供，Standard 不含。"
+        },
+        "summary": {
+          "en": "Weekly blog caps by plan; AEO/GEO features need Pro SEO/AEO ($149/month).",
+          "zh": "每周发文量按套餐设限；AEO/GEO 功能需 Pro SEO/AEO（每月 149 美元）。"
+        },
+        "sourceUrls": [
+          "https://www.frizerly.com/pricing.html"
+        ],
+        "verifiedAt": "2026-10-25"
+      },
+      {
+        "description": {
+          "en": "Each additional domain is billed as a plan-priced add-on, so multi-site use raises the total cost.",
+          "zh": "每个额外域名按对应套餐的加购价计费，多站点使用会抬高总成本。"
+        },
+        "summary": {
+          "en": "Extra domains billed as add-ons per plan.",
+          "zh": "额外域名按套餐加购计费。"
+        },
+        "sourceUrls": [
+          "https://www.frizerly.com/pricing.html"
+        ],
+        "verifiedAt": "2026-10-25"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Choose Standard for one weekly auto-published blog with mention tracking, and move to Pro SEO/AEO when AEO/GEO-structured posts, ranking tracking and competitor spying are required; the top tier mainly adds more weekly volume and the five AI agents. Size the choice by publishing cadence rather than tracking features alone.",
+          "zh": "只需每周 1 篇自动发布加提及追踪时选 Standard；需要 AEO/GEO 结构文章、排名追踪与竞品窥探时升级到 Pro SEO/AEO；最高档主要增加发文量与 5 个 AI Agent。建议按发布节奏而非仅按追踪功能选择。"
+        },
+        "sourceUrls": [
+          "https://www.frizerly.com/pricing.html"
+        ],
+        "verifiedAt": "2026-10-25"
+      }
+    ]
+  },
+  {
+    "slug": "siftly",
+    "name": "Siftly",
+    "category": "citations",
+    "website": "https://siftly.ai/",
+    "logo": null,
+    "description": {
+      "en": "Track how AI engines cite the brand, find citation gaps and act on them with outreach, content and crawler insights.",
+      "zh": "追踪 AI 引擎如何引用品牌，发现引用缺口，并通过外联、内容与爬虫洞察采取行动。"
+    },
+    "tags": {
+      "en": [
+        "Citation tracking",
+        "Outreach",
+        "AI crawler traffic"
+      ],
+      "zh": [
+        "引用追踪",
+        "外联工具",
+        "AI 爬虫流量"
+      ]
+    },
+    "features": {
+      "en": [
+        "Measure daily visibility, rank and share of voice, and show which domains and pages AI engines cite and where the brand is missing.",
+        "Sweep real buyer prompts across engines, markets and languages, and send outreach email sequences to pages that cite competitors.",
+        "Log AI crawler traffic from bots such as GPTBot, PerplexityBot and ClaudeBot, and publish citation-optimized content to the CMS."
+      ],
+      "zh": [
+        "按日度量可见性、排名与声量份额，展示 AI 引擎引用了哪些域名与页面以及品牌的缺口。",
+        "跨引擎、市场与语言扫描真实买家提示词，并向引用竞品的页面发送外联邮件序列。",
+        "记录 GPTBot、PerplexityBot、ClaudeBot 等 AI 爬虫的访问流量，并把引用优化内容发布到 CMS。"
+      ]
+    },
+    "audience": {
+      "en": "GEO teams and agencies that want citation gaps turned into outreach and content fixes.",
+      "zh": "希望把引用缺口转化为外联与内容修复的 GEO 团队与代理商。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Audit citation coverage by domain and page, identify where competitors are cited instead, and run outreach to those citing pages.",
+          "zh": "按域名与页面审计引用覆盖，找出竞品被引用而品牌缺席的位置，并对这些被引页面开展外联。"
+        },
+        "summary": {
+          "en": "Audit cited domains and run outreach to gap pages.",
+          "zh": "审计被引域名并对缺口页面做外联。"
+        },
+        "sourceUrls": [
+          "https://siftly.ai/"
+        ],
+        "verifiedAt": "2026-10-25"
+      },
+      {
+        "description": {
+          "en": "Check which AI crawlers, such as GPTBot, PerplexityBot and ClaudeBot, actually visit the site and how content is being consumed.",
+          "zh": "查看 GPTBot、PerplexityBot、ClaudeBot 等 AI 爬虫是否实际访问网站以及内容被消费的情况。"
+        },
+        "summary": {
+          "en": "Log AI crawler visits to the site.",
+          "zh": "记录网站收到的 AI 爬虫访问。"
+        },
+        "sourceUrls": [
+          "https://siftly.ai/"
+        ],
+        "verifiedAt": "2026-10-25"
+      },
+      {
+        "description": {
+          "en": "Run the same buyer prompts across markets and languages and compare per-region reports.",
+          "zh": "跨市场与语言运行相同的买家提示词，并对比分地区报告。"
+        },
+        "summary": {
+          "en": "Compare prompt results across markets and languages.",
+          "zh": "跨市场与语言对比提示词结果。"
+        },
+        "sourceUrls": [
+          "https://siftly.ai/"
+        ],
+        "verifiedAt": "2026-10-25"
+      }
+    ],
+    "platforms": [
+      "ChatGPT",
+      "Perplexity",
+      "Google AI Overviews",
+      "Gemini"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "Siftly product overview",
+          "zh": "Siftly 产品总览"
+        },
+        "url": "https://siftly.ai/"
+      },
+      {
+        "label": {
+          "en": "Siftly pricing via Japan distributor page (siftly.ai/pricing redirects here)",
+          "zh": "Siftly 经日本总代理页面的定价（siftly.ai/pricing 重定向至此）"
+        },
+        "url": "https://siftly-bromo.corp-bromo.com/pricing/"
+      }
+    ],
+    "verifiedAt": "2026-10-25",
+    "status": "published",
+    "featuredOrder": 83,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "The official pricing URL currently redirects to the page of Siftly's exclusive Japan distributor, which lists a start plan at ¥0 per month including tax as a six-month limited offer and a pro plan at ¥33,000 per month including tax with citation-content creation and WordPress integration. Global USD tiers are not published on the site, and a free trial is offered without a credit card.",
+          "zh": "官方定价链接当前重定向至 Siftly 日本独家总代理的页面：起步方案每月 0 日元（含税，六个月限定），专业方案每月 33,000 日元（含税），含引用内容创作与 WordPress 集成。网站未公布全球美元档位，另提供无需信用卡的免费试用。"
+        },
+        "summary": {
+          "en": "JPY distributor page: start ¥0 (6-month limited) and pro ¥33,000/month tax included; global USD tiers unpublished; free trial.",
+          "zh": "日本总代理页：起步 ¥0（六个月限定）、专业每月 33,000 日元含税；全球美元档位未公开；有免费试用。"
+        },
+        "sourceUrls": [
+          "https://siftly.ai/",
+          "https://siftly-bromo.corp-bromo.com/pricing/"
+        ],
+        "verifiedAt": "2026-10-25"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "Global pricing is not published directly: the official pricing URL redirects to the Japan distributor page, and paid-plan quotas such as prompts or projects are not specified there.",
+          "zh": "全球定价未直接公开：官方定价链接重定向至日本总代理页面，且该页未列明提示词或项目等付费配额。"
+        },
+        "summary": {
+          "en": "No direct global pricing; redirect to JP distributor; quotas unspecified.",
+          "zh": "无直接全球定价；重定向至日本总代理；配额未列明。"
+        },
+        "sourceUrls": [
+          "https://siftly.ai/",
+          "https://siftly-bromo.corp-bromo.com/pricing/"
+        ],
+        "verifiedAt": "2026-10-25"
+      },
+      {
+        "description": {
+          "en": "The product page lists ChatGPT, Perplexity, Google AI Overviews and Gemini as the engines covered in its monitoring and prompt sweeps.",
+          "zh": "产品页列出的监测与提示词扫描引擎为 ChatGPT、Perplexity、Google AI Overviews 与 Gemini。"
+        },
+        "summary": {
+          "en": "Engine coverage: ChatGPT, Perplexity, Google AI Overviews, Gemini.",
+          "zh": "引擎覆盖：ChatGPT、Perplexity、Google AI Overviews、Gemini。"
+        },
+        "sourceUrls": [
+          "https://siftly.ai/"
+        ],
+        "verifiedAt": "2026-10-25"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Siftly combines citation analytics, outreach to pages that cite competitors, content publishing and AI crawler logs in one platform. Because the global tiers are not published directly, confirm the pricing for your region with the vendor before comparing plans, and weigh whether the bundled outreach and content execution is needed over a citation-analytics-only tool.",
+          "zh": "Siftly 把引用分析、面向竞品被引页面的外联、内容发布与 AI 爬虫日志合并在一个平台。由于全球档位未直接公开，比较套餐前应先向厂商确认所在地区报价，并评估是否真的需要捆绑的外联与内容执行，还是纯引用分析工具即可。"
+        },
+        "sourceUrls": [
+          "https://siftly.ai/",
+          "https://siftly-bromo.corp-bromo.com/pricing/"
+        ],
+        "verifiedAt": "2026-10-25"
+      }
+    ]
+  },
+  {
+    "slug": "sheepgeo",
+    "name": "SheepGeo",
+    "category": "ai-visibility",
+    "website": "https://sheepgeo.com/",
+    "logo": null,
+    "description": {
+      "en": "Check how Chinese AI models recognize and recommend a brand, with SHEEP website diagnostics and citation tracking.",
+      "zh": "检测国产 AI 模型对品牌的认知与推荐，配合 SHEEP 官网诊断与引用追踪。"
+    },
+    "tags": {
+      "en": [
+        "Chinese AI models",
+        "Website diagnostics",
+        "Citation tracking"
+      ],
+      "zh": [
+        "国产模型",
+        "官网诊断",
+        "引用追踪"
+      ]
+    },
+    "features": {
+      "en": [
+        "Ask nine domestic Chinese AI models real questions and capture brand awareness, recommendation rate and citation-evidence snapshots.",
+        "Score the website on the five SHEEP dimensions: semantic coverage, human credibility, evidence structure, ecosystem integration and performance monitoring.",
+        "Publish to a media network including 36Kr, Huxiu, Zhihu and Baijiahao, then track whether the published content is cited by the models."
+      ],
+      "zh": [
+        "向九个国产 AI 模型发起真实提问，生成品牌认知度、推荐率与引用证据快照。",
+        "按 SHEEP 五维框架为官网评分：语义覆盖、人类可信度、证据结构化、生态集成与性能监测。",
+        "向 36 氪、虎嗅、知乎、百家号等媒体网络发布稿件，并追踪发布内容是否被模型引用。"
+      ]
+    },
+    "audience": {
+      "en": "Chinese-market brand and marketing teams that need visibility across domestic AI models.",
+      "zh": "需要覆盖国产 AI 模型可见性的中国市场品牌与营销团队。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Run a brand visibility check across the nine supported domestic models and review each model's actual answers, awareness and recommendation results.",
+          "zh": "在九个支持的国产模型上运行品牌可见性体检，逐个查看各模型的实际回答、认知与推荐结果。"
+        },
+        "summary": {
+          "en": "Check brand visibility across nine domestic AI models.",
+          "zh": "在九个国产模型上体检品牌可见性。"
+        },
+        "sourceUrls": [
+          "https://sheepgeo.com/",
+          "https://sheepgeo.com/faq"
+        ],
+        "verifiedAt": "2026-10-25"
+      },
+      {
+        "description": {
+          "en": "Diagnose the website on the five SHEEP dimensions with per-dimension scores and optimization suggestions, exportable as a Word report with competitor comparison.",
+          "zh": "按 SHEEP 五维诊断官网并给出各维度评分与优化建议，可导出含竞品对比的 Word 报告。"
+        },
+        "summary": {
+          "en": "Five-dimension website diagnosis with Word reports.",
+          "zh": "五维官网诊断并导出 Word 报告。"
+        },
+        "sourceUrls": [
+          "https://sheepgeo.com/",
+          "https://sheepgeo.com/faq"
+        ],
+        "verifiedAt": "2026-10-25"
+      },
+      {
+        "description": {
+          "en": "After publishing content to the media network, track citation hits, model distribution and trends to see whether the material reaches AI answers.",
+          "zh": "向媒体网络发布内容后，追踪引用命中、模型分布与趋势，判断内容是否进入 AI 回答。"
+        },
+        "summary": {
+          "en": "Track citations of published content across models.",
+          "zh": "追踪发布内容在各模型的引用命中。"
+        },
+        "sourceUrls": [
+          "https://sheepgeo.com/"
+        ],
+        "verifiedAt": "2026-10-25"
+      }
+    ],
+    "platforms": [
+      "Doubao",
+      "ERNIE",
+      "Tencent Hunyuan",
+      "DeepSeek",
+      "Kimi",
+      "iFlytek Xinghuo",
+      "Qwen",
+      "Zhipu GLM",
+      "Metaso"
+    ],
+    "pricing": "Freemium",
+    "sources": [
+      {
+        "label": {
+          "en": "SheepGeo product overview",
+          "zh": "SheepGeo 产品总览"
+        },
+        "url": "https://sheepgeo.com/"
+      },
+      {
+        "label": {
+          "en": "SheepGeo FAQ on free checks and models",
+          "zh": "SheepGeo 关于免费检测与模型的 FAQ"
+        },
+        "url": "https://sheepgeo.com/faq"
+      },
+      {
+        "label": {
+          "en": "MicoSeek product page (comparison reference)",
+          "zh": "觅恒 MicoSeek 产品页（对比参考）"
+        },
+        "url": "https://micoseek.com/"
+      }
+    ],
+    "verifiedAt": "2026-10-25",
+    "status": "published",
+    "featuredOrder": 84,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "A free tier allows one detection per day with the nine-model visibility check and basic SHEEP website analysis; beyond that, the site lists a Pro membership, pay-per-use options and enterprise custom plans without publishing specific amounts. Subscriptions deliver a monthly AI-call allowance into a unified balance pool shared with top-up packs, and brand monitoring is limited by task count.",
+          "zh": "免费版每日可进行 1 次检测，含九模型可见性检查与基础 SHEEP 官网分析；网站另列出 Pro 会员、按次购买与企业定制，但未公布具体金额。订阅每月自动到账 AI 调用额度，与加油包共用统一余额池，品牌监控按任务数量上限限制。"
+        },
+        "summary": {
+          "en": "Free tier: one check/day; Pro membership, pay-per-use and enterprise custom with unpublished amounts; credit-pool quotas.",
+          "zh": "免费版每日 1 次检测；Pro 会员、按次购买与企业定制金额未公开；额度走统一余额池。"
+        },
+        "sourceUrls": [
+          "https://sheepgeo.com/",
+          "https://sheepgeo.com/faq"
+        ],
+        "verifiedAt": "2026-10-25"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "The free tier is limited to one detection per day and basic analysis; brand monitoring, keyword penetration and report export are paid features.",
+          "zh": "免费版每日限 1 次检测且仅基础分析；品牌监控、关键词渗透与报告导出属于付费功能。"
+        },
+        "summary": {
+          "en": "Free tier: 1 check/day; monitoring and exports are paid.",
+          "zh": "免费版每日 1 次；监控与导出为付费功能。"
+        },
+        "sourceUrls": [
+          "https://sheepgeo.com/faq"
+        ],
+        "verifiedAt": "2026-10-25"
+      },
+      {
+        "description": {
+          "en": "Coverage focuses on nine domestic Chinese AI models; international engines are not part of the listed platform set.",
+          "zh": "覆盖聚焦九个国产 AI 模型；国际引擎不在所列平台范围内。"
+        },
+        "summary": {
+          "en": "Domestic Chinese models only; no international engines listed.",
+          "zh": "仅国产模型，未列国际引擎。"
+        },
+        "sourceUrls": [
+          "https://sheepgeo.com/faq"
+        ],
+        "verifiedAt": "2026-10-25"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "SheepGeo and MicoSeek both serve Chinese-market brand visibility, but differ in method and scope: SheepGeo runs prompt-based checks across nine domestic models and adds the five-dimension SHEEP website diagnosis with Word reports, while MicoSeek emphasizes real-device sampling inside the Doubao, DeepSeek, Qwen, Yuanbao, Kimi, ERNIE and Xiaohongshu Diandian apps and cross-checks AI statements against a brand knowledge base. Choose by whether website diagnostics or real-device app sampling matters more, and note that neither publishes full current pricing.",
+          "zh": "SheepGeo 与觅恒都服务中国市场品牌可见性，但方法与范围不同：SheepGeo 在九个国产模型上做提示词检测，并附 SHEEP 五维官网诊断与 Word 报告；觅恒强调在豆包、DeepSeek、千问、元宝、Kimi、文心、小红书点点 App 内的真机实测，并按品牌知识库逐条核对 AI 口径。按更看重官网诊断还是 App 真机采样来选择；两者均未公布完整现行价格。"
+        },
+        "sourceUrls": [
+          "https://sheepgeo.com/",
+          "https://sheepgeo.com/faq",
+          "https://micoseek.com/"
+        ],
+        "verifiedAt": "2026-10-25"
+      }
+    ]
+  },
+  {
+    "slug": "seenify",
+    "name": "Seenify",
+    "category": "ai-visibility",
+    "website": "https://seenify.cn/",
+    "logo": null,
+    "description": {
+      "en": "Monitor how AI models describe a brand across Chinese and international engines, with an agent that runs optimization tasks.",
+      "zh": "监测中外 AI 模型如何介绍品牌，并由 Agent 自动执行优化任务。"
+    },
+    "tags": {
+      "en": [
+        "AI brand diagnostics",
+        "Agent workflows",
+        "Chinese AI models"
+      ],
+      "zh": [
+        "AI 品牌诊断",
+        "Agent 工作流",
+        "国产模型"
+      ]
+    },
+    "features": {
+      "en": [
+        "Run brand panorama diagnostics covering understanding, recommendation rate, sources, competitor differences and factual consistency.",
+        "Keep a Seenify Agent watching how AI introduces the brand, generating and executing optimization tasks such as content updates, source reinforcement and review.",
+        "Maintain website AI-friendliness with llms.txt and structured markup, plus a skills library covering brand-mind maps, hallucination-risk fixes and competitor semantic analysis."
+      ],
+      "zh": [
+        "运行品牌全景诊断，覆盖理解度、推荐率、信源、竞品差异与事实一致性。",
+        "由 Seenify Agent 持续监测 AI 如何介绍品牌，自动生成并执行内容更新、信源补强与复盘验证等优化任务。",
+        "维护官网 AI 友好度（llms.txt 与结构化标记），技能库覆盖品牌心智图谱、幻觉风险修正与竞品语义拆解。"
+      ]
+    },
+    "audience": {
+      "en": "Chinese-market brands that want continuous AI visibility monitoring with automated fixes.",
+      "zh": "需要持续 AI 可见性监测并自动修复的中国市场品牌。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Run a panorama diagnostic of how domestic and international AI models describe the brand, covering understanding, recommendation rate, sources and factual consistency.",
+          "zh": "对国产与国际 AI 模型如何介绍品牌做全景诊断，覆盖理解度、推荐率、信源与事实一致性。"
+        },
+        "summary": {
+          "en": "Diagnose brand presence across Chinese and global AI models.",
+          "zh": "诊断品牌在中外 AI 模型中的表现。"
+        },
+        "sourceUrls": [
+          "https://seenify.cn/"
+        ],
+        "verifiedAt": "2026-10-25"
+      },
+      {
+        "description": {
+          "en": "Let the Seenify Agent continuously monitor AI answers, generate optimization tasks and execute content updates and source reinforcement automatically.",
+          "zh": "让 Seenify Agent 持续监测 AI 回答、生成优化任务，并自动执行内容更新与信源补强。"
+        },
+        "summary": {
+          "en": "Agent monitors answers and executes optimization tasks.",
+          "zh": "Agent 监测回答并自动执行优化任务。"
+        },
+        "sourceUrls": [
+          "https://seenify.cn/"
+        ],
+        "verifiedAt": "2026-10-25"
+      }
+    ],
+    "platforms": [
+      "Doubao",
+      "DeepSeek",
+      "Kimi",
+      "Qwen",
+      "ERNIE",
+      "ChatGPT",
+      "Claude",
+      "Gemini"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "Seenify product and pricing",
+          "zh": "犀帆 Seenify 产品与定价"
+        },
+        "url": "https://seenify.cn/"
+      },
+      {
+        "label": {
+          "en": "SheepGeo product page (comparison reference)",
+          "zh": "SheepGeo 产品页（对比参考）"
+        },
+        "url": "https://sheepgeo.com/"
+      }
+    ],
+    "verifiedAt": "2026-10-25",
+    "status": "published",
+    "featuredOrder": 85,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "The standard plan is ¥399/month for 5 brands with 2,000 credits per month, and the professional plan is ¥1,499/month for 20 brands with 10,000 credits; the top tier is pay-by-result and custom. Credits are consumed per action, for example 5–10 per crawl, about 2 per article, about 10 per video and about 50 per channel publication. A free trial entry exists, and the exact free scope is not specified.",
+          "zh": "标准版每月 399 元，含 5 个品牌与每月 2,000 积分；专业版每月 1,499 元，含 20 个品牌与 10,000 积分；尊享版按结果付费、项目定制。积分按动作消耗，例如抓取每次 5–10 积分、文章约 2 积分、视频约 10 积分、渠道发文约 50 积分。页面提供免费试用入口，但未说明免费范围。"
+        },
+        "summary": {
+          "en": "Standard ¥399/month (5 brands, 2,000 credits); Professional ¥1,499/month (20 brands, 10,000 credits); pay-by-result top tier; per-action credits.",
+          "zh": "标准版每月 399 元（5 品牌、2,000 积分）；专业版每月 1,499 元（20 品牌、10,000 积分）；尊享版按结果付费；积分按动作消耗。"
+        },
+        "sourceUrls": [
+          "https://seenify.cn/"
+        ],
+        "verifiedAt": "2026-10-25"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "The site does not currently publish service-terms or privacy-policy links, so data-handling boundaries should be confirmed with the operator before use.",
+          "zh": "网站目前未提供服务条款与隐私政策链接，使用前应与运营方确认数据处理边界。"
+        },
+        "summary": {
+          "en": "No published terms or privacy policy; confirm data handling first.",
+          "zh": "未公开条款与隐私政策；需先确认数据处理方式。"
+        },
+        "sourceUrls": [
+          "https://seenify.cn/"
+        ],
+        "verifiedAt": "2026-10-25"
+      },
+      {
+        "description": {
+          "en": "Plans are metered in credits with different consumption per action, so crawl, article, video and publication volumes directly affect how far the monthly allowance stretches.",
+          "zh": "套餐按积分计量且不同动作消耗不同，抓取、文章、视频与发文的数量直接影响每月额度的使用时长。"
+        },
+        "summary": {
+          "en": "Credit metering varies by action type.",
+          "zh": "积分消耗随动作类型不同。"
+        },
+        "sourceUrls": [
+          "https://seenify.cn/"
+        ],
+        "verifiedAt": "2026-10-25"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Seenify and SheepGeo both monitor Chinese AI models for brands. Seenify centers on its agent executing optimization tasks end to end and also lists ChatGPT, Claude and Gemini, while SheepGeo focuses on nine domestic models with the five-dimension SHEEP website diagnosis and media-publishing follow-up tracking. Seenify publishes RMB plan prices from ¥399/month; SheepGeo's paid amounts are unpublished but it offers a free daily check.",
+          "zh": "犀帆 Seenify 与 SheepGeo 都监测国产 AI 模型对品牌的表现。Seenify 以 Agent 端到端执行优化任务为核心，并覆盖 ChatGPT、Claude 与 Gemini；SheepGeo 聚焦九个国产模型，配合 SHEEP 五维官网诊断与媒体发布后的命中追踪。Seenify 公布了从每月 399 元起的人民币套餐价；SheepGeo 付费金额未公开，但提供每日免费检测。"
+        },
+        "sourceUrls": [
+          "https://seenify.cn/",
+          "https://sheepgeo.com/"
+        ],
+        "verifiedAt": "2026-10-25"
+      }
+    ]
   }
 ]
