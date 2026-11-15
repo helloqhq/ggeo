@@ -11646,5 +11646,189 @@
         "verifiedAt": "2026-10-25"
       }
     ]
+  },
+  {
+    "slug": "sonarvue",
+    "name": "Sonarvue",
+    "category": "ai-visibility",
+    "website": "https://sonarvue.com/",
+    "logo": null,
+    "description": {
+      "en": "Track buyer prompts across ChatGPT, Perplexity and Google, then let an agent ship SEO and GEO fixes and re-run the same prompt to verify the answer moved.",
+      "zh": "在 ChatGPT、Perplexity 与 Google 中追踪买家提示词，由 Agent 执行 SEO 与 GEO 修复，再复查同一提示词验证回答是否改变。"
+    },
+    "tags": {
+      "en": [
+        "AI answer tracking",
+        "SEO & GEO agent",
+        "Re-probe verification"
+      ],
+      "zh": [
+        "AI 回答追踪",
+        "SEO 与 GEO Agent",
+        "复查验证"
+      ]
+    },
+    "features": {
+      "en": [
+        "Track buyer prompts weekly on ChatGPT, Perplexity and Google, keeping verbatim answers, cited sources and Google Search Console data in one evidence trail.",
+        "Run five workstreams in one agent — visibility, technical SEO, content, authority and verification — with propose, approval or autonomous mode per action type.",
+        "After each action, re-run the same buyer prompt on the same engine and compare the answer, citation and ranking against the baseline.",
+        "Publish articles through WordPress, Webflow, Framer and other integrations, and connect Cloudflare, Fastly or Vercel to see which AI crawlers read your pages.",
+        "Score every article for SEO and GEO before publishing, and build verified dofollow backlinks from reviewed directories and editorial targets."
+      ],
+      "zh": [
+        "每周在 ChatGPT、Perplexity 与 Google 上追踪买家提示词，在同一证据链中保留原始回答、引用来源与 Google Search Console 数据。",
+        "由一个 Agent 运行可见性、技术 SEO、内容、权威与验证五条工作流，每类动作可选建议、审批或自动执行模式。",
+        "每次动作后在同一引擎复查同一买家提示词，将回答、引用与排名同基线对比。",
+        "通过 WordPress、Webflow、Framer 等集成发布文章，并可连接 Cloudflare、Fastly 或 Vercel 查看哪些 AI 爬虫读取页面。",
+        "每篇文章发布前给出 SEO 与 GEO 评分，并从已审核目录与编辑类目标建设经核验的 dofollow 外链。"
+      ]
+    },
+    "audience": {
+      "en": "Brands, agencies and SEO teams that want AI answer tracking paired with executed fixes and re-verification on Google, ChatGPT and Perplexity.",
+      "zh": "希望在 Google、ChatGPT 与 Perplexity 上把 AI 回答追踪与执行修复、复查验证结合的品牌、代理商与 SEO 团队。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Track buyer prompts weekly across ChatGPT, Perplexity and Google, and review the verbatim answers, cited sources and ranking changes for one brand in a single dashboard.",
+          "zh": "每周在 ChatGPT、Perplexity 与 Google 上追踪买家提示词，在同一仪表盘中复盘一个品牌的原始回答、引用来源与排名变化。"
+        },
+        "summary": {
+          "en": "Track buyer prompts and cited sources across three engines.",
+          "zh": "跨三个引擎追踪买家提示词与引用来源。"
+        },
+        "sourceUrls": [
+          "https://sonarvue.com/"
+        ],
+        "verifiedAt": "2026-11-15"
+      },
+      {
+        "description": {
+          "en": "Let the agent ship content, technical and authority fixes, then re-probe the same prompt to check whether the brand is now cited, with an audit trail recording each action and its evidence.",
+          "zh": "让 Agent 执行内容、技术与权威修复，再复查同一提示词确认品牌是否被引用，审计记录保留每个动作及其依据。"
+        },
+        "summary": {
+          "en": "Agent executes fixes and re-probes the same prompt.",
+          "zh": "Agent 执行修复并复查同一提示词。"
+        },
+        "sourceUrls": [
+          "https://sonarvue.com/"
+        ],
+        "verifiedAt": "2026-11-15"
+      }
+    ],
+    "platforms": [
+      "ChatGPT",
+      "Perplexity",
+      "Google"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "Sonarvue product and features",
+          "zh": "Sonarvue 产品与功能"
+        },
+        "url": "https://sonarvue.com/"
+      },
+      {
+        "label": {
+          "en": "Sonarvue pricing and plans",
+          "zh": "Sonarvue 定价与套餐"
+        },
+        "url": "https://sonarvue.com/en-US/pricing"
+      },
+      {
+        "label": {
+          "en": "Profound pricing (comparison reference)",
+          "zh": "Profound 定价（对比参考）"
+        },
+        "url": "https://www.tryprofound.com/pricing"
+      }
+    ],
+    "verifiedAt": "2026-11-15",
+    "status": "published",
+    "featuredOrder": 86,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "Starter is US$250/month billed monthly: 20 tracked prompts run weekly, 25 keywords, 1 site, 2 articles and 2 backlinks per month, up to 5 technical fixes and 1 content refresh per month, one keyword-research batch per quarter (30 keywords), monthly reporting and 48h email support. Growth is US$600/month billed quarterly (US$1,800 per quarter): 75 weekly tracked prompts, 100 keywords, 6 articles and 8 backlinks per month, up to 15 technical fixes and 3 content refreshes per month, one keyword-research batch per month (50 keywords), bi-weekly reporting plus a monthly call and 24h email support. Custom quotes cover 2+ sites, SSO and API with annual or invoiced billing. A free site audit shows the first answer set for one brand across the three engines with 10 buyer prompts and no card; it is a one-time entry, not a free plan. Prices are in USD and unused quota does not roll over.",
+          "zh": "Starter 每月 250 美元、按月计费：20 个每周运行的追踪提示词、25 个关键词、1 个站点、每月 2 篇文章与 2 条外链、每月最多 5 项技术修复与 1 次内容刷新、每季度 1 批关键词研究（30 词）、月度报告与 48 小时邮件支持。Growth 每月 600 美元、按季计费（每季 1,800 美元）：75 个每周追踪提示词、100 个关键词、每月 6 篇文章与 8 条外链、每月最多 15 项技术修复与 3 次内容刷新、每月 1 批关键词研究（50 词）、双周报告加月度电话与 24 小时邮件支持。Custom 询价覆盖 2 个以上站点、SSO 与 API，按年或发票计费。免费站点审计展示一个品牌在三个引擎的首组回答，含 10 个买家提示词、无需银行卡，属一次性入口而非免费套餐。价格以美元计，未用完的额度不结转。"
+        },
+        "summary": {
+          "en": "Starter US$250/month (20 weekly prompts); Growth US$600/month billed quarterly at US$1,800 (75 prompts); Custom quote; free one-time audit with 10 prompts.",
+          "zh": "Starter 每月 250 美元（20 个每周提示词）；Growth 每月 600 美元、按季计费 1,800 美元（75 个提示词）；Custom 询价；免费一次性审计含 10 个提示词。"
+        },
+        "sourceUrls": [
+          "https://sonarvue.com/en-US/pricing"
+        ],
+        "verifiedAt": "2026-11-15"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "One tracked prompt is one active combination of prompt text, brand, country and language, covering ChatGPT, Perplexity and Google; tracking the same text for another brand, country or language uses another prompt slot.",
+          "zh": "一个追踪提示词是提示词文本、品牌、国家与语言的一个有效组合，覆盖 ChatGPT、Perplexity 与 Google；同一文本换一个品牌、国家或语言会占用另一个提示词额度。"
+        },
+        "summary": {
+          "en": "Prompt slots count per text, brand, country and language.",
+          "zh": "提示词额度按文本、品牌、国家与语言组合计数。"
+        },
+        "sourceUrls": [
+          "https://sonarvue.com/en-US/pricing"
+        ],
+        "verifiedAt": "2026-11-15"
+      },
+      {
+        "description": {
+          "en": "Starter and Growth each cover one site (Growth offers a site add-on), quotas count deliverables rather than effort, and unused quota does not roll over; multi-site coverage requires a Custom quote.",
+          "zh": "Starter 与 Growth 各覆盖一个站点（Growth 可加购站点），额度按交付物而非工作量计数，未用完的额度不结转；多站点覆盖需 Custom 询价。"
+        },
+        "summary": {
+          "en": "One site per plan; unused quota does not roll over.",
+          "zh": "每套餐限一个站点；未用额度不结转。"
+        },
+        "sourceUrls": [
+          "https://sonarvue.com/en-US/pricing"
+        ],
+        "verifiedAt": "2026-11-15"
+      },
+      {
+        "description": {
+          "en": "Executing publishes requires CMS access granted per source, and the agent never publishes autonomously on the first publish to a domain that has not been verified; every autonomous action keeps an audit row with its evidence.",
+          "zh": "执行发布需按来源授予 CMS 访问权限，Agent 不会在未验证域名的首次发布时自动执行；每个自动动作都保留带依据的审计记录。"
+        },
+        "summary": {
+          "en": "Publishing needs per-source CMS access; no autonomous first publish.",
+          "zh": "发布需按来源授权 CMS；未验证域名首次发布不自动执行。"
+        },
+        "sourceUrls": [
+          "https://sonarvue.com/en-US/pricing"
+        ],
+        "verifiedAt": "2026-11-15"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Sonarvue and Profound both track how brands appear in AI answers. Sonarvue covers ChatGPT, Perplexity and Google with published self-serve prices (Starter US$250/month, Growth US$600/month billed quarterly) and an agent that ships SEO and GEO work, then re-runs the same prompt to verify the change. Profound lists a free 7-day trial (50 prompts daily on ChatGPT, Gemini and Google AI Overviews) and custom Enterprise packages tracking up to 10 answer engines with marketing agents; the displayed Enterprise plan is quote-based. Sonarvue suits three-engine coverage with executed fixes at published prices; Profound suits broader engine coverage and enterprise packaging.",
+          "zh": "Sonarvue 与 Profound 都追踪品牌在 AI 回答中的表现。Sonarvue 覆盖 ChatGPT、Perplexity 与 Google，公开自助价格（Starter 每月 250 美元，Growth 每月 600 美元按季计费），由 Agent 执行 SEO 与 GEO 工作后复查同一提示词验证变化。Profound 列出免费 7 天试用（每天 50 个提示词，覆盖 ChatGPT、Gemini 与 Google AI Overviews）与最多追踪 10 个答案引擎、含营销 Agent 的企业定制方案；页面展示的企业方案需询价。需要三引擎覆盖加公开价格的执行修复可选 Sonarvue；需要更广引擎覆盖与企业方案可选 Profound。"
+        },
+        "summary": {
+          "en": "Sonarvue: 3 engines, published prices, executed fixes with re-probe. Profound: up to 10 engines, free 7-day trial, quote-based Enterprise.",
+          "zh": "Sonarvue：3 引擎、公开价格、执行修复并复查。Profound：最多 10 引擎、免费 7 天试用、企业询价。"
+        },
+        "sourceUrls": [
+          "https://sonarvue.com/en-US/pricing",
+          "https://www.tryprofound.com/pricing"
+        ],
+        "verifiedAt": "2026-11-15",
+        "alternativeSlug": "profound"
+      }
+    ]
   }
 ]
