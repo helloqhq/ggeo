@@ -11830,5 +11830,918 @@
         "alternativeSlug": "profound"
       }
     ]
+  },
+  {
+    "slug": "trakkr",
+    "name": "Trakkr",
+    "category": "ai-visibility",
+    "website": "https://trakkr.ai/",
+    "logo": null,
+    "description": {
+      "en": "Track brand visibility, citations and perception across eight AI models, with fixes you can ship to your own site.",
+      "zh": "追踪品牌在八个 AI 模型中的曝光、引用与认知，并可将修复建议发布到自有网站。"
+    },
+    "tags": {
+      "en": [
+        "AI visibility",
+        "Citations",
+        "Site fixes"
+      ],
+      "zh": [
+        "AI 曝光",
+        "引用追踪",
+        "站点修复"
+      ]
+    },
+    "features": {
+      "en": [
+        "Monitor brand mentions, competitor share and cited sources across eight AI models, checked daily.",
+        "Review perception scores and ship approved content and schema fixes to WordPress, Shopify, Webflow or GitHub."
+      ],
+      "zh": [
+        "每日监测八个 AI 模型中的品牌提及、竞品份额与被引来源。",
+        "查看认知评分，并将审核后的内容与结构化数据修复发布到 WordPress、Shopify、Webflow 或 GitHub。"
+      ]
+    },
+    "audience": {
+      "en": "Brands and agencies that want AI visibility tracking plus remediation in one workflow.",
+      "zh": "希望在一个流程中同时完成 AI 曝光监测与修复的品牌和代理机构。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "For ongoing brand reporting, track a consistent prompt set across all eight models daily and review how mentions, competitor share and perception change over time.",
+          "zh": "制作持续品牌报告时，每天在全部八个模型上追踪同一组提示词，复查提及、竞品份额与认知随时间的变化。"
+        },
+        "sourceUrls": [
+          "https://trakkr.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-15",
+        "summary": {
+          "en": "Daily multi-model brand and competitor reporting.",
+          "zh": "每日多模型品牌与竞品报告。"
+        }
+      },
+      {
+        "description": {
+          "en": "When AI answers describe your brand incorrectly, inspect the cited sources and perception traits, then ship an approved fix to your site's content or schema.",
+          "zh": "当 AI 回答对品牌描述有误时，调查被引来源与认知维度，再将审核后的修复发布到网站内容或结构化数据。"
+        },
+        "sourceUrls": [
+          "https://trakkr.ai/",
+          "https://trakkr.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-15",
+        "summary": {
+          "en": "Inspect sources and ship approved site fixes.",
+          "zh": "调查来源并发布审核后的站点修复。"
+        }
+      }
+    ],
+    "platforms": [
+      "ChatGPT",
+      "Claude",
+      "Perplexity",
+      "Gemini",
+      "Grok",
+      "Meta AI",
+      "DeepSeek",
+      "Google AI Overviews"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "Trakkr official product overview",
+          "zh": "Trakkr 官方产品概览"
+        },
+        "url": "https://trakkr.ai/"
+      },
+      {
+        "label": {
+          "en": "Trakkr pricing and plans",
+          "zh": "Trakkr 定价与方案"
+        },
+        "url": "https://trakkr.ai/pricing"
+      },
+      {
+        "label": {
+          "en": "Peec AI comparison evidence",
+          "zh": "Peec AI 选型比较依据"
+        },
+        "url": "https://peec.ai/pricing"
+      }
+    ],
+    "verifiedAt": "2026-11-15",
+    "status": "published",
+    "featuredOrder": 87,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "Growth is $100/month for one brand, 50 prompts, three seats and all eight AI models; Scale is $500/month for ten brands, unlimited seats, REST API and white-label client portals. Annual billing is two months free (Growth $1,000/year, Scale $5,000/year). Enterprise is custom. Extra brands are $50/month each.",
+          "zh": "Growth 为 $100/月，含 1 个品牌、50 个提示词、3 个席位和全部八个 AI 模型；Scale 为 $500/月，含 10 个品牌、无限席位、REST API 与白标客户门户。年付免两个月（Growth $1,000/年，Scale $5,000/年）。Enterprise 定制报价。额外品牌每个 $50/月。"
+        },
+        "sourceUrls": [
+          "https://trakkr.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-15",
+        "summary": {
+          "en": "Growth $100/month (1 brand, 50 prompts, 8 models); Scale $500/month (10 brands, API, white-label). Annual: 2 months free.",
+          "zh": "Growth $100/月（1 品牌、50 提示词、8 模型）；Scale $500/月（10 品牌、API、白标）。年付免两个月。"
+        }
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "The 14-day trial starts on Growth. ChatGPT shopping tracking is a separate $49/brand/month add-on, and article credits and optimized AI-crawler visits are capped per plan (Growth includes 25 articles and 2,500 crawler visits a month).",
+          "zh": "14 天试用从 Growth 开始。ChatGPT 购物追踪为单独的 $49/品牌/月附加项；文章额度与优化的 AI 爬虫访问按方案封顶（Growth 每月含 25 篇文章、2,500 次爬虫访问）。"
+        },
+        "sourceUrls": [
+          "https://trakkr.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-15",
+        "summary": {
+          "en": "Trial starts on Growth; shopping add-on $49/brand/month; article and crawler-visit caps per plan.",
+          "zh": "试用从 Growth 起；购物附加 $49/品牌/月；文章与爬虫访问按方案封顶。"
+        }
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Trakkr includes all eight AI models on every plan with no per-model fees and bundles citation, perception and site fixes. Peec AI offers self-serve monthly brand plans by prompt and project allowance, where model coverage is selected separately and changes usage and cost. Compare included engines and per-brand prompt allowances rather than headline price alone.",
+          "zh": "Trakkr 每个方案都含全部八个 AI 模型，无按模型计费，并整合引用、认知与站点修复。Peec AI 提供按提示词和项目分档的自助品牌月付方案，模型覆盖需单独选择并会改变用量与费用。应比较所含引擎与每品牌提示词额度，而非只看表面价格。"
+        },
+        "summary": {
+          "en": "Trakkr: all 8 models included, fixes bundled. Peec: self-serve brand plans, model coverage priced separately.",
+          "zh": "Trakkr：含全部 8 模型并整合修复。Peec：自助品牌方案，模型覆盖单独计费。"
+        },
+        "sourceUrls": [
+          "https://trakkr.ai/pricing",
+          "https://peec.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-15",
+        "alternativeSlug": "peec-ai"
+      }
+    ]
+  },
+  {
+    "slug": "bluefish",
+    "name": "Bluefish",
+    "category": "ai-visibility",
+    "website": "https://www.bluefishai.com/",
+    "logo": null,
+    "description": {
+      "en": "An enterprise agentic marketing platform for monitoring, optimizing and measuring how AI represents your brand.",
+      "zh": "面向企业的智能体营销平台，用于监测、优化并衡量 AI 对品牌的呈现。"
+    },
+    "tags": {
+      "en": [
+        "Enterprise",
+        "Brand monitoring",
+        "Citations"
+      ],
+      "zh": [
+        "企业级",
+        "品牌监控",
+        "引用追踪"
+      ]
+    },
+    "features": {
+      "en": [
+        "Track brand visibility, share of voice, sentiment and citations across 10+ LLMs daily, broken out by custom audiences.",
+        "Check AI claims against verified brand facts and trace them to source URLs with the AI Accuracy workflow."
+      ],
+      "zh": [
+        "每日在 10+ 个大模型上追踪品牌曝光、声量份额、情绪与引用，并按自定义受众细分。",
+        "通过 AI Accuracy 流程，将 AI 的说法与已核验的品牌事实比对，并追溯到来源 URL。"
+      ]
+    },
+    "audience": {
+      "en": "Enterprise brand and marketing teams coordinating AI search across multiple functions.",
+      "zh": "需要跨职能协同管理 AI 搜索的企业品牌与营销团队。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "For enterprise brand reviews, compare visibility and share of voice against competitors by defined customer personas, and inspect which sources influence the AI narrative.",
+          "zh": "开展企业品牌复盘时，按既定客户画像比较与竞品的曝光和声量份额，并调查哪些来源影响 AI 的叙述。"
+        },
+        "sourceUrls": [
+          "https://www.bluefishai.com/products/ai-monitoring-suite"
+        ],
+        "verifiedAt": "2026-11-15",
+        "summary": {
+          "en": "Audience-level visibility and share-of-voice reviews.",
+          "zh": "按受众细分的曝光与声量份额复盘。"
+        }
+      },
+      {
+        "description": {
+          "en": "When AI states something inaccurate about your brand, use AI Accuracy to detect the claim, trace it to its source URL, and correct first- and third-party sources.",
+          "zh": "当 AI 对品牌陈述不准确时，用 AI Accuracy 发现该说法、追溯到来源 URL，并更正第一方与第三方来源。"
+        },
+        "sourceUrls": [
+          "https://www.bluefishai.com/products/ai-monitoring-suite"
+        ],
+        "verifiedAt": "2026-11-15",
+        "summary": {
+          "en": "Detect, trace and correct inaccurate AI claims.",
+          "zh": "发现、追溯并更正不准确的 AI 说法。"
+        }
+      }
+    ],
+    "platforms": [
+      "ChatGPT",
+      "Gemini",
+      "Perplexity",
+      "Alexa for Shopping"
+    ],
+    "pricing": "Contact Sales",
+    "sources": [
+      {
+        "label": {
+          "en": "Bluefish official platform overview",
+          "zh": "Bluefish 官方平台概览"
+        },
+        "url": "https://www.bluefishai.com/"
+      },
+      {
+        "label": {
+          "en": "Bluefish AI Monitoring Suite",
+          "zh": "Bluefish AI 监测套件"
+        },
+        "url": "https://www.bluefishai.com/products/ai-monitoring-suite"
+      },
+      {
+        "label": {
+          "en": "Profound comparison evidence",
+          "zh": "Profound 选型比较依据"
+        },
+        "url": "https://www.tryprofound.com/pricing"
+      }
+    ],
+    "verifiedAt": "2026-11-15",
+    "status": "published",
+    "featuredOrder": 88,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "Bluefish is sold through a demo and sales agreement; no public self-serve price is listed. The platform bundles AI Monitoring, AI Optimization and AI Measurement Suites, with 10+ LLMs tracked daily and 15+ provider integrations.",
+          "zh": "Bluefish 通过演示与销售协议采购，未公开自助价格。平台整合 AI 监测、AI 优化与 AI 衡量三大套件，每日追踪 10+ 个大模型，并提供 15+ 个服务商集成。"
+        },
+        "sourceUrls": [
+          "https://www.bluefishai.com/"
+        ],
+        "verifiedAt": "2026-11-15",
+        "summary": {
+          "en": "Demo-led, quote-based; three suites, 10+ LLMs daily, 15+ integrations.",
+          "zh": "演示驱动、按需报价；三大套件，每日 10+ 大模型，15+ 集成。"
+        }
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "Pricing, engine coverage and audience configuration are scoped through sales rather than published as fixed tiers; the platform is positioned for enterprise marketing organizations.",
+          "zh": "价格、引擎覆盖与受众配置通过销售确定，而非公开固定档位；平台面向企业营销组织。"
+        },
+        "sourceUrls": [
+          "https://www.bluefishai.com/",
+          "https://www.bluefishai.com/products/ai-monitoring-suite"
+        ],
+        "verifiedAt": "2026-11-15",
+        "summary": {
+          "en": "Enterprise-scoped pricing and coverage; no public tiers.",
+          "zh": "企业范围定价与覆盖；无公开档位。"
+        }
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Both Bluefish and Profound are enterprise, quote-based AI visibility platforms. Bluefish bundles Monitoring, Optimization and Measurement suites with AI Accuracy fact-checking and 10+ models tracked daily; Profound offers enterprise monitoring with AI Marketer credits and a seven-day trial. Scope engine coverage and integrations through a demo before comparing total cost.",
+          "zh": "Bluefish 与 Profound 均为企业级、按需报价的 AI 曝光平台。Bluefish 整合监测、优化与衡量套件，含 AI Accuracy 事实核验，每日追踪 10+ 模型；Profound 提供含 AI Marketer 积分的企业监测与七天试用。比较总成本前，应通过演示明确引擎覆盖与集成范围。"
+        },
+        "summary": {
+          "en": "Bluefish: three suites + AI Accuracy, demo-led. Profound: enterprise monitoring + AI Marketer credits, 7-day trial.",
+          "zh": "Bluefish：三套件 + AI Accuracy，演示驱动。Profound：企业监测 + AI Marketer 积分，七天试用。"
+        },
+        "sourceUrls": [
+          "https://www.bluefishai.com/",
+          "https://www.tryprofound.com/pricing"
+        ],
+        "verifiedAt": "2026-11-15",
+        "alternativeSlug": "profound"
+      }
+    ]
+  },
+  {
+    "slug": "menra",
+    "name": "Menra",
+    "category": "ai-visibility",
+    "website": "https://www.menra.ai/",
+    "logo": null,
+    "description": {
+      "en": "Daily AI visibility monitoring with tiered engine coverage, competitor tracking and a built-in GEO audit.",
+      "zh": "每日 AI 曝光监测，按方案分级覆盖引擎，含竞品追踪与内置 GEO 诊断。"
+    },
+    "tags": {
+      "en": [
+        "AI visibility",
+        "Competitors",
+        "GEO audit"
+      ],
+      "zh": [
+        "AI 曝光",
+        "竞品分析",
+        "GEO 诊断"
+      ]
+    },
+    "features": {
+      "en": [
+        "Run every tracked prompt daily on each included engine and review brand mentions, citations and competitor rankings.",
+        "Use the included GEO audit with automated recommendations, plus AEO content checks and scheduled reports."
+      ],
+      "zh": [
+        "每天在每个所含引擎上运行全部追踪提示词，复查品牌提及、引用与竞品排名。",
+        "使用内置 GEO 诊断与自动建议，以及 AEO 内容检查和定时报告。"
+      ]
+    },
+    "audience": {
+      "en": "Teams that want daily AI visibility tracking with a clear engine and brand allowance per plan.",
+      "zh": "希望按方案明确引擎与品牌额度、进行每日 AI 曝光追踪的团队。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "For recurring monitoring, track a fixed prompt set daily across your plan's engines and review brand mentions and competitor rankings built from real daily measurements.",
+          "zh": "进行持续监测时，每天在方案所含引擎上追踪固定提示词，复查基于真实每日测量得出的品牌提及与竞品排名。"
+        },
+        "sourceUrls": [
+          "https://www.menra.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-15",
+        "summary": {
+          "en": "Daily prompt tracking and competitor rankings.",
+          "zh": "每日提示词追踪与竞品排名。"
+        }
+      },
+      {
+        "description": {
+          "en": "When improving content for AI answers, run the included GEO audit and AEO content checks to get automated recommendations, then review gap analysis and battlecards on Professional.",
+          "zh": "为 AI 回答优化内容时，运行内置 GEO 诊断与 AEO 内容检查获取自动建议，并在 Professional 上复查差距分析与对比卡。"
+        },
+        "sourceUrls": [
+          "https://www.menra.ai/pricing",
+          "https://www.menra.ai/"
+        ],
+        "verifiedAt": "2026-11-15",
+        "summary": {
+          "en": "GEO audit and AEO checks with recommendations.",
+          "zh": "GEO 诊断与 AEO 检查并给出建议。"
+        }
+      }
+    ],
+    "platforms": [
+      "ChatGPT",
+      "Perplexity",
+      "Gemini",
+      "Google AI Overviews",
+      "Bing AI Mode",
+      "DeepSeek",
+      "Meta AI",
+      "Claude",
+      "Grok",
+      "Google AI Mode"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "Menra official product overview",
+          "zh": "Menra 官方产品概览"
+        },
+        "url": "https://www.menra.ai/"
+      },
+      {
+        "label": {
+          "en": "Menra pricing and plans",
+          "zh": "Menra 定价与方案"
+        },
+        "url": "https://www.menra.ai/pricing"
+      }
+    ],
+    "verifiedAt": "2026-11-15",
+    "status": "published",
+    "featuredOrder": 89,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "Essential is $99/month (1 brand, 25 prompts, 3 engines: ChatGPT, Perplexity, Gemini; 3 competitors, 30 AEO checks/month, 1 seat). Professional is $399/month (3 brands, 70 prompts, 6 engines, 10 competitors, 100 AEO checks/month, 3 seats). Annual billing is two months free ($990 and $3,990). Enterprise is contact-priced with all 10 engines.",
+          "zh": "Essential 为 $99/月（1 品牌、25 提示词、3 引擎：ChatGPT、Perplexity、Gemini；3 竞品、每月 30 次 AEO 检查、1 席位）。Professional 为 $399/月（3 品牌、70 提示词、6 引擎、10 竞品、每月 100 次 AEO 检查、3 席位）。年付免两个月（$990 与 $3,990）。Enterprise 联系报价，含全部 10 引擎。"
+        },
+        "sourceUrls": [
+          "https://www.menra.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-15",
+        "summary": {
+          "en": "Essential $99/month (3 engines); Professional $399/month (6 engines); Enterprise all 10. Annual: 2 months free.",
+          "zh": "Essential $99/月（3 引擎）；Professional $399/月（6 引擎）；Enterprise 全 10 引擎。年付免两个月。"
+        }
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "Engine coverage is tiered: Claude and Grok are Enterprise-only because of higher per-run cost. The 14-day trial requires a credit card, and Essential is limited to one seat, region and language.",
+          "zh": "引擎覆盖按分级：Claude 与 Grok 仅限 Enterprise，因单次运行成本更高。14 天试用需绑定信用卡；Essential 仅限 1 个席位、地区与语言。"
+        },
+        "sourceUrls": [
+          "https://www.menra.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-15",
+        "summary": {
+          "en": "Claude/Grok Enterprise-only; trial needs a card; Essential limited to 1 seat/region/language.",
+          "zh": "Claude/Grok 仅企业版；试用需绑卡；Essential 限 1 席位/地区/语言。"
+        }
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Menra tiers engines by plan: Essential tracks three, Professional six and Enterprise all ten, with daily scans on every plan. Choose by the engines, brand count and competitor allowance you need; Claude and Grok require Enterprise. A separate Menra Consulting service is custom-scoped.",
+          "zh": "Menra 按方案分级引擎：Essential 追踪 3 个、Professional 6 个、Enterprise 全部 10 个，每个方案均每日扫描。按所需引擎、品牌数与竞品额度选择；Claude 与 Grok 需 Enterprise。另有单独定制范围的 Menra Consulting 服务。"
+        },
+        "summary": {
+          "en": "Engine count scales by plan (3/6/10); daily scans; Claude/Grok on Enterprise.",
+          "zh": "引擎数按方案递增（3/6/10）；每日扫描；Claude/Grok 在企业版。"
+        },
+        "sourceUrls": [
+          "https://www.menra.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-15"
+      }
+    ]
+  },
+  {
+    "slug": "kime",
+    "name": "KIME",
+    "category": "ai-visibility",
+    "website": "https://kime.ai/",
+    "logo": null,
+    "description": {
+      "en": "AI search visibility analytics with perception, citation tracking and agentic execution across multiple engines.",
+      "zh": "AI 搜索曝光分析，含认知、引用追踪与跨多引擎的智能体执行。"
+    },
+    "tags": {
+      "en": [
+        "AI visibility",
+        "AI perception",
+        "Agentic actions"
+      ],
+      "zh": [
+        "AI 曝光",
+        "AI 认知",
+        "智能体执行"
+      ]
+    },
+    "features": {
+      "en": [
+        "Track brand presence, sentiment and citations across selected AI engines with daily prompt runs and country-level tracking.",
+        "Prioritize opportunities in the action center and let AWX execute content, outreach and technical fixes within a monthly allowance."
+      ],
+      "zh": [
+        "在所选 AI 引擎上追踪品牌表现、情绪与引用，支持每日提示词运行与国家级追踪。",
+        "在行动中心确定优先级，由 AWX 在每月额度内执行内容、外链与技术修复。"
+      ]
+    },
+    "audience": {
+      "en": "Marketing teams and agencies that want AI visibility analytics plus executed optimization tasks.",
+      "zh": "希望获得 AI 曝光分析并执行优化任务的营销团队与代理机构。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "For ongoing visibility reviews, track prompts daily across your selected engines and analyze brand perception, competitor share and full citation analytics.",
+          "zh": "进行持续曝光复盘时，每天在所选引擎上追踪提示词，分析品牌认知、竞品份额与完整引用数据。"
+        },
+        "sourceUrls": [
+          "https://kime.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-15",
+        "summary": {
+          "en": "Daily visibility, perception and citation analytics.",
+          "zh": "每日曝光、认知与引用分析。"
+        }
+      },
+      {
+        "description": {
+          "en": "When you want fixes carried out rather than only recommended, use the action center and AWX agentic executions to write content, draft outreach or fix technical structure within your plan's monthly allowance.",
+          "zh": "当希望直接执行修复而非仅获得建议时，使用行动中心与 AWX 智能体执行，在方案每月额度内撰写内容、起草外链或修复技术结构。"
+        },
+        "sourceUrls": [
+          "https://kime.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-15",
+        "summary": {
+          "en": "Execute content, outreach and technical fixes via AWX.",
+          "zh": "通过 AWX 执行内容、外链与技术修复。"
+        }
+      }
+    ],
+    "platforms": [
+      "ChatGPT",
+      "Gemini",
+      "Google AI Mode",
+      "Google AI Overviews",
+      "Perplexity",
+      "Claude",
+      "Grok",
+      "DeepSeek",
+      "Microsoft Copilot",
+      "Meta AI"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "KIME official product overview",
+          "zh": "KIME 官方产品概览"
+        },
+        "url": "https://kime.ai/"
+      },
+      {
+        "label": {
+          "en": "KIME pricing and plans",
+          "zh": "KIME 定价与方案"
+        },
+        "url": "https://kime.ai/pricing"
+      },
+      {
+        "label": {
+          "en": "KIME official company and engine facts",
+          "zh": "KIME 官方公司与引擎信息"
+        },
+        "url": "https://kime.ai/ai-information"
+      }
+    ],
+    "verifiedAt": "2026-11-15",
+    "status": "published",
+    "featuredOrder": 90,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "Explorer is EUR 99/month (50 prompts, 2 engines, 10 AWX executions/month, 5 seats); Core is EUR 399/month (200 prompts, 3 engines, 30 executions/month, 10 seats); Enterprise is custom with all available engines. Billing is monthly, quarterly (5% off) or annual (15% off), in EUR, USD, DKK or GBP. Explorer and Core include a 7-day free trial.",
+          "zh": "Explorer 为 99 欧元/月（50 提示词、2 引擎、每月 10 次 AWX 执行、5 席位）；Core 为 399 欧元/月（200 提示词、3 引擎、每月 30 次执行、10 席位）；Enterprise 定制，含全部可用引擎。可按月、按季（减 5%）或按年（减 15%）计费，币种为 EUR、USD、DKK 或 GBP。Explorer 与 Core 含 7 天免费试用。"
+        },
+        "sourceUrls": [
+          "https://kime.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-15",
+        "summary": {
+          "en": "Explorer EUR 99/month (2 engines); Core EUR 399/month (3 engines); Enterprise all engines. Quarterly -5%, annual -15%; 7-day trial.",
+          "zh": "Explorer 99 欧元/月（2 引擎）；Core 399 欧元/月（3 引擎）；Enterprise 全引擎。季付减 5%、年付减 15%；7 天试用。"
+        }
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "Self-serve plans track a limited number of engines (Explorer 2, Core 3); all available engines require Enterprise. Agentic executions are capped per month (10 on Explorer, 30 on Core), and the 7-day free trial covers Explorer and Core only.",
+          "zh": "自助方案追踪的引擎数量有限（Explorer 2 个、Core 3 个）；全部可用引擎需 Enterprise。智能体执行按月封顶（Explorer 10 次、Core 30 次）；7 天免费试用仅覆盖 Explorer 与 Core。"
+        },
+        "sourceUrls": [
+          "https://kime.ai/pricing",
+          "https://kime.ai/ai-information"
+        ],
+        "verifiedAt": "2026-11-15",
+        "summary": {
+          "en": "Engine count limited on self-serve plans; executions capped; 7-day trial on Explorer/Core only.",
+          "zh": "自助方案引擎数受限；执行次数封顶；7 天试用仅限 Explorer/Core。"
+        }
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "KIME scales by prompts, engines and agentic executions: Explorer (50 prompts, 2 engines, 10 executions), Core (200 prompts, 3 engines, 30 executions) and Enterprise (all engines). Every plan includes the full analytics suite, AI perception, MCP and API access. Choose by engine count and execution volume; longer billing periods are discounted.",
+          "zh": "KIME 按提示词、引擎与智能体执行次数分档：Explorer（50 提示词、2 引擎、10 次执行）、Core（200 提示词、3 引擎、30 次执行）与 Enterprise（全部引擎）。每个方案均含完整分析套件、AI 认知、MCP 与 API。按引擎数与执行量选择；更长账期享折扣。"
+        },
+        "summary": {
+          "en": "Plans scale by engines (2/3/all) and executions; full suite on every plan.",
+          "zh": "按引擎（2/3/全部）与执行量分档；每方案含完整套件。"
+        },
+        "sourceUrls": [
+          "https://kime.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-15"
+      }
+    ]
+  },
+  {
+    "slug": "rankcontrol",
+    "name": "RankControl",
+    "category": "content-geo",
+    "website": "https://rctrl.com/",
+    "logo": null,
+    "description": {
+      "en": "An AI search content pipeline that finds questions, writes and publishes guides to your domain, and tracks citations.",
+      "zh": "面向 AI 搜索的内容流水线：发现问题、撰写并发布指南到自有域名，并追踪引用。"
+    },
+    "tags": {
+      "en": [
+        "Content engine",
+        "Publishing",
+        "Citations"
+      ],
+      "zh": [
+        "内容引擎",
+        "发布",
+        "引用追踪"
+      ]
+    },
+    "features": {
+      "en": [
+        "Use Radar to find buyer questions and Forge to write brand-matched 1,500-4,000+ word guides published natively to your CMS.",
+        "Distribute content with Outreach, Amplify and Social, and track AI visibility, citation signals and brand perception with Sentinel."
+      ],
+      "zh": [
+        "用 Radar 发现买家问题，用 Forge 撰写匹配品牌的 1,500-4,000+ 字指南，并原生发布到你的 CMS。",
+        "通过 Outreach、Amplify 与 Social 分发内容，并用 Sentinel 追踪 AI 曝光、引用信号与品牌认知。"
+      ]
+    },
+    "audience": {
+      "en": "Teams that want done-for-you AI search content published on their own domain at a flat price.",
+      "zh": "希望以固定价格将 AI 搜索内容发布到自有域名、由工具代为完成的团队。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "When building AI search content, let Forge draft long-form guides answering buyer questions, approve them, and publish natively to your WordPress, Webflow, Framer, Shopify, Ghost, Notion or Wix site.",
+          "zh": "建设 AI 搜索内容时，由 Forge 起草回答买家问题的长篇指南，经审核后原生发布到 WordPress、Webflow、Framer、Shopify、Ghost、Notion 或 Wix 站点。"
+        },
+        "sourceUrls": [
+          "https://rctrl.com/pricing",
+          "https://rctrl.com/"
+        ],
+        "verifiedAt": "2026-11-15",
+        "summary": {
+          "en": "Draft, approve and publish long-form guides to your CMS.",
+          "zh": "起草、审核并发布长篇指南到你的 CMS。"
+        }
+      },
+      {
+        "description": {
+          "en": "After publishing, use Sentinel to track AI visibility and citation signals across seven engines, and run Outreach to earn backlinks to the content.",
+          "zh": "发布后，用 Sentinel 在七个引擎上追踪 AI 曝光与引用信号，并通过 Outreach 为内容争取外链。"
+        },
+        "sourceUrls": [
+          "https://rctrl.com/"
+        ],
+        "verifiedAt": "2026-11-15",
+        "summary": {
+          "en": "Track citations and earn backlinks after publishing.",
+          "zh": "发布后追踪引用并争取外链。"
+        }
+      }
+    ],
+    "platforms": [
+      "ChatGPT",
+      "Perplexity",
+      "Claude",
+      "Gemini",
+      "Grok",
+      "Google AI Mode",
+      "Google AI Overviews"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "RankControl official product overview",
+          "zh": "RankControl 官方产品概览"
+        },
+        "url": "https://rctrl.com/"
+      },
+      {
+        "label": {
+          "en": "RankControl pricing and plan",
+          "zh": "RankControl 定价与方案"
+        },
+        "url": "https://rctrl.com/pricing"
+      },
+      {
+        "label": {
+          "en": "Surfer comparison evidence",
+          "zh": "Surfer 选型比较依据"
+        },
+        "url": "https://surferseo.com/pricing/"
+      }
+    ],
+    "verifiedAt": "2026-11-15",
+    "status": "published",
+    "featuredOrder": 91,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "One all-inclusive plan is $400/month, or $4,000/year paid annually (two months free). It covers the full pipeline (Radar, Forge, Outreach, Amplify, Social and Sentinel) with a 7-day free trial. A dedicated strategist is an optional $1,500/month add-on.",
+          "zh": "单一全包方案为 $400/月，或年付 $4,000/年（免两个月）。涵盖完整流水线（Radar、Forge、Outreach、Amplify、Social 与 Sentinel），含 7 天免费试用。专属策略师为可选的 $1,500/月附加项。"
+        },
+        "sourceUrls": [
+          "https://rctrl.com/pricing"
+        ],
+        "verifiedAt": "2026-11-15",
+        "summary": {
+          "en": "One plan $400/month or $4,000/year (2 months free); 7-day trial; strategist add-on $1,500/month.",
+          "zh": "单一方案 $400/月或 $4,000/年（免两个月）；7 天试用；策略师附加 $1,500/月。"
+        }
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "There is a single plan with no tiers. Publishing supports nine destinations (WordPress, Webflow, Framer, Shopify, Ghost, Notion, Wix, webhooks, Content API), and citation checks run weekly.",
+          "zh": "仅单一方案、无分档。发布支持九个目标（WordPress、Webflow、Framer、Shopify、Ghost、Notion、Wix、webhook、Content API），引用检查每周运行。"
+        },
+        "sourceUrls": [
+          "https://rctrl.com/pricing",
+          "https://rctrl.com/"
+        ],
+        "verifiedAt": "2026-11-15",
+        "summary": {
+          "en": "Single plan; nine publishing destinations; weekly citation checks.",
+          "zh": "单一方案；九个发布目标；每周引用检查。"
+        }
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "RankControl is a flat $400/month pipeline that writes and publishes long-form guides to your own CMS and runs outreach, tracking seven AI engines. Surfer offers editor-led content optimization with AI Tracker in tiered yearly plans (Standard tracks ChatGPT weekly) and a standalone analytics plan. Choose RankControl for done-for-you publishing and link outreach; choose Surfer for editor-led optimization with separate tracking.",
+          "zh": "RankControl 是 $400/月的固定价格流水线，撰写并发布长篇指南到自有 CMS、开展外链，并追踪七个 AI 引擎。Surfer 提供编辑器主导的内容优化与 AI Tracker，按年分档（Standard 每周追踪 ChatGPT），另有独立分析方案。需要代为发布与外链可选 RankControl；需要编辑器主导优化加独立追踪可选 Surfer。"
+        },
+        "summary": {
+          "en": "RankControl: flat-price write/publish/outreach pipeline. Surfer: editor + AI Tracker, tiered yearly.",
+          "zh": "RankControl：固定价格撰写/发布/外链流水线。Surfer：编辑器 + AI Tracker，按年分档。"
+        },
+        "sourceUrls": [
+          "https://rctrl.com/pricing",
+          "https://surferseo.com/pricing/"
+        ],
+        "verifiedAt": "2026-11-15",
+        "alternativeSlug": "surfer"
+      }
+    ]
+  },
+  {
+    "slug": "wordlift",
+    "name": "WordLift",
+    "category": "content-geo",
+    "website": "https://wordlift.io/",
+    "logo": null,
+    "description": {
+      "en": "An AI discovery platform using knowledge graphs and structured data to help brands get found and cited by AI assistants.",
+      "zh": "AI 发现平台，利用知识图谱与结构化数据帮助品牌被 AI 助手发现并引用。"
+    },
+    "tags": {
+      "en": [
+        "Knowledge graph",
+        "Structured data",
+        "AI visibility"
+      ],
+      "zh": [
+        "知识图谱",
+        "结构化数据",
+        "AI 曝光"
+      ]
+    },
+    "features": {
+      "en": [
+        "Build a dynamic knowledge graph and optimize schema markup so AI assistants and search engines can understand and cite your content.",
+        "Use the AI Visibility Monitor (early access), AI-powered content creation and content optimization audits, with an entity-resolution API."
+      ],
+      "zh": [
+        "构建动态知识图谱并优化 schema 标记，让 AI 助手与搜索引擎理解并引用你的内容。",
+        "使用 AI 曝光监测（抢先体验）、AI 内容创作与内容优化诊断，并提供实体解析 API。"
+      ]
+    },
+    "audience": {
+      "en": "Brands and SEO teams investing in semantic, structured-data-led AI discoverability.",
+      "zh": "投入语义化、以结构化数据驱动 AI 可发现性的品牌与 SEO 团队。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "When improving AI discoverability, structure your product and content data into a knowledge graph and optimized schema markup so AI assistants can find, recommend and cite it.",
+          "zh": "提升 AI 可发现性时，将产品与内容数据构建为知识图谱并优化 schema 标记，使 AI 助手能够发现、推荐并引用。"
+        },
+        "sourceUrls": [
+          "https://wordlift.io/",
+          "https://wordlift.io/pricing/"
+        ],
+        "verifiedAt": "2026-11-15",
+        "summary": {
+          "en": "Knowledge graph and schema for AI discovery and citations.",
+          "zh": "以知识图谱与 schema 提升 AI 发现与引用。"
+        }
+      },
+      {
+        "description": {
+          "en": "To check current AI visibility, run the AI Visibility Audit for insights and recommendations across ChatGPT, Perplexity and Google AI Overviews, then monitor tracked URLs daily with the AI Visibility Monitor.",
+          "zh": "检查当前 AI 曝光时，运行 AI 曝光诊断，获取针对 ChatGPT、Perplexity 与 Google AI Overviews 的洞察与建议，再用 AI 曝光监测每日追踪指定 URL。"
+        },
+        "sourceUrls": [
+          "https://wordlift.io/",
+          "https://wordlift.io/pricing/"
+        ],
+        "verifiedAt": "2026-11-15",
+        "summary": {
+          "en": "AI visibility audit plus daily URL monitoring.",
+          "zh": "AI 曝光诊断加每日 URL 监测。"
+        }
+      }
+    ],
+    "platforms": [
+      "ChatGPT",
+      "Perplexity",
+      "Google AI Overviews"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "WordLift official platform overview",
+          "zh": "WordLift 官方平台概览"
+        },
+        "url": "https://wordlift.io/"
+      },
+      {
+        "label": {
+          "en": "WordLift pricing and plans",
+          "zh": "WordLift 定价与方案"
+        },
+        "url": "https://wordlift.io/pricing/"
+      }
+    ],
+    "verifiedAt": "2026-11-15",
+    "status": "published",
+    "featuredOrder": 92,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "Business+ is EUR 799/month billed yearly (annual billing saves 20% versus monthly) and includes the AI Visibility Monitor (early access), knowledge graph, AI content creation, schema tools and a dedicated project manager, with 2,500 URLs, 50 monitored URLs per site checked daily and monthly smart credits. Enterprise is custom-quoted. The free resolve() entity-resolution API public beta includes 1,000 requests/month.",
+          "zh": "Business+ 为 799 欧元/月、按年计费（年付较月付省 20%），含 AI 曝光监测（抢先体验）、知识图谱、AI 内容创作、schema 工具与专属项目经理，额度为 2,500 个 URL、每站点每日检查 50 个监测 URL 及每月智能积分。Enterprise 定制报价。免费的 resolve() 实体解析 API 公测含每月 1,000 次请求。"
+        },
+        "sourceUrls": [
+          "https://wordlift.io/pricing/"
+        ],
+        "verifiedAt": "2026-11-15",
+        "summary": {
+          "en": "Business+ EUR 799/month billed yearly; Enterprise custom; free resolve() beta 1,000 requests/month.",
+          "zh": "Business+ 799 欧元/月按年计费；Enterprise 定制；免费 resolve() 公测每月 1,000 次请求。"
+        }
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "The AI Visibility Monitor is in early access. Business+ is an expert-supported plan billed yearly with a dedicated project manager; Enterprise is custom-quoted for larger knowledge-graph and API needs. The free resolve() entity-resolution API is a public beta limited to 1,000 requests/month.",
+          "zh": "AI 曝光监测处于抢先体验阶段。Business+ 为按年计费、含专属项目经理的专家支持方案；Enterprise 面向更大的知识图谱与 API 需求定制报价。免费的 resolve() 实体解析 API 为公测，限每月 1,000 次请求。"
+        },
+        "sourceUrls": [
+          "https://wordlift.io/pricing/"
+        ],
+        "verifiedAt": "2026-11-15",
+        "summary": {
+          "en": "AI Visibility Monitor early access; Business+ yearly with dedicated PM; resolve() beta capped at 1,000 requests/month.",
+          "zh": "AI 曝光监测为抢先体验；Business+ 按年计费含专属 PM；resolve() 公测限每月 1,000 次请求。"
+        }
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "WordLift centers on a knowledge graph and structured data with an AI Visibility Monitor (early access). Business+ is an expert-supported plan billed yearly; Enterprise adds custom knowledge-graph and API integrations. A free resolve() entity API beta and AI visibility audit are available separately. Choose by whether you need managed semantic SEO support rather than a self-serve editor.",
+          "zh": "WordLift 以知识图谱与结构化数据为核心，含 AI 曝光监测（抢先体验）。Business+ 为按年计费的专家支持方案；Enterprise 增加定制知识图谱与 API 集成。另有免费的 resolve() 实体 API 公测与 AI 曝光诊断。按需选择是否要托管式语义 SEO 支持，而非自助编辑器。"
+        },
+        "summary": {
+          "en": "Knowledge-graph-led, expert-supported Business+; Enterprise custom integrations; free resolve() beta.",
+          "zh": "知识图谱主导、专家支持的 Business+；Enterprise 定制集成；免费 resolve() 公测。"
+        },
+        "sourceUrls": [
+          "https://wordlift.io/pricing/",
+          "https://wordlift.io/"
+        ],
+        "verifiedAt": "2026-11-15"
+      }
+    ]
   }
 ]
