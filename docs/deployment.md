@@ -119,6 +119,14 @@
 - 浏览器实际访问线上搜索：英文 `Trakkr` 命中 trakkr、中文 `知识图谱` 命中 wordlift，均显示新增卡片与正确分类。
 - 法律页中英内容、来源、独立日期与测试指纹未改动，线上四个法律页与本地一致；未修改域名、DNS、统计、广告或联盟配置。工作区既有的 `AGENTS.md` 编辑未并入本次发布提交。此发布记录以 `[skip ci]` 文档提交保存，避免重复部署相同静态产物。
 
+### 第十轮目录数据（2026-11-16）
+
+- 用户在数据维护、本地验收与英文邮件回复完成后明确授权提交和部署。生产源码提交：`ac617008548a6bf8277734a60dbf5a204ff511fe`；[发布工作流](https://github.com/helloqhq/ggeo/actions/runs/43881674293) 已 completed / success，build 与 deploy 均成功；本地 22 项测试通过，CI 数据校验、构建、测试步骤成功。首次推送因 HTTP2 framing 瞬时网络错误失败，改用 HTTP/1.1 重试后推送成功。
+- 本轮按两封外部邮件提交新增 Promvia AI（ai-visibility，Freemium）与 Akii SEO & AI Search Optimizer（geo-audit，Free），公开工具由 92 增至 94，固定 8 类，生成 220 个 HTML 页面。核验日为 2026-11-16，官方来源为 promvia.app 首页与定价页、Akii GitHub 仓库 README。Promvia 邮件所称「€49/月起」与官网一致；Akii 的 AI 可见性为公开信号代理估算而非直接查询引擎，已在条目限制中注明。两封回复均按来信语言（英文）发送：Promvia 回复至其 Reply-To 地址 support@promvia.app，Akii 回复至 josef@akii.com，并在 Gmail「已发送」中核实。
+- 通过正常 HTTPS URL 核对中英首页、2 个新增工具的中英详情（4 页）、ai-visibility 与 geo-audit 各一个中英分类页、中英隐私政策与免责声明抽查，以及 `assets/directory.json`、`sitemap.xml`、`robots.txt`，共 13 个地址均返回 HTTP 200，SHA-256 与本地本次构建一致。另一个不存在的地址返回真实 HTTP 404。线上搜索数据包含 94 个工具。
+- 浏览器实际访问线上中文 Akii 详情，核对产品名、价格标签「免费」与核验日期 2026-11-16；英文线上搜索 `Promvia` 命中新增工具卡片。
+- 法律页中英内容、来源、独立日期与测试指纹未改动，线上抽查法律页与本地一致；未修改域名、DNS、统计、广告或联盟配置，两封邮件均为工具收录申请、未涉及互链，友情链接未改动。工作区既有的 `AGENTS.md` 编辑未并入本次发布提交。此发布记录以 `[skip ci]` 文档提交保存，避免重复部署相同静态产物。
+
 ### 发布流程
 
 修改 JSON 或源码后提交并推送 `main`。工作流检查不通过时不会部署新站；修复数据或代码后再推送。查看 Actions 成功状态和站点实际内容，不能仅以 git push 成功判定已上线。
