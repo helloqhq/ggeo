@@ -12743,5 +12743,438 @@
         "verifiedAt": "2026-11-15"
       }
     ]
+  },
+  {
+    "slug": "promvia-ai",
+    "name": "Promvia AI",
+    "category": "ai-visibility",
+    "website": "https://promvia.app",
+    "logo": null,
+    "description": {
+      "en": "Track whether ChatGPT, Perplexity, Gemini, Claude and Google's AI answers name your brand for buyer questions, which sources they cite instead, and the traffic and sales those answers send.",
+      "zh": "追踪 ChatGPT、Perplexity、Gemini、Claude 与 Google AI 回答在买家问题中是否提及你的品牌、转而引用哪些来源，以及这些回答带来的流量与销售。"
+    },
+    "tags": {
+      "en": [
+        "AI visibility",
+        "Citation analysis",
+        "AI traffic"
+      ],
+      "zh": [
+        "AI 可见性",
+        "引用分析",
+        "AI 流量"
+      ]
+    },
+    "features": {
+      "en": [
+        "Ask 6 default AI assistants (ChatGPT, Perplexity, Gemini, Claude, Google AI Overviews and AI Mode) your tracked buyer questions in 53 markets, with Grok optional on paid plans.",
+        "Show which brands are named, which third-party sources are cited, and how each mention reads (positive, neutral or negative), with the raw answer attached.",
+        "Grade the site A–D on AI readiness and generate fix files such as llms.txt, robots.txt and schema markup, applied via GitHub pull request, WordPress plugin or Cloudflare add-on.",
+        "Separate AI-referred visits, orders and revenue from the analytics 'direct' bucket with one line of tracking code.",
+        "Query results from ChatGPT, Claude and other MCP clients via API and MCP server; four free checks work without an account."
+      ],
+      "zh": [
+        "在 53 个市场向 6 个默认 AI 助手（ChatGPT、Perplexity、Gemini、Claude、Google AI Overviews 与 AI Mode）提出所追踪的买家问题，付费套餐可选加 Grok。",
+        "展示哪些品牌被提及、引用了哪些第三方来源，以及每次提及的情感倾向（正面、中性或负面），并附原始回答。",
+        "按 A–D 评级网站 AI 准备度并生成 llms.txt、robots.txt、结构化数据等修复文件，可经 GitHub PR、WordPress 插件或 Cloudflare 附加组件应用。",
+        "用一行跟踪代码把 AI 引荐的访问、订单与收入从统计工具的“直接访问”中区分出来。",
+        "通过 API 与 MCP 服务器在 ChatGPT、Claude 等 MCP 客户端中查询结果；四项免费检查无需注册即可使用。"
+      ]
+    },
+    "audience": {
+      "en": "Online stores, SaaS and B2B teams, and agencies that want to measure and grow brand mentions in AI answers alongside the traffic they send.",
+      "zh": "希望衡量并提升品牌在 AI 回答中的提及及其带来流量的电商、SaaS 与 B2B 团队和代理商。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Recurring checks on the questions your buyers ask, to see whether each AI assistant names you or a competitor and to get alerts when AI starts or stops naming you.",
+          "zh": "定期检查买家会问的问题，了解各 AI 助手提及你还是竞品，并在 AI 开始或停止提及你时收到提醒。"
+        },
+        "summary": {
+          "en": "Recurring brand-mention checks on buyer questions with alerts.",
+          "zh": "定期复查买家问题中的品牌提及并接收提醒。"
+        },
+        "sourceUrls": [
+          "https://promvia.app/",
+          "https://promvia.app/pricing"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "description": {
+          "en": "Investigate which third-party pages the answers cite for your questions, with a drafted outreach message per page, to work toward being listed on the sources AI trusts.",
+          "zh": "调查回答在你的问题上引用了哪些第三方页面，并为每个页面生成外联邮件草稿，争取进入 AI 信任的来源列表。"
+        },
+        "summary": {
+          "en": "Find pages AI cites instead of you, with drafted outreach.",
+          "zh": "找出 AI 转而引用的页面并生成外联草稿。"
+        },
+        "sourceUrls": [
+          "https://promvia.app/",
+          "https://promvia.app/pricing"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "description": {
+          "en": "Apply site fixes such as llms.txt or schema markup via GitHub pull request, WordPress or Cloudflare, then compare the fixed questions against untouched ones to judge whether the change helped.",
+          "zh": "通过 GitHub PR、WordPress 或 Cloudflare 应用 llms.txt、结构化数据等修复，再把修复过的问题与未改动的问题对比，判断改动是否有效。"
+        },
+        "summary": {
+          "en": "Apply fixes and verify impact against untouched questions.",
+          "zh": "应用修复并对照未改动问题验证效果。"
+        },
+        "sourceUrls": [
+          "https://promvia.app/"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "description": {
+          "en": "Measure the visitors, orders and revenue AI answers send to the site, separating AI-referred traffic from the 'direct' bucket in analytics.",
+          "zh": "衡量 AI 回答给网站带来的访客、订单与收入，把 AI 引荐流量从统计中的“直接访问”里区分出来。"
+        },
+        "summary": {
+          "en": "Measure AI-referred visits, orders and revenue.",
+          "zh": "衡量 AI 引荐的访问、订单与收入。"
+        },
+        "sourceUrls": [
+          "https://promvia.app/"
+        ],
+        "verifiedAt": "2026-11-16"
+      }
+    ],
+    "platforms": [
+      "ChatGPT",
+      "Perplexity",
+      "Gemini",
+      "Claude",
+      "Google AI Overviews",
+      "Google AI Mode",
+      "Grok"
+    ],
+    "pricing": "Freemium",
+    "sources": [
+      {
+        "label": {
+          "en": "Promvia AI homepage and FAQ",
+          "zh": "Promvia AI 官网首页与常见问题"
+        },
+        "url": "https://promvia.app/"
+      },
+      {
+        "label": {
+          "en": "Promvia AI plans and pricing",
+          "zh": "Promvia AI 套餐与定价"
+        },
+        "url": "https://promvia.app/pricing"
+      }
+    ],
+    "verifiedAt": "2026-11-16",
+    "status": "published",
+    "featuredOrder": 93,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "Free plan: €0 with no time limit and no card, 1 website and 5 tracked questions. The first check asks all 6 default assistants once; afterwards Perplexity checks automatically once a month, plus 1 self-started Perplexity check a day after verifying site ownership. Site check runs monthly and up to 3 times a day on demand. No API/MCP access.",
+          "zh": "免费套餐：0 欧元，无时间限制且无需绑卡，含 1 个网站与 5 个追踪问题。首次检查覆盖全部 6 个默认助手各一次；此后 Perplexity 每月自动检查一次，验证网站所有权后每天可手动发起 1 次 Perplexity 检查。站点检查每月自动运行，每天最多手动 3 次。不含 API/MCP 访问。"
+        },
+        "summary": {
+          "en": "Free: 1 site, 5 questions; all 6 engines on first check, then Perplexity monthly.",
+          "zh": "免费版：1 站点、5 问题；首查覆盖 6 引擎，此后仅 Perplexity 每月一查。"
+        },
+        "sourceUrls": [
+          "https://promvia.app/pricing",
+          "https://promvia.app/"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "description": {
+          "en": "Starter: €49/month or €529/year (10% off), excl. VAT. 1 website, 25 tracked questions (up to 75 with fewer assistants). Weekly automatic checks on ChatGPT, Perplexity and Gemini; all 6 default assistants on self-started checks; trend check every 3 days on 10 chosen questions or daily checks on low-cost assistants instead. Read-only API/MCP with 2,000 requests/month; 1 AI coaching plan a month.",
+          "zh": "Starter：每月 49 欧元或每年 529 欧元（9 折），不含增值税。1 个网站、25 个追踪问题（减少助手时最多 75 个）。ChatGPT、Perplexity、Gemini 每周自动检查；手动检查覆盖全部 6 个默认助手；可选 10 个问题每 3 天趋势检查，或改为低成本助手每日检查。只读 API/MCP 每月 2,000 次请求；每月 1 份 AI 辅导计划。"
+        },
+        "summary": {
+          "en": "Starter €49/mo (€529/yr, excl. VAT): 1 site, 25 questions, 3 engines weekly.",
+          "zh": "Starter 每月 49 欧元（年付 529 欧元，不含 VAT）：1 站点、25 问题、3 引擎周检。"
+        },
+        "sourceUrls": [
+          "https://promvia.app/pricing"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "description": {
+          "en": "Pro: €199/month or €2,149/year (10% off), excl. VAT. 5 websites, 100 tracked questions (up to 300 with fewer assistants), all 6 default assistants. Daily checks on Perplexity, Gemini, AI Overviews and AI Mode; weekly deep check on ChatGPT and Claude. Adds content plans, drafts and page rewrites, and read/write API/MCP with 10,000 requests/month.",
+          "zh": "Pro：每月 199 欧元或每年 2,149 欧元（9 折），不含增值税。5 个网站、100 个追踪问题（减少助手时最多 300 个），覆盖全部 6 个默认助手。Perplexity、Gemini、AI Overviews 与 AI Mode 每日检查；ChatGPT 与 Claude 每周深度检查。增加内容计划、草稿与页面改写，读写 API/MCP 每月 10,000 次请求。"
+        },
+        "summary": {
+          "en": "Pro €199/mo (€2,149/yr, excl. VAT): 5 sites, 100 questions, daily checks on 4 engines.",
+          "zh": "Pro 每月 199 欧元（年付 2,149 欧元，不含 VAT）：5 站点、100 问题、4 引擎日检。"
+        },
+        "sourceUrls": [
+          "https://promvia.app/pricing"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "description": {
+          "en": "Agency: €499/month or €5,389/year (10% off), excl. VAT. 15 websites, 250 tracked questions (up to 750 with fewer assistants), white-label client reports and bulk CSV export; read/write API/MCP with 50,000 requests/month. Add-ons: +50 questions €79/month and +5 sites €59/month on Pro and Agency; white-label reports €29/month on Starter and Pro; a €129 top-up adds 450+ full checks in a month. Yearly discount applies to plans, not add-on packs. Beyond 30 websites or 450 questions on all 6 assistants, pricing is individual.",
+          "zh": "Agency：每月 499 欧元或每年 5,389 欧元（9 折），不含增值税。15 个网站、250 个追踪问题（减少助手时最多 750 个），含白标客户报告与批量 CSV 导出；读写 API/MCP 每月 50,000 次请求。加购：Pro 与 Agency 可加 50 问题每月 79 欧元、5 站点每月 59 欧元；Starter 与 Pro 白标报告每月 29 欧元；129 欧元加油包当月增加 450 次以上完整检查。年付折扣仅适用于套餐本身，不含加购包。超过 30 个网站或全 6 助手 450 个问题时单独报价。"
+        },
+        "summary": {
+          "en": "Agency €499/mo (€5,389/yr, excl. VAT): 15 sites, 250 questions, white-label; packs +50 questions €79/mo, +5 sites €59/mo.",
+          "zh": "Agency 每月 499 欧元（年付 5,389 欧元，不含 VAT）：15 站点、250 问题、白标；加购 50 问题 79 欧元/月、5 站点 59 欧元/月。"
+        },
+        "sourceUrls": [
+          "https://promvia.app/pricing"
+        ],
+        "verifiedAt": "2026-11-16"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "Checks ask each assistant through its API with web search on and read Google's AI surfaces from results pages, without account memory or custom instructions; a signed-in customer with chat history can see different answers, and answers vary between runs.",
+          "zh": "检查通过各助手的 API 开启联网搜索提问，并从搜索结果页读取 Google AI 回答，不带账号记忆或自定义指令；带聊天历史的登录用户可能看到不同回答，且多次运行结果会有差异。"
+        },
+        "summary": {
+          "en": "API-based checks without account memory; answers differ from signed-in users.",
+          "zh": "基于 API 的检查无账号记忆，结果与登录用户所见可能不同。"
+        },
+        "sourceUrls": [
+          "https://promvia.app/"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "description": {
+          "en": "Microsoft Copilot is not tracked (no public answer API); Meta AI is announced as coming soon. Grok is optional on paid plans only. The free plan's monthly check pauses after three emails with no sign-in, and its Google AI question suggestions are a locked preview.",
+          "zh": "不追踪 Microsoft Copilot（无公开回答 API）；Meta AI 标注为即将支持。Grok 仅付费套餐可选。免费套餐的月度检查在连续三封邮件未登录后暂停，Google AI 问题建议在免费版为锁定预览。"
+        },
+        "summary": {
+          "en": "No Copilot tracking; Grok paid-only; free monthly check pauses without sign-in.",
+          "zh": "不追踪 Copilot；Grok 仅付费可选；免费版不登录会暂停月检。"
+        },
+        "sourceUrls": [
+          "https://promvia.app/pricing",
+          "https://promvia.app/"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "description": {
+          "en": "Automatic and self-started checks share a monthly allowance (about 196 checks on Starter, 891 on Pro, 2,196 on Agency); at least 80/20/19 self-started full checks per month respectively. AI-referred traffic reporting requires installing the tracking code, and paid plans are sold to businesses and professionals, not private consumers.",
+          "zh": "自动与手动检查共享每月额度（Starter 约 196 次、Pro 约 891 次、Agency 约 2,196 次），其中每月至少可手动发起 80/20/19 次完整检查。AI 引荐流量报告需安装跟踪代码；付费套餐面向企业与专业人士销售，不面向个人消费者。"
+        },
+        "summary": {
+          "en": "Shared monthly check allowance; traffic tracking needs a code snippet; B2B only.",
+          "zh": "月度检查额度共享；流量统计需装代码；付费仅面向企业。"
+        },
+        "sourceUrls": [
+          "https://promvia.app/pricing",
+          "https://promvia.app/"
+        ],
+        "verifiedAt": "2026-11-16"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Pick the tier by check cadence and coverage: Free suits a first look with one site and Perplexity-only follow-up; Starter fits weekly monitoring of 25 questions on three assistants; Pro adds daily checks on four assistants plus content plans and drafts for up to 5 sites; Agency adds white-label client reports for up to 15 sites. Fewer or cheaper assistants trade engine coverage for up to three times the question count.",
+          "zh": "按检查频率与覆盖选套餐：免费版适合单站点初探，后续仅 Perplexity 复查；Starter 适合三个助手上 25 个问题的周度监测；Pro 增加四个助手每日检查及内容计划与草稿，最多 5 个站点；Agency 增加白标客户报告，最多 15 个站点。选择更少或更便宜的助手可用引擎覆盖换取最多三倍的问题数量。"
+        },
+        "sourceUrls": [
+          "https://promvia.app/pricing"
+        ],
+        "verifiedAt": "2026-11-16"
+      }
+    ]
+  },
+  {
+    "slug": "akii-seo-ai-search-optimizer",
+    "name": "Akii SEO & AI Search Optimizer",
+    "category": "geo-audit",
+    "website": "https://github.com/akii-technologies-ltd/akii-seo-ai-search-optimizer",
+    "logo": null,
+    "description": {
+      "en": "Free, MIT-licensed Claude Code plugin for SEO, AEO and GEO: site audits, broken-link checks, content planning, JSON-LD schema and a per-engine AI visibility signal map.",
+      "zh": "免费 MIT 开源的 Claude Code 插件，覆盖 SEO、AEO 与 GEO：站点审计、死链检查、内容规划、JSON-LD 结构化数据，以及按引擎划分的 AI 可见性信号图。"
+    },
+    "tags": {
+      "en": [
+        "Open source",
+        "Claude Code plugin",
+        "GEO audit"
+      ],
+      "zh": [
+        "开源",
+        "Claude Code 插件",
+        "GEO 审计"
+      ]
+    },
+    "features": {
+      "en": [
+        "Unified SEO + AEO + GEO audit across 12 layers, with full, quick and technical modes covering Core Web Vitals, JS rendering, crawlability and indexation.",
+        "Broken-link and redirect-chain checks, internal-linking analysis, and head-to-head competitor scorecards.",
+        "Page optimization with GEO rewrite tactics from the Princeton/IIT Delhi study (KDD 2024), plus JSON-LD schema generation with sameAs and LocalBusiness fields.",
+        "Content strategy, briefs, keyword clustering, translation with hreflang, and llms.txt / llms-full.txt generation.",
+        "AI visibility skill builds a per-engine public-signal map for ChatGPT, Claude, Gemini, Perplexity, Copilot and Google AI Overviews, using connected Ahrefs Brand Radar observations when available.",
+        "12 skills, 5 autonomous agents and 3 slash commands, triggered by natural language inside Claude Code."
+      ],
+      "zh": [
+        "跨 12 层的 SEO + AEO + GEO 一体化审计，提供完整、快速与技术三种模式，覆盖 Core Web Vitals、JS 渲染、可抓取性与索引。",
+        "死链与重定向链检查、内链分析，以及与竞品的逐项对比记分卡。",
+        "按普林斯顿/IIT Delhi 研究（KDD 2024）的 GEO 改写策略优化页面，并生成含 sameAs 与 LocalBusiness 字段的 JSON-LD 结构化数据。",
+        "内容策略、写作简报、关键词聚类、带 hreflang 的翻译，以及 llms.txt / llms-full.txt 生成。",
+        "AI 可见性技能为 ChatGPT、Claude、Gemini、Perplexity、Copilot 与 Google AI Overviews 构建按引擎的公开信号图，接入 Ahrefs Brand Radar 时使用其观测数据。",
+        "内含 12 个技能、5 个自主 Agent 与 3 个斜杠命令，在 Claude Code 中用自然语言触发。"
+      ]
+    },
+    "audience": {
+      "en": "Developers and technical SEO practitioners who already work in Claude Code and want audits, schema and GEO fixes without leaving the terminal or IDE.",
+      "zh": "已在 Claude Code 中工作、希望不离开终端或 IDE 即可完成审计、结构化数据与 GEO 修复的开发者与技术型 SEO 从业者。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Run a scored SEO + AEO + GEO audit of a site from Claude Code, then work through the flagged issues such as crawlability, Core Web Vitals, broken links and missing schema.",
+          "zh": "在 Claude Code 中对站点运行带评分的 SEO + AEO + GEO 审计，再逐项处理被标记的可抓取性、Core Web Vitals、死链与缺失结构化数据等问题。"
+        },
+        "summary": {
+          "en": "Scored 12-layer site audit with a fix list, inside Claude Code.",
+          "zh": "在 Claude Code 内做 12 层评分审计并输出修复清单。"
+        },
+        "sourceUrls": [
+          "https://github.com/akii-technologies-ltd/akii-seo-ai-search-optimizer"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "description": {
+          "en": "Review per-engine public web signals to estimate how visible a brand is across six AI engines, with disclosed sources and per-engine fixes, optionally enriched with Ahrefs Brand Radar observations.",
+          "zh": "复盘按引擎的公开网络信号，估算品牌在六个 AI 引擎中的可见性，披露来源并给出各引擎修复建议，可选用 Ahrefs Brand Radar 观测数据增强。"
+        },
+        "summary": {
+          "en": "Per-engine AI visibility estimates from public signals or Brand Radar.",
+          "zh": "基于公开信号或 Brand Radar 的按引擎 AI 可见性估算。"
+        },
+        "sourceUrls": [
+          "https://github.com/akii-technologies-ltd/akii-seo-ai-search-optimizer"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "description": {
+          "en": "Apply GEO rewrites to a draft or page, generate JSON-LD schema and llms.txt, and plan content clusters before publishing, all from natural-language requests in the terminal.",
+          "zh": "在发布前对草稿或页面应用 GEO 改写、生成 JSON-LD 结构化数据与 llms.txt，并规划内容聚类，全部通过终端里的自然语言请求完成。"
+        },
+        "summary": {
+          "en": "GEO rewrites, JSON-LD, llms.txt and content clusters from the terminal.",
+          "zh": "在终端完成 GEO 改写、JSON-LD、llms.txt 与内容聚类。"
+        },
+        "sourceUrls": [
+          "https://github.com/akii-technologies-ltd/akii-seo-ai-search-optimizer"
+        ],
+        "verifiedAt": "2026-11-16"
+      }
+    ],
+    "platforms": [
+      "ChatGPT",
+      "Claude",
+      "Gemini",
+      "Perplexity",
+      "Microsoft Copilot",
+      "Google AI Overviews"
+    ],
+    "pricing": "Free",
+    "sources": [
+      {
+        "label": {
+          "en": "Akii SEO & AI Search Optimizer repository README",
+          "zh": "Akii SEO & AI Search Optimizer 仓库 README"
+        },
+        "url": "https://github.com/akii-technologies-ltd/akii-seo-ai-search-optimizer"
+      }
+    ],
+    "verifiedAt": "2026-11-16",
+    "status": "published",
+    "featuredOrder": 94,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "The plugin is free under the MIT license for personal and commercial use, with no login, signup or usage cap. Skills run on the user's own Claude Code session model, so Claude Code access is a separate prerequisite; optional connected services such as Ahrefs or a PageSpeed Insights API key are also separate.",
+          "zh": "插件以 MIT 许可证免费开放个人与商业使用，无需登录、注册，也无用量上限。技能运行在用户自己的 Claude Code 会话模型上，Claude Code 访问权限是独立前提；Ahrefs、PageSpeed Insights API 密钥等可选接入服务也需另行获取。"
+        },
+        "summary": {
+          "en": "Free MIT plugin, no usage cap; Claude Code access and optional services separate.",
+          "zh": "MIT 免费插件，无用量上限；Claude Code 访问与可选服务另计。"
+        },
+        "sourceUrls": [
+          "https://github.com/akii-technologies-ltd/akii-seo-ai-search-optimizer"
+        ],
+        "verifiedAt": "2026-11-16"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "Requires Claude Code CLI 2.0.x or later on macOS or Linux; Windows is untested and the hook uses POSIX bash (WSL suggested). All skills consume the user's Claude Code session model.",
+          "zh": "需要 macOS 或 Linux 上的 Claude Code CLI 2.0.x 及以上版本；Windows 未经测试，钩子使用 POSIX bash（建议 WSL）。所有技能消耗用户自己的 Claude Code 会话模型。"
+        },
+        "summary": {
+          "en": "Claude Code 2.0.x+ on macOS/Linux; Windows untested (WSL suggested).",
+          "zh": "需 macOS/Linux 上 Claude Code 2.0.x+；Windows 未测试（建议 WSL）。"
+        },
+        "sourceUrls": [
+          "https://github.com/akii-technologies-ltd/akii-seo-ai-search-optimizer"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "description": {
+          "en": "The AI visibility skill produces proxy estimates from public web signals or a connected Ahrefs Brand Radar MCP; it does not directly query ChatGPT, Claude, Gemini, Perplexity, Copilot or Google AI Overviews, and does not provide continuous tracking or drop alerts.",
+          "zh": "AI 可见性技能基于公开网络信号或已接入的 Ahrefs Brand Radar MCP 给出代理估算，不直接查询 ChatGPT、Claude、Gemini、Perplexity、Copilot 或 Google AI Overviews，也不提供持续追踪或下降提醒。"
+        },
+        "summary": {
+          "en": "AI visibility is proxy estimation, not direct engine queries or 24/7 tracking.",
+          "zh": "AI 可见性为代理估算，非直接查询引擎或持续追踪。"
+        },
+        "sourceUrls": [
+          "https://github.com/akii-technologies-ltd/akii-seo-ai-search-optimizer"
+        ],
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "description": {
+          "en": "Real backlink, keyword, Search Console and Core Web Vitals data depend on optionally connected MCPs (Ahrefs, Apify) or a PageSpeed Insights API key; without them the plugin falls back to Claude's built-in web tools. An anonymized telemetry ping is sent at most once per machine per 24 hours and can be disabled via environment variables.",
+          "zh": "真实外链、关键词、Search Console 与 Core Web Vitals 数据依赖可选接入的 MCP（Ahrefs、Apify）或 PageSpeed Insights API 密钥；未接入时回退到 Claude 内置网络工具。插件每台机器每 24 小时最多发送一次匿名遥测，可通过环境变量关闭。"
+        },
+        "summary": {
+          "en": "Real SEO data needs optional MCPs/API keys; anonymized telemetry can be disabled.",
+          "zh": "真实 SEO 数据需可选 MCP/API 密钥；匿名遥测可关闭。"
+        },
+        "sourceUrls": [
+          "https://github.com/akii-technologies-ltd/akii-seo-ai-search-optimizer"
+        ],
+        "verifiedAt": "2026-11-16"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Choose this plugin when the workflow already lives in Claude Code and the goal is free, local audits, schema generation and GEO content fixes; its AI visibility output is a one-shot public-signal estimate. Teams that need directly queried engine answers, scheduled monitoring or client-facing dashboards should note those features are not part of the free plugin.",
+          "zh": "当工作流已在 Claude Code 中、目标是免费的本地审计、结构化数据生成与 GEO 内容修复时选择此插件；其 AI 可见性输出为一次性公开信号估算。需要直接查询引擎回答、定时监测或面向客户的仪表盘的团队应注意这些功能不在免费插件范围内。"
+        },
+        "sourceUrls": [
+          "https://github.com/akii-technologies-ltd/akii-seo-ai-search-optimizer"
+        ],
+        "verifiedAt": "2026-11-16"
+      }
+    ]
   }
 ]
