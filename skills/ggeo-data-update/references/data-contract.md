@@ -27,7 +27,7 @@
 | `pricingDetails` | 具体价格、套餐及账期的证据数组；仅录入核实的金额或有依据的报价范围／信息缺口 |
 | `limitations` | 套餐、采样、集成与指标局限的证据数组；不编造产品缺点 |
 | `selectionNotes` | 任务或方案取舍的证据数组；可用 `alternativeSlug` 关联其他已收录工具 |
-| `platforms` | 已核验平台名称数组；未知用 `[]`，不表示最低套餐均包含这些平台 |
+| `platforms` | 已核验平台名称数组；未知用 `[]`，不表示最低套餐均包含这些平台。记录产品能力覆盖的 AI 引擎；运行环境（CLI、操作系统）与集成前提写入 `limitations`，估算式覆盖须在限制中注明非直接查询 |
 | `pricing` | `Free` / `Freemium` / `Paid` / `Contact Sales` / `Unknown` |
 | `sources` | 非空数组：`{ "label": { "en": "...", "zh": "..." }, "url": "https://..." }` |
 | `verifiedAt` | 基础产品资料的真实核验日 `YYYY-MM-DD`，不晚于 `site.updatedAt`；局部详情另有各条证据日期，不因只改价格或归纳场景刷新整条产品日期 |
