@@ -41,3 +41,27 @@
 - 根因：到 GitHub 的网络链路瞬时故障（HTTP/2 连接不稳定），非数据或权限问题；第九、十、十一轮发布阶段均出现。
 - 修复／预防：失败后用 `git -c http.version=HTTP/1.1 push origin main` 重试；同轮后续推送可直接用 HTTP/1.1（第十一轮文档推送一次成功）。输出中 `credential-manager 不是一个 git 命令` 警告与成败无关，以出现 `<旧>..<新> main -> main` 行判定成功。重试两次仍失败则停止并报告，不盲目循环。
 - 记录：首次 2026-11-16 · 最近 2026-11-17 · 命中 3 次 · [轮次记录](../../../docs/data-updates/2026-11-17-batch-reverify.md)
+
+### L-06 定价页 JSON-LD 与可见正文冲突时以可见正文为准
+- 症状：MaxAEO 定价页 JSON-LD offers 为 15/119/319，而页面可见定价文本为 $19/$149/$399，两者不一致。
+- 根因：厂商结构化数据未随调价更新（陈旧），可见正文才是当前实际售价。
+- 修复／预防：金额以可见正文为准记录，JSON-LD 仅作旁证；冲突时在搜集记录写明「以可见文本为准」。不据陈旧 JSON-LD 编造或推算金额。
+- 记录：首次 2026-11-17 · 最近 2026-11-17 · 命中 1 次 · [轮次记录](../../../docs/research/2026-11-17-geo-sites.md)
+
+### L-07 WebFetch 正文不全时改用 curl 完整 Chrome UA 取原始 HTML
+- 症状：snezzi.com 对 bot 返回精简 markdown 摘要（定价/主体不全）；readability 会剥掉页脚导致法律页链接漏检；短 "Mozilla/5.0" UA 仍被拦。
+- 根因：站点按 UA/Accept 向爬虫提供 markdown 或精简内容；可读化提取丢弃页脚等结构。
+- 修复／预防：用 curl 带完整 Chrome UA 取原始 HTML，再用脚本剥离 script/style 提取可见文本与页脚链接；不重复 WebFetch 同一 URL。完整 HTML 落 /tmp 后分段 Grep/Read。
+- 记录：首次 2026-11-17 · 最近 2026-11-17 · 命中 1 次 · [轮次记录](../../../docs/research/2026-11-17-geo-sites.md)
+
+### L-08 法律页对 bot 403 时用 ego-browser 真实浏览器读取
+- 症状：rankmonster.ai/privacy 与 /terms 对 curl 与 WebFetch 均 403，无法核验运营主体与法律页日期。
+- 根因：厂商对爬虫拦截法律页，但真实浏览器可正常访问（非登录/付费墙）。
+- 修复／预防：改用 ego-browser（ego lite）真实浏览器打开读取，属正常访问而非绕过；先 `ego-browser skill` 遵循指南。仍 403 或需人工验证则记缺口并暂缓，不绕过验证码/付费墙。
+- 记录：首次 2026-11-17 · 最近 2026-11-17 · 命中 1 次 · [轮次记录](../../../docs/research/2026-11-17-geo-sites.md)
+
+### L-09 ego-browser 任务空间收尾用 finish({keep:[]})，keep 不接受 false
+- 症状：`task.finish({keep:false})` 抛 TypeError（keep 须为 "all" 或非空标签数组）；脚本间 JS 变量不共享。
+- 根因：ego lite API 约定 keep 为 "all" 或 Page 标签数组；任务空间/标签跨调用持久，但脚本变量不持久。
+- 修复／预防：收尾先 `await page.close()` 再单独脚本 `await task.finish({keep:[]})`；跨调用用 `taskSpace(<spaceId>)` 恢复并 `(await task.pages())[0]` 取回标签；导航与测量拆成两次调用，evaluate 内不要触发 location.href 跳转。
+- 记录：首次 2026-11-17 · 最近 2026-11-17 · 命中 1 次 · [轮次记录](../../../docs/research/2026-11-17-geo-sites.md)

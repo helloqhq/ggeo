@@ -13233,5 +13233,1334 @@
         "verifiedAt": "2026-11-16"
       }
     ]
+  },
+  {
+    "slug": "gracker",
+    "name": "Gracker",
+    "category": "ai-visibility",
+    "website": "https://gracker.ai/",
+    "logo": null,
+    "description": {
+      "en": "AEO and GEO platform for B2B SaaS that tracks AI citations and ships prioritized prompt, content and citation fixes, with a cybersecurity prompt library.",
+      "zh": "面向 B2B SaaS 的 AEO 与 GEO 平台，追踪 AI 引用并给出按优先级排序的提示词、内容与引用修复建议，内置网络安全提示词库。"
+    },
+    "tags": {
+      "en": [
+        "B2B SaaS",
+        "AI citations",
+        "Cybersecurity"
+      ],
+      "zh": [
+        "B2B SaaS",
+        "AI 引用",
+        "网络安全"
+      ]
+    },
+    "features": {
+      "en": [
+        "Track brand mentions and citations across up to 10 AI engines, with visibility score, presence rate, share of voice and Trust Score.",
+        "Generate LLM-optimized articles and publish them to WordPress, HubSpot, Webflow, Ghost or headless CMS.",
+        "Run an AEO audit that scores page AI-readability, plus on-demand Visibility Diagnosis and prompt mining.",
+        "Use a cybersecurity-focused prompt library, CVE and news monitoring, and page-level citation monitoring."
+      ],
+      "zh": [
+        "在最多 10 个 AI 引擎上追踪品牌提及与引用，提供可见性得分、出现率、声量份额与信任分。",
+        "生成面向 LLM 优化的文章，并发布到 WordPress、HubSpot、Webflow、Ghost 或无头 CMS。",
+        "运行 AEO 审计为页面的 AI 可读性打分，并支持按需可见性诊断与提示词挖掘。",
+        "提供聚焦网络安全的提示词库、CVE 与新闻监控，以及页面级引用监控。"
+      ]
+    },
+    "audience": {
+      "en": "B2B SaaS and cybersecurity marketing teams that want AI citation tracking plus done-for-you content fixes.",
+      "zh": "希望同时获得 AI 引用追踪与代做内容修复的 B2B SaaS 与网络安全营销团队。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Track how AI engines cite a B2B SaaS brand across a monitored prompt set, using visibility score, presence rate, share of voice and per-engine citation drill-down to see where the brand appears.",
+          "zh": "在受监控的提示词集合上追踪 AI 引擎如何引用 B2B SaaS 品牌，用可见性得分、出现率、声量份额与按引擎的引用下钻查看品牌出现位置。"
+        },
+        "summary": {
+          "en": "Track AI citations and visibility for a B2B SaaS brand.",
+          "zh": "追踪 B2B SaaS 品牌的 AI 引用与可见性。"
+        },
+        "sourceUrls": [
+          "https://gracker.ai/",
+          "https://gracker.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-17"
+      },
+      {
+        "description": {
+          "en": "Close content gaps by generating LLM-optimized articles each month and publishing them to the CMS, guided by the AEO audit and prioritized remediation roadmap.",
+          "zh": "在 AEO 审计与按优先级排序的修复路线图指引下，每月生成面向 LLM 优化的文章并发布到 CMS，以补齐内容缺口。"
+        },
+        "summary": {
+          "en": "Generate and publish LLM-optimized articles to fix content gaps.",
+          "zh": "生成并发布 LLM 优化文章以补齐内容缺口。"
+        },
+        "sourceUrls": [
+          "https://gracker.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-17"
+      }
+    ],
+    "platforms": [
+      "ChatGPT",
+      "Google AI Mode",
+      "Google AI Overviews",
+      "Perplexity",
+      "Microsoft Copilot",
+      "Gemini",
+      "DeepSeek",
+      "Grok",
+      "Claude",
+      "Brave Leo"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "Gracker homepage",
+          "zh": "Gracker 首页"
+        },
+        "url": "https://gracker.ai/"
+      },
+      {
+        "label": {
+          "en": "Gracker plans and pricing",
+          "zh": "Gracker 套餐与定价"
+        },
+        "url": "https://gracker.ai/pricing"
+      }
+    ],
+    "verifiedAt": "2026-11-17",
+    "status": "published",
+    "featuredOrder": 95,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "Individual is $99/month, or $79/month billed annually as $948/year: 100 prompts tracked weekly (counted per engine), 3 engines (ChatGPT, Google AI Mode, Google AI Overviews), 3 articles/month, a 50-page AEO audit, 1 Visibility Diagnosis/month and 1 seat.",
+          "zh": "Individual 每月 99 美元，按年结算为每月 79 美元（每年 948 美元）：每周追踪 100 个提示词（按引擎计数）、3 个引擎（ChatGPT、Google AI Mode、Google AI Overviews）、每月 3 篇文章、50 页 AEO 审计、每月 1 次可见性诊断、1 个席位。"
+        },
+        "summary": {
+          "en": "Individual $99/mo ($79 annual): 100 weekly prompts, 3 engines, 3 articles, 50-page audit, 1 seat.",
+          "zh": "Individual 每月 99 美元（年付 79 美元）：每周 100 提示词、3 引擎、3 篇文章、50 页审计、1 席位。"
+        },
+        "sourceUrls": [
+          "https://gracker.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-17"
+      },
+      {
+        "description": {
+          "en": "Team is $499/month, or $399/month billed annually as $4,788/year: 200 prompts tracked daily, 4 engines (adds Perplexity and Microsoft Copilot), 10 articles/month, a 200-page audit, 5 diagnoses/month, Trust Score, share of voice, CMS publishing and 4 seats.",
+          "zh": "Team 每月 499 美元，按年结算为每月 399 美元（每年 4,788 美元）：每日追踪 200 个提示词、4 个引擎（新增 Perplexity 与 Microsoft Copilot）、每月 10 篇文章、200 页审计、每月 5 次诊断、信任分、声量份额、CMS 发布、4 个席位。"
+        },
+        "summary": {
+          "en": "Team $499/mo ($399 annual): 200 daily prompts, 4 engines, 10 articles, 200-page audit, 4 seats.",
+          "zh": "Team 每月 499 美元（年付 399 美元）：每日 200 提示词、4 引擎、10 篇文章、200 页审计、4 席位。"
+        },
+        "sourceUrls": [
+          "https://gracker.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-17"
+      },
+      {
+        "description": {
+          "en": "Enterprise is custom-quoted: 1,000+ prompts monitored hourly, all 10 engines, unlimited articles, page-level monitoring up to 100K pages, and migration support from other tools. Both self-serve plans start with a 7-day free trial that requires a credit card.",
+          "zh": "Enterprise 按需报价：每小时监控 1,000 多个提示词、全部 10 个引擎、无限文章、最多 10 万页的页面级监控，并支持从其他工具迁移。两个自助套餐均提供需绑定信用卡的 7 天免费试用。"
+        },
+        "summary": {
+          "en": "Enterprise custom: hourly 1,000+ prompts, all 10 engines, unlimited articles; 7-day trial needs a card.",
+          "zh": "Enterprise 按需报价：每小时 1,000+ 提示词、全 10 引擎、无限文章；7 天试用需绑卡。"
+        },
+        "sourceUrls": [
+          "https://gracker.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-17"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "AI engines are tier-gated: Individual covers 3 engines, Team 4, and only Enterprise includes all 10 (adding Gemini, DeepSeek, Grok, Claude, Brave Leo and Google AI Overviews).",
+          "zh": "AI 引擎按套餐分级：Individual 覆盖 3 个引擎，Team 4 个，只有 Enterprise 含全部 10 个（新增 Gemini、DeepSeek、Grok、Claude、Brave Leo 与 Google AI Overviews）。"
+        },
+        "summary": {
+          "en": "Engines are tier-gated: 3 on Individual, 4 on Team, all 10 only on Enterprise.",
+          "zh": "引擎按套餐分级：Individual 3 个、Team 4 个、仅 Enterprise 全 10 个。"
+        },
+        "sourceUrls": [
+          "https://gracker.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-17"
+      },
+      {
+        "description": {
+          "en": "Prompts are counted per engine, so one prompt on three engines uses three of the quota; tracking frequency also rises by tier (weekly, daily, hourly).",
+          "zh": "提示词按引擎计数，因此一个提示词在三个引擎上会占用三个额度；追踪频率也随套餐提升（每周、每日、每小时）。"
+        },
+        "summary": {
+          "en": "Prompts count per engine; tracking frequency is weekly/daily/hourly by tier.",
+          "zh": "提示词按引擎计数；追踪频率按套餐为每周/每日/每小时。"
+        },
+        "sourceUrls": [
+          "https://gracker.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-17"
+      },
+      {
+        "description": {
+          "en": "The prompt library and monitoring are oriented to B2B SaaS and cybersecurity (CVE and security-news tracking), which may not fit other verticals.",
+          "zh": "提示词库与监控面向 B2B SaaS 与网络安全（CVE 与安全新闻追踪），可能不适合其他行业。"
+        },
+        "summary": {
+          "en": "Prompt library and CVE/news monitoring are B2B SaaS and cybersecurity focused.",
+          "zh": "提示词库与 CVE/新闻监控聚焦 B2B SaaS 与网络安全。"
+        },
+        "sourceUrls": [
+          "https://gracker.ai/",
+          "https://gracker.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-17"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Choose Gracker when the buyer is a B2B SaaS or cybersecurity team that wants AI citation tracking bundled with done-for-you LLM-optimized articles and a security prompt library; note that engine coverage and tracking frequency are gated by plan, and the self-serve trial requires a credit card.",
+          "zh": "当买方是 B2B SaaS 或网络安全团队，希望把 AI 引用追踪与代做的 LLM 优化文章、安全提示词库打包使用时选 Gracker；注意引擎覆盖与追踪频率按套餐分级，且自助试用需绑定信用卡。"
+        },
+        "sourceUrls": [
+          "https://gracker.ai/",
+          "https://gracker.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-17"
+      }
+    ]
+  },
+  {
+    "slug": "xseek",
+    "name": "xSeek",
+    "category": "ai-visibility",
+    "website": "https://www.xseek.io/en",
+    "logo": null,
+    "description": {
+      "en": "An AI agent that tracks the prompts AI engines answer about your brand, writes a reasoned action plan, and drafts articles you can publish to your CMS.",
+      "zh": "一个 AI 代理，追踪 AI 引擎就品牌回答的提示词，撰写带理由的行动计划，并起草可发布到 CMS 的文章。"
+    },
+    "tags": {
+      "en": [
+        "AI agent",
+        "Action plan",
+        "Content drafting"
+      ],
+      "zh": [
+        "AI 代理",
+        "行动计划",
+        "内容起草"
+      ]
+    },
+    "features": {
+      "en": [
+        "Ask tracked prompts to AI engines daily from a chosen country and language, and keep each answer as given.",
+        "Generate an action plan where each action comes with its reason, plus draft articles in Content Studio.",
+        "Publish articles to WordPress, Webflow, Ghost or HubSpot, and connect via API, CLI or MCP server.",
+        "Optionally add Google Search Console, GA4 and AI-crawler tracking through a WordPress plugin or CDN snippet."
+      ],
+      "zh": [
+        "每天从所选国家与语言向 AI 引擎提问受追踪的提示词，并原样保留每条回答。",
+        "生成每项行动都附带理由的行动计划，并在 Content Studio 中起草文章。",
+        "将文章发布到 WordPress、Webflow、Ghost 或 HubSpot，并通过 API、CLI 或 MCP 服务器连接。",
+        "可选接入 Google Search Console、GA4，以及通过 WordPress 插件或 CDN 片段实现的 AI 爬虫追踪。"
+      ]
+    },
+    "audience": {
+      "en": "Marketing teams and agencies that want an agent to turn AI visibility gaps into a reasoned action plan and draft content.",
+      "zh": "希望由代理把 AI 可见性缺口转化为带理由的行动计划并起草内容的营销团队与代理商。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "See where the brand stands by asking tracked prompts to ChatGPT, Perplexity and Gemini daily, reviewing the sources and pages the engines cite, and reading the agent's action plan.",
+          "zh": "通过每天向 ChatGPT、Perplexity 与 Gemini 提问受追踪的提示词、查看引擎引用的来源与页面，并阅读代理的行动计划，了解品牌现状。"
+        },
+        "summary": {
+          "en": "Track daily prompts and read the agent's reasoned action plan.",
+          "zh": "每日追踪提示词并阅读代理带理由的行动计划。"
+        },
+        "sourceUrls": [
+          "https://www.xseek.io/en",
+          "https://www.xseek.io/en/pricing"
+        ],
+        "verifiedAt": "2026-11-17"
+      },
+      {
+        "description": {
+          "en": "Act on the plan by letting xSeek draft articles and publish them to a connected CMS, with each drafted article counted once in its billing month.",
+          "zh": "通过让 xSeek 起草文章并发布到已连接的 CMS 来执行计划，每篇起草的文章在其计费月内计数一次。"
+        },
+        "summary": {
+          "en": "Draft articles and publish them to a connected CMS.",
+          "zh": "起草文章并发布到已连接的 CMS。"
+        },
+        "sourceUrls": [
+          "https://www.xseek.io/en/pricing"
+        ],
+        "verifiedAt": "2026-11-17"
+      }
+    ],
+    "platforms": [
+      "ChatGPT",
+      "Perplexity",
+      "Gemini",
+      "Google AI Overviews",
+      "Microsoft Copilot",
+      "Claude",
+      "Grok",
+      "DeepSeek"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "xSeek homepage",
+          "zh": "xSeek 首页"
+        },
+        "url": "https://www.xseek.io/en"
+      },
+      {
+        "label": {
+          "en": "xSeek plans and pricing",
+          "zh": "xSeek 套餐与定价"
+        },
+        "url": "https://www.xseek.io/en/pricing"
+      },
+      {
+        "label": {
+          "en": "xSeek about page",
+          "zh": "xSeek 关于页"
+        },
+        "url": "https://www.xseek.io/en/about"
+      }
+    ],
+    "verifiedAt": "2026-11-17",
+    "status": "published",
+    "featuredOrder": 96,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "Essential is $49 USD/month: 15 prompts tracked daily on 3 engines (ChatGPT, Perplexity, Gemini), 1 website, and no actions. A free workspace asks up to 15 questions once as a preview; daily tracking needs a paid plan.",
+          "zh": "Essential 每月 49 美元：每天在 3 个引擎（ChatGPT、Perplexity、Gemini）上追踪 15 个提示词、1 个网站、不含行动。免费工作区一次性提问最多 15 个问题作为预览；每日追踪需付费套餐。"
+        },
+        "summary": {
+          "en": "Essential $49/mo: 15 daily prompts, 3 engines, 1 website, no actions; free workspace is a one-time 15-question preview.",
+          "zh": "Essential 每月 49 美元：每日 15 提示词、3 引擎、1 网站、无行动；免费工作区为一次性 15 问预览。"
+        },
+        "sourceUrls": [
+          "https://www.xseek.io/en/pricing"
+        ],
+        "verifiedAt": "2026-11-17"
+      },
+      {
+        "description": {
+          "en": "Starter is $149 USD/month: 50 prompts, 10 actions/month, article drafting and CMS publishing, plus API and MCP server. Growth is $499.99 USD/month: 150 prompts, 3 websites, 25 actions, 5 engines and 3 optional engines (Claude, Grok, DeepSeek).",
+          "zh": "Starter 每月 149 美元：50 个提示词、每月 10 项行动、文章起草与 CMS 发布，外加 API 与 MCP 服务器。Growth 每月 499.99 美元：150 个提示词、3 个网站、25 项行动、5 个引擎及 3 个可选引擎（Claude、Grok、DeepSeek）。"
+        },
+        "summary": {
+          "en": "Starter $149/mo: 50 prompts, 10 actions, API+MCP. Growth $499.99/mo: 150 prompts, 3 websites, 25 actions, 5+3 engines.",
+          "zh": "Starter 每月 149 美元：50 提示词、10 行动、API+MCP。Growth 每月 499.99 美元：150 提示词、3 网站、25 行动、5+3 引擎。"
+        },
+        "sourceUrls": [
+          "https://www.xseek.io/en/pricing"
+        ],
+        "verifiedAt": "2026-11-17"
+      },
+      {
+        "description": {
+          "en": "Enterprise is custom with a monthly 1:1 AI-strategist session. All plans have unlimited seats, are billed monthly in USD or CAD with no minimum term, and Starter offers a 7-day free trial.",
+          "zh": "Enterprise 按需定制，含每月一次与 AI 策略师的 1:1 会议。所有套餐席位不限，按月以美元或加元结算、无最低期限，Starter 提供 7 天免费试用。"
+        },
+        "summary": {
+          "en": "Enterprise custom; unlimited seats, monthly USD/CAD, no minimum term; Starter 7-day trial.",
+          "zh": "Enterprise 按需；席位不限、按月美元/加元、无最低期限；Starter 7 天试用。"
+        },
+        "sourceUrls": [
+          "https://www.xseek.io/en/pricing"
+        ],
+        "verifiedAt": "2026-11-17"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "Essential includes no actions or article drafting; the action plan, content and API/MCP start at Starter. Google AI Overviews and Copilot are only added from Growth, with Claude, Grok and DeepSeek optional per website.",
+          "zh": "Essential 不含行动或文章起草；行动计划、内容与 API/MCP 从 Starter 起。Google AI Overviews 与 Copilot 仅从 Growth 起加入，Claude、Grok、DeepSeek 按网站可选。"
+        },
+        "summary": {
+          "en": "No actions on Essential; extra engines and API/MCP start at higher tiers.",
+          "zh": "Essential 无行动；更多引擎与 API/MCP 从更高套餐起。"
+        },
+        "sourceUrls": [
+          "https://www.xseek.io/en/pricing"
+        ],
+        "verifiedAt": "2026-11-17"
+      },
+      {
+        "description": {
+          "en": "Questions, answers and articles work in French and English, but the app interface is English-only for now.",
+          "zh": "问题、回答与文章支持法语和英语，但应用界面目前仅英语。"
+        },
+        "summary": {
+          "en": "Content supports French and English; the app UI is English-only.",
+          "zh": "内容支持法语与英语；应用界面仅英语。"
+        },
+        "sourceUrls": [
+          "https://www.xseek.io/en/pricing"
+        ],
+        "verifiedAt": "2026-11-17"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Choose xSeek when you want an agent that not only tracks AI answers but writes a reasoned action plan and drafts publishable articles; note the free workspace is a one-time preview, actions and API/MCP require Starter or above, and the interface is English-only.",
+          "zh": "当你希望代理不仅追踪 AI 回答，还撰写带理由的行动计划并起草可发布文章时选 xSeek；注意免费工作区为一次性预览，行动与 API/MCP 需 Starter 及以上，界面仅英语。"
+        },
+        "sourceUrls": [
+          "https://www.xseek.io/en",
+          "https://www.xseek.io/en/pricing"
+        ],
+        "verifiedAt": "2026-11-17"
+      }
+    ]
+  },
+  {
+    "slug": "maxaeo",
+    "name": "MaxAEO",
+    "category": "ai-visibility",
+    "website": "https://maxaeo.ai/",
+    "logo": null,
+    "description": {
+      "en": "AI visibility platform that runs daily real-user checks across 8 AI engines, replays full answers, and turns mention rate, position, sentiment and citations into a ranked optimization to-do list.",
+      "zh": "AI 可见性平台，每天以真实用户方式在 8 个 AI 引擎上检测，回放完整回答，并把提及率、位置、情绪与引用转化为按优先级排序的优化待办。"
+    },
+    "tags": {
+      "en": [
+        "Real-user checks",
+        "Answer replay",
+        "Optimization engine"
+      ],
+      "zh": [
+        "真实用户检测",
+        "回答回放",
+        "优化引擎"
+      ]
+    },
+    "features": {
+      "en": [
+        "Check 8 AI engines daily as a real user (not via API) and replay the full answer behind each data point.",
+        "Measure mention rate, position, sentiment and citations, and compare against competitors.",
+        "Use the Optimization Engine (Beta) to get a Monday ranked to-do list and draft articles, then track citations after publishing.",
+        "Generate prompts, and connect via API and MCP."
+      ],
+      "zh": [
+        "每天以真实用户方式（而非 API）检测 8 个 AI 引擎，并回放每个数据点背后的完整回答。",
+        "衡量提及率、位置、情绪与引用，并与竞品对比。",
+        "使用优化引擎（Beta）获得每周一排序的待办清单与文章草稿，并在发布后追踪引用。",
+        "生成提示词，并通过 API 与 MCP 连接。"
+      ]
+    },
+    "audience": {
+      "en": "Brands and agencies that want daily, replayable AI answer monitoring across many engines plus a prioritized optimization workflow.",
+      "zh": "希望在多个引擎上获得每日、可回放的 AI 回答监控及按优先级排序优化流程的品牌与代理商。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Monitor how a brand appears across 8 AI engines with daily real-user checks, replaying each full answer to verify mention rate, position, sentiment and the cited sources.",
+          "zh": "通过每日真实用户检测监控品牌在 8 个 AI 引擎上的表现，回放每条完整回答以核实提及率、位置、情绪与被引用来源。"
+        },
+        "summary": {
+          "en": "Daily real-user checks across 8 engines with full answer replay.",
+          "zh": "每日真实用户检测 8 引擎并回放完整回答。"
+        },
+        "sourceUrls": [
+          "https://maxaeo.ai/"
+        ],
+        "verifiedAt": "2026-11-17"
+      },
+      {
+        "description": {
+          "en": "Act on a Monday ranked to-do list from the Optimization Engine (Beta), draft articles, and track whether competitors' citations shift after publishing.",
+          "zh": "依据优化引擎（Beta）每周一排序的待办清单行动，起草文章，并追踪发布后竞品引用是否变化。"
+        },
+        "summary": {
+          "en": "Follow a ranked weekly to-do list and track post-publish citations.",
+          "zh": "跟随每周排序待办并追踪发布后引用。"
+        },
+        "sourceUrls": [
+          "https://maxaeo.ai/"
+        ],
+        "verifiedAt": "2026-11-17"
+      }
+    ],
+    "platforms": [
+      "ChatGPT",
+      "Gemini",
+      "Perplexity",
+      "Claude",
+      "Microsoft Copilot",
+      "Grok",
+      "Google AI Mode",
+      "Google AI Overviews"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "MaxAEO homepage",
+          "zh": "MaxAEO 首页"
+        },
+        "url": "https://maxaeo.ai/"
+      },
+      {
+        "label": {
+          "en": "MaxAEO plans and pricing",
+          "zh": "MaxAEO 套餐与定价"
+        },
+        "url": "https://maxaeo.ai/pricing/"
+      }
+    ],
+    "verifiedAt": "2026-11-17",
+    "status": "published",
+    "featuredOrder": 97,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "Starter is $19/month ($180/year): 1 brand, 10 prompts, any 4 of the 8 engines, 5 competitors per brand and 1-year history. Growth is $149/month ($1,428/year): 3 brands, 100 shared prompts, any 6 engines and 8 competitors.",
+          "zh": "Starter 每月 19 美元（每年 180 美元）：1 个品牌、10 个提示词、8 个引擎中任选 4 个、每品牌 5 个竞品、1 年历史。Growth 每月 149 美元（每年 1,428 美元）：3 个品牌、100 个共享提示词、任选 6 个引擎、8 个竞品。"
+        },
+        "summary": {
+          "en": "Starter $19/mo ($180/yr): 1 brand, 10 prompts, 4 engines. Growth $149/mo ($1,428/yr): 3 brands, 100 prompts, 6 engines.",
+          "zh": "Starter 每月 19 美元（年 180）：1 品牌、10 提示词、4 引擎。Growth 每月 149 美元（年 1,428）：3 品牌、100 提示词、6 引擎。"
+        },
+        "sourceUrls": [
+          "https://maxaeo.ai/pricing/"
+        ],
+        "verifiedAt": "2026-11-17"
+      },
+      {
+        "description": {
+          "en": "Pro is $399/month ($3,828/year): 10 brands, 400 shared prompts and all 8 engines. Enterprise is custom with unlimited usage and a dedicated manager on quarterly or annual contracts. Annual billing saves about 20%.",
+          "zh": "Pro 每月 399 美元（每年 3,828 美元）：10 个品牌、400 个共享提示词、全部 8 个引擎。Enterprise 按需定制，用量不限并配专属客户经理，按季度或年度签约。年付约省 20%。"
+        },
+        "summary": {
+          "en": "Pro $399/mo ($3,828/yr): 10 brands, 400 prompts, all 8 engines; Enterprise custom; annual ~20% off.",
+          "zh": "Pro 每月 399 美元（年 3,828）：10 品牌、400 提示词、全 8 引擎；Enterprise 按需；年付约省 20%。"
+        },
+        "sourceUrls": [
+          "https://maxaeo.ai/pricing/"
+        ],
+        "verifiedAt": "2026-11-17"
+      },
+      {
+        "description": {
+          "en": "A 7-day free trial covers all 8 engines without a credit card; there is no ongoing free plan. When the trial ends the account pauses with data kept, and resumes on subscribing.",
+          "zh": "7 天免费试用覆盖全部 8 个引擎且无需信用卡；无持续免费套餐。试用结束后账户暂停但保留数据，订阅后恢复。"
+        },
+        "summary": {
+          "en": "7-day trial on all 8 engines, no card; no free plan; account pauses after trial, data kept.",
+          "zh": "7 天试用全 8 引擎、无需绑卡；无免费套餐；试用后暂停并保留数据。"
+        },
+        "sourceUrls": [
+          "https://maxaeo.ai/pricing/",
+          "https://maxaeo.ai/"
+        ],
+        "verifiedAt": "2026-11-17"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "Prompts are shared across the account and cannot be purchased separately; Starter and Growth must choose a subset of engines (4 or 6), with all 8 only on Pro and Enterprise.",
+          "zh": "提示词在账户内共享且不能单独购买；Starter 与 Growth 须选择引擎子集（4 或 6 个），全部 8 个仅在 Pro 与 Enterprise。"
+        },
+        "summary": {
+          "en": "Prompts are account-shared; engine subsets on lower tiers, all 8 only on Pro/Enterprise.",
+          "zh": "提示词账户共享；低套餐选引擎子集，全 8 仅 Pro/Enterprise。"
+        },
+        "sourceUrls": [
+          "https://maxaeo.ai/pricing/"
+        ],
+        "verifiedAt": "2026-11-17"
+      },
+      {
+        "description": {
+          "en": "The Optimization Engine is in Beta. Subscriptions auto-renew and cancellation is handled by emailing support.",
+          "zh": "优化引擎处于 Beta 阶段。订阅自动续费，取消需通过邮件联系支持。"
+        },
+        "summary": {
+          "en": "Optimization Engine is Beta; auto-renew with email-based cancellation.",
+          "zh": "优化引擎为 Beta；自动续费、邮件取消。"
+        },
+        "sourceUrls": [
+          "https://maxaeo.ai/",
+          "https://maxaeo.ai/pricing/"
+        ],
+        "verifiedAt": "2026-11-17"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Choose MaxAEO when you want daily real-user checks (not API sampling) with full answer replay across 8 engines and a ranked weekly optimization list; note there is no free plan, lower tiers pick an engine subset, and the optimization engine is still Beta.",
+          "zh": "当你希望以每日真实用户检测（而非 API 抽样）在 8 个引擎上回放完整回答，并获得每周排序优化清单时选 MaxAEO；注意无免费套餐、低套餐需选引擎子集，且优化引擎仍为 Beta。"
+        },
+        "sourceUrls": [
+          "https://maxaeo.ai/",
+          "https://maxaeo.ai/pricing/"
+        ],
+        "verifiedAt": "2026-11-17"
+      }
+    ]
+  },
+  {
+    "slug": "rankmonster",
+    "name": "RankMonster",
+    "category": "ai-visibility",
+    "website": "https://www.rankmonster.ai/",
+    "logo": null,
+    "description": {
+      "en": "AI visibility platform that tracks brand mentions across AI engines and automates the fix: drafted articles, an AI-ready hosted blog, and AI traffic analytics, with white-label agency workspaces.",
+      "zh": "AI 可见性平台，追踪品牌在各 AI 引擎的提及并自动执行修复：起草文章、面向 AI 的托管博客与 AI 流量分析，并提供白标代理商工作区。"
+    },
+    "tags": {
+      "en": [
+        "Content automation",
+        "AI-CMS blog",
+        "White-label agency"
+      ],
+      "zh": [
+        "内容自动化",
+        "AI-CMS 博客",
+        "白标代理"
+      ]
+    },
+    "features": {
+      "en": [
+        "Track brand mentions and citations across up to 11 LLMs, with per-scan recommendations on higher tiers.",
+        "Draft articles and publish them to your CMS, LinkedIn and X, reformatted for Medium, Quora and Substack.",
+        "Run an AI-CMS hosted blog with JSON-LD, sitemap, llms.txt and RSS, connected via Cloudflare, GoDaddy or Vercel DNS.",
+        "Measure AI traffic from CDN logs, and manage clients in white-label agency workspaces on your own domain."
+      ],
+      "zh": [
+        "在最多 11 个 LLM 上追踪品牌提及与引用，更高套餐提供每次扫描的建议。",
+        "起草文章并发布到 CMS、LinkedIn 与 X，并为 Medium、Quora、Substack 重新排版。",
+        "运行带 JSON-LD、站点地图、llms.txt 与 RSS 的 AI-CMS 托管博客，通过 Cloudflare、GoDaddy 或 Vercel DNS 连接。",
+        "从 CDN 日志衡量 AI 流量，并在自有域名的白标代理商工作区中管理客户。"
+      ]
+    },
+    "audience": {
+      "en": "Marketing teams and agencies that want AI visibility tracking plus automated content publishing and a hosted AI-ready blog.",
+      "zh": "希望获得 AI 可见性追踪、自动化内容发布与托管 AI 就绪博客的营销团队与代理商。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Track whether AI engines name the brand for a prompt set, then follow per-scan recommendations and publish drafted articles to the CMS and social channels to close the gap.",
+          "zh": "追踪 AI 引擎是否在一组提示词中提及品牌，随后按每次扫描的建议行动，并把起草的文章发布到 CMS 与社交渠道以补齐缺口。"
+        },
+        "summary": {
+          "en": "Track mentions, follow scan recommendations, publish drafted articles.",
+          "zh": "追踪提及、按扫描建议行动、发布起草文章。"
+        },
+        "sourceUrls": [
+          "https://www.rankmonster.ai/"
+        ],
+        "verifiedAt": "2026-11-17"
+      },
+      {
+        "description": {
+          "en": "Stand up an AI-ready hosted blog with JSON-LD, sitemap, llms.txt and RSS via DNS, and measure resulting AI traffic from CDN logs alongside the visibility data.",
+          "zh": "通过 DNS 搭建带 JSON-LD、站点地图、llms.txt 与 RSS 的 AI 就绪托管博客，并从 CDN 日志衡量由此产生的 AI 流量，与可见性数据并列查看。"
+        },
+        "summary": {
+          "en": "Launch an AI-CMS hosted blog and measure AI traffic from CDN logs.",
+          "zh": "搭建 AI-CMS 托管博客并从 CDN 日志衡量 AI 流量。"
+        },
+        "sourceUrls": [
+          "https://www.rankmonster.ai/"
+        ],
+        "verifiedAt": "2026-11-17"
+      }
+    ],
+    "platforms": [
+      "ChatGPT",
+      "Claude",
+      "Gemini",
+      "Perplexity",
+      "Google AI Overviews",
+      "Grok",
+      "Google AI Mode",
+      "Microsoft Copilot",
+      "Meta AI",
+      "DeepSeek",
+      "Mistral Le Chat"
+    ],
+    "pricing": "Freemium",
+    "sources": [
+      {
+        "label": {
+          "en": "RankMonster homepage",
+          "zh": "RankMonster 首页"
+        },
+        "url": "https://www.rankmonster.ai/"
+      },
+      {
+        "label": {
+          "en": "RankMonster privacy policy",
+          "zh": "RankMonster 隐私政策"
+        },
+        "url": "https://www.rankmonster.ai/privacy"
+      },
+      {
+        "label": {
+          "en": "RankMonster terms of service",
+          "zh": "RankMonster 服务条款"
+        },
+        "url": "https://www.rankmonster.ai/terms"
+      }
+    ],
+    "verifiedAt": "2026-11-17",
+    "status": "published",
+    "featuredOrder": 98,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "A free plan tracks 9 prompts on ChatGPT, and new accounts start with an 8-day Accelerate trial without a card. Foundation is $87/month (ChatGPT only, 50 prompts, 10 articles/month, site and on-page SEO audit).",
+          "zh": "免费套餐在 ChatGPT 上追踪 9 个提示词，新账户享 8 天 Accelerate 试用且无需绑卡。Foundation 每月 87 美元（仅 ChatGPT、50 个提示词、每月 10 篇文章、站点与页面 SEO 审计）。"
+        },
+        "summary": {
+          "en": "Free plan: 9 ChatGPT prompts; 8-day trial no card. Foundation $87/mo: ChatGPT, 50 prompts, 10 articles.",
+          "zh": "免费套餐：9 个 ChatGPT 提示词；8 天试用无需绑卡。Foundation 每月 87 美元：ChatGPT、50 提示词、10 文章。"
+        },
+        "sourceUrls": [
+          "https://www.rankmonster.ai/"
+        ],
+        "verifiedAt": "2026-11-17"
+      },
+      {
+        "description": {
+          "en": "Accelerate is $169/month (ChatGPT, Gemini, Perplexity, Grok; 100 prompts per engine, 20 articles/month, per-scan recommendations, AI Traffic analytics). Authority is $493/month (6 engines adding Claude and Google AI Overviews, 200 prompts per engine, unlimited articles, collaboration). Yearly billing gives 2 months free.",
+          "zh": "Accelerate 每月 169 美元（ChatGPT、Gemini、Perplexity、Grok；每引擎 100 个提示词、每月 20 篇文章、每次扫描建议、AI 流量分析）。Authority 每月 493 美元（6 引擎，新增 Claude 与 Google AI Overviews、每引擎 200 个提示词、无限文章、协作）。年付赠 2 个月。"
+        },
+        "summary": {
+          "en": "Accelerate $169/mo: 4 engines, 100 prompts each, 20 articles. Authority $493/mo: 6 engines, 200 each, unlimited articles; yearly 2 months free.",
+          "zh": "Accelerate 每月 169 美元：4 引擎、各 100 提示词、20 文章。Authority 每月 493 美元：6 引擎、各 200、无限文章；年付赠 2 月。"
+        },
+        "sourceUrls": [
+          "https://www.rankmonster.ai/"
+        ],
+        "verifiedAt": "2026-11-17"
+      },
+      {
+        "description": {
+          "en": "Agency is $399/month per client workspace plus a $99/month base; packs of 20/50/100 workspaces reduce the per-workspace price to $349/$299/$249 and waive the base. Enterprise is custom with 11 LLMs, API and SSO.",
+          "zh": "Agency 每个客户工作区每月 399 美元，另加每月 99 美元基础费；20/50/100 个工作区的打包价将单工作区降至 349/299/249 美元并免基础费。Enterprise 按需定制，含 11 个 LLM、API 与 SSO。"
+        },
+        "summary": {
+          "en": "Agency $399/mo per workspace + $99 base; 20/50/100 packs $349/$299/$249 waive base; Enterprise custom 11 LLMs.",
+          "zh": "Agency 每工作区每月 399 美元+99 基础费；20/50/100 打包 349/299/249 免基础费；Enterprise 按需 11 LLM。"
+        },
+        "sourceUrls": [
+          "https://www.rankmonster.ai/"
+        ],
+        "verifiedAt": "2026-11-17"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "Engine coverage is tier-gated: Foundation is ChatGPT-only, Accelerate adds Gemini, Perplexity and Grok, Authority adds Claude and Google AI Overviews, and the remaining engines (AI Mode, Copilot, Meta AI, DeepSeek, Mistral Le Chat) are Enterprise-only.",
+          "zh": "引擎覆盖按套餐分级：Foundation 仅 ChatGPT，Accelerate 新增 Gemini、Perplexity、Grok，Authority 新增 Claude 与 Google AI Overviews，其余引擎（AI Mode、Copilot、Meta AI、DeepSeek、Mistral Le Chat）仅 Enterprise。"
+        },
+        "summary": {
+          "en": "Engines tier-gated from ChatGPT-only up to 11 on Enterprise.",
+          "zh": "引擎按套餐分级，从仅 ChatGPT 到 Enterprise 的 11 个。"
+        },
+        "sourceUrls": [
+          "https://www.rankmonster.ai/"
+        ],
+        "verifiedAt": "2026-11-17"
+      },
+      {
+        "description": {
+          "en": "AI Traffic analytics requires Accelerate or above, and the hosted blog and social publishing depend on connecting DNS and CMS/social accounts.",
+          "zh": "AI 流量分析需 Accelerate 及以上，托管博客与社交发布依赖连接 DNS 及 CMS/社交账户。"
+        },
+        "summary": {
+          "en": "AI Traffic needs Accelerate+; blog/social publishing need DNS and account connections.",
+          "zh": "AI 流量需 Accelerate+；博客/社交发布需连接 DNS 与账户。"
+        },
+        "sourceUrls": [
+          "https://www.rankmonster.ai/"
+        ],
+        "verifiedAt": "2026-11-17"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Choose RankMonster when you want tracking plus execution — drafted articles, an AI-ready hosted blog and AI traffic analytics — and white-label client workspaces; a genuine free plan (9 ChatGPT prompts) lets you start small, but broader engine coverage and AI Traffic sit on higher tiers.",
+          "zh": "当你希望追踪加执行——起草文章、AI 就绪托管博客与 AI 流量分析——以及白标客户工作区时选 RankMonster；真正的免费套餐（9 个 ChatGPT 提示词）可小规模起步，但更广引擎覆盖与 AI 流量在更高套餐。"
+        },
+        "sourceUrls": [
+          "https://www.rankmonster.ai/"
+        ],
+        "verifiedAt": "2026-11-17"
+      }
+    ]
+  },
+  {
+    "slug": "snezzi",
+    "name": "Snezzi",
+    "category": "ai-visibility",
+    "website": "https://snezzi.com/",
+    "logo": null,
+    "description": {
+      "en": "AI visibility platform that tracks brand mentions across 5 AI engines and then does the work: a ranked weekly fix plan, a content engine, a backlink-building agent, and Reddit/Quora and social distribution.",
+      "zh": "AI 可见性平台，追踪品牌在 5 个 AI 引擎的提及，并代为执行：每周排序修复计划、内容引擎、外链建设代理，以及 Reddit/Quora 与社交分发。"
+    },
+    "tags": {
+      "en": [
+        "Done-for-you execution",
+        "Backlink agent",
+        "Content engine"
+      ],
+      "zh": [
+        "代做执行",
+        "外链代理",
+        "内容引擎"
+      ]
+    },
+    "features": {
+      "en": [
+        "Track 200 active prompts shared across brands on 5 engines, checked daily or weekly as set at onboarding.",
+        "Get a ranked fix plan every Monday, plus a content engine that ships 15 articles per calendar month to your CMS after approval.",
+        "Run a Backlink Building Agent and Reddit/Quora and social distribution, with an AI Video feature in Beta.",
+        "See AI traffic next to GSC and GA4, run technical audits and indexing checks, and connect via MCP and CLI."
+      ],
+      "zh": [
+        "在 5 个引擎上追踪跨品牌共享的 200 个活跃提示词，按入驻时设定每日或每周检测。",
+        "每周一获得排序修复计划，内容引擎在审批后每自然月向 CMS 交付 15 篇文章。",
+        "运行外链建设代理以及 Reddit/Quora 与社交分发，AI 视频功能处于 Beta。",
+        "在 GSC 与 GA4 旁查看 AI 流量，运行技术审计与索引检查，并通过 MCP 与 CLI 连接。"
+      ]
+    },
+    "audience": {
+      "en": "Teams that want an AI visibility platform to execute fixes — content, backlinks and mentions — not just report them.",
+      "zh": "希望 AI 可见性平台代为执行修复（内容、外链与提及）而非仅报告的团队。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Track where the brand is named across 5 AI engines on a shared pool of 200 active prompts, archiving prompts to free slots, and read the ranked fix plan delivered every Monday.",
+          "zh": "在 200 个活跃提示词的共享池上追踪品牌在 5 个 AI 引擎中被提及的情况，归档提示词以释放额度，并阅读每周一交付的排序修复计划。"
+        },
+        "summary": {
+          "en": "Track 200 shared prompts on 5 engines and read a weekly ranked fix plan.",
+          "zh": "在 5 引擎追踪 200 共享提示词并阅读每周排序修复计划。"
+        },
+        "sourceUrls": [
+          "https://snezzi.com/",
+          "https://snezzi.com/pricing/"
+        ],
+        "verifiedAt": "2026-11-17"
+      },
+      {
+        "description": {
+          "en": "Let Snezzi execute: approve articles from the content engine (15 per calendar month to the CMS), run the backlink-building agent, and distribute via Reddit/Quora and social channels.",
+          "zh": "让 Snezzi 代为执行：审批内容引擎的文章（每自然月 15 篇交付 CMS）、运行外链建设代理，并通过 Reddit/Quora 与社交渠道分发。"
+        },
+        "summary": {
+          "en": "Approve content-engine articles and run backlink and mention distribution.",
+          "zh": "审批内容引擎文章并运行外链与提及分发。"
+        },
+        "sourceUrls": [
+          "https://snezzi.com/",
+          "https://snezzi.com/pricing/"
+        ],
+        "verifiedAt": "2026-11-17"
+      }
+    ],
+    "platforms": [
+      "ChatGPT",
+      "Claude",
+      "Perplexity",
+      "Google AI Overviews",
+      "Google AI Mode"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "Snezzi homepage",
+          "zh": "Snezzi 首页"
+        },
+        "url": "https://snezzi.com/"
+      },
+      {
+        "label": {
+          "en": "Snezzi plans and pricing",
+          "zh": "Snezzi 套餐与定价"
+        },
+        "url": "https://snezzi.com/pricing/"
+      }
+    ],
+    "verifiedAt": "2026-11-17",
+    "status": "published",
+    "featuredOrder": 99,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "The platform is $500/month or $5,000/year (two months free): 200 active prompts shared across brands, all 5 engines included with no add-ons or credits, daily or weekly checks, 15 articles per calendar month to the CMS after approval, and no seat limit.",
+          "zh": "平台每月 500 美元或每年 5,000 美元（赠 2 个月）：跨品牌共享 200 个活跃提示词、全部 5 个引擎均含且无附加费或积分、每日或每周检测、审批后每自然月 15 篇文章交付 CMS、席位不限。"
+        },
+        "summary": {
+          "en": "Platform $500/mo or $5,000/yr: 200 shared prompts, all 5 engines, 15 articles/month, unlimited seats.",
+          "zh": "平台每月 500 美元或每年 5,000 美元：200 共享提示词、全 5 引擎、每月 15 文章、席位不限。"
+        },
+        "sourceUrls": [
+          "https://snezzi.com/pricing/"
+        ],
+        "verifiedAt": "2026-11-17"
+      },
+      {
+        "description": {
+          "en": "The 7-day trial costs $10 and auto-moves to $500/month unless cancelled; there is no free trial. A done-for-you service starts at $1,999/month with a 3-month pilot minimum, the platform included, a dedicated manager and biweekly strategy calls.",
+          "zh": "7 天试用收费 10 美元，除非取消否则自动转为每月 500 美元；无免费试用。代运营服务每月 1,999 美元起，最少 3 个月试点，含平台、专属客户经理与双周策略会议。"
+        },
+        "summary": {
+          "en": "$10 7-day trial auto-converts to $500/mo; no free trial. Done-for-you from $1,999/mo, 3-month minimum.",
+          "zh": "10 美元 7 天试用自动转每月 500 美元；无免费试用。代运营每月 1,999 美元起、最少 3 个月。"
+        },
+        "sourceUrls": [
+          "https://snezzi.com/pricing/"
+        ],
+        "verifiedAt": "2026-11-17"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "The 15-article quota is per calendar month with no rollover, and WordPress/Shopify imports do not count; prompts are a shared pool of 200 active slots that must be archived to free up.",
+          "zh": "15 篇文章额度按自然月计且不结转，WordPress/Shopify 导入不计入；提示词为 200 个活跃额度的共享池，须归档以释放。"
+        },
+        "summary": {
+          "en": "15 articles/calendar month, no rollover; 200 shared active prompt slots.",
+          "zh": "每自然月 15 文章、不结转；200 共享活跃提示词额度。"
+        },
+        "sourceUrls": [
+          "https://snezzi.com/pricing/",
+          "https://snezzi.com/"
+        ],
+        "verifiedAt": "2026-11-17"
+      },
+      {
+        "description": {
+          "en": "The trial is paid ($10) and auto-converts to the $500/month platform unless cancelled, so it is not a free evaluation.",
+          "zh": "试用为付费（10 美元）且除非取消会自动转为每月 500 美元的平台，因此并非免费评估。"
+        },
+        "summary": {
+          "en": "Paid $10 trial auto-converts to $500/mo unless cancelled.",
+          "zh": "10 美元付费试用除非取消自动转每月 500 美元。"
+        },
+        "sourceUrls": [
+          "https://snezzi.com/pricing/"
+        ],
+        "verifiedAt": "2026-11-17"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Choose Snezzi when you want the platform to execute fixes — a weekly ranked plan, a content engine, a backlink agent and Reddit/Quora distribution — rather than only report visibility; note the single $500/month platform price, the paid auto-converting trial, and the shared 200-prompt pool.",
+          "zh": "当你希望平台代为执行修复——每周排序计划、内容引擎、外链代理与 Reddit/Quora 分发——而非仅报告可见性时选 Snezzi；注意单一每月 500 美元的平台价、付费且自动续转的试用，以及 200 提示词共享池。"
+        },
+        "sourceUrls": [
+          "https://snezzi.com/",
+          "https://snezzi.com/pricing/"
+        ],
+        "verifiedAt": "2026-11-17"
+      }
+    ]
+  },
+  {
+    "slug": "lighthouse-local",
+    "name": "Lighthouse Local",
+    "category": "local-geo",
+    "website": "https://www.lighthouselocal.ai/",
+    "logo": null,
+    "description": {
+      "en": "AI visibility tracking built for local businesses, checking whether ChatGPT, Gemini, Claude, Perplexity and Google AI recommend you, alongside Google Business Profile, reviews and website health.",
+      "zh": "专为本地商家打造的 AI 可见性追踪，检测 ChatGPT、Gemini、Claude、Perplexity 与 Google AI 是否推荐你，并结合 Google 商家资料、评价与网站健康度。"
+    },
+    "tags": {
+      "en": [
+        "Local business",
+        "Google Business Profile",
+        "White-label agency"
+      ],
+      "zh": [
+        "本地商家",
+        "Google 商家资料",
+        "白标代理"
+      ]
+    },
+    "features": {
+      "en": [
+        "Check every prompt on all 5 AI platforms with a weekly sweep plus daily slots, and read the real answers word for word.",
+        "Track competitors, Google Business Profile, reviews and website health, with a ranked action plan.",
+        "Run agencies on white-label plans with your own logo, colors and custom domain.",
+        "Start with a free 60-second audit of 45+ on-site signals, no account required."
+      ],
+      "zh": [
+        "以每周扫描加每日额度在全部 5 个 AI 平台上检测每个提示词，并逐字阅读真实回答。",
+        "追踪竞品、Google 商家资料、评价与网站健康度，并给出排序行动计划。",
+        "以白标套餐运营代理商业务，使用自有标志、配色与自定义域名。",
+        "从免费的 60 秒审计起步，覆盖 45 多项站内信号，无需账户。"
+      ]
+    },
+    "audience": {
+      "en": "Local businesses and the agencies that serve them, wanting plain-language AI recommendation tracking tied to local SEO signals.",
+      "zh": "本地商家及服务它们的代理商，希望获得与本地 SEO 信号挂钩、通俗表述的 AI 推荐追踪。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "See whether AI engines recommend a local business when customers ask who to hire, reading the real answers across 5 platforms and tracking which competitors get named instead.",
+          "zh": "了解当顾客询问该雇谁时 AI 引擎是否推荐某本地商家，阅读 5 个平台上的真实回答，并追踪哪些竞品反而被提及。"
+        },
+        "summary": {
+          "en": "Check if AI recommends your local business and which competitors win.",
+          "zh": "检测 AI 是否推荐你的本地商家及哪些竞品胜出。"
+        },
+        "sourceUrls": [
+          "https://www.lighthouselocal.ai/"
+        ],
+        "verifiedAt": "2026-11-17"
+      },
+      {
+        "description": {
+          "en": "Close the gap with a ranked action plan tied to Google Business Profile, reviews and website health, and monitor progress on a weekly sweep plus daily prompt slots.",
+          "zh": "通过与 Google 商家资料、评价和网站健康度挂钩的排序行动计划补齐缺口，并以每周扫描加每日提示词额度监控进展。"
+        },
+        "summary": {
+          "en": "Follow a local-SEO action plan and monitor on weekly plus daily checks.",
+          "zh": "跟随本地 SEO 行动计划并以每周加每日检测监控。"
+        },
+        "sourceUrls": [
+          "https://www.lighthouselocal.ai/",
+          "https://www.lighthouselocal.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-17"
+      }
+    ],
+    "platforms": [
+      "ChatGPT",
+      "Gemini",
+      "Claude",
+      "Perplexity",
+      "Google AI Overviews"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "Lighthouse Local homepage",
+          "zh": "Lighthouse Local 首页"
+        },
+        "url": "https://www.lighthouselocal.ai/"
+      },
+      {
+        "label": {
+          "en": "Lighthouse Local plans and pricing",
+          "zh": "Lighthouse Local 套餐与定价"
+        },
+        "url": "https://www.lighthouselocal.ai/pricing"
+      }
+    ],
+    "verifiedAt": "2026-11-17",
+    "status": "published",
+    "featuredOrder": 100,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "Starter is $79/month (1 site, 50 prompts, 3 daily slots, 3 competitors, 2 seats, 30-day history). Growth is $249/month (3 sites, 150 prompts, 12 daily, 9 competitors, 5 seats, 90-day history). Enterprise is custom from about $599/month. Every plan tracks all 5 platforms.",
+          "zh": "Starter 每月 79 美元（1 站点、50 提示词、3 个每日额度、3 竞品、2 席位、30 天历史）。Growth 每月 249 美元（3 站点、150 提示词、12 每日、9 竞品、5 席位、90 天历史）。Enterprise 按需约每月 599 美元起。所有套餐均追踪全部 5 个平台。"
+        },
+        "summary": {
+          "en": "Starter $79/mo: 1 site, 50 prompts. Growth $249/mo: 3 sites, 150 prompts. Enterprise from ~$599/mo; all 5 platforms.",
+          "zh": "Starter 每月 79 美元：1 站点、50 提示词。Growth 每月 249 美元：3 站点、150 提示词。Enterprise 约 599 起；全 5 平台。"
+        },
+        "sourceUrls": [
+          "https://www.lighthouselocal.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-17"
+      },
+      {
+        "description": {
+          "en": "Agency Starter is $349/month (8 client sites, 160 shared prompts, white-label and custom domain) and Agency Growth is $999/month (25 sites, 500 prompts); Agency Enterprise is custom from about $1,999/month. Annual billing is pay-10-get-12.",
+          "zh": "Agency Starter 每月 349 美元（8 客户站点、160 共享提示词、白标与自定义域名），Agency Growth 每月 999 美元（25 站点、500 提示词）；Agency Enterprise 按需约每月 1,999 美元起。年付为付 10 得 12。"
+        },
+        "summary": {
+          "en": "Agency Starter $349/mo (8 sites), Agency Growth $999/mo (25 sites), Agency Enterprise from ~$1,999/mo; annual pay-10-get-12.",
+          "zh": "Agency Starter 每月 349（8 站点）、Agency Growth 每月 999（25 站点）、Agency Enterprise 约 1,999 起；年付付 10 得 12。"
+        },
+        "sourceUrls": [
+          "https://www.lighthouselocal.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-17"
+      },
+      {
+        "description": {
+          "en": "All plans start with a 14-day free trial (set up before adding a card) and include GBP/reviews/website health, an action plan and hard-stop limits; data is kept and there is a 7-day payment grace period.",
+          "zh": "所有套餐均含 14 天免费试用（先设置后绑卡），并包含商家资料/评价/网站健康度、行动计划与硬性上限；数据保留，且有 7 天付款宽限期。"
+        },
+        "summary": {
+          "en": "14-day trial (setup before card), GBP/reviews/health and action plan included; hard-stop limits, 7-day payment grace.",
+          "zh": "14 天试用（先设置后绑卡），含商家资料/评价/健康度与行动计划；硬性上限、7 天付款宽限。"
+        },
+        "sourceUrls": [
+          "https://www.lighthouselocal.ai/pricing",
+          "https://www.lighthouselocal.ai/"
+        ],
+        "verifiedAt": "2026-11-17"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "Prompt, daily-slot, competitor, seat and history limits are hard stops per plan; extra capacity is bought as add-ons (e.g. a daily slot $12/month, a coverage pack $29/month, an extra site $49/month).",
+          "zh": "提示词、每日额度、竞品、席位与历史限制按套餐为硬性上限；额外容量需以附加项购买（如每日额度每月 12 美元、覆盖包每月 29 美元、额外站点每月 49 美元）。"
+        },
+        "summary": {
+          "en": "Hard-stop limits per plan; extra capacity via paid add-ons.",
+          "zh": "按套餐硬性上限；额外容量需付费附加项。"
+        },
+        "sourceUrls": [
+          "https://www.lighthouselocal.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-17"
+      },
+      {
+        "description": {
+          "en": "It is focused on local businesses and 5 consumer AI platforms; it does not cover the broader engine set (e.g. Grok, DeepSeek, Copilot) that some general AI-visibility tools track.",
+          "zh": "它聚焦本地商家与 5 个消费级 AI 平台，不覆盖部分通用 AI 可见性工具追踪的更广引擎集（如 Grok、DeepSeek、Copilot）。"
+        },
+        "summary": {
+          "en": "Local-business focus on 5 platforms; no Grok/DeepSeek/Copilot coverage.",
+          "zh": "聚焦本地商家的 5 平台；不覆盖 Grok/DeepSeek/Copilot。"
+        },
+        "sourceUrls": [
+          "https://www.lighthouselocal.ai/",
+          "https://www.lighthouselocal.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-17"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Choose Lighthouse Local when the buyer is a local business or local-SEO agency that wants plain-language AI recommendation tracking tied to Google Business Profile, reviews and website health, with white-label client plans; note it covers 5 consumer platforms and uses hard-stop limits with paid add-ons.",
+          "zh": "当买方是本地商家或本地 SEO 代理商，希望获得与 Google 商家资料、评价和网站健康度挂钩、通俗表述的 AI 推荐追踪及白标客户套餐时选 Lighthouse Local；注意它覆盖 5 个消费级平台，并采用硬性上限加付费附加项。"
+        },
+        "sourceUrls": [
+          "https://www.lighthouselocal.ai/",
+          "https://www.lighthouselocal.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-17"
+      }
+    ]
+  },
+  {
+    "slug": "seomator-geo-audit",
+    "name": "SEOmator GEO Audit",
+    "category": "geo-audit",
+    "website": "https://seomator.com/geo-audit-tool",
+    "logo": null,
+    "description": {
+      "en": "A free GEO audit tool that crawls up to 50 pages and scores how citable a site is to AI search, with a weighted 0-100 score, block-level citability, a 14-crawler robots.txt report and per-engine readiness.",
+      "zh": "一款免费 GEO 审计工具，抓取最多 50 个页面并为网站对 AI 搜索的可引用性打分，提供加权 0-100 分、块级可引用性、14 爬虫 robots.txt 报告与按引擎准备度。"
+    },
+    "tags": {
+      "en": [
+        "Free GEO audit",
+        "Citability",
+        "AI crawler check"
+      ],
+      "zh": [
+        "免费 GEO 审计",
+        "可引用性",
+        "AI 爬虫检查"
+      ]
+    },
+    "features": {
+      "en": [
+        "Crawl up to 50 pages via sitemap and internal links and compute a weighted 0-100 GEO score across six categories.",
+        "Score block-level citability on five dimensions and check robots.txt against 14 AI crawlers in three tiers.",
+        "Give five AI platforms their own readiness score, diff missing JSON-LD, and generate schema you can paste.",
+        "Export a PDF, share the report URL, or diff it against a later audit; a Quick Scan checks one page in about five seconds."
+      ],
+      "zh": [
+        "通过站点地图与内链抓取最多 50 个页面，按六个类别计算加权 0-100 GEO 分。",
+        "按五个维度为块级可引用性打分，并按三个层级对照 14 个 AI 爬虫检查 robots.txt。",
+        "为五个 AI 平台分别给出准备度得分，对比缺失的 JSON-LD，并生成可粘贴的结构化数据。",
+        "导出 PDF、分享报告链接或与后续审计对比；快速扫描约 5 秒检查单个页面。"
+      ]
+    },
+    "audience": {
+      "en": "SEO and content teams that want a free, no-signup snapshot of how citable their site is to AI search before optimizing.",
+      "zh": "希望在优化前免费、无需注册地快照网站对 AI 搜索可引用性的 SEO 与内容团队。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Before optimizing for AI search, run a free audit to see the weighted GEO score, which content blocks are citation-ready, and whether robots.txt blocks any of the 14 AI crawlers.",
+          "zh": "在针对 AI 搜索优化前，运行免费审计查看加权 GEO 分、哪些内容块已具备可引用性，以及 robots.txt 是否屏蔽了 14 个 AI 爬虫中的任何一个。"
+        },
+        "summary": {
+          "en": "Free snapshot of GEO score, citability and AI-crawler access.",
+          "zh": "免费快照 GEO 分、可引用性与 AI 爬虫访问。"
+        },
+        "sourceUrls": [
+          "https://seomator.com/geo-audit-tool"
+        ],
+        "verifiedAt": "2026-11-17"
+      },
+      {
+        "description": {
+          "en": "Fix schema gaps using the generated JSON-LD and per-engine readiness actions, then export a PDF or diff the report against a later run to confirm the change.",
+          "zh": "用生成的 JSON-LD 与按引擎准备度行动修复结构化数据缺口，再导出 PDF 或将报告与后续运行对比以确认改动。"
+        },
+        "summary": {
+          "en": "Fix schema gaps and diff audits to confirm improvements.",
+          "zh": "修复结构化数据缺口并对比审计确认改进。"
+        },
+        "sourceUrls": [
+          "https://seomator.com/geo-audit-tool"
+        ],
+        "verifiedAt": "2026-11-17"
+      }
+    ],
+    "platforms": [
+      "Google AI Overviews",
+      "ChatGPT",
+      "Perplexity",
+      "Gemini",
+      "Bing Copilot"
+    ],
+    "pricing": "Free",
+    "sources": [
+      {
+        "label": {
+          "en": "SEOmator GEO Audit tool page",
+          "zh": "SEOmator GEO Audit 工具页"
+        },
+        "url": "https://seomator.com/geo-audit-tool"
+      },
+      {
+        "label": {
+          "en": "SEOmator plans and pricing",
+          "zh": "SEOmator 套餐与定价"
+        },
+        "url": "https://seomator.com/pricing"
+      }
+    ],
+    "verifiedAt": "2026-11-17",
+    "status": "published",
+    "featuredOrder": 101,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "The GEO audit tool is free forever with no signup: up to 50 pages, the full six-category score, block-level citability, the 14-crawler report, per-engine readiness, generated JSON-LD, PDF and a shareable URL.",
+          "zh": "GEO 审计工具永久免费且无需注册：最多 50 页、完整六类别得分、块级可引用性、14 爬虫报告、按引擎准备度、生成的 JSON-LD、PDF 与可分享链接。"
+        },
+        "summary": {
+          "en": "Free forever, no signup: 50 pages, full score, citability, crawler report, JSON-LD, PDF.",
+          "zh": "永久免费、无需注册：50 页、完整得分、可引用性、爬虫报告、JSON-LD、PDF。"
+        },
+        "sourceUrls": [
+          "https://seomator.com/geo-audit-tool"
+        ],
+        "verifiedAt": "2026-11-17"
+      },
+      {
+        "description": {
+          "en": "A free SEOmator account adds scheduled re-audits, crawler-rule change alerts and full-site crawls beyond 50 pages. The broader SEOmator platform is a separate paid product (Free plan plus Starter $49, Growth $99 and Scale $249 per month).",
+          "zh": "免费 SEOmator 账户新增定时复审、爬虫规则变更提醒与超过 50 页的全站抓取。更广义的 SEOmator 平台是独立的付费产品（免费套餐加每月 Starter 49、Growth 99、Scale 249 美元）。"
+        },
+        "summary": {
+          "en": "Free account adds scheduled re-audits and alerts; the wider SEOmator platform is separately paid ($49/$99/$249).",
+          "zh": "免费账户增定时复审与提醒；更广 SEOmator 平台另行付费（49/99/249 美元）。"
+        },
+        "sourceUrls": [
+          "https://seomator.com/geo-audit-tool",
+          "https://seomator.com/pricing"
+        ],
+        "verifiedAt": "2026-11-17"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "The crawler fetches raw HTML and does not execute JavaScript, so client-rendered sites are scored on their shell; the Core Web Vitals figure is estimated from HTML heuristics, not measured in a browser.",
+          "zh": "爬虫抓取原始 HTML 且不执行 JavaScript，因此客户端渲染网站仅按其外壳打分；Core Web Vitals 数值由 HTML 启发式估算，而非在浏览器中实测。"
+        },
+        "summary": {
+          "en": "Raw HTML only (no JS); Core Web Vitals is heuristic, not measured.",
+          "zh": "仅原始 HTML（无 JS）；CWV 为启发式估算而非实测。"
+        },
+        "sourceUrls": [
+          "https://seomator.com/geo-audit-tool"
+        ],
+        "verifiedAt": "2026-11-17"
+      },
+      {
+        "description": {
+          "en": "The five platform readiness scores are SEOmator's own rubric, not the engines' real weighting, and should be treated as a priority order rather than a forecast; the free audit is a 50-page snapshot, not a whole-site crawl.",
+          "zh": "五个平台准备度得分是 SEOmator 自己的评分标准，而非引擎真实权重，应视为优先级排序而非预测；免费审计是 50 页快照，而非全站抓取。"
+        },
+        "summary": {
+          "en": "Readiness scores are a vendor rubric, not engine weights; 50-page snapshot only.",
+          "zh": "准备度分为厂商标准而非引擎权重；仅 50 页快照。"
+        },
+        "sourceUrls": [
+          "https://seomator.com/geo-audit-tool"
+        ],
+        "verifiedAt": "2026-11-17"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Choose SEOmator GEO Audit for a free, no-signup citability and crawler snapshot with a printed scoring formula and generated JSON-LD; note it reads raw HTML without JavaScript, estimates Core Web Vitals, and its per-engine readiness is a vendor rubric rather than a live prompt-visibility test.",
+          "zh": "需要免费、无需注册的可引用性与爬虫快照，并附公开计分公式与生成的 JSON-LD 时选 SEOmator GEO Audit；注意它读取原始 HTML 而不执行 JavaScript、估算 Core Web Vitals，且按引擎准备度是厂商评分标准而非实时提示词可见性测试。"
+        },
+        "sourceUrls": [
+          "https://seomator.com/geo-audit-tool"
+        ],
+        "verifiedAt": "2026-11-17"
+      }
+    ]
   }
 ]
