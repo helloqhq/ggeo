@@ -127,6 +127,14 @@
 - 浏览器实际访问线上中文 Akii 详情，核对产品名、价格标签「免费」与核验日期 2026-11-16；英文线上搜索 `Promvia` 命中新增工具卡片。
 - 法律页中英内容、来源、独立日期与测试指纹未改动，线上抽查法律页与本地一致；未修改域名、DNS、统计、广告或联盟配置，两封邮件均为工具收录申请、未涉及互链，友情链接未改动。工作区既有的 `AGENTS.md` 编辑未并入本次发布提交。此发布记录以 `[skip ci]` 文档提交保存，避免重复部署相同静态产物。
 
+### 第十一轮数据复核（2026-11-17）
+
+- 用户在数据维护与本地验收完成后明确授权提交和发布。生产源码提交：`b956229253369dfafb3d0bc702262a3a6d1aa0ee`；[发布工作流](https://github.com/helloqhq/ggeo/actions/runs/44099781173) 已 completed / success，build 与 deploy 均成功；本地 22 项测试通过，CI 数据校验、构建、测试步骤成功。前两次推送因瞬时网络错误（超时、空响应）失败，改用 HTTP/1.1 后第三次推送成功；该次推送同时带上此前两个本地 skill 流程提交（`ecd102e`、`5e0fbed`），不影响静态产物。
+- 本轮复核最早批次（核验日 2026-10-18）与 2 个 Unknown 定价条目，共 11 个工具：GEOly、Bing Webmaster Tools AI Performance、Waikay、Goodie、Analyze AI、Evertune、Birdeye AI Search、Botify、Conductor Monitoring、AirOps、Sitebulb Labs。更新定价明细、平台与限制表述；GEOly、Bing、AirOps、Sitebulb Labs 基础核验日刷新为 2026-11-17，其余 7 条按部分复核约定保留基础日期。Birdeye 定价页返回 403，pricingDetails 保留 2026-10-24 日期与缺口表述。公开工具仍为 94 个，固定 8 类，生成 220 个 HTML 页面。逐项证据、阻碍与经验见[本轮记录](data-updates/2026-11-17-batch-reverify.md)。
+- 通过正常 HTTPS URL 核对中英首页、11 个工具的中英详情（22 页）、全部八类中英分类（16 页）、四个中英法律页面，以及 `assets/directory.json`、`sitemap.xml`、`robots.txt`，共 47 个地址均返回 HTTP 200，SHA-256 与本地本次构建一致。另一个不存在的地址返回真实 HTTP 404，正文与本地生成的 404 页面一致。线上搜索数据包含 94 个工具。
+- 浏览器实际访问线上中文 GEOly 详情，核对核验日期 2026-11-17、四档月付价格（Basic 49 / Grow 149 / Advanced 399 / Plus 999 美元）、年付首年省 10% 与 Copilot 停止监测说明；英文 Bing Webmaster Tools AI Performance 详情的 Last checked 2026-11-17 与新增 Intents、Topics、Citation Share、Compare 及 Topics Portfolio beta 功能描述。浏览器专用标签页已在检查后关闭。
+- 法律页中英内容、来源、独立日期与测试指纹未改动；未修改域名、DNS、统计、广告或联盟配置。工作区既有的 `AGENTS.md` 编辑未并入本次发布提交。此发布记录以 `[skip ci]` 文档提交保存，避免重复部署相同静态产物。
+
 ### 发布流程
 
 修改 JSON 或源码后提交并推送 `main`。工作流检查不通过时不会部署新站；修复数据或代码后再推送。查看 Actions 成功状态和站点实际内容，不能仅以 git push 成功判定已上线。
