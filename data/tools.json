@@ -2918,7 +2918,11 @@
       }
     ],
     "platforms": [
-      "ChatGPT"
+      "ChatGPT",
+      "Perplexity",
+      "Claude",
+      "Microsoft Copilot",
+      "Grok"
     ],
     "pricing": "Unknown",
     "sources": [
@@ -2937,40 +2941,39 @@
         "url": "https://www.airops.com/pricing"
       }
     ],
-    "verifiedAt": "2026-10-24",
+    "verifiedAt": "2026-11-17",
     "status": "published",
     "featuredOrder": 22,
     "sponsored": false,
     "pricingDetails": [
       {
         "description": {
-          "en": "The pricing FAQ describes task-based usage and Solo overage at $0.025 per task. A consistent recurring base-plan price was not verified; the 14-day trial and overage rate do not establish a continuing free plan or total subscription cost.",
-          "zh": "定价 FAQ 说明按任务用量计费，Solo 超额任务为每次 $0.025。本轮未核实一致的基础订阅价；14 天试用和超额单价不能代表长期免费方案或完整订阅费用。"
+          "en": "Plan cards list Solo with 35,000 tasks per month (ChatGPT-only insights, one user) and Pro with 100,000 tasks (insights across 10+ answer engines, unlimited seats), plus custom Enterprise; no fixed base subscription price is displayed. The FAQ describes task-based usage, Solo overage at $0.025 per task and a 14-day trial, which does not establish a continuing free plan.",
+          "zh": "方案卡片列出 Solo 每月 35,000 个任务（仅 ChatGPT 洞察、单用户）、Pro 每月 100,000 个任务（覆盖 10+ 回答引擎的洞察、不限席位）及定制 Enterprise，但未展示固定基础订阅价。FAQ 说明按任务用量计费、Solo 超额每任务 $0.025，以及 14 天试用；试用不代表长期免费方案。"
         },
         "sourceUrls": [
           "https://www.airops.com/pricing"
         ],
-        "verifiedAt": "2026-10-24",
+        "verifiedAt": "2026-11-17",
         "summary": {
-          "en": "Base price unconfirmed; Solo overage $0.025/task. Trial is not a recurring free plan.",
-          "zh": "基础订阅价待确认；Solo 超额 $0.025/任务。试用不等于长期免费。"
+          "en": "Solo 35k tasks/month, Pro 100k; base price not published. Overage $0.025/task.",
+          "zh": "Solo 3.5 万任务/月，Pro 10 万；基础价未公开。超额 $0.025/任务。"
         }
       }
     ],
     "limitations": [
       {
         "description": {
-          "en": "The pricing page describes task-based billing and an introductory trial, but does not clearly establish an ongoing free tier or a consistent current plan structure.",
-          "zh": "计费页介绍按任务计费及初始试用，但未明确持续免费档，当前方案结构的说明也不完全一致。"
+          "en": "Solo insights cover ChatGPT only; broader answer-engine coverage requires Pro. The pricing FAQ still references legacy plan names (Scale, Agency) that differ from the current Solo/Pro cards, so confirm the current package and total cost with sales.",
+          "zh": "Solo 的洞察仅覆盖 ChatGPT，更广的回答引擎覆盖需 Pro。定价 FAQ 仍引用旧方案名（Scale、Agency），与当前 Solo/Pro 卡片不一致，需向销售确认现行套餐与总费用。"
         },
         "sourceUrls": [
-          "https://www.airops.com/",
           "https://www.airops.com/pricing"
         ],
-        "verifiedAt": "2026-10-24",
+        "verifiedAt": "2026-11-17",
         "summary": {
-          "en": "Task-based billing; recurring free tier and plan boundaries remain unclear.",
-          "zh": "按任务计费；持续免费档及方案边界尚不明确。"
+          "en": "Solo is ChatGPT-only; FAQ uses legacy plan names, confirm current package.",
+          "zh": "Solo 仅限 ChatGPT；FAQ 沿用旧方案名，需确认现行套餐。"
         }
       }
     ],
@@ -3386,11 +3389,13 @@
     "features": {
       "en": [
         "Review citation counts, cited URLs and citation trends across Microsoft Copilot and AI-generated summaries in Bing.",
-        "Inspect sampled grounding queries used to retrieve cited content; citation counts do not measure answer position or referral visits."
+        "Inspect sampled grounding queries used to retrieve cited content; citation counts do not measure answer position or referral visits.",
+        "Preview reports add query intents, topic clusters, citation share and period comparison; the Topics Portfolio beta lists approximate topic sizes and opportunity queries."
       ],
       "zh": [
         "查看 Microsoft Copilot 和 Bing AI 摘要中的引用次数、被引 URL 与引用趋势。",
-        "查看用于检索被引内容的查询样本；引用次数不衡量回答中的位置或引荐访问。"
+        "查看用于检索被引内容的查询样本；引用次数不衡量回答中的位置或引荐访问。",
+        "预览报表新增查询意图、主题聚类、引用份额与周期对比；Topics Portfolio（Beta）列出近似的主题规模与机会查询。"
       ]
     },
     "audience": {
@@ -3406,10 +3411,25 @@
         "sourceUrls": [
           "https://blogs.bing.com/webmaster/2026/2/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview/"
         ],
-        "verifiedAt": "2026-10-18",
+        "verifiedAt": "2026-11-17",
         "summary": {
           "en": "Review Microsoft AI citations and retrieval query samples.",
           "zh": "查看 Microsoft AI 引用与检索查询样本。"
+        }
+      },
+      {
+        "description": {
+          "en": "When planning citation growth, use the Topics Portfolio beta to review approximate topic sizes, cited-site counts and opportunity queries, then examine changes with citation share and period comparison.",
+          "zh": "规划引用增长时，通过 Topics Portfolio（Beta）查看近似的主题规模、被引站点数与机会查询，再结合引用份额与周期对比分析变化。"
+        },
+        "sourceUrls": [
+          "https://blogs.bing.com/search/2026/6/New-AI-Visibility-Insights-in-Bing-Webmaster-Tools-Intents-Topics-Citation-Share-Compare/",
+          "https://blogs.bing.com/webmaster/2026/10/introducing-topics-portfolio-beta-in-ai-performance/"
+        ],
+        "verifiedAt": "2026-11-17",
+        "summary": {
+          "en": "Plan growth from topic clusters and opportunity queries.",
+          "zh": "基于主题聚类与机会查询规划增长。"
         }
       }
     ],
@@ -3432,9 +3452,23 @@
           "zh": "Bing 官方 AI Performance 公告与指标说明"
         },
         "url": "https://blogs.bing.com/webmaster/2026/2/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview/"
+      },
+      {
+        "label": {
+          "en": "Bing official Intents, Topics, Citation Share and Compare announcement",
+          "zh": "Bing 官方意图、主题、引用份额与对比功能公告"
+        },
+        "url": "https://blogs.bing.com/search/2026/6/New-AI-Visibility-Insights-in-Bing-Webmaster-Tools-Intents-Topics-Citation-Share-Compare/"
+      },
+      {
+        "label": {
+          "en": "Bing official Topics Portfolio beta announcement and limits",
+          "zh": "Bing 官方 Topics Portfolio Beta 公告与限制"
+        },
+        "url": "https://blogs.bing.com/webmaster/2026/10/introducing-topics-portfolio-beta-in-ai-performance/"
       }
     ],
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-11-17",
     "status": "published",
     "featuredOrder": 26,
     "sponsored": false,
@@ -3447,7 +3481,7 @@
         "sourceUrls": [
           "https://blogs.bing.com/webmaster/2026/2/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview/"
         ],
-        "verifiedAt": "2026-10-18",
+        "verifiedAt": "2026-11-17",
         "summary": {
           "en": "Free within Bing Webmaster Tools.",
           "zh": "随 Bing Webmaster Tools 免费提供。"
@@ -3463,10 +3497,25 @@
         "sourceUrls": [
           "https://blogs.bing.com/webmaster/2026/2/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview/"
         ],
-        "verifiedAt": "2026-10-18",
+        "verifiedAt": "2026-11-17",
         "summary": {
           "en": "No answer-position or referral metric; queries are sampled.",
           "zh": "不提供回答位置或引荐指标；查询仅为样本。"
+        }
+      },
+      {
+        "description": {
+          "en": "The newer reports are preview or beta: topic sizes, cited-site counts and query volumes are approximate, AI classification can be imperfect, topics or sites with insufficient data are hidden, and branded queries may appear as opportunities. Citation share does not expose competitor domains or represent traffic share.",
+          "zh": "新增报表处于预览或 Beta 阶段：主题规模、被引站点数与查询量均为近似值，AI 分类可能不准确，数据不足的主题或站点会被隐藏，品牌词也可能出现在机会查询中。引用份额不展示竞品域名，也不代表流量份额。"
+        },
+        "sourceUrls": [
+          "https://blogs.bing.com/search/2026/6/New-AI-Visibility-Insights-in-Bing-Webmaster-Tools-Intents-Topics-Citation-Share-Compare/",
+          "https://blogs.bing.com/webmaster/2026/10/introducing-topics-portfolio-beta-in-ai-performance/"
+        ],
+        "verifiedAt": "2026-11-17",
+        "summary": {
+          "en": "Beta numbers are approximate; small topics hidden; citation share is not traffic share.",
+          "zh": "Beta 数值为近似；数据不足的主题隐藏；引用份额不等于流量份额。"
         }
       }
     ],
@@ -3716,17 +3765,17 @@
     "pricingDetails": [
       {
         "description": {
-          "en": "Level 1 is $24.95/month for eight credits; Level 2 $69.95 for thirty; Level 3 $199.95 for ninety. The free entry includes three introductory credits that do not renew; ongoing monitoring capacity depends on model mix and frequency.",
-          "zh": "Level 1 为 $24.95/月、8 积分；Level 2 为 $69.95、30 积分；Level 3 为 $199.95、90 积分。免费入口的 3 个初始积分不续充，持续监测容量取决于模型组合和频率。"
+          "en": "Level 1 is $24.95/month for eight credits; Level 2 $69.95 for thirty; Level 3 $199.95 for ninety; Level 4 $449.95 for 220. The forever-free entry includes three non-renewing credits: one Brand Overview report, one Topic Report with action plan and up to 20 prompt-tracking calls in browser mode. Ongoing monitoring capacity depends on model mix and frequency.",
+          "zh": "Level 1 为 $24.95/月、8 积分；Level 2 为 $69.95、30 积分；Level 3 为 $199.95、90 积分；Level 4 为 $449.95、220 积分。永久免费入口含 3 个不续充积分：1 份品牌总览报告、1 份含行动建议的主题报告，以及最多 20 次浏览器模式提示词追踪。持续监测容量取决于模型组合和频率。"
         },
         "sourceUrls": [
           "https://waikay.io/how-credits-are-used-on-waikay/",
           "https://waikay.io/free/"
         ],
-        "verifiedAt": "2026-10-24",
+        "verifiedAt": "2026-11-17",
         "summary": {
-          "en": "$24.95/month/8 credits; free entry has three non-renewing credits.",
-          "zh": "$24.95/月/8 积分；免费入口的 3 积分不续充。"
+          "en": "$24.95/month/8 credits up to $449.95/220; free entry has three non-renewing credits.",
+          "zh": "$24.95/月/8 积分至 $449.95/220 积分；免费入口 3 积分不续充。"
         }
       }
     ],
@@ -3741,7 +3790,7 @@
           "https://waikay.io/how-credits-are-used-on-waikay/",
           "https://waikay.io/free/"
         ],
-        "verifiedAt": "2026-10-18",
+        "verifiedAt": "2026-11-17",
         "summary": {
           "en": "API/browser sampling, models and frequency affect credits.",
           "zh": "API／浏览器采样、模型与频率影响积分消耗。"
@@ -3757,7 +3806,7 @@
         "sourceUrls": [
           "https://waikay.io/how-credits-are-used-on-waikay/"
         ],
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-11-17"
       }
     ]
   },
@@ -3846,33 +3895,32 @@
     "pricingDetails": [
       {
         "description": {
-          "en": "With annual billing indicated on the pricing page, Core is displayed at $295/month for 110 prompts and five core models, and Pro at $999/month for 250 prompts and eight models. Confirm the annual commitment before comparing with monthly subscriptions.",
-          "zh": "定价页标注年付，Core 显示折算 $295/月，含 110 个提示词和 5 个核心模型；Pro 为 $999/月，含 250 个提示词和 8 个模型。与月付订阅比较前需确认年度承诺。"
+          "en": "The pricing page offers monthly and annual billing, with annual billing giving two months free. In the annual view Core is displayed at $295/month for 110 prompts and five core models, and Pro at $999/month for 250 prompts and eight models. Core starts with a 7-day free trial, then $295/month, cancel anytime; Pro and Enterprise are arranged through a demo.",
+          "zh": "定价页提供月付与年付切换，年付送两个月。年付视图下 Core 显示折算 $295/月，含 110 个提示词和 5 个核心模型；Pro 为 $999/月，含 250 个提示词和 8 个模型。Core 先免费试用 7 天，之后 $295/月、可随时取消；Pro 与 Enterprise 需预约演示洽谈。"
         },
         "sourceUrls": [
           "https://higoodie.com/pricing/"
         ],
-        "verifiedAt": "2026-10-24",
+        "verifiedAt": "2026-11-17",
         "summary": {
-          "en": "Annual rates: Core $295/month/110 prompts; Pro $999/250 prompts.",
-          "zh": "年付折算：Core $295/月/110 个提示词；Pro $999/250 个。"
+          "en": "Annual view: Core $295/month/110 prompts, 7-day trial; Pro $999/250 prompts via demo.",
+          "zh": "年付折算：Core $295/月/110 个提示词、试用 7 天；Pro $999/250 个、需演示。"
         }
       }
     ],
     "limitations": [
       {
         "description": {
-          "en": "Monitor AI mentions, citations and sentiment; engine coverage and action allowances vary by plan.",
-          "zh": "监测 AI 提及、引用和情绪；平台覆盖与操作额度随套餐变化。"
+          "en": "Core tracks five models with 50 MCP optimizations per month; Pro tracks eight models with 100 optimizations. Claude and coverage of up to 14 models require the Enterprise plan.",
+          "zh": "Core 追踪 5 个模型、每月 50 次 MCP 优化；Pro 追踪 8 个模型、100 次优化。Claude 及最多 14 个模型的覆盖需 Enterprise 方案。"
         },
         "sourceUrls": [
-          "https://higoodie.com/features/content-studio/",
           "https://higoodie.com/pricing/"
         ],
-        "verifiedAt": "2026-10-18",
+        "verifiedAt": "2026-11-17",
         "summary": {
-          "en": "Model coverage and action allowances vary by plan.",
-          "zh": "模型覆盖与操作额度随套餐变化。"
+          "en": "Core: 5 models/50 optimizations; Pro: 8/100; Claude and 14 models are Enterprise-only.",
+          "zh": "Core 5 模型/50 次优化；Pro 8/100；Claude 与 14 模型仅限 Enterprise。"
         }
       }
     ],
@@ -3981,7 +4029,7 @@
         "sourceUrls": [
           "https://www.tryanalyze.ai/pricing"
         ],
-        "verifiedAt": "2026-10-24",
+        "verifiedAt": "2026-11-17",
         "summary": {
           "en": "Growth $99/month: 25 daily prompts, three engines; Pro $250: 35 prompts, four engines.",
           "zh": "Growth $99/月：25 个每日提示词、3 引擎；Pro $250：35 个、4 引擎。"
@@ -3998,7 +4046,7 @@
           "https://www.tryanalyze.ai/docs/traffic-analytics/overview",
           "https://www.tryanalyze.ai/pricing"
         ],
-        "verifiedAt": "2026-10-18",
+        "verifiedAt": "2026-11-17",
         "summary": {
           "en": "Growth covers ChatGPT, AI Mode, Perplexity; other engines depend on plan/add-ons.",
           "zh": "Growth 含 ChatGPT、AI Mode、Perplexity；其他引擎按套餐或加购。"
@@ -4106,33 +4154,32 @@
     "pricingDetails": [
       {
         "description": {
-          "en": "Starter is displayed at $60/month with 5,000 prompt credits. Pro is displayed at $800/month billed annually with 100,000 credits. Advertising-agent media fees are separate from monitoring subscription prices.",
-          "zh": "Starter 显示 $60/月、5,000 提示词积分；Pro 显示按年结算折算 $800/月、100,000 积分。广告 Agent 的媒体费用与监测订阅费分开。"
+          "en": "Starter is displayed at $60/month with 5,000 prompt credits and tracking of up to five models. Pro is displayed at $800/month billed annually with 100,000 credits. Ads Agent fees are separate: 10% of media on Starter (first seven days free) and 8% on Pro.",
+          "zh": "Starter 显示 $60/月、5,000 提示词积分，最多追踪 5 个模型；Pro 显示按年结算折算 $800/月、100,000 积分。Ads Agent 费用另计：Starter 为媒体费的 10%（前 7 天免费），Pro 为 8%。"
         },
         "sourceUrls": [
           "https://www.evertune.ai/pricing"
         ],
-        "verifiedAt": "2026-10-24",
+        "verifiedAt": "2026-11-17",
         "summary": {
-          "en": "Starter $60/month/5,000 credits; Pro $800/month billed annually/100,000 credits. Media fees separate.",
-          "zh": "Starter $60/月/5,000 积分；Pro 年付折算 $800/月/10 万积分。媒体费另计。"
+          "en": "Starter $60/month/5,000 credits; Pro $800/month billed annually/100,000 credits. Ads Agent fees separate.",
+          "zh": "Starter $60/月/5,000 积分；Pro 年付折算 $800/月/10 万积分。Ads Agent 费用另计。"
         }
       }
     ],
     "limitations": [
       {
         "description": {
-          "en": "Model coverage and sampling depth vary by plan; high-volume sampling is listed for Pro and Enterprise.",
-          "zh": "模型覆盖与采样深度随方案变化；高频重复采样列于 Pro 和 Enterprise。"
+          "en": "Starter tracks up to five models; tracking on all major models, statistical significance from day one and the Content Agent are listed for Pro and Enterprise.",
+          "zh": "Starter 最多追踪 5 个模型；覆盖全部主流模型的追踪、首日统计显著性与 Content Agent 列于 Pro 和 Enterprise。"
         },
         "sourceUrls": [
-          "https://www.evertune.ai/",
           "https://www.evertune.ai/pricing"
         ],
-        "verifiedAt": "2026-10-18",
+        "verifiedAt": "2026-11-17",
         "summary": {
-          "en": "Models and sampling depth vary; frequent repeat sampling is in Pro/Enterprise.",
-          "zh": "模型和采样深度按档位区分；高频重复采样在 Pro／Enterprise。"
+          "en": "Starter caps at five models; full model coverage and Content Agent are Pro/Enterprise.",
+          "zh": "Starter 限 5 个模型；全模型覆盖与 Content Agent 在 Pro／Enterprise。"
         }
       }
     ],
@@ -4196,7 +4243,7 @@
           "https://birdeye.com/ai-search/",
           "https://support.birdeye.com/en/articles/12913616-how-to-use-visibility-reports-in-ai-search"
         ],
-        "verifiedAt": "2026-10-18",
+        "verifiedAt": "2026-11-17",
         "summary": {
           "en": "Compare brand and store visibility by location/topic.",
           "zh": "按门店和主题比较品牌曝光。"
@@ -4259,16 +4306,16 @@
     "limitations": [
       {
         "description": {
-          "en": "Google AI, Grok and Claude must be enabled in the visibility report settings. Check the selected locations, topics and engines before comparing results.",
-          "zh": "Google AI、Grok 和 Claude 需要在曝光报告设置中启用；对比结果前需核对所选门店、主题和引擎。"
+          "en": "Google AI, Grok and Claude must be enabled in the visibility report settings, and trend lines only appear after three months of collected data. Check the selected locations, topics and engines before comparing results.",
+          "zh": "Google AI、Grok 和 Claude 需要在曝光报告设置中启用，趋势线需积累三个月数据后才会显示；对比结果前需核对所选门店、主题和引擎。"
         },
         "sourceUrls": [
           "https://support.birdeye.com/en/articles/12913616-how-to-use-visibility-reports-in-ai-search"
         ],
-        "verifiedAt": "2026-10-18",
+        "verifiedAt": "2026-11-17",
         "summary": {
-          "en": "Google AI, Grok and Claude require report settings to be enabled.",
-          "zh": "Google AI、Grok、Claude 需在报表设置中启用。"
+          "en": "Google AI, Grok and Claude need enabling; trend lines require three months of data.",
+          "zh": "Google AI、Grok、Claude 需启用；趋势线需三个月数据。"
         }
       }
     ],
@@ -4382,16 +4429,16 @@
     "pricingDetails": [
       {
         "description": {
-          "en": "Pricing is provided through a sales agreement or tailored package. No fixed public amount for this feature was verified; confirm the monitoring scope, required integrations and contract term in the quote.",
-          "zh": "费用通过销售协议或定制方案确定。本轮未核实到该功能的固定公开金额，需在报价中确认监测范围、必要集成和合同期限。"
+          "en": "The subscription-plans article lists Essential, Accelerate, Growth, Pro and Enterprise tiers with different feature access and data retention, but publishes no dollar amounts; pricing is arranged through sales. Confirm the monitoring scope, required integrations and contract term in the quote.",
+          "zh": "订阅方案文档列出 Essential、Accelerate、Growth、Pro、Enterprise 五档，功能权限与数据保留各档不同，但未公布金额，费用需经销售确定。需在报价中确认监测范围、必要集成和合同期限。"
         },
         "sourceUrls": [
           "https://support.botify.com/en/articles/9108632-botify-subscription-plans"
         ],
-        "verifiedAt": "2026-10-24",
+        "verifiedAt": "2026-11-17",
         "summary": {
-          "en": "Custom quote; confirm monitoring modules and data integrations.",
-          "zh": "定制询价，确认监测模块及数据集成。"
+          "en": "Five plans (Essential to Enterprise); no public amounts, custom quote.",
+          "zh": "五档方案（Essential 至 Enterprise）；无公开金额，定制询价。"
         }
       }
     ],
@@ -4411,6 +4458,20 @@
         "summary": {
           "en": "GSC-based monitoring needs GSC; AI Discovery needs server traffic data.",
           "zh": "GSC 监测需接入 GSC；AI Discovery 需服务器流量数据。"
+        }
+      },
+      {
+        "description": {
+          "en": "On Accelerate many features are view-only. SpeedWorkers is an option on Pro and Enterprise, serves Google by default, and Bing support (including supported AI bots) is a purchased add-on. Data retention varies by plan.",
+          "zh": "Accelerate 档许多功能仅可查看。SpeedWorkers 仅 Pro 和 Enterprise 可选，默认服务 Google；Bing 支持（含受支持的 AI 爬虫）需付费加购。数据保留时长按方案区分。"
+        },
+        "sourceUrls": [
+          "https://support.botify.com/en/articles/9108632-botify-subscription-plans"
+        ],
+        "verifiedAt": "2026-11-17",
+        "summary": {
+          "en": "Accelerate is largely view-only; SpeedWorkers is Pro/Enterprise with Bing as a paid add-on.",
+          "zh": "Accelerate 多为只读；SpeedWorkers 限 Pro／Enterprise，Bing 需加购。"
         }
       }
     ],
@@ -4505,33 +4566,33 @@
     "pricingDetails": [
       {
         "description": {
-          "en": "Pricing is provided through a sales agreement or tailored package. No fixed public amount for this feature was verified; confirm the monitoring scope, required integrations and contract term in the quote.",
-          "zh": "费用通过销售协议或定制方案确定。本轮未核实到该功能的固定公开金额，需在报价中确认监测范围、必要集成和合同期限。"
+          "en": "The pricing page publishes plan quotas but no dollar amounts: Essentials lists 100,000 pages monitored, 3 tracked websites and 500 tracked keywords with a free trial; Growth lists 500,000 pages monitored 24/7, 5 websites, 5,000 keywords and 2,500 AI Search credits per year; Enterprise offers any-size 24/7 monitoring and 10+ websites. Amounts are arranged through sales.",
+          "zh": "定价页公开各档配额但不公布金额：Essentials 含监测 100,000 个页面、3 个站点、500 个关键词，并提供免费试用；Growth 含 24/7 监测 500,000 个页面、5 个站点、5,000 个关键词和每年 2,500 个 AI Search 积分；Enterprise 支持任意规模 24/7 监测和 10 个以上站点。金额需经销售确定。"
         },
         "sourceUrls": [
           "https://www.conductor.com/pricing/"
         ],
-        "verifiedAt": "2026-10-24",
+        "verifiedAt": "2026-11-17",
         "summary": {
-          "en": "Custom quote by monitoring scope and contract.",
-          "zh": "按监测范围及合同定制询价。"
+          "en": "Quotas public (Essentials 100k pages; Growth 500k 24/7); amounts via sales.",
+          "zh": "配额公开（Essentials 10 万页；Growth 50 万页 24/7）；金额询价。"
         }
       }
     ],
     "limitations": [
       {
         "description": {
-          "en": "Monitoring capacity and history depend on the subscription; the free offer is a limited trial.",
-          "zh": "监测规模与历史保留取决于订阅方案；免费入口为限时试用。"
+          "en": "Monitoring capacity and history depend on the subscription: Essentials covers 100,000 pages and Growth 500,000, with larger volumes on Enterprise. The free offer on Essentials is a limited trial.",
+          "zh": "监测规模与历史保留取决于订阅方案：Essentials 覆盖 100,000 个页面，Growth 为 500,000 个，更大规模需 Enterprise。Essentials 的免费入口为限时试用。"
         },
         "sourceUrls": [
           "https://www.conductor.com/platform/monitoring/",
           "https://www.conductor.com/pricing/"
         ],
-        "verifiedAt": "2026-10-18",
+        "verifiedAt": "2026-11-17",
         "summary": {
-          "en": "Monitoring scale and retained history depend on plan; limited trial.",
-          "zh": "监测规模与历史保留按套餐区分；免费仅限试用。"
+          "en": "Monitoring scale depends on plan (100k/500k/custom pages); limited trial.",
+          "zh": "监测规模按套餐区分（10 万/50 万/定制页面）；免费仅限试用。"
         }
       }
     ],
@@ -4604,9 +4665,7 @@
     ],
     "platforms": [
       "ChatGPT",
-      "Perplexity",
       "Gemini",
-      "Microsoft Copilot",
       "Google AI Mode",
       "Google AI Overviews"
     ],
@@ -4627,40 +4686,39 @@
         "url": "https://www.geoly.ai/zh/docs/geoly-prompts"
       }
     ],
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-11-17",
     "status": "published",
     "featuredOrder": 35,
     "sponsored": false,
     "pricingDetails": [
       {
         "description": {
-          "en": "Paid monitoring is recorded, but a current fixed amount was not verified from the retained official sources. Confirm prompt volume, engines and billing term with the vendor.",
-          "zh": "已记录为付费监测，但未从保留的官方资料中核实当前固定金额；需向厂商确认提示词数量、引擎和账期。"
+          "en": "Public monthly pricing: Basic is USD 49 with 1 project, 50 prompts, one chosen platform and 1,500 responses per month; Grow USD 149 with 2 projects, 120 prompts, two platforms and 7,200 responses; Advanced USD 399 with 4 projects, 300 prompts, all four platforms and 36,000 responses; Plus USD 999 with 12 projects, 800 prompts and 96,000 responses. Enterprise is custom. Annual billing saves 10% in the first year.",
+          "zh": "公开月付价格：Basic 为 49 美元，含 1 个项目、50 个提示词、自选 1 个平台和每月 1,500 条回答；Grow 为 149 美元，含 2 个项目、120 个提示词、2 个平台和 7,200 条回答；Advanced 为 399 美元，含 4 个项目、300 个提示词、全部 4 个平台和 36,000 条回答；Plus 为 999 美元，含 12 个项目、800 个提示词和 96,000 条回答。Enterprise 定制报价。年付首年省 10%。"
         },
         "sourceUrls": [
           "https://www.geoly.ai/zh"
         ],
-        "verifiedAt": "2026-10-18",
+        "verifiedAt": "2026-11-17",
         "summary": {
-          "en": "Paid monitoring; current amount unconfirmed.",
-          "zh": "付费监测，当前金额待确认。"
+          "en": "Basic $49/month; Grow $149; Advanced $399; Plus $999; Enterprise custom. Annual saves 10% in year one.",
+          "zh": "Basic $49/月；Grow $149；Advanced $399；Plus $999；Enterprise 定制。年付首年九折。"
         }
       }
     ],
     "limitations": [
       {
         "description": {
-          "en": "Six AI platforms are listed, but each plan includes a different subset; the Basic trial lasts three days.",
-          "zh": "官方列出六个 AI 平台，各套餐覆盖不同子集；Basic 免费试用为三天。"
+          "en": "Standard monitoring covers four platforms (ChatGPT, Gemini, Google AI Mode, Google AI Overviews); Basic includes one chosen platform and Grow two. Microsoft Copilot monitoring ended in November 2026, with history kept through 2026-10-11; Perplexity, Claude and Grok require custom coverage. Only Basic and Grow offer a three-day free trial without a card.",
+          "zh": "标准监测覆盖四个平台（ChatGPT、Gemini、Google AI Mode、Google AI Overviews）；Basic 含自选 1 个平台，Grow 含 2 个。Microsoft Copilot 已于 2026 年 11 月停止监测，历史数据保留至 2026-10-11；Perplexity、Claude、Grok 需按需定制覆盖。仅 Basic 和 Grow 提供三天免绑卡免费试用。"
         },
         "sourceUrls": [
-          "https://www.geoly.ai/zh",
-          "https://www.geoly.ai/zh/docs/geoly-prompts"
+          "https://www.geoly.ai/zh"
         ],
-        "verifiedAt": "2026-10-18",
+        "verifiedAt": "2026-11-17",
         "summary": {
-          "en": "Plans include different engine subsets; Basic trial lasts three days.",
-          "zh": "各档覆盖不同引擎子集；Basic 试用三天。"
+          "en": "Four standard platforms with per-plan subsets; Copilot monitoring ended; trial only on Basic/Grow.",
+          "zh": "标准四平台按套餐取子集；Copilot 已停测；试用仅限 Basic／Grow。"
         }
       }
     ],
@@ -8024,7 +8082,7 @@
           "https://labs.sitebulb.com/",
           "https://labs.sitebulb.com/docs/"
         ],
-        "verifiedAt": "2026-10-24",
+        "verifiedAt": "2026-11-17",
         "summary": {
           "en": "Audit crawler rules and JavaScript content; export fixes.",
           "zh": "诊断爬虫规则与 JS 内容，导出修复证据。"
@@ -8056,20 +8114,20 @@
         "url": "https://labs.sitebulb.com/policies/"
       }
     ],
-    "verifiedAt": "2026-10-24",
+    "verifiedAt": "2026-11-17",
     "status": "published",
     "featuredOrder": 61,
     "sponsored": false,
     "pricingDetails": [
       {
         "description": {
-          "en": "The public documentation does not clearly establish a pricing model or current amount. Confirm availability and pricing with Sitebulb before treating the extension as a free service.",
-          "zh": "公开文档未明确计费模式或当前金额；将该扩展视为免费服务前，应向 Sitebulb 确认可用范围与价格。"
+          "en": "The documentation and FAQ describe installation, checks and data handling but publish no pricing model, amount or free-tier statement. Confirm availability and pricing with Sitebulb before treating the extension as a free service.",
+          "zh": "文档与 FAQ 介绍安装、检查项和数据处理，但未公布计费模式、金额或免费声明；将该扩展视为免费服务前，应向 Sitebulb 确认可用范围与价格。"
         },
         "sourceUrls": [
           "https://labs.sitebulb.com/docs/"
         ],
-        "verifiedAt": "2026-10-24",
+        "verifiedAt": "2026-11-17",
         "summary": {
           "en": "Pricing model and current amount unconfirmed.",
           "zh": "计费模式及当前金额均待确认。"
@@ -8079,18 +8137,17 @@
     "limitations": [
       {
         "description": {
-          "en": "Export findings as Markdown, CSV or JSON. Checks run in the browser; emerging checks can send a hostname to Cloudflare. Public documentation does not clearly state a pricing model.",
-          "zh": "可导出 Markdown、CSV 或 JSON。检查在浏览器中运行；新兴标准检查可能向 Cloudflare 发送主机名。公开文档未明确说明计费模式。"
+          "en": "Export findings as Markdown, CSV or JSON. Checks run in the browser; emerging checks are off by default, return N/A instead of Fail when a standard is not detected, and can send a hostname to Cloudflare when enabled. Public documentation does not clearly state a pricing model.",
+          "zh": "可导出 Markdown、CSV 或 JSON。检查在浏览器中运行；新兴标准检查默认关闭，未检测到标准时显示 N/A 而非失败，启用后可能向 Cloudflare 发送主机名。公开文档未明确说明计费模式。"
         },
         "sourceUrls": [
           "https://labs.sitebulb.com/",
-          "https://labs.sitebulb.com/docs/",
-          "https://labs.sitebulb.com/policies/"
+          "https://labs.sitebulb.com/docs/"
         ],
-        "verifiedAt": "2026-10-24",
+        "verifiedAt": "2026-11-17",
         "summary": {
-          "en": "Runs in-browser; emerging checks may send hostnames to Cloudflare. Pricing unclear.",
-          "zh": "浏览器内检查；部分检查可能向 Cloudflare 发送主机名，计费未明确。"
+          "en": "In-browser checks; emerging checks off by default, may send hostnames to Cloudflare. Pricing unclear.",
+          "zh": "浏览器内检查；新兴检查默认关闭，可能向 Cloudflare 发送主机名；计费未明确。"
         }
       }
     ],
