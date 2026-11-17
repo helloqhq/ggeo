@@ -1,6 +1,6 @@
 # 经验库
 
-维护规则见[自修复与自优化流程](self-improvement.md#经验库维护)。每轮开始通读全部条目，收尾时新增、合并、修正与清理。条目格式：
+维护规则见[自修复与自优化流程](self-improvement.md#经验库维护)。本库记录数据校验、构建、测试、抓取与工具链的过程经验，两类轮次共用；检索策略与信源线索记在[发现经验库](../../ggeo-site-collect/references/discovery-lessons.md)。每轮开始通读全部条目，收尾时新增、合并、修正与清理。条目格式：
 
 ```markdown
 ### L-<编号> <简短标题>
@@ -35,3 +35,9 @@
 - 根因：会话配置未开放任何子代理类型。
 - 修复／预防：首次失败即确认本会话无可用子代理，改为主会话串行 WebFetch＋本地源文件阅读；不再反复尝试委派。
 - 记录：首次 2026-11-17 · 最近 2026-11-17 · 命中 2 次 · [轮次记录](../../../docs/data-updates/2026-11-17-batch-reverify.md)
+
+### L-05 推送瞬时网络失败改用 HTTP/1.1 重试
+- 症状：`git push origin main` 报 `Recv failure: Operation timed out`、`Empty reply from server` 或 HTTP2 framing 错误，或长时间挂起无输出；仓库与权限实际正常。
+- 根因：到 GitHub 的网络链路瞬时故障（HTTP/2 连接不稳定），非数据或权限问题；第九、十、十一轮发布阶段均出现。
+- 修复／预防：失败后用 `git -c http.version=HTTP/1.1 push origin main` 重试；同轮后续推送可直接用 HTTP/1.1（第十一轮文档推送一次成功）。输出中 `credential-manager 不是一个 git 命令` 警告与成败无关，以出现 `<旧>..<新> main -> main` 行判定成功。重试两次仍失败则停止并报告，不盲目循环。
+- 记录：首次 2026-11-16 · 最近 2026-11-17 · 命中 3 次 · [轮次记录](../../../docs/data-updates/2026-11-17-batch-reverify.md)
