@@ -14562,5 +14562,768 @@
         "verifiedAt": "2026-11-17"
       }
     ]
+  },
+  {
+    "slug": "omnia",
+    "name": "Omnia",
+    "category": "ai-visibility",
+    "website": "https://www.useomnia.com/",
+    "logo": null,
+    "description": {
+      "en": "An AI search visibility platform with an agent that tracks brand mentions and citations across ChatGPT, Perplexity and Google AI, then proposes projects, writes and publishes content and runs approved third-party outreach.",
+      "zh": "一款 AI 搜索可见度平台，内置代理追踪品牌在 ChatGPT、Perplexity 与 Google AI 中的提及与引用，并提出项目、撰写发布内容，以及在审批后开展第三方外联。"
+    },
+    "tags": {
+      "en": [
+        "Citation gap analysis",
+        "Content agent",
+        "Outreach"
+      ],
+      "zh": [
+        "引用缺口分析",
+        "内容代理",
+        "外联"
+      ]
+    },
+    "features": {
+      "en": [
+        "Monitor prompts every 24 hours on ChatGPT, Perplexity, Google AI Overviews and AI Mode, with Claude, Gemini and Bing AI Mode on request.",
+        "Find citation-level gaps, share of voice, competitor citation benchmarks and sentiment by product feature.",
+        "Let the Omnia Agent propose prioritized projects, write or rewrite content and publish it to your CMS after approval.",
+        "Draft third-party outreach emails and send them from your own inbox once approved, with API and MCP read/write on all plans."
+      ],
+      "zh": [
+        "每 24 小时在 ChatGPT、Perplexity、Google AI Overviews 与 AI Mode 上监测提示词，Claude、Gemini 与 Bing AI Mode 可按需开通。",
+        "发现引用级缺口、声量份额、竞品引用基准，以及按产品功能拆分的情绪。",
+        "由 Omnia Agent 提出排序项目、撰写或改写内容，并在审批后发布到 CMS。",
+        "起草第三方外联邮件，经批准后从你自己的邮箱发送；所有套餐均含 API 与 MCP 读写。"
+      ]
+    },
+    "audience": {
+      "en": "Marketing and growth teams that want AI visibility tracking paired with an agent that carries out content and outreach work, across unlimited brands, languages and regions.",
+      "zh": "希望把 AI 可见度追踪与代为执行内容和外联工作的代理结合起来，并覆盖不限数量品牌、语言与地区的营销和增长团队。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Track how often AI answers mention and cite a brand versus competitors, and see at citation level which sources and pages win the answer instead.",
+          "zh": "追踪 AI 回答提及和引用某品牌相对竞品的频率，并在引用层面查看哪些来源与页面反而赢得了回答。"
+        },
+        "summary": {
+          "en": "Track mentions and citations, and find citation-level gaps versus competitors.",
+          "zh": "追踪提及与引用，并找出相对竞品的引用级缺口。"
+        },
+        "sourceUrls": [
+          "https://www.useomnia.com/",
+          "https://www.useomnia.com/pricing"
+        ],
+        "verifiedAt": "2026-11-17"
+      },
+      {
+        "description": {
+          "en": "Turn findings into prioritized projects that the agent executes: content written or rewritten and published to the CMS, plus outreach emails to third-party sites, each sent only after approval.",
+          "zh": "把发现转化为由代理执行的排序项目：撰写或改写内容并发布到 CMS，以及向第三方网站发送外联邮件，每一步都需审批后才执行。"
+        },
+        "summary": {
+          "en": "Have the agent publish content and send outreach after approval.",
+          "zh": "由代理在审批后发布内容并发送外联邮件。"
+        },
+        "sourceUrls": [
+          "https://www.useomnia.com/"
+        ],
+        "verifiedAt": "2026-11-17"
+      }
+    ],
+    "platforms": [
+      "ChatGPT",
+      "Perplexity",
+      "Google AI Overviews",
+      "Google AI Mode",
+      "Claude",
+      "Gemini",
+      "Bing AI Mode"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "Omnia homepage",
+          "zh": "Omnia 首页"
+        },
+        "url": "https://www.useomnia.com/"
+      },
+      {
+        "label": {
+          "en": "Omnia pricing",
+          "zh": "Omnia 定价"
+        },
+        "url": "https://www.useomnia.com/pricing"
+      },
+      {
+        "label": {
+          "en": "About Omnia",
+          "zh": "关于 Omnia"
+        },
+        "url": "https://www.useomnia.com/about"
+      },
+      {
+        "label": {
+          "en": "Omnia terms and conditions",
+          "zh": "Omnia 条款与条件"
+        },
+        "url": "https://www.useomnia.com/terms-and-conditions"
+      },
+      {
+        "label": {
+          "en": "Omnia privacy policy",
+          "zh": "Omnia 隐私政策"
+        },
+        "url": "https://www.useomnia.com/privacy-policy"
+      }
+    ],
+    "verifiedAt": "2026-11-17",
+    "status": "published",
+    "featuredOrder": 102,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "Growth is €79/month (€63/month billed annually) with 25 prompts. Pro is €279/month (€223/month annually) with 100 prompts and adds Slack support and data exports. Enterprise starts at €499/month (from €399/month annually) with 200+ prompts and a dedicated manager with a 24-hour SLA.",
+          "zh": "Growth 每月 79 欧元（年付每月 63 欧元），含 25 个提示词。Pro 每月 279 欧元（年付每月 223 欧元），含 100 个提示词，并增加 Slack 支持与数据导出。Enterprise 每月 499 欧元起（年付每月 399 欧元起），含 200 个以上提示词及 24 小时 SLA 的专属经理。"
+        },
+        "summary": {
+          "en": "Growth €79/mo (25 prompts), Pro €279/mo (100 prompts), Enterprise from €499/mo (200+ prompts); lower annual rates.",
+          "zh": "Growth 每月 79 欧元（25 提示词）、Pro 每月 279 欧元（100 提示词）、Enterprise 每月 499 欧元起（200+ 提示词）；年付更低。"
+        },
+        "sourceUrls": [
+          "https://www.useomnia.com/pricing"
+        ],
+        "verifiedAt": "2026-11-17"
+      },
+      {
+        "description": {
+          "en": "Annual billing saves 20%, and every plan starts with a 14-day free trial without a credit card. All plans include daily monitoring, unlimited brands, languages and regions, the Omnia Agent, API and MCP access.",
+          "zh": "年付可省 20%，所有套餐均可先免费试用 14 天，无需信用卡。所有套餐均含每日监测、不限品牌/语言/地区、Omnia Agent、API 与 MCP 访问。"
+        },
+        "summary": {
+          "en": "14-day trial without a card; annual saves 20%; agent, API and MCP on all plans.",
+          "zh": "14 天试用无需绑卡；年付省 20%；所有套餐均含代理、API 与 MCP。"
+        },
+        "sourceUrls": [
+          "https://www.useomnia.com/pricing"
+        ],
+        "verifiedAt": "2026-11-17"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "Plans are capped by tracked prompts (25, 100 or 200+), and data exports are only included from Pro upward.",
+          "zh": "各套餐按追踪提示词数量封顶（25、100 或 200 以上），数据导出仅自 Pro 起提供。"
+        },
+        "summary": {
+          "en": "Prompt caps per plan; data exports from Pro only.",
+          "zh": "按套餐限制提示词；数据导出仅 Pro 起。"
+        },
+        "sourceUrls": [
+          "https://www.useomnia.com/pricing"
+        ],
+        "verifiedAt": "2026-11-17"
+      },
+      {
+        "description": {
+          "en": "The default engine set is ChatGPT, Perplexity, Google AI Overviews and AI Mode; Claude, Gemini and Bing AI Mode are added on request, and engines such as Grok, DeepSeek or Copilot are not listed.",
+          "zh": "默认引擎为 ChatGPT、Perplexity、Google AI Overviews 与 AI Mode；Claude、Gemini 与 Bing AI Mode 需按需开通，Grok、DeepSeek 或 Copilot 等引擎未列出。"
+        },
+        "summary": {
+          "en": "Four default engines; three more on request; no Grok, DeepSeek or Copilot listed.",
+          "zh": "默认 4 个引擎，另 3 个按需开通；未列出 Grok、DeepSeek 或 Copilot。"
+        },
+        "sourceUrls": [
+          "https://www.useomnia.com/",
+          "https://www.useomnia.com/pricing"
+        ],
+        "verifiedAt": "2026-11-17"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Choose Omnia when you want monitoring and execution in one subscription, with an agent that drafts content, publishes to the CMS and sends approved outreach, priced in euros with a no-card trial; note the prompt caps and that exports start at Pro.",
+          "zh": "当你希望用一个订阅同时完成监测与执行，并由代理起草内容、发布到 CMS 及发送经批准的外联邮件，且接受欧元计价与免绑卡试用时选 Omnia；注意提示词上限，以及数据导出自 Pro 起提供。"
+        },
+        "sourceUrls": [
+          "https://www.useomnia.com/",
+          "https://www.useomnia.com/pricing"
+        ],
+        "verifiedAt": "2026-11-17"
+      }
+    ]
+  },
+  {
+    "slug": "deepsmith",
+    "name": "DeepSmith",
+    "category": "content-geo",
+    "website": "https://deepsmith.ai/",
+    "logo": null,
+    "description": {
+      "en": "An AI search content platform that pairs visibility analytics (mention rate, citation rate, share of voice and cited pages) with a content studio and opportunity agents that write, publish and repurpose articles.",
+      "zh": "一款 AI 搜索内容平台，将可见度分析（提及率、引用率、声量份额与被引页面）与内容工作室及机会代理结合，撰写、发布并改编文章。"
+    },
+    "tags": {
+      "en": [
+        "Content studio",
+        "Opportunity agents",
+        "CMS publishing"
+      ],
+      "zh": [
+        "内容工作室",
+        "机会代理",
+        "CMS 发布"
+      ]
+    },
+    "features": {
+      "en": [
+        "Track mention rate, citation rate, share of voice, pages cited and a competitor leaderboard.",
+        "Set up Deep IQ brand context, then draft articles in Content Studio and publish them to your CMS.",
+        "Run opportunity agents that turn visibility and content gaps into articles, with unlimited agent runs on every plan.",
+        "Repurpose articles into LinkedIn posts and newsletters, and export data via CSV or API."
+      ],
+      "zh": [
+        "追踪提及率、引用率、声量份额、被引页面与竞品排行榜。",
+        "设置 Deep IQ 品牌上下文，在 Content Studio 中起草文章并发布到 CMS。",
+        "运行机会代理，把可见度与内容缺口转化为文章，所有套餐均不限代理运行次数。",
+        "将文章改编为 LinkedIn 帖子与新闻简报，并通过 CSV 或 API 导出数据。"
+      ]
+    },
+    "audience": {
+      "en": "Content and SEO teams that want to produce AI-citable articles at volume and measure the effect on AI search visibility in the same tool.",
+      "zh": "希望批量产出可被 AI 引用的文章，并在同一工具中衡量其对 AI 搜索可见度影响的内容与 SEO 团队。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Find where competitors are cited or out-publish you in AI answers, then let opportunity agents draft articles from your Deep IQ brand context and publish them to the CMS.",
+          "zh": "找出 AI 回答中竞品被引用或内容量超过你的地方，再由机会代理基于 Deep IQ 品牌上下文起草文章并发布到 CMS。"
+        },
+        "summary": {
+          "en": "Turn competitor citation gaps into articles published to the CMS.",
+          "zh": "把竞品引用缺口转化为发布到 CMS 的文章。"
+        },
+        "sourceUrls": [
+          "https://deepsmith.ai/",
+          "https://deepsmith.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-17"
+      },
+      {
+        "description": {
+          "en": "Measure whether published content raises mention rate, citation rate and share of voice, and repurpose winning articles into LinkedIn posts and newsletters.",
+          "zh": "衡量已发布内容是否提升提及率、引用率与声量份额，并把表现好的文章改编为 LinkedIn 帖子与新闻简报。"
+        },
+        "summary": {
+          "en": "Measure content impact on AI visibility and repurpose winners.",
+          "zh": "衡量内容对 AI 可见度的影响并改编优质文章。"
+        },
+        "sourceUrls": [
+          "https://deepsmith.ai/"
+        ],
+        "verifiedAt": "2026-11-17"
+      }
+    ],
+    "platforms": [
+      "ChatGPT",
+      "Perplexity",
+      "Gemini",
+      "Claude",
+      "Google AI Overviews",
+      "Grok",
+      "Meta AI",
+      "Microsoft Copilot",
+      "DeepSeek"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "DeepSmith homepage",
+          "zh": "DeepSmith 首页"
+        },
+        "url": "https://deepsmith.ai/"
+      },
+      {
+        "label": {
+          "en": "DeepSmith pricing",
+          "zh": "DeepSmith 定价"
+        },
+        "url": "https://deepsmith.ai/pricing"
+      },
+      {
+        "label": {
+          "en": "DeepSmith terms of service",
+          "zh": "DeepSmith 服务条款"
+        },
+        "url": "https://deepsmith.ai/legal/terms-of-service"
+      },
+      {
+        "label": {
+          "en": "DeepSmith privacy policy",
+          "zh": "DeepSmith 隐私政策"
+        },
+        "url": "https://deepsmith.ai/legal/privacy-policy"
+      }
+    ],
+    "verifiedAt": "2026-11-17",
+    "status": "published",
+    "featuredOrder": 103,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "Pro is $99/month (ChatGPT tracking, 50 prompts, 20 articles and 1,500 pages analyzed per month). Grow is $199/month (ChatGPT and Perplexity, 100 prompts, 40 articles, 3,000 pages). Scale is $399/month (ChatGPT, Perplexity and Gemini, 200 prompts, 90 articles, 8,000 pages).",
+          "zh": "Pro 每月 99 美元（追踪 ChatGPT、50 个提示词、每月 20 篇文章与 1,500 个页面分析）。Grow 每月 199 美元（ChatGPT 与 Perplexity、100 个提示词、40 篇文章、3,000 个页面）。Scale 每月 399 美元（ChatGPT、Perplexity 与 Gemini、200 个提示词、90 篇文章、8,000 个页面）。"
+        },
+        "summary": {
+          "en": "Pro $99/mo, Grow $199/mo, Scale $399/mo, scaling engines, prompts, articles and pages.",
+          "zh": "Pro 每月 99 美元、Grow 每月 199 美元、Scale 每月 399 美元，引擎、提示词、文章与页面逐级增加。"
+        },
+        "sourceUrls": [
+          "https://deepsmith.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-17"
+      },
+      {
+        "description": {
+          "en": "Enterprise is custom and covers all nine engines with multi-region tracking. Every plan includes unlimited agent runs and CSV/API export, with no contract and cancel-anytime billing; an annual option is offered, and trial terms are given at sign-up (the homepage advertises a 7-day free trial).",
+          "zh": "Enterprise 按需定价，覆盖全部 9 个引擎并支持多地区追踪。所有套餐均含不限次代理运行与 CSV/API 导出，无合约、可随时取消；提供年付选项，试用条款在注册时说明（首页标示 7 天免费试用）。"
+        },
+        "summary": {
+          "en": "Enterprise custom with all 9 engines; unlimited agent runs and export on all plans; trial terms at sign-up.",
+          "zh": "Enterprise 定制含全部 9 引擎；所有套餐不限代理运行并可导出；试用条款注册时说明。"
+        },
+        "sourceUrls": [
+          "https://deepsmith.ai/pricing",
+          "https://deepsmith.ai/"
+        ],
+        "verifiedAt": "2026-11-17"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "Self-serve plans track one region and only one to three engines (ChatGPT on Pro, plus Perplexity on Grow and Gemini on Scale); the other engines and multi-region tracking require Enterprise.",
+          "zh": "自助套餐仅追踪 1 个地区，引擎也只有 1 至 3 个（Pro 为 ChatGPT，Grow 增加 Perplexity，Scale 再加 Gemini）；其余引擎与多地区追踪需 Enterprise。"
+        },
+        "summary": {
+          "en": "Self-serve: one region and 1-3 engines; full engine set needs Enterprise.",
+          "zh": "自助套餐：1 个地区、1-3 个引擎；全部引擎需 Enterprise。"
+        },
+        "sourceUrls": [
+          "https://deepsmith.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-17"
+      },
+      {
+        "description": {
+          "en": "Page-analysis credits reset monthly without carry-over and each page is charged once; article output is capped at 20, 40 or 90 per month by plan.",
+          "zh": "页面分析额度每月重置、不结转，每个页面计费一次；文章产出按套餐每月上限为 20、40 或 90 篇。"
+        },
+        "summary": {
+          "en": "Page credits reset monthly with no carry-over; monthly article caps.",
+          "zh": "页面额度每月重置不结转；每月文章有上限。"
+        },
+        "sourceUrls": [
+          "https://deepsmith.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-17"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Choose DeepSmith when content production is the main job and you want AI visibility metrics in the same place to steer and measure it; note that the lower self-serve plans watch only ChatGPT, or ChatGPT plus Perplexity, in one region.",
+          "zh": "当内容生产是主要工作，并希望在同一处用 AI 可见度指标来引导和衡量内容时选 DeepSmith；注意较低的自助套餐仅在一个地区监测 ChatGPT，或 ChatGPT 加 Perplexity。"
+        },
+        "sourceUrls": [
+          "https://deepsmith.ai/",
+          "https://deepsmith.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-17"
+      }
+    ]
+  },
+  {
+    "slug": "sougeo",
+    "name": "搜极星 SOUGeo",
+    "category": "ai-visibility",
+    "website": "https://www.sougeo.com/",
+    "logo": null,
+    "description": {
+      "en": "A Chinese AI brand diagnosis platform that sells per-report GEO analyses of how DeepSeek, Doubao, Qwen, Yuanbao and other AI assistants mention, cite and describe a brand, with competitor and industry reports.",
+      "zh": "一款中文 AI 品牌诊断平台，按次出具 GEO 分析报告，呈现 DeepSeek、豆包、千问、元宝等 AI 助手如何提及、引用和描述品牌，并提供竞品与行业报告。"
+    },
+    "tags": {
+      "en": [
+        "Chinese AI platforms",
+        "Per-report pricing",
+        "Industry reports"
+      ],
+      "zh": [
+        "国内 AI 平台",
+        "按次计费",
+        "行业报告"
+      ]
+    },
+    "features": {
+      "en": [
+        "Diagnose brand visibility, citation share and answer consistency across 11+ AI assistants including DeepSeek, Doubao, Qwen, Yuanbao and Kimi.",
+        "Order reports from a 3-6 minute quick check to a 7-day dynamic tracking report with alerts.",
+        "Compare 1-3 competitors, or generate an industry GEO report on the competitive landscape.",
+        "Use the free 星盾 content fact check and SiteLens SEO/GEO website scan, plus Agent Skill and CLI access."
+      ],
+      "zh": [
+        "诊断品牌在 DeepSeek、豆包、千问、元宝、Kimi 等 11 个以上 AI 助手中的可见度、引用占比与回答一致性。",
+        "可选从 3-6 分钟的快速体检到含动态预警的 7 日动态追踪报告。",
+        "对比 1-3 个竞品，或生成呈现竞争格局的行业 GEO 报告。",
+        "可使用免费的星盾内容验真与 SiteLens SEO/GEO 官网探测，并支持 Agent Skill 与 CLI 接入。"
+      ]
+    },
+    "audience": {
+      "en": "Brands and agencies in China that want a one-off or short-term diagnosis of their standing in domestic AI assistants without committing to a monthly subscription.",
+      "zh": "希望在不签月度订阅的情况下，一次性或短期诊断自身在国内 AI 助手中表现的中国品牌与代理商。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Get a quick read on how domestic AI assistants describe and rank a brand, with exposure rate, recommendation rank, mention rate and citation sources, before deciding on a longer GEO programme.",
+          "zh": "在决定长期 GEO 投入之前，快速了解国内 AI 助手如何描述和排名某品牌，包括曝光率、推荐排名、被提及率与引用来源。"
+        },
+        "summary": {
+          "en": "Quickly diagnose a brand in Chinese AI assistants before a longer programme.",
+          "zh": "在长期投入前快速诊断品牌在国内 AI 助手中的表现。"
+        },
+        "sourceUrls": [
+          "https://www.sougeo.com/"
+        ],
+        "verifiedAt": "2026-11-17"
+      },
+      {
+        "description": {
+          "en": "Benchmark a brand against one to three competitors, or follow it for seven days with alerts, to see how answers and citations shift across platforms.",
+          "zh": "将品牌与 1 至 3 个竞品对标，或连续追踪 7 天并接收预警，观察各平台回答与引用的变化。"
+        },
+        "summary": {
+          "en": "Benchmark competitors or track a brand for seven days with alerts.",
+          "zh": "对标竞品或连续 7 天追踪并预警。"
+        },
+        "sourceUrls": [
+          "https://www.sougeo.com/"
+        ],
+        "verifiedAt": "2026-11-17"
+      }
+    ],
+    "platforms": [
+      "DeepSeek",
+      "Doubao",
+      "Qwen",
+      "Tencent Yuanbao",
+      "Kimi",
+      "ERNIE",
+      "Zhipu GLM"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "SOUGeo homepage and plan comparison",
+          "zh": "搜极星首页与方案对比"
+        },
+        "url": "https://www.sougeo.com/"
+      },
+      {
+        "label": {
+          "en": "Biyou Technology user agreement",
+          "zh": "必优科技用户协议"
+        },
+        "url": "https://www.yoo-ai.com/agreement-policy.html?key=agreement-official-user&lang=zh-CN"
+      },
+      {
+        "label": {
+          "en": "Biyou Technology privacy policy",
+          "zh": "必优科技隐私政策"
+        },
+        "url": "https://www.yoo-ai.com/agreement-policy.html?key=agreement-privacy-policy&lang=zh-CN"
+      }
+    ],
+    "verifiedAt": "2026-11-17",
+    "status": "published",
+    "featuredOrder": 104,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "Reports are priced per order in CNY: the quick version is ¥19.9 per report (a promotional price, normally ¥99) with 9 metrics in 3-6 minutes; the professional version is ¥199 with 23 metrics and 1-3 competitors in 4-12 hours.",
+          "zh": "报告按次以人民币计价：极速版每次 19.9 元（促销价，原价 99 元），3-6 分钟交付 9 项指标；专业版每次 199 元，4-12 小时交付 23 项指标并支持 1-3 个竞品。"
+        },
+        "summary": {
+          "en": "Quick ¥19.9/report (promo, normally ¥99); professional ¥199/report.",
+          "zh": "极速版每次 19.9 元（促销，原价 99 元）；专业版每次 199 元。"
+        },
+        "sourceUrls": [
+          "https://www.sougeo.com/"
+        ],
+        "verifiedAt": "2026-11-17"
+      },
+      {
+        "description": {
+          "en": "The 7-day dynamic analysis version is ¥399 per report (29 metrics, dynamic alerts and a 7-day dashboard) and the industry analysis version is ¥299 (89 industry metrics in 10-30 minutes); every tier includes an AI analyst.",
+          "zh": "7 日动态分析版每次 399 元（29 项指标、动态预警与 7 日动态看板），行业分析版每次 299 元（10-30 分钟交付 89 项行业指标）；各档均含 AI 分析师。"
+        },
+        "summary": {
+          "en": "Dynamic ¥399/report with 7-day tracking; industry ¥299/report; AI analyst in all tiers.",
+          "zh": "动态版每次 399 元含 7 日追踪；行业版每次 299 元；各档含 AI 分析师。"
+        },
+        "sourceUrls": [
+          "https://www.sougeo.com/"
+        ],
+        "verifiedAt": "2026-11-17"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "It is sold as one-off reports rather than continuous monitoring; the longest built-in tracking window is the 7-day dynamic report, and ongoing work is offered as a separate managed service.",
+          "zh": "它以单次报告形式出售而非持续监测；内置最长追踪周期为 7 日动态报告，长期工作需另行采用托管服务。"
+        },
+        "summary": {
+          "en": "Per-report diagnosis; longest tracking is seven days.",
+          "zh": "按次诊断；最长追踪 7 天。"
+        },
+        "sourceUrls": [
+          "https://www.sougeo.com/"
+        ],
+        "verifiedAt": "2026-11-17"
+      },
+      {
+        "description": {
+          "en": "The linked privacy policy is the shared policy of the operator, Zhuhai Biyou Technology, titled for its ChatPPT product rather than SOUGeo specifically; coverage focuses on Chinese AI assistants.",
+          "zh": "所链接的隐私政策为运营方珠海必优科技的共用政策，标题为其 ChatPPT 产品而非专门针对搜极星；覆盖重点为国内 AI 助手。"
+        },
+        "summary": {
+          "en": "Shared operator privacy policy, not SOUGeo-specific; China-focused coverage.",
+          "zh": "共用运营方隐私政策，非搜极星专属；覆盖以国内为主。"
+        },
+        "sourceUrls": [
+          "https://www.yoo-ai.com/agreement-policy.html?key=agreement-privacy-policy&lang=zh-CN",
+          "https://www.sougeo.com/"
+        ],
+        "verifiedAt": "2026-11-17"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Choose SOUGeo when you need a low-cost, one-off diagnosis of a brand in Chinese AI assistants, or an industry snapshot, without a subscription; for continuous daily tracking, pick a monitoring tool instead.",
+          "zh": "当你需要低成本、无需订阅地一次性诊断品牌在国内 AI 助手中的表现，或获取行业快照时选搜极星；如需每日持续追踪，应改选监测类工具。"
+        },
+        "sourceUrls": [
+          "https://www.sougeo.com/"
+        ],
+        "verifiedAt": "2026-11-17"
+      }
+    ]
+  },
+  {
+    "slug": "geobase",
+    "name": "GEOBase",
+    "category": "ai-visibility",
+    "website": "https://geo.aibase.com/",
+    "logo": null,
+    "description": {
+      "en": "An AIBase platform that monitors brand exposure, rankings and share in Doubao, DeepSeek, Yuanbao, Qwen, ChatGPT, Google AI Mode and other AI platforms, with competitor, topic and citation-source analysis.",
+      "zh": "AIBase 推出的平台，监测品牌在豆包、DeepSeek、元宝、千问、ChatGPT、Google AI Mode 等 AI 平台中的曝光、排名与份额，并提供竞品、主题与引用来源分析。"
+    },
+    "tags": {
+      "en": [
+        "Chinese AI platforms",
+        "Competitor monitoring",
+        "Citation sources"
+      ],
+      "zh": [
+        "国内 AI 平台",
+        "竞品监测",
+        "引用来源"
+      ]
+    },
+    "features": {
+      "en": [
+        "Track brand exposure, ranking and share across up to 14 platform options: 11 desktop AI platforms plus mobile Doubao, Qwen and Yuanbao.",
+        "Monitor competitors per brand and compare where each one leads, by platform and by topic.",
+        "Map topics in an opportunity matrix of search demand versus brand visibility.",
+        "Trace the citation sources behind each mention, and use companion tools for question mining, one-off rank checks, brand scores and promoted-link checks."
+      ],
+      "zh": [
+        "在最多 14 个平台选项（11 个 PC 端 AI 平台加豆包、千问、元宝手机版）上追踪品牌曝光、排名与份额。",
+        "按品牌监测竞品，按平台与主题比较各自领先之处。",
+        "以搜索热度对比品牌可见度的机会矩阵梳理业务主题。",
+        "溯源每次提及背后的引用来源，并可配合问题挖掘、单次排名查询、品牌得分与推广链接检测等工具。"
+      ]
+    },
+    "audience": {
+      "en": "Brands and marketing teams in China that need recurring monitoring of domestic and international AI platforms, with competitor and citation-source tracking.",
+      "zh": "需要定期监测国内外 AI 平台，并追踪竞品与引用来源的中国品牌与营销团队。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Watch how a brand and its competitors appear in Doubao, DeepSeek, Qwen and other AI answers on a recurring schedule, and find platforms or topics where competitors lead.",
+          "zh": "定期观察品牌及其竞品在豆包、DeepSeek、千问等 AI 回答中的表现，找出竞品领先的平台或主题。"
+        },
+        "summary": {
+          "en": "Monitor a brand and competitors in Chinese AI answers on a schedule.",
+          "zh": "定期监测品牌与竞品在国内 AI 回答中的表现。"
+        },
+        "sourceUrls": [
+          "https://geo.aibase.com/",
+          "https://geo.aibase.com/tools"
+        ],
+        "verifiedAt": "2026-11-18"
+      },
+      {
+        "description": {
+          "en": "Check which media channels and promoted links AI platforms actually cite, so content distribution budget goes to sources that shape AI answers.",
+          "zh": "检查 AI 平台实际引用了哪些媒体渠道与推广链接，让内容分发预算投向能影响 AI 回答的来源。"
+        },
+        "summary": {
+          "en": "Find which channels and promoted links AI platforms cite.",
+          "zh": "找出 AI 平台引用的渠道与推广链接。"
+        },
+        "sourceUrls": [
+          "https://geo.aibase.com/",
+          "https://geo.aibase.com/tools"
+        ],
+        "verifiedAt": "2026-11-18"
+      }
+    ],
+    "platforms": [
+      "Doubao",
+      "DeepSeek",
+      "Tencent Yuanbao",
+      "Qwen",
+      "ERNIE",
+      "Kimi",
+      "Quark",
+      "ChatGPT",
+      "Gemini",
+      "Perplexity",
+      "Google AI Mode"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "GEOBase homepage and plans",
+          "zh": "GEOBase 首页与套餐"
+        },
+        "url": "https://geo.aibase.com/"
+      },
+      {
+        "label": {
+          "en": "GEOBase tools overview",
+          "zh": "GEOBase 工具总览"
+        },
+        "url": "https://geo.aibase.com/tools"
+      },
+      {
+        "label": {
+          "en": "GEOBase user service agreement",
+          "zh": "GEOBase 用户服务协议"
+        },
+        "url": "https://geo.aibase.com/protocol/registration"
+      },
+      {
+        "label": {
+          "en": "GEOBase privacy policy",
+          "zh": "GEOBase 隐私政策"
+        },
+        "url": "https://geo.aibase.com/protocol/privacy"
+      }
+    ],
+    "verifiedAt": "2026-11-18",
+    "status": "published",
+    "featuredOrder": 105,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "Plans are billed per 30 days in CNY: Starter ¥299 (1 brand, 5 platforms, data every 3 days, 30 monitored questions, 10 competitors) and Growth ¥699 (1 brand, 7 platforms, every 2 days, 15 competitors).",
+          "zh": "套餐以人民币按 30 天计费：入门版 299 元（1 个品牌、5 个平台、每 3 天更新、30 个监测问题、10 个竞品），成长版 699 元（1 个品牌、7 个平台、每 2 天更新、15 个竞品）。"
+        },
+        "summary": {
+          "en": "Starter ¥299/30 days (5 platforms); Growth ¥699/30 days (7 platforms).",
+          "zh": "入门版每 30 天 299 元（5 平台）；成长版每 30 天 699 元（7 平台）。"
+        },
+        "sourceUrls": [
+          "https://geo.aibase.com/"
+        ],
+        "verifiedAt": "2026-11-18"
+      },
+      {
+        "description": {
+          "en": "Professional is ¥1,499 per 30 days (2 brands, 8 platforms, 20 competitors) and Flagship is ¥4,999 (3 brands, 14 platforms, 60 monitored questions per brand, 25 competitors). Each plan includes a one-off grant of credits (100 to 2,000), unlimited detail export and one-to-one consulting.",
+          "zh": "专业版每 30 天 1,499 元（2 个品牌、8 个平台、20 个竞品），旗舰版 4,999 元（3 个品牌、14 个平台、每品牌 60 个监测问题、25 个竞品）。各套餐均一次性赠送智能币（100 至 2,000），明细导出不限量，并含一对一顾问咨询。"
+        },
+        "summary": {
+          "en": "Professional ¥1,499 and Flagship ¥4,999 per 30 days; one-off credit grant and consulting included.",
+          "zh": "专业版每 30 天 1,499 元、旗舰版 4,999 元；一次性赠智能币并含顾问咨询。"
+        },
+        "sourceUrls": [
+          "https://geo.aibase.com/"
+        ],
+        "verifiedAt": "2026-11-18"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "Data refreshes every two or three days rather than daily, and platform coverage depends on the plan (5, 7, 8 or 14 options), so lower plans see only part of the engine list.",
+          "zh": "数据每 2 至 3 天更新而非每日更新，平台覆盖按套餐分为 5、7、8 或 14 个选项，较低套餐只能看到部分引擎。"
+        },
+        "summary": {
+          "en": "Updates every 2-3 days; platform coverage depends on plan.",
+          "zh": "每 2-3 天更新；平台覆盖按套餐而定。"
+        },
+        "sourceUrls": [
+          "https://geo.aibase.com/"
+        ],
+        "verifiedAt": "2026-11-18"
+      },
+      {
+        "description": {
+          "en": "Monitored questions are capped at 30 per brand (60 on Flagship), and platform changes, question status changes, AI question discovery and content generation each have monthly limits.",
+          "zh": "每品牌监测问题上限为 30 个（旗舰版 60 个），平台调整、问题状态调整、AI 问题发现与内容生成均有每月次数限制。"
+        },
+        "summary": {
+          "en": "Question caps per brand and monthly limits on adjustments and generation.",
+          "zh": "每品牌问题有上限，调整与生成有月度限制。"
+        },
+        "sourceUrls": [
+          "https://geo.aibase.com/"
+        ],
+        "verifiedAt": "2026-11-18"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Choose GEOBase when you need recurring monitoring that spans major Chinese AI assistants (including their mobile apps) and international engines, with competitor and citation-source views; note the 2-3 day refresh and per-brand question caps.",
+          "zh": "当你需要覆盖国内主要 AI 助手（含手机版）与海外引擎的定期监测，并查看竞品与引用来源时选 GEOBase；注意数据每 2-3 天更新，且每品牌问题数有上限。"
+        },
+        "sourceUrls": [
+          "https://geo.aibase.com/"
+        ],
+        "verifiedAt": "2026-11-18"
+      }
+    ]
   }
 ]

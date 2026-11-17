@@ -51,17 +51,29 @@
 ### L-07 WebFetch 正文不全时改用 curl 完整 Chrome UA 取原始 HTML
 - 症状：snezzi.com 对 bot 返回精简 markdown 摘要（定价/主体不全）；readability 会剥掉页脚导致法律页链接漏检；短 "Mozilla/5.0" UA 仍被拦。
 - 根因：站点按 UA/Accept 向爬虫提供 markdown 或精简内容；可读化提取丢弃页脚等结构。
-- 修复／预防：用 curl 带完整 Chrome UA 取原始 HTML，再用脚本剥离 script/style 提取可见文本与页脚链接；不重复 WebFetch 同一 URL。完整 HTML 落 /tmp 后分段 Grep/Read。
-- 记录：首次 2026-11-17 · 最近 2026-11-17 · 命中 1 次 · [轮次记录](../../../docs/research/2026-11-17-geo-sites.md)
+- 修复／预防：用 curl 带完整 Chrome UA 取原始 HTML，再用脚本剥离 script/style 提取可见文本与页脚链接；不重复 WebFetch 同一 URL。完整 HTML 落 /tmp 后分段 Grep/Read。第二轮用于搜极星、GEOBase、DeepSmith 等主体与法律页核验。
+- 记录：首次 2026-11-17 · 最近 2026-11-18 · 命中 2 次 · [轮次记录](../../../docs/research/2026-11-17-geo-sites-02.md)
 
 ### L-08 法律页对 bot 403 时用 ego-browser 真实浏览器读取
 - 症状：rankmonster.ai/privacy 与 /terms 对 curl 与 WebFetch 均 403，无法核验运营主体与法律页日期。
 - 根因：厂商对爬虫拦截法律页，但真实浏览器可正常访问（非登录/付费墙）。
-- 修复／预防：改用 ego-browser（ego lite）真实浏览器打开读取，属正常访问而非绕过；先 `ego-browser skill` 遵循指南。仍 403 或需人工验证则记缺口并暂缓，不绕过验证码/付费墙。
-- 记录：首次 2026-11-17 · 最近 2026-11-17 · 命中 1 次 · [轮次记录](../../../docs/research/2026-11-17-geo-sites.md)
+- 修复／预防：改用 ego-browser（ego lite）真实浏览器打开读取，属正常访问而非绕过；先 `ego-browser skill` 遵循指南。仍 403 或需人工验证则记缺口并暂缓，不绕过验证码/付费墙。JS 渲染的定价（Omnia、Sellm、TopCited、GEOBase）同样用 ego-browser 读取。
+- 记录：首次 2026-11-17 · 最近 2026-11-18 · 命中 2 次 · [轮次记录](../../../docs/research/2026-11-17-geo-sites-02.md)
 
 ### L-09 ego-browser 任务空间收尾用 finish({keep:[]})，keep 不接受 false
 - 症状：`task.finish({keep:false})` 抛 TypeError（keep 须为 "all" 或非空标签数组）；脚本间 JS 变量不共享。
 - 根因：ego lite API 约定 keep 为 "all" 或 Page 标签数组；任务空间/标签跨调用持久，但脚本变量不持久。
-- 修复／预防：收尾先 `await page.close()` 再单独脚本 `await task.finish({keep:[]})`；跨调用用 `taskSpace(<spaceId>)` 恢复并 `(await task.pages())[0]` 取回标签；导航与测量拆成两次调用，evaluate 内不要触发 location.href 跳转。
-- 记录：首次 2026-11-17 · 最近 2026-11-17 · 命中 1 次 · [轮次记录](../../../docs/research/2026-11-17-geo-sites.md)
+- 修复／预防：收尾先 `await page.close()` 再单独脚本 `await task.finish({keep:[]})`；跨调用用 `taskSpace(<spaceId>)` 恢复并 `(await task.pages())[0]` 取回标签；导航与测量拆成两次调用，evaluate 内不要触发 location.href 跳转。Page 没有 `getByText`/`goBack`，点击用 evaluate 内 `el.click()`；evaluate 回调不能引用 Node 变量，需作为第二参数传入；慢站 `page.goto` 超时但「navigation committed」时直接继续读取，不重开空间。
+- 记录：首次 2026-11-17 · 最近 2026-11-18 · 命中 2 次 · [轮次记录](../../../docs/research/2026-11-17-geo-sites-02.md)
+
+### L-10 法律页存在性以读到的条款正文判定
+- 症状：Sellm 的 /terms、/privacy 对 curl 返回 200，但真实浏览器渲染为 404；GEOBase 法律页在浏览器报客户端 500，curl 的服务端 HTML 却含完整协议正文。
+- 根因：SPA 对任意路径返回同一外壳（状态码不代表页面存在）；部分站点 SSR 正常而客户端水合出错。
+- 修复／预防：不以 HTTP 状态码判断法律页；curl 正文与浏览器渲染互为备用，任一方读到实际条款文本（标题、版本/日期、主体名）才记为存在；两者都读不到才记缺口。
+- 记录：首次 2026-11-18 · 最近 2026-11-18 · 命中 2 次 · [轮次记录](../../../docs/research/2026-11-17-geo-sites-02.md)
+
+### L-11 核验跨过午夜时同步推进 site.updatedAt
+- 症状：GEOBase 于 2026-11-18 核验，`npm run validate` 报 `verifiedAt: cannot exceed site.updatedAt`（site 仍为 2026-11-17）。
+- 根因：校验器要求 `site.updatedAt` 不早于任何公开工具的核验日；会话日期在轮次中途变化。
+- 修复／预防：`verifiedAt` 按实际读取官方页的日期记录，同轮把 `data/site.json` 的 `updatedAt` 推进到最大核验日；不改 `data/pages.json` 法律页日期（法律页测试会验证其不随动）。
+- 记录：首次 2026-11-18 · 最近 2026-11-18 · 命中 1 次 · [轮次记录](../../../docs/research/2026-11-17-geo-sites-02.md)
