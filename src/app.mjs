@@ -2,7 +2,8 @@ import {card, escapeHtml as e, icon, normalizeWebsite} from './components.mjs';
 const lang=document.body.dataset.language;
 const page=document.body.dataset.page;
 let dataPromise;
-const loadData=()=>dataPromise??=fetch('/assets/directory.json').then(r=>{if(!r.ok)throw new Error('Directory unavailable');return r.json();});
+// GitHub Pages caches assets for 10 minutes; revalidate so new listings appear after deploy.
+const loadData=()=>dataPromise??=fetch('/assets/directory.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw new Error('Directory unavailable');return r.json();});
 const languageLinks=document.querySelectorAll('.language-switch a');
 if(page==='search') languageLinks.forEach(a=>a.href+=location.search);
 if(page==='home') {
