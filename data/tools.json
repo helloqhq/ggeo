@@ -15325,5 +15325,1299 @@
         "verifiedAt": "2026-11-18"
       }
     ]
+  },
+  {
+    "slug": "honeyb",
+    "name": "Honeyb",
+    "category": "ai-visibility",
+    "website": "https://www.honeyb.ai/",
+    "logo": null,
+    "description": {
+      "en": "An AI search visibility platform that tracks daily prompts across up to eight engines, breaks cited sources down by domain, and includes a Content Agent that researches and publishes articles to your CMS.",
+      "zh": "一款 AI 搜索可见度平台，每天在最多 8 个引擎上追踪提示词，按域名拆分被引来源，并内置内容代理，研究并撰写文章后发布到 CMS。"
+    },
+    "tags": {
+      "en": [
+        "Eight engines",
+        "Citation domains",
+        "Content agent"
+      ],
+      "zh": [
+        "八个引擎",
+        "引用域名",
+        "内容代理"
+      ]
+    },
+    "features": {
+      "en": [
+        "Run tracked prompts daily on ChatGPT, Google AI Mode, AI Overviews, DeepSeek, Perplexity, Gemini, Grok and Claude, depending on plan.",
+        "Track competitors, sentiment and source citations with a domain-level breakdown, plus Honeyb Recommendations.",
+        "Group tracking into workspaces per brand, product line, market or language, each with its own competitors and citations.",
+        "Let the Content Agent research articles from visibility gaps and publish them to WordPress, Ghost, Shopify, Webflow, Wix or a custom endpoint."
+      ],
+      "zh": [
+        "按套餐每天在 ChatGPT、Google AI Mode、AI Overviews、DeepSeek、Perplexity、Gemini、Grok 与 Claude 上运行追踪提示词。",
+        "追踪竞品、情绪与按域名拆分的来源引用，并提供 Honeyb Recommendations 建议。",
+        "按品牌、产品线、市场或语言划分工作区，每个工作区有各自的竞品与引用数据。",
+        "由内容代理根据可见度缺口研究选题，并发布到 WordPress、Ghost、Shopify、Webflow、Wix 或自定义接口。"
+      ]
+    },
+    "audience": {
+      "en": "SEO and content teams that want low-cost AI visibility tracking with citation domains and built-in article publishing, from one engine up to all eight.",
+      "zh": "希望以较低成本追踪 AI 可见度、查看引用域名并内置文章发布能力的 SEO 与内容团队，可从 1 个引擎起步，扩展到全部 8 个。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Track how a brand and its competitors appear in daily AI answers, and see which domains the engines cite for each workspace.",
+          "zh": "追踪品牌及竞品在每日 AI 回答中的表现，并按工作区查看引擎引用了哪些域名。"
+        },
+        "summary": {
+          "en": "Track daily mentions versus competitors and cited domains per workspace.",
+          "zh": "按工作区追踪每日提及、竞品对比与被引域名。"
+        },
+        "sourceUrls": [
+          "https://www.honeyb.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-18"
+      },
+      {
+        "description": {
+          "en": "Turn visibility gaps into researched articles that the Content Agent publishes to the CMS on a calendar or autopilot.",
+          "zh": "把可见度缺口转化为研究型文章，由内容代理按日历或自动驾驶模式发布到 CMS。"
+        },
+        "summary": {
+          "en": "Publish gap-driven articles to the CMS via the Content Agent.",
+          "zh": "通过内容代理把基于缺口的文章发布到 CMS。"
+        },
+        "sourceUrls": [
+          "https://www.honeyb.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-18"
+      }
+    ],
+    "platforms": [
+      "ChatGPT",
+      "Google AI Mode",
+      "Google AI Overviews",
+      "DeepSeek",
+      "Perplexity",
+      "Gemini",
+      "Grok",
+      "Claude"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "Honeyb pricing",
+          "zh": "Honeyb 定价"
+        },
+        "url": "https://www.honeyb.ai/pricing"
+      },
+      {
+        "label": {
+          "en": "Honeyb privacy policy",
+          "zh": "Honeyb 隐私政策"
+        },
+        "url": "https://www.honeyb.ai/privacy-policy"
+      },
+      {
+        "label": {
+          "en": "Honeyb terms of service",
+          "zh": "Honeyb 服务条款"
+        },
+        "url": "https://www.honeyb.ai/terms-of-service"
+      }
+    ],
+    "verifiedAt": "2026-11-18",
+    "status": "published",
+    "featuredOrder": 106,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "Monthly billing: The Minimum is $29/month (10 daily prompts, 1 engine, 1 workspace, 1 seat, 5 articles), Multi-Model $79/month (50 prompts, 3 engines, up to 5 workspaces, 15 articles) and Full Spectrum $199/month (100 prompts, all 8 engines, up to 10 workspaces, 30 articles). Annual billing saves 20%: $276, $756 and $1,908 per year ($23, $63 and $159 a month).",
+          "zh": "月付：The Minimum 每月 29 美元（每日 10 个提示词、1 个引擎、1 个工作区、1 个席位、5 篇文章），Multi-Model 每月 79 美元（50 个提示词、3 个引擎、最多 5 个工作区、15 篇文章），Full Spectrum 每月 199 美元（100 个提示词、全部 8 个引擎、最多 10 个工作区、30 篇文章）。年付省 20%，分别为每年 276、756、1,908 美元（折合每月 23、63、159 美元）。"
+        },
+        "summary": {
+          "en": "Monthly $29 / $79 / $199 (1, 3 or 8 engines; 10–100 daily prompts); annual $276 / $756 / $1,908 per year.",
+          "zh": "月付 29／79／199 美元（1、3 或 8 个引擎，每日 10–100 提示词）；年付每年 276／756／1,908 美元。"
+        },
+        "sourceUrls": [
+          "https://www.honeyb.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-18"
+      },
+      {
+        "description": {
+          "en": "Multi-Model and Full Spectrum include a 3-day free trial; The Minimum has no trial. Enterprise is custom, with custom prompt volume, white-label reporting, API access, SSO and a dedicated Slack channel. The separate Honeyb API is priced per answer from $1.05 per 1,000 on prepaid credits.",
+          "zh": "Multi-Model 与 Full Spectrum 提供 3 天免费试用，The Minimum 无试用。Enterprise 为定制价，含自定义提示词量、白标报告、API、SSO 与专属 Slack 频道。单独的 Honeyb API 按回答计费，预付积分每 1,000 条 1.05 美元起。"
+        },
+        "summary": {
+          "en": "3-day trial on two plans, none on The Minimum; Enterprise custom; API from $1.05 per 1,000 answers prepaid.",
+          "zh": "两档有 3 天试用，The Minimum 无；Enterprise 定制；API 预付每 1,000 条回答 1.05 美元起。"
+        },
+        "sourceUrls": [
+          "https://www.honeyb.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-18"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "Engine coverage depends on plan: The Minimum tracks 1 engine of your choice and Multi-Model 3; all 8 engines require Full Spectrum. White-label reporting, API access and SSO are described as part of the custom Enterprise tier.",
+          "zh": "引擎覆盖取决于套餐：The Minimum 只追踪自选的 1 个引擎，Multi-Model 为 3 个，全部 8 个引擎需 Full Spectrum。白标报告、API 与 SSO 在定制的 Enterprise 档中说明。"
+        },
+        "summary": {
+          "en": "1, 3 or 8 engines by plan; white-label, API and SSO described under Enterprise.",
+          "zh": "按套餐覆盖 1、3 或 8 个引擎；白标、API 与 SSO 在 Enterprise 档说明。"
+        },
+        "sourceUrls": [
+          "https://www.honeyb.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-18"
+      },
+      {
+        "description": {
+          "en": "Visibility reports are sent weekly by email on every plan, and article output is capped at 5, 15 or 30 per month below Enterprise. Connecting Google Search Console or Analytics uses read-only OAuth access.",
+          "zh": "所有套餐的可见度报告均为每周邮件发送，Enterprise 以下每月文章上限为 5、15 或 30 篇。连接 Google Search Console 或 Analytics 时使用只读 OAuth 授权。"
+        },
+        "summary": {
+          "en": "Weekly email reports; 5–30 articles a month; read-only Google OAuth.",
+          "zh": "每周邮件报告；每月 5–30 篇文章；Google 授权为只读。"
+        },
+        "sourceUrls": [
+          "https://www.honeyb.ai/pricing",
+          "https://www.honeyb.ai/privacy-policy"
+        ],
+        "verifiedAt": "2026-11-18"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Choose Honeyb when you want to start cheaply on a single engine and scale to eight engines including DeepSeek and Grok, with citation domains and CMS publishing in the same plan; note that The Minimum has no trial and programmatic access is described under Enterprise or the separately priced API.",
+          "zh": "当你希望先以较低价格追踪单个引擎，再扩展到含 DeepSeek 与 Grok 在内的 8 个引擎，并在同一套餐内获得引用域名与 CMS 发布时选 Honeyb；注意 The Minimum 无试用，程序化访问在 Enterprise 档或单独计费的 API 产品中说明。"
+        },
+        "sourceUrls": [
+          "https://www.honeyb.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-18"
+      }
+    ]
+  },
+  {
+    "slug": "reachllm",
+    "name": "ReachLLM",
+    "category": "content-geo",
+    "website": "https://www.reachllm.com/",
+    "logo": null,
+    "description": {
+      "en": "An AI search visibility platform built as a closed loop: it tracks mentions and citations across four AI engines, diagnoses source, technical and fact gaps with a GEO audit, and prepares content, schema and PR outreach for approval.",
+      "zh": "一款以闭环方式构建的 AI 搜索可见度平台：在 4 个 AI 引擎上追踪提及与引用，用 GEO 审计诊断来源、技术与事实缺口，并准备内容、结构化数据和 PR 外联供审批。"
+    },
+    "tags": {
+      "en": [
+        "Closed loop",
+        "GEO audit",
+        "PR outreach"
+      ],
+      "zh": [
+        "闭环执行",
+        "GEO 审计",
+        "PR 外联"
+      ]
+    },
+    "features": {
+      "en": [
+        "Track visibility score, share of voice, average rank, mentions versus citations and prompt-level evidence on ChatGPT, Google AI Overviews, Perplexity and Gemini, with Claude as an add-on.",
+        "Diagnose gaps with a GEO audit (metadata, schema, crawlability, llms.txt, robots.txt), source intelligence, sentiment by model, brand-fact review and query fanout.",
+        "Prepare articles, page and schema updates, and personalized PR pitches sent through connected Gmail or Outlook, each reviewed before publishing.",
+        "Connect GA4, Search Console, Bing Webmaster Tools, WordPress, GitHub, Webflow, Shopify, Notion and MCP; Scale adds pooled multi-project limits and white-label reports."
+      ],
+      "zh": [
+        "在 ChatGPT、Google AI Overviews、Perplexity 与 Gemini 上追踪可见度得分、声量份额、平均排名、提及与引用之分及提示词级证据，Claude 可作为加购。",
+        "用 GEO 审计（元数据、结构化数据、可抓取性、llms.txt、robots.txt）、来源情报、按模型情绪、品牌事实核查与查询扇出诊断缺口。",
+        "准备文章、页面与结构化数据更新，以及经关联 Gmail 或 Outlook 发送的个性化 PR 推介，每项都需审核后发布。",
+        "可连接 GA4、Search Console、Bing Webmaster Tools、WordPress、GitHub、Webflow、Shopify、Notion 与 MCP；Scale 增加多项目共享额度与白标报告。"
+      ]
+    },
+    "audience": {
+      "en": "In-house marketing teams and agencies that want one platform to measure AI visibility, diagnose why answers look the way they do, and ship the approved fixes, with a higher entry price than tracking-only tools.",
+      "zh": "希望用一个平台完成 AI 可见度衡量、诊断回答成因并交付经审批修复的企业营销团队与代理机构；起步价高于纯追踪工具。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Connect a visibility drop to its causes, such as missing citations, technical blockers, wrong facts or competitor sources, using per-model, prompt-level history and a GEO audit.",
+          "zh": "借助按模型、按提示词的历史记录与 GEO 审计，把可见度下滑与其成因关联起来，例如缺失引用、技术障碍、错误事实或竞品来源。"
+        },
+        "summary": {
+          "en": "Diagnose visibility changes with prompt-level evidence and a GEO audit.",
+          "zh": "用提示词级证据与 GEO 审计诊断可见度变化。"
+        },
+        "sourceUrls": [
+          "https://www.reachllm.com/platform"
+        ],
+        "verifiedAt": "2026-11-18"
+      },
+      {
+        "description": {
+          "en": "Have the platform prepare content, schema changes and PR outreach from the same evidence, with the team approving what gets published or sent.",
+          "zh": "由平台基于同一证据准备内容、结构化数据修改与 PR 外联，团队审批后再发布或发送。"
+        },
+        "summary": {
+          "en": "Prepare content, schema and outreach for team approval.",
+          "zh": "准备内容、结构化数据与外联，供团队审批。"
+        },
+        "sourceUrls": [
+          "https://www.reachllm.com/platform"
+        ],
+        "verifiedAt": "2026-11-18"
+      }
+    ],
+    "platforms": [
+      "ChatGPT",
+      "Google AI Overviews",
+      "Perplexity",
+      "Gemini",
+      "Claude"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "ReachLLM platform overview",
+          "zh": "ReachLLM 平台介绍"
+        },
+        "url": "https://www.reachllm.com/platform"
+      },
+      {
+        "label": {
+          "en": "ReachLLM pricing",
+          "zh": "ReachLLM 定价"
+        },
+        "url": "https://www.reachllm.com/pricing"
+      },
+      {
+        "label": {
+          "en": "ReachLLM terms of service",
+          "zh": "ReachLLM 服务条款"
+        },
+        "url": "https://www.reachllm.com/terms-of-service"
+      },
+      {
+        "label": {
+          "en": "ReachLLM privacy policy",
+          "zh": "ReachLLM 隐私政策"
+        },
+        "url": "https://www.reachllm.com/privacy"
+      }
+    ],
+    "verifiedAt": "2026-11-18",
+    "status": "published",
+    "featuredOrder": 107,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "Pro is $399/month for 1 project, 100 prompts on 4 models daily, 100 GEO audit pages and 4,000 execution credits. Scale is $999/month for up to 10 projects with 500 pooled prompts, 1,000 audit pages, 20,000 credits and white-label reports. Both include a 3-day free trial, and yearly billing is advertised as two months free.",
+          "zh": "Pro 每月 399 美元，含 1 个项目、每天在 4 个模型上运行 100 个提示词、100 个 GEO 审计页面与 4,000 执行积分。Scale 每月 999 美元，最多 10 个项目，共享 500 个提示词、1,000 个审计页面、20,000 积分并含白标报告。两档均有 3 天免费试用，年付宣传为免两个月。"
+        },
+        "summary": {
+          "en": "Pro $399/mo (1 project, 100 prompts); Scale $999/mo (10 projects, 500 pooled prompts); 3-day trial; yearly two months free.",
+          "zh": "Pro 每月 399 美元（1 项目、100 提示词）；Scale 每月 999 美元（10 项目、共享 500 提示词）；3 天试用；年付免两个月。"
+        },
+        "sourceUrls": [
+          "https://www.reachllm.com/pricing",
+          "https://www.reachllm.com/platform"
+        ],
+        "verifiedAt": "2026-11-18"
+      },
+      {
+        "description": {
+          "en": "Growth is a managed service from $3,500/month with a three-month minimum and a dedicated GEO expert; Enterprise is custom and can include larger limits, SSO, API/export access and SLAs.",
+          "zh": "Growth 为托管服务，每月 3,500 美元起，最短三个月，配专属 GEO 专家；Enterprise 为定制价，可含更大额度、SSO、API／导出与 SLA。"
+        },
+        "summary": {
+          "en": "Managed Growth from $3,500/mo (3-month minimum); Enterprise custom.",
+          "zh": "托管 Growth 每月 3,500 美元起（至少 3 个月）；Enterprise 定制。"
+        },
+        "sourceUrls": [
+          "https://www.reachllm.com/pricing",
+          "https://www.reachllm.com/platform"
+        ],
+        "verifiedAt": "2026-11-18"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "Four models are included on Pro and Scale; Claude is a paid add-on, and other engines such as Grok, DeepSeek or Copilot are not listed.",
+          "zh": "Pro 与 Scale 含 4 个模型；Claude 需付费加购，Grok、DeepSeek 或 Copilot 等引擎未列出。"
+        },
+        "summary": {
+          "en": "Four included models; Claude is an add-on; no Grok, DeepSeek or Copilot listed.",
+          "zh": "含 4 个模型；Claude 需加购；未列出 Grok、DeepSeek 或 Copilot。"
+        },
+        "sourceUrls": [
+          "https://www.reachllm.com/platform"
+        ],
+        "verifiedAt": "2026-11-18"
+      },
+      {
+        "description": {
+          "en": "Subscriptions renew automatically and the terms state that fees are non-refundable. The platform says it is not a fit for teams that only need Google rank tracking or for very early sites without content to cite.",
+          "zh": "订阅自动续费，条款写明费用不予退还。平台表示不适合只需要 Google 排名追踪的团队，也不适合尚无可引用内容的早期网站。"
+        },
+        "summary": {
+          "en": "Auto-renewing, non-refundable fees; not aimed at rank-tracking-only teams.",
+          "zh": "自动续费且费用不退；不面向只做排名追踪的团队。"
+        },
+        "sourceUrls": [
+          "https://www.reachllm.com/terms-of-service",
+          "https://www.reachllm.com/platform"
+        ],
+        "verifiedAt": "2026-11-18"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Choose ReachLLM when you want diagnosis and approved execution, including GEO audits, schema work and PR outreach, in the same workspace as tracking; weigh the $399 entry price, the four-model default and the non-refundable terms.",
+          "zh": "当你希望在追踪所在的同一工作区内完成诊断与经审批的执行（含 GEO 审计、结构化数据和 PR 外联）时选 ReachLLM；需权衡 399 美元的起步价、默认 4 个模型以及费用不退的条款。"
+        },
+        "sourceUrls": [
+          "https://www.reachllm.com/platform",
+          "https://www.reachllm.com/pricing",
+          "https://www.reachllm.com/terms-of-service"
+        ],
+        "verifiedAt": "2026-11-18"
+      }
+    ]
+  },
+  {
+    "slug": "qvery-geo-agent",
+    "name": "Qvery GEO Agent",
+    "category": "citations",
+    "website": "https://qvery.ai/geo-agent/",
+    "logo": null,
+    "description": {
+      "en": "A daily AI visibility tracker for ChatGPT and Google AI Mode that writes topics and queries for you, stores every answer and citation grouped by website, and offers a free PDF report without an account.",
+      "zh": "一款每日 AI 可见度追踪工具，覆盖 ChatGPT 与 Google AI Mode：自动编写主题与查询，保存每条回答及按网站归类的引用，并提供无需账户的免费 PDF 报告。"
+    },
+    "tags": {
+      "en": [
+        "Cited sites",
+        "Per-country tracking",
+        "Free report"
+      ],
+      "zh": [
+        "被引网站",
+        "分国家追踪",
+        "免费报告"
+      ]
+    },
+    "features": {
+      "en": [
+        "Ask ChatGPT and Google AI Mode your queries every day, in any language and in the countries you choose.",
+        "Generate topics and queries automatically from your brand, industry and competitors, and edit the list at any time.",
+        "Record every answer and citation, group citations by website and track your own site's share of citations over time.",
+        "Use Qvery Assistant to compare against competitors, manage topics and queries, start a data run or export a report."
+      ],
+      "zh": [
+        "每天用任意语言、在你选择的国家向 ChatGPT 与 Google AI Mode 提出查询。",
+        "根据品牌、行业与竞品自动生成主题和查询，列表可随时修改。",
+        "记录每条回答与引用，按网站归类引用，并追踪自有网站引用占比的变化。",
+        "通过 Qvery Assistant 对比竞品、管理主题与查询、启动数据运行或导出报告。"
+      ]
+    },
+    "audience": {
+      "en": "Businesses such as hotels, travel operators and software firms that want to see which sites AI answers cite in specific countries and languages, and are fine with tracking only ChatGPT and Google AI Mode.",
+      "zh": "希望了解 AI 回答在特定国家与语言中引用哪些网站的企业，例如酒店、旅游运营商和软件公司，并接受只追踪 ChatGPT 与 Google AI Mode。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "See which websites, such as review, booking, directory or news sites, AI answers lean on for your queries, and where competitors are named instead of you.",
+          "zh": "查看 AI 回答在你的查询中依赖哪些网站（如点评、预订、目录或新闻网站），以及哪些场景点名的是竞品而不是你。"
+        },
+        "summary": {
+          "en": "Find which sites answers cite and where competitors are named instead.",
+          "zh": "找出回答引用的网站，以及竞品取代你被点名的场景。"
+        },
+        "sourceUrls": [
+          "https://qvery.ai/geo-agent/"
+        ],
+        "verifiedAt": "2026-11-18"
+      },
+      {
+        "description": {
+          "en": "Compare what buyers in different countries are told by running the same query in several countries and languages.",
+          "zh": "在多个国家和语言中运行同一查询，比较不同国家买家得到的回答。"
+        },
+        "summary": {
+          "en": "Compare answers across countries and languages.",
+          "zh": "跨国家与语言比较回答。"
+        },
+        "sourceUrls": [
+          "https://qvery.ai/geo-agent/"
+        ],
+        "verifiedAt": "2026-11-18"
+      },
+      {
+        "description": {
+          "en": "Get a free, roughly seven-page PDF built on 25 questions across both engines before committing to an account.",
+          "zh": "在注册账户前，先获取一份基于 25 个问题、覆盖两个引擎、约 7 页的免费 PDF 报告。"
+        },
+        "summary": {
+          "en": "Start with a free 25-question PDF report.",
+          "zh": "先获取 25 个问题的免费 PDF 报告。"
+        },
+        "sourceUrls": [
+          "https://qvery.ai/geo-agent/"
+        ],
+        "verifiedAt": "2026-11-18"
+      }
+    ],
+    "platforms": [
+      "ChatGPT",
+      "Google AI Mode"
+    ],
+    "pricing": "Unknown",
+    "sources": [
+      {
+        "label": {
+          "en": "Qvery GEO Agent product page",
+          "zh": "Qvery GEO Agent 产品页"
+        },
+        "url": "https://qvery.ai/geo-agent/"
+      },
+      {
+        "label": {
+          "en": "Qvery terms and conditions",
+          "zh": "Qvery 条款与条件"
+        },
+        "url": "https://qvery.ai/terms-and-conditions/"
+      },
+      {
+        "label": {
+          "en": "Qvery privacy policy",
+          "zh": "Qvery 隐私政策"
+        },
+        "url": "https://qvery.ai/privacy-policy/"
+      }
+    ],
+    "verifiedAt": "2026-11-18",
+    "status": "published",
+    "featuredOrder": 108,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "Plans are priced by the number of brands and daily questions: the entry tier covers 1 brand and 25 questions, and larger tiers go into the hundreds. Prices are only shown inside the account after signup, billed monthly or yearly, and the largest plan is arranged with the team; no amounts are published.",
+          "zh": "套餐按品牌数与每日问题数定价：入门档覆盖 1 个品牌、25 个问题，更高档位可达数百个问题。价格只在注册后于账户内显示，可月付或年付，最大套餐需与团队商定；官网未公布金额。"
+        },
+        "summary": {
+          "en": "Entry tier 1 brand, 25 daily questions; amounts shown only after signup; monthly or yearly.",
+          "zh": "入门档 1 品牌、每日 25 问题；金额注册后才显示；可月付或年付。"
+        },
+        "sourceUrls": [
+          "https://qvery.ai/geo-agent/"
+        ],
+        "verifiedAt": "2026-11-18"
+      },
+      {
+        "description": {
+          "en": "The AI visibility report is free and needs no account; requesting it again for the same website within a week sends the existing report.",
+          "zh": "AI 可见度报告免费且无需账户；一周内为同一网站再次申请会发送已有报告。"
+        },
+        "summary": {
+          "en": "Free report, no account; one per website per week.",
+          "zh": "免费报告，无需账户；同一网站每周一份。"
+        },
+        "sourceUrls": [
+          "https://qvery.ai/geo-agent/"
+        ],
+        "verifiedAt": "2026-11-18"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "Only ChatGPT and Google AI Mode are tracked; the FAQ states Gemini, Perplexity and Copilot are not tracked today.",
+          "zh": "只追踪 ChatGPT 与 Google AI Mode；常见问题写明目前不追踪 Gemini、Perplexity 与 Copilot。"
+        },
+        "summary": {
+          "en": "ChatGPT and Google AI Mode only; no Gemini, Perplexity or Copilot.",
+          "zh": "仅 ChatGPT 与 Google AI Mode；不含 Gemini、Perplexity、Copilot。"
+        },
+        "sourceUrls": [
+          "https://qvery.ai/geo-agent/"
+        ],
+        "verifiedAt": "2026-11-18"
+      },
+      {
+        "description": {
+          "en": "GEO Agent measures and explains but never publishes, pitches or places mentions itself, so your team carries out fixes. Qvery is primarily an AI transformation consultancy, and the free-report data is kept for 90 days.",
+          "zh": "GEO Agent 只负责衡量和解释，不会自行发布内容、推介或投放提及，修复需由团队执行。Qvery 主业为 AI 转型咨询，免费报告数据保存 90 天。"
+        },
+        "summary": {
+          "en": "Measures only, no publishing or outreach; free-report data kept 90 days.",
+          "zh": "只做衡量，不发布不外联；免费报告数据保存 90 天。"
+        },
+        "sourceUrls": [
+          "https://qvery.ai/geo-agent/"
+        ],
+        "verifiedAt": "2026-11-18"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Choose Qvery GEO Agent when citation sources and country-by-country answers on ChatGPT and Google AI Mode are what you need, and you can confirm pricing after signup; look elsewhere if you need Gemini, Perplexity or Copilot coverage or built-in publishing.",
+          "zh": "当你需要的是 ChatGPT 与 Google AI Mode 上的引用来源及分国家回答，并能接受注册后再确认价格时选 Qvery GEO Agent；若需要 Gemini、Perplexity、Copilot 覆盖或内置发布功能，应考虑其他工具。"
+        },
+        "sourceUrls": [
+          "https://qvery.ai/geo-agent/"
+        ],
+        "verifiedAt": "2026-11-18"
+      }
+    ]
+  },
+  {
+    "slug": "3rd",
+    "name": "3RD",
+    "category": "competitors",
+    "website": "https://www.get3rd.com/",
+    "logo": null,
+    "description": {
+      "en": "An AI visibility platform that shows why AI answers pick competitors, diagnosing content coverage, quality, agent readiness, authority and outreach, then turns the findings into playbooks and brand-voice drafts.",
+      "zh": "一款 AI 可见度平台，揭示 AI 回答为何选择竞品，从内容覆盖、内容质量、代理就绪度、权威性与外联五个驱动因素诊断，再把结论转为行动手册和品牌语气草稿。"
+    },
+    "tags": {
+      "en": [
+        "Competitor diagnosis",
+        "Per-market tracking",
+        "Playbooks"
+      ],
+      "zh": [
+        "竞品成因诊断",
+        "分市场追踪",
+        "行动手册"
+      ]
+    },
+    "features": {
+      "en": [
+        "Track visibility, position, sentiment, citations and ads in daily AI responses on ChatGPT, Gemini, Perplexity, Google AI Overviews, Claude and Copilot.",
+        "Diagnose why AI picks a competitor across five drivers, reading 100 to 5,000 pages of your site a month depending on plan.",
+        "Count usage per market, where a market is one country in one language, and split daily responses across brands, markets and models.",
+        "Work through playbooks with the 3RD Agent and a Content Agent that drafts, rewrites and translates in your brand voice for CMS approval."
+      ],
+      "zh": [
+        "在 ChatGPT、Gemini、Perplexity、Google AI Overviews、Claude 与 Copilot 的每日 AI 回答中追踪可见度、位置、情绪、引用与广告。",
+        "从五个驱动因素诊断 AI 为何选择竞品，按套餐每月读取网站 100 至 5,000 个页面。",
+        "按市场计量用量（一个市场即一个国家加一种语言），并可在品牌、市场与模型间分配每日回答额度。",
+        "借助 3RD Agent 推进行动手册，并由内容代理以品牌语气起草、改写和翻译内容，提交 CMS 审批。"
+      ]
+    },
+    "audience": {
+      "en": "Marketing teams in Europe and elsewhere that track AI visibility across several countries, languages or brands and want to know why competitors win specific answers.",
+      "zh": "在多个国家、语言或品牌间追踪 AI 可见度，并想弄清竞品为何赢得特定回答的营销团队，欧洲团队尤为适用。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Find out why AI answers choose a competitor by looking at the sources, pages and facts behind each answer, ranked across five drivers.",
+          "zh": "通过每条回答背后的来源、页面与事实，并按五个驱动因素排序，找出 AI 回答选择竞品的原因。"
+        },
+        "summary": {
+          "en": "Diagnose why answers pick competitors across five ranked drivers.",
+          "zh": "按五个驱动因素诊断回答为何选择竞品。"
+        },
+        "sourceUrls": [
+          "https://www.get3rd.com/pricing"
+        ],
+        "verifiedAt": "2026-11-18"
+      },
+      {
+        "description": {
+          "en": "Compare AI answers market by market, for example Denmark in Danish versus Denmark in English, across up to 10 brands on Growth.",
+          "zh": "逐市场比较 AI 回答，例如丹麦语与英语的丹麦市场，Growth 档最多覆盖 10 个品牌。"
+        },
+        "summary": {
+          "en": "Compare answers per country-language market across brands.",
+          "zh": "跨品牌按国家加语言的市场比较回答。"
+        },
+        "sourceUrls": [
+          "https://www.get3rd.com/pricing"
+        ],
+        "verifiedAt": "2026-11-18"
+      }
+    ],
+    "platforms": [
+      "ChatGPT",
+      "Gemini",
+      "Perplexity",
+      "Google AI Overviews",
+      "Claude",
+      "Microsoft Copilot"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "3RD pricing",
+          "zh": "3RD 定价"
+        },
+        "url": "https://www.get3rd.com/pricing"
+      },
+      {
+        "label": {
+          "en": "3RD terms of service",
+          "zh": "3RD 服务条款"
+        },
+        "url": "https://www.get3rd.com/terms-of-service"
+      },
+      {
+        "label": {
+          "en": "3RD privacy policy",
+          "zh": "3RD 隐私政策"
+        },
+        "url": "https://www.get3rd.com/privacy-policy"
+      }
+    ],
+    "verifiedAt": "2026-11-18",
+    "status": "published",
+    "featuredOrder": 109,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "Starter is €99/month (€84/month billed annually) with 40 daily AI responses on up to 2 models, 1 brand in 1 market and 2 users. Pro is €299/month (€254 annually) with 100 responses, up to 3 models, 4 brands and any markets. Growth is €499/month (€424 annually) with 300 responses, up to 4 models and 10 brands. Enterprise starts at €2,500/month on an annual contract with up to 14 models.",
+          "zh": "Starter 每月 99 欧元（年付每月 84 欧元），每日 40 条 AI 回答、最多 2 个模型、1 个品牌 1 个市场、2 名用户。Pro 每月 299 欧元（年付 254 欧元），100 条回答、最多 3 个模型、4 个品牌、市场不限。Growth 每月 499 欧元（年付 424 欧元），300 条回答、最多 4 个模型、10 个品牌。Enterprise 按年签约，每月 2,500 欧元起，最多 14 个模型。"
+        },
+        "summary": {
+          "en": "Starter €99, Pro €299, Growth €499 per month (40/100/300 daily responses); annual saves 15%; Enterprise from €2,500/mo.",
+          "zh": "Starter 99、Pro 299、Growth 499 欧元／月（每日 40／100／300 条回答）；年付省 15%；Enterprise 每月 2,500 欧元起。"
+        },
+        "sourceUrls": [
+          "https://www.get3rd.com/pricing"
+        ],
+        "verifiedAt": "2026-11-18"
+      },
+      {
+        "description": {
+          "en": "Every plan starts with a 7-day trial of the full Growth plan without a credit card. Add-ons are €65/month per extra AI model, €100/month for 50 more daily responses and €1,500/month for the Lift-off setup workshop.",
+          "zh": "所有套餐均可先免费试用 7 天完整 Growth 套餐，无需信用卡。加购项：每增加 1 个 AI 模型每月 65 欧元，每日增加 50 条回答每月 100 欧元，Lift-off 配置工作坊每月 1,500 欧元。"
+        },
+        "summary": {
+          "en": "7-day Growth trial without a card; add-ons €65 per model, €100 per 50 responses.",
+          "zh": "7 天 Growth 试用免绑卡；加购每模型 65 欧元、每 50 条回答 100 欧元。"
+        },
+        "sourceUrls": [
+          "https://www.get3rd.com/pricing"
+        ],
+        "verifiedAt": "2026-11-18"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "One daily AI response is one question on one model in one market, so adding models or markets divides the quota. Starter covers only 1 brand in 1 market, has no playbooks, and AI-referred GA4 traffic starts at Growth.",
+          "zh": "每日 1 条 AI 回答等于 1 个问题在 1 个模型、1 个市场上的回答，增加模型或市场会分摊额度。Starter 只覆盖 1 个品牌 1 个市场，没有行动手册；GA4 中的 AI 引荐流量自 Growth 起提供。"
+        },
+        "summary": {
+          "en": "Quota is split across models and markets; Starter 1 market, no playbooks; GA4 AI traffic from Growth.",
+          "zh": "额度按模型与市场分摊；Starter 仅 1 市场、无手册；GA4 AI 流量自 Growth 起。"
+        },
+        "sourceUrls": [
+          "https://www.get3rd.com/pricing"
+        ],
+        "verifiedAt": "2026-11-18"
+      },
+      {
+        "description": {
+          "en": "The service is offered only to business customers under Danish law, and the Google Ads connection uses Google's single Ads scope, which 3RD says it uses read-only.",
+          "zh": "该服务仅向企业客户提供，适用丹麦法律；连接 Google Ads 时只能使用 Google 唯一的 Ads 授权范围，3RD 称仅作只读使用。"
+        },
+        "summary": {
+          "en": "Business customers only; Google Ads access stated as read-only.",
+          "zh": "仅限企业客户；Google Ads 授权声明为只读。"
+        },
+        "sourceUrls": [
+          "https://www.get3rd.com/terms-of-service",
+          "https://www.get3rd.com/privacy-policy"
+        ],
+        "verifiedAt": "2026-11-18"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Choose 3RD when explaining why competitors win specific answers matters more than raw prompt volume, especially across several country-language markets, and euro pricing with EU data storage suits you; check how the per-model, per-market quota divides before picking a plan.",
+          "zh": "当解释竞品为何赢得特定回答比单纯的提示词数量更重要，尤其需要覆盖多个国家加语言市场，并接受欧元计价与欧盟数据存储时选 3RD；选套餐前先算清额度如何按模型和市场分摊。"
+        },
+        "sourceUrls": [
+          "https://www.get3rd.com/pricing",
+          "https://www.get3rd.com/privacy-policy"
+        ],
+        "verifiedAt": "2026-11-18"
+      }
+    ]
+  },
+  {
+    "slug": "limy",
+    "name": "Limy",
+    "category": "ai-traffic",
+    "website": "https://limy.ai/",
+    "logo": null,
+    "description": {
+      "en": "An AI search analytics platform that connects at the CDN layer to monitor how AI bots crawl each page and attributes on-site conversions to AI-driven visits, from prompt to recommendation to action.",
+      "zh": "一款 AI 搜索分析平台，在 CDN 层接入，监测 AI 爬虫如何抓取每个页面，并把站内转化归因到 AI 带来的访问，覆盖从提示词、推荐到行动的路径。"
+    },
+    "tags": {
+      "en": [
+        "AI bot monitoring",
+        "CDN integration",
+        "Attribution"
+      ],
+      "zh": [
+        "AI 爬虫监测",
+        "CDN 接入",
+        "转化归因"
+      ]
+    },
+    "features": {
+      "en": [
+        "Monitor AI bot visit frequency, returning bots and behavior shifts across the site, with page-level distribution and geo-origin.",
+        "Map which pages get AI attention, spot overlooked content and detect blocked regions or crawl failures.",
+        "Attribute purchases, demo requests and signups on your own site to AI-driven visits, broken out by engine.",
+        "Start with a lightweight tag that refreshes every 24 hours, then add deeper CDN-level attribution."
+      ],
+      "zh": [
+        "监测全站 AI 爬虫的访问频率、回访爬虫与行为变化，并查看页面级分布与地理来源。",
+        "绘制哪些页面受到 AI 关注，发现被忽视的内容，检测被封锁的地区或抓取失败。",
+        "把自有网站上的购买、演示申请与注册归因到 AI 带来的访问，并按引擎拆分。",
+        "先用每 24 小时刷新的轻量标签起步，再接入更深的 CDN 级归因。"
+      ]
+    },
+    "audience": {
+      "en": "B2B companies with demo requests and e-commerce or retail brands with on-site purchases that can integrate at the CDN layer and want AI crawl and conversion data rather than prompt tracking alone.",
+      "zh": "有演示申请流程的 B2B 公司，以及有站内购买的电商或零售品牌；能在 CDN 层接入，并且想要 AI 抓取与转化数据，而不只是提示词追踪。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "See which pages AI bots visit most, which get little attention and where regional blocks or technical issues limit AI access.",
+          "zh": "查看 AI 爬虫最常访问哪些页面、哪些页面很少被关注，以及哪些地区封锁或技术问题限制了 AI 访问。"
+        },
+        "summary": {
+          "en": "Find where AI bots crawl and where access is blocked.",
+          "zh": "找出 AI 爬虫抓取的位置及访问受阻之处。"
+        },
+        "sourceUrls": [
+          "https://limy.ai/bot-traffic"
+        ],
+        "verifiedAt": "2026-11-18"
+      },
+      {
+        "description": {
+          "en": "Measure the revenue impact of AI search by tying AI-driven visits to actions on your own site, such as a purchase, demo request or signup.",
+          "zh": "把 AI 带来的访问与站内行动（如购买、演示申请或注册）关联起来，衡量 AI 搜索对收入的影响。"
+        },
+        "summary": {
+          "en": "Tie AI-driven visits to on-site conversions.",
+          "zh": "把 AI 带来的访问关联到站内转化。"
+        },
+        "sourceUrls": [
+          "https://limy.ai/limy-attribution"
+        ],
+        "verifiedAt": "2026-11-18"
+      }
+    ],
+    "platforms": [
+      "ChatGPT",
+      "Gemini",
+      "Perplexity"
+    ],
+    "pricing": "Contact Sales",
+    "sources": [
+      {
+        "label": {
+          "en": "Limy AI bot traffic",
+          "zh": "Limy AI 爬虫流量"
+        },
+        "url": "https://limy.ai/bot-traffic"
+      },
+      {
+        "label": {
+          "en": "Limy attribution",
+          "zh": "Limy 归因"
+        },
+        "url": "https://limy.ai/limy-attribution"
+      },
+      {
+        "label": {
+          "en": "Limy terms and conditions",
+          "zh": "Limy 条款与条件"
+        },
+        "url": "https://limy.ai/legal/terms-and-conditions"
+      },
+      {
+        "label": {
+          "en": "Limy privacy policy",
+          "zh": "Limy 隐私政策"
+        },
+        "url": "https://limy.ai/legal/privacy-policy"
+      }
+    ],
+    "verifiedAt": "2026-11-18",
+    "status": "published",
+    "featuredOrder": 110,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "No plans or prices are published; the bot-traffic and attribution pages only offer a demo booking.",
+          "zh": "官网未公布套餐或价格；爬虫流量与归因页面只提供预约演示。"
+        },
+        "summary": {
+          "en": "No public pricing; demo booking only.",
+          "zh": "未公开价格；仅可预约演示。"
+        },
+        "sourceUrls": [
+          "https://limy.ai/bot-traffic",
+          "https://limy.ai/limy-attribution"
+        ],
+        "verifiedAt": "2026-11-18"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "Precise bot data requires connecting Limy at your CDN or edge provider. Attribution is measured at the action on your own site, because, as the FAQ notes, no tool can see a purchase inside the AI engine.",
+          "zh": "精确的爬虫数据需要在 CDN 或边缘服务商处接入 Limy。归因以自有网站上的行动为衡量点，因为常见问题写明，任何工具都看不到 AI 引擎内部的购买。"
+        },
+        "summary": {
+          "en": "Needs CDN integration; attribution stops at on-site actions.",
+          "zh": "需 CDN 接入；归因止于站内行动。"
+        },
+        "sourceUrls": [
+          "https://limy.ai/bot-traffic",
+          "https://limy.ai/limy-attribution"
+        ],
+        "verifiedAt": "2026-11-18"
+      },
+      {
+        "description": {
+          "en": "Early data comes from a lightweight tag within the first weeks, and deeper CDN-level attribution follows over later weeks. The terms name Limy AI in New York, while the privacy policy names Limy Analytics Ltd. in Tel Aviv as data controller.",
+          "zh": "最初几周的数据来自轻量标签，更深的 CDN 级归因在之后数周才到位。条款中的主体为纽约的 Limy AI，隐私政策中的数据控制者为特拉维夫的 Limy Analytics Ltd.。"
+        },
+        "summary": {
+          "en": "Full attribution takes weeks; legal entities differ between terms and privacy.",
+          "zh": "完整归因需数周；条款与隐私政策的主体名称不同。"
+        },
+        "sourceUrls": [
+          "https://limy.ai/limy-attribution",
+          "https://limy.ai/legal/terms-and-conditions",
+          "https://limy.ai/legal/privacy-policy"
+        ],
+        "verifiedAt": "2026-11-18"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Choose Limy when you need to see AI crawler behavior and conversions on your own site and can integrate at the CDN layer; it is a demo-led purchase without public prices, so it suits teams already prepared for a sales process.",
+          "zh": "当你需要看到自有网站上的 AI 爬虫行为与转化，且能在 CDN 层接入时选 Limy；它以演示为主、没有公开价格，适合已准备好走销售流程的团队。"
+        },
+        "sourceUrls": [
+          "https://limy.ai/bot-traffic",
+          "https://limy.ai/limy-attribution"
+        ],
+        "verifiedAt": "2026-11-18"
+      }
+    ]
+  },
+  {
+    "slug": "elmo",
+    "name": "Elmo",
+    "category": "ai-visibility",
+    "website": "https://www.elmohq.com/",
+    "logo": null,
+    "description": {
+      "en": "An open-source, MIT-licensed AI visibility platform that tracks how ChatGPT, Claude, Gemini, Perplexity, Google AI features and other models mention and cite your brand; self-host it for free or use the paid Elmo Cloud.",
+      "zh": "一款以 MIT 许可开源的 AI 可见度平台，追踪 ChatGPT、Claude、Gemini、Perplexity、Google AI 功能及其他模型如何提及和引用品牌；可免费自托管，也可使用付费的 Elmo Cloud。"
+    },
+    "tags": {
+      "en": [
+        "Open source",
+        "Self-hosted",
+        "API and MCP"
+      ],
+      "zh": [
+        "开源",
+        "自托管",
+        "API 与 MCP"
+      ]
+    },
+    "features": {
+      "en": [
+        "Track visibility, share of voice, sentiment, position and the sources AI cites, with opportunities ranked by impact.",
+        "Scrape what users see in ChatGPT, Google AI Mode, AI Overviews, Bing AI Mode and Gemini, and query Claude, DeepSeek, Mistral, Qwen, Kimi and OpenRouter models by API.",
+        "Self-host the full product on Docker Compose with a CLI, storing brands, prompts and answers in your own PostgreSQL database.",
+        "Use the REST API, TypeScript and Python SDKs and an MCP server on every Cloud plan and in every self-hosted instance."
+      ],
+      "zh": [
+        "追踪可见度、声量份额、情绪、位置及 AI 引用的来源，并按影响排序机会。",
+        "抓取用户在 ChatGPT、Google AI Mode、AI Overviews、Bing AI Mode 与 Gemini 中看到的内容，并通过 API 查询 Claude、DeepSeek、Mistral、Qwen、Kimi 及 OpenRouter 模型。",
+        "用 CLI 在 Docker Compose 上自托管完整产品，品牌、提示词与回答存放在你自己的 PostgreSQL 数据库中。",
+        "每个 Cloud 套餐与每个自托管实例都提供 REST API、TypeScript 与 Python SDK 以及 MCP 服务器。"
+      ]
+    },
+    "audience": {
+      "en": "Technical marketing teams, developers and agencies that want an open-source AI visibility tracker they can self-host and extend, or a low-cost self-serve hosted plan.",
+      "zh": "希望使用可自托管、可扩展的开源 AI 可见度追踪工具，或低价自助托管套餐的技术型营销团队、开发者与代理机构。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Run AI visibility tracking on your own servers with unlimited prompts and any model, keeping brands, prompts and AI responses in your own database.",
+          "zh": "在自己的服务器上运行 AI 可见度追踪，提示词不限、模型任选，品牌、提示词与 AI 回答都保存在自己的数据库中。"
+        },
+        "summary": {
+          "en": "Self-host tracking with your own database and models.",
+          "zh": "自托管追踪，使用自己的数据库与模型。"
+        },
+        "sourceUrls": [
+          "https://www.elmohq.com/pricing",
+          "https://www.elmohq.com/"
+        ],
+        "verifiedAt": "2026-11-18"
+      },
+      {
+        "description": {
+          "en": "Feed visibility, citation and sentiment data into internal tools or AI coding assistants through the REST API and MCP server, with read-only or read-write keys scoped to brands.",
+          "zh": "通过 REST API 与 MCP 服务器，把可见度、引用与情绪数据接入内部工具或 AI 编程助手，密钥可设为只读或读写并限定品牌。"
+        },
+        "summary": {
+          "en": "Pipe visibility data into tools and agents via API and MCP.",
+          "zh": "通过 API 与 MCP 把可见度数据接入工具和代理。"
+        },
+        "sourceUrls": [
+          "https://www.elmohq.com/pricing"
+        ],
+        "verifiedAt": "2026-11-18"
+      }
+    ],
+    "platforms": [
+      "ChatGPT",
+      "Google AI Mode",
+      "Google AI Overviews",
+      "Bing AI Mode",
+      "Gemini",
+      "Claude",
+      "Perplexity",
+      "Grok",
+      "Meta AI",
+      "DeepSeek",
+      "Mistral",
+      "Qwen",
+      "Kimi"
+    ],
+    "pricing": "Freemium",
+    "sources": [
+      {
+        "label": {
+          "en": "Elmo homepage",
+          "zh": "Elmo 首页"
+        },
+        "url": "https://www.elmohq.com/"
+      },
+      {
+        "label": {
+          "en": "Elmo pricing",
+          "zh": "Elmo 定价"
+        },
+        "url": "https://www.elmohq.com/pricing"
+      },
+      {
+        "label": {
+          "en": "Elmo terms of service",
+          "zh": "Elmo 服务条款"
+        },
+        "url": "https://www.elmohq.com/legal/terms"
+      },
+      {
+        "label": {
+          "en": "Elmo privacy policy",
+          "zh": "Elmo 隐私政策"
+        },
+        "url": "https://www.elmohq.com/legal/privacy"
+      }
+    ],
+    "verifiedAt": "2026-11-18",
+    "status": "published",
+    "featuredOrder": 111,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "Self-hosting is free and open source with no license or per-seat fee; you pay only for your own infrastructure and the AI provider API keys you use.",
+          "zh": "自托管免费且开源，无许可费或按席位收费；只需支付自有基础设施与所用 AI 服务商 API 密钥的费用。"
+        },
+        "summary": {
+          "en": "Self-hosted: free; you pay infrastructure and provider API keys.",
+          "zh": "自托管免费；自付基础设施与服务商 API 费用。"
+        },
+        "sourceUrls": [
+          "https://www.elmohq.com/pricing"
+        ],
+        "verifiedAt": "2026-11-18"
+      },
+      {
+        "description": {
+          "en": "Elmo Cloud: Starter $29/month ($290/year) for 1 brand, 50 prompts, ChatGPT only once a day; Basic $99/month ($990/year) for 1 brand, 50 prompts on any 4 platforms 4 times a day; Pro $299/month ($2,990/year) for 2 brands, 150 prompts and 20 premium prompt-model pairings; Business $649/month ($6,490/year) for 5 brands, 350 prompts and 30 premium pairings. Extra premium pairings are $5/month each; custom and white-label plans are by contact.",
+          "zh": "Elmo Cloud：Starter 每月 29 美元（每年 290 美元），1 个品牌、50 个提示词，仅 ChatGPT、每天 1 次；Basic 每月 99 美元（每年 990 美元），1 个品牌、50 个提示词，任选 4 个平台、每天 4 次；Pro 每月 299 美元（每年 2,990 美元），2 个品牌、150 个提示词及 20 组高级提示词-模型组合；Business 每月 649 美元（每年 6,490 美元），5 个品牌、350 个提示词及 30 组高级组合。额外高级组合每组每月 5 美元；定制与白标套餐需联系。"
+        },
+        "summary": {
+          "en": "Cloud $29 / $99 / $299 / $649 per month (50–350 prompts); annual equals two months free; premium pairings $5/mo extra.",
+          "zh": "Cloud 每月 29／99／299／649 美元（50–350 提示词）；年付相当于免两个月；高级组合每组每月 5 美元。"
+        },
+        "sourceUrls": [
+          "https://www.elmohq.com/pricing"
+        ],
+        "verifiedAt": "2026-11-18"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "Cloud Starter tracks only ChatGPT, and the other Cloud plans let you choose 4 platforms; premium grounded models such as Claude web, Grok web, Meta and Perplexity Sonar run once a day and only on Pro and Business.",
+          "zh": "Cloud Starter 只追踪 ChatGPT，其余 Cloud 套餐可任选 4 个平台；Claude 网页版、Grok 网页版、Meta 与 Perplexity Sonar 等高级引用型模型每天运行 1 次，且仅限 Pro 与 Business。"
+        },
+        "summary": {
+          "en": "Starter ChatGPT only; other plans pick 4 platforms; premium models from Pro.",
+          "zh": "Starter 仅 ChatGPT；其他套餐任选 4 个平台；高级模型自 Pro 起。"
+        },
+        "sourceUrls": [
+          "https://www.elmohq.com/pricing"
+        ],
+        "verifiedAt": "2026-11-18"
+      },
+      {
+        "description": {
+          "en": "Self-hosting needs Docker Compose, a PostgreSQL database and your own provider API keys, and self-hosted instances send usage telemetry unless you set DISABLE_TELEMETRY=1. Self-serve Cloud plans have no service-level agreement.",
+          "zh": "自托管需要 Docker Compose、PostgreSQL 数据库及自备服务商 API 密钥；除非设置 DISABLE_TELEMETRY=1，自托管实例会发送使用遥测。自助 Cloud 套餐没有服务等级协议。"
+        },
+        "summary": {
+          "en": "Self-hosting needs Docker and own API keys; telemetry on by default; no SLA on self-serve.",
+          "zh": "自托管需 Docker 与自备 API 密钥；遥测默认开启；自助套餐无 SLA。"
+        },
+        "sourceUrls": [
+          "https://www.elmohq.com/pricing",
+          "https://www.elmohq.com/legal/terms",
+          "https://www.elmohq.com/legal/privacy"
+        ],
+        "verifiedAt": "2026-11-18"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Choose Elmo when open source, self-hosting and API/MCP access matter, or when you want a low-cost hosted tracker; remember that self-hosting shifts infrastructure, provider costs and maintenance to you, and Cloud plans cap you at four platforms.",
+          "zh": "当你看重开源、自托管与 API/MCP 接入，或想要低价托管追踪工具时选 Elmo；注意自托管会把基础设施、服务商费用与维护工作转给你自己，Cloud 套餐最多选 4 个平台。"
+        },
+        "sourceUrls": [
+          "https://www.elmohq.com/pricing",
+          "https://www.elmohq.com/"
+        ],
+        "verifiedAt": "2026-11-18"
+      }
+    ]
+  },
+  {
+    "slug": "seocrawl",
+    "name": "SEOcrawl AI",
+    "category": "ai-visibility",
+    "website": "https://seocrawl.ai/",
+    "logo": null,
+    "description": {
+      "en": "An SEO and GEO platform that bundles weekly AI prompt tracking across ChatGPT, Gemini, Claude, Perplexity and Google AI Overviews with Search Console and GA4 data, a GA4 AI traffic dashboard, technical SEO tools and an MCP server.",
+      "zh": "一款 SEO 与 GEO 平台，把 ChatGPT、Gemini、Claude、Perplexity 与 Google AI Overviews 上的每周 AI 提示词追踪，与 Search Console 和 GA4 数据、GA4 AI 流量看板、技术 SEO 工具及 MCP 服务器整合在一起。"
+    },
+    "tags": {
+      "en": [
+        "SEO + GEO",
+        "GA4 AI traffic",
+        "MCP"
+      ],
+      "zh": [
+        "SEO 与 GEO",
+        "GA4 AI 流量",
+        "MCP"
+      ]
+    },
+    "features": {
+      "en": [
+        "Track weekly AI prompts, where one prompt is one answer from one AI, across ChatGPT, Gemini, Claude, Perplexity and Google AI Overviews.",
+        "See Search Console clicks and GA4 sessions in the same projects, with an AI Tracker that compares AI traffic with organic traffic by model, landing page, country and language.",
+        "Run technical SEO modules such as crawler, sitemap, monitor, links and alerts on monthly credits.",
+        "Connect AI assistants through an MCP server included on all plans, with white-label reports and a custom CNAME from Pro."
+      ],
+      "zh": [
+        "每周追踪 AI 提示词（1 个提示词等于 1 个 AI 的 1 条回答），覆盖 ChatGPT、Gemini、Claude、Perplexity 与 Google AI Overviews。",
+        "在同一项目中查看 Search Console 点击与 GA4 会话，AI Tracker 按模型、落地页、国家和语言比较 AI 流量与自然流量。",
+        "按月度积分运行爬虫、站点地图、监控、链接与提醒等技术 SEO 模块。",
+        "所有套餐都含 MCP 服务器以接入 AI 助手；自 Pro 起提供白标报告与自定义 CNAME。"
+      ]
+    },
+    "audience": {
+      "en": "SEO freelancers, in-house teams and agencies that want AI prompt tracking inside an existing SEO workflow with Search Console and GA4, rather than a separate GEO-only tool.",
+      "zh": "希望在现有 SEO 工作流中结合 Search Console 与 GA4 做 AI 提示词追踪，而不是另用单独 GEO 工具的 SEO 自由职业者、企业团队与代理机构。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Monitor how ChatGPT, Gemini, Claude, Perplexity and Google AI Overviews mention a brand across many projects, alongside the same projects' Search Console and GA4 data.",
+          "zh": "在多个项目中监测 ChatGPT、Gemini、Claude、Perplexity 与 Google AI Overviews 如何提及品牌，并与这些项目的 Search Console 和 GA4 数据放在一起查看。"
+        },
+        "summary": {
+          "en": "Track AI prompts per project next to Search Console and GA4.",
+          "zh": "按项目追踪 AI 提示词，并与 Search Console、GA4 并列查看。"
+        },
+        "sourceUrls": [
+          "https://seocrawl.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-18"
+      },
+      {
+        "description": {
+          "en": "Measure the sessions, users and key events that ChatGPT, Claude, Perplexity and other assistants send, and which landing pages they reach, straight from GA4.",
+          "zh": "直接从 GA4 衡量 ChatGPT、Claude、Perplexity 等助手带来的会话、用户与关键事件，以及它们到达的落地页。"
+        },
+        "summary": {
+          "en": "Measure AI-referred GA4 traffic by model and landing page.",
+          "zh": "按模型与落地页衡量 GA4 中的 AI 引荐流量。"
+        },
+        "sourceUrls": [
+          "https://seocrawl.ai/ai-tracker"
+        ],
+        "verifiedAt": "2026-11-18"
+      }
+    ],
+    "platforms": [
+      "ChatGPT",
+      "Gemini",
+      "Claude",
+      "Perplexity",
+      "Google AI Overviews"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "SEOcrawl AI pricing",
+          "zh": "SEOcrawl AI 定价"
+        },
+        "url": "https://seocrawl.ai/pricing"
+      },
+      {
+        "label": {
+          "en": "SEOcrawl AI Tracker",
+          "zh": "SEOcrawl AI Tracker 介绍"
+        },
+        "url": "https://seocrawl.ai/ai-tracker"
+      },
+      {
+        "label": {
+          "en": "SEOcrawl legal notice and privacy policy",
+          "zh": "SEOcrawl 法律声明与隐私政策"
+        },
+        "url": "https://seocrawl.ai/legal"
+      }
+    ],
+    "verifiedAt": "2026-11-18",
+    "status": "published",
+    "featuredOrder": 112,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "Monthly prices are €49 (Starter: 250 AI prompts/week, 5 projects, 1 user), €99 (Growth: 1,250 prompts, 25 projects, 5 users), €199 (Pro: 2,500 prompts, 100 projects, 10 users) and €399 (Agency: 6,000 prompts, 200 projects, 25 users). Yearly billing is €396, €792, €1,592 and €3,192 per year. Enterprise starts at 15,000+ prompts a week on a custom annual contract.",
+          "zh": "月付价格为 49 欧元（Starter：每周 250 个 AI 提示词、5 个项目、1 名用户）、99 欧元（Growth：1,250 个提示词、25 个项目、5 名用户）、199 欧元（Pro：2,500 个提示词、100 个项目、10 名用户）与 399 欧元（Agency：6,000 个提示词、200 个项目、25 名用户）。年付分别为每年 396、792、1,592 与 3,192 欧元。Enterprise 每周 15,000 个以上提示词，按定制年度合同。"
+        },
+        "summary": {
+          "en": "Monthly €49 / €99 / €199 / €399 (250–6,000 weekly prompts); yearly €396–€3,192; Enterprise custom.",
+          "zh": "月付 49／99／199／399 欧元（每周 250–6,000 提示词）；年付每年 396–3,192 欧元；Enterprise 定制。"
+        },
+        "sourceUrls": [
+          "https://seocrawl.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-18"
+      },
+      {
+        "description": {
+          "en": "Each paid plan lists a 30-day free trial, and the pricing page lets you switch the displayed currency between EUR, USD, GBP and JPY.",
+          "zh": "每个付费套餐均标注 30 天免费试用，定价页可在欧元、美元、英镑和日元之间切换显示币种。"
+        },
+        "summary": {
+          "en": "30-day free trial; prices shown in EUR with other currencies selectable.",
+          "zh": "30 天免费试用；默认欧元显示，可切换其他币种。"
+        },
+        "sourceUrls": [
+          "https://seocrawl.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-18"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "AI prompts are counted per week, not per day, and each prompt is one answer from one AI, so covering five engines uses five prompts. Copilot tracking is marked as coming soon, and API access starts at the Agency plan.",
+          "zh": "AI 提示词按周而非按天计算，每个提示词等于 1 个 AI 的 1 条回答，覆盖 5 个引擎就要消耗 5 个提示词。Copilot 追踪标注为即将推出，API 访问自 Agency 套餐起提供。"
+        },
+        "summary": {
+          "en": "Weekly prompt budget, one per engine answer; Copilot coming soon; API from Agency.",
+          "zh": "提示词按周计且每引擎每回答计 1 次；Copilot 待上线；API 自 Agency 起。"
+        },
+        "sourceUrls": [
+          "https://seocrawl.ai/pricing",
+          "https://seocrawl.ai/ai-tracker"
+        ],
+        "verifiedAt": "2026-11-18"
+      },
+      {
+        "description": {
+          "en": "The plan cards list the GA4 AI Dashboard on every plan, but the comparison table marks it only from Pro upward; confirm before buying Starter or Growth for AI traffic reporting. The AI Tracker measures GA4 traffic, while brand mentions in answers come from separate prompt tracking.",
+          "zh": "套餐卡片在每档都列出 GA4 AI 看板，但对比表只在 Pro 及以上标为可用；若购买 Starter 或 Growth 用于 AI 流量报告，需先确认。AI Tracker 衡量的是 GA4 流量，回答中的品牌提及需通过单独的提示词追踪查看。"
+        },
+        "summary": {
+          "en": "GA4 AI Dashboard availability conflicts between cards and table; AI Tracker measures traffic, not mentions.",
+          "zh": "GA4 AI 看板在卡片与对比表中说法不一；AI Tracker 衡量流量而非提及。"
+        },
+        "sourceUrls": [
+          "https://seocrawl.ai/pricing",
+          "https://seocrawl.ai/ai-tracker"
+        ],
+        "verifiedAt": "2026-11-18"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Choose SEOcrawl AI when you want AI prompt tracking and AI traffic reporting inside a broader SEO toolkit with Search Console, GA4 and many projects at a low euro price; it is less suited if you need daily sampling or a GEO-only product.",
+          "zh": "当你希望以较低的欧元价格，在含 Search Console、GA4 与多项目管理的更广 SEO 工具集中完成 AI 提示词追踪和 AI 流量报告时选 SEOcrawl AI；若需要每日采样或纯 GEO 产品，则不太适合。"
+        },
+        "sourceUrls": [
+          "https://seocrawl.ai/pricing",
+          "https://seocrawl.ai/ai-tracker"
+        ],
+        "verifiedAt": "2026-11-18"
+      }
+    ]
   }
 ]

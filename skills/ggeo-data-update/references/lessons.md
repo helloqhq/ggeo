@@ -16,7 +16,7 @@
 - 症状：WebFetch 返回在 50,000 UTF-16 单位处截断，或正文被大段 CSS/JS 污染，关键定价表、FAQ 不在返回内容里。
 - 根因：工具对可读化输出设上限；营销页内联样式脚本体积大，挤占正文配额。
 - 修复／预防：不重复抓取同一 URL；直接 Read/Grep 返回末尾「Local page source」给出的完整本地源文件，按标题行号定位段落。注意临时文件约 7 天后可能清理，缺失时才重抓。
-- 记录：首次 2026-11-17 · 最近 2026-11-17 · 命中 6 次 · [轮次记录](../../../docs/data-updates/2026-11-17-batch-reverify.md)
+- 记录：首次 2026-11-17 · 最近 2026-11-18 · 命中 7 次 · [轮次记录](../../../docs/research/2026-11-18-geo-sites.md)
 
 ### L-02 官方定价页 403 时用记录内帮助文档备用入口
 - 症状：工具 sources 中的定价页返回 403（如 birdeye.com/pricing/），金额无法复核。
@@ -57,14 +57,20 @@
 ### L-08 法律页对 bot 403 时用 ego-browser 真实浏览器读取
 - 症状：rankmonster.ai/privacy 与 /terms 对 curl 与 WebFetch 均 403，无法核验运营主体与法律页日期。
 - 根因：厂商对爬虫拦截法律页，但真实浏览器可正常访问（非登录/付费墙）。
-- 修复／预防：改用 ego-browser（ego lite）真实浏览器打开读取，属正常访问而非绕过；先 `ego-browser skill` 遵循指南。仍 403 或需人工验证则记缺口并暂缓，不绕过验证码/付费墙。JS 渲染的定价（Omnia、Sellm、TopCited、GEOBase）同样用 ego-browser 读取。
-- 记录：首次 2026-11-17 · 最近 2026-11-18 · 命中 2 次 · [轮次记录](../../../docs/research/2026-11-17-geo-sites-02.md)
+- 修复／预防：改用 ego-browser（ego lite）真实浏览器打开读取，属正常访问而非绕过；先 `ego-browser skill` 遵循指南。仍 403 或需人工验证则记缺口并暂缓，不绕过验证码/付费墙。JS 渲染的定价（Omnia、Sellm、TopCited、GEOBase）同样用 ego-browser 读取。第三轮 Honeyb、SEOcrawl、ZeroRank、Elmo、Guzu 的定价与法律页全部用 ego-browser 读取；返回超长时改读工具输出目录里已保存的 .output 文件，不重复执行同一脚本。
+- 记录：首次 2026-11-17 · 最近 2026-11-18 · 命中 3 次 · [轮次记录](../../../docs/research/2026-11-18-geo-sites.md)
 
 ### L-09 ego-browser 任务空间收尾用 finish({keep:[]})，keep 不接受 false
 - 症状：`task.finish({keep:false})` 抛 TypeError（keep 须为 "all" 或非空标签数组）；脚本间 JS 变量不共享。
 - 根因：ego lite API 约定 keep 为 "all" 或 Page 标签数组；任务空间/标签跨调用持久，但脚本变量不持久。
-- 修复／预防：收尾先 `await page.close()` 再单独脚本 `await task.finish({keep:[]})`；跨调用用 `taskSpace(<spaceId>)` 恢复并 `(await task.pages())[0]` 取回标签；导航与测量拆成两次调用，evaluate 内不要触发 location.href 跳转。Page 没有 `getByText`/`goBack`，点击用 evaluate 内 `el.click()`；evaluate 回调不能引用 Node 变量，需作为第二参数传入；慢站 `page.goto` 超时但「navigation committed」时直接继续读取，不重开空间。
-- 记录：首次 2026-11-17 · 最近 2026-11-18 · 命中 2 次 · [轮次记录](../../../docs/research/2026-11-17-geo-sites-02.md)
+- 修复／预防：收尾先 `await page.close()` 再单独脚本 `await task.finish({keep:[]})`；跨调用用 `taskSpace(<spaceId>)` 恢复并 `(await task.pages())[0]` 取回标签；导航与测量拆成两次调用，evaluate 内不要触发 location.href 跳转。Page 没有 `getByText`/`goBack`，点击用 evaluate 内 `el.click()`；evaluate 回调不能引用 Node 变量，需作为第二参数传入；慢站 `page.goto` 超时但「navigation committed」时直接继续读取，不重开空间。第三轮 guzu.ai 首页 20 秒超时后同为 committed，继续读取成功；任务空间若在两次校验之间被回收，用同一目标名重新 `taskSpace()` 建空间即可，不要卡在旧 id 上重试。
+- 记录：首次 2026-11-17 · 最近 2026-11-18 · 命中 3 次 · [轮次记录](../../../docs/research/2026-11-18-geo-sites.md)
+
+### L-12 定价页默认展示年付折算价，需切到月付再读
+- 症状：Honeyb 定价页默认勾选 Annual，卡片显示 $23/$63/$159「每月」并注明每年账单，直接读取会把年付折算价当成标准月价；切到 Monthly 后为 $29/$79/$199。SEOcrawl 定价页另有币种选择器，切换后金额随之变化。
+- 根因：定价组件把折扣周期设为默认视图，折算月价与标准月价只差一个开关；币种选择器会改变显示金额而非套餐内容。
+- 修复／预防：读取定价页时先确认当前计费周期与币种标签，必要时点击月付/年付或币种切换后再提取；记录标准月价、年付折算月价与实际年账单分别是什么，促销折扣单独注明期限与性质。切换后重新读取卡片文本，不复用切换前的数值。
+- 记录：首次 2026-11-18 · 最近 2026-11-18 · 命中 1 次 · [轮次记录](../../../docs/research/2026-11-18-geo-sites.md)
 
 ### L-10 法律页存在性以读到的条款正文判定
 - 症状：Sellm 的 /terms、/privacy 对 curl 返回 200，但真实浏览器渲染为 404；GEOBase 法律页在浏览器报客户端 500，curl 的服务端 HTML 却含完整协议正文。
