@@ -16619,5 +16619,243 @@
         "verifiedAt": "2026-11-18"
       }
     ]
+  },
+  {
+    "slug": "agentseo",
+    "name": "AgentSEO",
+    "category": "ai-visibility",
+    "website": "https://www.agentseo.dev/",
+    "logo": null,
+    "description": {
+      "en": "A developer-first SEO and AI-visibility data API that returns compact JSON for SERP analysis, rank tracking, Google AI Overview checks, prompt-set planning, local visibility and LLM mention monitoring through REST, SDKs and a hosted MCP server.",
+      "zh": "面向开发者的 SEO 与 AI 曝光数据 API，通过 REST、SDK 与托管 MCP 服务器返回精简 JSON，用于 SERP 分析、排名追踪、Google AI Overview 检查、提示词集合规划、本地曝光与 LLM 提及监测。"
+    },
+    "tags": {
+      "en": [
+        "SEO API",
+        "AI visibility",
+        "MCP"
+      ],
+      "zh": [
+        "SEO 接口",
+        "AI 曝光",
+        "MCP"
+      ]
+    },
+    "features": {
+      "en": [
+        "Run search, page extraction and SERP analysis endpoints that return compact JSON plus markdown summaries for agent workflows.",
+        "Track keyword and URL rank history, local pack visibility by location, and check whether a query triggers a Google AI Overview with a sampled candidate audit.",
+        "Build a stable AI visibility prompt set mapped to platforms, competitors, owned assets and citations, and track brand mentions across sampled Reddit and X results.",
+        "Connect through REST, JavaScript and Python SDKs, n8n or Make, Claude Code and Claude Desktop, or a hosted MCP server."
+      ],
+      "zh": [
+        "运行搜索、页面提取与 SERP 分析接口，为 Agent 工作流返回精简 JSON 和 Markdown 摘要。",
+        "追踪关键词与 URL 的排名历史、按地点的本地结果曝光，并检查查询是否触发 Google AI Overview 及其抽样候选来源。",
+        "构建映射到平台、竞品、自有资产与引用的稳定 AI 曝光提示词集合，并在抽样的 Reddit 与 X 结果中追踪品牌提及。",
+        "通过 REST、JavaScript 与 Python SDK、n8n 或 Make、Claude Code 与 Claude Desktop，以及托管 MCP 服务器接入。"
+      ]
+    },
+    "audience": {
+      "en": "Developers, SEO engineers and agencies that need SEO and AI-visibility evidence as structured API responses inside agents, apps or automation workflows.",
+      "zh": "需要在 Agent、应用或自动化工作流中以结构化 API 响应获取 SEO 与 AI 曝光证据的开发者、SEO 工程师和代理机构。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Run a weekly AI visibility review: create a stable prompt set for a brand and category, check high-value queries for Google AI Overviews, track sampled LLM mentions, and route missing citations or weak owned assets into the next content plan.",
+          "zh": "执行每周 AI 曝光复盘：为品牌与品类建立稳定提示词集合，检查高价值查询是否出现 Google AI Overview，追踪抽样的 LLM 提及，并把缺失引用或薄弱自有资产转为下一轮内容计划。"
+        },
+        "summary": {
+          "en": "Weekly prompt-set, AI Overview, mention and action-plan review.",
+          "zh": "每周复盘提示词集合、AI Overview、提及与行动计划。"
+        },
+        "sourceUrls": [
+          "https://www.agentseo.dev/docs/workflows",
+          "https://www.agentseo.dev/docs/api-reference/visibility"
+        ],
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "description": {
+          "en": "Queue rank and local visibility checks from an agent: submit a keyword and URL, or a domain with up to five keywords and three locations, then poll the asynchronous job for a completed or failed result.",
+          "zh": "从 Agent 发起排名与本地曝光检查：提交关键词与 URL，或提交域名及最多 5 个关键词和 3 个地点，再轮询异步任务以获取完成或失败结果。"
+        },
+        "summary": {
+          "en": "Async rank and local pack checks from agent workflows.",
+          "zh": "在 Agent 工作流中异步检查排名与本地结果。"
+        },
+        "sourceUrls": [
+          "https://www.agentseo.dev/docs/api-reference/visibility",
+          "https://www.agentseo.dev/docs"
+        ],
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "description": {
+          "en": "Assemble an SEO workflow from endpoints: use content gap, SERP outline, technical QA, internal links and backlink analysis responses to decide what to publish, refresh or fix next.",
+          "zh": "用多个接口组装 SEO 工作流：借助内容缺口、SERP 大纲、技术 QA、内链与反向链接分析结果，判断下一步应发布、更新还是修复什么。"
+        },
+        "summary": {
+          "en": "Compose content, QA and backlink endpoints into one workflow.",
+          "zh": "把内容、QA 与反向链接接口组合成工作流。"
+        },
+        "sourceUrls": [
+          "https://www.agentseo.dev/docs/workflows",
+          "https://www.agentseo.dev/"
+        ],
+        "verifiedAt": "2026-11-19"
+      }
+    ],
+    "platforms": [
+      "Google AI Overviews"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "AgentSEO product overview",
+          "zh": "AgentSEO 产品概览"
+        },
+        "url": "https://www.agentseo.dev/"
+      },
+      {
+        "label": {
+          "en": "AgentSEO developer documentation",
+          "zh": "AgentSEO 开发者文档"
+        },
+        "url": "https://www.agentseo.dev/docs"
+      },
+      {
+        "label": {
+          "en": "Rank and AI visibility API reference",
+          "zh": "排名与 AI 曝光 API 参考"
+        },
+        "url": "https://www.agentseo.dev/docs/api-reference/visibility"
+      },
+      {
+        "label": {
+          "en": "Workflow bundles including weekly AI visibility review",
+          "zh": "工作流包，含每周 AI 曝光复盘"
+        },
+        "url": "https://www.agentseo.dev/docs/workflows"
+      },
+      {
+        "label": {
+          "en": "AgentSEO plans and credit costs",
+          "zh": "AgentSEO 套餐与积分成本"
+        },
+        "url": "https://www.agentseo.dev/pricing"
+      },
+      {
+        "label": {
+          "en": "AgentSEO terms of service",
+          "zh": "AgentSEO 服务条款"
+        },
+        "url": "https://www.agentseo.dev/terms"
+      },
+      {
+        "label": {
+          "en": "AgentSEO privacy policy",
+          "zh": "AgentSEO 隐私政策"
+        },
+        "url": "https://www.agentseo.dev/privacy"
+      }
+    ],
+    "verifiedAt": "2026-11-19",
+    "status": "published",
+    "featuredOrder": 113,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "Hobby is free with 100 one-time live credits and no card. Starter costs $9/month for 2,000 credits, Pro $49/month for 10,000 credits and Agency $149/month for 35,000 credits, billed monthly in USD with a credit cap and no automatic overage charges.",
+          "zh": "Hobby 免费，提供 100 个一次性实时积分且无需绑卡。Starter 为 $9/月含 2,000 积分，Pro 为 $49/月含 10,000 积分，Agency 为 $149/月含 35,000 积分，均按美元月付，设有积分上限且不自动收取超额费用。"
+        },
+        "summary": {
+          "en": "Hobby free 100 one-time credits; Starter $9, Pro $49, Agency $149 per month (USD) with credit caps.",
+          "zh": "Hobby 送 100 一次性积分；Starter $9、Pro $49、Agency $149 每月（美元），均设积分上限。"
+        },
+        "sourceUrls": [
+          "https://www.agentseo.dev/pricing"
+        ],
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "description": {
+          "en": "Credits vary by endpoint: a search of up to 10 results costs 1 credit, an Agent QA workflow 2 credits, a SERP outline 4 credits and a content gap 10 credits; an AI visibility prompt set costs 2 credits and does not run live LLM queries.",
+          "zh": "积分按接口消耗：最多 10 条结果的搜索为 1 积分，Agent QA 工作流 2 积分，SERP 大纲 4 积分，内容缺口 10 积分；AI 曝光提示词集合为 2 积分，且不运行实时 LLM 查询。"
+        },
+        "summary": {
+          "en": "Search 1 credit, Agent QA 2, SERP outline 4, content gap 10; prompt-set 2 credits.",
+          "zh": "搜索 1 积分、Agent QA 2、SERP 大纲 4、内容缺口 10；提示词集合 2 积分。"
+        },
+        "sourceUrls": [
+          "https://www.agentseo.dev/pricing",
+          "https://www.agentseo.dev/docs/api-reference/visibility"
+        ],
+        "verifiedAt": "2026-11-19"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "The AI visibility prompt-set endpoint plans prompts and measurement fields but does not run live LLM queries or call a paid search API. LLM mention tracking samples Reddit and X, and AI Overview checks return a sampled candidate audit rather than a full answer snapshot.",
+          "zh": "AI 曝光提示词集合接口只规划提示词与衡量字段，不运行实时 LLM 查询，也不调用付费搜索 API。LLM 提及追踪抽样 Reddit 与 X，AI Overview 检查返回抽样候选审计，而非完整回答快照。"
+        },
+        "summary": {
+          "en": "Prompt-set is planning only; mentions sample Reddit/X; AI Overviews use sampled candidates.",
+          "zh": "提示词集合仅作规划；提及抽样 Reddit/X；AI Overview 采用抽样候选。"
+        },
+        "sourceUrls": [
+          "https://www.agentseo.dev/docs/api-reference/visibility",
+          "https://www.agentseo.dev/docs/workflows"
+        ],
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "description": {
+          "en": "Plans have a credit cap and no automatic overage: when the monthly allowance is used up, work must wait for replenishment or move to a higher plan. The Hobby allowance is one-time, and the Agency plan's contact button opens an email enquiry rather than online checkout.",
+          "zh": "套餐设有积分上限且不自动超额：月度额度用完后需等待补充或升级套餐。Hobby 额度为一次性，Agency 套餐的联系按钮打开邮件咨询而非在线结账。"
+        },
+        "summary": {
+          "en": "Hard credit cap, no auto overage; Hobby credits one-time.",
+          "zh": "积分硬上限、不自动超额；Hobby 积分为一次性。"
+        },
+        "sourceUrls": [
+          "https://www.agentseo.dev/pricing"
+        ],
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "description": {
+          "en": "Most analysis calls run as asynchronous jobs: a queued response only confirms acceptance, and the caller must poll until the job completes or fails. Local visibility requests accept up to five keywords and three locations each.",
+          "zh": "多数分析调用以异步任务运行：排队响应只表示已受理，调用方需轮询直至任务完成或失败。每次本地曝光请求最多接受 5 个关键词和 3 个地点。"
+        },
+        "summary": {
+          "en": "Async submit-and-poll jobs; local visibility max 5 keywords and 3 locations.",
+          "zh": "异步提交并轮询；本地曝光每次最多 5 关键词、3 地点。"
+        },
+        "sourceUrls": [
+          "https://www.agentseo.dev/docs",
+          "https://www.agentseo.dev/docs/api-reference/visibility"
+        ],
+        "verifiedAt": "2026-11-19"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Choose AgentSEO when you need API-first SEO and AI-visibility evidence inside code or agent workflows, with token-conscious JSON and MCP access. It is a data and evidence layer rather than a dashboard-first monitoring suite, so check sampled AI signals, credit costs and async polling against your reporting cadence.",
+          "zh": "当你需要在代码或 Agent 工作流中以 API 优先的方式获取 SEO 与 AI 曝光证据，并重视精简 JSON 与 MCP 接入时选 AgentSEO。它更像数据与证据层，而非以看板为主的监测套件；应结合抽样 AI 信号、积分成本与异步轮询评估是否匹配报告节奏。"
+        },
+        "sourceUrls": [
+          "https://www.agentseo.dev/",
+          "https://www.agentseo.dev/pricing",
+          "https://www.agentseo.dev/docs"
+        ],
+        "verifiedAt": "2026-11-19"
+      }
+    ]
   }
 ]

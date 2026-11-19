@@ -57,8 +57,8 @@
 ### L-08 法律页对 bot 403 时用 ego-browser 真实浏览器读取
 - 症状：rankmonster.ai/privacy 与 /terms 对 curl 与 WebFetch 均 403，无法核验运营主体与法律页日期。
 - 根因：厂商对爬虫拦截法律页，但真实浏览器可正常访问（非登录/付费墙）。
-- 修复／预防：改用 ego-browser（ego lite）真实浏览器打开读取，属正常访问而非绕过；先 `ego-browser skill` 遵循指南。仍 403 或需人工验证则记缺口并暂缓，不绕过验证码/付费墙。JS 渲染的定价（Omnia、Sellm、TopCited、GEOBase）同样用 ego-browser 读取。第三轮 Honeyb、SEOcrawl、ZeroRank、Elmo、Guzu 的定价与法律页全部用 ego-browser 读取；返回超长时改读工具输出目录里已保存的 .output 文件，不重复执行同一脚本。
-- 记录：首次 2026-11-17 · 最近 2026-11-18 · 命中 3 次 · [轮次记录](../../../docs/research/2026-11-18-geo-sites.md)
+- 修复／预防：改用 ego-browser（ego lite）真实浏览器打开读取，属正常访问而非绕过；先 `ego-browser skill` 遵循指南。仍 403 或需人工验证则记缺口并暂缓，不绕过验证码/付费墙。JS 渲染的定价（Omnia、Sellm、TopCited、GEOBase）同样用 ego-browser 读取。第三轮 Honeyb、SEOcrawl、ZeroRank、Elmo、Guzu 的定价与法律页全部用 ego-browser 读取；返回超长时改读工具输出目录里已保存的 .output 文件，不重复执行同一脚本。Next.js 站点的 `/pricing/index.md` 之类的 agent markdown 入口也可能只返回标题，此时不要反复抓取同一 URL，直接用 ego-browser 读可见正文（AgentSEO 2026-11-19）。
+- 记录：首次 2026-11-17 · 最近 2026-11-19 · 命中 4 次 · [轮次记录](../../../docs/research/2026-11-19-geo-sites.md)
 
 ### L-09 ego-browser 任务空间收尾用 finish({keep:[]})，keep 不接受 false
 - 症状：`task.finish({keep:false})` 抛 TypeError（keep 须为 "all" 或非空标签数组）；脚本间 JS 变量不共享。
