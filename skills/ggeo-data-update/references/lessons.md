@@ -63,8 +63,8 @@
 ### L-09 ego-browser 任务空间收尾用 finish({keep:[]})，keep 不接受 false
 - 症状：`task.finish({keep:false})` 抛 TypeError（keep 须为 "all" 或非空标签数组）；脚本间 JS 变量不共享。
 - 根因：ego lite API 约定 keep 为 "all" 或 Page 标签数组；任务空间/标签跨调用持久，但脚本变量不持久。
-- 修复／预防：收尾先 `await page.close()` 再单独脚本 `await task.finish({keep:[]})`；跨调用用 `taskSpace(<spaceId>)` 恢复并 `(await task.pages())[0]` 取回标签；导航与测量拆成两次调用，evaluate 内不要触发 location.href 跳转。Page 没有 `getByText`/`goBack`，点击用 evaluate 内 `el.click()`；evaluate 回调不能引用 Node 变量，需作为第二参数传入；慢站 `page.goto` 超时但「navigation committed」时直接继续读取，不重开空间。第三轮 guzu.ai 首页 20 秒超时后同为 committed，继续读取成功；任务空间若在两次校验之间被回收，用同一目标名重新 `taskSpace()` 建空间即可，不要卡在旧 id 上重试。
-- 记录：首次 2026-11-17 · 最近 2026-11-18 · 命中 3 次 · [轮次记录](../../../docs/research/2026-11-18-geo-sites.md)
+- 修复／预防：收尾先 `await page.close()` 再单独脚本 `await task.finish({keep:[]})`；跨调用用 `taskSpace(<spaceId>)` 恢复并 `(await task.pages())[0]` 取回标签；导航与测量拆成两次调用，evaluate 内不要触发 location.href 跳转。Page 没有 `getByText`/`goBack`，点击用 evaluate 内 `el.click()`；evaluate 回调不能引用 Node 变量，需作为第二参数传入；慢站 `page.goto` 超时但「navigation committed」时直接继续读取，不重开空间。第三轮 guzu.ai 首页 20 秒超时后同为 committed，继续读取成功；任务空间若在两次校验之间被回收，用同一目标名重新 `taskSpace()` 建空间即可，不要卡在旧 id 上重试。Gmail 等 SPA 的 `goto` 与 `reload` 等待 load 均会超时，重载超时后标题已更新、snapshot 即可读到邮件正文，不必反复重试导航。
+- 记录：首次 2026-11-17 · 最近 2026-11-21 · 命中 4 次 · [轮次记录](../../../docs/data-updates/2026-11-21-checkaivisibility-submission.md)
 
 ### L-12 定价页默认展示年付折算价，需切到月付再读
 - 症状：Honeyb 定价页默认勾选 Annual，卡片显示 $23/$63/$159「每月」并注明每年账单，直接读取会把年付折算价当成标准月价；切到 Monthly 后为 $29/$79/$199。SEOcrawl 定价页另有币种选择器，切换后金额随之变化。
@@ -89,3 +89,9 @@
 - 根因：校验器要求 `site.updatedAt` 不早于任何公开工具的核验日；会话日期在轮次中途变化。
 - 修复／预防：`verifiedAt` 按实际读取官方页的日期记录，同轮把 `data/site.json` 的 `updatedAt` 推进到最大核验日；不改 `data/pages.json` 法律页日期（法律页测试会验证其不随动）。
 - 记录：首次 2026-11-18 · 最近 2026-11-18 · 命中 1 次 · [轮次记录](../../../docs/research/2026-11-17-geo-sites-02.md)
+
+### L-14 selectionNotes 每条渲染一张对比表，保持 1 条
+- 症状：新条目写 2 条 selectionNotes（一条带 alternativeSlug、一条不带），详情页出现两张对比表，第二条回退选中同分类 featuredOrder 最小的工具，与第一张表对比对象相同，内容重复。
+- 根因：`src/templates.mjs` 对 `selectionNotes` 的每个元素各渲染一张对比表；无 `alternativeSlug` 时回退取同分类三项对比资料齐全的第一个工具。既有 113 条数据均为 1 条 selectionNotes，多条没有先例。
+- 修复／预防：默认每条工具只写 1 条 selectionNotes，把多个取舍角度合并进同一条 description（可含 alternativeSlug）；若未来确需多条，先确认每条的对比对象不同且各有双方官方证据，并在预览中检查表格数量。
+- 记录：首次 2026-11-21 · 最近 2026-11-21 · 命中 1 次 · [轮次记录](../../../docs/data-updates/2026-11-21-checkaivisibility-submission.md)

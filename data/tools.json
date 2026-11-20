@@ -16857,5 +16857,230 @@
         "verifiedAt": "2026-11-19"
       }
     ]
+  },
+  {
+    "slug": "checkaivisibility",
+    "name": "CheckAIVisibility",
+    "category": "ai-visibility",
+    "website": "https://checkaivisibility.app/",
+    "logo": null,
+    "description": {
+      "en": "Free AI visibility check for one site: buyer-style questions on OpenAI show whether your brand is mentioned, who is recommended instead and which pages are cited, plus on-site AI readiness checks. The full report is a one-time $9 with 90 answers from OpenAI, Claude and Gemini.",
+      "zh": "对单个网站免费检查 AI 可见性：以购买类问题询问 OpenAI，查看品牌是否被提及、推荐了哪些竞品、引用了哪些页面，并检查站内 AI 就绪度；完整报告为一次性 $9，覆盖 OpenAI、Claude 与 Gemini 共 90 个回答。"
+    },
+    "tags": {
+      "en": [
+        "AI visibility check",
+        "One-time audit",
+        "No subscription"
+      ],
+      "zh": [
+        "AI 可见性检查",
+        "一次性审计",
+        "无订阅"
+      ]
+    },
+    "features": {
+      "en": [
+        "Run a free check of five buyer-style questions on OpenAI with web search and see mention rate, list position and a 0–100 score.",
+        "List recommended competitors with share of voice and every cited page, each labelled with one suggested next action.",
+        "Check on-site AI readiness: robots.txt rules for AI crawlers, llms.txt, JSON-LD, title and meta description, server HTML text and sitemap.xml.",
+        "Upgrade to a 90-answer full report across OpenAI, Claude and Gemini with per-engine scores and one re-check after 30 days."
+      ],
+      "zh": [
+        "免费检查 5 个购买类问题，经 OpenAI 联网回答，查看提及率、列表位置与 0–100 分。",
+        "列出被推荐的竞品及声量占比，并给出每个被引页面及对应的一条行动建议。",
+        "检查站内 AI 就绪度：AI 爬虫的 robots.txt 规则、llms.txt、JSON-LD、标题与 meta 描述、服务端 HTML 正文及 sitemap.xml。",
+        "升级为覆盖 OpenAI、Claude 与 Gemini 共 90 个回答的完整报告，含分引擎得分，30 天后可复查一次。"
+      ]
+    },
+    "audience": {
+      "en": "Founders, indie developers, marketers and agencies who want a one-time check of whether AI assistants recommend their product, without an ongoing subscription.",
+      "zh": "想一次性确认 AI 助手是否推荐自己的产品、又不需要订阅持续监控的创始人、独立开发者、营销人员与代理机构。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Before publishing or a campaign, run the free check to see whether OpenAI mentions your site for buyer-style questions, which competitors it recommends instead and where you place in lists.",
+          "zh": "发布产品或开展推广前，先运行免费检查，查看 OpenAI 在购买类问题中是否提及你的网站、推荐了哪些竞品以及你在列表中的位置。"
+        },
+        "summary": {
+          "en": "Pre-launch brand mention and competitor check.",
+          "zh": "上线前的品牌提及与竞品检查。"
+        },
+        "sourceUrls": [
+          "https://checkaivisibility.app/",
+          "https://checkaivisibility.app/pricing"
+        ],
+        "verifiedAt": "2026-11-21"
+      },
+      {
+        "description": {
+          "en": "Turn the cited-pages list into a work plan: each cited URL is typed as a listicle, Reddit or forum thread, review site, directory, vendor page or news with one next action, then re-run the full report after 30 days to compare what changed.",
+          "zh": "把被引页面清单变成工作计划：每个被引 URL 按榜单文章、Reddit 或论坛帖、评测站、目录、厂商页或新闻分类，并给出一条行动建议；30 天后重跑完整报告对比变化。"
+        },
+        "summary": {
+          "en": "Work the cited-source list, re-check after 30 days.",
+          "zh": "处理被引来源清单，30 天后复查。"
+        },
+        "sourceUrls": [
+          "https://checkaivisibility.app/",
+          "https://checkaivisibility.app/pricing"
+        ],
+        "verifiedAt": "2026-11-21"
+      },
+      {
+        "description": {
+          "en": "Check AI readiness before outreach: confirm robots.txt rules for AI crawlers such as GPTBot, OAI-SearchBot, ChatGPT-User, Google-Extended, PerplexityBot and ClaudeBot, plus llms.txt, JSON-LD and sitemap.xml.",
+          "zh": "对外推广前检查 AI 就绪度：确认 GPTBot、OAI-SearchBot、ChatGPT-User、Google-Extended、PerplexityBot、ClaudeBot 等 AI 爬虫的 robots.txt 规则，以及 llms.txt、JSON-LD 与 sitemap.xml。"
+        },
+        "summary": {
+          "en": "Audit robots.txt, llms.txt, JSON-LD and sitemap for AI crawlers.",
+          "zh": "审计 AI 爬虫的 robots.txt、llms.txt、JSON-LD 与 sitemap。"
+        },
+        "sourceUrls": [
+          "https://checkaivisibility.app/"
+        ],
+        "verifiedAt": "2026-11-21"
+      }
+    ],
+    "platforms": [
+      "ChatGPT",
+      "Claude",
+      "Gemini"
+    ],
+    "pricing": "Freemium",
+    "sources": [
+      {
+        "label": {
+          "en": "CheckAIVisibility official product overview",
+          "zh": "CheckAIVisibility 官方产品概览"
+        },
+        "url": "https://checkaivisibility.app/"
+      },
+      {
+        "label": {
+          "en": "CheckAIVisibility pricing page",
+          "zh": "CheckAIVisibility 定价页"
+        },
+        "url": "https://checkaivisibility.app/pricing"
+      },
+      {
+        "label": {
+          "en": "Peec AI official product features",
+          "zh": "Peec AI 官方产品功能"
+        },
+        "url": "https://peec.ai/"
+      }
+    ],
+    "verifiedAt": "2026-11-21",
+    "status": "published",
+    "featuredOrder": 114,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "The free check costs $0 and includes five buyer-style questions on OpenAI with web search, one run each, mention rate and list position, competitors and cited pages, on-site AI readiness checks and a shareable report link kept for 90 days. It is limited to 3 checks per day per network and does not include a re-check.",
+          "zh": "免费检查价格为 $0，包含 5 个购买类问题（OpenAI 联网回答、每题 1 次）、提及率与列表位置、竞品与被引页面、站内 AI 就绪检查，以及保留 90 天的可分享报告链接；限制为每网络每天 3 次检查，不含复查。"
+        },
+        "summary": {
+          "en": "Free: 5 OpenAI answers, 3 checks/day per network, link kept 90 days.",
+          "zh": "免费 5 个 OpenAI 回答，每网络每天 3 次，链接保留 90 天。"
+        },
+        "sourceUrls": [
+          "https://checkaivisibility.app/",
+          "https://checkaivisibility.app/pricing"
+        ],
+        "verifiedAt": "2026-11-21"
+      },
+      {
+        "description": {
+          "en": "The full report is a one-time $9 payment through Stripe with no account and no subscription. It runs 15 buyer-style questions, 2 runs each, on OpenAI and Claude with web search and on Gemini from model knowledge — 90 answers total — with per-engine scores, one re-check after 30 days and a shareable report link kept for 90 days. The upgrade runs for the same site and keywords confirmed in the free check.",
+          "zh": "完整报告通过 Stripe 一次性支付 $9，无需账户、无订阅。运行 15 个购买类问题、每题 2 次，OpenAI 与 Claude 联网回答、Gemini 依据模型知识回答，共 90 个回答，含分引擎得分、30 天后一次复查，以及保留 90 天的可分享报告链接；升级针对免费检查中确认的同一网站与关键词。"
+        },
+        "summary": {
+          "en": "$9 one-time (Stripe): 90 answers, 3 engines, 30-day re-check, no subscription.",
+          "zh": "一次性 $9（Stripe）：90 个回答、3 个引擎、30 天后复查，无订阅。"
+        },
+        "sourceUrls": [
+          "https://checkaivisibility.app/pricing"
+        ],
+        "verifiedAt": "2026-11-21"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "The free check is limited to 3 checks per day per network.",
+          "zh": "免费检查限制为每网络每天 3 次。"
+        },
+        "summary": {
+          "en": "Free check capped at 3 per day per network.",
+          "zh": "免费检查每网络每天 3 次。"
+        },
+        "sourceUrls": [
+          "https://checkaivisibility.app/"
+        ],
+        "verifiedAt": "2026-11-21"
+      },
+      {
+        "description": {
+          "en": "OpenAI and Claude models answer through their official APIs with web search on, and a Gemini model answers through the Gemini API without web search from model knowledge. The tool does not test Perplexity, Google AI Overviews or the consumer ChatGPT, Claude and Gemini apps, and API answers can differ from what those apps show.",
+          "zh": "OpenAI 与 Claude 模型经官方 API 联网回答，Gemini 模型经 Gemini API 依据模型知识回答、不联网。该工具不测试 Perplexity、Google AI Overviews 及消费端 ChatGPT、Claude、Gemini 应用，API 回答可能与应用内呈现不同。"
+        },
+        "summary": {
+          "en": "API answers only; Gemini without web search; no Perplexity, AI Overviews or consumer apps.",
+          "zh": "仅 API 回答；Gemini 不联网；不含 Perplexity、AI Overviews 与消费端应用。"
+        },
+        "sourceUrls": [
+          "https://checkaivisibility.app/"
+        ],
+        "verifiedAt": "2026-11-21"
+      },
+      {
+        "description": {
+          "en": "It is a one-time audit, not continuous monitoring: the full report asks a fixed set of questions with one re-check after 30 days on the same questions, and the shareable report link is kept for 90 days.",
+          "zh": "它是一次性审计而非持续监控：完整报告对固定问题集合作答，30 天后在同一问题上复查一次；可分享的报告链接保留 90 天。"
+        },
+        "summary": {
+          "en": "One-time audit; single 30-day re-check; report link kept 90 days.",
+          "zh": "一次性审计；30 天后复查一次；链接保留 90 天。"
+        },
+        "sourceUrls": [
+          "https://checkaivisibility.app/",
+          "https://checkaivisibility.app/pricing"
+        ],
+        "verifiedAt": "2026-11-21"
+      },
+      {
+        "description": {
+          "en": "Mentions and competitor names are detected by text matching and cited sources are classified into types by rules, which can be wrong at the edges; AI answers also vary from run to run, so the full report repeats each question twice and shows rates rather than single results.",
+          "zh": "品牌提及与竞品名称靠文本匹配识别，被引来源按规则分类，边界情况可能出错；AI 回答每次运行都可能不同，完整报告将每题重复 2 次并以比率呈现结果。"
+        },
+        "summary": {
+          "en": "Text matching and rule-based typing; answers vary, rates over single results.",
+          "zh": "文本匹配与规则分类；答案有波动，以比率呈现。"
+        },
+        "sourceUrls": [
+          "https://checkaivisibility.app/"
+        ],
+        "verifiedAt": "2026-11-21"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Pick CheckAIVisibility for a one-time, low-cost audit of whether AI models recommend a site and which pages they cite; for daily tracking of many prompts, its own FAQ points to subscription tracking tools instead, which keep a continuous prompt set and dashboards. Within this tool, treat the free check as a quick look from a single engine and the $9 full report as the measurement: each question runs twice across three engines, so one unusual answer carries less weight.",
+          "zh": "需要一次性、低成本审计 AI 模型是否推荐某网站及引用哪些页面时，选择 CheckAIVisibility；若需每日追踪大量提示词，其官方 FAQ 建议改用订阅制追踪工具，后者维持持续提示词集合与看板。在本工具内部，把免费检查当作单引擎的快速查看，把 $9 完整报告当作正式测量：每题在三个引擎各运行 2 次，单个异常回答影响更小。"
+        },
+        "alternativeSlug": "peec-ai",
+        "sourceUrls": [
+          "https://checkaivisibility.app/",
+          "https://checkaivisibility.app/pricing",
+          "https://peec.ai/"
+        ],
+        "verifiedAt": "2026-11-21"
+      }
+    ]
   }
 ]
