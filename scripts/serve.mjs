@@ -16,7 +16,6 @@ const server=createServer(async(req,res)=>{
     const url=new URL(req.url,'http://localhost'),pathname=decodeURIComponent(url.pathname);
     let file=resolve(base,'.'+pathname);
     if((file!==base&&!file.startsWith(base+sep))||pathname.includes('\0')){res.writeHead(400);return res.end();}
-    if(pathname==='/'){res.writeHead(302,{Location:'/en/'+url.search});return res.end();}
     let info;
     try{info=await stat(file);}catch{}
     if(info?.isDirectory()){

@@ -82,8 +82,8 @@ Search Console 使用 `sc-domain:ggeo.ai` 域名资源，通过 Cloudflare 根�
 
 将 `dist/` 作为静态站点根目录发布，使用目录索引路由，支持 `/en/tools/peec-ai/` 这类地址。默认生产域名配置为 `https://ggeo.ai`；改域名时修改 `data/site.json` 的 `url` 后重新构建 canonical、hreflang、sitemap 和 robots。
 
-- Cloudflare Pages / Netlify：构建命令 `npm run build`，发布目录 `dist`；随构建附带 `_redirects` 和 `_headers`。使用平台默认静态 404 行为，不设置 SPA 全路径回退。
-- Nginx：`index index.html;`，配置 `location / { try_files $uri $uri/ =404; }` 及 `error_page 404 /404.html;`，根路径可 301 到 `/en/`。
+- Cloudflare Pages / Netlify：构建命令 `npm run build`，发布目录 `dist`；随构建附带 `_headers`。使用平台默认静态 404 行为，不设置 SPA 全路径回退。
+- Nginx：`index index.html;`，配置 `location / { try_files $uri $uri/ =404; }` 及 `error_page 404 /404.html;`；根路径直接输出英文首页，无需跳转规则。
 - 其他平台：为未知地址返回 `404.html` 与 HTTP 404；不能把所有地址重写为首页并返回 200。
 
-本地服务器已验证真正的 HTTP 404、根路径跳转、目录尾斜杠跳转与模块 MIME 类型；最终部署平台的状态码和规则需在上线后复查。生产环境已发布至 GitHub Pages，自定义域名与 HTTPS 状态以部署记录为准。
+本地服务器已验证真正的 HTTP 404、根路径英文首页、目录尾斜杠跳转与模块 MIME 类型；最终部署平台的状态码和规则需在上线后复查。生产环境已发布至 GitHub Pages，自定义域名与 HTTPS 状态以部署记录为准。

@@ -2,7 +2,7 @@ import {initCookieConsent,clearAnalyticsCookies} from './cookie-consent.mjs';
 
 const tag=document.querySelector('script[data-google-analytics-id]');
 const measurementId=tag?.dataset.googleAnalyticsId;
-const production=measurementId&&location.hostname===tag.dataset.siteHostname&&location.pathname!=='/';
+const production=measurementId&&location.hostname===tag.dataset.siteHostname;
 let loaded=false;
 
 initCookieConsent(analytics=>{

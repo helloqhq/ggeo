@@ -22,10 +22,10 @@ test('GA4 waits for consent and only loads once on production content pages',asy
     runInNewContext(source,{window,document,location:{hostname,pathname,reload:()=>reloads++},initCookieConsent:callback=>{change=callback;callback(initial);},clearAnalyticsCookies:()=>cleans++});
     return {scripts,window,change,get reloads(){return reloads;},get cleans(){return cleans;}};
   };
-  for(const [hostname,pathname,id] of [['127.0.0.1','/en/'],['localhost','/zh/'],['preview.example.com','/en/'],['ggeo.ai','/'],['ggeo.ai','/en/','']]){
+  for(const [hostname,pathname,id] of [['127.0.0.1','/en/'],['localhost','/zh/'],['preview.example.com','/en/'],['ggeo.ai','/en/','']]){
     const result=run(hostname,pathname,true,id);assert.equal(result.scripts.length,0);assert.equal(result.window.dataLayer,undefined);
   }
-  for(const pathname of ['/en/','/zh/tools/peec-ai/','/en/search/']){
+  for(const pathname of ['/','/en/','/zh/tools/peec-ai/','/en/search/']){
     const result=run('ggeo.ai',pathname),{scripts,window}=result;
     assert.equal(scripts.length,0);assert.equal(window.dataLayer,undefined);
     assert.equal(window[`ga-disable-${measurementId}`],true);assert.equal(result.cleans,1);
@@ -252,7 +252,7 @@ test('static server returns real 404s, correct MIME types and redirects without 
     await Promise.race([once(server,'exit').then(()=>{throw new Error(stderr||'Server exited before ready');}),once(server.stdout,'data'),new Promise((_,reject)=>{const timer=setTimeout(()=>reject(new Error('Server timeout')),5000);timer.unref();})]);
     const missing=await fetch('http://127.0.0.1:4329/not-a-page/');assert.equal(missing.status,404);assert.ok((await missing.text()).includes('404'));
     const redirect=await fetch('http://127.0.0.1:4329/en/search?q=hello',{redirect:'manual'});assert.equal(redirect.status,308);assert.equal(redirect.headers.get('location'),'/en/search/?q=hello');
-    const rootRedirect=await fetch('http://127.0.0.1:4329/?q=test',{redirect:'manual'});assert.equal(rootRedirect.status,302);assert.equal(rootRedirect.headers.get('location'),'/en/?q=test');
+    const rootPage=await fetch('http://127.0.0.1:4329/?q=test');assert.equal(rootPage.status,200);const rootHtml=await rootPage.text();assert.ok(rootHtml.includes('rel="canonical" href="https://ggeo.ai/en/"'));assert.ok(!rootHtml.includes('http-equiv="refresh"'));
     const js=await fetch('http://127.0.0.1:4329/assets/app.mjs');assert.equal(js.status,200);assert.match(js.headers.get('content-type'),/javascript/);
     const json=await (await fetch('http://127.0.0.1:4329/assets/directory.json')).json();assert.equal(json.tools.length,original.tools.filter(t=>t.status==='published').length);
   }finally{server.kill();}

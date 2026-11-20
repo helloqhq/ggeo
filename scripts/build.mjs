@@ -22,7 +22,7 @@ export async function build() {
     for(const slug of ['privacy-policy','disclaimer','contact','partner-links'])await emit(`${lang}/${slug}`,render(lang,'page',slug));
   }
   await writeFile(resolve(stage,'404.html'),render('en','404'));
-  await writeFile(resolve(stage,'index.html'),render('en','home').replace('<head>','<head><meta http-equiv="refresh" content="0;url=/en/">'));
+  await writeFile(resolve(stage,'index.html'),render('en','home'));
   const xml=urls.map(path=>`  <url><loc>${e(data.site.url+path)}</loc><lastmod>${data.site.updatedAt}</lastmod><xhtml:link rel="alternate" hreflang="en" href="${e(data.site.url+path.replace('/zh/','/en/'))}"/><xhtml:link rel="alternate" hreflang="zh-CN" href="${e(data.site.url+path.replace('/en/','/zh/'))}"/><xhtml:link rel="alternate" hreflang="x-default" href="${e(data.site.url+path.replace('/zh/','/en/'))}"/></url>`).join('\n');
   await writeFile(resolve(stage,'sitemap.xml'),`<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${xml}\n</urlset>\n`);
   await writeFile(resolve(stage,'robots.txt'),`User-agent: *\nAllow: /\n\nSitemap: ${data.site.url}/sitemap.xml\n`);
