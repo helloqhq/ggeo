@@ -17082,5 +17082,913 @@
         "verifiedAt": "2026-11-21"
       }
     ]
+  },
+  {
+    "slug": "raccoon-ai-geo",
+    "name": "Raccoon AI GEO",
+    "category": "ai-visibility",
+    "website": "https://raccoonai.co/geo",
+    "logo": null,
+    "description": {
+      "en": "Monitor brand mentions, visibility, share of voice, citation rate and AI sentiment across major AI engines, and turn customer-service conversations into GEO articles AI can cite.",
+      "zh": "监测品牌在各主流 AI 引擎中的提及、可见性、声量份额、引用率与 AI 情绪，并把客服对话转化为可被 AI 引用的 GEO 文章。"
+    },
+    "tags": {
+      "en": [
+        "AI visibility",
+        "Citation rate",
+        "GEO content"
+      ],
+      "zh": [
+        "AI 曝光监测",
+        "引用率",
+        "GEO 内容"
+      ]
+    },
+    "features": {
+      "en": [
+        "Track brand mentions, visibility, share of voice, citation rate and AI sentiment on custom prompt sets, with daily monitoring of metric trends and competitor movements across markets and brands.",
+        "Mine real customer-service conversations for the questions buyers actually ask, produce citable GEO articles at scale, and break down which pages AI cites instead of yours."
+      ],
+      "zh": [
+        "在自定义提示词集合上追踪品牌提及、可见性、声量份额、引用率与 AI 情绪，按天监测指标趋势与竞品动向，覆盖多市场与多品牌。",
+        "从真实客服对话中挖掘买家实际问题，批量产出可被引用的 GEO 文章，并拆解 AI 回答引用了哪些页面。"
+      ]
+    },
+    "audience": {
+      "en": "Brands and agencies that want AI recommendation metrics with daily tracking, especially teams already running Raccoon AI customer service whose conversations feed the content workflow.",
+      "zh": "需要 AI 推荐指标与每日追踪的品牌和代理机构；已在运营 Raccoon AI 客服的团队可直接把对话沉淀为内容。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "See where the brand stands in AI answers today: core metrics (brand mentions, visibility, share of voice, citation rate, AI sentiment) plus product-level recommendation results show which product AI recommends, which sources it cites and when it switches to a competitor.",
+          "zh": "查看品牌当前在 AI 回答中的位置：核心指标（品牌提及、可见性、声量份额、引用率、AI 情绪）加上商品级推荐结果，可以看到 AI 推荐哪款商品、引用哪些来源、何时转向竞品。"
+        },
+        "summary": {
+          "en": "Turn 'is AI recommending us' into per-product tracked metrics.",
+          "zh": "把「AI 是否推荐我」变成可追踪的商品级指标。"
+        },
+        "sourceUrls": [
+          "https://raccoonai.co/geo"
+        ],
+        "verifiedAt": "2026-11-23"
+      },
+      {
+        "description": {
+          "en": "Turn conversation insights into citable content and keep tracking: analyze real customer-service conversations for repeated questions and purchase concerns, generate GEO articles, then monitor daily whether visibility and citation share change after content goes live.",
+          "zh": "把对话洞察变成可引用的内容并持续追踪：分析客服对话中的高频问题与购买顾虑，生成 GEO 文章，再按天监测内容上线后可见性与引用份额的变化。"
+        },
+        "summary": {
+          "en": "Conversation-to-article workflow with daily post-publish tracking.",
+          "zh": "对话转文章，并在发布后按天追踪效果。"
+        },
+        "sourceUrls": [
+          "https://raccoonai.co/geo"
+        ],
+        "verifiedAt": "2026-11-23"
+      }
+    ],
+    "platforms": [
+      "ChatGPT",
+      "Google AI Overviews",
+      "Google AI Mode",
+      "Gemini",
+      "Perplexity",
+      "DeepSeek",
+      "Microsoft Copilot"
+    ],
+    "pricing": "Contact Sales",
+    "sources": [
+      {
+        "label": {
+          "en": "Raccoon AI GEO product page",
+          "zh": "Raccoon AI GEO 产品页"
+        },
+        "url": "https://raccoonai.co/geo"
+      },
+      {
+        "label": {
+          "en": "Raccoon AI GEO pricing page",
+          "zh": "Raccoon AI GEO 定价页"
+        },
+        "url": "https://raccoonai.co/geo/pricing"
+      }
+    ],
+    "verifiedAt": "2026-11-23",
+    "status": "published",
+    "featuredOrder": 115,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "Plans are billed per project per month on yearly billing, with no public amounts: Growth covers up to 50 active queries, 3 of 4 listed models (ChatGPT, Google AIO, AI Mode, Gemini), 5 tracking entities, unlimited seats, 3 articles per month and GA integration; Pro covers up to 100 active queries, 5 models (adding Perplexity and DeepSeek), 20 tracking entities, 6 articles per month, GA and Looker integration and multiple regions; Enterprise is custom with white-label support and API access. Yearly discounts are up to 5% on Growth and up to 10% on Pro.",
+          "zh": "套餐按项目按月计费、按年结账，未公开具体金额：Growth 支持最多 50 个活跃查询、4 个指定模型中选 3 个（ChatGPT、Google AIO、AI Mode、Gemini）、5 个追踪实体、不限席位、每月 3 篇文章与 GA 集成；Pro 支持最多 100 个活跃查询、5 个模型（增加 Perplexity 与 DeepSeek）、20 个追踪实体、每月 6 篇文章、GA 与 Looker 集成及多地区；Enterprise 按需定制，含白标与 API。年付折扣 Growth 最高 5%、Pro 最高 10%。"
+        },
+        "summary": {
+          "en": "Yearly-billed per project: Growth ≤50 queries / Pro ≤100 queries; amounts by contact only.",
+          "zh": "按项目按年计费：Growth ≤50 题、Pro ≤100 题；金额需联系销售。"
+        },
+        "sourceUrls": [
+          "https://raccoonai.co/geo/pricing"
+        ],
+        "verifiedAt": "2026-11-23"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "No plan amounts are published; every plan CTA goes to Contact Sales, so pricing cannot be compared self-serve.",
+          "zh": "官网不公布套餐金额，各套餐按钮均为联系销售，无法自助比价。"
+        },
+        "summary": {
+          "en": "No public plan amounts; contact sales only.",
+          "zh": "无公开金额，只能联系销售。"
+        },
+        "sourceUrls": [
+          "https://raccoonai.co/geo/pricing"
+        ],
+        "verifiedAt": "2026-11-23"
+      },
+      {
+        "description": {
+          "en": "The legal links in the footer are the Raccoon AI group-level documents (privacy policy, information security policy, customer terms of service); no GEO-product-specific terms were found on the product site.",
+          "zh": "页脚法律链接为 Raccoon AI 集团级文件（隐私政策、信息安全政策、客户服务条款），产品站内未见 GEO 产品专属条款。"
+        },
+        "summary": {
+          "en": "Legal pages are group-level; no GEO-specific terms.",
+          "zh": "法律文件为集团级，无 GEO 专属条款。"
+        },
+        "sourceUrls": [
+          "https://raccoonai.co/geo"
+        ],
+        "verifiedAt": "2026-11-23"
+      },
+      {
+        "description": {
+          "en": "The GEO article workflow is fed by conversations accumulated through Raccoon AI customer service; teams not using that service do not get the same conversation-sourced topic pipeline.",
+          "zh": "GEO 文章工作流依赖 Raccoon AI 客服积累的对话；未使用该客服产品的团队无法获得同样的对话选题管线。"
+        },
+        "summary": {
+          "en": "Article topics come from Raccoon AI Service conversations.",
+          "zh": "文章选题来自 Raccoon AI 客服对话。"
+        },
+        "sourceUrls": [
+          "https://raccoonai.co/geo"
+        ],
+        "verifiedAt": "2026-11-23"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Compare monitoring coverage with content production. Raccoon AI GEO pairs AI-visibility metrics with articles generated from its own customer-service conversations and bills per project on yearly contracts without public amounts; Peec AI focuses on visibility trends and competitor comparison dashboards and publishes self-serve prices, leaving content work to the team.",
+          "zh": "比较监测覆盖与内容生产。Raccoon AI GEO 把 AI 曝光指标与基于自有客服对话生成的文章绑定，按项目按年计费且不公开金额；Peec AI 聚焦可见性趋势与竞品对比看板，价格公开自助，内容工作留给团队。"
+        },
+        "alternativeSlug": "peec-ai",
+        "sourceUrls": [
+          "https://raccoonai.co/geo",
+          "https://raccoonai.co/geo/pricing"
+        ],
+        "verifiedAt": "2026-11-23"
+      }
+    ]
+  },
+  {
+    "slug": "genmark",
+    "name": "Genmark AI",
+    "category": "ai-visibility",
+    "website": "https://genmark.ai/",
+    "logo": null,
+    "description": {
+      "en": "AI search visibility platform that tracks what eight AI engines say about a brand, explains the competitive gaps behind missed mentions and carries fixes into approval-gated content and site workflows.",
+      "zh": "AI 搜索可见性平台：追踪八个 AI 引擎如何回答品牌相关问题，解释错过提及背后的竞争差距，并把修复推进到带审批的内容与网站工作流。"
+    },
+    "tags": {
+      "en": [
+        "AI visibility",
+        "Competitor analysis",
+        "Content workflow"
+      ],
+      "zh": [
+        "AI 曝光监测",
+        "竞品分析",
+        "内容工作流"
+      ]
+    },
+    "features": {
+      "en": [
+        "Track visibility, share of voice, citations and sentiment per engine across ChatGPT, Gemini, Google AI Overviews, Google AI Mode, Perplexity, Claude, Microsoft Copilot and Grok, with daily, weekly or on-demand refresh.",
+        "Turn gaps into a prioritized work queue with business research audits, weekly Autopilot checks, review-and-approval content drafts and WordPress or Vercel publishing, connected to GA, GSC, Bing Webmaster Tools and Microsoft Clarity."
+      ],
+      "zh": [
+        "按引擎追踪 ChatGPT、Gemini、Google AI Overviews、Google AI Mode、Perplexity、Claude、Microsoft Copilot 与 Grok 中的可见性、声量份额、引用与情绪，支持每日、每周或按需刷新。",
+        "把差距排成优先级工作队列：业务研究审计、每周 Autopilot 检查、带审核的内容草稿与 WordPress/Vercel 发布，可接入 GA、GSC、Bing 站长工具与 Microsoft Clarity。"
+      ]
+    },
+    "audience": {
+      "en": "B2B marketing teams and agencies that want AI search intelligence plus an execution workflow; platform licenses are demo-gated and an expert-led growth program is offered alongside.",
+      "zh": "需要 AI 搜索情报加执行工作流的 B2B 营销团队与代理机构；平台许可需预约演示，另有专家代运营增长计划。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "See which buyer questions name the brand and which competitors win instead: every tracked question shows who the AI picked, why, and the sources it trusts, scored as visibility and share of voice per engine rather than one blended number.",
+          "zh": "查看哪些买家问题提到品牌、哪些竞品胜出：每个追踪问题都记录 AI 选了谁、为什么以及信任哪些来源，并按引擎分别给出可见性与声量份额，不合并成单一分数。"
+        },
+        "summary": {
+          "en": "Per-engine answers with who-won-why and trusted sources.",
+          "zh": "按引擎查看答案、胜出原因与信任来源。"
+        },
+        "sourceUrls": [
+          "https://genmark.ai/",
+          "https://genmark.ai/platform"
+        ],
+        "verifiedAt": "2026-11-23"
+      },
+      {
+        "description": {
+          "en": "Run the intelligence-to-execution loop: organize buyer prompts by intent, connect competitive gaps to offers and existing content, ship reviewable drafts and site fixes through approval workflows, then re-run the same questions to measure what changed.",
+          "zh": "跑通情报到执行的闭环：按意图整理买家提示词，把竞争差距关联到自身业务与已有内容，经审批流程发布可审阅的草稿与网站修复，再重跑同一批问题衡量变化。"
+        },
+        "summary": {
+          "en": "Gap-to-fix loop with approval gates and re-measurement.",
+          "zh": "差距到修复的闭环，带审批与复测。"
+        },
+        "sourceUrls": [
+          "https://genmark.ai/platform"
+        ],
+        "verifiedAt": "2026-11-23"
+      }
+    ],
+    "platforms": [
+      "ChatGPT",
+      "Gemini",
+      "Google AI Overviews",
+      "Google AI Mode",
+      "Perplexity",
+      "Claude",
+      "Microsoft Copilot",
+      "Grok"
+    ],
+    "pricing": "Contact Sales",
+    "sources": [
+      {
+        "label": {
+          "en": "Genmark AI homepage",
+          "zh": "Genmark AI 首页"
+        },
+        "url": "https://genmark.ai/"
+      },
+      {
+        "label": {
+          "en": "Genmark AI platform page",
+          "zh": "Genmark AI 平台页"
+        },
+        "url": "https://genmark.ai/platform"
+      },
+      {
+        "label": {
+          "en": "Genmark AI pricing page",
+          "zh": "Genmark AI 定价页"
+        },
+        "url": "https://genmark.ai/pricing"
+      },
+      {
+        "label": {
+          "en": "Genmark AI terms of service",
+          "zh": "Genmark AI 服务条款"
+        },
+        "url": "https://genmark.ai/legal/terms-of-service"
+      },
+      {
+        "label": {
+          "en": "Genmark AI privacy policy",
+          "zh": "Genmark AI 隐私政策"
+        },
+        "url": "https://genmark.ai/legal/privacy-policy"
+      }
+    ],
+    "verifiedAt": "2026-11-23",
+    "status": "published",
+    "featuredOrder": 116,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "Platform plans and the expert-led growth program are custom: the pricing page quotes no amounts and lists every quota (visibility prompt responses, content creation pieces, business research audits, deep content audits and site readiness checks per month) as Custom across brands and domains. Platform licenses and programs are invoiced on the commercial terms in the agreement.",
+          "zh": "平台套餐与专家代运营计划均为定制：定价页不报金额，可见性提示词响应、内容创作篇数、业务研究审计、深度内容审计与站点就绪检查等各项月度额度对所有品牌与域名均标注 Custom。平台许可与计划按协议约定开票结算。"
+        },
+        "summary": {
+          "en": "All quotas and prices are custom; invoiced per agreement.",
+          "zh": "全部额度与价格定制，按协议开票。"
+        },
+        "sourceUrls": [
+          "https://genmark.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-23"
+      },
+      {
+        "description": {
+          "en": "The Expert-Led Growth program starts with a 3-month pilot with success criteria in writing, then continues on a minimum six-month or annual commitment; scope and pricing are agreed before kickoff.",
+          "zh": "专家代运营增长计划以 3 个月试点开始（书面成功标准），之后至少延续 6 个月或按年签约；范围与价格在启动前商定。"
+        },
+        "summary": {
+          "en": "Expert-led program: 3-month pilot, then 6-month or annual minimum.",
+          "zh": "专家计划：3 个月试点，至少 6 个月或年约。"
+        },
+        "sourceUrls": [
+          "https://genmark.ai/"
+        ],
+        "verifiedAt": "2026-11-23"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "There is no self-serve pricing or trial for the platform; access starts with a demo on the brand, and a 30-minute paid-growth session is the entry point for the expert-led program.",
+          "zh": "平台没有自助价格或试用，需以品牌为对象预约演示；专家计划入口为 30 分钟增长会谈。"
+        },
+        "summary": {
+          "en": "Demo-gated access; no self-serve pricing or trial.",
+          "zh": "需预约演示，无自助价格与试用。"
+        },
+        "sourceUrls": [
+          "https://genmark.ai/pricing",
+          "https://genmark.ai/"
+        ],
+        "verifiedAt": "2026-11-23"
+      },
+      {
+        "description": {
+          "en": "The vendor also runs an expert-led, agency-style growth program (website, positioning, SEO, content and AI search delivered by its team); it is a separate engagement from the platform and does not make the product a pure monitoring tool.",
+          "zh": "厂商同时经营专家代运营式增长计划（由其团队交付网站、定位、SEO、内容与 AI 搜索），与平台属不同合作形态，产品并非纯监测工具。"
+        },
+        "summary": {
+          "en": "Vendor also sells a done-with-you growth program.",
+          "zh": "厂商另有代运营增长计划。"
+        },
+        "sourceUrls": [
+          "https://genmark.ai/"
+        ],
+        "verifiedAt": "2026-11-23"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Compare monitoring depth against execution scope. Genmark AI prices custom, covers eight engines per answer and pushes fixes through approval-gated content workflows; Profound targets enterprise AI search analytics with its own published product structure, leaving delivery to the customer.",
+          "zh": "比较监测深度与执行范围。Genmark AI 定制计价、按八引擎出答案，并把修复推进到带审批的内容工作流；Profound 面向企业级 AI 搜索分析，交付由客户自己完成。"
+        },
+        "alternativeSlug": "profound",
+        "sourceUrls": [
+          "https://genmark.ai/",
+          "https://genmark.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-23"
+      }
+    ]
+  },
+  {
+    "slug": "citeflow",
+    "name": "CiteFlow",
+    "category": "geo-audit",
+    "website": "https://www.citeflow.io/",
+    "logo": null,
+    "description": {
+      "en": "Audit-first AI visibility tool: a free headless-browser scan scores a site across seven dimensions, checks AI crawler access and citability, and paid plans add weekly engine checks plus an Auto-Fix Agent that writes pull requests.",
+      "zh": "审计优先的 AI 可见性工具：免费无头浏览器扫描按七个维度为网站打分、核验 AI 爬虫访问与可引用性；付费套餐增加每周引擎检查，并由 Auto-Fix Agent 生成修复 PR。"
+    },
+    "tags": {
+      "en": [
+        "GEO audit",
+        "AI crawler access",
+        "Auto-fix PRs"
+      ],
+      "zh": [
+        "GEO 审计",
+        "AI 爬虫访问",
+        "自动修复 PR"
+      ]
+    },
+    "features": {
+      "en": [
+        "Score SEO, AEO and GEO lenses across seven dimensions — technical infrastructure, AI crawler access, schema markup, citability, platform optimization, content quality and brand mentions — with every finding tied to a URL, file and fix.",
+        "Weekly Monday checks ask 10 buyer questions on ChatGPT, Perplexity, Gemini and Claude, track up to 2 fixes per site per month with day-7/14/28 re-asks, and the Auto-Fix Agent writes fix PRs; daily crawler alerts and rescans included."
+      ],
+      "zh": [
+        "按 SEO、AEO、GEO 三个视角为七个维度打分——技术基础设施、AI 爬虫访问、结构化数据、可引用性、平台优化、内容质量与品牌提及——每条发现都附带 URL、文件与修复方式。",
+        "每周一在 ChatGPT、Perplexity、Gemini 与 Claude 上提出 10 个买家问题，按站点每月追踪最多 2 个修复并在第 7/14/28 天复测，Auto-Fix Agent 生成修复 PR；含每日爬虫告警与重扫。"
+      ]
+    },
+    "audience": {
+      "en": "Developers, marketing teams and SEO agencies that want audit findings shipped as pull requests through their own code workflow.",
+      "zh": "希望把审计发现以 PR 形式接入自己代码工作流的开发者、营销团队与 SEO 代理。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Run a free scan on any public URL: a real headless-browser crawl scores seven AI visibility dimensions in under 30 seconds, reports which of the audited crawlers are let in or blocked with exact locations, and returns a 0-100 score with prioritized issues.",
+          "zh": "对任意公开 URL 免费扫描：真实无头浏览器抓取在 30 秒内为七个 AI 可见性维度打分，报告 12 个受审爬虫各自的放行或拦截位置，并给出 0-100 分与按优先级排序的问题清单。"
+        },
+        "summary": {
+          "en": "Free 30-second scan with per-crawler access report.",
+          "zh": "免费 30 秒扫描，逐爬虫报告访问权限。"
+        },
+        "sourceUrls": [
+          "https://www.citeflow.io/"
+        ],
+        "verifiedAt": "2026-11-23"
+      },
+      {
+        "description": {
+          "en": "Subscribe to keep measuring and shipping: weekly engine checks with a ranked next-move list, tracked fixes re-checked on days 7, 14 and 28, Auto-Fix Agent runs that draft PRs, daily crawler alerts and up to 15 rescans a day on Standard.",
+          "zh": "订阅后持续测量与交付：每周引擎检查给出按优先级排序的下一步清单，被追踪的修复在第 7、14、28 天复测，Auto-Fix Agent 起草修复 PR，含每日爬虫告警与 Standard 每天 15 次重扫。"
+        },
+        "summary": {
+          "en": "Weekly engine checks plus Auto-Fix PRs on paid plans.",
+          "zh": "付费套餐含每周引擎检查与 Auto-Fix PR。"
+        },
+        "sourceUrls": [
+          "https://www.citeflow.io/pricing"
+        ],
+        "verifiedAt": "2026-11-23"
+      }
+    ],
+    "platforms": [
+      "ChatGPT",
+      "Perplexity",
+      "Gemini",
+      "Claude"
+    ],
+    "pricing": "Freemium",
+    "sources": [
+      {
+        "label": {
+          "en": "CiteFlow homepage",
+          "zh": "CiteFlow 首页"
+        },
+        "url": "https://www.citeflow.io/"
+      },
+      {
+        "label": {
+          "en": "CiteFlow pricing page",
+          "zh": "CiteFlow 定价页"
+        },
+        "url": "https://www.citeflow.io/pricing"
+      },
+      {
+        "label": {
+          "en": "CiteFlow about page",
+          "zh": "CiteFlow 关于页"
+        },
+        "url": "https://www.citeflow.io/about"
+      },
+      {
+        "label": {
+          "en": "CiteFlow terms of service",
+          "zh": "CiteFlow 服务条款"
+        },
+        "url": "https://www.citeflow.io/terms-of-service"
+      }
+    ],
+    "verifiedAt": "2026-11-23",
+    "status": "published",
+    "featuredOrder": 117,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "The free plan covers 1 total URL slot with no rescans or reports. Standard is $49/month or $399/year (an effective $33/month, a 32% saving): one website, weekly 10-question checks on four engines, up to 2 tracked fixes per site per month, 2 Auto-Fix Agent runs per month, 15 rescans per day, 3 visibility executive reports per month and daily crawler alerts; extra site slots cost $9.99 each. Pro is $149/month or $1,240/year (effective $103/month) for five websites with 10 runs, 10 reports and 50 rescans per day. Agency is $299/month. Monthly is the default view; annual pays 12 months up front while monthly quotas still refill.",
+          "zh": "免费版含 1 个 URL 名额，无重扫与报告。Standard 为每月 49 美元或每年 399 美元（折合每月 33 美元，省 32%）：1 个网站、每周在 4 个引擎上提出 10 个问题、每站点每月追踪最多 2 个修复、每月 2 次 Auto-Fix Agent、每天 15 次重扫、每月 3 份可见性报告与每日爬虫告警；额外站点名额每个 9.99 美元。Pro 为每月 149 美元或每年 1,240 美元（折合每月 103 美元），覆盖 5 个网站、每月 10 次执行、10 份报告与每天 50 次重扫。Agency 为每月 299 美元。页面默认月付；年付一次付 12 个月，月度额度照常刷新。"
+        },
+        "summary": {
+          "en": "Free 1 slot; Standard $49/mo ($399/yr); Pro $149/mo; Agency $299/mo.",
+          "zh": "免费 1 名额；Standard 每月 49 美元（年 399）；Pro 每月 149；Agency 每月 299。"
+        },
+        "sourceUrls": [
+          "https://www.citeflow.io/pricing"
+        ],
+        "verifiedAt": "2026-11-23"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "Visibility checks run on four engines (ChatGPT, Perplexity, Gemini and Claude) with 10 questions per week per site; the crawler audit covers a fixed list of 12 crawlers such as GPTBot, ClaudeBot, PerplexityBot and Google-Extended.",
+          "zh": "可见性检查覆盖 4 个引擎（ChatGPT、Perplexity、Gemini、Claude），每站点每周 10 个问题；爬虫审计覆盖 GPTBot、ClaudeBot、PerplexityBot、Google-Extended 等 12 个固定爬虫名单。"
+        },
+        "summary": {
+          "en": "4 engines for checks; fixed 12-crawler audit list.",
+          "zh": "检查覆盖 4 引擎；爬虫审计为固定 12 个名单。"
+        },
+        "sourceUrls": [
+          "https://www.citeflow.io/",
+          "https://www.citeflow.io/pricing"
+        ],
+        "verifiedAt": "2026-11-23"
+      },
+      {
+        "description": {
+          "en": "The about page says Standard includes up to 3 website URL slots, while the pricing page FAQ states one website with extra slots at $9.99; the pricing page is treated as the operative source and the discrepancy should be confirmed before purchase.",
+          "zh": "关于页称 Standard 含最多 3 个站点名额，定价页 FAQ 则写明 1 个网站、额外名额每个 9.99 美元；本记录以定价页为准，购买前应确认口径。"
+        },
+        "summary": {
+          "en": "About page and pricing page disagree on Standard slot count.",
+          "zh": "关于页与定价页对 Standard 名额数说法不一。"
+        },
+        "sourceUrls": [
+          "https://www.citeflow.io/about",
+          "https://www.citeflow.io/pricing"
+        ],
+        "verifiedAt": "2026-11-23"
+      },
+      {
+        "description": {
+          "en": "The operator is named as AgentAxis Corp in the terms and about page; the governing-law clause points to the jurisdiction where AgentAxis Corp is established without naming it, and no registered address is published.",
+          "zh": "条款与关于页将运营主体写为 AgentAxis Corp；管辖法条指向其注册地司法辖区但未写明具体法域，官网亦未公布注册地址。"
+        },
+        "summary": {
+          "en": "Operator AgentAxis Corp; governing jurisdiction unnamed.",
+          "zh": "运营主体 AgentAxis Corp，未公布注册地与具体法域。"
+        },
+        "sourceUrls": [
+          "https://www.citeflow.io/terms-of-service",
+          "https://www.citeflow.io/about"
+        ],
+        "verifiedAt": "2026-11-23"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Compare audit depth against delivery format. CiteFlow scores seven site dimensions, reports per-crawler access and ships fixes as Auto-Fix Agent pull requests on a four-engine weekly check; Seomator's GEO audit is a report-style site audit without an in-product fix-delivery loop.",
+          "zh": "比较审计深度与交付形式。CiteFlow 为七个站点维度打分、逐爬虫报告访问权限，并通过 Auto-Fix Agent 以 PR 形式交付修复，配合四引擎每周检查；Seomator 的 GEO 审计以报告形式交付，产品内没有修复交付闭环。"
+        },
+        "alternativeSlug": "seomator-geo-audit",
+        "sourceUrls": [
+          "https://www.citeflow.io/",
+          "https://www.citeflow.io/pricing"
+        ],
+        "verifiedAt": "2026-11-23"
+      }
+    ]
+  },
+  {
+    "slug": "cuescout",
+    "name": "CueScout",
+    "category": "ai-visibility",
+    "website": "https://cuescout.com/",
+    "logo": null,
+    "description": {
+      "en": "Weekly buyer-question tracking on ChatGPT, Claude and Google engines that records who each answer names, keeps the cited pages as evidence and turns gaps into site fixes; an 18-tool free suite needs no signup.",
+      "zh": "每周在 ChatGPT、Claude 与 Google 引擎上追踪买家提问，记录每个回答点名了谁、把被引页面留作证据，并把差距转化为网站修复建议；另附 18 个免注册免费工具。"
+    },
+    "tags": {
+      "en": [
+        "AI visibility",
+        "Share of voice",
+        "Free tools"
+      ],
+      "zh": [
+        "AI 曝光监测",
+        "声量份额",
+        "免费工具"
+      ]
+    },
+    "features": {
+      "en": [
+        "Ask a fixed set of buyer questions weekly and record whether each answer names your brand or a competitor, with share-of-AI-voice reporting across the question set.",
+        "Keep the pages each answer cites as evidence, generate site fixes with that evidence attached, and keep checking whether the engines start naming you; free check and tools work without signup."
+      ],
+      "zh": [
+        "每周提出固定的一组买家问题，记录每个回答点名了你的品牌还是竞品，并按问题集合报告 AI 声量份额。",
+        "把每个回答引用的页面留作证据，生成附带证据的网站修复建议，并持续检查引擎是否开始点名你；免费检查与工具无需注册。"
+      ]
+    },
+    "audience": {
+      "en": "Small businesses and solo marketers that want to know whether AI names their business, run as a solo-founder product with no demo wall.",
+      "zh": "想知道 AI 是否点名自己业务的小企业与独立营销人；产品由独立开发者运营，无演示墙。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Track a weekly question set: CueScout asks your buyer questions on the covered engines, reports how often AI names each brand across the set with share of AI voice, and keeps the last check's explanations per question.",
+          "zh": "追踪每周问题集：CueScout 在覆盖引擎上提出买家问题，按问题集报告各品牌被 AI 点名的频率与 AI 声量份额，并保留上次检查的分题解释。"
+        },
+        "summary": {
+          "en": "Weekly question set with share-of-AI-voice report.",
+          "zh": "每周问题集，报告 AI 声量份额。"
+        },
+        "sourceUrls": [
+          "https://cuescout.com/",
+          "https://cuescout.com/pricing"
+        ],
+        "verifiedAt": "2026-11-23"
+      },
+      {
+        "description": {
+          "en": "Start free without signup: the homepage check asks three buyer questions on ChatGPT, Claude and Google, and the 18 tools on /tools (citation source radar, visibility checker, query fan-out and more) run with per-network daily limits, email required only for the citation radar.",
+          "zh": "免注册免费起步：首页检查在 ChatGPT、Claude 与 Google 上提出 3 个买家问题；/tools 下 18 个工具（引用来源雷达、可见性检查器、查询扇出等）按网络设每日次数限制，仅引用雷达需要邮箱。"
+        },
+        "summary": {
+          "en": "Free 3-question check plus 18 no-signup tools.",
+          "zh": "免费 3 题检查＋18 个免注册工具。"
+        },
+        "sourceUrls": [
+          "https://cuescout.com/pricing",
+          "https://cuescout.com/tools"
+        ],
+        "verifiedAt": "2026-11-23"
+      }
+    ],
+    "platforms": [
+      "ChatGPT",
+      "Claude",
+      "Google AI Overviews",
+      "Gemini",
+      "Google AI Mode"
+    ],
+    "pricing": "Freemium",
+    "sources": [
+      {
+        "label": {
+          "en": "CueScout homepage",
+          "zh": "CueScout 首页"
+        },
+        "url": "https://cuescout.com/"
+      },
+      {
+        "label": {
+          "en": "CueScout pricing page",
+          "zh": "CueScout 定价页"
+        },
+        "url": "https://cuescout.com/pricing"
+      },
+      {
+        "label": {
+          "en": "CueScout about page",
+          "zh": "CueScout 关于页"
+        },
+        "url": "https://cuescout.com/about"
+      },
+      {
+        "label": {
+          "en": "CueScout terms of service",
+          "zh": "CueScout 服务条款"
+        },
+        "url": "https://cuescout.com/terms"
+      },
+      {
+        "label": {
+          "en": "CueScout free tools",
+          "zh": "CueScout 免费工具"
+        },
+        "url": "https://cuescout.com/tools"
+      }
+    ],
+    "verifiedAt": "2026-11-23",
+    "status": "published",
+    "featuredOrder": 118,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "Starter is $49/month for 20 buyer questions asked every week on ChatGPT, Claude and Google AI Overviews with 150 chat credits a month; Growth is $189/month for 100 questions and adds Gemini and Google AI Mode with 600 credits. A year costs ten months ($490 Starter, $1,890 Growth). Monthly credits roll over up to one month's worth and pack credits last 12 months. Prices last changed on October 7, 2026; checkout, renewals, cancellations and refunds are handled by Polar as merchant of record.",
+          "zh": "Starter 每月 49 美元：每周在 ChatGPT、Claude 与 Google AI Overviews 上提出 20 个买家问题，每月 150 个对话积分；Growth 每月 189 美元：100 个问题并增加 Gemini 与 Google AI Mode，每月 600 积分。年付按 10 个月计（Starter 490 美元、Growth 1,890 美元）。月度积分最多滚存一个月用量，积分包有效期 12 个月。价格最近于 2026 年 10 月 7 日调整；结账、续费、取消与退款由 Polar 作为记录商户处理。"
+        },
+        "summary": {
+          "en": "Starter $49/mo (20 questions); Growth $189/mo (100 questions); yearly = 10 months.",
+          "zh": "Starter 每月 49 美元（20 题）；Growth 每月 189 美元（100 题）；年付按 10 个月计。"
+        },
+        "sourceUrls": [
+          "https://cuescout.com/pricing",
+          "https://cuescout.com/terms"
+        ],
+        "verifiedAt": "2026-11-23"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "CueScout is built and run by a named solo founder; no registered company is disclosed, with billing, refunds and compliance routed through Polar as merchant of record.",
+          "zh": "CueScout 由实名独立开发者构建运营，未披露注册公司；结账、退款与合规由 Polar 作为记录商户处理。"
+        },
+        "summary": {
+          "en": "Solo-founder product; billing via Polar as merchant of record.",
+          "zh": "独立开发者产品，Polar 代收结算。"
+        },
+        "sourceUrls": [
+          "https://cuescout.com/about",
+          "https://cuescout.com/terms"
+        ],
+        "verifiedAt": "2026-11-23"
+      },
+      {
+        "description": {
+          "en": "Starter tracks ChatGPT, Claude and Google AI Overviews only; Gemini and Google AI Mode require the Growth plan, and weekly recurring tracking is paid — the free tier is a one-off 3-question check plus rate-limited tools.",
+          "zh": "Starter 仅追踪 ChatGPT、Claude 与 Google AI Overviews；Gemini 与 Google AI Mode 需 Growth 套餐。每周持续追踪为付费功能——免费档只是 3 题一次性检查加限量工具。"
+        },
+        "summary": {
+          "en": "Growth plan required for Gemini and Google AI Mode.",
+          "zh": "Gemini 与 Google AI Mode 需 Growth 套餐。"
+        },
+        "sourceUrls": [
+          "https://cuescout.com/pricing"
+        ],
+        "verifiedAt": "2026-11-23"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Compare recurring tracking against one-off checking. CueScout re-asks a fixed buyer-question set every week with share-of-voice reports and evidence-backed site fixes on a subscription; CheckAIVisibility runs a one-off free multi-engine check whose full paid report is a single $9 deep-dive, so it suits spot checks rather than weekly monitoring.",
+          "zh": "比较持续追踪与一次性检查。CueScout 按订阅每周重问固定买家问题集，产出声量份额报告与带证据的修复建议；CheckAIVisibility 提供一次性免费多引擎检查，9 美元完整报告为单次深度分析，适合临时抽查而非每周监测。"
+        },
+        "alternativeSlug": "checkaivisibility",
+        "sourceUrls": [
+          "https://cuescout.com/pricing",
+          "https://cuescout.com/about"
+        ],
+        "verifiedAt": "2026-11-23"
+      }
+    ]
+  },
+  {
+    "slug": "toujing-geo",
+    "name": "透镜GEO",
+    "category": "ai-visibility",
+    "website": "https://geo.timus.cn/",
+    "logo": null,
+    "description": {
+      "en": "Chinese-language GEO monitoring platform by TIMUS.AI that tracks brand rankings, sentiment and citation sources on five Chinese AI engines with real-account collection, plus an e-commerce edition that monitors AI product cards in Doubao and Qwen apps.",
+      "zh": "TIMUS.AI 旗下的中文 GEO 监测平台：以真实账号采集方式追踪品牌在五个中文 AI 引擎中的排名、舆情与引用来源，并提供监测豆包与千问 APP 内 AI 商品卡的电商版。"
+    },
+    "tags": {
+      "en": [
+        "Chinese AI search",
+        "Brand monitoring",
+        "E-commerce cards"
+      ],
+      "zh": [
+        "中文 AI 搜索",
+        "品牌监测",
+        "电商商品卡"
+      ]
+    },
+    "features": {
+      "en": [
+        "Daily monitoring of brand rankings, sentiment, search snapshots and citation sources on five Chinese AI engines (Doubao, DeepSeek, ERNIE, Qwen, Tencent Yuanbao), with web and app endpoints and one-off brand diagnosis without a subscription.",
+        "E-commerce edition tracks AI product cards in Doubao and Qwen apps — brand-card share, top-3 rate and first-card rate per question — with archived card evidence covering titles, prices, stores and sales copy."
+      ],
+      "zh": [
+        "按天监测五个中文 AI 引擎（豆包、DeepSeek、文心一言、通义千问、元宝）中的品牌排名、舆情、搜索快照与引用来源，支持网页端与 APP 端，并可不经订阅先做单次品牌诊断。",
+        "电商版追踪豆包与千问 APP 内的 AI 商品卡——按问题统计品牌卡展现率、Top3 卡率与首卡率，并归档标题、价格、店铺与销量文案等卡面证据。"
+      ]
+    },
+    "audience": {
+      "en": "Teams monitoring how Chinese AI engines rank and describe their brand, and e-commerce brands that want AI product-card exposure in Doubao and Qwen apps; the flagship tier targets multi-brand groups.",
+      "zh": "需要监测中文 AI 引擎如何排名与描述自身品牌的团队，以及关心豆包、千问 APP 内 AI 商品卡曝光的电商品牌；旗舰版面向集团与多品牌企业。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Monitor a brand on Chinese AI engines before committing to a programme: the free tier covers 3 questions on 3 web engines with real-account collection, ranking analysis and sentiment analysis, and a one-off diagnosis runs without a subscription.",
+          "zh": "在长期投入前先在中文 AI 引擎上监测品牌：免费版覆盖 3 个监控问题、3 个网页端引擎，具备真实账号采集、品牌排名分析与品牌舆情分析；单次品牌诊断无需订阅。"
+        },
+        "summary": {
+          "en": "Free 3-question start plus one-off diagnosis without subscription.",
+          "zh": "免费 3 题起步，单次诊断无需订阅。"
+        },
+        "sourceUrls": [
+          "https://geo.timus.cn/pricing"
+        ],
+        "verifiedAt": "2026-11-23"
+      },
+      {
+        "description": {
+          "en": "Track AI shopping exposure with the e-commerce edition: users asking 'which brand is good' in Doubao or Qwen apps get clickable product cards, and the platform monitors which questions show your card versus competitor cards, with card-face evidence archived including titles, prices, stores and sales copy.",
+          "zh": "用电商版追踪 AI 购物曝光：用户在豆包或千问 APP 问「什么牌子好」会得到可点击商品卡，平台监测哪些问题出你的卡、哪些只出竞品卡，并归档标题、价格、店铺与销量文案等卡面证据。"
+        },
+        "summary": {
+          "en": "Product-card monitoring with archived card evidence.",
+          "zh": "商品卡监测，卡面证据归档。"
+        },
+        "sourceUrls": [
+          "https://geo.timus.cn/pricing"
+        ],
+        "verifiedAt": "2026-11-23"
+      }
+    ],
+    "platforms": [
+      "Doubao",
+      "DeepSeek",
+      "ERNIE",
+      "Qwen",
+      "Tencent Yuanbao"
+    ],
+    "pricing": "Freemium",
+    "sources": [
+      {
+        "label": {
+          "en": "Lens GEO homepage (geo.timus.cn)",
+          "zh": "透镜GEO 首页（geo.timus.cn）"
+        },
+        "url": "https://geo.timus.cn/"
+      },
+      {
+        "label": {
+          "en": "Lens GEO pricing page",
+          "zh": "透镜GEO 定价页"
+        },
+        "url": "https://geo.timus.cn/pricing"
+      },
+      {
+        "label": {
+          "en": "Lens GEO about page",
+          "zh": "透镜GEO 关于页"
+        },
+        "url": "https://geo.timus.cn/about"
+      }
+    ],
+    "verifiedAt": "2026-11-23",
+    "status": "published",
+    "featuredOrder": 119,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "Monitoring is priced per brand subscription in CNY: the free tier is ¥0 with 3 monitored questions on 3 web engines; Starter is ¥79/month with 8 questions and all five engines selectable on web or app; Basic is ¥199/month with 30 questions and a dedicated account manager; Professional is ¥499/month with 100 questions and 7x24 support. The e-commerce edition is quote-fixed by selection: 30 questions app-only ¥439/month, app plus web ¥638/month, 100 questions app-only ¥799/month, app plus web ¥1,298/month. All paid tiers take 20% off for 3 months and 30% off for 12 months, and credits (¥1 = 10 credits) can offset payment. Copywriting and media placement are billed separately by credits.",
+          "zh": "监测按品牌订阅以人民币计价：免费版 ¥0，含 3 个监控问题、3 个网页端引擎；入门版 ¥79/月，8 题，五大引擎按网页端或 APP 端选择；基础版 ¥199/月，30 题并配专属客户经理；专业版 ¥499/月，100 题加 7×24 小时技术支持。电商版按选配一口价：30 题 APP 端 ¥439/月、APP+网页端 ¥638/月，100 题 APP 端 ¥799/月、APP+网页端 ¥1,298/月。付费档 3 个月 8 折、12 个月 7 折，积分（¥1=10 积分）可抵现。撰稿与发稿按积分另行计费。"
+        },
+        "summary": {
+          "en": "Free tier ¥0; ¥79/¥199/¥499 per month by question volume; e-commerce edition from ¥439/month.",
+          "zh": "免费版 ¥0；按题量 ¥79/¥199/¥499 每月；电商版 ¥439/月起。"
+        },
+        "sourceUrls": [
+          "https://geo.timus.cn/pricing"
+        ],
+        "verifiedAt": "2026-11-23"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "The site publishes no standalone privacy policy or terms-of-service page; operator information (company name, address, phone and the ICP filing number) is disclosed in the page footer.",
+          "zh": "官网未提供独立的隐私政策或服务条款页面；运营主体信息（公司名、地址、电话与 ICP 备案号）在页脚披露。"
+        },
+        "summary": {
+          "en": "No standalone legal pages; operator disclosed in footer.",
+          "zh": "无独立法律页；主体信息在页脚。"
+        },
+        "sourceUrls": [
+          "https://geo.timus.cn/pricing",
+          "https://geo.timus.cn/about"
+        ],
+        "verifiedAt": "2026-11-23"
+      },
+      {
+        "description": {
+          "en": "The platform also sells copywriting, media placement and managed-operation services (billed by credits or custom quotes); monitoring and content services are billed separately, so it is not a pure monitoring tool.",
+          "zh": "平台同时提供撰稿、发稿与专属代运营服务（按积分或定制报价）；监测与内容服务分开计费，并非纯监测工具。"
+        },
+        "summary": {
+          "en": "Also sells content publishing and managed services, billed separately.",
+          "zh": "另有撰稿发稿与代运营业务，分开计费。"
+        },
+        "sourceUrls": [
+          "https://geo.timus.cn/pricing"
+        ],
+        "verifiedAt": "2026-11-23"
+      },
+      {
+        "description": {
+          "en": "The pricing page notes that supported AI models may adjust dynamically with each platform's situation and actual service prevails; the e-commerce product-card coverage currently lists Doubao and Qwen apps with Tencent Yuanbao marked as upcoming.",
+          "zh": "定价页注明当前支持的 AI 模型覆盖范围可能随各平台情况动态调整，以实际服务为准；电商商品卡目前列出豆包与千问 APP，元宝 APP 标注即将上线。"
+        },
+        "summary": {
+          "en": "Engine coverage may change; Yuanbao cards marked upcoming.",
+          "zh": "引擎覆盖可能调整；元宝商品卡标注即将上线。"
+        },
+        "sourceUrls": [
+          "https://geo.timus.cn/pricing"
+        ],
+        "verifiedAt": "2026-11-23"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Compare Chinese-engine monitoring styles. Lens GEO publishes self-serve CNY pricing with app-end real-account collection and e-commerce product-card tracking; MicoSeek emphasizes brand knowledge-base consistency checks with credit-metered detection and no confirmed public unit price.",
+          "zh": "比较中文引擎监测路线。透镜GEO 公开自助人民币定价，支持 APP 端真实账号采集与电商商品卡追踪；觅恒侧重品牌知识库一致性检查，按积分计费且当前单价未确认。"
+        },
+        "alternativeSlug": "micoseek",
+        "sourceUrls": [
+          "https://geo.timus.cn/pricing",
+          "https://geo.timus.cn/about"
+        ],
+        "verifiedAt": "2026-11-23"
+      }
+    ]
   }
 ]
