@@ -17990,5 +17990,329 @@
         "verifiedAt": "2026-11-23"
       }
     ]
+  },
+  {
+    "slug": "florank",
+    "name": "Florank",
+    "category": "ai-visibility",
+    "website": "https://florank.ai/en",
+    "logo": null,
+    "description": {
+      "en": "AI visibility monitoring for businesses that tracks recommendations, competitors and citations across ChatGPT, Gemini, Perplexity and Google AI, with site audits, optional Search Console query import and article drafts. Founding paid plans start at €23/month; the seven-day trial requires a card and converts automatically unless canceled.",
+      "zh": "面向企业与小型营销团队的 AI 曝光监测工具，追踪 ChatGPT、Gemini、Perplexity 与 Google AI 回答中的品牌推荐、竞品和引用，并提供网站审计、可选的 Search Console 查询导入与文章草稿。创始付费方案 €23/月起；7 天试用需绑定信用卡，到期未取消会自动续费。"
+    },
+    "tags": {
+      "en": [
+        "AI visibility",
+        "Competitor share of voice",
+        "Site audits"
+      ],
+      "zh": [
+        "AI 曝光",
+        "竞品声量占比",
+        "网站审计"
+      ]
+    },
+    "features": {
+      "en": [
+        "Monitor ChatGPT, Gemini, Perplexity, Google AI Overviews and Google AI Mode, with saved answers, mentions, position, tone, alternatives, citations, mention rates and competitor share of voice.",
+        "Run technical SEO, speed, schema, crawler-access, llms.txt and AI-readiness audits; the user implements the suggested fixes.",
+        "Optionally import up to 100 read-only Search Console queries from the past 28 days, and schedule separate keyword rank checks.",
+        "Generate article outlines and drafts with claim checks, then edit and approve content before publication."
+      ],
+      "zh": [
+        "监测 ChatGPT、Gemini、Perplexity、Google AI Overviews 与 Google AI Mode，保存回答并统计提及、位置、语气、替代品牌、引用、提及率和竞品声量占比。",
+        "检查技术 SEO、速度、Schema、爬虫访问、llms.txt 与 AI 就绪度；修复建议由用户自行实施。",
+        "可选只读导入过去 28 天最多 100 条 Search Console 查询，并另行安排关键词排名检查。",
+        "生成文章大纲与草稿、检查声明，经人工编辑和确认后再发布。"
+      ]
+    },
+    "audience": {
+      "en": "Businesses and small marketing teams that want AI-answer monitoring alongside site audits, competitor comparisons and a guided editorial workflow.",
+      "zh": "希望把 AI 回答监测与网站审计、竞品比较及文章编辑流程放在同一工作流中的企业和小型营销团队。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Compare brand and competitor visibility on a saved set of customer questions, then inspect the archived answers and cited pages to identify where another brand is recommended and which sources are being referenced.",
+          "zh": "在保存的客户问题集合上比较品牌与竞品曝光，再查看归档回答和被引页面，识别哪些问题推荐了其他品牌以及回答引用了哪些来源。"
+        },
+        "summary": {
+          "en": "Compare brand and competitor visibility, then inspect answers and citations.",
+          "zh": "比较品牌与竞品曝光，并检查回答和引用来源。"
+        },
+        "sourceUrls": [
+          "https://florank.ai/en/docs/ai-visibility-monitoring",
+          "https://florank.ai/en/docs/competitors-share-of-voice",
+          "https://florank.ai/en/docs/cited-sources"
+        ],
+        "verifiedAt": "2026-11-24"
+      },
+      {
+        "description": {
+          "en": "Turn audit findings and real Search Console queries into an editorial queue: identify site or AI-readiness issues, import relevant queries, draft articles and check claims before a person approves publication.",
+          "zh": "把审计发现和真实 Search Console 查询转为编辑队列：找出网站或 AI 就绪度问题，导入相关查询，生成文章草稿并检查声明，最后由人工确认发布。"
+        },
+        "summary": {
+          "en": "Move audit findings and Search Console queries into reviewed article drafts.",
+          "zh": "将审计发现与 Search Console 查询转为经人工审核的文章草稿。"
+        },
+        "sourceUrls": [
+          "https://florank.ai/en/seo-audit",
+          "https://florank.ai/en/docs/google-search-console",
+          "https://florank.ai/en/docs/article-generation"
+        ],
+        "verifiedAt": "2026-11-24"
+      }
+    ],
+    "platforms": [
+      "ChatGPT",
+      "Gemini",
+      "Perplexity",
+      "Google AI Overviews",
+      "Google AI Mode"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "Florank official product overview",
+          "zh": "Florank 官方产品概览"
+        },
+        "url": "https://florank.ai/en"
+      },
+      {
+        "label": {
+          "en": "Florank about page",
+          "zh": "Florank 关于页"
+        },
+        "url": "https://florank.ai/en/about"
+      },
+      {
+        "label": {
+          "en": "Florank AI visibility monitoring documentation",
+          "zh": "Florank AI 曝光监测文档"
+        },
+        "url": "https://florank.ai/en/docs/ai-visibility-monitoring"
+      },
+      {
+        "label": {
+          "en": "Florank competitor share-of-voice documentation",
+          "zh": "Florank 竞品声量占比文档"
+        },
+        "url": "https://florank.ai/en/docs/competitors-share-of-voice"
+      },
+      {
+        "label": {
+          "en": "Florank cited-sources documentation",
+          "zh": "Florank 引用来源文档"
+        },
+        "url": "https://florank.ai/en/docs/cited-sources"
+      },
+      {
+        "label": {
+          "en": "Florank pricing page",
+          "zh": "Florank 定价页"
+        },
+        "url": "https://florank.ai/en/pricing"
+      },
+      {
+        "label": {
+          "en": "Florank plans and limits documentation",
+          "zh": "Florank 套餐与限制文档"
+        },
+        "url": "https://florank.ai/en/docs/plans-and-limits"
+      },
+      {
+        "label": {
+          "en": "Florank trial documentation",
+          "zh": "Florank 试用文档"
+        },
+        "url": "https://florank.ai/en/docs/trial"
+      },
+      {
+        "label": {
+          "en": "Florank subscription and refund documentation",
+          "zh": "Florank 订阅与退款文档"
+        },
+        "url": "https://florank.ai/en/docs/subscription-and-invoices"
+      },
+      {
+        "label": {
+          "en": "Florank SEO audit product page",
+          "zh": "Florank SEO 审计产品页"
+        },
+        "url": "https://florank.ai/en/seo-audit"
+      },
+      {
+        "label": {
+          "en": "Florank article-generation documentation",
+          "zh": "Florank 文章生成文档"
+        },
+        "url": "https://florank.ai/en/docs/article-generation"
+      },
+      {
+        "label": {
+          "en": "Florank Google Search Console documentation",
+          "zh": "Florank Google Search Console 文档"
+        },
+        "url": "https://florank.ai/en/docs/google-search-console"
+      },
+      {
+        "label": {
+          "en": "Florank terms of service",
+          "zh": "Florank 服务条款"
+        },
+        "url": "https://florank.ai/en/terms"
+      },
+      {
+        "label": {
+          "en": "Florank privacy policy",
+          "zh": "Florank 隐私政策"
+        },
+        "url": "https://florank.ai/en/privacy"
+      },
+      {
+        "label": {
+          "en": "Peec AI official product features",
+          "zh": "Peec AI 官方产品功能"
+        },
+        "url": "https://peec.ai/"
+      },
+      {
+        "label": {
+          "en": "Peec AI pricing and plans",
+          "zh": "Peec AI 定价与方案"
+        },
+        "url": "https://peec.ai/pricing"
+      }
+    ],
+    "verifiedAt": "2026-11-24",
+    "status": "published",
+    "featuredOrder": 120,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "The observed founding monthly prices are €23 for Starter, €49 for Growth and €99 for Agency, with regular monthly prices of €29, €79 and €199. Founding yearly billing totals €232, €474 and €995 (displayed as €19, €40 and €83 per month); regular yearly totals are €290, €790 and €1,990. The documentation says the displayed founding prices already include the discount and require no promo code. There is no ongoing free monitoring plan; VAT is not charged at the time of verification.",
+          "zh": "观察到的创始月价为 Starter 23 欧元、Growth 49 欧元、Agency 99 欧元，常规月价为 29、79、199 欧元。创始年付总额为 232、474、995 欧元（页面折合每月 19、40、83 欧元），常规年付总额为 290、790、1,990 欧元。文档称创始价已含折扣，无需优惠码。没有持续免费的监测套餐；核验时暂不收取 VAT。"
+        },
+        "summary": {
+          "en": "Founding €23/€49/€99 monthly or €232/€474/€995 yearly; regular €29/€79/€199 monthly; no ongoing free plan.",
+          "zh": "创始价 23／49／99 欧元每月或 232／474／995 欧元每年；常规价 29／79／199 欧元每月；无持续免费套餐。"
+        },
+        "sourceUrls": [
+          "https://florank.ai/en/pricing",
+          "https://florank.ai/en/docs/plans-and-limits"
+        ],
+        "verifiedAt": "2026-11-24"
+      },
+      {
+        "description": {
+          "en": "The seven-day trial is available once per account, requires a payment card, starts at €0 and automatically converts to the selected paid plan unless canceled. Growth is the default, with Starter and Agency selectable. The first charge after a trial or a new subscription can be refunded on request by email within 14 days; later billing periods are not refunded.",
+          "zh": "7 天试用每个账户限一次，需绑定支付信用卡，初始为 0 欧元，到期未取消会自动转为所选付费方案。默认 Growth，也可选择 Starter 或 Agency。试用或新订阅后的首笔扣款可在 14 天内发邮件申请退款；后续账期不退款。"
+        },
+        "summary": {
+          "en": "7-day card-required trial auto-converts; first charge refundable by email within 14 days.",
+          "zh": "7 天试用需绑卡并自动续费；首笔扣款可在 14 天内邮件申请退款。"
+        },
+        "sourceUrls": [
+          "https://florank.ai/en/docs/trial",
+          "https://florank.ai/en/docs/subscription-and-invoices"
+        ],
+        "verifiedAt": "2026-11-24"
+      },
+      {
+        "description": {
+          "en": "Optional add-ons include up to ten packs of 50 extra prompts at €15 per pack per month. Article packs cost €19 for 10 articles or €49 for 30 articles and remain valid for 90 days.",
+          "zh": "可选加购包括最多十包、每包 50 个额外提示词，每包每月 15 欧元。文章包 10 篇 19 欧元或 30 篇 49 欧元，有效期 90 天。"
+        },
+        "summary": {
+          "en": "Add-ons: 50 extra prompts €15/month (up to 10 packs); 10/30 articles €19/€49 for 90 days.",
+          "zh": "加购：50 个额外提示词 15 欧元/月（最多十包）；10／30 篇文章 19／49 欧元，有效期 90 天。"
+        },
+        "sourceUrls": [
+          "https://florank.ai/en/docs/plans-and-limits"
+        ],
+        "verifiedAt": "2026-11-24"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "Plan tables list Starter/Growth/Agency allowances of 1/3/10 sites and users, 20/50/120 account-wide prompts, 5/15/50 competitors per site, 20/50/150 keywords per site, 50/200/1,000 audit pages and 10/30/100 articles per month account-wide. Starter samples ChatGPT weekly, Gemini and Perplexity twice weekly, and Google AI weekly; higher tiers increase cadence. Cost controls can temporarily reduce AI checks to weekly, and branded queries are excluded from overall visibility.",
+          "zh": "套餐表列出 Starter／Growth／Agency 分别有 1／3／10 个站点和用户、20／50／120 个账户级提示词、每站 5／15／50 个竞品、每站 20／50／150 个关键词、50／200／1,000 个审计页面，以及账户级每月 10／30／100 篇文章。Starter 对 ChatGPT 每周采样，Gemini 与 Perplexity 每周两次，Google AI 每周一次；更高档提高频率。成本控制可能临时把 AI 检查降为每周一次，品牌词查询不计入整体曝光。"
+        },
+        "summary": {
+          "en": "Starter: 1 site/user, 20 prompts, 20 keywords/site, 50 audit pages, 10 articles/month; cadence varies and may slow to weekly.",
+          "zh": "Starter：1 站点／用户、20 提示词、每站 20 关键词、50 审计页、每月 10 篇文章；采样频率因档位而异，也可能降至每周。"
+        },
+        "sourceUrls": [
+          "https://florank.ai/en/docs/plans-and-limits",
+          "https://florank.ai/en/docs/ai-visibility-monitoring"
+        ],
+        "verifiedAt": "2026-11-24"
+      },
+      {
+        "description": {
+          "en": "Search Console integration is optional and read-only, importing up to 100 queries from the past 28 days; scheduled keyword checks are a separate feature. The interface and generated content currently support English and Ukrainian.",
+          "zh": "Search Console 集成为可选且只读，最多导入过去 28 天的 100 条查询；定时关键词检查是另一项功能。界面与生成内容目前支持英语和乌克兰语。"
+        },
+        "summary": {
+          "en": "Optional read-only Search Console import; separate keyword checks; English/Ukrainian only.",
+          "zh": "可选只读 Search Console 导入；关键词检查另计；目前仅支持英语和乌克兰语。"
+        },
+        "sourceUrls": [
+          "https://florank.ai/en/docs/google-search-console",
+          "https://florank.ai/en/pricing"
+        ],
+        "verifiedAt": "2026-11-24"
+      },
+      {
+        "description": {
+          "en": "Prompts, public page content and article data may be sent to AI processors including OpenAI, Anthropic, Google, Perplexity and DataForSEO when needed for the task. Some processing occurs in the US under the EU–US Data Privacy Framework or standard contractual clauses. The privacy policy also describes server-side Meta conversion events without cookie consent under legitimate interest, plus a 90-day attribution cookie; users can object to those uses.",
+          "zh": "完成任务确有需要时，提示词、公开页面内容和文章数据可能发送给 OpenAI、Anthropic、Google、Perplexity 与 DataForSEO 等 AI 处理方。部分处理在美国进行，依据欧盟—美国数据隐私框架或标准合同条款。隐私政策还说明，在未取得 Cookie 同意的情况下，基于合法权益发送服务端 Meta 转化事件，并使用 90 天归因 Cookie；用户可提出反对。"
+        },
+        "summary": {
+          "en": "Task data may reach US AI processors; Meta server-side events use legitimate interest without cookie consent.",
+          "zh": "任务数据可能交由美国 AI 处理方；Meta 服务端事件无需 Cookie 同意、以合法权益为依据。"
+        },
+        "sourceUrls": [
+          "https://florank.ai/en/privacy"
+        ],
+        "verifiedAt": "2026-11-24"
+      },
+      {
+        "description": {
+          "en": "AI-generated articles can be inaccurate and require human editing and approval before publication. Rankings, AI mentions and other outcomes are not guaranteed, and the site audit reports findings rather than implementing fixes automatically.",
+          "zh": "AI 生成的文章可能不准确，发布前需要人工编辑和确认。排名、AI 提及等结果不作保证，网站审计只报告发现，不会自动实施修复。"
+        },
+        "summary": {
+          "en": "AI drafts need human review; no ranking or mention guarantees; audits do not auto-fix.",
+          "zh": "AI 草稿需人工审核；不保证排名或提及；审计不自动修复。"
+        },
+        "sourceUrls": [
+          "https://florank.ai/en/docs/article-generation",
+          "https://florank.ai/en/seo-audit",
+          "https://florank.ai/en"
+        ],
+        "verifiedAt": "2026-11-24"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Compare entry scope and billing currency. Florank's founding Starter plan is €23/month with 20 prompts, one site and one user, plus audits, article drafts and optional Search Console import. Peec AI Starter is $95/month with 50 prompts, one project, three selectable models and daily tracking. Florank's seven-day trial requires a card and converts automatically; compare quotas, engine selection and editorial features rather than price alone.",
+          "zh": "比较入门范围与计费币种。Florank 创始 Starter 为 23 欧元/月，含 20 个提示词、1 个站点和 1 个用户，并提供审计、文章草稿与可选 Search Console 导入。Peec AI Starter 为 95 美元/月，含 50 个提示词、1 个项目、3 个可选模型和每日追踪。Florank 的 7 天试用需绑卡并自动续费；应综合比较配额、引擎选择与编辑功能，而非只看价格。"
+        },
+        "alternativeSlug": "peec-ai",
+        "sourceUrls": [
+          "https://florank.ai/en/docs/plans-and-limits",
+          "https://florank.ai/en/docs/trial",
+          "https://peec.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-24"
+      }
+    ]
   }
 ]

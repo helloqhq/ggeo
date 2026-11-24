@@ -63,8 +63,8 @@
 ### L-09 ego-browser 任务空间收尾用 finish({keep:[]})，keep 不接受 false
 - 症状：`task.finish({keep:false})` 抛 TypeError（keep 须为 "all" 或非空标签数组）；脚本间 JS 变量不共享。
 - 根因：ego lite API 约定 keep 为 "all" 或 Page 标签数组；任务空间/标签跨调用持久，但脚本变量不持久。
-- 修复／预防：收尾先 `await page.close()` 再单独脚本 `await task.finish({keep:[]})`；跨调用用 `taskSpace(<spaceId>)` 恢复并 `(await task.pages())[0]` 取回标签；导航与测量拆成两次调用，evaluate 内不要触发 location.href 跳转。Page 没有 `getByText`/`goBack`，点击用 evaluate 内 `el.click()`；evaluate 回调不能引用 Node 变量，需作为第二参数传入；慢站 `page.goto` 超时但「navigation committed」时直接继续读取，不重开空间。第三轮 guzu.ai 首页 20 秒超时后同为 committed，继续读取成功；任务空间若在两次校验之间被回收，用同一目标名重新 `taskSpace()` 建空间即可，不要卡在旧 id 上重试。Gmail 等 SPA 的 `goto` 与 `reload` 等待 load 均会超时，重载超时后标题已更新、snapshot 即可读到邮件正文，不必反复重试导航。
-- 记录：首次 2026-11-17 · 最近 2026-11-21 · 命中 4 次 · [轮次记录](../../../docs/data-updates/2026-11-21-checkaivisibility-submission.md)
+- 修复／预防：收尾先 `await page.close()` 再单独脚本 `await task.finish({keep:[]})`；跨调用用 `taskSpace(<spaceId>)` 恢复并 `(await task.pages())[0]` 取回标签；导航与测量拆成两次调用，evaluate 内不要触发 location.href 跳转。Page 没有 `getByText`/`goBack`，点击用 evaluate 内 `el.click()`；evaluate 回调不能引用 Node 变量，需作为第二参数传入；慢站 `page.goto` 超时但「navigation committed」时直接继续读取，不重开空间。第三轮 guzu.ai 首页 20 秒超时后同为 committed，继续读取成功；任务空间若在两次校验之间被回收，用同一目标名重新 `taskSpace()` 建空间即可，不要卡在旧 id 上重试。Gmail 等 SPA 的 `goto` 与 `reload` 等待 load 均会超时，重载超时后标题已更新、snapshot 即可读到邮件正文，不必反复重试导航。Gmail 的「View entire message」会在受管弹窗中打开独立文档，原页面的 `waitForFunction` 可能超时；直接检查 `task.page("p2")` 的标题与正文即可，读完关闭该弹窗。
+- 记录：首次 2026-11-17 · 最近 2026-11-24 · 命中 5 次 · [轮次记录](../../../docs/research/2026-11-24-geo-sites.md)
 
 ### L-12 定价页默认展示年付折算价，需切到月付再读
 - 症状：Honeyb 定价页默认勾选 Annual，卡片显示 $23/$63/$159「每月」并注明每年账单，直接读取会把年付折算价当成标准月价；切到 Monthly 后为 $29/$79/$199。SEOcrawl 定价页另有币种选择器，切换后金额随之变化。
