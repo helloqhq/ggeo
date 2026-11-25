@@ -117,5 +117,5 @@
 ### L-18 Pages 部署 500 先区分服务故障与代码失败
 - 症状：Actions 的校验、构建、测试与静态上传均成功，但 Deploy to GitHub Pages 在创建 deployment 时返回 status 500。
 - 根因：GitHub Pages 服务端故障；GitHub Status 可显示 Pages `degraded_performance`，不是静态站代码或数据错误。
-- 修复／预防：先读失败 job 的 annotation 与 GitHub Status；服务恢复后重跑失败 deployment，不为 500 改代码、数据或绕过检查。重试仍失败则报告并等待外部恢复。
-- 记录：首次 2026-11-26 · 最近 2026-11-26 · 命中 1 次 · [轮次记录](../../../docs/research/2026-11-25-geo-sites.md)
+- 修复／预防：先读失败 job 的 annotation 与 GitHub Status；服务恢复后重跑失败 deployment，不为 500 改代码、数据或绕过检查。同一阻碍连续两次失败即停止重试，报告并等待外部恢复。
+- 记录：首次 2026-11-26 · 最近 2026-11-26 · 命中 2 次 · [轮次记录](../../../docs/research/2026-11-25-geo-sites.md)
