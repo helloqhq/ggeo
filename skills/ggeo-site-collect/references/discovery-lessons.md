@@ -29,14 +29,14 @@
 ### D-01 优先复核上轮遗留候选，泛词查询易饱和
 - 症状／观察：8 分类的泛词定向查询（prompts/competitors/citations/ai-traffic/content-geo）多返回已收录工具；本轮真正合格候选主要来自上轮遗留候选复核（Gracker、xSeek）与榜单/博客线索及中文检索。
 - 原因：通用「best GEO tools」类查询被既有头部产品占满，新合格产品更多藏在垂直场景词、榜单与上一轮未完成核验的候选里。
-- 策略调整：每轮先复核上轮记录中「暂缓/下轮候选」清单；用垂直/场景词（如 cybersecurity、local business、free GEO audit、backlink agent）与中文查询扩展，而非原样重复泛词；连续两批扩展无新合格候选即按方法结束，不以无关站点补数。第二轮中文查询（豆包/DeepSeek 品牌监测）贡献 4 条合格中的 2 条，国内平台监测方向值得每轮保留至少一条中文查询；引用日志/AI 爬虫方向两轮均只出暂缓或免费单点工具。第三轮泛词查询继续被已收录工具占满，新增合格候选多数来自上一轮遗留（Qvery、Hall、Cheers）与竞品博客清单，中文泛词本轮无新增。第四轮合格候选仍全部来自垂直词（free GEO audit suite、local business AI visibility、share of voice 竞品追踪）、上轮遗留复核（Raccoon AI、透镜GEO）与榜单线索，泛词未做；免费审计套件词一次带出一批候选，适合下轮复用。
-- 记录：首次 2026-11-17 · 最近 2026-11-23 · 命中 4 次 · [搜集记录](../../../docs/research/2026-11-23-geo-sites.md)
+- 策略调整：每轮先复核上轮记录中「暂缓/下轮候选」清单；用垂直/场景词（如 cybersecurity、local business、free GEO audit、backlink agent）与中文查询扩展，而非原样重复泛词；连续两批扩展无新合格候选即按方法结束，不以无关站点补数。第二轮中文查询（豆包/DeepSeek 品牌监测）贡献 4 条合格中的 2 条，国内平台监测方向值得每轮保留至少一条中文查询；引用日志/AI 爬虫方向两轮均只出暂缓或免费单点工具。第三轮泛词查询继续被已收录工具占满，新增合格候选多数来自上一轮遗留（Qvery、Hall、Cheers）与竞品博客清单，中文泛词本轮无新增。第四轮合格候选仍全部来自垂直词（free GEO audit suite、local business AI visibility、share of voice 竞品追踪）、上轮遗留复核（Raccoon AI、透镜GEO）与榜单线索，泛词未做；免费审计套件词一次带出一批候选，适合下轮复用。第五轮泛词仍主要返回文章或已收录产品，新增主要来自具体产品名查询和 audit/local、citation/traffic 分组核验；下轮继续优先垂直词与具体候选复核。
+- 记录：首次 2026-11-17 · 最近 2026-11-25 · 命中 5 次 · [搜集记录](../../../docs/research/2026-11-25-geo-sites.md)
 
 ### D-02 子产品收录看独立产品页+独立定价+清晰 GEO 核心
 - 症状／观察：Leapd Alex 有独立产品页与定价但母体是通用 AI 业务构建器；AI Rank Lab 是营销全家桶（GEO 仅一模块、INR-only 扣款）；SEOmator GEO Audit 是边界清晰的独立免费子工具。
 - 原因：子产品与「泛 AI 应用/宽套件」的边界不清时，收录会稀释目录相关性；沿用 seoptimer-geo-audit 先例可收录定义明确的子工具。
-- 策略调整：子产品仅在有独立产品页+独立定价+清晰 GEO/AI 搜索核心时收录；母体为通用 AI 应用或宽营销套件时暂缓并记为下轮候选；免费审计类子工具按 geo-audit 收录、website 落点取子工具页。同理暂缓 CLEO（Maps/Search/Social/Reviews/Leads 宽营销引擎）；GEOBase 虽属 AIBase，但有独立产品域名、独立套餐与协议，按独立产品收录。Qvery 主业为 AI 转型咨询，但 GEO Agent 有独立产品页、注册入口与自身 FAQ，按独立产品收录；Raccoon AI 的 GEO 有独立产品页但缺产品专属条款，按 D-05 暂缓，2026-11-23 复核补齐产品专属定价页（raccoonai.co/geo/pricing）后按独立产品收录，条款缺口写入 limitations。
-- 记录：首次 2026-11-17 · 最近 2026-11-23 · 命中 4 次 · [搜集记录](../../../docs/research/2026-11-23-geo-sites.md)
+- 策略调整：子产品仅在有独立产品页+独立定价+清晰 GEO/AI 搜索核心时收录；母体为通用 AI 应用或宽营销套件时暂缓并记为下轮候选；免费审计类子工具按 geo-audit 收录、website 落点取子工具页。同理暂缓 CLEO（Maps/Search/Social/Reviews/Leads 宽营销引擎）；GEOBase 虽属 AIBase，但有独立产品域名、独立套餐与协议，按独立产品收录。Qvery 主业为 AI 转型咨询，但 GEO Agent 有独立产品页、注册入口与自身 FAQ，按独立产品收录；Raccoon AI 的 GEO 有独立产品页但缺产品专属条款，按 D-05 暂缓，2026-11-23 复核补齐产品专属定价页（raccoonai.co/geo/pricing）后按独立产品收录，条款缺口写入 limitations。第五轮 Firecrawl AI Visibility Audit 同样以独立产品页、母体定价和清晰的单页技术审计边界收录，并明确不直接查询 AI 回答。
+- 记录：首次 2026-11-17 · 最近 2026-11-25 · 命中 5 次 · [搜集记录](../../../docs/research/2026-11-25-geo-sites.md)
 
 ### D-03 以人工代运营交付为主的代理商站点排除
 - 症状／观察：SkillMammoth 面向承包商行业提供网站设计/SEO 代运营（月度retainer+建站费），无自助软件产品。
@@ -52,8 +52,8 @@
 ### D-05 法律页缺失、模板化或无主体的候选先暂缓
 - 症状／观察：Sellm 产品与定价真实但 /terms、/privacy 渲染为 404；TopCited 条款为通用模板、无公司主体、联系邮箱在另一域名；新榜智汇主体清晰但仅「申请演示」且未找到产品法律页。
 - 原因：缺少可追溯的运营主体或条款时，无法完成风险筛选；与 SatelliteAI 先例一致。
-- 策略调整：产品功能与定价真实但法律页/主体缺失或模板化时记「暂缓（下轮候选）」并写明缺口，下轮优先复核；主体清晰、仅隐私政策为集团共用（如搜极星）时可收录并把缺口写入 limitations。第三轮新增两类同型缺口：Guzu 页脚法律链接指向 `#`，ZeroRank 条款有加州管辖但全文无运营主体名称，Raccoon AI 只有集团法律页——均按暂缓处理。第四轮细化为两条分支：运营主体可追溯而条款正文模板化/缺失时，看实体证据强度——GeoRankNow（about 有公司名+CIN 但法律页只返回首页外壳）维持暂缓；透镜GEO（无独立法律页但页脚 ICP 备案主体明确）与 Raccoon AI（集团法律页+产品专属定价页补齐）按搜极星先例收录并把缺口写入 limitations；Siftly（terms 缺失且无注册主体，仅 YC 背景与具名创始人）暂缓。第四轮复核确认 Guzu、ZeroRank 缺口未消除，维持暂缓。
-- 记录：首次 2026-11-18 · 最近 2026-11-23 · 命中 8 次 · [搜集记录](../../../docs/research/2026-11-23-geo-sites.md)
+- 策略调整：产品功能与定价真实但法律页/主体缺失或模板化时记「暂缓（下轮候选）」并写明缺口，下轮优先复核；主体清晰、仅隐私政策为集团共用（如搜极星）时可收录并把缺口写入 limitations。第三轮新增两类同型缺口：Guzu 页脚法律链接指向 `#`，ZeroRank 条款有加州管辖但全文无运营主体名称，Raccoon AI 只有集团法律页——均按暂缓处理。第四轮细化为两条分支：运营主体可追溯而条款正文模板化/缺失时，看实体证据强度——GeoRankNow（about 有公司名+CIN 但法律页只返回首页外壳）维持暂缓；透镜GEO（无独立法律页但页脚 ICP 备案主体明确）与 Raccoon AI（集团法律页+产品专属定价页补齐）按搜极星先例收录并把缺口写入 limitations；Siftly（terms 缺失且无注册主体，仅 YC 背景与具名创始人）暂缓。第四轮复核确认 Guzu、ZeroRank 缺口未消除，维持暂缓。第五轮 iGEO 只找到 Developer Terms，BrandVisibility.ai 无清晰法律主体，GeoRankNow 法律页仍为首页外壳，Orbator 缺主体与管辖地，Mettle 条款无主体且隐私仍称 private beta，均维持暂缓。
+- 记录：首次 2026-11-18 · 最近 2026-11-25 · 命中 9 次 · [搜集记录](../../../docs/research/2026-11-25-geo-sites.md)
 
 ### D-06 已被收购或仅剩等待名单的遗留候选直接结清
 - 症状／观察：上一轮遗留候选 Hall（usehall.com）首页公告「Hall is now part of Tracksuit」（2026-07-21），只剩等待名单，无独立可购产品；Cheers 以人工代运营为主，FAQ 明说不适合只想买软件的团队。

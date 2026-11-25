@@ -18314,5 +18314,1393 @@
         "verifiedAt": "2026-11-24"
       }
     ]
+  },
+  {
+    "slug": "geo-tool",
+    "name": "GEO Tool",
+    "category": "geo-audit",
+    "website": "https://www.geo-tool.com/en",
+    "logo": null,
+    "description": {
+      "en": "Free GEO readiness audits with paid AI-answer measurement and human-approved content workflows.",
+      "zh": "提供免费 GEO 就绪度审计，以及付费 AI 回答监测和人工确认的内容工作流。"
+    },
+    "tags": {
+      "en": [
+        "GEO audit",
+        "Content workflow",
+        "AI visibility"
+      ],
+      "zh": [
+        "GEO 审计",
+        "内容工作流",
+        "AI 曝光"
+      ]
+    },
+    "features": {
+      "en": [
+        "Run a no-account 0–100 readiness audit covering technical setup, editorial quality, structured data, Answer-First content and prioritized fixes.",
+        "Use Autopilot or a bring-your-own-key plan for measured AI answers and content drafts that require human approval before publication."
+      ],
+      "zh": [
+        "无需账户即可运行 0–100 分就绪度审计，检查技术配置、编辑质量、结构化数据、Answer-First 内容并给出优先修复项。",
+        "通过 Autopilot 或自带 API Key 方案监测 AI 回答并生成内容草稿，发布前必须人工确认。"
+      ]
+    },
+    "audience": {
+      "en": "Site owners that want a free technical and editorial GEO baseline before choosing ongoing AI measurement or content production.",
+      "zh": "希望先获得免费技术与编辑 GEO 基线，再决定是否采用持续 AI 监测或内容生产的网站所有者。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Before buying ongoing monitoring, run the free readiness audit to identify technical, editorial and structured-data gaps and turn the findings into a prioritized fix list. The free score assesses readiness; it is not a live measurement of brand mentions in AI answers.",
+          "zh": "在购买持续监测前运行免费就绪度审计，找出技术、编辑和结构化数据缺口，并将结果整理为优先修复清单。免费分数评估的是就绪度，不是品牌在 AI 回答中的实时提及测量。"
+        },
+        "summary": {
+          "en": "Free no-account 0–100 readiness score with prioritized fixes, not live mention tracking.",
+          "zh": "免费免账户 0–100 就绪度评分与优先修复项，不是实时提及追踪。"
+        },
+        "sourceUrls": [
+          "https://www.geo-tool.com/en"
+        ],
+        "verifiedAt": "2026-11-25"
+      },
+      {
+        "description": {
+          "en": "For an ongoing content workflow, use Autopilot or BYOK to prepare buyer questions, competitor-informed content plans and page drafts. An author model, an independent reviewer and a finalizer form the editing chain, with factual and competitor checks; outputs are delivered as WordPress drafts, GitHub PRs in beta or exports for human approval.",
+          "zh": "需要持续内容工作流时，用 Autopilot 或 BYOK 准备买家问题、结合竞品的内容计划和页面草稿。编辑链由作者模型、独立审核模型和最终整理模型组成，并设置事实与竞品检查；成果以 WordPress 草稿、GitHub PR 测试版或导出文件交付，须人工确认。"
+        },
+        "summary": {
+          "en": "Autopilot/BYOK produce reviewable drafts and exports; nothing publishes automatically.",
+          "zh": "Autopilot／BYOK 生成可审核草稿与导出文件，不自动发布。"
+        },
+        "sourceUrls": [
+          "https://www.geo-tool.com/en",
+          "https://www.geo-tool.com/en/pricing"
+        ],
+        "verifiedAt": "2026-11-25"
+      }
+    ],
+    "platforms": [
+      "ChatGPT",
+      "Google AI Overviews",
+      "Gemini",
+      "Perplexity",
+      "Claude"
+    ],
+    "pricing": "Freemium",
+    "sources": [
+      {
+        "label": {
+          "en": "GEO Tool official product and free audit",
+          "zh": "GEO Tool 官方产品与免费审计"
+        },
+        "url": "https://www.geo-tool.com/en"
+      },
+      {
+        "label": {
+          "en": "GEO Tool pricing, Autopilot and BYOK",
+          "zh": "GEO Tool 定价、Autopilot 与 BYOK"
+        },
+        "url": "https://www.geo-tool.com/en/pricing"
+      },
+      {
+        "label": {
+          "en": "GEO Tool legal notice",
+          "zh": "GEO Tool 法律声明"
+        },
+        "url": "https://www.geo-tool.com/en/impressum"
+      },
+      {
+        "label": {
+          "en": "GEO Tool terms and conditions",
+          "zh": "GEO Tool 服务条款"
+        },
+        "url": "https://www.geo-tool.com/en/agb"
+      },
+      {
+        "label": {
+          "en": "GEO Tool privacy notice",
+          "zh": "GEO Tool 隐私声明"
+        },
+        "url": "https://www.geo-tool.com/en/datenschutz"
+      },
+      {
+        "label": {
+          "en": "Florank official product scope",
+          "zh": "Florank 官方产品范围"
+        },
+        "url": "https://florank.ai/en"
+      },
+      {
+        "label": {
+          "en": "Florank official pricing",
+          "zh": "Florank 官方定价"
+        },
+        "url": "https://florank.ai/en/pricing"
+      }
+    ],
+    "verifiedAt": "2026-11-25",
+    "status": "published",
+    "featuredOrder": 121,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "The readiness audit is free and requires no account. A one-time seven-day trial costs $9 plus tax and includes 7 buyer questions, 5 AI systems and 7 content plans; if it is not canceled, it converts to Autopilot at $229/month plus tax.",
+          "zh": "就绪度审计免费且无需账户。一次性 7 天试用为 9 美元加税，含 7 个买家问题、5 个 AI 系统和 7 个内容计划；到期未取消将转为每月 229 美元加税的 Autopilot。"
+        },
+        "summary": {
+          "en": "Free audit; one-time $9 plus-tax 7-day trial auto-converts to $229/month Autopilot.",
+          "zh": "审计免费；一次性 9 美元加税试用 7 天，未取消自动转为 229 美元/月 Autopilot。"
+        },
+        "sourceUrls": [
+          "https://www.geo-tool.com/en",
+          "https://www.geo-tool.com/en/pricing"
+        ],
+        "verifiedAt": "2026-11-25"
+      },
+      {
+        "description": {
+          "en": "Autopilot costs $229/month plus tax and can be canceled monthly. Its scope includes up to 100 buyer questions, 5 AI systems, 10 competitors, 50 content plans and 50 target pages. The included AI budget is described as normally covering about 10–20 fully reviewed articles or page updates per month, subject to a fair-use cap.",
+          "zh": "Autopilot 每月 229 美元加税，可按月取消。范围包括最多 100 个买家问题、5 个 AI 系统、10 个竞品、50 个内容计划和 50 个目标页面。官方称所含 AI 预算通常每月可覆盖约 10–20 篇完整审核文章或页面更新，并受合理使用上限约束。"
+        },
+        "summary": {
+          "en": "Autopilot $229/month plus tax; 100 questions, 5 AI systems, 50 plans/pages; fair-use AI budget.",
+          "zh": "Autopilot 229 美元/月加税；100 问题、5 AI 系统、50 计划／页面；AI 预算有合理使用上限。"
+        },
+        "sourceUrls": [
+          "https://www.geo-tool.com/en/pricing"
+        ],
+        "verifiedAt": "2026-11-25"
+      },
+      {
+        "description": {
+          "en": "BYOK gives each company a seven-day free introduction, then costs $44.90/month plus tax. Customers supply their own OpenRouter, Anthropic, OpenAI or Mistral key and pay model charges directly to the provider; the documented Autopilot scope and three-model editing chain are retained.",
+          "zh": "BYOK 为每家公司提供 7 天免费体验，之后每月 44.90 美元加税。客户使用自有 OpenRouter、Anthropic、OpenAI 或 Mistral Key，模型费用直接支付给供应商；保留文档所列 Autopilot 范围和三模型编辑链。"
+        },
+        "summary": {
+          "en": "BYOK $44.90/month plus tax after 7 free days per company; provider API charges are separate.",
+          "zh": "BYOK 每家公司免费 7 天后 44.90 美元/月加税；供应商 API 费用另计。"
+        },
+        "sourceUrls": [
+          "https://www.geo-tool.com/en/pricing"
+        ],
+        "verifiedAt": "2026-11-25"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "ChatGPT and Google AI Overviews are measured daily in the paid workflow, while the other three systems are checked every two days. The readiness score alone does not measure live AI mentions, and generated content is never published automatically.",
+          "zh": "付费工作流每日测量 ChatGPT 与 Google AI Overviews，其余三个系统每两天检查一次。就绪度分数本身不测量实时 AI 提及，生成内容也绝不自动发布。"
+        },
+        "summary": {
+          "en": "Daily checks for ChatGPT/AI Overviews, every two days for three other systems; human approval required.",
+          "zh": "ChatGPT／AI Overviews 每日检查，另三个系统每两天一次；须人工确认。"
+        },
+        "sourceUrls": [
+          "https://www.geo-tool.com/en",
+          "https://www.geo-tool.com/en/pricing"
+        ],
+        "verifiedAt": "2026-11-25"
+      },
+      {
+        "description": {
+          "en": "The BYOK progress guarantee covers platform fees only and requires a Search Console connection plus at least five recommended updates published within 45 days. After 60 paid days without improvement in AI mentions or Search Console clicks, a request must be emailed within 14 days for 30 days of free platform fees; third-party API charges are excluded.",
+          "zh": "BYOK 进展保障仅覆盖平台费，且要求连接 Search Console，并在 45 天内发布至少五项推荐更新。使用 60 个付费日后，若 AI 提及或 Search Console 点击没有改善，须在 14 天内发邮件申请 30 天免费平台费；第三方 API 费用不在保障内。"
+        },
+        "summary": {
+          "en": "BYOK guarantee has connection, publishing and timing conditions; only platform fees qualify.",
+          "zh": "BYOK 保障有连接、发布与时限条件，且仅覆盖平台费。"
+        },
+        "sourceUrls": [
+          "https://www.geo-tool.com/en/pricing"
+        ],
+        "verifiedAt": "2026-11-25"
+      },
+      {
+        "description": {
+          "en": "The privacy notice describes German EU hosting and several model/data processors, but its subprocessor table also contains instructions to verify the production stack and DPA/SCC/DPF status. Treat those compliance statements as vendor disclosures rather than independent assurance. The terms are B2B-only, the German version controls, and AI results and business outcomes are not guaranteed.",
+          "zh": "隐私声明描述了德国欧盟托管和多个模型／数据处理方，但其处理方清单也含有核对生产环境及 DPA／SCC／DPF 状态的提示。应将这些合规说明视为厂商披露，而非独立认证。条款仅面向 B2B，德文版优先，且不保证 AI 结果或业务成效。"
+        },
+        "summary": {
+          "en": "Subprocessor compliance details need vendor verification; B2B terms, German text controls, no outcome guarantees.",
+          "zh": "处理方合规细节需厂商核验；仅面向 B2B、德文版优先，不保证结果。"
+        },
+        "sourceUrls": [
+          "https://www.geo-tool.com/en/datenschutz",
+          "https://www.geo-tool.com/en/agb"
+        ],
+        "verifiedAt": "2026-11-25"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "GEO Tool starts with a persistent free readiness audit and adds optional content-production Autopilot or BYOK. Florank centers on paid AI-answer monitoring with site audits and article drafts and has no ongoing free monitoring plan. Compare an audit-first workflow with an answer-monitoring workflow, including approval controls and quotas, rather than headline price alone.",
+          "zh": "GEO Tool 以持续免费的就绪度审计为入口，另提供内容生产型 Autopilot 或 BYOK；Florank 以付费 AI 回答监测为主，同时提供网站审计和文章草稿，没有持续免费监测套餐。应比较审计优先与回答监测优先的工作流、确认控制与配额，而非只看标价。"
+        },
+        "alternativeSlug": "florank",
+        "sourceUrls": [
+          "https://www.geo-tool.com/en",
+          "https://www.geo-tool.com/en/pricing",
+          "https://florank.ai/en",
+          "https://florank.ai/en/pricing"
+        ],
+        "verifiedAt": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "slug": "geo-score",
+    "name": "GEO-Score",
+    "category": "geo-audit",
+    "website": "https://geo-score.online/",
+    "logo": null,
+    "description": {
+      "en": "Sitemap-based website GEO audits with page-level scores, prioritized fixes and downloadable reports.",
+      "zh": "基于 Sitemap 的整站 GEO 审计，提供页级分数、优先修复建议和可下载报告。"
+    },
+    "tags": {
+      "en": [
+        "Website audit",
+        "Page scoring",
+        "GEO readiness"
+      ],
+      "zh": [
+        "网站审计",
+        "页面评分",
+        "GEO 就绪度"
+      ]
+    },
+    "features": {
+      "en": [
+        "Crawl a sitemap and score each page against 22 metrics across Content Quality, AI Readiness, Technical Basis, and Authority & Trust.",
+        "Review page-level weaknesses, a prioritized remediation plan, PDF reports, LLM-ready files and copywriter briefs."
+      ],
+      "zh": [
+        "抓取 Sitemap，并按内容质量、AI 就绪度、技术基础和权威与信任四个支柱下的 22 项指标为每页评分。",
+        "查看页级弱项、优先修复计划、PDF 报告、LLM-ready 文件和文案简报。"
+      ]
+    },
+    "audience": {
+      "en": "Content and SEO teams that need a repeatable full-site readiness review and page-level editorial priorities.",
+      "zh": "需要可重复的整站就绪度检查和页级编辑优先级的内容与 SEO 团队。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Audit an entire public website from its sitemap to find weak pages across content structure, readability, factual density, citation-ready passages, schema, AI bot access, speed, E-E-A-T, entities and topical authority. Paid website audits cover up to 5,000 pages and include a prioritized fix plan.",
+          "zh": "从 Sitemap 审计整个公开网站，找出内容结构、可读性、事实密度、可引用段落、Schema、AI 爬虫访问、速度、E-E-A-T、实体和主题权威方面的弱页。付费网站审计最多覆盖 5,000 页，并给出优先修复计划。"
+        },
+        "summary": {
+          "en": "Sitemap-wide audit, 22 metrics/page and up to 5,000 pages on Website Audit.",
+          "zh": "Sitemap 整站审计，每页 22 项指标；Website Audit 最多 5,000 页。"
+        },
+        "sourceUrls": [
+          "https://geo-score.online/complete-website-geo-audit",
+          "https://geo-score.online/pricing"
+        ],
+        "verifiedAt": "2026-11-25"
+      },
+      {
+        "description": {
+          "en": "Use the free allowance for a lighter recurring check: five page checks per site every 30 days, the score and top findings, plus URL comparison, robots.txt generation, sitemap analysis, the ROI calculator and learning resources.",
+          "zh": "用免费额度做较轻量的定期检查：每站点每 30 天五次页面检查、分数和主要发现，并提供 URL 对比、robots.txt 生成、Sitemap 分析、ROI 计算器和学习资源。"
+        },
+        "summary": {
+          "en": "Free: 5 page checks/site/30 days plus limited comparison and SEO helper tools.",
+          "zh": "免费：每站点每 30 天 5 次页面检查，附有限的对比与 SEO 辅助工具。"
+        },
+        "sourceUrls": [
+          "https://geo-score.online/pricing"
+        ],
+        "verifiedAt": "2026-11-25"
+      }
+    ],
+    "platforms": [],
+    "pricing": "Freemium",
+    "sources": [
+      {
+        "label": {
+          "en": "GEO-Score complete website audit",
+          "zh": "GEO-Score 完整网站审计"
+        },
+        "url": "https://geo-score.online/complete-website-geo-audit"
+      },
+      {
+        "label": {
+          "en": "GEO-Score pricing and plan limits",
+          "zh": "GEO-Score 定价与套餐限制"
+        },
+        "url": "https://geo-score.online/pricing"
+      },
+      {
+        "label": {
+          "en": "GEO-Score company and brand structure",
+          "zh": "GEO-Score 公司与品牌结构"
+        },
+        "url": "https://geo-score.online/about"
+      },
+      {
+        "label": {
+          "en": "GEO-Score terms and billing",
+          "zh": "GEO-Score 条款与计费"
+        },
+        "url": "https://geo-score.online/terms"
+      },
+      {
+        "label": {
+          "en": "GEO-Score privacy and retention",
+          "zh": "GEO-Score 隐私与保留期限"
+        },
+        "url": "https://geo-score.online/privacy"
+      },
+      {
+        "label": {
+          "en": "SEOmator GEO Audit comparison evidence",
+          "zh": "SEOmator GEO Audit 对比依据"
+        },
+        "url": "https://seomator.com/geo-audit-tool"
+      }
+    ],
+    "verifiedAt": "2026-11-25",
+    "status": "published",
+    "featuredOrder": 122,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "Free includes five page checks per site every 30 days, the score and top findings, plus the listed helper tools. A Full Page Report costs €1.99 per report without an account. Website Audit costs €4.99 per audit for up to 5,000 pages. Unlimited is €29.99/month for unlimited page analysis and website audits, full reports, downloads and historical dashboard access, with cancellation at any time.",
+          "zh": "免费版包括每站点每 30 天五次页面检查、分数和主要发现，以及所列辅助工具。Full Page Report 每份 1.99 欧元，无需账户；Website Audit 每次 4.99 欧元，最多 5,000 页。Unlimited 每月 29.99 欧元，提供不限次页面分析和网站审计、完整报告、下载与历史仪表盘，可随时取消。"
+        },
+        "summary": {
+          "en": "Free 5 checks/site/30 days; €1.99 full-page report; €4.99 audit up to 5,000 pages; €29.99/month Unlimited.",
+          "zh": "免费每站点每 30 天 5 次；完整页报告 1.99 欧元；5,000 页审计 4.99 欧元；Unlimited 29.99 欧元/月。"
+        },
+        "sourceUrls": [
+          "https://geo-score.online/pricing",
+          "https://geo-score.online/complete-website-geo-audit"
+        ],
+        "verifiedAt": "2026-11-25"
+      },
+      {
+        "description": {
+          "en": "The site advertises a 30-day money-back guarantee on all plans. The terms describe monthly prepaid billing in EUR through Stripe, possible VAT, automatic renewal and cancellation in account settings with access continuing to the end of the current billing period.",
+          "zh": "官网宣称所有套餐均有 30 天退款保障。条款说明以欧元通过 Stripe 按月预付，可能加收 VAT，自动续费；可在账户设置中取消，当前账期结束前仍可访问。"
+        },
+        "summary": {
+          "en": "EUR prepaid monthly billing via Stripe; possible VAT, auto-renewal and advertised 30-day refund window.",
+          "zh": "欧元通过 Stripe 按月预付；可能加 VAT、自动续费，官网宣称 30 天退款。"
+        },
+        "sourceUrls": [
+          "https://geo-score.online/pricing",
+          "https://geo-score.online/terms"
+        ],
+        "verifiedAt": "2026-11-25"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "GEOScoreBot must be able to fetch the sitemap and pages; a robots.txt block or security challenge can prevent scoring. The score is a proprietary readiness metric and does not guarantee that an AI engine will cite the site.",
+          "zh": "GEOScoreBot 必须能抓取 Sitemap 和页面；robots.txt 屏蔽或安全验证会导致无法评分。该分数是专有就绪度指标，不保证 AI 引擎会引用网站。"
+        },
+        "summary": {
+          "en": "Bot access is required; proprietary readiness scores do not guarantee citations.",
+          "zh": "需要爬虫访问；专有就绪度评分不保证引用。"
+        },
+        "sourceUrls": [
+          "https://geo-score.online/complete-website-geo-audit"
+        ],
+        "verifiedAt": "2026-11-25"
+      },
+      {
+        "description": {
+          "en": "Current pricing and product copy state 22 metrics and a 5,000-page maximum, but older interface text still says 25+ checks and an old FAQ says 200 pages. Use the current direct product/pricing figures and expect inconsistent marketing copy elsewhere.",
+          "zh": "当前定价和产品正文写 22 项指标、最多 5,000 页，但旧界面文案仍写 25+ 项检查，旧 FAQ 仍写最多 200 页。应以当前直接产品／定价说明为准，并注意其他营销文案可能不一致。"
+        },
+        "summary": {
+          "en": "Current 22 metrics/5,000 pages conflict with older 25+/200-page copy.",
+          "zh": "当前 22 项／5,000 页与旧 25+ 项／200 页文案冲突。"
+        },
+        "sourceUrls": [
+          "https://geo-score.online/pricing",
+          "https://geo-score.online/complete-website-geo-audit"
+        ],
+        "verifiedAt": "2026-11-25"
+      },
+      {
+        "description": {
+          "en": "Lenjo BV currently operates and invoices the service under the GEO-Score trade name within the Be-Found brand family. Some footer and structured-data references still identify Be-Found Online B.V. i.o.; the About page describes that entity as a holding company being incorporated to replace Lenjo BV after registration.",
+          "zh": "目前由 Lenjo BV 以 GEO-Score 商号在 Be-Found 品牌体系内运营并开票。部分页脚和结构化数据仍指向 Be-Found Online B.V. i.o.；About 页称该公司为正在设立的控股公司，注册后将取代 Lenjo BV。"
+        },
+        "summary": {
+          "en": "Current operator is Lenjo BV; some site metadata still names the future holding company.",
+          "zh": "当前运营方为 Lenjo BV；部分网站元数据仍写未来控股公司。"
+        },
+        "sourceUrls": [
+          "https://geo-score.online/about",
+          "https://geo-score.online/terms"
+        ],
+        "verifiedAt": "2026-11-25"
+      },
+      {
+        "description": {
+          "en": "The privacy policy says public leaderboards display domain, URL, score and date. Analysis results are retained indefinitely and for 30 days after account deletion, while payment records are kept for seven years.",
+          "zh": "隐私政策称公开榜单会展示域名、URL、分数和日期。分析结果无限期保留，账户删除后仍保留 30 天；支付记录保存七年。"
+        },
+        "summary": {
+          "en": "Public score listings; analysis retained indefinitely plus 30 days after deletion; payments kept 7 years.",
+          "zh": "公开分数榜单；分析结果无限期并延至删户后 30 天；支付记录保存 7 年。"
+        },
+        "sourceUrls": [
+          "https://geo-score.online/privacy"
+        ],
+        "verifiedAt": "2026-11-25"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "GEO-Score combines a recurring free page-check allowance with paid sitemap-wide audits of up to 5,000 pages. SEOmator GEO Audit is free without registration for up to 50 pages per audit and returns six weighted category scores, crawler/platform checks and a PDF. Compare recurring full-site coverage with a capped free audit rather than treating their free tiers as equivalent.",
+          "zh": "GEO-Score 将定期免费页面检查额度与最多 5,000 页的付费 Sitemap 整站审计结合；SEOmator GEO Audit 免注册免费，每次最多 50 页，返回六类加权分数、爬虫／平台检查和 PDF。应比较持续整站覆盖与有上限的免费审计，不把两者免费档视为等价。"
+        },
+        "alternativeSlug": "seomator-geo-audit",
+        "sourceUrls": [
+          "https://geo-score.online/pricing",
+          "https://geo-score.online/complete-website-geo-audit",
+          "https://seomator.com/geo-audit-tool"
+        ],
+        "verifiedAt": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "slug": "indexgraph",
+    "name": "IndexGraph",
+    "category": "geo-audit",
+    "website": "https://indexgraph.ai/",
+    "logo": null,
+    "description": {
+      "en": "Technical SEO and AI-readiness audits with engine-specific checks and entity/citation diagnostics.",
+      "zh": "技术 SEO 与 AI 就绪度审计，提供分引擎检查和实体／引用诊断。"
+    },
+    "tags": {
+      "en": [
+        "AI readiness",
+        "Technical SEO",
+        "Entity graph"
+      ],
+      "zh": [
+        "AI 就绪度",
+        "技术 SEO",
+        "实体图谱"
+      ]
+    },
+    "features": {
+      "en": [
+        "Score AI readiness from 0–100 across seven dimensions and 200+ checkpoints, including crawlability, JavaScript rendering, llms.txt, schema, E-E-A-T and entity clarity.",
+        "Add paid engine-specific audits and prompt analysis for Google AI Overviews, ChatGPT, Claude and Perplexity, alongside competitor and keyword tools."
+      ],
+      "zh": [
+        "按七个维度、200+ 检查点给出 0–100 AI 就绪度分数，覆盖爬取能力、JavaScript 渲染、llms.txt、Schema、E-E-A-T 和实体清晰度。",
+        "付费增加 Google AI Overviews、ChatGPT、Claude 与 Perplexity 的分引擎审计和提示词分析，并提供竞品和关键词工具。"
+      ]
+    },
+    "audience": {
+      "en": "Technical SEO and growth teams diagnosing whether public pages are accessible, structured and citable by AI systems.",
+      "zh": "需要判断公开页面能否被 AI 系统访问、理解并引用的技术 SEO 与增长团队。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Audit a public WordPress, Shopify, Webflow, Framer, Next.js or custom site to identify AI access and rendering problems, weak entity signals, citation-readiness gaps and missing structured data. Login-only, paywalled and noindex content is outside the crawler scope.",
+          "zh": "审计公开的 WordPress、Shopify、Webflow、Framer、Next.js 或自定义网站，找出 AI 访问和渲染问题、实体信号薄弱、引用就绪度缺口和缺失的结构化数据。仅登录可见、付费墙后和 noindex 内容不在爬取范围内。"
+        },
+        "summary": {
+          "en": "Public-site audit across 7 readiness dimensions and 200+ checkpoints; private/noindex pages excluded.",
+          "zh": "公开网站按 7 个维度、200+ 检查点审计；不抓私有或 noindex 页面。"
+        },
+        "sourceUrls": [
+          "https://indexgraph.ai/",
+          "https://indexgraph.ai/features"
+        ],
+        "verifiedAt": "2026-11-25"
+      },
+      {
+        "description": {
+          "en": "After fixing technical blockers, use paid engine-specific audits, competitor audits and prompt-oriented tools to investigate how Google AI Overviews, ChatGPT, Claude and Perplexity may read and cite the site. Engine checks have explicit monthly caps rather than unlimited use.",
+          "zh": "修复技术阻断后，用付费分引擎审计、竞品审计和提示词工具，调查 Google AI Overviews、ChatGPT、Claude 与 Perplexity 如何读取和引用网站。分引擎检查有明确的每月上限，并非无限使用。"
+        },
+        "summary": {
+          "en": "Paid engine and competitor checks supplement the readiness audit, with monthly caps.",
+          "zh": "付费分引擎与竞品检查补充就绪度审计，有每月上限。"
+        },
+        "sourceUrls": [
+          "https://indexgraph.ai/pricing",
+          "https://indexgraph.ai/features"
+        ],
+        "verifiedAt": "2026-11-25"
+      }
+    ],
+    "platforms": [
+      "ChatGPT",
+      "Claude",
+      "Perplexity",
+      "Google AI Overviews",
+      "Gemini"
+    ],
+    "pricing": "Freemium",
+    "sources": [
+      {
+        "label": {
+          "en": "IndexGraph official product and scoring",
+          "zh": "IndexGraph 官方产品与评分"
+        },
+        "url": "https://indexgraph.ai/"
+      },
+      {
+        "label": {
+          "en": "IndexGraph features and audit scope",
+          "zh": "IndexGraph 功能与审计范围"
+        },
+        "url": "https://indexgraph.ai/features"
+      },
+      {
+        "label": {
+          "en": "IndexGraph pricing and quotas",
+          "zh": "IndexGraph 定价与配额"
+        },
+        "url": "https://indexgraph.ai/pricing"
+      },
+      {
+        "label": {
+          "en": "IndexGraph terms and refunds",
+          "zh": "IndexGraph 条款与退款"
+        },
+        "url": "https://indexgraph.ai/terms"
+      },
+      {
+        "label": {
+          "en": "IndexGraph privacy and data processing",
+          "zh": "IndexGraph 隐私与数据处理"
+        },
+        "url": "https://indexgraph.ai/privacy"
+      },
+      {
+        "label": {
+          "en": "Geoptie official pricing",
+          "zh": "Geoptie 官方定价"
+        },
+        "url": "https://geoptie.com/pricing"
+      }
+    ],
+    "verifiedAt": "2026-11-25",
+    "status": "published",
+    "featuredOrder": 123,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "Free is ₹0 with one registered site and one audit each time the user logs in. It unlocks Machine Readability, Entities & Identity, five On-Page SEO features and four Technical SEO features; other results remain locked.",
+          "zh": "Free 为 0 印度卢比，可注册一个站点，每次登录运行一次审计。开放 Machine Readability、Entities & Identity、五项 On-Page SEO 和四项 Technical SEO 功能；其他结果仍锁定。"
+        },
+        "summary": {
+          "en": "Free ₹0: 1 registered site and 1 audit/login, with limited SEO/readiness results.",
+          "zh": "免费 0 印度卢比：1 个注册站点、每次登录 1 次审计，部分结果开放。"
+        },
+        "sourceUrls": [
+          "https://indexgraph.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-25"
+      },
+      {
+        "description": {
+          "en": "Standard is ₹999/month with two active and four registered sites, unlimited audits of the connected site and ten competitor audits per month; it adds Google AI Overview, Technical SEO, On-Page SEO, competitor comparison, AI Crawler Audit and AI Search Readiness. Pro is ₹2,999/month with three active and six registered sites, twenty competitor audits and seven monthly checks each for ChatGPT, Claude, Perplexity and Google AI Overviews, plus the listed AI/AEO and content tools. Premium is ₹5,999/month with five active and ten registered sites, thirty competitor audits, fifteen monthly checks each for ChatGPT, Claude and Perplexity, brand intelligence, GEO visibility, citation tracking and white-label PDF.",
+          "zh": "Standard 每月 999 印度卢比，含 2 个活跃、4 个注册站点，本站审计不限次、每月 10 次竞品审计；增加 Google AI Overview、技术 SEO、页面 SEO、竞品比较、AI 爬虫审计和 AI 搜索就绪度。Pro 每月 2,999 印度卢比，含 3 个活跃、6 个注册站点、20 次竞品审计，ChatGPT、Claude、Perplexity 与 Google AI Overviews 各每月 7 次检查，并含所列 AI／AEO 与内容工具。Premium 每月 5,999 印度卢比，含 5 个活跃、10 个注册站点、30 次竞品审计，ChatGPT、Claude 与 Perplexity 各每月 15 次检查，以及品牌情报、GEO 曝光、引用追踪和白标 PDF。"
+        },
+        "summary": {
+          "en": "Standard ₹999/mo; Pro ₹2,999/mo (7 checks/engine); Premium ₹5,999/mo (15 checks for 3 engines); site and competitor quotas vary.",
+          "zh": "Standard 999 印度卢比/月；Pro 2,999（每引擎 7 次）；Premium 5,999（3 个引擎各 15 次）；站点与竞品配额不同。"
+        },
+        "sourceUrls": [
+          "https://indexgraph.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-25"
+      },
+      {
+        "description": {
+          "en": "Paid plans renew automatically each month and can be canceled. The terms allow a full refund within seven days of a first purchase if free-tier usage has not been exceeded; later cancellations are prorated for the unused period minus payment-processing fees.",
+          "zh": "付费套餐每月自动续费，可取消。条款允许首次购买后 7 天内、且未超过免费档用量时全额退款；后续取消按未使用周期比例退款，并扣除支付手续费。"
+        },
+        "summary": {
+          "en": "Automatic monthly renewal; conditional 7-day first-purchase refund, then prorated refunds minus fees.",
+          "zh": "每月自动续费；首次购买 7 天有条件全额退款，之后按未用周期扣手续费退款。"
+        },
+        "sourceUrls": [
+          "https://indexgraph.ai/pricing",
+          "https://indexgraph.ai/terms"
+        ],
+        "verifiedAt": "2026-11-25"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "Free users receive only limited result categories. Standard lists up to three Google AI Overview Auditor runs per month, while Pro lists up to seven ChatGPT Optimization runs per month; Premium raises ChatGPT, Claude and Perplexity checks to fifteen each. These caps should be reviewed separately from site and competitor audit allowances.",
+          "zh": "免费用户只获得有限的结果类别。Standard 的 Google AI Overview Auditor 每月最多 3 次，Pro 的 ChatGPT Optimization 每月最多 7 次；Premium 将 ChatGPT、Claude 与 Perplexity 检查提高至各 15 次。这些上限应与站点和竞品审计额度分开评估。"
+        },
+        "summary": {
+          "en": "AI Overview and ChatGPT checks have tier-specific monthly caps separate from audit quotas.",
+          "zh": "AI Overview 与 ChatGPT 检查有分档月度上限，与审计配额分开。"
+        },
+        "sourceUrls": [
+          "https://indexgraph.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-25"
+      },
+      {
+        "description": {
+          "en": "The pricing page describes ten Technical SEO subareas while the features page says twelve. GA4 AI Traffic Attribution is marked COMING SOON on the features page even though a pricing table has listed it under Standard, so it should not be treated as a live capability.",
+          "zh": "定价页写技术 SEO 十个子领域，功能页写十二个。GA4 AI Traffic Attribution 在功能页标为 COMING SOON，尽管定价表曾将其列入 Standard，因此不应视为已上线能力。"
+        },
+        "summary": {
+          "en": "10-vs-12 Technical SEO copy conflict; GA4 AI Traffic Attribution is still coming soon.",
+          "zh": "技术 SEO 10 与 12 项文案冲突；GA4 AI 流量归因仍未上线。"
+        },
+        "sourceUrls": [
+          "https://indexgraph.ai/pricing",
+          "https://indexgraph.ai/features"
+        ],
+        "verifiedAt": "2026-11-25"
+      },
+      {
+        "description": {
+          "en": "The privacy policy says Meta advertising measurement is enabled unless marketing cookies are rejected; after subscription, payment amount and a SHA-256 email hash are reported to Meta. Audit data is kept until 90 days after subscription end, with connected-system data deleted within 30 days of disconnection or account deletion and backups cleared within 90 days. Data may be transferred to India, the US and the EU.",
+          "zh": "隐私政策称，除非拒绝营销 Cookie，否则启用 Meta 广告衡量；订阅后会向 Meta 报告支付金额和邮箱的 SHA-256 哈希。审计数据保留至订阅结束后 90 天，断开连接或删除账户后 30 天内删除已连接系统数据，备份 90 天内清除。数据可能跨境至印度、美国和欧盟。"
+        },
+        "summary": {
+          "en": "Meta measurement defaults on unless rejected; cross-border processing and tiered deletion windows apply.",
+          "zh": "除非拒绝否则默认启用 Meta 衡量；有跨境处理和分阶段删除期限。"
+        },
+        "sourceUrls": [
+          "https://indexgraph.ai/privacy"
+        ],
+        "verifiedAt": "2026-11-25"
+      },
+      {
+        "description": {
+          "en": "The score is a proprietary diagnostic rather than a ranking or citation guarantee. AI features depend on third-party model providers, and the terms explicitly disclaim guaranteed rankings, citations, traffic or revenue.",
+          "zh": "该分数是专有诊断指标，不是排名或引用保证。AI 功能依赖第三方模型供应商；条款明确不保证排名、引用、流量或收入。"
+        },
+        "summary": {
+          "en": "Proprietary score and third-party AI providers; no ranking, citation or traffic guarantee.",
+          "zh": "专有分数并依赖第三方 AI；不保证排名、引用或流量。"
+        },
+        "sourceUrls": [
+          "https://indexgraph.ai/",
+          "https://indexgraph.ai/terms",
+          "https://indexgraph.ai/privacy"
+        ],
+        "verifiedAt": "2026-11-25"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "IndexGraph is audit-first: its free tier emphasizes technical and entity readiness, and Standard costs ₹999/month. Geoptie Starter is $49/month with 15 monitoring prompts, two brands, daily tracking and four selectable engines, plus unlimited audit reports and content generations. Compare a technical diagnostic entry point with ongoing prompt/brand monitoring, keeping INR and USD prices separate.",
+          "zh": "IndexGraph 以审计为入口：免费档侧重技术和实体就绪度，Standard 每月 999 印度卢比。Geoptie Starter 每月 49 美元，含 15 个监测提示词、2 个品牌、每日追踪和 4 个可选引擎，并提供不限次审计报告与内容生成。应比较技术诊断入口与持续提示词／品牌监测，不换算印度卢比与美元。"
+        },
+        "alternativeSlug": "geoptie",
+        "sourceUrls": [
+          "https://indexgraph.ai/pricing",
+          "https://geoptie.com/pricing"
+        ],
+        "verifiedAt": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "slug": "firecrawl-ai-visibility-audit",
+    "name": "Firecrawl AI Visibility Audit",
+    "category": "geo-audit",
+    "website": "https://www.firecrawl.dev/tools/ai-visibility-audit",
+    "logo": null,
+    "description": {
+      "en": "Free single-page AI visibility audit for rendered content, crawler access and citability signals.",
+      "zh": "免费单页 AI 曝光审计，检查渲染内容、爬虫访问和可引用性信号。"
+    },
+    "tags": {
+      "en": [
+        "AI crawler access",
+        "Single-page audit",
+        "Citability"
+      ],
+      "zh": [
+        "AI 爬虫访问",
+        "单页审计",
+        "可引用性"
+      ]
+    },
+    "features": {
+      "en": [
+        "Inspect rendered HTML, clean markdown and links, plus robots.txt and llms.txt, without login, an account or an API key.",
+        "Score AI crawler access, structured data, content citability, expertise/trust, entity clarity and llms.txt, with prioritized fixes."
+      ],
+      "zh": [
+        "无需登录、账户或 API Key，即可检查渲染 HTML、清洁 Markdown、链接以及 robots.txt 和 llms.txt。",
+        "评估 AI 爬虫访问、结构化数据、内容可引用性、专业／信任、实体清晰度和 llms.txt，并给出优先修复项。"
+      ]
+    },
+    "audience": {
+      "en": "Developers and SEO teams checking whether one public page exposes the content and technical signals AI systems rely on.",
+      "zh": "希望检查单个公开页面是否暴露 AI 系统依赖的内容与技术信号的开发者和 SEO 团队。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Run a free, no-account audit of one public URL to inspect what Firecrawl can render and extract, whether robots and llms instructions allow access, and which structured-data, entity and content changes would make the page easier to cite.",
+          "zh": "对一个公开 URL 运行免费免账户审计，查看 Firecrawl 能渲染和提取什么、robots 与 llms 指令是否允许访问，以及哪些结构化数据、实体和内容调整有助于页面被引用。"
+        },
+        "summary": {
+          "en": "Free no-account single-page audit of rendered content, robots/llms and citability signals.",
+          "zh": "免费免账户单页审计，检查渲染内容、robots／llms 和可引用性信号。"
+        },
+        "sourceUrls": [
+          "https://www.firecrawl.dev/tools/ai-visibility-audit"
+        ],
+        "verifiedAt": "2026-11-25"
+      },
+      {
+        "description": {
+          "en": "For full-site work, move from the standalone audit UI to Firecrawl's API and use crawl, scrape or map operations to collect multiple public pages. API usage consumes credits and is billed separately from the standalone UI's limited daily checks.",
+          "zh": "需要整站处理时，可从独立审计界面转到 Firecrawl API，用 crawl、scrape 或 map 采集多个公开页面。API 用量消耗 credits，与独立界面有限的每日检查分开计费。"
+        },
+        "summary": {
+          "en": "Full-site collection uses the credit-based Firecrawl API; UI checks are limited daily.",
+          "zh": "整站采集使用按 credits 计费的 Firecrawl API；界面检查每日限量。"
+        },
+        "sourceUrls": [
+          "https://www.firecrawl.dev/tools/ai-visibility-audit",
+          "https://www.firecrawl.dev/pricing"
+        ],
+        "verifiedAt": "2026-11-25"
+      }
+    ],
+    "platforms": [],
+    "pricing": "Freemium",
+    "sources": [
+      {
+        "label": {
+          "en": "Firecrawl AI Visibility Audit product page",
+          "zh": "Firecrawl AI Visibility Audit 产品页"
+        },
+        "url": "https://www.firecrawl.dev/tools/ai-visibility-audit"
+      },
+      {
+        "label": {
+          "en": "Firecrawl pricing and credit costs",
+          "zh": "Firecrawl 定价与积分成本"
+        },
+        "url": "https://www.firecrawl.dev/pricing"
+      },
+      {
+        "label": {
+          "en": "Firecrawl company information",
+          "zh": "Firecrawl 公司信息"
+        },
+        "url": "https://www.firecrawl.dev/about"
+      },
+      {
+        "label": {
+          "en": "Firecrawl terms of service",
+          "zh": "Firecrawl 服务条款"
+        },
+        "url": "https://www.firecrawl.dev/terms-of-service"
+      },
+      {
+        "label": {
+          "en": "Firecrawl privacy policy",
+          "zh": "Firecrawl 隐私政策"
+        },
+        "url": "https://www.firecrawl.dev/privacy-policy"
+      },
+      {
+        "label": {
+          "en": "SEOmator GEO Audit comparison evidence",
+          "zh": "SEOmator GEO Audit 对比依据"
+        },
+        "url": "https://seomator.com/geo-audit-tool"
+      }
+    ],
+    "verifiedAt": "2026-11-25",
+    "status": "published",
+    "featuredOrder": 124,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "The standalone audit is free without an account, but the official page only says a limited number of checks are available each day and does not publish the count. Separately, the Firecrawl API Free plan provides 1,000 credits per month, no credit card and two concurrent requests; API credits are not the same thing as the UI's undisclosed daily audit allowance.",
+          "zh": "独立审计免费且无需账户，但官方页面只说明每天可检查有限次数，未公布具体数量。另外，Firecrawl API Free 每月提供 1,000 credits，无需信用卡，支持 2 个并发请求；API credits 与界面未公开的每日审计额度不是同一概念。"
+        },
+        "summary": {
+          "en": "Free UI has an undisclosed daily check limit; API Free is 1,000 credits/month with 2 concurrent requests.",
+          "zh": "免费界面每日次数未公开；API Free 每月 1,000 credits、2 并发。"
+        },
+        "sourceUrls": [
+          "https://www.firecrawl.dev/tools/ai-visibility-audit",
+          "https://www.firecrawl.dev/pricing"
+        ],
+        "verifiedAt": "2026-11-25"
+      },
+      {
+        "description": {
+          "en": "Hobby costs $19/month or $16/month billed annually ($190/year) for 5,000 monthly credits and five concurrent requests. Standard costs $99/month or $83/month annually ($990/year) for 100,000 credits and 25 concurrent requests. Growth costs $399/month or $333/month annually ($3,990/year) for 500,000 credits and 50 concurrent requests. Scale costs $749/month or $599/month annually ($7,190/year) for 1,000,000 credits and 100 concurrent requests. Enterprise pricing is custom.",
+          "zh": "Hobby 每月 19 美元，或年付折合 16 美元/月（190 美元/年），含每月 5,000 credits、5 并发。Standard 每月 99 美元，或年付折合 83 美元/月（990 美元/年），含 100,000 credits、25 并发。Growth 每月 399 美元，或年付折合 333 美元/月（3,990 美元/年），含 500,000 credits、50 并发。Scale 每月 749 美元，或年付折合 599 美元/月（7,190 美元/年），含 1,000,000 credits、100 并发。Enterprise 单独报价。"
+        },
+        "summary": {
+          "en": "Hobby $19/$16 annualized; Standard $99/$83; Growth $399/$333; Scale $749/$599 monthly-equivalent; credits/concurrency scale by tier.",
+          "zh": "Hobby 19／年付折合 16 美元；Standard 99／83；Growth 399／333；Scale 749／599；credits 与并发随档位增加。"
+        },
+        "sourceUrls": [
+          "https://www.firecrawl.dev/pricing"
+        ],
+        "verifiedAt": "2026-11-25"
+      },
+      {
+        "description": {
+          "en": "Base API costs are one credit per scraped or crawled page, one per map call, two per ten search results, two per browser minute for Interact and one per page per Monitor check. JSON format adds four credits per page. Paid plans can add credits in $5 increments: 1,000 on Hobby, 2,000 on Standard, 2,500 on Growth and 5,000 on Scale. Only Scale carries unused plan credits for one month; purchased credits expire when the subscription is canceled.",
+          "zh": "API 基础成本为 scrape／crawl 每页 1 credit、map 每次 1 credit、search 每 10 条 2 credits、Interact 每浏览器分钟 2 credits、Monitor 每页每次检查 1 credit。JSON 格式每页额外 4 credits。付费档可按 5 美元加购：Hobby 1,000、Standard 2,000、Growth 2,500、Scale 5,000 credits。仅 Scale 的未用套餐 credits 结转一个月；购买的 credits 在取消订阅时过期。"
+        },
+        "summary": {
+          "en": "Scrape/crawl 1 credit/page; JSON +4; $5 top-ups vary by tier; only Scale rolls credits for one month.",
+          "zh": "scrape／crawl 每页 1 credit；JSON 加 4；5 美元加购额因档位而异；仅 Scale 结转一个月。"
+        },
+        "sourceUrls": [
+          "https://www.firecrawl.dev/pricing"
+        ],
+        "verifiedAt": "2026-11-25"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "The standalone UI audits one page and does not query ChatGPT or Perplexity directly. It analyzes the page content and technical signals those systems depend on; it is not ongoing brand-mention, prompt or competitor monitoring.",
+          "zh": "独立界面只审计一个页面，不直接查询 ChatGPT 或 Perplexity。它分析这些系统依赖的页面内容和技术信号，不是持续的品牌提及、提示词或竞品监测。"
+        },
+        "summary": {
+          "en": "Single-page technical/content audit only; no direct AI-answer or brand-mention queries.",
+          "zh": "仅单页技术／内容审计；不直接查询 AI 回答或品牌提及。"
+        },
+        "sourceUrls": [
+          "https://www.firecrawl.dev/tools/ai-visibility-audit"
+        ],
+        "verifiedAt": "2026-11-25"
+      },
+      {
+        "description": {
+          "en": "The terms state that SideGuide Technologies Inc. d/b/a Firecrawl is a Delaware company, payments are handled by Stripe, fees are non-refundable and cancellation stops future charges at the end of the current period. Users grant a broad, continuing license to submitted content and feedback.",
+          "zh": "条款载明运营方 SideGuide Technologies Inc. d/b/a Firecrawl 为特拉华州公司，Stripe 处理付款，费用不可退款；取消后当前账期结束停止后续扣费。用户对提交内容和反馈授予广泛、持续的授权。"
+        },
+        "summary": {
+          "en": "Non-refundable billing and a broad continuing license to submitted content/feedback.",
+          "zh": "不可退款计费；对提交内容／反馈授予广泛持续授权。"
+        },
+        "sourceUrls": [
+          "https://www.firecrawl.dev/terms-of-service"
+        ],
+        "verifiedAt": "2026-11-25"
+      },
+      {
+        "description": {
+          "en": "The privacy policy is dated 2024-12-26 and describes US storage and processing, use of data for marketing/advertising, and retention until a written deletion request without a fixed deletion period. Review the current vendor terms before submitting sensitive page data.",
+          "zh": "隐私政策日期为 2024-12-26，说明数据在美国存储和处理、用于营销／广告，并在书面删除请求前保留，没有固定删除期限。提交敏感页面数据前应复核厂商当前条款。"
+        },
+        "summary": {
+          "en": "Older 2024 privacy policy; US processing, marketing use and no fixed deletion period.",
+          "zh": "隐私政策为 2024 年旧版；美国处理、营销用途、无固定删除期限。"
+        },
+        "sourceUrls": [
+          "https://www.firecrawl.dev/privacy-policy"
+        ],
+        "verifiedAt": "2026-11-25"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Firecrawl's free UI is a single-page audit of rendered HTML, markdown, links, robots.txt and llms.txt and does not query AI answers. SEOmator GEO Audit is free without registration for up to 50 pages, with six weighted categories, fourteen AI crawler checks, platform readiness, JSON-LD and a PDF. Firecrawl uses rendered-page extraction; SEOmator states that it reads raw HTML without executing JavaScript.",
+          "zh": "Firecrawl 免费界面是单页审计，检查渲染 HTML、Markdown、链接、robots.txt 和 llms.txt，不查询 AI 回答。SEOmator GEO Audit 免注册免费，每次最多 50 页，含六类加权评分、14 个 AI 爬虫检查、平台就绪度、JSON-LD 和 PDF。Firecrawl 提取渲染后的页面；SEOmator 明确读取不执行 JavaScript 的原始 HTML。"
+        },
+        "alternativeSlug": "seomator-geo-audit",
+        "sourceUrls": [
+          "https://www.firecrawl.dev/tools/ai-visibility-audit",
+          "https://seomator.com/geo-audit-tool"
+        ],
+        "verifiedAt": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "slug": "ansvisor",
+    "name": "Ansvisor",
+    "category": "citations",
+    "website": "https://www.ansvisor.com/",
+    "logo": null,
+    "description": {
+      "en": "AI citation monitoring that links prompts to cited domains and URLs, with AI referral analytics.",
+      "zh": "将提示词与被引域名、URL 关联的 AI 引用监测，并提供 AI 引荐流量分析。"
+    },
+    "tags": {
+      "en": [
+        "Citation monitoring",
+        "AI traffic",
+        "Prompt analysis"
+      ],
+      "zh": [
+        "引用监测",
+        "AI 流量",
+        "提示词分析"
+      ]
+    },
+    "features": {
+      "en": [
+        "Map each monitored prompt to cited domains and URLs, inspect citation gaps and filter evidence by topic, prompt, platform, region and language.",
+        "Connect AI referral tracking, GA4 and Search Console to analyze landing pages and cited-but-not-clicked pages; higher tiers add crawler visibility."
+      ],
+      "zh": [
+        "将每个监测提示词关联到被引域名和 URL，分析引用缺口，并按主题、提示词、平台、地区与语言筛选证据。",
+        "连接 AI 引荐追踪、GA4 与 Search Console，分析落地页和已引用未点击页面；更高档增加爬虫可见性。"
+      ]
+    },
+    "audience": {
+      "en": "Content and growth teams that need prompt-level citation evidence and a view of the visits those citations generate.",
+      "zh": "需要提示词级引用证据，并了解引用带来多少访问的内容与增长团队。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Track a brand, competitors and third-party sources for a fixed prompt set, then identify prompts where a cited page is missing, weak or attributed to another domain. Results can be filtered and exported by topic, prompt, platform, region and language.",
+          "zh": "为固定提示词集追踪自有品牌、竞品和第三方来源，找出页面未被引用、证据薄弱或被归到其他域名的问题。结果可按主题、提示词、平台、地区和语言筛选并导出。"
+        },
+        "summary": {
+          "en": "Prompt-to-domain/URL citation mapping with gap analysis, filters and export.",
+          "zh": "提示词到域名／URL 的引用映射，支持缺口分析、筛选和导出。"
+        },
+        "sourceUrls": [
+          "https://www.ansvisor.com/features/citations-monitoring"
+        ],
+        "verifiedAt": "2026-11-25"
+      },
+      {
+        "description": {
+          "en": "Use the traffic module to compare cited pages with actual AI-referred visits and find cited-but-not-clicked pages. Growth and higher plans can connect Cloudflare or Vercel for crawler visibility. AI Overview clicks cannot be precisely separated from organic traffic, so impressions rising while CTR falls is treated as a signal rather than exact attribution.",
+          "zh": "用流量模块比较被引页面与实际 AI 引荐访问，找出已引用未点击页面。Growth 及以上可连接 Cloudflare 或 Vercel 查看爬虫。AI Overview 点击无法从自然流量中精确拆分，因此展示量上升、CTR 下降只作为信号，而非精确归因。"
+        },
+        "summary": {
+          "en": "AI-referral and cited-not-clicked analysis; AI Overview clicks are not exactly attributable.",
+          "zh": "分析 AI 引荐与已引用未点击页面；AI Overview 点击无法精确归因。"
+        },
+        "sourceUrls": [
+          "https://www.ansvisor.com/features/ai-traffic-analytics"
+        ],
+        "verifiedAt": "2026-11-25"
+      }
+    ],
+    "platforms": [
+      "ChatGPT",
+      "Google Gemini",
+      "Google AI Overviews",
+      "Google AI Mode",
+      "Bing AI Mode",
+      "Claude"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "Ansvisor official product overview",
+          "zh": "Ansvisor 官方产品概览"
+        },
+        "url": "https://www.ansvisor.com/"
+      },
+      {
+        "label": {
+          "en": "Ansvisor citations monitoring",
+          "zh": "Ansvisor 引用监测"
+        },
+        "url": "https://www.ansvisor.com/features/citations-monitoring"
+      },
+      {
+        "label": {
+          "en": "Ansvisor AI traffic analytics",
+          "zh": "Ansvisor AI 流量分析"
+        },
+        "url": "https://www.ansvisor.com/features/ai-traffic-analytics"
+      },
+      {
+        "label": {
+          "en": "Ansvisor pricing and plan limits",
+          "zh": "Ansvisor 定价与套餐限制"
+        },
+        "url": "https://www.ansvisor.com/pricing"
+      },
+      {
+        "label": {
+          "en": "Ansvisor terms of service",
+          "zh": "Ansvisor 服务条款"
+        },
+        "url": "https://www.ansvisor.com/terms-of-service"
+      },
+      {
+        "label": {
+          "en": "Ansvisor privacy policy",
+          "zh": "Ansvisor 隐私政策"
+        },
+        "url": "https://www.ansvisor.com/privacy-policy"
+      },
+      {
+        "label": {
+          "en": "Peec AI official pricing",
+          "zh": "Peec AI 官方定价"
+        },
+        "url": "https://peec.ai/pricing"
+      }
+    ],
+    "verifiedAt": "2026-11-25",
+    "status": "published",
+    "featuredOrder": 125,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "Starter is $49/month or $470/year for one brand/project, 50 prompts, ChatGPT and Google Gemini, daily monitoring, unlimited users, 100 site audits and 10 content briefs per month. It also includes 25 new pages or 50 optimizations per month, sharing the plan's monthly AI usage budget with Chat and AI agents.",
+          "zh": "Starter 每月 49 美元或每年 470 美元，含 1 个品牌／项目、50 个提示词、ChatGPT 与 Google Gemini、每日监测、无限用户、每月 100 次网站审计和 10 份内容简报。还含每月 25 个新页面或 50 次优化，与 Chat、AI agents 共享套餐月度 AI 用量预算。"
+        },
+        "summary": {
+          "en": "Starter $49/month or $470/year: 1 brand, 50 prompts, ChatGPT/Gemini, 100 audits; AI usage is shared.",
+          "zh": "Starter 49 美元/月或 470 美元/年：1 品牌、50 提示词、ChatGPT／Gemini、100 审计；AI 用量共享。"
+        },
+        "sourceUrls": [
+          "https://www.ansvisor.com/pricing"
+        ],
+        "verifiedAt": "2026-11-25"
+      },
+      {
+        "description": {
+          "en": "Growth is $249/month or $2,390/year for four brands/projects, 250 prompts, daily monitoring, unlimited users, multi-country support, 500 site audits and 50 content briefs per month. It adds Google AI Overviews, Google AI Mode and Bing AI Mode, Cloudflare/Vercel crawler visibility and 125 new pages or 250 optimizations per month under the shared AI usage budget. Custom is quoted annually and adds options such as Claude and SSO.",
+          "zh": "Growth 每月 249 美元或每年 2,390 美元，含 4 个品牌／项目、250 个提示词、每日监测、无限用户、多国家支持、每月 500 次网站审计和 50 份内容简报。增加 Google AI Overviews、Google AI Mode、Bing AI Mode、Cloudflare／Vercel 爬虫可见性，以及共享 AI 预算下每月 125 个新页面或 250 次优化。Custom 按年报价，可增加 Claude、SSO 等选项。"
+        },
+        "summary": {
+          "en": "Growth $249/month or $2,390/year: 4 brands, 250 prompts, added Google/Bing surfaces, 500 audits; Custom annual quote.",
+          "zh": "Growth 249 美元/月或 2,390 美元/年：4 品牌、250 提示词、增加 Google／Bing 界面、500 审计；Custom 年度报价。"
+        },
+        "sourceUrls": [
+          "https://www.ansvisor.com/pricing",
+          "https://www.ansvisor.com/features/ai-traffic-analytics"
+        ],
+        "verifiedAt": "2026-11-25"
+      },
+      {
+        "description": {
+          "en": "There is no ongoing free plan: the Demo Account only displays sample data without a card. A 14-day trial may require a card and converts to a paid monthly subscription unless canceled. The observed SAVE50 offer after a demo subscription gives a first month at $24.50 for Starter or $124.50 for Growth, with the second month returning to the regular price.",
+          "zh": "没有持续免费套餐：Demo Account 仅无需信用卡查看样例数据。14 天试用可能要求绑定信用卡，未取消会转为付费月订阅。观察到演示后订阅可使用 SAVE50：Starter 首月 24.50 美元、Growth 首月 124.50 美元，第二个月恢复常规价。"
+        },
+        "summary": {
+          "en": "Demo data is not a free plan; 14-day trial may auto-convert; SAVE50 discounts only the first month.",
+          "zh": "演示数据不是免费套餐；14 天试用可能自动续费；SAVE50 仅优惠首月。"
+        },
+        "sourceUrls": [
+          "https://www.ansvisor.com/pricing"
+        ],
+        "verifiedAt": "2026-11-25"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "Platform coverage depends on the plan: Starter includes ChatGPT and Google Gemini; Growth adds Google AI Overviews, Google AI Mode and Bing AI Mode; Claude is listed with Custom. Perplexity, Copilot, Grok and DeepSeek are still shown as coming soon and should not be treated as live citation-monitoring coverage.",
+          "zh": "平台覆盖取决于套餐：Starter 含 ChatGPT 与 Google Gemini；Growth 增加 Google AI Overviews、Google AI Mode 与 Bing AI Mode；Claude 列在 Custom。Perplexity、Copilot、Grok 和 DeepSeek 仍标为 coming soon，不应视为已上线的引用监测。"
+        },
+        "summary": {
+          "en": "Starter/Growth/Custom have different engines; Perplexity, Copilot, Grok and DeepSeek are coming soon.",
+          "zh": "Starter／Growth／Custom 引擎不同；Perplexity、Copilot、Grok、DeepSeek 尚未上线。"
+        },
+        "sourceUrls": [
+          "https://www.ansvisor.com/pricing",
+          "https://www.ansvisor.com/features/ai-traffic-analytics"
+        ],
+        "verifiedAt": "2026-11-25"
+      },
+      {
+        "description": {
+          "en": "Detecting an AI referral source is not the same as proving that the source engine cited the site for a particular prompt. AI Overview click attribution is especially limited, and the platform describes AI outputs as probabilistic estimates rather than guaranteed rankings or business outcomes.",
+          "zh": "检测到 AI 引荐来源，不等于证明该引擎曾为某个提示词引用网站。AI Overview 点击归因尤其有限；平台将 AI 输出描述为概率性估计，而非排名或业务结果保证。"
+        },
+        "summary": {
+          "en": "Referral detection is not prompt-level proof; AI estimates and AI Overview attribution are limited.",
+          "zh": "引荐检测不等于提示词级证据；AI 估计与 AI Overview 归因有限。"
+        },
+        "sourceUrls": [
+          "https://www.ansvisor.com/features/ai-traffic-analytics",
+          "https://www.ansvisor.com/terms-of-service"
+        ],
+        "verifiedAt": "2026-11-25"
+      },
+      {
+        "description": {
+          "en": "The operator is Empler AI Inc., a Delaware company. The current terms and privacy policy were updated on 2026-10-28, but the company is relatively young and some older site material still reflects earlier product states; self-hosting also requires separate Supabase and model API costs.",
+          "zh": "运营方为特拉华州公司 Empler AI Inc.。当前条款和隐私政策更新于 2026-10-28，但公司成立时间较短，部分旧网站材料仍反映早期产品状态；自托管还需另付 Supabase 与模型 API 成本。"
+        },
+        "summary": {
+          "en": "Young operator; older site material may lag the current product; self-hosted infrastructure/model costs are separate.",
+          "zh": "运营方较新；旧材料可能落后于当前产品；自托管基础设施／模型费用另计。"
+        },
+        "sourceUrls": [
+          "https://www.ansvisor.com/terms-of-service",
+          "https://www.ansvisor.com/privacy-policy",
+          "https://www.ansvisor.com/"
+        ],
+        "verifiedAt": "2026-11-25"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Ansvisor Starter is $49/month with 50 prompts, one brand, ChatGPT and Gemini, daily monitoring and unlimited users; it emphasizes citation URLs and AI-referral analysis. Peec AI Starter is $95/month with 50 prompts, one project, three selectable models, daily tracking and unlimited users. Compare entry price, brand/project scope, engine selection and the citation/traffic workflow rather than prompt count alone.",
+          "zh": "Ansvisor Starter 每月 49 美元，含 50 个提示词、1 个品牌、ChatGPT 与 Gemini、每日监测和无限用户，侧重引用 URL 与 AI 引荐分析。Peec AI Starter 每月 95 美元，含 50 个提示词、1 个项目、3 个可选模型、每日追踪和无限用户。应比较入门价格、品牌／项目范围、引擎选择及引用／流量工作流，而非只看提示词数量。"
+        },
+        "alternativeSlug": "peec-ai",
+        "sourceUrls": [
+          "https://www.ansvisor.com/pricing",
+          "https://www.ansvisor.com/features/citations-monitoring",
+          "https://www.ansvisor.com/features/ai-traffic-analytics",
+          "https://peec.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "slug": "fathom-analytics",
+    "name": "Fathom Analytics",
+    "category": "ai-traffic",
+    "website": "https://usefathom.com/",
+    "logo": null,
+    "description": {
+      "en": "Cookie-free web analytics with a dedicated AI Referrals category for AI assistant traffic.",
+      "zh": "无 Cookie 网站分析，设独立 AI Referrals 分类统计 AI 助手流量。"
+    },
+    "tags": {
+      "en": [
+        "AI referrals",
+        "Privacy-first",
+        "Web analytics"
+      ],
+      "zh": [
+        "AI 引荐",
+        "隐私优先",
+        "网站分析"
+      ]
+    },
+    "features": {
+      "en": [
+        "Recognize referrers from ChatGPT, Perplexity, Claude, Gemini, Copilot, DeepSeek, Grok, Meta AI, You.com and Poe in a dedicated AI Referrals category.",
+        "Inspect historical AI traffic in dashboards and through API filters without cookies; AI UTM-tagged links can also be classified as AI sources."
+      ],
+      "zh": [
+        "在独立 AI Referrals 分类中识别 ChatGPT、Perplexity、Claude、Gemini、Copilot、DeepSeek、Grok、Meta AI、You.com 和 Poe 的引荐来源。",
+        "无需 Cookie 即可在仪表盘和 API 筛选中查看历史 AI 流量；带 AI UTM 的链接也可归为 AI 来源。"
+      ]
+    },
+    "audience": {
+      "en": "Website owners measuring visits from AI assistants without tracking prompts, mentions or cookies.",
+      "zh": "希望无需追踪提示词、品牌提及或 Cookie，即可衡量 AI 助手带来访问的网站所有者。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Review how many visits arrive from recognized AI assistants, which landing pages they reach and how that traffic changes over time. Historical dashboards and API filters support reporting by AI source without treating a referral as proof of a specific prompt or citation.",
+          "zh": "查看已识别 AI 助手带来多少访问、用户到达哪些落地页以及流量如何变化。历史仪表盘和 API 筛选支持按 AI 来源报告，但不把一次引荐当作特定提示词或引用的证据。"
+        },
+        "summary": {
+          "en": "Historical AI-referral reporting by source and landing page, not prompt or mention tracking.",
+          "zh": "按来源和落地页报告历史 AI 引荐，不追踪提示词或提及。"
+        },
+        "sourceUrls": [
+          "https://usefathom.com/docs/features/sources"
+        ],
+        "verifiedAt": "2026-11-25"
+      },
+      {
+        "description": {
+          "en": "Use AI referral segmentation alongside ordinary acquisition channels to investigate whether AI assistant traffic reaches key pages and converts. Tagged AI links can supplement referrer detection, while untagged visits without an AI referrer may remain Direct.",
+          "zh": "将 AI 引荐细分与普通获客渠道结合，调查 AI 助手流量是否到达关键页面并完成转化。带标签的 AI 链接可补充来源检测，没有 AI referrer 的未标签访问可能仍归为 Direct。"
+        },
+        "summary": {
+          "en": "Compare AI referral acquisition with other channels; untagged visits without AI referrer may be Direct.",
+          "zh": "比较 AI 引荐与其他渠道；无 AI referrer 的未标签访问可能归 Direct。"
+        },
+        "sourceUrls": [
+          "https://usefathom.com/docs/features/sources"
+        ],
+        "verifiedAt": "2026-11-25"
+      }
+    ],
+    "platforms": [
+      "ChatGPT",
+      "Perplexity",
+      "Claude",
+      "Gemini",
+      "Microsoft Copilot",
+      "DeepSeek",
+      "Grok",
+      "Meta AI",
+      "You.com",
+      "Poe"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "Fathom official product overview",
+          "zh": "Fathom 官方产品概览"
+        },
+        "url": "https://usefathom.com/"
+      },
+      {
+        "label": {
+          "en": "Fathom traffic sources and AI referrals",
+          "zh": "Fathom 流量来源与 AI 引荐"
+        },
+        "url": "https://usefathom.com/docs/features/sources"
+      },
+      {
+        "label": {
+          "en": "Fathom pricing and plan limits",
+          "zh": "Fathom 定价与套餐限制"
+        },
+        "url": "https://usefathom.com/pricing"
+      },
+      {
+        "label": {
+          "en": "Fathom terms of service",
+          "zh": "Fathom 服务条款"
+        },
+        "url": "https://usefathom.com/legal/terms"
+      },
+      {
+        "label": {
+          "en": "Fathom privacy policy",
+          "zh": "Fathom 隐私政策"
+        },
+        "url": "https://usefathom.com/legal/privacy"
+      },
+      {
+        "label": {
+          "en": "Plausible official product and pricing",
+          "zh": "Plausible 官方产品与定价"
+        },
+        "url": "https://plausible.io/"
+      }
+    ],
+    "verifiedAt": "2026-11-25",
+    "status": "published",
+    "featuredOrder": 126,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "The lowest displayed tier covers 100,000 monthly pageviews. Standard is $15/month and includes 50 sites, all analytics features and 600 API requests per hour. Business is $39/month with the same pageview allowance and 50 sites, 1,000 API requests per hour, ten team seats plus the owner, role controls, an audit log and priority support.",
+          "zh": "最低显示档位覆盖每月 100,000 次页面浏览。Standard 每月 15 美元，含 50 个站点、全部分析功能和每小时 600 次 API 请求。Business 每月 39 美元，同样覆盖该浏览量和 50 个站点，并提供每小时 1,000 次 API 请求、10 个团队席位加所有者、角色控制、审计日志和优先支持。"
+        },
+        "summary": {
+          "en": "100k pageviews/month: Standard $15 (50 sites, API 600/hour); Business $39 (API 1,000/hour, team controls).",
+          "zh": "每月 10 万浏览：Standard 15 美元（50 站点、API 600 次/时）；Business 39 美元（API 1,000 次/时、团队控制）。"
+        },
+        "sourceUrls": [
+          "https://usefathom.com/pricing"
+        ],
+        "verifiedAt": "2026-11-25"
+      },
+      {
+        "description": {
+          "en": "Yearly billing is ten times the monthly price at the displayed tier: $150/year for Standard and $390/year for Business. There is no free plan; a seven-day trial requires a card and renews automatically unless canceled. Pageviews and custom events share the monthly allowance. Extra packs of 50 sites cost $10/month or $100/year on Standard or Business, and extra Business seats cost the same.",
+          "zh": "所示档位的年费为月付十倍：Standard 150 美元/年、Business 390 美元/年。没有免费套餐；7 天试用需信用卡，未取消会自动续费。页面浏览与自定义事件共享月度额度。Standard 或 Business 每增加 50 个站点为 10 美元/月或 100 美元/年，Business 额外席位同价。"
+        },
+        "summary": {
+          "en": "Standard $150/year; Business $390/year; no free plan; 7-day card trial auto-renews; events share pageview quota.",
+          "zh": "Standard 150 美元/年；Business 390 美元/年；无免费套餐；7 天绑卡试用自动续费；事件共享浏览量配额。"
+        },
+        "sourceUrls": [
+          "https://usefathom.com/pricing"
+        ],
+        "verifiedAt": "2026-11-25"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "A visit without an AI referrer and without an AI utm_source is classified as Direct. If another utm_medium or utm_campaign is present, the visit can still be attributed to Paid/Campaign rather than AI. Source analysis is unavailable for imported Google Analytics data or historical data from before March 2021.",
+          "zh": "没有 AI referrer 且没有 AI utm_source 的访问会归为 Direct。如果存在其他 utm_medium 或 utm_campaign，访问仍可能归为 Paid／Campaign，而非 AI。导入的 Google Analytics 数据或 2021 年 3 月前的历史数据不支持来源分析。"
+        },
+        "summary": {
+          "en": "Missing AI referrer/UTM falls to Direct; campaign UTMs may stay Paid; old/imported GA data lacks source analysis.",
+          "zh": "缺少 AI referrer／UTM 归 Direct；活动 UTM 可能仍归 Paid；旧数据／GA 导入无来源分析。"
+        },
+        "sourceUrls": [
+          "https://usefathom.com/docs/features/sources"
+        ],
+        "verifiedAt": "2026-11-25"
+      },
+      {
+        "description": {
+          "en": "Fathom measures referred visits, not AI prompts, brand mentions, answer positions or crawler activity. Recognized AI traffic depends on the referrer or UTM information supplied by the visitor's browser or link.",
+          "zh": "Fathom 衡量的是引荐访问，不是 AI 提示词、品牌提及、回答位置或爬虫活动。能否识别 AI 流量取决于访客浏览器或链接提供的 referrer／UTM 信息。"
+        },
+        "summary": {
+          "en": "Referral analytics only; no prompt, mention, answer-position or crawler measurement.",
+          "zh": "仅引荐分析；不测提示词、提及、回答位置或爬虫。"
+        },
+        "sourceUrls": [
+          "https://usefathom.com/docs/features/sources"
+        ],
+        "verifiedAt": "2026-11-25"
+      },
+      {
+        "description": {
+          "en": "The operator is Conva Ventures Inc. in Victoria, British Columbia, Canada. The product emphasizes cookie-free measurement, no sale of personal data, a DPA and EU data isolation, but its terms page was last updated on 2021-12-21; the privacy policy was updated on 2026-10-02.",
+          "zh": "运营方为加拿大不列颠哥伦比亚省 Victoria 的 Conva Ventures Inc.。产品强调无 Cookie 衡量、不出售个人数据，并提供 DPA 和欧盟数据隔离；但条款页最后更新于 2021-12-21，隐私政策更新于 2026-10-02。"
+        },
+        "summary": {
+          "en": "Canadian operator; privacy policy updated 2026-10-02, but terms remain dated 2021-12-21.",
+          "zh": "加拿大运营方；隐私政策更新于 2026-10-02，条款仍为 2021-12-21。"
+        },
+        "sourceUrls": [
+          "https://usefathom.com/legal/terms",
+          "https://usefathom.com/legal/privacy",
+          "https://usefathom.com/"
+        ],
+        "verifiedAt": "2026-11-25"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Both products offer cookie-free AI referral analytics rather than prompt or brand-mention tracking. Fathom starts at 100,000 monthly pageviews for $15/month with 50 sites and an API limit of 600 requests/hour. Plausible's displayed 10,000-pageview tier starts at $9/month for one site; Growth is $14 for up to three sites and Business is $19 for up to ten sites with an API limit of 600 requests/hour. Compare entry traffic volume, included sites, team features and API limits.",
+          "zh": "两者都提供无 Cookie 的 AI 引荐分析，而非提示词或品牌提及追踪。Fathom 的 10 万月浏览起步档为 15 美元/月，含 50 个站点，API 每小时 600 次。Plausible 所示 1 万月浏览档起步为 9 美元/月、1 个站点；Growth 14 美元、最多 3 个站点；Business 19 美元、最多 10 个站点，API 每小时 600 次。应比较起步流量、站点数、团队功能和 API 限制。"
+        },
+        "alternativeSlug": "plausible",
+        "sourceUrls": [
+          "https://usefathom.com/pricing",
+          "https://usefathom.com/docs/features/sources",
+          "https://plausible.io/"
+        ],
+        "verifiedAt": "2026-11-25"
+      }
+    ]
   }
 ]
