@@ -113,3 +113,9 @@
 - 根因：摘要为压缩文案，批量录入时只保留价格与部分功能；校验器证明字段和来源齐全，但不判断摘要是否覆盖完整描述中的选型关键事实。
 - 修复／预防：对新增或更新的 `pricingDetails`、`limitations` 逐条比较 description 与 summary，保留账期、税费、关键配额、加购和未知状态；审计建议也必须回到官方源核实，未公布次数写“未公布”，不补推测数字。修正后重跑 validate、build、test，并检查中英比较表。
 - 记录：首次 2026-11-25 · 最近 2026-11-25 · 命中 1 次 · [轮次记录](../../../docs/research/2026-11-25-geo-sites.md)
+
+### L-18 Pages 部署 500 先区分服务故障与代码失败
+- 症状：Actions 的校验、构建、测试与静态上传均成功，但 Deploy to GitHub Pages 在创建 deployment 时返回 status 500。
+- 根因：GitHub Pages 服务端故障；GitHub Status 可显示 Pages `degraded_performance`，不是静态站代码或数据错误。
+- 修复／预防：先读失败 job 的 annotation 与 GitHub Status；服务恢复后重跑失败 deployment，不为 500 改代码、数据或绕过检查。重试仍失败则报告并等待外部恢复。
+- 记录：首次 2026-11-26 · 最近 2026-11-26 · 命中 1 次 · [轮次记录](../../../docs/research/2026-11-25-geo-sites.md)
