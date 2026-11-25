@@ -18452,8 +18452,8 @@
           "zh": "就绪度审计免费且无需账户。一次性 7 天试用为 9 美元加税，含 7 个买家问题、5 个 AI 系统和 7 个内容计划；到期未取消将转为每月 229 美元加税的 Autopilot。"
         },
         "summary": {
-          "en": "Free audit; one-time $9 plus-tax 7-day trial auto-converts to $229/month Autopilot.",
-          "zh": "审计免费；一次性 9 美元加税试用 7 天，未取消自动转为 229 美元/月 Autopilot。"
+          "en": "Free audit; one-time $9 plus-tax 7-day trial auto-converts to Autopilot at $229/month plus tax.",
+          "zh": "审计免费；一次性 9 美元加税试用 7 天，未取消自动转为 229 美元/月加税的 Autopilot。"
         },
         "sourceUrls": [
           "https://www.geo-tool.com/en",
@@ -18467,8 +18467,8 @@
           "zh": "Autopilot 每月 229 美元加税，可按月取消。范围包括最多 100 个买家问题、5 个 AI 系统、10 个竞品、50 个内容计划和 50 个目标页面。官方称所含 AI 预算通常每月可覆盖约 10–20 篇完整审核文章或页面更新，并受合理使用上限约束。"
         },
         "summary": {
-          "en": "Autopilot $229/month plus tax; 100 questions, 5 AI systems, 50 plans/pages; fair-use AI budget.",
-          "zh": "Autopilot 229 美元/月加税；100 问题、5 AI 系统、50 计划／页面；AI 预算有合理使用上限。"
+          "en": "Autopilot $229/month plus tax; 100 questions, 5 AI systems, 10 competitors, 50 plans/pages; fair-use AI budget.",
+          "zh": "Autopilot 229 美元/月加税；100 问题、5 AI 系统、10 个竞品、50 计划／页面；AI 预算有合理使用上限。"
         },
         "sourceUrls": [
           "https://www.geo-tool.com/en/pricing"
@@ -18673,12 +18673,12 @@
     "pricingDetails": [
       {
         "description": {
-          "en": "Free includes five page checks per site every 30 days, the score and top findings, plus the listed helper tools. A Full Page Report costs €1.99 per report without an account. Website Audit costs €4.99 per audit for up to 5,000 pages. Unlimited is €29.99/month for unlimited page analysis and website audits, full reports, downloads and historical dashboard access, with cancellation at any time.",
-          "zh": "免费版包括每站点每 30 天五次页面检查、分数和主要发现，以及所列辅助工具。Full Page Report 每份 1.99 欧元，无需账户；Website Audit 每次 4.99 欧元，最多 5,000 页。Unlimited 每月 29.99 欧元，提供不限次页面分析和网站审计、完整报告、下载与历史仪表盘，可随时取消。"
+          "en": "Free includes five page checks per site every 30 days, the score and top findings, plus the listed helper tools. A one-time Full Page Report costs €1.99 per report without an account. A one-time Website Audit costs €4.99 per audit for up to 5,000 pages. Unlimited is €29.99/month for unlimited page analysis and website audits, full reports, downloads and historical dashboard access, with cancellation at any time.",
+          "zh": "免费版包括每站点每 30 天五次页面检查、分数和主要发现，以及所列辅助工具。Full Page Report 一次性每份 1.99 欧元，无需账户；Website Audit 一次性每次 4.99 欧元，最多 5,000 页。Unlimited 每月 29.99 欧元，提供不限次页面分析和网站审计、完整报告、下载与历史仪表盘，可随时取消。"
         },
         "summary": {
-          "en": "Free 5 checks/site/30 days; €1.99 full-page report; €4.99 audit up to 5,000 pages; €29.99/month Unlimited.",
-          "zh": "免费每站点每 30 天 5 次；完整页报告 1.99 欧元；5,000 页审计 4.99 欧元；Unlimited 29.99 欧元/月。"
+          "en": "Free 5 checks/site/30 days; one-time €1.99 full-page report; one-time €4.99 audit up to 5,000 pages; €29.99/month Unlimited.",
+          "zh": "免费每站点每 30 天 5 次；完整页报告一次性 1.99 欧元；5,000 页审计一次性 4.99 欧元；Unlimited 29.99 欧元/月。"
         },
         "sourceUrls": [
           "https://geo-score.online/pricing",
@@ -18688,15 +18688,16 @@
       },
       {
         "description": {
-          "en": "The site advertises a 30-day money-back guarantee on all plans. The terms describe monthly prepaid billing in EUR through Stripe, possible VAT, automatic renewal and cancellation in account settings with access continuing to the end of the current billing period.",
-          "zh": "官网宣称所有套餐均有 30 天退款保障。条款说明以欧元通过 Stripe 按月预付，可能加收 VAT，自动续费；可在账户设置中取消，当前账期结束前仍可访问。"
+          "en": "Public pages conflict on the refund window: the pricing page advertises 30 days, while embedded product copy also contains 14-day and 7-day statements; the terms provide a satisfaction guarantee but leave eligibility and conditions to each plan rather than fixing a window. Billing is monthly prepaid in EUR through Stripe, with possible VAT, automatic renewal and account cancellation that leaves access active through the current billing period.",
+          "zh": "公开页面的退款期限口径冲突：定价页宣称 30 天，内嵌产品文案同时出现 14 天和 7 天说法；条款提供满意度保障，但将资格与条件留给各套餐，未固定统一期限。计费为通过 Stripe 按月预付欧元，可能加收 VAT、自动续费；可在账户设置取消，当前账期结束前仍可访问。"
         },
         "summary": {
-          "en": "EUR prepaid monthly billing via Stripe; possible VAT, auto-renewal and advertised 30-day refund window.",
-          "zh": "欧元通过 Stripe 按月预付；可能加 VAT、自动续费，官网宣称 30 天退款。"
+          "en": "EUR prepaid monthly via Stripe; possible VAT and auto-renewal; refund window conflicts at 30/14/7 days, with terms deferring to each plan.",
+          "zh": "欧元通过 Stripe 按月预付；可能加 VAT、自动续费；退款期存在 30／14／7 天冲突，条款称按套餐确定。"
         },
         "sourceUrls": [
           "https://geo-score.online/pricing",
+          "https://geo-score.online/complete-website-geo-audit",
           "https://geo-score.online/terms"
         ],
         "verifiedAt": "2026-11-25"
@@ -18749,12 +18750,12 @@
       },
       {
         "description": {
-          "en": "The privacy policy says public leaderboards display domain, URL, score and date. Analysis results are retained indefinitely and for 30 days after account deletion, while payment records are kept for seven years.",
-          "zh": "隐私政策称公开榜单会展示域名、URL、分数和日期。分析结果无限期保留，账户删除后仍保留 30 天；支付记录保存七年。"
+          "en": "The privacy policy says public leaderboards display domain, URL, score and date. Account data is kept until account deletion plus 30 days for backups; analysis results are retained indefinitely; payment records are kept for seven years.",
+          "zh": "隐私政策称公开榜单会展示域名、URL、分数和日期。账户数据保留至账户删除，另有 30 天备份期；分析结果无限期保留；支付记录保存七年。"
         },
         "summary": {
-          "en": "Public score listings; analysis retained indefinitely plus 30 days after deletion; payments kept 7 years.",
-          "zh": "公开分数榜单；分析结果无限期并延至删户后 30 天；支付记录保存 7 年。"
+          "en": "Public score listings; account data kept until deletion plus 30 backup days, analysis indefinitely, payments 7 years.",
+          "zh": "公开分数榜单；账户数据保留至删除后 30 天备份期，分析结果无限期，支付记录 7 年。"
         },
         "sourceUrls": [
           "https://geo-score.online/privacy"
@@ -18919,12 +18920,12 @@
       },
       {
         "description": {
-          "en": "Standard is ₹999/month with two active and four registered sites, unlimited audits of the connected site and ten competitor audits per month; it adds Google AI Overview, Technical SEO, On-Page SEO, competitor comparison, AI Crawler Audit and AI Search Readiness. Pro is ₹2,999/month with three active and six registered sites, twenty competitor audits and seven monthly checks each for ChatGPT, Claude, Perplexity and Google AI Overviews, plus the listed AI/AEO and content tools. Premium is ₹5,999/month with five active and ten registered sites, thirty competitor audits, fifteen monthly checks each for ChatGPT, Claude and Perplexity, brand intelligence, GEO visibility, citation tracking and white-label PDF.",
-          "zh": "Standard 每月 999 印度卢比，含 2 个活跃、4 个注册站点，本站审计不限次、每月 10 次竞品审计；增加 Google AI Overview、技术 SEO、页面 SEO、竞品比较、AI 爬虫审计和 AI 搜索就绪度。Pro 每月 2,999 印度卢比，含 3 个活跃、6 个注册站点、20 次竞品审计，ChatGPT、Claude、Perplexity 与 Google AI Overviews 各每月 7 次检查，并含所列 AI／AEO 与内容工具。Premium 每月 5,999 印度卢比，含 5 个活跃、10 个注册站点、30 次竞品审计，ChatGPT、Claude 与 Perplexity 各每月 15 次检查，以及品牌情报、GEO 曝光、引用追踪和白标 PDF。"
+          "en": "Standard is ₹999/month with two active and four registered sites, unlimited audits of the connected site and ten competitor audits per month; it adds Google AI Overview, Technical SEO, On-Page SEO, competitor comparison, AI Crawler Audit and AI Search Readiness. The pricing page does not state a separate monthly AI Overview quota for Standard. Pro is ₹2,999/month with three active and six registered sites, twenty competitor audits and seven monthly checks each for ChatGPT, Claude, Perplexity and Google AI Overviews, plus the listed AI/AEO and content tools. Premium is ₹5,999/month with five active and ten registered sites, thirty competitor audits, fifteen monthly checks each for ChatGPT, Claude and Perplexity, brand intelligence, GEO visibility, citation tracking and white-label PDF.",
+          "zh": "Standard 每月 999 印度卢比，含 2 个活跃、4 个注册站点，本站审计不限次、每月 10 次竞品审计；增加 Google AI Overview、技术 SEO、页面 SEO、竞品比较、AI 爬虫审计和 AI 搜索就绪度。定价页未单独公布 Standard 的 AI Overview 月度次数。Pro 每月 2,999 印度卢比，含 3 个活跃、6 个注册站点、20 次竞品审计，ChatGPT、Claude、Perplexity 与 Google AI Overviews 各每月 7 次检查，并含所列 AI／AEO 与内容工具。Premium 每月 5,999 印度卢比，含 5 个活跃、10 个注册站点、30 次竞品审计，ChatGPT、Claude 与 Perplexity 各每月 15 次检查，以及品牌情报、GEO 曝光、引用追踪和白标 PDF。"
         },
         "summary": {
-          "en": "Standard ₹999/mo; Pro ₹2,999/mo (7 checks/engine); Premium ₹5,999/mo (15 checks for 3 engines); site and competitor quotas vary.",
-          "zh": "Standard 999 印度卢比/月；Pro 2,999（每引擎 7 次）；Premium 5,999（3 个引擎各 15 次）；站点与竞品配额不同。"
+          "en": "Standard ₹999/mo: 2 active/4 registered sites, 10 competitor audits/mo, AI Overview quota not stated; Pro ₹2,999/mo: 3 active/6 registered sites, 20 competitor audits, 7 checks/engine across 4 engines; Premium ₹5,999/mo: 5 active/10 registered sites, 30 competitor audits, 15 checks/engine across ChatGPT, Claude and Perplexity.",
+          "zh": "Standard ₹999/月：2 活跃／4 注册站点、每月 10 次竞品审计，AI Overview 次数未公布；Pro ₹2,999/月：3 活跃／6 注册站点、20 次竞品审计，4 个引擎各 7 次；Premium ₹5,999/月：5 活跃／10 注册站点、30 次竞品审计，ChatGPT、Claude、Perplexity 各 15 次。"
         },
         "sourceUrls": [
           "https://indexgraph.ai/pricing"
@@ -18979,8 +18980,8 @@
       },
       {
         "description": {
-          "en": "The privacy policy says Meta advertising measurement is enabled unless marketing cookies are rejected; after subscription, payment amount and a SHA-256 email hash are reported to Meta. Audit data is kept until 90 days after subscription end, with connected-system data deleted within 30 days of disconnection or account deletion and backups cleared within 90 days. Data may be transferred to India, the US and the EU.",
-          "zh": "隐私政策称，除非拒绝营销 Cookie，否则启用 Meta 广告衡量；订阅后会向 Meta 报告支付金额和邮箱的 SHA-256 哈希。审计数据保留至订阅结束后 90 天，断开连接或删除账户后 30 天内删除已连接系统数据，备份 90 天内清除。数据可能跨境至印度、美国和欧盟。"
+          "en": "The privacy policy says Meta advertising measurement is enabled unless marketing cookies are rejected; after subscription, payment amount and a SHA-256 email hash are reported to Meta. Audit data is kept until 90 days after subscription end, with imported Google Search Console/Analytics API data deleted within 30 days of disconnection or account deletion and backups cleared within 90 days. Data may be transferred to India, the US and the EU.",
+          "zh": "隐私政策称，除非拒绝营销 Cookie，否则启用 Meta 广告衡量；订阅后会向 Meta 报告支付金额和邮箱的 SHA-256 哈希。审计数据保留至订阅结束后 90 天，断开连接或删除账户后 30 天内删除导入的 Google Search Console／Analytics API 数据，备份 90 天内清除。数据可能跨境至印度、美国和欧盟。"
         },
         "summary": {
           "en": "Meta measurement defaults on unless rejected; cross-border processing and tiered deletion windows apply.",
@@ -19162,8 +19163,8 @@
           "zh": "Hobby 每月 19 美元，或年付折合 16 美元/月（190 美元/年），含每月 5,000 credits、5 并发。Standard 每月 99 美元，或年付折合 83 美元/月（990 美元/年），含 100,000 credits、25 并发。Growth 每月 399 美元，或年付折合 333 美元/月（3,990 美元/年），含 500,000 credits、50 并发。Scale 每月 749 美元，或年付折合 599 美元/月（7,190 美元/年），含 1,000,000 credits、100 并发。Enterprise 单独报价。"
         },
         "summary": {
-          "en": "Hobby $19/$16 annualized; Standard $99/$83; Growth $399/$333; Scale $749/$599 monthly-equivalent; credits/concurrency scale by tier.",
-          "zh": "Hobby 19／年付折合 16 美元；Standard 99／83；Growth 399／333；Scale 749／599；credits 与并发随档位增加。"
+          "en": "Hobby $19/mo or $16/mo billed annually ($190/yr), 5,000 credits/mo, 5 concurrent; Standard $99/mo or $83/mo billed annually ($990/yr), 100,000 credits/mo, 25 concurrent; Growth $399/mo or $333/mo billed annually ($3,990/yr), 500,000 credits/mo, 50 concurrent; Scale $749/mo or $599/mo billed annually ($7,190/yr), 1,000,000 credits/mo, 100 concurrent; Enterprise custom.",
+          "zh": "Hobby 月付 19 美元或年付折合 16 美元/月（190 美元/年），5,000 credits/月、5 并发；Standard 月付 99 美元或年付折合 83 美元/月（990 美元/年），100,000 credits/月、25 并发；Growth 月付 399 美元或年付折合 333 美元/月（3,990 美元/年），500,000 credits/月、50 并发；Scale 月付 749 美元或年付折合 599 美元/月（7,190 美元/年），1,000,000 credits/月、100 并发；Enterprise 定制。"
         },
         "sourceUrls": [
           "https://www.firecrawl.dev/pricing"
@@ -19172,12 +19173,12 @@
       },
       {
         "description": {
-          "en": "Base API costs are one credit per scraped or crawled page, one per map call, two per ten search results, two per browser minute for Interact and one per page per Monitor check. JSON format adds four credits per page. Paid plans can add credits in $5 increments: 1,000 on Hobby, 2,000 on Standard, 2,500 on Growth and 5,000 on Scale. Only Scale carries unused plan credits for one month; purchased credits expire when the subscription is canceled.",
-          "zh": "API 基础成本为 scrape／crawl 每页 1 credit、map 每次 1 credit、search 每 10 条 2 credits、Interact 每浏览器分钟 2 credits、Monitor 每页每次检查 1 credit。JSON 格式每页额外 4 credits。付费档可按 5 美元加购：Hobby 1,000、Standard 2,000、Growth 2,500、Scale 5,000 credits。仅 Scale 的未用套餐 credits 结转一个月；购买的 credits 在取消订阅时过期。"
+          "en": "Base API costs are one credit per scraped or crawled page, one per map call, two per ten search results, two per browser minute for Interact and one per page per Monitor check. JSON format adds four credits per page. Paid plans can add credits in $5 increments: 1,000 on Hobby, 2,000 on Standard, 2,500 on Growth and 5,000 on Scale. Scale carries unused plan credits for one month; Enterprise rollover is custom. Purchased credits expire when the subscription is canceled.",
+          "zh": "API 基础成本为 scrape／crawl 每页 1 credit、map 每次 1 credit、search 每 10 条 2 credits、Interact 每浏览器分钟 2 credits、Monitor 每页每次检查 1 credit。JSON 格式每页额外 4 credits。付费档可按 5 美元加购：Hobby 1,000、Standard 2,000、Growth 2,500、Scale 5,000 credits。Scale 的未用套餐 credits 结转一个月，Enterprise 结转规则定制；购买的 credits 在取消订阅时过期。"
         },
         "summary": {
-          "en": "Scrape/crawl 1 credit/page; JSON +4; $5 top-ups vary by tier; only Scale rolls credits for one month.",
-          "zh": "scrape／crawl 每页 1 credit；JSON 加 4；5 美元加购额因档位而异；仅 Scale 结转一个月。"
+          "en": "Scrape/crawl 1 credit/page; JSON +4; $5 adds 1,000/2,000/2,500/5,000 credits on Hobby/Standard/Growth/Scale; Scale rolls unused credits one month, Enterprise custom.",
+          "zh": "scrape／crawl 每页 1 credit；JSON 加 4；5 美元在 Hobby／Standard／Growth／Scale 分别加购 1,000／2,000／2,500／5,000 credits；Scale 结转一个月，Enterprise 定制。"
         },
         "sourceUrls": [
           "https://www.firecrawl.dev/pricing"
@@ -19283,8 +19284,8 @@
     "useCases": [
       {
         "description": {
-          "en": "Track a brand, competitors and third-party sources for a fixed prompt set, then identify prompts where a cited page is missing, weak or attributed to another domain. Results can be filtered and exported by topic, prompt, platform, region and language.",
-          "zh": "为固定提示词集追踪自有品牌、竞品和第三方来源，找出页面未被引用、证据薄弱或被归到其他域名的问题。结果可按主题、提示词、平台、地区和语言筛选并导出。"
+          "en": "Track a brand, competitors and third-party sources for a fixed prompt set, then identify prompts where the brand is not cited or where only competitors are cited. Results can be filtered and exported by topic, prompt, platform, region and language.",
+          "zh": "为固定提示词集追踪自有品牌、竞品和第三方来源，找出品牌未被引用或仅由竞品引用的提示词。结果可按主题、提示词、平台、地区和语言筛选并导出。"
         },
         "summary": {
           "en": "Prompt-to-domain/URL citation mapping with gap analysis, filters and export.",
@@ -19381,8 +19382,8 @@
           "zh": "Starter 每月 49 美元或每年 470 美元，含 1 个品牌／项目、50 个提示词、ChatGPT 与 Google Gemini、每日监测、无限用户、每月 100 次网站审计和 10 份内容简报。还含每月 25 个新页面或 50 次优化，与 Chat、AI agents 共享套餐月度 AI 用量预算。"
         },
         "summary": {
-          "en": "Starter $49/month or $470/year: 1 brand, 50 prompts, ChatGPT/Gemini, 100 audits; AI usage is shared.",
-          "zh": "Starter 49 美元/月或 470 美元/年：1 品牌、50 提示词、ChatGPT／Gemini、100 审计；AI 用量共享。"
+          "en": "Starter $49/month or $470/year: 1 brand, 50 prompts, ChatGPT/Gemini, 100 audits, 10 briefs, 25 new pages or 50 optimizations/month; shared AI usage.",
+          "zh": "Starter 49 美元/月或 470 美元/年：1 品牌、50 提示词、ChatGPT／Gemini、100 审计、10 份简报、每月 25 个新页面或 50 次优化；AI 用量共享。"
         },
         "sourceUrls": [
           "https://www.ansvisor.com/pricing"
@@ -19391,12 +19392,12 @@
       },
       {
         "description": {
-          "en": "Growth is $249/month or $2,390/year for four brands/projects, 250 prompts, daily monitoring, unlimited users, multi-country support, 500 site audits and 50 content briefs per month. It adds Google AI Overviews, Google AI Mode and Bing AI Mode, Cloudflare/Vercel crawler visibility and 125 new pages or 250 optimizations per month under the shared AI usage budget. Custom is quoted annually and adds options such as Claude and SSO.",
-          "zh": "Growth 每月 249 美元或每年 2,390 美元，含 4 个品牌／项目、250 个提示词、每日监测、无限用户、多国家支持、每月 500 次网站审计和 50 份内容简报。增加 Google AI Overviews、Google AI Mode、Bing AI Mode、Cloudflare／Vercel 爬虫可见性，以及共享 AI 预算下每月 125 个新页面或 250 次优化。Custom 按年报价，可增加 Claude、SSO 等选项。"
+          "en": "Growth is $249/month or $2,390/year for four brands/projects, 250 prompts, daily monitoring, unlimited users, multi-country support, 500 site audits and 50 content briefs per month. It adds Google AI Overviews, Google AI Mode and Bing AI Mode, Cloudflare/Vercel crawler visibility, 125 new pages or 250 optimizations per month, and 5× AI usage for Chat and AI agents. Custom is quoted annually and adds options such as Claude and SSO.",
+          "zh": "Growth 每月 249 美元或每年 2,390 美元，含 4 个品牌／项目、250 个提示词、每日监测、无限用户、多国家支持、每月 500 次网站审计和 50 份内容简报。增加 Google AI Overviews、Google AI Mode、Bing AI Mode、Cloudflare／Vercel 爬虫可见性、每月 125 个新页面或 250 次优化，以及 Chat 和 AI agents 的 5 倍 AI 用量。Custom 按年报价，可增加 Claude、SSO 等选项。"
         },
         "summary": {
-          "en": "Growth $249/month or $2,390/year: 4 brands, 250 prompts, added Google/Bing surfaces, 500 audits; Custom annual quote.",
-          "zh": "Growth 249 美元/月或 2,390 美元/年：4 品牌、250 提示词、增加 Google／Bing 界面、500 审计；Custom 年度报价。"
+          "en": "Growth $249/month or $2,390/year: 4 brands, 250 prompts, added Google/Bing surfaces, 500 audits, 50 briefs, 125 new pages or 250 optimizations/month, 5× AI usage; Custom annual quote.",
+          "zh": "Growth 249 美元/月或 2,390 美元/年：4 品牌、250 提示词、增加 Google／Bing 界面、500 审计、50 份简报、每月 125 个新页面或 250 次优化、5 倍 AI 用量；Custom 年度报价。"
         },
         "sourceUrls": [
           "https://www.ansvisor.com/pricing",
@@ -19414,7 +19415,8 @@
           "zh": "演示数据不是免费套餐；14 天试用可能自动续费；SAVE50 仅优惠首月。"
         },
         "sourceUrls": [
-          "https://www.ansvisor.com/pricing"
+          "https://www.ansvisor.com/pricing",
+          "https://www.ansvisor.com/terms-of-service"
         ],
         "verifiedAt": "2026-11-25"
       }
@@ -19605,6 +19607,13 @@
           "zh": "Plausible 官方产品与定价"
         },
         "url": "https://plausible.io/"
+      },
+      {
+        "label": {
+          "en": "Plausible AI assistant referral channel documentation",
+          "zh": "Plausible AI 助手引荐渠道文档"
+        },
+        "url": "https://plausible.io/docs/top-referrers"
       }
     ],
     "verifiedAt": "2026-11-25",
@@ -19618,8 +19627,8 @@
           "zh": "最低显示档位覆盖每月 100,000 次页面浏览。Standard 每月 15 美元，含 50 个站点、全部分析功能和每小时 600 次 API 请求。Business 每月 39 美元，同样覆盖该浏览量和 50 个站点，并提供每小时 1,000 次 API 请求、10 个团队席位加所有者、角色控制、审计日志和优先支持。"
         },
         "summary": {
-          "en": "100k pageviews/month: Standard $15 (50 sites, API 600/hour); Business $39 (API 1,000/hour, team controls).",
-          "zh": "每月 10 万浏览：Standard 15 美元（50 站点、API 600 次/时）；Business 39 美元（API 1,000 次/时、团队控制）。"
+          "en": "100k pageviews/month: Standard $15 (50 sites, API 600/hour); Business $39 (50 sites, API 1,000/hour, 10 seats plus owner, role controls).",
+          "zh": "每月 10 万浏览：Standard 15 美元（50 站点、API 600 次/时）；Business 39 美元（50 站点、API 1,000 次/时、10 席位加所有者、角色控制）。"
         },
         "sourceUrls": [
           "https://usefathom.com/pricing"
@@ -19697,7 +19706,8 @@
         "sourceUrls": [
           "https://usefathom.com/pricing",
           "https://usefathom.com/docs/features/sources",
-          "https://plausible.io/"
+          "https://plausible.io/",
+          "https://plausible.io/docs/top-referrers"
         ],
         "verifiedAt": "2026-11-25"
       }
