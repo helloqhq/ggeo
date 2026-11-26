@@ -147,6 +147,6 @@
 
 修改 JSON 或源码后提交并推送 `main`。工作流检查不通过时不会部署新站；修复数据或代码后再推送。查看 Actions 成功状态和站点实际内容，不能仅以 git push 成功判定已上线。
 
-GitHub Pages 不读取 Cloudflare Pages/Netlify 的 `_redirects` 与 `_headers`。当前依靠静态目录索引、根页直接输出英文首页（canonical 指向 `/en/`）、页面自身 noindex 元数据和 GitHub 原生 404；未知路由不能配置 SPA 首页回退。
+GitHub Pages 不读取 Cloudflare Pages/Netlify 的 `_redirects` 与 `_headers`。当前依靠静态目录索引、根页直接输出英文首页并作为英文 canonical（`/en/` 反向 canonical 到 `/`，sitemap 只提交根英文首页）、页面自身 noindex 元数据和 GitHub 原生 404；未知路由不能配置 SPA 首页回退。
 
 配置依据：[GitHub 自定义域名文档](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)、[GitHub Pages 自定义工作流文档](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)。

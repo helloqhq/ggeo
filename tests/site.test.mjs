@@ -244,6 +244,21 @@ test('sitemap excludes search and all translated pages declare reciprocal altern
     assert.ok(zh.includes(`hreflang="en" href="https://ggeo.ai/en/tools/${tool.slug}/"`));
   }
 });
+test('root homepage is the canonical English entry point',async()=>{
+  const root=await read('index.html'),en=await read('en/index.html'),zh=await read('zh/index.html'),sitemap=await read('sitemap.xml');
+  for(const html of [root,en]){
+    assert.ok(html.includes('rel="canonical" href="https://ggeo.ai/"'));
+    assert.ok(html.includes('hreflang="en" href="https://ggeo.ai/"'));
+    assert.ok(html.includes('hreflang="zh-CN" href="https://ggeo.ai/zh/"'));
+    assert.ok(html.includes('hreflang="x-default" href="https://ggeo.ai/"'));
+    assert.ok(html.includes('property="og:url" content="https://ggeo.ai/"'));
+  }
+  assert.ok(zh.includes('hreflang="en" href="https://ggeo.ai/"'));
+  assert.ok(zh.includes('hreflang="x-default" href="https://ggeo.ai/"'));
+  assert.ok(sitemap.includes('<loc>https://ggeo.ai/</loc>'));
+  assert.ok(!sitemap.includes('<loc>https://ggeo.ai/en/</loc>'));
+  assert.ok(sitemap.includes('<xhtml:link rel="alternate" hreflang="zh-CN" href="https://ggeo.ai/zh/"/>'));
+});
 test('static server returns real 404s, correct MIME types and redirects without losing queries',async()=>{
   let stderr='';
   const server=spawn(process.execPath,['scripts/serve.mjs'],{cwd:root,env:{...process.env,PORT:'4329'},stdio:['ignore','pipe','pipe']});
@@ -252,7 +267,7 @@ test('static server returns real 404s, correct MIME types and redirects without 
     await Promise.race([once(server,'exit').then(()=>{throw new Error(stderr||'Server exited before ready');}),once(server.stdout,'data'),new Promise((_,reject)=>{const timer=setTimeout(()=>reject(new Error('Server timeout')),5000);timer.unref();})]);
     const missing=await fetch('http://127.0.0.1:4329/not-a-page/');assert.equal(missing.status,404);assert.ok((await missing.text()).includes('404'));
     const redirect=await fetch('http://127.0.0.1:4329/en/search?q=hello',{redirect:'manual'});assert.equal(redirect.status,308);assert.equal(redirect.headers.get('location'),'/en/search/?q=hello');
-    const rootPage=await fetch('http://127.0.0.1:4329/?q=test');assert.equal(rootPage.status,200);const rootHtml=await rootPage.text();assert.ok(rootHtml.includes('rel="canonical" href="https://ggeo.ai/en/"'));assert.ok(!rootHtml.includes('http-equiv="refresh"'));
+    const rootPage=await fetch('http://127.0.0.1:4329/?q=test');assert.equal(rootPage.status,200);const rootHtml=await rootPage.text();assert.ok(rootHtml.includes('rel="canonical" href="https://ggeo.ai/"'));assert.ok(!rootHtml.includes('http-equiv="refresh"'));
     const js=await fetch('http://127.0.0.1:4329/assets/app.mjs');assert.equal(js.status,200);assert.match(js.headers.get('content-type'),/javascript/);
     const json=await (await fetch('http://127.0.0.1:4329/assets/directory.json')).json();assert.equal(json.tools.length,original.tools.filter(t=>t.status==='published').length);
   }finally{server.kill();}
