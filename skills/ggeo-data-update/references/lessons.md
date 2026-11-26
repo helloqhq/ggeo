@@ -15,8 +15,8 @@
 ### L-01 WebFetch 截断或混入样式时改读本地保存源
 - 症状：WebFetch 返回在 50,000 UTF-16 单位处截断，或正文被大段 CSS/JS 污染，关键定价表、FAQ 不在返回内容里。
 - 根因：工具对可读化输出设上限；营销页内联样式脚本体积大，挤占正文配额。
-- 修复／预防：不重复抓取同一 URL；直接 Read/Grep 返回末尾「Local page source」给出的完整本地源文件，按标题行号定位段落。注意临时文件约 7 天后可能清理，缺失时才重抓。第五轮多个产品、定价与法律页再次出现截断，按此读取本地完整源后完成核验。
-- 记录：首次 2026-11-17 · 最近 2026-11-25 · 命中 8 次 · [轮次记录](../../../docs/research/2026-11-25-geo-sites.md)
+- 修复／预防：不重复抓取同一 URL；直接 Read/Grep 返回末尾「Local page source」给出的完整本地源文件，按标题行号定位段落。注意临时文件约 7 天后可能清理，缺失时才重抓。第五轮多个产品、定价与法律页再次出现截断，按此读取本地完整源后完成核验。第六轮 Surva、Maya、GMBapi 等页面再次出现截断或污染，同样先读本地完整源；同一 URL 的 WebFetch 失败不反复重试，改用浏览器或既有完整源。
+- 记录：首次 2026-11-17 · 最近 2026-11-26 · 命中 9 次 · [轮次记录](../../../docs/research/2026-11-26-geo-sites.md)
 
 ### L-02 官方定价页 403 时用记录内帮助文档备用入口
 - 症状：工具 sources 中的定价页返回 403（如 birdeye.com/pricing/），金额无法复核。
@@ -57,14 +57,14 @@
 ### L-08 法律页对 bot 403 时用 ego-browser 真实浏览器读取
 - 症状：rankmonster.ai/privacy 与 /terms 对 curl 与 WebFetch 均 403，无法核验运营主体与法律页日期。
 - 根因：厂商对爬虫拦截法律页，但真实浏览器可正常访问（非登录/付费墙）。
-- 修复／预防：改用 ego-browser（ego lite）真实浏览器打开读取，属正常访问而非绕过；先 `ego-browser skill` 遵循指南。仍 403 或需人工验证则记缺口并暂缓，不绕过验证码/付费墙。JS 渲染的定价（Omnia、Sellm、TopCited、GEOBase）同样用 ego-browser 读取。第三轮 Honeyb、SEOcrawl、ZeroRank、Elmo、Guzu 的定价与法律页全部用 ego-browser 读取；返回超长时改读工具输出目录里已保存的 .output 文件，不重复执行同一脚本。Next.js 站点的 `/pricing/index.md` 之类的 agent markdown 入口也可能只返回标题，此时不要反复抓取同一 URL，直接用 ego-browser 读可见正文（AgentSEO 2026-11-19）。
-- 记录：首次 2026-11-17 · 最近 2026-11-19 · 命中 4 次 · [轮次记录](../../../docs/research/2026-11-19-geo-sites.md)
+- 修复／预防：改用 ego-browser（ego lite）真实浏览器打开读取，属正常访问而非绕过；先 `ego-browser skill` 遵循指南。仍 403 或需人工验证则记缺口并暂缓，不绕过验证码/付费墙。JS 渲染的定价（Omnia、Sellm、TopCited、GEOBase）同样用 ego-browser 读取。第三轮 Honeyb、SEOcrawl、ZeroRank、Elmo、Guzu 的定价与法律页全部用 ego-browser 读取；返回超长时改读工具输出目录里已保存的 .output 文件，不重复执行同一脚本。Next.js 站点的 `/pricing/index.md` 之类的 agent markdown 入口也可能只返回标题，此时不要反复抓取同一 URL，直接用 ego-browser 读可见正文（AgentSEO 2026-11-19）。第六轮 SEO Grow 的 About／Terms 读取失败、隐私页只有外壳，Maya 退款页 WebFetch 失败，LightSite DPA 首次只有 React 外壳，均由 ego-browser 读到实际正文；仍读不到时才记缺口。
+- 记录：首次 2026-11-17 · 最近 2026-11-26 · 命中 5 次 · [轮次记录](../../../docs/research/2026-11-26-geo-sites.md)
 
 ### L-09 ego-browser 任务空间收尾用 finish({keep:[]})，keep 不接受 false
 - 症状：`task.finish({keep:false})` 抛 TypeError（keep 须为 "all" 或非空标签数组）；脚本间 JS 变量不共享。
 - 根因：ego lite API 约定 keep 为 "all" 或 Page 标签数组；任务空间/标签跨调用持久，但脚本变量不持久。
-- 修复／预防：收尾先 `await page.close()` 再单独脚本 `await task.finish({keep:[]})`；跨调用用 `taskSpace(<spaceId>)` 恢复并 `(await task.pages())[0]` 取回标签；导航与测量拆成两次调用，evaluate 内不要触发 location.href 跳转。Page 没有 `getByText`/`goBack`，点击用 evaluate 内 `el.click()`；evaluate 回调不能引用 Node 变量，需作为第二参数传入；慢站 `page.goto` 超时但「navigation committed」时直接继续读取，不重开空间。第三轮 guzu.ai 首页 20 秒超时后同为 committed，继续读取成功；任务空间若在两次校验之间被回收，用同一目标名重新 `taskSpace()` 建空间即可，不要卡在旧 id 上重试。Gmail 等 SPA 的 `goto` 与 `reload` 等待 load 均会超时，重载超时后标题已更新、snapshot 即可读到邮件正文，不必反复重试导航。Gmail 的「View entire message」会在受管弹窗中打开独立文档，原页面的 `waitForFunction` 可能超时；直接检查 `task.page("p2")` 的标题与正文即可，读完关闭该弹窗。
-- 记录：首次 2026-11-17 · 最近 2026-11-24 · 命中 5 次 · [轮次记录](../../../docs/research/2026-11-24-geo-sites.md)
+- 修复／预防：收尾先 `await page.close()` 再单独脚本 `await task.finish({keep:[]})`；跨调用用 `taskSpace(<spaceId>)` 恢复并 `(await task.pages())[0]` 取回标签；导航与测量拆成两次调用，evaluate 内不要触发 location.href 跳转。Page 没有 `getByText`/`goBack`，点击用 evaluate 内 `el.click()`；evaluate 回调不能引用 Node 变量，需作为第二参数传入；慢站 `page.goto` 超时但「navigation committed」时直接继续读取，不重开空间。第三轮 guzu.ai 首页 20 秒超时后同为 committed，继续读取成功；任务空间若在两次校验之间被回收，用同一目标名重新 `taskSpace()` 建空间即可，不要卡在旧 id 上重试。Gmail 等 SPA 的 `goto` 与 `reload` 等待 load 均会超时，重载超时后标题已更新、snapshot 即可读到邮件正文，不必反复重试导航。Gmail 的「View entire message」会在受管弹窗中打开独立文档，原页面的 `waitForFunction` 可能超时；直接检查 `task.page("p2")` 的标题与正文即可，读完关闭该弹窗。第六轮旧 TaskSpace 被回收后按同一目标名新建空间并记录新 ID；移动端截图前若用默认 `scrollIntoView`，平滑滚动会让截图仍停在页首，应传 `behavior: "instant"`、等待 `scrollY` 达到目标，并先处理遮挡的 Cookie banner。
+- 记录：首次 2026-11-17 · 最近 2026-11-26 · 命中 6 次 · [轮次记录](../../../docs/research/2026-11-26-geo-sites.md)
 
 ### L-12 定价页默认展示年付折算价，需切到月付再读
 - 症状：Honeyb 定价页默认勾选 Annual，卡片显示 $23/$63/$159「每月」并注明每年账单，直接读取会把年付折算价当成标准月价；切到 Monthly 后为 $29/$79/$199。SEOcrawl 定价页另有币种选择器，切换后金额随之变化。
@@ -93,29 +93,35 @@
 ### L-14 selectionNotes 每条渲染一张对比表，保持 1 条
 - 症状：新条目写 2 条 selectionNotes（一条带 alternativeSlug、一条不带），详情页出现两张对比表，第二条回退选中同分类 featuredOrder 最小的工具，与第一张表对比对象相同，内容重复。
 - 根因：`src/templates.mjs` 对 `selectionNotes` 的每个元素各渲染一张对比表；无 `alternativeSlug` 时回退取同分类三项对比资料齐全的第一个工具。既有 113 条数据均为 1 条 selectionNotes，多条没有先例。
-- 修复／预防：默认每条工具只写 1 条 selectionNotes，把多个取舍角度合并进同一条 description（可含 alternativeSlug）；若未来确需多条，先确认每条的对比对象不同且各有双方官方证据，并在预览中检查表格数量。
-- 记录：首次 2026-11-21 · 最近 2026-11-21 · 命中 1 次 · [轮次记录](../../../docs/data-updates/2026-11-21-checkaivisibility-submission.md)
+- 修复／预防：默认每条工具只写 1 条 selectionNotes，把多个取舍角度合并进同一条 description（可含 alternativeSlug）；若未来确需多条，先确认每条的对比对象不同且各有双方官方证据，并在预览中检查表格数量。第六轮 6 个新条目均保持 1 条，中英 12 页各只渲染 1 张三列表。
+- 记录：首次 2026-11-21 · 最近 2026-11-26 · 命中 2 次 · [轮次记录](../../../docs/research/2026-11-26-geo-sites.md)
 
 ### L-15 机械查重前置于收录决定，不靠记忆筛选候选
 - 症状：搜集轮 5 个计划新增候选中 3 个（Geoptie、Trakkr、AIclicks）已完成官网核验后才发现早已收录，Conductor 靠临场印象排除；大量核验工作浪费，新增数从 8 修正为 5。
 - 根因：候选筛选阶段靠记忆判断「像不像新工具」，全量 `normalizeWebsite` 机械比对没有在「决定收录」节点执行；厂商榜单文章（D-07）带来的熟悉名字尤其容易被误判为新工具。
-- 修复／预防：把机械查重作为收录决定的强制门槛——任何候选写「可收录」结论前，先用 node 脚本把候选域名/名称与 `data/tools.json` 全表归一比对（hostname 去 www + pathname，加产品名与 slug 双向 grep）；榜单文章提到的新名字在打开官网核验前先过查重。发现已收录时不新增，若官网资料已有变化（如 Geoptie 新出公开月付档）记为下轮数据更新建议，不在发现轮顺手改动既有条目。第五轮 6 个拟新增候选均在深入录入前完成全量查重，结果为 `hits: []`。
-- 记录：首次 2026-11-23 · 最近 2026-11-25 · 命中 2 次 · [轮次记录](../../../docs/research/2026-11-25-geo-sites.md)
+- 修复／预防：把机械查重作为收录决定的强制门槛——任何候选写「可收录」结论前，先用 node 脚本把候选域名/名称与 `data/tools.json` 全表归一比对（hostname 去 www + pathname，加产品名与 slug 双向 grep）；榜单文章提到的新名字在打开官网核验前先过查重。发现已收录时不新增，若官网资料已有变化（如 Geoptie 新出公开月付档）记为下轮数据更新建议，不在发现轮顺手改动既有条目。第五轮 6 个拟新增候选均在深入录入前完成全量查重，结果为 `hits: []`。第六轮 6 个拟新增与 2 个暂缓候选同样先过全量归一化与名称／slug 查重；录入后重跑 132 个官网仍无重复。
+- 记录：首次 2026-11-23 · 最近 2026-11-26 · 命中 3 次 · [轮次记录](../../../docs/research/2026-11-26-geo-sites.md)
 
 ### L-16 新增双语批次补扫繁体与中英混排
 - 症状：结构校验通过后，新工具中文正文仍出现「內容」等繁体／混排用字，英文与中文的事实范围需人工对齐。
 - 根因：校验器只检查双语字段存在与证据结构，不判断文字脚本质量；批量录入时容易保留模型生成中的繁体字或整段英文短语。
-- 修复／预防：只对本轮新增记录扫描中文字段的繁体专用字与中英文相邻片段，再人工复核命中；不要机械替换「据／查／款」等简繁通用字。修正文案不刷新事实核验日，随后重跑 validate、build、test。
-- 记录：首次 2026-11-25 · 最近 2026-11-25 · 命中 1 次 · [轮次记录](../../../docs/research/2026-11-25-geo-sites.md)
+- 修复／预防：只对本轮新增记录扫描中文字段的繁体专用字与中英文相邻片段，再人工复核命中；不要机械替换「据／查／款」等简繁通用字。修正文案不刷新事实核验日，随后重跑 validate、build、test。第六轮首次正则把「行／理／容」等简繁通用字纳入，产生大量误报；收窄为繁体专用字符后 6 条新增记录 `hits: []`。
+- 记录：首次 2026-11-25 · 最近 2026-11-26 · 命中 2 次 · [轮次记录](../../../docs/research/2026-11-26-geo-sites.md)
 
 ### L-17 摘要需与完整描述和官方配额逐项对齐
 - 症状：结构校验与双语检查通过后，独立复核仍发现摘要遗漏加税、一次性计费、站点／竞品／内容产出配额，或把不同数据保留规则合并成一句。
 - 根因：摘要为压缩文案，批量录入时只保留价格与部分功能；校验器证明字段和来源齐全，但不判断摘要是否覆盖完整描述中的选型关键事实。
-- 修复／预防：对新增或更新的 `pricingDetails`、`limitations` 逐条比较 description 与 summary，保留账期、税费、关键配额、加购和未知状态；审计建议也必须回到官方源核实，未公布次数写“未公布”，不补推测数字。修正后重跑 validate、build、test，并检查中英比较表。
-- 记录：首次 2026-11-25 · 最近 2026-11-25 · 命中 1 次 · [轮次记录](../../../docs/research/2026-11-25-geo-sites.md)
+- 修复／预防：对新增或更新的 `pricingDetails`、`limitations` 逐条比较 description 与 summary，保留账期、税费、关键配额、加购和未知状态；审计建议也必须回到官方源核实，未公布次数写“未公布”，不补推测数字。修正后重跑 validate、build、test，并检查中英比较表。第六轮重点保留 Surva 月付／年账单／刷新频率／深度追踪上限，以及 Maya 基础引擎／加购、文章周期未明、17% 年付未给总额、14 天退款附条件等口径。
+- 记录：首次 2026-11-25 · 最近 2026-11-26 · 命中 2 次 · [轮次记录](../../../docs/research/2026-11-26-geo-sites.md)
 
 ### L-18 Pages 部署 500 先区分服务故障与代码失败
 - 症状：Actions 的校验、构建、测试与静态上传均成功，但 Deploy to GitHub Pages 在创建 deployment 时返回 status 500。
 - 根因：GitHub Pages 服务端故障；GitHub Status 可显示 Pages `degraded_performance`，不是静态站代码或数据错误。
 - 修复／预防：先读失败 job 的 annotation 与 GitHub Status；服务恢复后重跑失败 deployment，不为 500 改代码、数据或绕过检查。同一阻碍连续两次失败即停止重试，报告并等待外部恢复。
 - 记录：首次 2026-11-26 · 最近 2026-11-26 · 命中 2 次 · [轮次记录](../../../docs/research/2026-11-25-geo-sites.md)
+
+### L-19 搜索 QA 使用实际索引字段中的原词
+- 症状：用只在 `summary` 中出现的词组搜索新工具，结果为空，容易误判为搜索索引遗漏。
+- 根因：`src/app.mjs` 的搜索 haystack 包含名称、description、tags、features 和详情 description，不包含 `summary`；摘要为展示压缩文案，不是搜索索引来源。
+- 修复／预防：搜索 QA 先从上述实际索引字段选独特原词，再核对名称、标签、功能或详情 description 能否命中；`summary` 词组无结果不构成缺陷，不为测试修改产品或搜索代码。中文还需保持词语连续，避免自行删掉“的”等字。
+- 记录：首次 2026-11-26 · 最近 2026-11-26 · 命中 1 次 · [轮次记录](../../../docs/research/2026-11-26-geo-sites.md)

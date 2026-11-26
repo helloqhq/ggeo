@@ -19712,5 +19712,1715 @@
         "verifiedAt": "2026-11-25"
       }
     ]
+  },
+  {
+    "slug": "findrix",
+    "name": "Findrix",
+    "category": "ai-visibility",
+    "website": "https://www.findrix.ai/",
+    "logo": null,
+    "description": {
+      "en": "AI visibility and GEO platform that samples buyer questions across AI engines, tracks mentions, citations, sentiment and competitors, and supplies ready-to-apply fixes for human approval.",
+      "zh": "跨 AI 引擎采样买家问题、追踪品牌提及、引用、情绪与竞品，并提供供人工批准后应用的现成修复方案。"
+    },
+    "tags": {
+      "en": [
+        "AI visibility",
+        "Citation tracking",
+        "GEO actions"
+      ],
+      "zh": [
+        "AI 曝光",
+        "引用追踪",
+        "GEO 执行"
+      ]
+    },
+    "features": {
+      "en": [
+        "Repeat a configurable buyer-question set across AI engines and report an AI Visibility Score, confidence intervals, mentions, citations, share of voice, position, sentiment and preference; Growth and Authority add ghost-citation tracking.",
+        "Run a 29-point technical audit and produce written schema, llms.txt, FAQPage and content fixes for common site stacks. Customers review and apply every change; Findrix does not publish automatically."
+      ],
+      "zh": [
+        "跨 AI 引擎重复运行可编辑的买家问题集，提供 AI Visibility Score、置信区间、提及、引用、声量、位置、情绪与偏好；Growth 和 Authority 增加幽灵引用追踪。",
+        "执行 29 项技术审计，为常见网站技术栈生成 Schema、llms.txt、FAQPage 和内容修复文案。客户审核并应用每项变更，Findrix 不会自动发布。"
+      ]
+    },
+    "audience": {
+      "en": "In-house brand, SEO and GEO teams, plus agencies that need repeatable AI-answer evidence and a reviewable fix queue for each site.",
+      "zh": "需要可重复的 AI 回答证据和逐站可审核修复队列的内部品牌、SEO／GEO 团队及代理机构。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Monitor a fixed set of category questions across selected AI engines, compare the brand with named competitors, and inspect the sources behind the answers. Repeated sampling and confidence ranges help distinguish movement from response variability.",
+          "zh": "在选定 AI 引擎上监测固定类别问题集，比较品牌与指定竞品，并查看回答背后的来源。重复采样和置信区间有助于区分真实变化与回答波动。"
+        },
+        "summary": {
+          "en": "Repeated prompt sampling with competitor, source and confidence-range analysis.",
+          "zh": "重复提示词采样，分析竞品、来源与置信区间。"
+        },
+        "sourceUrls": [
+          "https://www.findrix.ai/",
+          "https://www.findrix.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "Turn audit findings into a prioritized queue of written technical and content changes for WordPress, Shopify, Next.js, Webflow or Ghost. Growth supports optimization of up to 10 pages per week and Authority up to 20, with the site owner approving what goes live.",
+          "zh": "将审计结果转化为适用于 WordPress、Shopify、Next.js、Webflow 或 Ghost 的优先修复队列。Growth 每周最多优化 10 页，Authority 最多 20 页，由站点所有者批准上线内容。"
+        },
+        "summary": {
+          "en": "Written fixes for common site stacks; Growth 10 pages/week, Authority 20, always human-approved.",
+          "zh": "常见技术栈的现成修复；Growth 每周 10 页、Authority 20 页，均需人工批准。"
+        },
+        "sourceUrls": [
+          "https://www.findrix.ai/",
+          "https://www.findrix.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-26"
+      }
+    ],
+    "platforms": [
+      "ChatGPT",
+      "Google Gemini",
+      "Google AI Overviews",
+      "Google AI Mode",
+      "Copilot Search",
+      "Claude",
+      "Grok",
+      "Perplexity"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "Findrix official product overview",
+          "zh": "Findrix 官方产品概览"
+        },
+        "url": "https://www.findrix.ai/"
+      },
+      {
+        "label": {
+          "en": "Findrix pricing and plan limits",
+          "zh": "Findrix 定价与套餐限制"
+        },
+        "url": "https://www.findrix.ai/pricing"
+      },
+      {
+        "label": {
+          "en": "Findrix company information",
+          "zh": "Findrix 公司与主体信息"
+        },
+        "url": "https://www.findrix.ai/about"
+      },
+      {
+        "label": {
+          "en": "Findrix terms of service",
+          "zh": "Findrix 服务条款"
+        },
+        "url": "https://www.findrix.ai/legal/terms"
+      },
+      {
+        "label": {
+          "en": "Findrix privacy policy",
+          "zh": "Findrix 隐私政策"
+        },
+        "url": "https://www.findrix.ai/legal/privacy"
+      },
+      {
+        "label": {
+          "en": "GEO Toolbox official pricing for comparison",
+          "zh": "GEO Toolbox 官方定价（对比）"
+        },
+        "url": "https://geotoolbox.ai/pricing"
+      }
+    ],
+    "verifiedAt": "2026-11-26",
+    "status": "published",
+    "featuredOrder": 127,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "Presence is $49/month per site and includes 60 prompts, ChatGPT, Google AI Overviews and Gemini, the full dashboard, reports, alerts and a ranked fix list.",
+          "zh": "Presence 每站点每月 49 美元，含 60 个提示词、ChatGPT、Google AI Overviews 与 Gemini，以及完整仪表盘、报告、提醒和优先修复清单。"
+        },
+        "summary": {
+          "en": "Presence $49/month/site: 60 prompts and ChatGPT, Google AI Overviews and Gemini.",
+          "zh": "Presence 49 美元/月/站点：60 提示词，含 ChatGPT、Google AI Overviews 与 Gemini。"
+        },
+        "sourceUrls": [
+          "https://www.findrix.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "Growth is $99/month per site with 100 prompts and five engines, adding Google AI Mode and Copilot Search. It includes ghost-citation tracking, source checks on the top 50 cited pages and optimization of up to 10 pages per week.",
+          "zh": "Growth 每站点每月 99 美元，含 100 个提示词和 5 个引擎，增加 Google AI Mode 与 Copilot Search；包含幽灵引用追踪、前 50 个被引页面来源检查，以及每周最多 10 页优化。"
+        },
+        "summary": {
+          "en": "Growth $99/month/site: 100 prompts, 5 engines, top-50 source checks and up to 10 optimized pages/week.",
+          "zh": "Growth 99 美元/月/站点：100 提示词、5 引擎、前 50 来源检查、每周最多优化 10 页。"
+        },
+        "sourceUrls": [
+          "https://www.findrix.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "Authority is $199/month per site with 180 prompts and the same five base engines. It raises source checks to the top 100 cited pages and optimization to up to 20 pages per week.",
+          "zh": "Authority 每站点每月 199 美元，含 180 个提示词和同样的 5 个基础引擎；来源检查扩大至前 100 个被引页面，优化扩大至每周最多 20 页。"
+        },
+        "summary": {
+          "en": "Authority $199/month/site: 180 prompts, 5 engines, top-100 source checks and up to 20 optimized pages/week.",
+          "zh": "Authority 199 美元/月/站点：180 提示词、5 引擎、前 100 来源检查、每周最多优化 20 页。"
+        },
+        "sourceUrls": [
+          "https://www.findrix.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "Claude, Grok and Perplexity are per-site monthly add-ons: Presence adds $24/$29/$15, Growth $39/$49/$25 and Authority $69/$89/$45 respectively. Every plan has a seven-day trial; paid plans renew monthly, annual billing is not currently discounted, and cancellation takes effect at the end of the current period. A trial with a payment method converts to paid unless canceled.",
+          "zh": "Claude、Grok 与 Perplexity 为按站点月付加购：Presence 分别加 24／29／15 美元，Growth 加 39／49／25 美元，Authority 加 69／89／45 美元。所有套餐均有 7 天试用；付费套餐按月续费，目前无年付折扣，取消在当前周期末生效。绑有支付方式的试用未取消会转为付费。"
+        },
+        "summary": {
+          "en": "Engine add-ons vary by tier; 7-day trial may auto-convert; monthly renewal, no current annual discount.",
+          "zh": "引擎加购因档位而异；7 天试用可能自动转付费；按月续费，目前无年付折扣。"
+        },
+        "sourceUrls": [
+          "https://www.findrix.ai/pricing",
+          "https://www.findrix.ai/legal/terms"
+        ],
+        "verifiedAt": "2026-11-26"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "Base engine coverage is tiered: Presence has three engines, Growth and Authority have five, and Claude, Grok and Perplexity require paid add-ons. Platform names describe product coverage, not identical inclusion on every plan.",
+          "zh": "基础引擎覆盖因档位而异：Presence 为 3 个，Growth 与 Authority 为 5 个，Claude、Grok 与 Perplexity 需付费加购。平台列表不代表每个套餐都包含全部引擎。"
+        },
+        "summary": {
+          "en": "Three base engines on Presence, five on Growth/Authority; Claude, Grok and Perplexity are add-ons.",
+          "zh": "Presence 基础 3 引擎，Growth／Authority 基础 5 引擎；Claude、Grok、Perplexity 需加购。"
+        },
+        "sourceUrls": [
+          "https://www.findrix.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "Findrix supplies written fixes but never changes the customer site automatically. The customer or site manager must review and apply them. AI-answer metrics are estimates with sampling uncertainty, and the terms do not guarantee citations, rankings, traffic or revenue.",
+          "zh": "Findrix 提供现成修复文案，但不会自动更改客户网站，必须由客户或站点管理人员审核应用。AI 回答指标属于带采样不确定性的估计，条款不保证引用、排名、流量或收入。"
+        },
+        "summary": {
+          "en": "Fixes require manual application; AI metrics are estimates, not guaranteed citations or business outcomes.",
+          "zh": "修复需人工应用；AI 指标为估计，不保证引用或业务结果。"
+        },
+        "sourceUrls": [
+          "https://www.findrix.ai/",
+          "https://www.findrix.ai/legal/terms"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "The service terms prohibit use by competitors and prohibit publishing benchmarks, comparisons or test results without written permission. Prospective users in those situations should review the restriction before purchasing.",
+          "zh": "服务条款禁止竞争对手使用，也禁止未经书面许可发布基准、对比或测试结果。属于上述情形潜在用户应在购买前核查该限制。"
+        },
+        "summary": {
+          "en": "Terms restrict competitor use and publication of benchmarks, comparisons or test results.",
+          "zh": "条款限制竞争对手使用及发布基准、对比或测试结果。"
+        },
+        "sourceUrls": [
+          "https://www.findrix.ai/legal/terms"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "Account and audit data are primarily stored in the EU, with some AI, search and analytics processing in the US. Customer content, prompts and probe history are not automatically deleted when a subscription ends; account closure triggers 30-day anonymization, while complete deletion requires a separate request. The privacy policy still lists the EU/UK GDPR representative as to be appointed.",
+          "zh": "账户与审计数据主要存储于欧盟，部分 AI、搜索和分析处理位于美国。订阅结束后，客户内容、提示词和探测历史不会自动删除；关闭账户会在 30 天后匿名化，完整删除需另行申请。隐私政策中的欧盟／英国 GDPR 代表仍标注为待任命。"
+        },
+        "summary": {
+          "en": "Post-subscription deletion needs a request; EU/UK representative is still pending, with some US processing.",
+          "zh": "订阅结束后需申请删除；欧盟／英国代表仍待任命，并有部分美国处理环节。"
+        },
+        "sourceUrls": [
+          "https://www.findrix.ai/legal/privacy"
+        ],
+        "verifiedAt": "2026-11-26"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Findrix Presence starts at $49/month per site with 60 prompts and three engines, while GEO Toolbox Starter is $99/month for one brand, 50 prompts, three engines and a shared credit pool. Compare the billing unit, engine add-ons, source-analysis depth and whether written fixes or a broader content-and-traffic workflow is the priority.",
+          "zh": "Findrix Presence 起步为每站点每月 49 美元，含 60 个提示词和 3 个引擎；GEO Toolbox Starter 为每月 99 美元，含 1 个品牌、50 个提示词、3 个引擎和共享额度池。应比较计费单位、引擎加购、来源分析深度，以及更看重现成修复还是更广泛的内容与流量工作流。"
+        },
+        "alternativeSlug": "geo-toolbox",
+        "sourceUrls": [
+          "https://www.findrix.ai/pricing",
+          "https://geotoolbox.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "slug": "geo-toolbox",
+    "name": "GEO Toolbox",
+    "category": "ai-visibility",
+    "website": "https://geotoolbox.ai/",
+    "logo": null,
+    "description": {
+      "en": "Multi-engine AI visibility platform with prompt tracking, page-level content analysis, AI-readiness tools and AI referral reporting. Public plans share monthly credits across scans, articles and assistant questions.",
+      "zh": "多引擎 AI 曝光平台，提供提示词追踪、页面级内容分析、AI 就绪工具和 AI 引荐流量报告。公开套餐按月共享额度，供扫描、文章与助手问答消耗。"
+    },
+    "tags": {
+      "en": [
+        "Multi-engine tracking",
+        "Content analysis",
+        "AI traffic"
+      ],
+      "zh": [
+        "多引擎追踪",
+        "内容分析",
+        "AI 流量"
+      ]
+    },
+    "features": {
+      "en": [
+        "Track ChatGPT, Perplexity, Google AI Overviews and AI Mode, Gemini, Bing Copilot, Claude and Grok against shared brand prompts, citations and competitor context; higher plans can select five engines or all eight.",
+        "Analyze a public page and keyword for citability and AI readability against pages actually cited for that query, checking answer structure, statistics, inline citations, technical readiness and live citation presence across six named AI surfaces."
+      ],
+      "zh": [
+        "围绕共享品牌提示词、引用和竞品语境追踪 ChatGPT、Perplexity、Google AI Overviews 与 AI Mode、Gemini、Bing Copilot、Claude 和 Grok；高档套餐可选 5 个引擎或全部 8 个。",
+        "按公开页面和关键词，对照该查询下实际被引页面分析可引用性与 AI 可读性，检查答案结构、统计、内联引用、技术就绪度，以及六个指定 AI 入口中的实时引用存在情况。"
+      ]
+    },
+    "audience": {
+      "en": "Brand SEO teams, publishers and agencies that want one workspace for AI-answer monitoring, content diagnostics and referral attribution, including multi-brand setups on higher plans.",
+      "zh": "需要在一个工作区内完成 AI 回答监测、内容诊断与引荐归因的品牌 SEO 团队、发布商和代理机构；高档套餐支持多品牌。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Build a prompt set for each brand, scan selected AI engines and review which sources and competitors appear. Public plans run automatic weekly scans; Scale and Enterprise can add daily scanning, while on-demand scans also draw from the monthly credit pool.",
+          "zh": "为每个品牌建立提示词集，在选定 AI 引擎上扫描并查看出现的来源与竞品。公开套餐每周自动扫描；Scale 和 Enterprise 可加购每日扫描，按需扫描也消耗月度共享额度。"
+        },
+        "summary": {
+          "en": "Brand prompt tracking with weekly scans; daily scanning is an add-on for Scale/Enterprise.",
+          "zh": "品牌提示词追踪与每周扫描；Scale／Enterprise 可加购每日扫描。"
+        },
+        "sourceUrls": [
+          "https://geotoolbox.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "Enter any public URL and target keyword to inspect answer capsules, headings, lists, sourced statistics, tables, expert quotations, author and freshness signals, plus robots rules, JSON-LD, rendering, Core Web Vitals and internal links. The tool checks ChatGPT, Perplexity, Gemini, Claude, Google AI Overviews and Grok for cited or not-cited results without requiring CMS or analytics access.",
+          "zh": "输入任意公开 URL 与目标关键词，检查答案胶囊、标题、列表、带来源统计、表格、专家引语、作者与新鲜度信号，并检查 robots 规则、JSON-LD、渲染、Core Web Vitals 和内链。工具无需 CMS 或分析账户，即可检查 ChatGPT、Perplexity、Gemini、Claude、Google AI Overviews 和 Grok 的引用存在情况。"
+        },
+        "summary": {
+          "en": "Public-page keyword audit covering content, technical readiness and cited/not-cited checks on six AI surfaces.",
+          "zh": "公开页面关键词审计，覆盖内容、技术就绪度与六个 AI 入口的引用检查。"
+        },
+        "sourceUrls": [
+          "https://geotoolbox.ai/features/content-analyzer"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "Connect read-only Google Search Console and Google Analytics data to identify AI referral visits from ChatGPT, Gemini, Claude, Perplexity and NotebookLM. Plus and above include the AI traffic report, while raw API responses are cached in browser local storage for up to six hours and OAuth tokens remain encrypted until disconnection.",
+          "zh": "以只读方式连接 Google Search Console 与 Google Analytics，识别来自 ChatGPT、Gemini、Claude、Perplexity 和 NotebookLM 的 AI 引荐访问。Plus 及以上包含 AI 流量报告；原始 API 响应在浏览器本地缓存最多 6 小时，OAuth token 加密保存至断开连接。"
+        },
+        "summary": {
+          "en": "Read-only GSC/GA4 AI referral reporting on Plus and above, with browser-cached raw responses.",
+          "zh": "Plus 及以上提供只读 GSC／GA4 AI 引荐报告，原始响应缓存在浏览器中。"
+        },
+        "sourceUrls": [
+          "https://geotoolbox.ai/pricing",
+          "https://geotoolbox.ai/privacy"
+        ],
+        "verifiedAt": "2026-11-26"
+      }
+    ],
+    "platforms": [
+      "ChatGPT",
+      "Perplexity",
+      "Google AI Overviews",
+      "Google AI Mode",
+      "Gemini",
+      "Copilot",
+      "Claude",
+      "Grok"
+    ],
+    "pricing": "Freemium",
+    "sources": [
+      {
+        "label": {
+          "en": "GEO Toolbox official pricing",
+          "zh": "GEO Toolbox 官方定价"
+        },
+        "url": "https://geotoolbox.ai/pricing"
+      },
+      {
+        "label": {
+          "en": "GEO Toolbox Content Analyzer",
+          "zh": "GEO Toolbox 内容分析器"
+        },
+        "url": "https://geotoolbox.ai/features/content-analyzer"
+      },
+      {
+        "label": {
+          "en": "GEO Toolbox legal notice and operator details",
+          "zh": "GEO Toolbox 法律声明与运营者信息"
+        },
+        "url": "https://geotoolbox.ai/legal"
+      },
+      {
+        "label": {
+          "en": "GEO Toolbox terms of service",
+          "zh": "GEO Toolbox 服务条款"
+        },
+        "url": "https://geotoolbox.ai/terms"
+      },
+      {
+        "label": {
+          "en": "GEO Toolbox privacy policy",
+          "zh": "GEO Toolbox 隐私政策"
+        },
+        "url": "https://geotoolbox.ai/privacy"
+      },
+      {
+        "label": {
+          "en": "GEO Toolbox refund policy",
+          "zh": "GEO Toolbox 退款政策"
+        },
+        "url": "https://geotoolbox.ai/refund-policy"
+      },
+      {
+        "label": {
+          "en": "Findrix official pricing for comparison",
+          "zh": "Findrix 官方定价（对比）"
+        },
+        "url": "https://www.findrix.ai/pricing"
+      }
+    ],
+    "verifiedAt": "2026-11-26",
+    "status": "published",
+    "featuredOrder": 128,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "Starter is $99/month for one brand, 50 prompts and three engines. It includes 12,000 credits per month, weekly scans, 180 days of displayed history and one seat.",
+          "zh": "Starter 每月 99 美元，含 1 个品牌、50 个提示词和 3 个引擎；每月 12,000 额度、每周扫描、180 天展示历史和 1 个席位。"
+        },
+        "summary": {
+          "en": "Starter $99/month: 1 brand, 50 prompts, 3 engines, 12,000 credits and 180-day history.",
+          "zh": "Starter 99 美元/月：1 品牌、50 提示词、3 引擎、12,000 额度、180 天历史。"
+        },
+        "sourceUrls": [
+          "https://geotoolbox.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "Plus is $199/month for up to three brands and 100 pooled prompts. Customers select five of eight engines; the plan includes 30,000 monthly credits, one year of displayed history, two seats and AI traffic reporting.",
+          "zh": "Plus 每月 199 美元，支持最多 3 个品牌和 100 个共享提示词；可从 8 个引擎中选 5 个，含每月 30,000 额度、1 年展示历史、2 个席位和 AI 流量报告。"
+        },
+        "summary": {
+          "en": "Plus $199/month: up to 3 brands, 100 pooled prompts, 5/8 engines and 30,000 credits.",
+          "zh": "Plus 199 美元/月：最多 3 品牌、100 共享提示词、5／8 引擎、30,000 额度。"
+        },
+        "sourceUrls": [
+          "https://geotoolbox.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "Pro is $399/month for up to five brands and 150 pooled prompts across all eight engines. It includes 50,000 monthly credits, one year of displayed history and three seats.",
+          "zh": "Pro 每月 399 美元，支持最多 5 个品牌和 150 个共享提示词，覆盖全部 8 个引擎；含每月 50,000 额度、1 年展示历史和 3 个席位。"
+        },
+        "summary": {
+          "en": "Pro $399/month: up to 5 brands, 150 pooled prompts, all 8 engines and 50,000 credits.",
+          "zh": "Pro 399 美元/月：最多 5 品牌、150 共享提示词、全部 8 引擎、50,000 额度。"
+        },
+        "sourceUrls": [
+          "https://geotoolbox.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "Annual billing is advertised at 20% savings. Starter, Plus, Pro and Growth have a seven-day card-required trial that converts to paid unless canceled; Scale has no trial and Enterprise is custom-priced. The current public view lists higher-tier limits but not Growth or Scale prices, so no amount is inferred here. Canceling a trial ends access without charge; canceling a paid subscription ends access at the current period end.",
+          "zh": "官网宣传年付省 20%。Starter、Plus、Pro 和 Growth 提供需绑卡的 7 天试用，未取消会转付费；Scale 无试用，Enterprise 定制报价。当前公开视图列出了高档限制，但没有 Growth 或 Scale 价格，因此此处不推测金额。取消试用会立即结束访问且不收费；取消付费订阅则在当前周期末结束访问。"
+        },
+        "summary": {
+          "en": "Annual billing saves 20%; some plans have card-required trials, and Growth/Scale prices are not public.",
+          "zh": "年付省 20%；部分套餐提供绑卡试用，Growth／Scale 未公开价格。"
+        },
+        "sourceUrls": [
+          "https://geotoolbox.ai/pricing",
+          "https://geotoolbox.ai/terms"
+        ],
+        "verifiedAt": "2026-11-26"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "The platform is primarily a paid SaaS, even though separate no-login tools provide an AI-Readiness Score, AI Crawler Checker and Agent Readiness Scanner. Monthly credits reset and do not roll over; engine-dependent usage means plan prompts and article counts should not be read as independent guarantees.",
+          "zh": "主平台为付费 SaaS，尽管无需登录的 AI-Readiness Score、AI Crawler Checker 和 Agent Readiness Scanner 可免费使用。月度额度每月重置且不结转；不同引擎消耗不同，因此套餐提示词数和文章数不应被理解为各自独立的硬保证。"
+        },
+        "summary": {
+          "en": "Free utilities do not make the main SaaS free; credits reset monthly and are shared across usage.",
+          "zh": "免费小工具不代表主 SaaS 免费；额度每月重置，并在多种用途间共享。"
+        },
+        "sourceUrls": [
+          "https://geotoolbox.ai/pricing",
+          "https://geotoolbox.ai/terms"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "The refund policy is restrictive and generally covers billing errors, termination by GEO Toolbox, a material downgrade caused by third-party changes and mandatory consumer rights rather than ordinary non-use, trial conversion, missed cancellation or unused time. Content recommendations and citation checks do not guarantee that an AI engine will cite a page after changes.",
+          "zh": "退款政策较严格，通常仅覆盖账单错误、GEO Toolbox 主动终止、第三方变化造成实质降档及法定消费者权利，一般不涵盖普通未使用、试用转付费、未及时取消或未使用时间。内容建议与引用检查不保证修改后一定被 AI 引擎引用。"
+        },
+        "summary": {
+          "en": "Limited refund exceptions; citation checks and recommendations do not guarantee AI inclusion.",
+          "zh": "退款例外有限；引用检查和建议不保证被 AI 收录。"
+        },
+        "sourceUrls": [
+          "https://geotoolbox.ai/refund-policy",
+          "https://geotoolbox.ai/features/content-analyzer"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "Analysis outputs remain available without a stated deletion deadline while the account is active; lower tiers merely display less history. Account deletion or an email request is processed within 14 days. GSC and GA4 access is read-only, but linked accounts and local browser caches should still be reviewed under the organization's data controls.",
+          "zh": "账户活跃期间，分析输出没有明确的删除期限；低档套餐只是展示较少历史，不代表旧数据已删除。删除账户或邮件申请会在 14 天内处理。GSC 和 GA4 为只读访问，但仍应按组织的数据控制要求审查关联账户与本地浏览器缓存。"
+        },
+        "summary": {
+          "en": "Active-account outputs have no stated deletion deadline; deletion requests take up to 14 days.",
+          "zh": "活跃账户输出未规定删除期限；删除申请最长 14 天处理。"
+        },
+        "sourceUrls": [
+          "https://geotoolbox.ai/privacy"
+        ],
+        "verifiedAt": "2026-11-26"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "GEO Toolbox Starter costs $99/month for one brand, 50 prompts, three engines and shared credits; Findrix Presence starts at $49/month per site with 60 prompts and three engines but charges separately for additional AI engines. Compare brand-versus-site billing, prompt limits, credit consumption, content diagnostics and the kind of post-audit workflow each product provides.",
+          "zh": "GEO Toolbox Starter 每月 99 美元，含 1 个品牌、50 个提示词、3 个引擎和共享额度；Findrix Presence 每站点每月 49 美元起，含 60 个提示词和 3 个引擎，但额外引擎需另行付费。应比较按品牌还是按站点计费、提示词限制、额度消耗、内容诊断，以及各自提供的审计后工作流。"
+        },
+        "alternativeSlug": "findrix",
+        "sourceUrls": [
+          "https://geotoolbox.ai/pricing",
+          "https://www.findrix.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "slug": "seo-grow-ai-seo-audit",
+    "name": "SEO Grow AI SEO Auditor",
+    "category": "geo-audit",
+    "website": "https://ai-audit.seogrow.co/geo-audit",
+    "logo": null,
+    "description": {
+      "en": "Deterministic GEO audit that checks page-level citation signals, structured data, llms.txt and AI crawler permissions, with a free preview and paid deep audits, batch reports and agency white-label options.",
+      "zh": "确定性 GEO 审计，检查页面引用信号、结构化数据、llms.txt 与 AI 爬虫权限；提供免费预览、付费深度审计、批量报告和代理白标选项。"
+    },
+    "tags": {
+      "en": [
+        "Deterministic audit",
+        "Schema",
+        "llms.txt"
+      ],
+      "zh": [
+        "确定性审计",
+        "Schema",
+        "llms.txt"
+      ]
+    },
+    "features": {
+      "en": [
+        "Inspect concrete statistics, verifiable citations and Organization, Product or Person JSON-LD, then return prioritized fixes, copyable structured data and llms.txt guidance for sharing with clients or site owners.",
+        "Verify llms.txt availability and access rules for GPTBot, OAI-SearchBot, PerplexityBot and ClaudeBot. Agency plans add white-label PDF reports, sitemap batches, monitoring and an embeddable lead-generation audit widget."
+      ],
+      "zh": [
+        "检查具体统计、可验证引用以及 Organization、Product 或 Person JSON-LD，返回优先修复项、可复制结构化数据和 llms.txt 指导，便于与客户或站点负责人共享。",
+        "核查 llms.txt 可用性及 GPTBot、OAI-SearchBot、PerplexityBot 和 ClaudeBot 的访问规则。代理套餐增加白标 PDF、站点地图批次、监测和可嵌入的获客审计组件。"
+      ]
+    },
+    "audience": {
+      "en": "Site owners, SEO consultants and agencies that need a rules-based page audit with shareable fixes rather than a continuous AI-answer monitoring subscription.",
+      "zh": "需要基于规则的页面审计和可分享修复方案，而非持续 AI 回答监测订阅的站点所有者、SEO 顾问和代理机构。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Enter a URL to identify content and technical signals that may help an AI engine extract and cite the page. The free result exposes a 0-100 preview and the first three high-impact issues; a paid deep audit supplies the complete deterministic checks and written recommendations.",
+          "zh": "输入 URL，查找有助于 AI 引擎提取和引用页面的内容及技术信号。免费结果提供 0-100 预览分和前三项高影响问题；付费深度审计提供完整的确定性检查与书面建议。"
+        },
+        "summary": {
+          "en": "Free preview plus paid deep audit for page-level content, schema, llms.txt and crawler signals.",
+          "zh": "免费预览加付费深度审计，检查页面内容、Schema、llms.txt 与爬虫信号。"
+        },
+        "sourceUrls": [
+          "https://ai-audit.seogrow.co/geo-audit",
+          "https://ai-audit.seogrow.co/pricing"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "Consultants can run unlimited audits and combine them with the Competitor AI Gap Matrix and AI SERP Simulator. Agencies can add white-label PDF exports, sitemap batches of up to 300 URLs and an embeddable audit widget to an existing proposal workflow.",
+          "zh": "顾问可运行无限次审计，并结合 Competitor AI Gap Matrix 与 AI SERP Simulator；代理机构可增加白标 PDF、最多 300 个 URL 的站点地图批次及可嵌入审计组件，接入现有提案流程。"
+        },
+        "summary": {
+          "en": "Consultant subscriptions add gap tools; Agency adds white-label PDFs, 300-URL batches and a lead widget.",
+          "zh": "Consultant 订阅增加差距工具；Agency 增加白标 PDF、300 URL 批次和获客组件。"
+        },
+        "sourceUrls": [
+          "https://ai-audit.seogrow.co/geo-audit",
+          "https://ai-audit.seogrow.co/pricing"
+        ],
+        "verifiedAt": "2026-11-26"
+      }
+    ],
+    "platforms": [],
+    "pricing": "Freemium",
+    "sources": [
+      {
+        "label": {
+          "en": "SEO Grow official GEO Audit product page",
+          "zh": "SEO Grow 官方 GEO 审计产品页"
+        },
+        "url": "https://ai-audit.seogrow.co/geo-audit"
+      },
+      {
+        "label": {
+          "en": "SEO Grow official pricing",
+          "zh": "SEO Grow 官方定价"
+        },
+        "url": "https://ai-audit.seogrow.co/pricing"
+      },
+      {
+        "label": {
+          "en": "SEO Grow company and operator information",
+          "zh": "SEO Grow 公司与运营主体信息"
+        },
+        "url": "https://ai-audit.seogrow.co/about"
+      },
+      {
+        "label": {
+          "en": "SEO Grow privacy policy",
+          "zh": "SEO Grow 隐私政策"
+        },
+        "url": "https://ai-audit.seogrow.co/privacy-policy"
+      },
+      {
+        "label": {
+          "en": "SEO Grow terms and conditions",
+          "zh": "SEO Grow 条款与条件"
+        },
+        "url": "https://ai-audit.seogrow.co/terms-and-conditions"
+      },
+      {
+        "label": {
+          "en": "SEO Grow refund policy",
+          "zh": "SEO Grow 退款政策"
+        },
+        "url": "https://ai-audit.seogrow.co/refund-policy"
+      },
+      {
+        "label": {
+          "en": "GEO Toolbox Content Analyzer for comparison",
+          "zh": "GEO Toolbox 内容分析器（对比）"
+        },
+        "url": "https://geotoolbox.ai/features/content-analyzer"
+      },
+      {
+        "label": {
+          "en": "GEO Toolbox official pricing for comparison",
+          "zh": "GEO Toolbox 官方定价（对比）"
+        },
+        "url": "https://geotoolbox.ai/pricing"
+      }
+    ],
+    "verifiedAt": "2026-11-26",
+    "status": "published",
+    "featuredOrder": 129,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "The free audit shows a 0-100 AI GEO preview score and the first three high-impact findings. It is a limited result, not the complete deep audit.",
+          "zh": "免费审计显示 0-100 的 AI GEO 预览分和前三项高影响问题，属于有限结果，并非完整深度审计。"
+        },
+        "summary": {
+          "en": "Free: 0-100 preview score and the first three high-impact findings.",
+          "zh": "免费：0-100 预览分和前三项高影响问题。"
+        },
+        "sourceUrls": [
+          "https://ai-audit.seogrow.co/pricing"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "Solo Audit is a $9.99 one-time purchase for a complete deep audit. The official page describes access across the five supported engines, lifetime report access and no subscription; the public pricing excerpt does not enumerate those five engines.",
+          "zh": "Solo Audit 为 9.99 美元一次性购买，提供完整深度审计。官方页面称支持五个引擎、报告终身访问且无订阅；公开定价摘录没有逐一列出这五个引擎。"
+        },
+        "summary": {
+          "en": "Solo Audit $9.99 one-time: complete deep audit, lifetime report access, no subscription.",
+          "zh": "Solo Audit 一次性 9.99 美元：完整深度审计、报告终身访问、无订阅。"
+        },
+        "sourceUrls": [
+          "https://ai-audit.seogrow.co/pricing"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "Consultant is $49/month and includes unlimited audits, the five-engine audit, Competitor AI Gap Matrix, AI SERP Simulator, sitemap batches of up to 100 URLs and planned monitoring.",
+          "zh": "Consultant 每月 49 美元，包含无限次审计、五引擎审计、Competitor AI Gap Matrix、AI SERP Simulator、最多 100 个 URL 的站点地图批次和计划监测。"
+        },
+        "summary": {
+          "en": "Consultant $49/month: unlimited audits, gap tools, 100-URL sitemap batches and monitoring.",
+          "zh": "Consultant 49 美元/月：无限审计、差距工具、100 URL 批次和监测。"
+        },
+        "sourceUrls": [
+          "https://ai-audit.seogrow.co/pricing"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "Agency Suite is $99/month and includes the Consultant tools plus white-label PDF reports, sitemap batches of up to 300 URLs, an embeddable lead-generation audit widget and proposal or pitch-deck generation. Consultant and Agency have seven-day trials that convert to monthly subscriptions unless canceled; cancellation takes effect at the billing period end.",
+          "zh": "Agency Suite 每月 99 美元，包含 Consultant 工具，并增加白标 PDF、最多 300 个 URL 的站点地图批次、可嵌入获客审计组件及提案／路演材料生成。Consultant 和 Agency 提供 7 天试用，未取消会转为月付订阅；取消在当前账期末生效。"
+        },
+        "summary": {
+          "en": "Agency Suite $99/month: white-label PDFs, 300-URL batches and lead-generation tools; monthly trials auto-renew.",
+          "zh": "Agency Suite 99 美元/月：白标 PDF、300 URL 批次与获客工具；月度试用会自动续费。"
+        },
+        "sourceUrls": [
+          "https://ai-audit.seogrow.co/pricing",
+          "https://ai-audit.seogrow.co/terms-and-conditions"
+        ],
+        "verifiedAt": "2026-11-26"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "This is a deterministic audit of page and access signals, not an independent system that repeatedly samples live AI answers. The official site uses a five-engine marketing description, but the public pricing excerpt does not list all five, so the platform field is left empty rather than guessed.",
+          "zh": "这是针对页面与访问信号的确定性审计，不是独立重复采样实时 AI 回答的系统。官网使用五引擎营销口径，但公开定价摘录没有列出全部五个，因此平台字段留空而不作猜测。"
+        },
+        "summary": {
+          "en": "Rule-based audit, not live AI-answer sampling; the five-engine list is not public in the reviewed source.",
+          "zh": "规则式审计而非实时 AI 回答采样；所核验来源未公开完整五引擎清单。"
+        },
+        "sourceUrls": [
+          "https://ai-audit.seogrow.co/geo-audit",
+          "https://ai-audit.seogrow.co/pricing"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "The privacy policy covers emails, usage data, submitted URLs, topics and generated reports, but does not publicly identify the AI model suppliers, whether customer audit content is used for model training or fixed retention periods. Buyers with those requirements should request clarification rather than assume an answer.",
+          "zh": "隐私政策涵盖邮箱、使用数据、提交的 URL、主题和生成报告，但没有公开 AI 模型供应商、是否将客户审计内容用于模型训练或固定保留期限。有这些要求的买家应要求澄清，而不能自行假设。"
+        },
+        "summary": {
+          "en": "Public sources do not specify AI suppliers, model-training use or fixed retention periods.",
+          "zh": "公开来源未说明 AI 供应商、模型训练用途或固定保留期限。"
+        },
+        "sourceUrls": [
+          "https://ai-audit.seogrow.co/privacy-policy"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "Refunds are generally unavailable for completed services or billed subscription periods. Canceled subscriptions run to the period end without prorated refunds, trials canceled in time are not charged, and a Solo Audit cannot be refunded once its report is generated.",
+          "zh": "已完成的服务或已计费订阅期原则上不退款。取消订阅后服务持续到周期末，不按比例退还未用时间；试用期内及时取消不收费；Solo Audit 报告生成后不可退款。"
+        },
+        "summary": {
+          "en": "Completed services and generated Solo reports are non-refundable; subscription cancellations are not prorated.",
+          "zh": "已完成服务和已生成 Solo 报告不退款；订阅取消不按比例退款。"
+        },
+        "sourceUrls": [
+          "https://ai-audit.seogrow.co/refund-policy",
+          "https://ai-audit.seogrow.co/terms-and-conditions"
+        ],
+        "verifiedAt": "2026-11-26"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "SEO Grow offers a $9.99 one-time deep audit, while GEO Toolbox starts at $99/month and combines recurring prompt scans with shared credits and content analysis. Choose SEO Grow for one-off or client-ready deterministic reports; compare GEO Toolbox when ongoing multi-engine monitoring, referral reporting and multi-brand workflows matter more.",
+          "zh": "SEO Grow 提供 9.99 美元一次性深度审计；GEO Toolbox 起步为每月 99 美元，将持续提示词扫描、共享额度与内容分析结合起来。若需要一次性或可直接交付客户的确定性报告，可考虑 SEO Grow；若更看重持续多引擎监测、引荐报告和多品牌流程，可比较 GEO Toolbox。"
+        },
+        "alternativeSlug": "geo-toolbox",
+        "sourceUrls": [
+          "https://ai-audit.seogrow.co/pricing",
+          "https://geotoolbox.ai/pricing",
+          "https://geotoolbox.ai/features/content-analyzer"
+        ],
+        "verifiedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "slug": "lightsite-ai",
+    "name": "LightSite AI",
+    "category": "ai-visibility",
+    "website": "https://www.lightsite.ai/",
+    "logo": null,
+    "description": {
+      "en": "AI-site readiness, deployment and analytics platform that prepares machine-readable site structures, measures AI crawler and referral activity, and turns findings into proposals that require human approval.",
+      "zh": "AI 网站就绪、部署与分析平台，提供机器可读站点结构，衡量 AI 爬虫和引荐活动，并将发现转化为需人工批准的提案。"
+    },
+    "tags": {
+      "en": [
+        "AI readiness",
+        "AI crawler analytics",
+        "Human approval"
+      ],
+      "zh": [
+        "AI 就绪",
+        "AI 爬虫分析",
+        "人工审批"
+      ]
+    },
+    "features": {
+      "en": [
+        "Prepare JSON-LD, AI sitemaps, structured endpoints, agent manifests and a Skills API for an AI-readable website, then analyze crawler, query and extraction behavior alongside referrals, engagement and conversions.",
+        "Report share of voice for ChatGPT, Claude, Gemini, Perplexity and Google AI Mode, compare competitor gaps, and offer MCP-connected tools. Sixteen of 18 MCP tools are read-only; the other two create or revoke pending proposals, which expire after seven days without approval."
+      ],
+      "zh": [
+        "为 AI 可读网站准备 JSON-LD、AI 站点地图、结构化端点、agent manifests 和 Skills API，并分析爬虫、查询与提取行为，以及引荐、互动和转化。",
+        "报告 ChatGPT、Claude、Gemini、Perplexity 和 Google AI Mode 的声量，比较竞品缺口，并提供 MCP 连接工具。18 个 MCP 工具中 16 个只读，另 2 个可创建或撤回待审批提案；提案 7 天未批准即过期。"
+      ]
+    },
+    "audience": {
+      "en": "Marketing and engineering teams that want to make a site AI-accessible and measurable while keeping website changes, content publication and outreach behind explicit human approval.",
+      "zh": "希望让网站可被 AI 访问并衡量效果，同时让网站修改、内容发布和外联始终经过明确人工批准的营销与工程团队。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Prepare a site for AI agents by generating structured data and endpoints, then compare AI visibility with competitors across the named answer surfaces. The product combines readiness work with share-of-voice evidence instead of treating a schema check as proof of citation.",
+          "zh": "通过生成结构化数据和端点，让网站为 AI agent 做好准备，并在指定回答入口上比较 AI 曝光与竞品。产品将就绪工作与声量证据结合，而不是把 Schema 检查当作引用证明。"
+        },
+        "summary": {
+          "en": "AI-readable site structures plus share-of-voice evidence across five named surfaces.",
+          "zh": "AI 可读站点结构与五个指定入口的声量证据。"
+        },
+        "sourceUrls": [
+          "https://www.lightsite.ai/"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "Inspect how AI crawlers query and extract the site, then connect referral behavior to engagement and conversion. The production database is hosted on AWS in Frankfurt, Germany, and the website integration is described as cookie-free, without local storage, fingerprinting or visitor contact and payment-form collection.",
+          "zh": "查看 AI 爬虫如何查询和提取网站，并将引荐行为与互动、转化关联。生产数据库托管于德国法兰克福 AWS；官网称网站集成不使用 cookie、本地存储或指纹识别，也不收集访客姓名、邮箱、凭据、支付数据或表单内容。"
+        },
+        "summary": {
+          "en": "Crawler-to-conversion analytics with an EU-hosted database and a cookie-free website integration.",
+          "zh": "从爬虫到转化的分析，欧盟托管数据库和无 cookie 网站集成。"
+        },
+        "sourceUrls": [
+          "https://www.lightsite.ai/",
+          "https://www.lightsite.ai/data-processing-addendum"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "Use the MCP connection for assisted analysis and proposal workflows without granting autonomous publishing authority. The assistant cannot publish content, send outreach, modify the website or approve its own proposals; approval must come from an authorized human.",
+          "zh": "通过 MCP 连接开展辅助分析与提案流程，而不授予自动发布权限。助手不能发布内容、发送外联、修改网站或自批提案，必须由获得授权的人员批准。"
+        },
+        "summary": {
+          "en": "MCP-assisted proposals stay behind human approval; autonomous publishing and outreach are excluded.",
+          "zh": "MCP 辅助提案必须人工批准；不提供自动发布或自动外联。"
+        },
+        "sourceUrls": [
+          "https://www.lightsite.ai/",
+          "https://www.lightsite.ai/terms-and-conditions"
+        ],
+        "verifiedAt": "2026-11-26"
+      }
+    ],
+    "platforms": [
+      "ChatGPT",
+      "Claude",
+      "Gemini",
+      "Perplexity",
+      "Google AI Mode"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "LightSite official product overview",
+          "zh": "LightSite 官方产品概览"
+        },
+        "url": "https://www.lightsite.ai/"
+      },
+      {
+        "label": {
+          "en": "LightSite official pricing",
+          "zh": "LightSite 官方定价"
+        },
+        "url": "https://www.lightsite.ai/pricing"
+      },
+      {
+        "label": {
+          "en": "LightSite privacy policy",
+          "zh": "LightSite 隐私政策"
+        },
+        "url": "https://www.lightsite.ai/privacy-policy"
+      },
+      {
+        "label": {
+          "en": "LightSite terms and conditions",
+          "zh": "LightSite 条款与条件"
+        },
+        "url": "https://www.lightsite.ai/terms-and-conditions"
+      },
+      {
+        "label": {
+          "en": "LightSite data processing addendum",
+          "zh": "LightSite 数据处理附录"
+        },
+        "url": "https://www.lightsite.ai/data-processing-addendum"
+      },
+      {
+        "label": {
+          "en": "LightSite refund policy",
+          "zh": "LightSite 退款政策"
+        },
+        "url": "https://www.lightsite.ai/refund-policy"
+      },
+      {
+        "label": {
+          "en": "GEO Toolbox official pricing for comparison",
+          "zh": "GEO Toolbox 官方定价（对比）"
+        },
+        "url": "https://geotoolbox.ai/pricing"
+      },
+      {
+        "label": {
+          "en": "GEO Toolbox Content Analyzer for comparison",
+          "zh": "GEO Toolbox 内容分析器（对比）"
+        },
+        "url": "https://geotoolbox.ai/features/content-analyzer"
+      }
+    ],
+    "verifiedAt": "2026-11-26",
+    "status": "published",
+    "featuredOrder": 130,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "Foundation is advertised at $129/month with annual billing, meaning the displayed figure is the monthly equivalent of an annual commitment. Enterprise is custom-priced. The public plan page does not state site, prompt or query quotas for these tiers.",
+          "zh": "Foundation 宣传价为按年计费每月 129 美元，即展示数字为年度承诺的月度折算价；Enterprise 定制报价。公开套餐页没有说明这些档位的站点、提示词或查询配额。"
+        },
+        "summary": {
+          "en": "Foundation $129/month billed annually; Enterprise is custom-priced; public quotas are not stated.",
+          "zh": "Foundation 按年计费每月 129 美元；Enterprise 定制；公开配额未说明。"
+        },
+        "sourceUrls": [
+          "https://www.lightsite.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "Pro is advertised at $299/month with annual billing, also a monthly equivalent rather than a month-to-month price. The public plan page does not disclose per-plan sites, prompts, queries or traffic limits.",
+          "zh": "Pro 宣传价为按年计费每月 299 美元，同样是月度折算价而非逐月付费价格。公开套餐页没有披露各档站点、提示词、查询或流量上限。"
+        },
+        "summary": {
+          "en": "Pro $299/month billed annually; per-plan usage quotas are not publicly disclosed.",
+          "zh": "Pro 按年计费每月 299 美元；未公开披露各档使用配额。"
+        },
+        "sourceUrls": [
+          "https://www.lightsite.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "New customers receive a seven-day trial that converts to a paid annual subscription unless canceled. A paid annual term may be canceled for a prorated refund of the unused portion within the first 90 days, subject to the refund conditions; after 90 days refunds are generally unavailable unless applicable law requires otherwise. Stopping renewal leaves service active until the paid term ends.",
+          "zh": "新客户可获得 7 天试用，未取消会转为付费年度订阅。满足退款条件时，可在付费年度前 90 天内申请取消，并按未使用部分比例退款；90 天后原则上不退款，除非适用法律另有规定。停止续费后，服务持续至已付期限结束。"
+        },
+        "summary": {
+          "en": "7-day trial converts to annual billing; conditional prorated refunds are available during the first 90 days.",
+          "zh": "7 天试用转为年付；前 90 天符合条件可按比例退款。"
+        },
+        "sourceUrls": [
+          "https://www.lightsite.ai/pricing",
+          "https://www.lightsite.ai/refund-policy"
+        ],
+        "verifiedAt": "2026-11-26"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "The published plan cards do not disclose sites, prompts, queries or traffic limits, and the displayed monthly figures require annual billing. Buyers should confirm actual quotas and the total annual charge before relying on the headline price.",
+          "zh": "公开套餐卡没有披露站点、提示词、查询或流量上限，展示的月度数字也要求按年计费。买家应确认实际配额和年度总费用后再依赖宣传价格。"
+        },
+        "summary": {
+          "en": "Annual billing is required at the displayed rates, and per-plan quotas are not public.",
+          "zh": "展示价格要求年付，各档配额未公开。"
+        },
+        "sourceUrls": [
+          "https://www.lightsite.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "The assistant and MCP tools cannot autonomously publish content, send outreach, modify the site or self-approve proposals. Customer instructions and approvals remain the customer's legal responsibility. The 90-day refund window has account and integration-removal conditions and is not an unconditional cancellation guarantee.",
+          "zh": "助手和 MCP 工具不能自动发布内容、发送外联、修改网站或自批提案，客户指令与批准仍由客户承担法律责任。90 天退款窗口附带账户状态和移除集成等条件，并非无条件取消保证。"
+        },
+        "summary": {
+          "en": "Human approval is mandatory; the conditional 90-day refund window is not an unconditional exit.",
+          "zh": "必须人工批准；附条件的 90 天退款窗口并非无条件退出。"
+        },
+        "sourceUrls": [
+          "https://www.lightsite.ai/terms-and-conditions",
+          "https://www.lightsite.ai/refund-policy"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "Although the main database is in Frankfurt, the company is Israel-based and the current subprocessor list must be requested from support. Customer Data is not used to train general AI models, but public or anonymized/de-identified data may improve the service. Post-termination export state lasts up to 30 days, with backups removed on ordinary backup cycles.",
+          "zh": "主数据库位于法兰克福，但公司基于以色列，当前分包商清单需向支持团队索取。客户数据不用于训练通用 AI 模型，但公开或匿名／去标识化数据可能用于改进服务。终止后导出状态最多保留 30 天，备份按常规备份周期删除。"
+        },
+        "summary": {
+          "en": "Israel-based operator; subprocessors are on request; exports last up to 30 days and backups follow their cycle.",
+          "zh": "运营方位于以色列；分包商需索取；导出最多保留 30 天，备份按周期删除。"
+        },
+        "sourceUrls": [
+          "https://www.lightsite.ai/privacy-policy",
+          "https://www.lightsite.ai/data-processing-addendum"
+        ],
+        "verifiedAt": "2026-11-26"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "LightSite Foundation is displayed at $129/month only with annual billing and emphasizes AI-readable deployment, crawler analytics and approval-controlled proposals. GEO Toolbox Starter is $99/month with 50 prompts, three engines and 12,000 shared credits. Compare deployment and governance needs against recurring prompt tracking, and request LightSite quotas because they are not public.",
+          "zh": "LightSite Foundation 仅在按年计费时展示为每月 129 美元，侧重 AI 可读部署、爬虫分析和审批控制提案；GEO Toolbox Starter 每月 99 美元，含 50 个提示词、3 个引擎和 12,000 共享额度。应比较部署与治理需求和持续提示词追踪，并向 LightSite 索取未公开配额。"
+        },
+        "alternativeSlug": "geo-toolbox",
+        "sourceUrls": [
+          "https://www.lightsite.ai/pricing",
+          "https://geotoolbox.ai/pricing",
+          "https://geotoolbox.ai/features/content-analyzer"
+        ],
+        "verifiedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "slug": "surva-ai",
+    "name": "Surva.ai",
+    "category": "competitors",
+    "website": "https://www.surva.ai/",
+    "logo": null,
+    "description": {
+      "en": "AI search visibility platform that compares brands across the same buyer prompts, identifies competitor gaps and cited sources, and adds content, audit and crawler workflows.",
+      "zh": "跨相同买家提示词比较品牌、识别竞品缺口与引用来源，并集成内容、审计和爬虫分析流程的 AI 搜索曝光平台。"
+    },
+    "tags": {
+      "en": [
+        "Competitor intelligence",
+        "Share of voice",
+        "AI content"
+      ],
+      "zh": [
+        "竞品情报",
+        "声量对比",
+        "AI 内容"
+      ]
+    },
+    "features": {
+      "en": [
+        "Run tracked prompts on ChatGPT, Perplexity, Claude, Gemini and Google AI Overviews, then compare brand mentions, share of voice, competitor gaps and citation sources.",
+        "Automatically record competitors named in answers; deep tracking adds Google Ads Transparency Center creatives and landing-page monitoring for a plan-limited competitor set.",
+        "Generate AI articles, audit pages and inspect AI crawler logs, with CMS publishing, REST API and white-label Agency Mode available on higher plans."
+      ],
+      "zh": [
+        "在 ChatGPT、Perplexity、Claude、Gemini 和 Google AI Overviews 上运行追踪提示词，比较品牌提及、声量、竞品缺口和引用来源。",
+        "自动记录回答中出现的竞品；深度追踪额外监测受限竞品集合的 Google Ads Transparency Center 广告素材和落地页。",
+        "生成 AI 文章、审计页面并查看 AI 爬虫日志；更高套餐提供 CMS 发布、REST API 和白标 Agency Mode。"
+      ]
+    },
+    "audience": {
+      "en": "In-house marketing and SEO teams, plus agencies that need competitor evidence, content production and client reporting in one subscription.",
+      "zh": "需要在一套订阅中取得竞品证据、内容生产和客户报告的内部营销／SEO 团队及代理机构。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Compare the brand with competitors on the same tracked buyer questions and inspect the prompts, answers and cited pages where rivals appear. This supports gap investigation without treating AI share of voice as commercial market share.",
+          "zh": "在相同追踪买家问题下比较品牌与竞品，并查看竞品出现时的提示词、回答和引用页面，用于调查缺口，而不把 AI 声量当作商业市场份额。"
+        },
+        "summary": {
+          "en": "Same-prompt competitor comparison with answer and citation gap investigation.",
+          "zh": "相同提示词下的竞品比较，并调查回答与引用缺口。"
+        },
+        "sourceUrls": [
+          "https://www.surva.ai/products/competitor-intelligence",
+          "https://www.surva.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "Monitor the ads and landing pages of selected deep-tracked competitors alongside organic AI mentions. Every plan records unlimited competitors named in answers, while deep ad and mention tracking is capped at 5, 15 or 50 competitors by plan.",
+          "zh": "在自然 AI 提及之外监测选定深度追踪竞品的广告和落地页。所有套餐都记录回答中无限出现的竞品，但深度广告与提及追踪按套餐限制为 5、15 或 50 个。"
+        },
+        "summary": {
+          "en": "Unlimited competitors in answers; deep ad/mention tracking is limited to 5, 15 or 50 by plan.",
+          "zh": "回答中竞品数量不限；深度广告／提及追踪按套餐限 5、15 或 50 个。"
+        },
+        "sourceUrls": [
+          "https://www.surva.ai/products/competitor-intelligence",
+          "https://www.surva.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "Use page audits, AI-generated articles and crawler logs to turn visibility gaps into a reviewable work queue. Growth and Business add CMS publishing and API access; Business adds white-label client sub-accounts and portfolio reporting.",
+          "zh": "利用页面审计、AI 生成文章和爬虫日志，将曝光缺口转化为可审核的工作队列。Growth 和 Business 增加 CMS 发布与 API；Business 增加白标客户子账户和组合报告。"
+        },
+        "summary": {
+          "en": "Audit-to-content workflow; CMS/API from Growth and white-label agency reporting on Business.",
+          "zh": "审计到内容的工作流；Growth 起提供 CMS／API，Business 提供白标代理报告。"
+        },
+        "sourceUrls": [
+          "https://www.surva.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-26"
+      }
+    ],
+    "platforms": [
+      "ChatGPT",
+      "Perplexity",
+      "Claude",
+      "Gemini",
+      "Google AI Overviews"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "Surva.ai official competitor intelligence",
+          "zh": "Surva.ai 官方竞品情报"
+        },
+        "url": "https://www.surva.ai/products/competitor-intelligence"
+      },
+      {
+        "label": {
+          "en": "Surva.ai official pricing and plan limits",
+          "zh": "Surva.ai 官方定价与套餐限制"
+        },
+        "url": "https://www.surva.ai/pricing"
+      },
+      {
+        "label": {
+          "en": "Surva.ai company information",
+          "zh": "Surva.ai 公司与主体信息"
+        },
+        "url": "https://www.surva.ai/about"
+      },
+      {
+        "label": {
+          "en": "Surva.ai terms of service",
+          "zh": "Surva.ai 服务条款"
+        },
+        "url": "https://www.surva.ai/terms"
+      },
+      {
+        "label": {
+          "en": "Surva.ai privacy policy",
+          "zh": "Surva.ai 隐私政策"
+        },
+        "url": "https://www.surva.ai/privacy"
+      },
+      {
+        "label": {
+          "en": "Maya AI official pricing for comparison",
+          "zh": "Maya AI 官方定价（对比）"
+        },
+        "url": "https://withmaya.ai/pricing"
+      },
+      {
+        "label": {
+          "en": "Maya AI competitive benchmarking for comparison",
+          "zh": "Maya AI 竞品对比（对比）"
+        },
+        "url": "https://withmaya.ai/product/competitive-benchmarking"
+      },
+      {
+        "label": {
+          "en": "Maya AI measurement methodology for comparison",
+          "zh": "Maya AI 测量方法（对比）"
+        },
+        "url": "https://withmaya.ai/methodology"
+      }
+    ],
+    "verifiedAt": "2026-11-26",
+    "status": "published",
+    "featuredOrder": 131,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "Starter is $49/month, or $39/month billed as $468/year. It includes 30 prompts across five AI platforms, one brand, two seats, 15 AI-generated articles per month, five audits of up to 75 pages, and prompt refreshes every three days. It records unlimited competitors in answers and deep-tracks five.",
+          "zh": "Starter 每月 49 美元，或按年账单 468 美元折算每月 39 美元。含跨五个 AI 平台的 30 个提示词、1 个品牌、2 个席位、每月 15 篇 AI 生成文章、5 次最多 75 页的审计，每三天刷新提示词。回答中竞品数量不限，深度追踪 5 个。"
+        },
+        "summary": {
+          "en": "Starter $49/month or $39/month billed $468/year: 30 prompts, 1 brand, 2 seats, 15 articles/month, 5×75-page audits, refresh every 3 days, 5 deep-tracked competitors.",
+          "zh": "Starter 49 美元／月或年付折算 39 美元（账单 468 美元）：30 提示词、1 品牌、2 席位、15 篇文章／月、5 次×75 页审计、每 3 天刷新、深度追踪 5 个竞品。"
+        },
+        "sourceUrls": [
+          "https://www.surva.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "Growth is $119/month, or $99/month billed as $1,188/year. It includes 75 prompts, five brands, five seats, 30 articles per month, 15 deep-tracked competitors, 15 audits of up to 250 pages, refreshes every two days, CMS publishing, crawler logs and REST API access.",
+          "zh": "Growth 每月 119 美元，或按年账单 1,188 美元折算每月 99 美元。含 75 个提示词、5 个品牌、5 个席位、每月 30 篇文章、15 个深度追踪竞品、15 次最多 250 页的审计、每两天刷新、CMS 发布、爬虫日志和 REST API。"
+        },
+        "summary": {
+          "en": "Growth $119/month or $99/month billed $1,188/year: 75 prompts, 5 brands, 5 seats, 30 articles/month, 15 deep competitors, 15×250-page audits, refresh every 2 days, CMS/API.",
+          "zh": "Growth 119 美元／月或年付折算 99 美元（账单 1,188 美元）：75 提示词、5 品牌、5 席位、30 篇文章／月、15 个深度竞品、15 次×250 页审计、每 2 天刷新、CMS／API。"
+        },
+        "sourceUrls": [
+          "https://www.surva.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "Business is $349/month, or $299/month billed as $3,588/year. It includes 250 prompts, 15 brands, ten seats, 60 articles per month, 50 deep-tracked competitors, 30 audits of up to 1,000 pages, daily refreshes, backlink intelligence, higher API limits and white-label Agency Mode with unlimited client sub-accounts.",
+          "zh": "Business 每月 349 美元，或按年账单 3,588 美元折算每月 299 美元。含 250 个提示词、15 个品牌、10 个席位、每月 60 篇文章、50 个深度追踪竞品、30 次最多 1,000 页的审计、每日刷新、外链情报、更高 API 限额，以及含无限客户子账户的白标 Agency Mode。"
+        },
+        "summary": {
+          "en": "Business $349/month or $299/month billed $3,588/year: 250 prompts, 15 brands, 10 seats, 60 articles/month, 50 deep competitors, 30×1,000-page audits, daily refresh, Agency Mode.",
+          "zh": "Business 349 美元／月或年付折算 299 美元（账单 3,588 美元）：250 提示词、15 品牌、10 席位、60 篇文章／月、50 个深度竞品、30 次×1,000 页审计、每日刷新、Agency Mode。"
+        },
+        "sourceUrls": [
+          "https://www.surva.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "Add-on packs cost $25/month for 25 more prompts and $40/month for five more brands. They stack, are billed monthly alongside the plan, are prorated when added mid-cycle and can be removed. The separate Managed service is $399/month with a three-month minimum and includes Growth platform access and four content briefs per month.",
+          "zh": "加购包为每增加 25 个提示词每月 25 美元、每增加 5 个品牌每月 40 美元，可叠加、随套餐按月计费、周期中加入时按比例计费并可移除。独立 Managed 服务每月 399 美元，最低承诺 3 个月，含 Growth 平台访问和每月 4 份内容简报。"
+        },
+        "summary": {
+          "en": "Add-ons: +25 prompts $25/month, +5 brands $40/month; Managed service $399/month with a 3-month minimum.",
+          "zh": "加购：增加 25 提示词 25 美元／月、5 品牌 40 美元／月；Managed 服务 399 美元／月，最低 3 个月。"
+        },
+        "sourceUrls": [
+          "https://www.surva.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "Self-serve plans offer a seven-day full-access trial without a credit card. At the end of the trial the user chooses whether to upgrade; the pricing FAQ says the account is paused rather than automatically converted to a paid plan.",
+          "zh": "自助套餐提供 7 天完整访问试用，无需信用卡。试用结束后由用户选择是否升级；定价 FAQ 称账户会暂停，而不是自动转为付费套餐。"
+        },
+        "summary": {
+          "en": "7-day full-access trial without a card; the account pauses unless the user upgrades.",
+          "zh": "7 天完整访问试用免绑卡；不升级则账户暂停。"
+        },
+        "sourceUrls": [
+          "https://www.surva.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-26"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "Prompt refreshes are every three days on Starter, every two days on Growth and daily on Business. Unlimited competitor recording in AI answers does not mean unlimited deep ad and mention tracking, which is limited to 5, 15 or 50 competitors respectively.",
+          "zh": "提示词刷新在 Starter 上每 3 天、Growth 上每 2 天、Business 上每日进行。AI 回答中的竞品记录不限，并不等于深度广告与提及追踪不限；后者分别限制为 5、15 或 50 个竞品。"
+        },
+        "summary": {
+          "en": "Refresh cadence is plan-dependent; deep tracking is capped at 5/15/50 despite unlimited answer-level competitor records.",
+          "zh": "刷新频率依套餐而定；回答级竞品记录不限，但深度追踪上限为 5／15／50。"
+        },
+        "sourceUrls": [
+          "https://www.surva.ai/pricing",
+          "https://www.surva.ai/products/competitor-intelligence"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "The terms state that fees are non-refundable unless required by law or explicitly covered by a refund policy. The public pricing page and footer did not expose a standalone refund policy or specific refund conditions during verification, so buyers should not assume a refund right beyond applicable law.",
+          "zh": "条款称费用不退款，除非适用法律要求或退款政策明确规定。核验时公开定价页和页脚未提供独立退款政策或具体退款条件，因此买家不应假设适用法律之外存在退款权利。"
+        },
+        "summary": {
+          "en": "Fees are generally non-refundable; no public standalone refund policy or specific exceptions were found.",
+          "zh": "费用原则上不退款；未找到公开独立退款政策或具体例外。"
+        },
+        "sourceUrls": [
+          "https://www.surva.ai/terms",
+          "https://www.surva.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "Active account data is kept during the subscription and for 90 days after cancellation; billing records are kept for seven years, backups may persist for up to 30 days after deletion, and publicly tracked competitive intelligence may be retained indefinitely.",
+          "zh": "活跃账户数据在订阅期间保留，取消后再保留 90 天；账单记录保留 7 年，备份在删除后最多可能保留 30 天，公开追踪的竞品情报可能无限期保留。"
+        },
+        "summary": {
+          "en": "Account data: subscription + 90 days; billing: 7 years; backups: up to 30 days; public competitor intelligence: indefinite.",
+          "zh": "账户数据：订阅期＋90 天；账单：7 年；备份：最多 30 天；公开竞品情报：无限期。"
+        },
+        "sourceUrls": [
+          "https://www.surva.ai/privacy"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "OpenAI API processes Teams bot and content requests under an agreement that the privacy policy says prohibits model training on that data. Hosting is on AWS in the United States, and third-party search data APIs supply public search, ad and keyword information; the monitoring targets are not a complete subprocessor list.",
+          "zh": "Teams 机器人和内容请求由 OpenAI API 处理；隐私政策称相关协议禁止用这些数据训练模型。服务托管于美国 AWS，第三方搜索数据 API 提供公开搜索、广告和关键词信息；监测平台本身不等于完整分包商清单。"
+        },
+        "summary": {
+          "en": "OpenAI API data is stated as not used for training; AWS US hosting and third-party search APIs are used.",
+          "zh": "OpenAI API 数据声明不用于训练；使用美国 AWS 托管和第三方搜索 API。"
+        },
+        "sourceUrls": [
+          "https://www.surva.ai/privacy"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "The terms describe scores and competitor insights as informational and based on third-party data and proprietary analysis. Completeness, accuracy and timeliness are not guaranteed, and the output should not be the sole basis for business decisions.",
+          "zh": "条款将评分和竞品洞察描述为基于第三方数据与自有分析的信息性输出，不保证完整、准确或及时，也不应作为商业决策的唯一依据。"
+        },
+        "summary": {
+          "en": "Scores and competitor insights are informational, not guaranteed accurate or sufficient as the sole decision basis.",
+          "zh": "评分和竞品洞察仅供信息参考，不保证准确，也不应作为唯一决策依据。"
+        },
+        "sourceUrls": [
+          "https://www.surva.ai/terms"
+        ],
+        "verifiedAt": "2026-11-26"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Surva Starter is $49/month with 30 prompts refreshed every three days, five engines, one brand, two seats and 15 articles per month; competitor tracking is included, with five deep-tracked competitors. Maya Starter is $99/month with 50 prompts collected daily on four included engines, one project and unlimited seats, while its plan cards place competitor tracking in Premium. Compare entry price, refresh cadence, brand/project scope and whether content production or transparent measurement methodology is the priority.",
+          "zh": "Surva Starter 每月 49 美元，含每 3 天刷新的 30 个提示词、5 个引擎、1 个品牌、2 个席位和每月 15 篇文章，并包含竞品追踪及 5 个深度追踪竞品。Maya Starter 每月 99 美元，含每日采集的 50 个提示词、4 个内置引擎、1 个项目和无限席位，竞品追踪列在 Premium 套餐卡中。应比较入门价格、刷新频率、品牌／项目范围，以及更看重内容生产还是透明的测量方法。"
+        },
+        "alternativeSlug": "maya-ai",
+        "sourceUrls": [
+          "https://www.surva.ai/pricing",
+          "https://www.surva.ai/products/competitor-intelligence",
+          "https://withmaya.ai/pricing",
+          "https://withmaya.ai/product/competitive-benchmarking",
+          "https://withmaya.ai/methodology"
+        ],
+        "verifiedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "slug": "maya-ai",
+    "name": "Maya AI",
+    "category": "competitors",
+    "website": "https://withmaya.ai/",
+    "logo": null,
+    "description": {
+      "en": "AI visibility and competitive benchmarking platform that compares brands on fixed prompts, exposes the answers and sources behind gaps, and documents its sampling and metric methodology.",
+      "zh": "在固定提示词下比较品牌的 AI 曝光与竞品对比平台，可查看缺口背后的回答和来源，并公开说明采样与指标方法。"
+    },
+    "tags": {
+      "en": [
+        "Competitive benchmarking",
+        "AI visibility",
+        "Transparent methodology"
+      ],
+      "zh": [
+        "竞品对比",
+        "AI 曝光",
+        "透明方法"
+      ]
+    },
+    "features": {
+      "en": [
+        "Compare brand presence across a defined prompt set, review share-of-voice context with the underlying model and period, and inspect answers and cited pages behind competitive gaps.",
+        "Collect each tracked question daily on ChatGPT, Gemini, Perplexity and Google AI Overview, with country and language set per question; additional engines are sold as add-ons.",
+        "Combine mention, citation and sentiment analysis with page audits and optimization tests; Premium adds competitor tracking, content generation and WordPress or Shopify draft delivery."
+      ],
+      "zh": [
+        "在定义好的提示词集合中比较品牌出现情况，结合底层模型与周期查看声量背景，并检查竞品缺口背后的回答和引用页面。",
+        "每个追踪问题每日在 ChatGPT、Gemini、Perplexity 和 Google AI Overview 上采集，可按问题设置国家和语言；更多引擎作为加购提供。",
+        "将提及、引用和情绪分析与页面审计、优化测试结合；Premium 增加竞品追踪、内容生成及 WordPress 或 Shopify 草稿交付。"
+      ]
+    },
+    "audience": {
+      "en": "Brand, SEO and GEO teams, analysts and agencies that need comparable AI-answer samples and an auditable explanation of competitive visibility metrics.",
+      "zh": "需要可比较的 AI 回答样本，并希望竞品曝光指标有可审计解释的品牌、SEO／GEO 团队、分析师和代理机构。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Keep prompts, providers, markets and dates consistent while comparing the brand with selected competitors. Investigate differences through the underlying answers and cited pages instead of treating a share-of-voice percentage as market share.",
+          "zh": "比较品牌与选定竞品时保持提示词、提供商、市场和日期一致，并通过底层回答与引用页面调查差异，而不把声量百分比当作市场份额。"
+        },
+        "summary": {
+          "en": "Controlled same-sample competitor comparison with answer-level gap investigation.",
+          "zh": "控制相同样本的竞品比较，并下钻到回答级缺口。"
+        },
+        "sourceUrls": [
+          "https://withmaya.ai/product/competitive-benchmarking",
+          "https://withmaya.ai/methodology"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "Track brand mentions, citations, sentiment and share of voice over time, then review the source pages associated with each observation. The methodology distinguishes response-level rates from evaluation-level measures and explains the denominator used.",
+          "zh": "持续追踪品牌提及、引用、情绪和声量，并查看每次观察关联的来源页面。方法说明区分响应级比率与评估级指标，并解释各自使用的分母。"
+        },
+        "summary": {
+          "en": "Longitudinal mention, citation, sentiment and share-of-voice analysis with explicit denominators.",
+          "zh": "纵向提及、引用、情绪与声量分析，并明确分母口径。"
+        },
+        "sourceUrls": [
+          "https://withmaya.ai/methodology",
+          "https://withmaya.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "Connect authorized analytics and publishing tools to move from measured gaps to page audits, optimization tests and reviewed content drafts. Generated material remains a draft, and publishing through a connector occurs only under the customer's explicit or standing authorization.",
+          "zh": "连接授权的数据分析和发布工具，将测得缺口转化为页面审计、优化测试和经审核的内容草稿。生成内容仍是草稿，通过连接器发布必须依据客户明确或预设的授权。"
+        },
+        "summary": {
+          "en": "Authorized audit-to-draft workflow; generated content and connector publishing remain customer-controlled.",
+          "zh": "授权的审计到草稿流程；生成内容与连接器发布仍由客户控制。"
+        },
+        "sourceUrls": [
+          "https://withmaya.ai/pricing",
+          "https://withmaya.ai/product-usage"
+        ],
+        "verifiedAt": "2026-11-26"
+      }
+    ],
+    "platforms": [
+      "ChatGPT",
+      "Gemini",
+      "Perplexity",
+      "Google AI Overviews",
+      "Claude",
+      "Grok",
+      "Microsoft Copilot",
+      "Google AI Mode",
+      "DeepSeek"
+    ],
+    "pricing": "Paid",
+    "sources": [
+      {
+        "label": {
+          "en": "Maya AI competitive benchmarking",
+          "zh": "Maya AI 竞品对比"
+        },
+        "url": "https://withmaya.ai/product/competitive-benchmarking"
+      },
+      {
+        "label": {
+          "en": "Maya AI official pricing and plan limits",
+          "zh": "Maya AI 官方定价与套餐限制"
+        },
+        "url": "https://withmaya.ai/pricing"
+      },
+      {
+        "label": {
+          "en": "Maya AI measurement methodology",
+          "zh": "Maya AI 测量方法"
+        },
+        "url": "https://withmaya.ai/methodology"
+      },
+      {
+        "label": {
+          "en": "Maya AI security and data controls",
+          "zh": "Maya AI 安全与数据控制"
+        },
+        "url": "https://withmaya.ai/security"
+      },
+      {
+        "label": {
+          "en": "Maya AI terms of service",
+          "zh": "Maya AI 服务条款"
+        },
+        "url": "https://withmaya.ai/terms"
+      },
+      {
+        "label": {
+          "en": "Maya AI product usage agreement",
+          "zh": "Maya AI 产品使用协议"
+        },
+        "url": "https://withmaya.ai/product-usage"
+      },
+      {
+        "label": {
+          "en": "Maya AI refund policy",
+          "zh": "Maya AI 退款政策"
+        },
+        "url": "https://withmaya.ai/refund"
+      },
+      {
+        "label": {
+          "en": "Maya AI privacy policy",
+          "zh": "Maya AI 隐私政策"
+        },
+        "url": "https://withmaya.ai/privacy"
+      },
+      {
+        "label": {
+          "en": "Surva.ai official pricing for comparison",
+          "zh": "Surva.ai 官方定价（对比）"
+        },
+        "url": "https://www.surva.ai/pricing"
+      },
+      {
+        "label": {
+          "en": "Surva.ai competitor intelligence for comparison",
+          "zh": "Surva.ai 竞品情报（对比）"
+        },
+        "url": "https://www.surva.ai/products/competitor-intelligence"
+      }
+    ],
+    "verifiedAt": "2026-11-26",
+    "status": "published",
+    "featuredOrder": 132,
+    "sponsored": false,
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "Starter is $99/month and includes ChatGPT, Gemini, Perplexity and Google AI Overview, 50 prompts scanned daily, 1,500 LLM responses per month, one project, unlimited seats, citation and source tracking, ten page audits and one Feed Optimize Test per month. The comparison table lists five GEO Generated Articles, but the plan card does not state their delivery cadence.",
+          "zh": "Starter 每月 99 美元，含 ChatGPT、Gemini、Perplexity 和 Google AI Overview、每日扫描的 50 个提示词、每月 1,500 条 LLM 响应、1 个项目、无限席位、引用与来源追踪、10 次页面审计和每月 1 次 Feed Optimize Test。对比表列出 5 篇 GEO 生成文章，但套餐卡没有说明交付周期。"
+        },
+        "summary": {
+          "en": "Starter $99/month: 4 engines, 50 daily prompts, 1,500 responses/month, 1 project, unlimited seats, 10 audits and 1 Feed Optimize Test/month; table lists 5 articles with no cadence.",
+          "zh": "Starter 99 美元／月：4 个引擎、50 个每日提示词、1,500 响应／月、1 项目、无限席位、10 次审计和 1 次 Feed Optimize Test／月；表格列 5 篇文章但未说明周期。"
+        },
+        "sourceUrls": [
+          "https://withmaya.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "Premium is $399/month and includes 200 daily prompts, 24,000 LLM responses per month, two projects, unlimited seats, 100 page audits, ten Feed Optimize Tests per month and 20 GEO Generated Articles. It adds competitor tracking, share-of-voice reports, URL Watchlist, social proof tracking, WordPress and Shopify drafts, CSV/webhook export and crawler analytics.",
+          "zh": "Premium 每月 399 美元，含每日 200 个提示词、每月 24,000 条 LLM 响应、2 个项目、无限席位、100 次页面审计、每月 10 次 Feed Optimize Test 和 20 篇 GEO 生成文章；增加竞品追踪、声量报告、URL Watchlist、社交证明追踪、WordPress 与 Shopify 草稿、CSV／webhook 导出和爬虫分析。"
+        },
+        "summary": {
+          "en": "Premium $399/month: 200 daily prompts, 24,000 responses/month, 2 projects, 100 audits, 10 Feed Optimize Tests/month, 20 articles, competitor tracking and publishing drafts.",
+          "zh": "Premium 399 美元／月：200 个每日提示词、24,000 响应／月、2 项目、100 次审计、10 次 Feed Optimize Test／月、20 篇文章、竞品追踪和发布草稿。"
+        },
+        "sourceUrls": [
+          "https://withmaya.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "Enterprise is custom-priced with more than 400 prompts and 30,000 AI responses per month, unlimited projects, seats and page audits, and 100 Feed Optimize Tests per month. The comparison table lists 50 GEO Generated Articles. Enterprise also lists Maya MCP, API access, Slack, Zapier, Looker Studio, search intelligence and dedicated support.",
+          "zh": "Enterprise 定制报价，含 400 多个提示词、每月 30,000 多条 AI 响应、无限项目、席位和页面审计，以及每月 100 次 Feed Optimize Test；对比表列出 50 篇 GEO 生成文章。Enterprise 还列出 Maya MCP、API、Slack、Zapier、Looker Studio、搜索情报和专属支持。"
+        },
+        "summary": {
+          "en": "Enterprise is custom-priced: 400+ prompts, 30,000+ responses/month, unlimited projects/seats/audits, 100 Feed Optimize Tests/month, 50 articles in the table, MCP/API.",
+          "zh": "Enterprise 定制：400＋提示词、30,000＋响应／月、无限项目／席位／审计、100 次 Feed Optimize Test／月、表格列 50 篇文章、MCP／API。"
+        },
+        "sourceUrls": [
+          "https://withmaya.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "Claude, Grok, Copilot, Google AI Mode and DeepSeek are premium-engine add-ons. The comparison table shows add-ons from $129/month and a $799 bundle, but it does not identify the bundle's billing period; no annual total or per-engine allocation should be inferred from that figure.",
+          "zh": "Claude、Grok、Copilot、Google AI Mode 和 DeepSeek 为高级引擎加购项。对比表显示加购每月 129 美元起，以及 799 美元组合包，但没有说明组合包的计费周期；不应据此推算年度总额或单个引擎价格。"
+        },
+        "summary": {
+          "en": "Five premium engines are add-ons from $129/month; the $799 bundle has no stated billing period.",
+          "zh": "五个高级引擎需加购，每月 129 美元起；799 美元组合包未说明计费周期。"
+        },
+        "sourceUrls": [
+          "https://withmaya.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "All plans advertise a three-day free trial without a credit card, with cancellation during the trial avoiding charges. The annual-billing control displays a 17% discount, but the public page does not provide the resulting annual totals for each tier.",
+          "zh": "所有套餐宣传提供 3 天免费试用，无需信用卡，试用期间取消不收费。年付切换显示优惠 17%，但公开页面没有给出各档对应的年度总金额。"
+        },
+        "summary": {
+          "en": "3-day trial without a card; annual toggle shows 17% off, but annual totals are not public.",
+          "zh": "3 天试用免绑卡；年付切换显示优惠 17%，但年度总额未公开。"
+        },
+        "sourceUrls": [
+          "https://withmaya.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-26"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "Measurements are samples tied to time, location, language and model version, not a census of user activity. Failed or empty platform results are excluded from the denominator. Most projects may reuse a platform answer for three days by default; uncached daily collection is available as a per-project setting for accuracy-critical use.",
+          "zh": "测量是受时间、地点、语言和模型版本影响的样本，不是用户活动普查。失败或空平台结果会从分母中排除。多数项目默认可在 3 天窗口内复用平台回答；对准确性要求高的项目可按项目设置每日无缓存采集。"
+        },
+        "summary": {
+          "en": "Sample-based metrics exclude failed/empty results; default answer reuse is up to 3 days unless uncached collection is enabled.",
+          "zh": "指标基于样本并排除失败／空结果；默认最多复用回答 3 天，除非启用无缓存采集。"
+        },
+        "sourceUrls": [
+          "https://withmaya.ai/methodology",
+          "https://withmaya.ai/security"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "The four included engines do not cover Claude, Grok, Copilot, Google AI Mode or DeepSeek without an add-on. The public page does not resolve the $799 bundle billing period or publish annual totals, and the article comparison row does not specify a monthly delivery cadence.",
+          "zh": "不加购时，四个内置引擎不包括 Claude、Grok、Copilot、Google AI Mode 或 DeepSeek。公开页面没有说明 799 美元组合包的计费周期，也没有公布年度总额；文章数量对比行未说明每月交付周期。"
+        },
+        "summary": {
+          "en": "Five engines require add-ons; bundle period, annual totals and article cadence remain unspecified.",
+          "zh": "五个引擎需加购；组合包周期、年度总额和文章交付周期未说明。"
+        },
+        "sourceUrls": [
+          "https://withmaya.ai/pricing"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "The refund policy lists purchase within 14 days, service not meeting advertised specifications, blocking technical issues and trial cancellation as eligibility conditions, but it also excludes used or partially used services, add-ons, custom development and administrative fees. Processing takes 5–7 business days; later cancellations are not prorated and unused credits do not roll over.",
+          "zh": "退款政策把购买后 14 天内、服务不符合宣传规格、阻碍使用的技术问题以及试用期取消列为资格条件，但同时排除已使用或部分使用的服务、加购、定制开发和行政费用。处理需 5–7 个工作日；退款期后取消不按比例退款，未用额度不结转。"
+        },
+        "summary": {
+          "en": "14-day eligibility is conditional; used services and add-ons are excluded, processing takes 5–7 business days, and later cancellations are not prorated.",
+          "zh": "14 天资格有附加条件；已用服务和加购除外，处理需 5–7 个工作日，之后取消不按比例退款。"
+        },
+        "sourceUrls": [
+          "https://withmaya.ai/refund",
+          "https://withmaya.ai/terms"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "Customer Content is not used to train foundation AI models, but relevant prompts, content, answer text and brand names can be sent to AI providers for inference and evaluation. Provider identity, location and retention depend on the service arrangement and are not fully disclosed as a public subprocessor list; data may be processed in the United States and other countries.",
+          "zh": "客户内容不用于训练基础 AI 模型，但相关提示词、内容、回答文本和品牌名称可能发送给 AI 提供商进行推理和评估。提供商身份、地点与保留设置取决于服务安排，公开内容未提供完整分包商清单；数据可能在美国及其他国家处理。"
+        },
+        "summary": {
+          "en": "No foundation-model training on Customer Content; AI inference still shares data with providers whose full list and locations are not public.",
+          "zh": "客户内容不用于基础模型训练；AI 推理仍会向提供商共享数据，完整清单与地点未公开。"
+        },
+        "sourceUrls": [
+          "https://withmaya.ai/privacy",
+          "https://withmaya.ai/security"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "The security page states that customer data is stored in PostgreSQL on AWS RDS in Frankfurt, full answer text remains available for 30 days before archiving, account deletion propagates to Postgres within 24 hours and backups roll off within 30 days. Maya explicitly states that it is not yet SOC 2 or ISO 27001 certified.",
+          "zh": "安全页称客户数据存储于法兰克福 AWS RDS 上的 PostgreSQL，完整回答文本保留 30 天后归档，账户删除在 24 小时内传播至 Postgres，备份在 30 天内滚出。Maya 明确表示尚未取得 SOC 2 或 ISO 27001 认证。"
+        },
+        "summary": {
+          "en": "Frankfurt PostgreSQL; answers archived after 30 days; deletion/backups stated as 24 hours/30 days; no SOC 2 or ISO 27001 certification yet.",
+          "zh": "法兰克福 PostgreSQL；回答 30 天后归档；删除／备份称 24 小时／30 天；尚未取得 SOC 2 或 ISO 27001。"
+        },
+        "sourceUrls": [
+          "https://withmaya.ai/security",
+          "https://withmaya.ai/privacy"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "The service is limited to business and professional use. The terms require individual AAA arbitration in Wilmington, Delaware, include class-action and jury waivers, allow arbitration opt-out within 30 days of acceptance, and require claims to be filed within one year.",
+          "zh": "服务仅限商业和专业用途。条款要求在特拉华州 Wilmington 进行个人 AAA 仲裁，含集体诉讼和陪审团弃权条款，接受后 30 天内可选择退出仲裁，并要求索赔在 1 年内提出。"
+        },
+        "summary": {
+          "en": "Business use only; binding individual arbitration, class/jury waivers, 30-day opt-out and a one-year claim limit.",
+          "zh": "仅限商业用途；约束性个人仲裁、集体／陪审团弃权、30 天退出期和 1 年索赔期限。"
+        },
+        "sourceUrls": [
+          "https://withmaya.ai/terms"
+        ],
+        "verifiedAt": "2026-11-26"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Maya Starter is $99/month with 50 prompts collected daily on four included engines, one project and unlimited seats; competitor tracking is listed with Premium at $399/month for 200 prompts and two projects. Surva Starter is $49/month with 30 prompts refreshed every three days on five engines, one brand, two seats and 15 articles per month, while Growth is $119/month with 75 prompts, five brands and 15 deep-tracked competitors. Compare measurement transparency and daily cadence against entry price, multi-brand scope and included content production.",
+          "zh": "Maya Starter 每月 99 美元，含四个内置引擎上每日采集的 50 个提示词、1 个项目和无限席位；竞品追踪列于每月 399 美元的 Premium，含 200 个提示词和 2 个项目。Surva Starter 每月 49 美元，含五个引擎上每 3 天刷新的 30 个提示词、1 个品牌、2 个席位和每月 15 篇文章；Growth 每月 119 美元，含 75 个提示词、5 个品牌和 15 个深度追踪竞品。应比较测量透明度与每日频率，以及入门价格、多品牌范围和内置内容生产。"
+        },
+        "alternativeSlug": "surva-ai",
+        "sourceUrls": [
+          "https://withmaya.ai/pricing",
+          "https://withmaya.ai/product/competitive-benchmarking",
+          "https://withmaya.ai/methodology",
+          "https://www.surva.ai/pricing",
+          "https://www.surva.ai/products/competitor-intelligence"
+        ],
+        "verifiedAt": "2026-11-26"
+      }
+    ]
   }
 ]
