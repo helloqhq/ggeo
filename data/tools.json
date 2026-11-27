@@ -23316,5 +23316,1156 @@
     "status": "published",
     "featuredOrder": 141,
     "sponsored": false
+  },
+  {
+    "slug": "mentioned-on",
+    "name": "MentionedOn",
+    "website": "https://mentioned-on.com/",
+    "logo": null,
+    "category": "local-geo",
+    "description": {
+      "en": "AI visibility monitoring for local businesses that tracks whether ChatGPT, Claude, Gemini, Perplexity, Grok and Copilot name a business, which sources they cite, and how recommendations compare with local competitors.",
+      "zh": "面向本地企业的 AI 可见度监测工具，追踪 ChatGPT、Claude、Gemini、Perplexity、Grok 和 Copilot 是否提及企业、引用了哪些来源，以及推荐结果与本地竞品相比如何。"
+    },
+    "audience": {
+      "en": "Local service businesses, hospitality operators, agencies and consultants that need repeatable AI recommendation monitoring and practical local follow-up work.",
+      "zh": "需要持续监测 AI 推荐并落实本地优化行动的本地服务商、酒店与旅游经营者、代理机构和顾问。"
+    },
+    "tags": {
+      "en": ["Local AI visibility", "Brand monitoring", "Competitor tracking"],
+      "zh": ["本地 AI 可见度", "品牌监测", "竞品追踪"]
+    },
+    "features": {
+      "en": [
+        "Tracks mentions, citations, list positions, sentiment and competitor share of voice across saved buyer questions",
+        "Provides answer receipts with prompts, excerpts, cited domains and detected business matches",
+        "Combines monitoring with local action lists, Google Business Profile copy, articles and research reports",
+        "Supports daily priority checks, weekly full sweeps and email alerts after confirmed changes"
+      ],
+      "zh": [
+        "围绕保存的买家问题追踪提及、引用、列表位置、情绪和竞品声量",
+        "提供回答凭证，包含问题、摘录、引用域名和识别到的企业名称",
+        "将监测与本地修复清单、Google Business Profile 文案、文章和研究报告结合",
+        "支持每日优先检查、每周完整扫描，以及连续确认变化后的邮件告警"
+      ]
+    },
+    "useCases": [
+      {
+        "summary": {
+          "en": "Monitor whether local buyer questions produce a business mention, a website citation and a detectable list position.",
+          "zh": "监测本地买家问题是否带来企业提及、网站引用和可识别的列表位置。"
+        },
+        "description": {
+          "en": "MentionedOn generates and saves buyer-intent questions for a business, then records completed answers by assistant. Reports separate mention rate, citation rate, rank bonus, sentiment and competitor share of voice, so a team can inspect the underlying answer receipts rather than relying only on one visibility score.",
+          "zh": "MentionedOn 为企业生成并保存买家意图问题，再按助手记录已回答样本。报告区分提及率、引用率、排名加分、情绪和竞品声量，团队可查看底层回答凭证，而不只依赖一个可见度分数。"
+        },
+        "sourceUrls": ["https://mentioned-on.com/methodology", "https://mentioned-on.com/"],
+        "verifiedAt": "2026-11-28"
+      },
+      {
+        "summary": {
+          "en": "Use Growth to monitor up to five client businesses or locations with per-location questions, competitors and reports.",
+          "zh": "使用 Growth 管理最多五个客户企业或地点，分别跟踪问题、竞品和报告。"
+        },
+        "description": {
+          "en": "Growth provides up to 120 tracked questions and 25 competitors per business, a ranked action list for every location, 10 team seats and 20 account-wide articles per month. It is designed for agencies that need separate local tracking contexts under one account.",
+          "zh": "Growth 为每家企业提供最多 120 个追踪问题和 25 个竞品、每个地点的排序行动清单、10 个团队席位，以及账户层面每月 20 篇文章，适合需要在一个账户下分别管理多个本地客户的代理机构。"
+        },
+        "sourceUrls": ["https://mentioned-on.com/pricing"],
+        "verifiedAt": "2026-11-28"
+      },
+      {
+        "summary": {
+          "en": "Turn monitoring findings into local content, profile improvements and research deliverables.",
+          "zh": "将监测结果转化为本地内容、商家资料改进和研究交付物。"
+        },
+        "description": {
+          "en": "Paid plans combine visibility checks with a ranked to-do list and change emails. Local includes eight town-focused articles and four on-demand research reports per month; Concierge adds done-for-you work across the Google Business Profile, website, listings and articles, with scope quoted from a business scan.",
+          "zh": "付费方案将可见度检查与排序待办清单、变化邮件结合。Local 每月包含八篇面向本地城镇的文章和四份按需研究报告；Concierge 根据企业扫描报价，提供涵盖 Google Business Profile、网站、商家资料和文章的代办服务。"
+        },
+        "sourceUrls": ["https://mentioned-on.com/pricing", "https://mentioned-on.com/"],
+        "verifiedAt": "2026-11-28"
+      }
+    ],
+    "pricingDetails": [
+      {
+        "summary": {
+          "en": "Local is USD 99/month, or USD 83/month equivalent billed at USD 990/year; a seven-day trial costs USD 0 today and requires a card.",
+          "zh": "Local 月付为 99 美元；年付折算每月 83 美元、实际每年 990 美元；七天试用当天为 0 美元，但需要信用卡。"
+        },
+        "description": {
+          "en": "The annual Local billing option totals USD 990 per year and is advertised as saving USD 198. Local includes one business, 100 tracked questions, 15 competitors, three seats, eight articles and four on-demand research reports per month. After the trial, the monthly plan is USD 99 unless canceled; Growth and annual purchases are charged at checkout.",
+          "zh": "Local 年付总额为每年 990 美元，官网宣称节省 198 美元。套餐包含一家企业、100 个追踪问题、15 个竞品、三个席位、每月八篇文章和四份按需研究报告。试用后若不取消，月付方案为 99 美元；Growth 和年付在结账时收费。"
+        },
+        "sourceUrls": ["https://mentioned-on.com/pricing", "https://mentioned-on.com/methodology"],
+        "verifiedAt": "2026-11-28"
+      },
+      {
+        "summary": {
+          "en": "Growth is USD 399/month, or USD 333/month equivalent billed at USD 3,990/year, for up to five businesses.",
+          "zh": "Growth 月付为 399 美元；年付折算每月 333 美元、实际每年 3,990 美元，最多覆盖五家企业。"
+        },
+        "description": {
+          "en": "Growth includes up to five businesses, 120 questions and 25 competitors per business, 10 seats, 20 articles across the account per month and four on-demand research reports. The annual option totals USD 3,990 per year and is advertised as saving USD 798.",
+          "zh": "Growth 包含最多五家企业、每家 120 个问题和 25 个竞品、10 个席位、账户每月共 20 篇文章，以及四份按需研究报告。年付总额为每年 3,990 美元，官网宣称节省 798 美元。"
+        },
+        "sourceUrls": ["https://mentioned-on.com/pricing"],
+        "verifiedAt": "2026-11-28"
+      },
+      {
+        "summary": {
+          "en": "Concierge starts at USD 999/month with custom scope, and covered paid plans have a 30-day first-month refund guarantee with exclusions.",
+          "zh": "Concierge 起价为每月 999 美元，具体范围需报价；适用付费方案提供 30 天首月退款保证，但有排除项。"
+        },
+        "description": {
+          "en": "Concierge pricing depends on locations, market competitiveness and content volume. The published guarantee asks customers to email within 30 days if a paid plan is not useful; the terms exclude specified done-for-you services and one-time reports, while other payments are generally non-refundable unless an applicable right or exception applies.",
+          "zh": "Concierge 价格取决于地点数量、市场竞争程度和内容量。公布的保证要求付费方案无用时在 30 天内发邮件；条款排除特定代办服务和一次性报告，其他付款原则上不退款，除非适用法定权利或例外。"
+        },
+        "sourceUrls": ["https://mentioned-on.com/pricing", "https://mentioned-on.com/terms"],
+        "verifiedAt": "2026-11-28"
+      }
+    ],
+    "limitations": [
+      {
+        "summary": {
+          "en": "Most observations are API or routed model samples, not captures from consumer AI apps; grounding and model settings vary by schedule.",
+          "zh": "多数观测来自 API 或路由模型样本，而不是消费者 AI 应用；联网检索与模型配置会随检查计划变化。"
+        },
+        "description": {
+          "en": "Five assistant families are sampled through OpenRouter, while Copilot uses Azure OpenAI with Grounding with Bing. Scheduled grounding is enabled on Mondays by default, other scheduled daily checks do not request the additional web search, and recent answers may be reused for the same model, question and grounding setting. Results can therefore differ from logged-in consumer apps.",
+          "zh": "五个助手系列通过 OpenRouter 采样，Copilot 使用带 Bing Grounding 的 Azure OpenAI。计划检查默认在周一启用网页检索（grounding），其他每日计划检查不额外请求网页搜索，相同模型、问题和检索设置还可能复用近期回答，因此结果可能与登录后的消费者应用不同。"
+        },
+        "sourceUrls": ["https://mentioned-on.com/methodology"],
+        "verifiedAt": "2026-11-28"
+      },
+      {
+        "summary": {
+          "en": "Failed checks are not counted as missing mentions, and change alerts require two consecutive confirmations.",
+          "zh": "失败检查不会计为未提及，变化告警需要连续两次确认。"
+        },
+        "description": {
+          "en": "Mention and citation rates use completed answers as the denominator. If more than 20% of chat checks fail, the scan is marked degraded and excluded from change alerts. A drop must persist for the same question and assistant across two consecutive checks relative to an earlier baseline; missing checks cannot establish a decline.",
+          "zh": "提及率和引用率以已回答样本为分母。聊天检查失败超过 20% 时，扫描会标记为质量降级并排除在变化告警外。同一问题和助手必须相对较早基线连续两次确认下降，缺失检查不能被当作减少。"
+        },
+        "sourceUrls": ["https://mentioned-on.com/methodology"],
+        "verifiedAt": "2026-11-28"
+      },
+      {
+        "summary": {
+          "en": "The question set is a defined sample, not a statistically representative estimate or proof of leads, bookings or revenue.",
+          "zh": "问题集是限定样本，不是统计代表性估计，也不能证明线索、预约或收入。"
+        },
+        "description": {
+          "en": "Prompts are generated buyer-intent questions rather than measured search-volume data. Comparisons should keep the same prompts, model coverage and grounding settings; scores do not prove why an assistant made a recommendation or whether a specific edit caused it. Google AI results can be up to seven days old and depend on availability.",
+          "zh": "问题是由买家意图生成的问题，而非测得搜索量。比较时应保持相同问题、模型覆盖和检索设置；分数不能证明助手推荐的成因或某项修改是否导致变化。Google AI 结果可能旧至七天，并取决于服务可用性。"
+        },
+        "sourceUrls": ["https://mentioned-on.com/methodology"],
+        "verifiedAt": "2026-11-28"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Choose MentionedOn when the primary workflow is local-business recommendation monitoring with an accompanying action list and optional done-for-you execution. Confirm the required location count, annual commitment and Concierge scope; teams looking only for server-log crawler analysis or consumer-app replication should check those requirements separately.",
+          "zh": "主要需求是监测本地企业 AI 推荐，并需要配套行动清单或可选代办执行时，可选 MentionedOn。购买前应确认地点数量、年付承诺和 Concierge 范围；只需要服务器日志爬虫分析或要求复现消费者应用的团队，应另行核验这些能力。"
+        },
+        "sourceUrls": ["https://mentioned-on.com/pricing", "https://mentioned-on.com/methodology"],
+        "verifiedAt": "2026-11-28"
+      }
+    ],
+    "platforms": ["ChatGPT", "Claude", "Gemini", "Perplexity", "Grok", "Copilot", "Google AI Overviews", "Google AI Mode"],
+    "pricing": "Freemium",
+    "sources": [
+      { "label": { "en": "MentionedOn product overview", "zh": "MentionedOn 产品概览" }, "url": "https://mentioned-on.com/" },
+      { "label": { "en": "MentionedOn pricing", "zh": "MentionedOn 定价" }, "url": "https://mentioned-on.com/pricing" },
+      { "label": { "en": "MentionedOn methodology", "zh": "MentionedOn 监测方法" }, "url": "https://mentioned-on.com/methodology" },
+      { "label": { "en": "MentionedOn terms", "zh": "MentionedOn 服务条款" }, "url": "https://mentioned-on.com/terms" },
+      { "label": { "en": "MentionedOn privacy policy", "zh": "MentionedOn 隐私政策" }, "url": "https://mentioned-on.com/privacy" },
+      { "label": { "en": "MentionedOn about", "zh": "MentionedOn 关于页面" }, "url": "https://mentioned-on.com/about" }
+    ],
+    "verifiedAt": "2026-11-28",
+    "status": "published",
+    "featuredOrder": 142,
+    "sponsored": false
+  },
+  {
+    "slug": "agent-monitor",
+    "name": "Agent Monitor",
+    "website": "https://agentmonitor.io/",
+    "logo": null,
+    "category": "ai-traffic",
+    "description": {
+      "en": "Server-side AI traffic analytics that distinguishes human visitors, AI bots and AI assistant referrals, with event volume, crawler activity, operator and category details across integrated websites.",
+      "zh": "服务端 AI 流量分析工具，用于区分真人访客、AI 爬虫和 AI 助手引荐，并在已集成的网站间查看事件量、爬虫活动、运营方和类别信息。"
+    },
+    "audience": {
+      "en": "Website owners, ecommerce teams, publishers and agencies that need to understand automated AI traffic and assistant referrals without relying on a browser-side beacon.",
+      "zh": "需要了解自动化 AI 流量和助手引荐，且不希望依赖浏览器端埋点的网站所有者、电商团队、内容发布方和代理机构。"
+    },
+    "tags": {
+      "en": ["AI traffic", "Crawler analytics", "Referral tracking"],
+      "zh": ["AI 流量", "爬虫分析", "引荐追踪"]
+    },
+    "features": {
+      "en": [
+        "Classifies traffic as human, AI bot or other automation and reports operator and category details",
+        "Shows requested URLs, bot activity and referrals from AI assistants",
+        "Supports WordPress, PrestaShop, Cloudflare Worker, Node.js package and custom Enterprise integrations",
+        "Provides user-seat, website, event-volume and data-exploration limits by plan"
+      ],
+      "zh": [
+        "将流量分类为真人、AI 爬虫或其他自动化，并显示运营方和类别",
+        "展示被请求的 URL、爬虫活动和来自 AI 助手的引荐",
+        "支持 WordPress、PrestaShop、Cloudflare Worker、Node.js 包和企业自定义集成",
+        "按套餐提供用户席位、网站数量、事件量和数据探索窗口限制"
+      ]
+    },
+    "useCases": [
+      {
+        "summary": {
+          "en": "Measure visits that arrive from AI assistants and separate them from ordinary organic search traffic.",
+          "zh": "衡量来自 AI 助手的访问，并将其与普通自然搜索流量区分。"
+        },
+        "description": {
+          "en": "Agent Monitor records AI assistant referrals alongside requested URLs and traffic classifications in its dashboard. This supports analysis of whether AI surfaces are sending real visits to a site; it does not establish that an AI answer cited or recommended the brand.",
+          "zh": "Agent Monitor 在仪表板中记录 AI 助手引荐，并同时展示请求 URL 和流量分类，可用于分析 AI 入口是否带来真实访问，但不能证明 AI 回答引用或推荐了品牌。"
+        },
+        "sourceUrls": ["https://agentmonitor.io/", "https://agentmonitor.io/terms-of-service"],
+        "verifiedAt": "2026-11-28"
+      },
+      {
+        "summary": {
+          "en": "Track AI crawler and bot activity at the server or edge before page content renders.",
+          "zh": "在页面渲染前，于服务器或边缘层跟踪 AI 爬虫和机器人活动。"
+        },
+        "description": {
+          "en": "The service depends on an explicitly enabled integration such as middleware, a CMS module or an SDK. It ingests qualifying HTTP requests and reports bot, operator and category information, making it useful for sites that need server-side visibility into automated access.",
+          "zh": "该服务依赖显式启用的集成，例如中间件、CMS 模块或 SDK。它接收符合条件的 HTTP 请求并报告机器人、运营方和类别信息，适合需要从服务端了解自动化访问的网站。"
+        },
+        "sourceUrls": ["https://agentmonitor.io/", "https://agentmonitor.io/pricing", "https://agentmonitor.io/privacy-policy"],
+        "verifiedAt": "2026-11-28"
+      },
+      {
+        "summary": {
+          "en": "Manage AI traffic monitoring across multiple client sites with Agency or Enterprise plans.",
+          "zh": "使用 Agency 或 Enterprise 套餐跨多个客户网站管理 AI 流量监测。"
+        },
+        "description": {
+          "en": "Agency includes five user seats, 15 websites, up to 10 million registered events per month and a 48-week exploration window. Enterprise adds custom event volume, custom user counts, unlimited websites, custom agreements and a 52-week exploration window.",
+          "zh": "Agency 包含五个用户席位、15 个网站、每月最多 1,000 万注册事件和 48 周探索窗口。Enterprise 提供自定义事件量、自定义用户数、无限网站、自定义协议和 52 周探索窗口。"
+        },
+        "sourceUrls": ["https://agentmonitor.io/pricing"],
+        "verifiedAt": "2026-11-28"
+      }
+    ],
+    "pricingDetails": [
+      {
+        "summary": {
+          "en": "Free is USD 0/month with 100,000 events, one user, one website, a 24-week exploration window and advertised unlimited storage; taxes are excluded.",
+          "zh": "Free 每月 0 美元，含 10 万事件、一个用户、一个网站、24 周探索窗口和宣称的无限存储；不含税。"
+        },
+        "description": {
+          "en": "The pricing FAQ describes the Free plan as ongoing, limited to 100,000 registered events per month, with full functionality and no strings attached. Published prices are net prices in USD, with taxes calculated at checkout. The terms still define a separate 14-day Monitoring Service trial, so the current registration path should be checked before relying on either route.",
+          "zh": "定价 FAQ 将 Free 描述为持续免费方案，每月限制 10 万注册事件，提供完整功能且无附加条件。公开价格为美元净价，税费在结账时计算。条款仍另行定义了 14 天 Monitoring Service 试用，因此依赖任一开通路径前应检查当前注册流程。"
+        },
+        "sourceUrls": ["https://agentmonitor.io/pricing", "https://agentmonitor.io/terms-of-service"],
+        "verifiedAt": "2026-11-28"
+      },
+      {
+        "summary": {
+          "en": "Core is currently USD 9/month, shown against USD 15, with 1 million events, two seats and five websites.",
+          "zh": "Core 当前为每月 9 美元，页面划掉价为 15 美元，含 100 万事件、两个席位和五个网站。"
+        },
+        "description": {
+          "en": "Core includes up to one million registered events per month, two user seats, five websites, basic email support, a 48-week exploration window and advertised unlimited storage. The displayed USD 15 price is crossed out; USD 9 is the current monthly card price, not an annual equivalent.",
+          "zh": "Core 每月最多含 100 万注册事件、两个用户席位、五个网站、基础邮件支持、48 周探索窗口和宣称的无限存储。页面划掉价为 15 美元；9 美元是当前月付卡片价，不是年付折算价。"
+        },
+        "sourceUrls": ["https://agentmonitor.io/pricing", "https://agentmonitor.io/terms-of-service"],
+        "verifiedAt": "2026-11-28"
+      },
+      {
+        "summary": {
+          "en": "Agency is USD 99/month for 10 million events; Enterprise starts at USD 500/month with custom limits.",
+          "zh": "Agency 每月 99 美元、含 1,000 万事件；Enterprise 起价每月 500 美元，额度可定制。"
+        },
+        "description": {
+          "en": "Agency includes five seats, 15 websites, priority support and a 48-week exploration window. Enterprise provides custom monthly event volume and user counts, unlimited websites, dedicated support, custom agreements and a 52-week exploration window; a public per-event overage rate is not listed.",
+          "zh": "Agency 包含五个席位、15 个网站、优先支持和 48 周探索窗口。Enterprise 提供自定义月度事件量和用户数、无限网站、专属支持、自定义协议和 52 周探索窗口；官网未公开单事件超额单价。"
+        },
+        "sourceUrls": ["https://agentmonitor.io/pricing", "https://agentmonitor.io/terms-of-service"],
+        "verifiedAt": "2026-11-28"
+      }
+    ],
+    "limitations": [
+      {
+        "summary": {
+          "en": "No data is collected until an integration is installed, and reaching the monthly event limit stops new event ingestion.",
+          "zh": "安装集成前不会收集数据，达到月度事件上限后会停止接收新事件。"
+        },
+        "description": {
+          "en": "Agent Monitor requires the site owner to deploy and correctly configure a supported integration. A registered event is a qualifying HTTP request received through that integration; media requests and events that do not match the site domain are not accepted. The pricing FAQ says new events stop after the monthly limit is reached, with no public overage unit price.",
+          "zh": "Agent Monitor 要求网站所有者部署并正确配置受支持集成。注册事件是通过该集成接收的合格 HTTP 请求；媒体请求和与网站域名不匹配的事件不会被接受。定价 FAQ 表示达到月度上限后停止接收新事件，且未公开超额单价。"
+        },
+        "sourceUrls": ["https://agentmonitor.io/pricing", "https://agentmonitor.io/terms-of-service"],
+        "verifiedAt": "2026-11-28"
+      },
+      {
+        "summary": {
+          "en": "The ongoing Free plan on the pricing page coexists with older 14-day trial language in the terms.",
+          "zh": "定价页的持续 Free 方案与条款中较早的 14 天试用表述并存。"
+        },
+        "description": {
+          "en": "The pricing FAQ explicitly says the Free plan is ongoing and capped at 100,000 events per month, while the terms define a 14-day free Trial Period and say paid use requires selecting a paid variant. The terms also allow the Pricing Table to specify free service quantities, but the user should verify the current checkout flow.",
+          "zh": "定价 FAQ 明确称 Free 为持续方案并限制每月 10 万事件，而条款定义了 14 天免费 Trial Period，并称付费使用需选择付费版本。条款也允许定价表规定一定数量服务免费，但用户仍应核验当前结账流程。"
+        },
+        "sourceUrls": ["https://agentmonitor.io/pricing", "https://agentmonitor.io/terms-of-service"],
+        "verifiedAt": "2026-11-28"
+      },
+      {
+        "summary": {
+          "en": "Crawler traffic and assistant referrals do not prove a brand was mentioned, cited or recommended in an AI answer.",
+          "zh": "爬虫流量和助手引荐不能证明品牌在 AI 回答中被提及、引用或推荐。"
+        },
+        "description": {
+          "en": "Agent Monitor measures requests and referrals, not the text or sources of AI-generated answers. Marketing references to AI Citations should not be read as answer-level citation monitoring. The public pricing and terms also do not document a detailed bot-classification method or a verified identity guarantee for each user agent.",
+          "zh": "Agent Monitor 衡量请求和引荐，而不是 AI 生成回答的文本或来源。营销文案中的 AI Citations 不应被理解为回答级引用监测。公开定价和条款也没有详细说明爬虫分类方法，或保证每个 user agent 的身份均已验证。"
+        },
+        "sourceUrls": ["https://agentmonitor.io/", "https://agentmonitor.io/pricing", "https://agentmonitor.io/terms-of-service"],
+        "verifiedAt": "2026-11-28"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Choose Agent Monitor when the main question is how much AI-generated traffic reaches a site and which assistants refer it, especially on stacks that support server-side or edge integration. It is not a substitute for prompt-level brand visibility or citation tracking; confirm the event definition, integration compatibility and current Free-plan signup terms.",
+          "zh": "主要问题是网站收到多少 AI 生成流量、哪些助手带来引荐，且技术栈支持服务端或边缘集成时，可选 Agent Monitor。它不能替代问题级品牌可见度或引用追踪；购买前应确认事件定义、集成兼容性和当前 Free 方案的开通条款。"
+        },
+        "sourceUrls": ["https://agentmonitor.io/", "https://agentmonitor.io/pricing", "https://agentmonitor.io/terms-of-service"],
+        "verifiedAt": "2026-11-28"
+      }
+    ],
+    "platforms": ["ChatGPT", "Claude", "Gemini"],
+    "pricing": "Freemium",
+    "sources": [
+      { "label": { "en": "Agent Monitor product overview", "zh": "Agent Monitor 产品概览" }, "url": "https://agentmonitor.io/" },
+      { "label": { "en": "Agent Monitor pricing", "zh": "Agent Monitor 定价" }, "url": "https://agentmonitor.io/pricing" },
+      { "label": { "en": "Agent Monitor terms of service", "zh": "Agent Monitor 服务条款" }, "url": "https://agentmonitor.io/terms-of-service" },
+      { "label": { "en": "Agent Monitor privacy policy", "zh": "Agent Monitor 隐私政策" }, "url": "https://agentmonitor.io/privacy-policy" }
+    ],
+    "verifiedAt": "2026-11-28",
+    "status": "published",
+    "featuredOrder": 143,
+    "sponsored": false
+  },
+  {
+    "slug": "mencoro",
+    "name": "Mencoro",
+    "website": "https://mencoro.com/",
+    "logo": null,
+    "category": "competitors",
+    "description": {
+      "en": "AI brand monitoring and SEO rank tracking that compares a brand with competitors across ChatGPT, Perplexity, Claude, Google AI surfaces and Google search, including mention types, sentiment, citations and share of voice.",
+      "zh": "AI 品牌监测与 SEO 排名追踪工具，在 ChatGPT、Perplexity、Claude、Google AI 入口和 Google 搜索中比较品牌与竞品，覆盖提及类型、情绪、引用和声量。"
+    },
+    "audience": {
+      "en": "SEO teams, agencies, ecommerce brands and in-house marketers that need repeated AI answer measurements alongside traditional search visibility and competitor analysis.",
+      "zh": "需要将重复 AI 回答测量与传统搜索可见度、竞品分析结合的 SEO 团队、代理机构、电商品牌和内部营销人员。"
+    },
+    "tags": {
+      "en": ["AI brand monitoring", "Competitor share of voice", "Search visibility"],
+      "zh": ["AI 品牌监测", "竞品声量", "搜索可见度"]
+    },
+    "features": {
+      "en": [
+        "Classifies brand mentions into recommendation, comparison, listing, example and reference types",
+        "Scores Favorability from 0 to 100 and compares weighted brand share of voice against competitors",
+        "Tracks AI citation sources, query clusters, keyword rankings and model-specific answer history",
+        "Provides API and MCP movers reports, unlimited projects and competitors, and multi-user access"
+      ],
+      "zh": [
+        "将品牌提及分类为推荐、比较、列表、示例和参考",
+        "以 0–100 分评估 Favorability，并按提及质量比较品牌与竞品的加权声量",
+        "追踪 AI 引用来源、查询集群、关键词排名和分模型回答历史",
+        "提供 API 与 MCP movers 报告、无限项目和竞品，以及多用户访问"
+      ]
+    },
+    "useCases": [
+      {
+        "summary": {
+          "en": "Compare brand and competitor mentions within the same prompts to see which answer surfaces and query clusters each brand wins.",
+          "zh": "在同一组问题下比较品牌与竞品提及，查看各自赢得哪些回答入口和查询集群。"
+        },
+        "description": {
+          "en": "Mencoro runs a saved prompt set across selected engines and records brand presence, position, mention type, sentiment and sources. Competitor share of voice is weighted by mention quality, so a direct recommendation can count more than a passing reference; query clusters show where competitors pull ahead.",
+          "zh": "Mencoro 在选定引擎运行保存的问题集，记录品牌出现、位置、提及类型、情绪和来源。竞品声量按提及质量加权，直接推荐可比顺带提及权重更高；查询集群可显示竞品在哪些主题领先。"
+        },
+        "sourceUrls": ["https://mencoro.com/features/ai-brand-monitoring/", "https://mencoro.com/features/competitor-analysis/"],
+        "verifiedAt": "2026-11-28"
+      },
+      {
+        "summary": {
+          "en": "Monitor whether AI describes a brand positively, neutrally or negatively and inspect the underlying mention category.",
+          "zh": "监测 AI 对品牌的描述是正面、中性还是负面，并查看底层提及类别。"
+        },
+        "description": {
+          "en": "Each mention is assigned one of five types and a Favorability score from 0 to 100. This helps separate a prominent recommendation from a comparison, directory-style listing, illustrative example or brief reference instead of treating every mention as equivalent.",
+          "zh": "每条提及会被归入五种类型之一，并获得 0–100 的 Favorability 分数。这有助于区分显著推荐、比较、目录式列表、示例和简单参考，而不是把所有提及视为等价。"
+        },
+        "sourceUrls": ["https://mencoro.com/features/ai-brand-monitoring/"],
+        "verifiedAt": "2026-11-28"
+      },
+      {
+        "summary": {
+          "en": "Combine AI answer monitoring with keyword rank changes, citation sources and scheduled movers reporting.",
+          "zh": "将 AI 回答监测与关键词排名变化、引用来源和定期 movers 报告结合。"
+        },
+        "description": {
+          "en": "The platform includes keyword monitoring, citation-source analysis, query clusters and API or MCP movers reports. It is useful for teams that want one account for traditional search visibility and AI answer performance, while keeping engine-specific results separate.",
+          "zh": "平台包含关键词监测、引用来源分析、查询集群以及 API 或 MCP movers 报告，适合希望用一个账户同时管理传统搜索可见度和 AI 回答表现、又需要分引擎查看结果的团队。"
+        },
+        "sourceUrls": ["https://mencoro.com/", "https://mencoro.com/features/ai-citation-sources/", "https://mencoro.com/features/competitor-analysis/"],
+        "verifiedAt": "2026-11-28"
+      }
+    ],
+    "pricingDetails": [
+      {
+        "summary": {
+          "en": "A no-sign-up one-time checker asks ChatGPT, Gemini and Perplexity nine buyer questions; it is separate from the paid monitoring platform.",
+          "zh": "无需注册的一次性检查器会向 ChatGPT、Gemini 和 Perplexity 询问九个买家问题，与付费监测平台分开。"
+        },
+        "description": {
+          "en": "The free checker provides a one-off view of how three assistants answer about a brand. The paid monitoring product lists ChatGPT, Perplexity, Claude, Google AI Overviews, Google AI Mode and Google SERP; Gemini is not listed as a paid monitoring engine on the verified product and pricing pages.",
+          "zh": "免费检查器提供三个助手对品牌回答的一次性快照。付费监测产品列出 ChatGPT、Perplexity、Claude、Google AI Overviews、Google AI Mode 和 Google SERP；已核验的产品与定价页未把 Gemini 列为付费监测引擎。"
+        },
+        "sourceUrls": ["https://mencoro.com/features/ai-brand-monitoring/", "https://mencoro.com/pricing/"],
+        "verifiedAt": "2026-11-28"
+      },
+      {
+        "summary": {
+          "en": "The default 200-check monthly configuration is EUR 15/month including VAT; annual billing shows EUR 12/month equivalent and EUR 144 billed yearly.",
+          "zh": "默认每月 200 次检查的月付配置为 15 欧元含税；年付显示折算每月 12 欧元，实际每年 144 欧元。"
+        },
+        "description": {
+          "en": "The pricing calculator starts at 200 checks per month, with prices ranging from EUR 15 for up to 200 checks to EUR 799 for up to 25,000 checks. Switching the default configuration to annual billing displays EUR 12 per month and EUR 144 per year. All paid tiers include the same engines and feature set; tiers differ by monthly check volume.",
+          "zh": "定价计算器从每月 200 次检查起，价格范围从最多 200 次的 15 欧元到最多 25,000 次的 799 欧元。将默认配置切换为年付后显示折算每月 12 欧元、每年 144 欧元。所有付费档包含相同引擎和功能，区别在月度检查量。"
+        },
+        "sourceUrls": ["https://mencoro.com/pricing/"],
+        "verifiedAt": "2026-11-28"
+      },
+      {
+        "summary": {
+          "en": "Checks equal queries multiplied by engine or country weights, effective passes and frequency; Claude costs five checks per pass and other engines one.",
+          "zh": "检查次数等于问题数乘以引擎或国家权重、有效遍数和频率；Claude 每遍扣五次，其他引擎每遍扣一次。"
+        },
+        "description": {
+          "en": "AI engines can use one to three effective passes. Claude is available in 36 validated countries and must be selected explicitly; each Claude pass consumes five checks, while each other engine consumes one. There are no setup fees or long-term contracts, and customers can change tiers while preserving historical data and configuration.",
+          "zh": "AI 引擎可使用一至三遍有效检查。Claude 覆盖 36 个已验证国家且需显式选择，每遍消耗五次检查；其他引擎每遍消耗一次。无设置费或长期合约，切换档位会保留历史数据和配置。"
+        },
+        "sourceUrls": ["https://mencoro.com/pricing/", "https://mencoro.com/features/claude-rank-tracker/"],
+        "verifiedAt": "2026-11-28"
+      },
+      {
+        "summary": {
+          "en": "Subscriptions renew automatically until canceled; access lasts to the paid period end and prepaid fees are generally non-refundable with no partial refunds.",
+          "zh": "订阅自动续费直至取消；访问保留至已付周期结束，预付费用原则上不退款且不按未使用时间部分退款。"
+        },
+        "description": {
+          "en": "Payments are processed by a third-party provider and the user authorizes recurring monthly or yearly charges. Cancellation does not create a right to a refund of prepaid subscription fees unless the applicable plan terms say otherwise, and unused time within a billing cycle is not partially refunded.",
+          "zh": "付款由第三方处理方完成，用户授权按月或按年自动扣费。除非适用方案条款另有规定，取消不产生退还预付订阅费的权利，计费周期内未使用的时间也不部分退款。"
+        },
+        "sourceUrls": ["https://mencoro.com/legal/", "https://mencoro.com/pricing/"],
+        "verifiedAt": "2026-11-28"
+      }
+    ],
+    "limitations": [
+      {
+        "summary": {
+          "en": "Claude results come from Anthropic's official API with web search and a published claude.ai system prompt, not from the claude.ai consumer app.",
+          "zh": "Claude 结果来自 Anthropic 官方 API、网页搜索和已发布的 claude.ai 系统提示词，而不是 claude.ai 消费者应用。"
+        },
+        "description": {
+          "en": "Mencoro configures Claude through API authentication and explains that consumer app access requires a logged-in account and restricts automated non-human access. Its API setup has no account memory, prior chats or preferences, and its search policy approximates app behavior rather than reproducing unpublished tool prompts.",
+          "zh": "Mencoro 通过 API 认证配置 Claude，并说明消费者应用需要登录账户且限制自动化非人类访问。其 API 配置没有账户记忆、历史聊天或偏好，搜索策略也是近似应用行为，而非复现未公开的工具提示词。"
+        },
+        "sourceUrls": ["https://mencoro.com/legal/", "https://mencoro.com/features/claude-rank-tracker/"],
+        "verifiedAt": "2026-11-28"
+      },
+      {
+        "summary": {
+          "en": "Rankings vary by location, device and personalization; movers reports are periodic organic top-10 changes, not instant alerts or featured-snippet tracking.",
+          "zh": "排名会受地点、设备和个性化影响；movers 报告是定期自然搜索前十变化，不是即时告警，也不追踪 featured snippets。"
+        },
+        "description": {
+          "en": "The service states that ranking data may vary and third-party sources may be delayed or inaccurate. Its movers report compares organic top-10 results and does not provide real-time notifications or track featured snippets, so it should not be treated as a complete search-results audit.",
+          "zh": "服务说明排名数据可能变化，第三方来源也可能延迟或不准确。movers 报告比较自然搜索前十结果，不提供实时通知，也不追踪 featured snippets，因此不应被视为完整的搜索结果审计。"
+        },
+        "sourceUrls": ["https://mencoro.com/legal/", "https://mencoro.com/features/competitor-analysis/"],
+        "verifiedAt": "2026-11-28"
+      },
+      {
+        "summary": {
+          "en": "The visible FAQ lists a EUR 799 maximum tier, while the pricing page's JSON-LD still advertises a EUR 500 high price.",
+          "zh": "可见 FAQ 列出最高 799 欧元档位，而定价页 JSON-LD 仍宣称最高价为 500 欧元。"
+        },
+        "description": {
+          "en": "The calculator and visible FAQ state a range up to 25,000 checks at EUR 799 per month, but the SoftwareApplication structured data still contains highPrice 500. The visible calculator and FAQ are used here; the checkout total should be confirmed for high-volume configurations.",
+          "zh": "计算器和可见 FAQ 标明最多 25,000 次检查、每月 799 欧元，但 SoftwareApplication 结构化数据仍包含 highPrice 500。本条目采用可见计算器和 FAQ；高用量配置仍应在结账时确认总额。"
+        },
+        "sourceUrls": ["https://mencoro.com/pricing/"],
+        "verifiedAt": "2026-11-28"
+      },
+      {
+        "summary": {
+          "en": "The privacy policy's named processor list omits the AI and search providers used for measurements, although the legal page discloses Anthropic's API for Claude.",
+          "zh": "隐私政策列出的具名处理方未包含测量所用的 AI 与搜索提供商，但法律页披露了 Claude 使用 Anthropic API。"
+        },
+        "description": {
+          "en": "The public privacy page names Google Analytics, Microsoft Clarity, Meta Pixel and Stripe, while Terms and the Claude methodology disclose Anthropic API use. It does not publicly enumerate the full set of AI/search data providers in the same processor list, so teams with procurement requirements should request clarification.",
+          "zh": "公开隐私页列出 Google Analytics、Microsoft Clarity、Meta Pixel 和 Stripe，而条款与 Claude 方法页披露使用 Anthropic API。同一处理方列表未公开完整 AI/搜索数据提供商名单，有采购要求的团队应要求进一步说明。"
+        },
+        "sourceUrls": ["https://mencoro.com/legal/"],
+        "verifiedAt": "2026-11-28"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Choose Mencoro when competitor share of voice, mention classification and traditional rank tracking need to live in one configurable check-volume platform. Confirm engine coverage, Claude's five-check cost, annual billing and high-volume pricing before purchase; do not assume the free checker's Gemini coverage applies to paid monitoring.",
+          "zh": "需要把竞品声量、提及分类和传统排名追踪放在同一个可配置检查量平台时，可选 Mencoro。购买前应确认引擎覆盖、Claude 的五次检查成本、年付和高用量价格；不要假设免费检查器的 Gemini 覆盖同样适用于付费监测。"
+        },
+        "sourceUrls": ["https://mencoro.com/pricing/", "https://mencoro.com/features/ai-brand-monitoring/", "https://mencoro.com/legal/"],
+        "verifiedAt": "2026-11-28"
+      }
+    ],
+    "platforms": ["ChatGPT", "Claude", "Gemini", "Perplexity", "Google AI Overviews", "Google AI Mode", "Google Search"],
+    "pricing": "Freemium",
+    "sources": [
+      { "label": { "en": "Mencoro product overview", "zh": "Mencoro 产品概览" }, "url": "https://mencoro.com/" },
+      { "label": { "en": "Mencoro pricing calculator", "zh": "Mencoro 定价计算器" }, "url": "https://mencoro.com/pricing/" },
+      { "label": { "en": "Mencoro AI brand monitoring", "zh": "Mencoro AI 品牌监测" }, "url": "https://mencoro.com/features/ai-brand-monitoring/" },
+      { "label": { "en": "Mencoro competitor analysis", "zh": "Mencoro 竞品分析" }, "url": "https://mencoro.com/features/competitor-analysis/" },
+      { "label": { "en": "Mencoro AI citation sources", "zh": "Mencoro AI 引用来源" }, "url": "https://mencoro.com/features/ai-citation-sources/" },
+      { "label": { "en": "Mencoro Claude rank tracker", "zh": "Mencoro Claude 排名追踪" }, "url": "https://mencoro.com/features/claude-rank-tracker/" },
+      { "label": { "en": "Mencoro legal and methodology", "zh": "Mencoro 法律与方法说明" }, "url": "https://mencoro.com/legal/" },
+      { "label": { "en": "Mencoro contact", "zh": "Mencoro 联系方式" }, "url": "https://mencoro.com/contact/" }
+    ],
+    "verifiedAt": "2026-11-28",
+    "status": "published",
+    "featuredOrder": 144,
+    "sponsored": false
+  },
+  {
+    "slug": "cite42",
+    "name": "Cite42",
+    "website": "https://www.cite42.dev/",
+    "logo": null,
+    "category": "ai-visibility",
+    "description": {
+      "en": "Pay-per-call AI search visibility data for developers and analysts, delivered through REST API, MCP, dashboard and npm package with brand mentions, competitors, citations, sentiment and scheduled trackers.",
+      "zh": "面向开发者和分析师的按调用付费 AI 搜索可见度数据服务，通过 REST API、MCP、仪表板和 npm 包提供品牌提及、竞品、引用、情绪及定时追踪器。"
+    },
+    "audience": {
+      "en": "AI engineers, SaaS teams, SEO tools, agencies and analysts that want to embed AI visibility measurements into applications or repeat a fixed question set without a subscription.",
+      "zh": "希望把 AI 可见度测量嵌入应用，或无需订阅即可重复固定问题集的 AI 工程师、SaaS 团队、SEO 工具、代理机构和分析师。"
+    },
+    "tags": {
+      "en": ["AI visibility API", "MCP data", "Pay per call"],
+      "zh": ["AI 可见度 API", "MCP 数据", "按调用付费"]
+    },
+    "features": {
+      "en": [
+        "Offers AI Visibility, AI Competitors, AI Citations, AI Search and AI Sentiment tools through one API and MCP meter",
+        "Supports OpenAI, ChatGPT web app, Claude, Perplexity, Gemini and Google AI Overviews",
+        "Provides scheduled daily, weekly or monthly trackers with run history and cost ceilings",
+        "Includes prompt research, content briefs, citation gaps, competitor content analysis and other workflows"
+      ],
+      "zh": [
+        "通过同一 API 与 MCP 计量提供 AI Visibility、AI Competitors、AI Citations、AI Search 和 AI Sentiment",
+        "支持 OpenAI、ChatGPT 网页应用、Claude、Perplexity、Gemini 和 Google AI Overviews",
+        "提供每日、每周或每月定时追踪器，包含运行历史和成本上限",
+        "包含问题研究、内容简报、引用缺口、竞品内容分析等工作流"
+      ]
+    },
+    "useCases": [
+      {
+        "summary": {
+          "en": "Embed AI brand visibility and competitor measurements into a product, internal dashboard or AI agent through REST or MCP.",
+          "zh": "通过 REST 或 MCP 将 AI 品牌可见度和竞品测量嵌入产品、内部仪表板或 AI Agent。"
+        },
+        "description": {
+          "en": "Cite42 returns structured results from selected AI surfaces and exposes the same data and metering through REST, MCP and its dashboard. The service also publishes an npm package, making it suitable for programmatic workflows that need repeatable schemas rather than manual screenshots.",
+          "zh": "Cite42 从选定的 AI 入口返回结构化结果，并通过 REST、MCP 和仪表板提供同一数据与计量。服务还发布 npm 包，适合需要可重复数据结构、而非手工截图的程序化工作流。"
+        },
+        "sourceUrls": ["https://www.cite42.dev/", "https://www.cite42.dev/pricing", "https://www.cite42.dev/methodology"],
+        "verifiedAt": "2026-11-28"
+      },
+      {
+        "summary": {
+          "en": "Repeat the same buyer questions on a daily, weekly or monthly schedule and review stored run history.",
+          "zh": "按每日、每周或每月重复同一组买家问题，并查看保存的运行历史。"
+        },
+        "description": {
+          "en": "An AI Visibility Tracker can hold up to 30 buyer questions, with brands and AI models fixed for the tracker. The user chooses a day, time and timezone, reviews the estimated cost and activates the tracker; later estimates above the authorized ceiling pause it for review.",
+          "zh": "AI Visibility Tracker 最多可保存 30 个买家问题，品牌和 AI 模型在追踪器内固定。用户选择日期、时间和时区，确认预估成本后启用；后续估算超过授权上限时会暂停并要求复核。"
+        },
+        "sourceUrls": ["https://www.cite42.dev/trackers/ai-visibility", "https://www.cite42.dev/pricing"],
+        "verifiedAt": "2026-11-28"
+      },
+      {
+        "summary": {
+          "en": "Inspect which URLs AI cites, which competitors are named and how the brand is characterized.",
+          "zh": "查看 AI 引用哪些 URL、哪些竞品被提及，以及品牌被如何描述。"
+        },
+        "description": {
+          "en": "Separate tools return citation URLs and domains, competitor mentions and structured positive, neutral or negative sentiment with supporting phrases. Trackers can monitor each of these dimensions over time without creating a recurring platform subscription.",
+          "zh": "独立工具返回引用 URL 和域名、竞品提及，以及带支持短语的结构化正面、中性或负面情绪。追踪器可持续监测这些维度，而无需创建周期性平台订阅。"
+        },
+        "sourceUrls": ["https://www.cite42.dev/trackers/ai-visibility", "https://www.cite42.dev/pricing"],
+        "verifiedAt": "2026-11-28"
+      }
+    ],
+    "pricingDetails": [
+      {
+        "summary": {
+          "en": "Prepaid pay-per-call billing in USD has a USD 25 minimum top-up, no subscription and a non-expiring balance; verified signup adds USD 1 once.",
+          "zh": "采用美元预付按调用计费，最低充值 25 美元，无订阅，余额不过期；完成验证的注册一次性赠送 1 美元。"
+        },
+        "description": {
+          "en": "The pricing page states that prepaid balances never expire and failed calls are free. The USD 1 signup bonus is one per verified account and is not an ongoing free plan. Enterprise offers custom volume discounts, monthly invoicing and custom rate limits.",
+          "zh": "定价页说明预付余额不过期，失败调用不收费。1 美元注册赠送每个已验证账户仅一次，不是持续免费方案。Enterprise 提供定制批量折扣、月度开票和自定义速率限制。"
+        },
+        "sourceUrls": ["https://www.cite42.dev/pricing", "https://www.cite42.dev/terms-of-service"],
+        "verifiedAt": "2026-11-28"
+      },
+      {
+        "summary": {
+          "en": "AI Visibility, Competitors, Citations and Search cost USD 0.01–0.06 per model; one visibility run is USD 0.13 across the default three models or USD 0.25 across five.",
+          "zh": "AI Visibility、Competitors、Citations 和 Search 每模型 0.01–0.06 美元；一次可见度运行在默认三模型下为 0.13 美元，五模型下为 0.25 美元。"
+        },
+        "description": {
+          "en": "AI Sentiment costs USD 0.03–0.08 per model. The standard rate limit is 60 requests per minute. Only successful calls are billed, and prices are exclusive of taxes; the live estimator calculates the selected models and request count.",
+          "zh": "AI Sentiment 每模型 0.03–0.08 美元。标准速率限制为每分钟 60 个请求。仅成功调用收费，价格不含税；实时估算器按所选模型和请求数计算。"
+        },
+        "sourceUrls": ["https://www.cite42.dev/pricing", "https://www.cite42.dev/terms-of-service"],
+        "verifiedAt": "2026-11-28"
+      },
+      {
+        "summary": {
+          "en": "Tracker creation and management are free; each run bills saved prompts at the selected tool price and requires an authorized cost ceiling.",
+          "zh": "追踪器创建和管理免费；每次运行按所选工具价格对保存的问题计费，并要求授权成本上限。"
+        },
+        "description": {
+          "en": "A tracker starts as Draft so the user can review cost before activation. Activation authorizes the current estimate as a ceiling; later runs use current AI-service prices up to that amount and pause before calling a model if the estimate rises above it.",
+          "zh": "追踪器先保存为 Draft，用户可在启用前复核成本。启用会将当前估算授权为上限；后续运行按当前 AI 服务价格执行，估算超过上限时会在调用模型前暂停。"
+        },
+        "sourceUrls": ["https://www.cite42.dev/trackers/ai-visibility", "https://www.cite42.dev/pricing"],
+        "verifiedAt": "2026-11-28"
+      },
+      {
+        "summary": {
+          "en": "Top-ups are generally non-refundable; account closure forfeits remaining balance except where law or a verified service failure requires otherwise.",
+          "zh": "充值原则上不退款；关闭账户会没收剩余余额，法律或经核验的服务故障另有规定的除外。"
+        },
+        "description": {
+          "en": "The terms say purchased credits are non-refundable once issued, with narrow exceptions for legal rights or verified failures. API request and response logs are retained for 180 days, account data for up to 90 days after deletion, and billing records for six years.",
+          "zh": "条款称已发放额度原则上不退款，仅对法定权利或经核验故障保留有限例外。API 请求和响应日志保留 180 天，账户删除后数据最多保留 90 天，账单记录保留六年。"
+        },
+        "sourceUrls": ["https://www.cite42.dev/terms-of-service", "https://www.cite42.dev/privacy-policy"],
+        "verifiedAt": "2026-11-28"
+      }
+    ],
+    "limitations": [
+      {
+        "summary": {
+          "en": "Each prompt and AI surface is queried once per run; answers are non-deterministic and a single result is only one sample.",
+          "zh": "每个问题和 AI 入口每次运行只查询一次；回答具有非确定性，单次结果只是一个样本。"
+        },
+        "description": {
+          "en": "Cite42 does not publish a permanent official AI rank. Repeated trackers help reveal change over time, but one run should not be treated as a stable universal ranking. Scheduled runs can reuse a same-day cross-customer cache only for the same public, non-personal prompt and model.",
+          "zh": "Cite42 不发布永久官方 AI 排名。重复追踪有助于观察长期变化，但单次运行不应被视为稳定通用排名。对于相同公开、非个人问题和模型，计划运行可能复用同日的跨客户缓存。"
+        },
+        "sourceUrls": ["https://www.cite42.dev/methodology", "https://www.cite42.dev/privacy-policy"],
+        "verifiedAt": "2026-11-28"
+      },
+      {
+        "summary": {
+          "en": "API citations are retrieval-corpus data, not necessarily citations displayed in a consumer interface, and returned URLs are not independently verified.",
+          "zh": "API 引用是检索语料数据，不一定是消费者界面展示的引用，返回的 URL 也未独立验证。"
+        },
+        "description": {
+          "en": "The methodology distinguishes API output from consumer UI behavior and warns that cited URLs can be hallucinated. ChatGPT web-app access is opt-in rather than the default, and Google AI Overviews come from live search results rather than a direct consumer-account session.",
+          "zh": "方法说明区分 API 输出与消费者界面行为，并提醒引用 URL 可能是幻觉。ChatGPT 网页应用访问是可选功能而非默认，Google AI Overviews 来自实时搜索结果，而不是消费者账户会话。"
+        },
+        "sourceUrls": ["https://www.cite42.dev/methodology", "https://www.cite42.dev/terms-of-service"],
+        "verifiedAt": "2026-11-28"
+      },
+      {
+        "summary": {
+          "en": "Location controls are approximate for OpenAI, Claude and Perplexity, while Gemini API cannot be assigned a country.",
+          "zh": "OpenAI、Claude 和 Perplexity 的地点控制为近似值，Gemini API 无法指定国家。"
+        },
+        "description": {
+          "en": "OpenAI, Claude and Perplexity use approximate location settings, and Gemini API has no country parameter. Perplexity searches on every call, while OpenAI, Claude and Gemini use native web search and let the model decide whether to search. Cross-market comparisons should account for these differences.",
+          "zh": "OpenAI、Claude 和 Perplexity 使用近似地点设置，Gemini API 没有国家参数。Perplexity 每次调用都搜索，OpenAI、Claude 和 Gemini 使用原生网页搜索并由模型决定是否搜索。跨市场比较应考虑这些差异。"
+        },
+        "sourceUrls": ["https://www.cite42.dev/methodology"],
+        "verifiedAt": "2026-11-28"
+      },
+      {
+        "summary": {
+          "en": "Reddit Trends is listed at USD 0.05 in the pricing table but USD 0.20 in the FAQ; resale also requires a white-label agreement.",
+          "zh": "Reddit Trends 在价格表为 0.05 美元，在 FAQ 为 0.20 美元；转售还需要白标协议。"
+        },
+        "description": {
+          "en": "The Reddit Trends price is inconsistent across the same pricing page, so no single amount is asserted here. The terms also restrict building a competing aggregation product and require a white-label agreement for resale, which matters for teams embedding the data into a commercial product.",
+          "zh": "同一定价页内 Reddit Trends 价格不一致，因此本条目不采用单一金额。条款还限制开发竞争性聚合产品，并要求转售签订白标协议，将数据嵌入商业产品的团队应特别注意。"
+        },
+        "sourceUrls": ["https://www.cite42.dev/pricing", "https://www.cite42.dev/terms-of-service"],
+        "verifiedAt": "2026-11-28"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Choose Cite42 when structured AI visibility data must be consumed programmatically or when pay-per-call usage fits better than a fixed monitoring subscription. Confirm selected-model prices, tracker ceilings, location limitations and resale rights; it is not evidence of a permanent official AI ranking or verified consumer-interface citations.",
+          "zh": "需要程序化消费结构化 AI 可见度数据，或按调用付费比固定监测订阅更合适时，可选 Cite42。购买前应确认所选模型价格、追踪器上限、地点限制和转售权；它不代表永久官方 AI 排名，也不保证消费者界面引用经过验证。"
+        },
+        "sourceUrls": ["https://www.cite42.dev/pricing", "https://www.cite42.dev/methodology", "https://www.cite42.dev/terms-of-service"],
+        "verifiedAt": "2026-11-28"
+      }
+    ],
+    "platforms": ["OpenAI API", "ChatGPT", "Claude", "Perplexity", "Gemini", "Google AI Overviews"],
+    "pricing": "Paid",
+    "sources": [
+      { "label": { "en": "Cite42 product overview", "zh": "Cite42 产品概览" }, "url": "https://www.cite42.dev/" },
+      { "label": { "en": "Cite42 pricing", "zh": "Cite42 定价" }, "url": "https://www.cite42.dev/pricing" },
+      { "label": { "en": "Cite42 AI Visibility Tracker", "zh": "Cite42 AI 可见度追踪器" }, "url": "https://www.cite42.dev/trackers/ai-visibility" },
+      { "label": { "en": "Cite42 methodology", "zh": "Cite42 方法说明" }, "url": "https://www.cite42.dev/methodology" },
+      { "label": { "en": "Cite42 terms of service", "zh": "Cite42 服务条款" }, "url": "https://www.cite42.dev/terms-of-service" },
+      { "label": { "en": "Cite42 privacy policy", "zh": "Cite42 隐私政策" }, "url": "https://www.cite42.dev/privacy-policy" },
+      { "label": { "en": "Cite42 legal notice", "zh": "Cite42 法律公告" }, "url": "https://www.cite42.dev/impressum" }
+    ],
+    "verifiedAt": "2026-11-28",
+    "status": "published",
+    "featuredOrder": 145,
+    "sponsored": false
+  },
+  {
+    "slug": "attensira",
+    "name": "Attensira",
+    "website": "https://attensira.com/",
+    "logo": null,
+    "category": "ai-visibility",
+    "description": {
+      "en": "AI visibility measurement and execution platform that tracks brand mentions, citations, sentiment and competitors, then drafts content, page fixes, listing changes and outreach for human approval.",
+      "zh": "AI 可见度测量与执行平台，追踪品牌提及、引用、情绪和竞品，并起草内容、页面修复、商家资料修改和外联方案供人工批准。"
+    },
+    "audience": {
+      "en": "In-house marketing teams, agencies and multi-brand operators that want AI answer monitoring connected to an approval-based execution workflow.",
+      "zh": "希望把 AI 回答监测与基于人工批准的执行流程连接起来的内部营销团队、代理机构和多品牌运营者。"
+    },
+    "tags": {
+      "en": ["AI visibility", "Content optimization", "Agent workflows"],
+      "zh": ["AI 可见度", "内容优化", "Agent 工作流"]
+    },
+    "features": {
+      "en": [
+        "Tracks mention and citation rates, sentiment, competitors, sources, citation positions and trends across selected AI engines",
+        "Drafts articles, page changes, listing fixes and outreach, with claims waiting for approval in every mode",
+        "Delivers work through GitHub pull requests, CMS drafts, Notion, Shopify, Gmail and Outlook drafts",
+        "Adds edge-middleware AI crawler and assistant-referral analytics on Growth and Business"
+      ],
+      "zh": [
+        "在选定 AI 引擎追踪提及率、引用率、情绪、竞品、来源、引用位置和趋势",
+        "起草文章、页面修改、商家资料修复和外联，所有模式下数字、价格、名称和承诺等事实主张都等待批准",
+        "通过 GitHub pull request、CMS 草稿、Notion、Shopify、Gmail 和 Outlook 草稿交付工作",
+        "Growth 和 Business 提供基于边缘中间件的 AI 爬虫与助手引荐分析"
+      ]
+    },
+    "useCases": [
+      {
+        "summary": {
+          "en": "Measure brand visibility across several AI answers with plan-specific sampling and inspect the cited sources behind each result.",
+          "zh": "按套餐采样多次 AI 回答来衡量品牌可见度，并查看每项结果背后的引用来源。"
+        },
+        "description": {
+          "en": "Starter reads four engines once per check, while Growth and Business add Gemini and read each answer three times per check. Dashboards separate mention rate, citation rate, sentiment, competitors and sources, with history windows of three months, twelve months or unlimited by plan.",
+          "zh": "Starter 每次检查读取四个引擎一次；Growth 和 Business 加入 Gemini，并对每个回答采样三次。仪表板区分提及率、引用率、情绪、竞品和来源，历史窗口按套餐分别为三个月、十二个月或无限。"
+        },
+        "sourceUrls": ["https://attensira.com/pricing", "https://attensira.com/"],
+        "verifiedAt": "2026-11-28"
+      },
+      {
+        "summary": {
+          "en": "Turn visibility gaps into draft content, technical changes and outreach without granting blanket permission to publish.",
+          "zh": "将可见度缺口转化为内容、技术修改和外联草稿，而不授予无限制发布权限。"
+        },
+        "description": {
+          "en": "The agent prepares changes as reviewable deliverables such as GitHub PRs, CMS drafts or copy to hand to a developer. Claims always wait for human approval, and an unanswered approval closes after seven days without executing the change.",
+          "zh": "Agent 将修改准备为可审查交付物，例如 GitHub PR、CMS 草稿或交给开发者的文案。Claims 始终等待人工批准，七天内无人回应的审批会关闭且不执行修改。"
+        },
+        "sourceUrls": ["https://attensira.com/", "https://attensira.com/tos"],
+        "verifiedAt": "2026-11-28"
+      },
+      {
+        "summary": {
+          "en": "Observe AI crawler coverage and assistant referrals through generated edge middleware rather than a browser beacon.",
+          "zh": "通过生成的边缘中间件观察 AI 爬虫覆盖和助手引荐，而不是浏览器埋点。"
+        },
+        "description": {
+          "en": "The AI traffic view reports reads by identified user-agent family, requested pages and visits referred by AI assistants. It is available only on Growth and Business and requires the customer to deploy workspace-specific middleware; crawler counts are kept separate from citation counts.",
+          "zh": "AI 流量视图按 user-agent 系列报告读取次数、被请求页面和 AI 助手引荐访问。该功能仅 Growth 和 Business 可用，需要客户部署工作区专用中间件；爬虫次数与引用次数分开呈现。"
+        },
+        "sourceUrls": ["https://docs.attensira.com/traffic/ai-traffic", "https://attensira.com/pricing"],
+        "verifiedAt": "2026-11-28"
+      }
+    ],
+    "pricingDetails": [
+      {
+        "summary": {
+          "en": "Starter is USD 129/month, or USD 108/month equivalent billed at USD 1,290/year, with 50 prompts, 3,000 credits, 6,000 responses and four engines.",
+          "zh": "Starter 每月 129 美元；年付折算每月 108 美元、实际每年 1,290 美元，含 50 个问题、3,000 credits、6,000 次回答和四个引擎。"
+        },
+        "description": {
+          "en": "Starter covers ChatGPT, Perplexity, Claude and Google AI, reads each answer once per check, and retains three months of history. It includes unlimited seats sharing one balance. Prices are in USD and exclude taxes.",
+          "zh": "Starter 覆盖 ChatGPT、Perplexity、Claude 和 Google AI，每次检查读取回答一次，保留三个月历史。包含共享同一余额的无限席位；价格以美元计且不含税。"
+        },
+        "sourceUrls": ["https://attensira.com/pricing", "https://attensira.com/tos"],
+        "verifiedAt": "2026-11-28"
+      },
+      {
+        "summary": {
+          "en": "Growth is USD 349/month, or USD 291/month equivalent billed at USD 3,490/year, with 150 prompts, 7,500 credits, 67,500 responses and five engines.",
+          "zh": "Growth 每月 349 美元；年付折算每月 291 美元、实际每年 3,490 美元，含 150 个问题、7,500 credits、67,500 次回答和五个引擎。"
+        },
+        "description": {
+          "en": "Growth adds Gemini, reads each answer three times per check, retains twelve months of history and includes the AI traffic view. Unlimited seats share the account balance, and the plan can be selected after the Starter trial in Settings → Billing.",
+          "zh": "Growth 加入 Gemini，每次检查采样回答三次，保留十二个月历史并包含 AI 流量视图。无限席位共享账户余额；Starter 试用后可在 Settings → Billing 切换到该套餐。"
+        },
+        "sourceUrls": ["https://attensira.com/pricing", "https://docs.attensira.com/traffic/ai-traffic"],
+        "verifiedAt": "2026-11-28"
+      },
+      {
+        "summary": {
+          "en": "Business is USD 699/month, or USD 583/month equivalent billed at USD 6,990/year, with 350 prompts, 15,000 credits, 157,500 responses and unlimited history.",
+          "zh": "Business 每月 699 美元；年付折算每月 583 美元、实际每年 6,990 美元，含 350 个问题、15,000 credits、157,500 次回答和无限历史。"
+        },
+        "description": {
+          "en": "Business includes the same five engines and three reads per check as Growth, plus unlimited history and the AI traffic view. It is positioned for several brands or one brand at volume; multiple brands can use separate workspaces while sharing prompts and credits.",
+          "zh": "Business 包含与 Growth 相同的五个引擎和每次三次读取，并增加无限历史和 AI 流量视图。适合多个品牌或单品牌高用量；多个品牌可使用独立工作区，共享问题和 credits。"
+        },
+        "sourceUrls": ["https://attensira.com/pricing", "https://docs.attensira.com/traffic/ai-traffic"],
+        "verifiedAt": "2026-11-28"
+      },
+      {
+        "summary": {
+          "en": "Starter has a seven-day card-required trial with 3,000 credits; extra credits start at 5,000 for USD 45, and annual plans are pro-rated refundable within 30 days.",
+          "zh": "Starter 提供七天需信用卡的试用并含 3,000 credits；额外 credits 最低 5,000 个、45 美元；年付方案前 30 天可按比例退款。"
+        },
+        "description": {
+          "en": "The trial includes USD 30 of credits and charges USD 129 on day eight unless canceled; no top-ups are allowed during the trial. Bought credits never expire, while unused plan credits can roll over for two months. Monthly plans do not refund partial months, annual plans allow a pro-rated refund within the first 30 days, and EU consumers retain the stated 14-day withdrawal right subject to service use.",
+          "zh": "试用包含价值 30 美元的 credits，第八天若不取消将收取 129 美元；试用期间不能充值。购买的 credits 不过期，未使用的套餐 credits 可结转两个月。月付不退还部分月份费用，年付前 30 天可按比例退款；欧盟消费者保留所述 14 天撤回权，但已开始使用服务时受限。"
+        },
+        "sourceUrls": ["https://attensira.com/pricing", "https://attensira.com/tos"],
+        "verifiedAt": "2026-11-28"
+      }
+    ],
+    "limitations": [
+      {
+        "summary": {
+          "en": "Credits meter execution work, not monitoring; reaching the budget cap pauses new work while readings and stored results continue.",
+          "zh": "Credits 计量执行工作而非监测；达到预算上限会暂停新工作，但读取和已存结果继续。"
+        },
+        "description": {
+          "en": "Articles, page fixes, listing changes, outreach pitches, chats and automation runs consume credits. At zero balance or the monthly cap, new work is refused up front, while monitoring and existing numbers keep working. A minimum 5,000-credit top-up costs USD 45 at the first price band.",
+          "zh": "文章、页面修复、商家资料修改、外联草稿、聊天和自动化运行会消耗 credits。余额为零或达到月度上限时，新工作会提前被拒绝，监测和已有数据继续可用。首档最低充值 5,000 credits，价格为 45 美元。"
+        },
+        "sourceUrls": ["https://attensira.com/pricing"],
+        "verifiedAt": "2026-11-28"
+      },
+      {
+        "summary": {
+          "en": "The agent is approval-based, and safe-change automation does not remove the requirement to approve factual claims.",
+          "zh": "Agent 基于人工批准，安全修改自动化也不能免除对事实性主张的批准要求。"
+        },
+        "description": {
+          "en": "The product can automatically execute small hygiene changes in its Act lane, but claims such as numbers, prices, names and promises wait for approval in every mode. GitHub pull requests still require the customer to merge them, and outreach uses drafts rather than sending without consent.",
+          "zh": "产品可在 Act 通道自动执行小型卫生性修改，但数字、价格、名称和承诺等事实主张在所有模式下都等待批准。GitHub pull request 仍需客户合并，外联也使用草稿而不是未经同意直接发送。"
+        },
+        "sourceUrls": ["https://attensira.com/", "https://attensira.com/tos"],
+        "verifiedAt": "2026-11-28"
+      },
+      {
+        "summary": {
+          "en": "AI traffic requires deployed edge middleware, and user-agent labels are directional rather than verified bot identity.",
+          "zh": "AI 流量需要部署边缘中间件，user-agent 标签只是方向性证据，不是已验证的机器人身份。"
+        },
+        "description": {
+          "en": "Raw requests are retained for 90 days, daily rollups indefinitely, and readable windows can reach 365 days. The service explicitly does not claim verified attribution for a named crawler because user agents can be spoofed. Crawler activity is not evidence of visibility or citation in AI answers.",
+          "zh": "原始请求保留 90 天，每日汇总无限期保留，可读取窗口最长 365 天。服务明确不宣称具名爬虫身份已验证，因为 user agent 可伪造。爬虫活动也不能证明 AI 回答中的可见度或引用。"
+        },
+        "sourceUrls": ["https://docs.attensira.com/traffic/ai-traffic"],
+        "verifiedAt": "2026-11-28"
+      },
+      {
+        "summary": {
+          "en": "The service retains account, billing, usage and support data for different periods, and unlimited history refers to product readings rather than unlimited personal-data retention.",
+          "zh": "账户、账单、使用和支持数据有不同保留期；无限历史指产品读数，不等于个人数据无限保留。"
+        },
+        "description": {
+          "en": "The privacy policy describes account data retained while active plus 30 days, payment records for seven years, usage analytics anonymized after 26 months and support messages for three years. Attensira says customer data is not sold or used to train AI models, operated by Attensira Technology OÜ in Estonia.",
+          "zh": "隐私政策说明账户数据在活跃期间加 30 天保留、付款记录保留七年、使用分析 26 个月后匿名化、支持消息保留三年。Attensira 称不出售客户数据或用于训练 AI 模型，由爱沙尼亚的 Attensira Technology OÜ 运营。"
+        },
+        "sourceUrls": ["https://attensira.com/privacy", "https://attensira.com/about"],
+        "verifiedAt": "2026-11-28"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Choose Attensira when AI answer monitoring needs to feed a reviewable execution queue for content, pages, listings and outreach. Compare prompt quotas, sample depth, work-credit consumption and history by plan; teams needing only raw crawler logs or a lightweight API should not assume those are the core workflow.",
+          "zh": "需要把 AI 回答监测连接到内容、页面、商家资料和外联的可审查执行队列时，可选 Attensira。应比较各套餐的问题额度、采样深度、工作 credits 消耗和历史；只需要原始爬虫日志或轻量 API 的团队，不应假设这些是核心流程。"
+        },
+        "sourceUrls": ["https://attensira.com/pricing", "https://attensira.com/", "https://docs.attensira.com/traffic/ai-traffic"],
+        "verifiedAt": "2026-11-28"
+      }
+    ],
+    "platforms": ["ChatGPT", "Claude", "Gemini", "Perplexity", "Google AI"],
+    "pricing": "Paid",
+    "sources": [
+      { "label": { "en": "Attensira product overview", "zh": "Attensira 产品概览" }, "url": "https://attensira.com/" },
+      { "label": { "en": "Attensira pricing", "zh": "Attensira 定价" }, "url": "https://attensira.com/pricing" },
+      { "label": { "en": "Attensira terms of service", "zh": "Attensira 服务条款" }, "url": "https://attensira.com/tos" },
+      { "label": { "en": "Attensira privacy policy", "zh": "Attensira 隐私政策" }, "url": "https://attensira.com/privacy" },
+      { "label": { "en": "Attensira security", "zh": "Attensira 安全说明" }, "url": "https://attensira.com/security" },
+      { "label": { "en": "Attensira about", "zh": "Attensira 关于页面" }, "url": "https://attensira.com/about" },
+      { "label": { "en": "Attensira contact", "zh": "Attensira 联系方式" }, "url": "https://attensira.com/contact" },
+      { "label": { "en": "Attensira AI traffic documentation", "zh": "Attensira AI 流量文档" }, "url": "https://docs.attensira.com/traffic/ai-traffic" }
+    ],
+    "verifiedAt": "2026-11-28",
+    "status": "published",
+    "featuredOrder": 146,
+    "sponsored": false
+  },
+  {
+    "slug": "sorank-geo-audit",
+    "name": "SoRank GEO Audit",
+    "website": "https://www.sorank.com/seo-tool/geo-audit",
+    "logo": null,
+    "category": "geo-audit",
+    "description": {
+      "en": "A free one-page GEO readiness audit that checks AI crawler access, structured data, llms.txt, content structure, depth and factual density, with paid SoRank plans adding content publishing, backlinks and AI mention tracking.",
+      "zh": "免费单页 GEO 就绪度审计，检查 AI 爬虫访问、结构化数据、llms.txt、内容结构、深度和事实密度；付费 SoRank 套餐另提供内容发布、外链和 AI 提及追踪。"
+    },
+    "audience": {
+      "en": "SEO practitioners, agencies and website owners that want a quick technical and content-readiness check before investing in broader GEO execution.",
+      "zh": "希望在投入更广泛 GEO 执行前，快速检查技术与内容就绪度的 SEO 从业者、代理机构和网站所有者。"
+    },
+    "tags": {
+      "en": ["GEO audit", "AI crawler access", "Structured data"],
+      "zh": ["GEO 审计", "AI 爬虫访问", "结构化数据"]
+    },
+    "features": {
+      "en": [
+        "Scores ten weighted checks out of 100 with an A–F grade and a fix note for each failed check",
+        "Reads the served HTML, robots.txt and llms.txt for one URL at a time",
+        "Applies robots rules to 14 AI user agents and reports access status",
+        "Offers paid content, publishing, backlink, keyword and AI mention-tracking workflows alongside the free audit"
+      ],
+      "zh": [
+        "对十个加权检查给出百分制分数和 A–F 等级，并为每个失败项提供修复建议",
+        "每次读取一个 URL 的服务端 HTML、robots.txt 和 llms.txt",
+        "将 robots 规则应用于 14 个 AI user agent 并报告访问状态",
+        "除免费审计外，还提供付费内容、发布、外链、关键词和 AI 提及追踪流程"
+      ]
+    },
+    "useCases": [
+      {
+        "summary": {
+          "en": "Run a quick readiness check on one important page before trying to earn AI citations.",
+          "zh": "在尝试获得 AI 引用前，对重要页面运行快速就绪度检查。"
+        },
+        "description": {
+          "en": "The free tool fetches a page as a crawler would, plus the domain's robots.txt and llms.txt, then returns a 0–100 score and A–F grade. It provides access status for 14 AI user agents and one fix per failed check, making it useful as a preflight checklist rather than a full-site crawl.",
+          "zh": "免费工具按爬虫方式抓取页面及域名的 robots.txt 和 llms.txt，返回 0–100 分和 A–F 等级。它提供 14 个 AI user agent 的访问状态和每个失败项的修复建议，适合作为预检清单，而不是整站爬取。"
+        },
+        "sourceUrls": ["https://www.sorank.com/seo-tool/geo-audit"],
+        "verifiedAt": "2026-11-28"
+      },
+      {
+        "summary": {
+          "en": "Prioritize crawler access and structured data before heading, depth, freshness and factual-density changes.",
+          "zh": "优先处理爬虫访问和结构化数据，再调整标题、深度、新鲜度和事实密度。"
+        },
+        "description": {
+          "en": "Crawler access and JSON-LD carry double weight because they gate whether other signals can be used. The remaining checks cover llms.txt, FAQ markup, a 50–320 character meta description, one H1 plus two H2 headings, at least 600 words, two lists or tables, a machine-readable date and five factual figures.",
+          "zh": "爬虫访问和 JSON-LD 权重加倍，因为它们决定其他信号能否被利用。其余检查覆盖 llms.txt、FAQ 标记、50–320 字符的 meta description、一个 H1 加两个 H2、至少 600 词、两个列表或表格、机器可读日期和五个事实数字。"
+        },
+        "sourceUrls": ["https://www.sorank.com/seo-tool/geo-audit"],
+        "verifiedAt": "2026-11-28"
+      },
+      {
+        "summary": {
+          "en": "Use paid SoRank plans to create and publish content and track AI mentions after fixing audit gaps.",
+          "zh": "修复审计缺口后，使用付费 SoRank 套餐创建、发布内容并追踪 AI 提及。"
+        },
+        "description": {
+          "en": "Paid plans add SEO and GEO articles, auto-publishing, internal linking, keyword credits, backlink exchanges and prompt-based AI visibility tracking. AI mention monitoring covers ChatGPT, Claude and Gemini, with Grok advertised from the Pro plan; this is separate from the free readiness score.",
+          "zh": "付费套餐增加 SEO 与 GEO 文章、自动发布、内链、关键词 credits、外链交换和基于问题的 AI 可见度追踪。AI 提及监测覆盖 ChatGPT、Claude 和 Gemini，官网宣称 Pro 起加入 Grok；这与免费就绪度分数是分开的。"
+        },
+        "sourceUrls": ["https://www.sorank.com/pricing", "https://www.sorank.com/seo-tool/geo-audit"],
+        "verifiedAt": "2026-11-28"
+      }
+    ],
+    "pricingDetails": [
+      {
+        "summary": {
+          "en": "The standalone GEO audit is free for three runs per day after a quick anti-bot check.",
+          "zh": "独立 GEO 审计在快速反机器人检查后每天可免费运行三次。"
+        },
+        "description": {
+          "en": "Each free run audits one URL or page. Domain-level robots.txt and llms.txt are read alongside the page, but the free tool does not provide a whole-site crawl or ongoing visibility monitoring.",
+          "zh": "每次免费运行审计一个 URL 或页面。工具会同时读取域级 robots.txt 和 llms.txt，但不提供整站爬取或持续可见度监测。"
+        },
+        "sourceUrls": ["https://www.sorank.com/seo-tool/geo-audit"],
+        "verifiedAt": "2026-11-28"
+      },
+      {
+        "summary": {
+          "en": "Official structured data lists standard monthly prices of USD 99, USD 249 and USD 499, and yearly-billed monthly equivalents of USD 49, USD 129 and USD 249.",
+          "zh": "官方结构化数据列出标准月付 99、249、499 美元，以及按年计费的月均 49、129、249 美元。"
+        },
+        "description": {
+          "en": "The offers correspond to Essential, Pro and Business for one site and identify the currency as USD. Prices exclude taxes. The verified page does not clearly display the actual annual invoice totals, so they should be confirmed at checkout rather than inferred from rounded monthly equivalents.",
+          "zh": "这些报价对应单站点的 Essential、Pro 和 Business，币种为美元，价格不含税。已核验页面没有清楚显示实际年度账单总额，因此应在结账时确认，而不是根据四舍五入的月均价自行推算。"
+        },
+        "sourceUrls": ["https://www.sorank.com/pricing", "https://www.sorank.com/terms-of-use"],
+        "verifiedAt": "2026-11-28"
+      },
+      {
+        "summary": {
+          "en": "During the verified Black Friday promotion, monthly cards show USD 69.30, USD 174.30 and USD 349.30, while the detailed comparison table still shows USD 49, USD 129 and USD 249.",
+          "zh": "核验时的黑色星期五促销中，月付卡片显示 69.30、174.30、349.30 美元，而详细对比表仍显示 49、129、249 美元。"
+        },
+        "description": {
+          "en": "The page labels Monthly with 30% off and Yearly with 50% off, and the monthly cards cross out the standard USD 99, USD 249 and USD 499 prices. The detailed table remains on the yearly-equivalent figures even after switching to Monthly, so the checkout total must be treated as authoritative.",
+          "zh": "页面标注 Monthly 优惠 30%、Yearly 优惠 50%，月付卡片划掉标准价 99、249、499 美元。切换到 Monthly 后，详细表仍保留年付折算数字，因此结账总额才是最终依据。"
+        },
+        "sourceUrls": ["https://www.sorank.com/pricing"],
+        "verifiedAt": "2026-11-28"
+      },
+      {
+        "summary": {
+          "en": "Essential, Pro and Business include 20, 60 and 120 articles per month, 10, 20 and 50 tracked AI prompts, and 200, 500 and 1,000 keyword credits.",
+          "zh": "Essential、Pro 和 Business 每月分别包含 20、60、120 篇文章，追踪 10、20、50 个 AI 问题，并提供 200、500、1,000 个关键词 credits。"
+        },
+        "description": {
+          "en": "Team collaborators are three on Essential, seven on Pro and unlimited on Business. Pro and Business add backlink credits, dedicated support and monthly PDF reports; quarterly follow-up and setup with a team member are listed as yearly-only benefits.",
+          "zh": "团队协作者分别为 Essential 三个、Pro 七个、Business 无限。Pro 和 Business 增加外链 credits、专属支持和每月 PDF 报告；季度回访和团队配置被列为仅年付权益。"
+        },
+        "sourceUrls": ["https://www.sorank.com/pricing"],
+        "verifiedAt": "2026-11-28"
+      },
+      {
+        "summary": {
+          "en": "Paid plans advertise a three-day card-required trial and a conditional 90-day performance guarantee, not a guaranteed AI citation result.",
+          "zh": "付费方案宣称三天需信用卡试用和有条件的 90 天效果保证，并不保证 AI 引用结果。"
+        },
+        "description": {
+          "en": "The trial converts to a paid subscription unless canceled. The refund policy describes strict eligibility and limits any guarantee refund to 90 days of subscription fees, excluding used credits and separately quoted services; customers should read the current guarantee conditions before relying on it.",
+          "zh": "试用若不取消会自动转为付费订阅。退款政策设有严格资格条件，保证退款最多限于 90 天订阅费，不包括已用 credits 或单独报价服务；依赖该保证前应阅读当前条件。"
+        },
+        "sourceUrls": ["https://www.sorank.com/pricing", "https://www.sorank.com/refund-and-cancellation-policy", "https://www.sorank.com/terms-and-conditions-of-sale"],
+        "verifiedAt": "2026-11-28"
+      }
+    ],
+    "limitations": [
+      {
+        "summary": {
+          "en": "The audit reads one page's served HTML without executing JavaScript and uses a simplified robots.txt interpretation.",
+          "zh": "审计读取单页服务端 HTML，不执行 JavaScript，并对 robots.txt 作简化解释。"
+        },
+        "description": {
+          "en": "Content rendered only after JavaScript runs is not counted. Robots access is simplified to allowed, partially restricted or blocked rather than a full standards audit, and robots.txt plus llms.txt are domain-level files even though the other checks apply only to the entered URL.",
+          "zh": "仅在 JavaScript 运行后出现的内容不会被计入。robots 访问被简化为允许、部分限制或阻止，而非完整标准审计；robots.txt 和 llms.txt 属于域级文件，其他检查则只适用于输入的 URL。"
+        },
+        "sourceUrls": ["https://www.sorank.com/seo-tool/geo-audit"],
+        "verifiedAt": "2026-11-28"
+      },
+      {
+        "summary": {
+          "en": "The GEO score is a readiness heuristic and does not measure real citations, rankings, leads or guaranteed AI visibility.",
+          "zh": "GEO 分数是就绪度启发式评分，不测量真实引用、排名、线索，也不保证 AI 可见度。"
+        },
+        "description": {
+          "en": "A page can score highly and still not be quoted if other sources are more relevant. The ten checks cover access, markup and content signals, not whether a model actually names the brand or why it selected a source. The paid 90-day guarantee is a commercial policy with conditions, not evidence of a deterministic outcome.",
+          "zh": "即使页面得分很高，如果其他来源更相关，也可能不被引用。十项检查覆盖访问、标记和内容信号，不检验模型是否真正提到品牌或为何选择某来源。付费 90 天保证是附条件的商业政策，不代表结果可确定。"
+        },
+        "sourceUrls": ["https://www.sorank.com/seo-tool/geo-audit", "https://www.sorank.com/refund-and-cancellation-policy"],
+        "verifiedAt": "2026-11-28"
+      },
+      {
+        "summary": {
+          "en": "The current promotion cards and detailed pricing table disagree after switching billing periods.",
+          "zh": "切换计费周期后，当前促销卡片与详细定价表不一致。"
+        },
+        "description": {
+          "en": "The Monthly cards show promotional USD 69.30, USD 174.30 and USD 349.30, but the detailed table continues to show USD 49, USD 129 and USD 249. The page does not clearly expose actual annual totals, so users should confirm currency, tax, billing period and final amount at checkout.",
+          "zh": "Monthly 卡片显示促销价 69.30、174.30、349.30 美元，但详细表继续显示 49、129、249 美元。页面也未明确展示实际年度总额，用户应在结账时确认币种、税费、计费周期和最终金额。"
+        },
+        "sourceUrls": ["https://www.sorank.com/pricing", "https://www.sorank.com/terms-of-use"],
+        "verifiedAt": "2026-11-28"
+      },
+      {
+        "summary": {
+          "en": "Contextual backlink placement can modify links inside published content unless the feature is turned off; cancellation does not automatically remove existing placements.",
+          "zh": "除非关闭 contextual backlink placement，否则它可能修改已发布内容中的链接；取消订阅不会自动移除已有 placement。"
+        },
+        "description": {
+          "en": "SoRank's terms describe contextual placement on sites with an active paid subscription. Turning the feature off stops new placements but does not remove links already inserted; the customer can request removal within the stated 15-day window. This is a material publishing-control consideration.",
+          "zh": "SoRank 条款描述了在拥有有效付费订阅的站点进行 contextual placement。关闭功能只会停止新 placement，不会移除已插入链接；客户可在所述 15 天窗口内申请移除。这是重要的发布控制风险。"
+        },
+        "sourceUrls": ["https://www.sorank.com/terms-of-use", "https://www.sorank.com/terms-and-conditions-of-sale"],
+        "verifiedAt": "2026-11-28"
+      },
+      {
+        "summary": {
+          "en": "AI-generated content remains the customer's responsibility, and autopilot can publish without human pre-review.",
+          "zh": "AI 生成内容仍由客户负责，autopilot 可能在没有人工预审的情况下发布。"
+        },
+        "description": {
+          "en": "SoRank supports draft review and approval, but also allows scheduled automatic publishing. Its terms place responsibility for generated content on the customer, so factual, legal and brand review should be configured before enabling unattended publication.",
+          "zh": "SoRank 支持草稿审核和批准，但也允许按计划自动发布。条款将生成内容责任归于客户，因此启用无人值守发布前应配置事实、法律和品牌审查。"
+        },
+        "sourceUrls": ["https://www.sorank.com/pricing", "https://www.sorank.com/terms-and-conditions-of-sale", "https://www.sorank.com/terms-of-use"],
+        "verifiedAt": "2026-11-28"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Choose SoRank GEO Audit for a fast, free single-page readiness checklist, especially when crawler access and structured data are the first concerns. Treat the score as diagnostic rather than predictive, and review promotional pricing, contextual-link controls and autopublishing settings before buying the broader suite.",
+          "zh": "需要快速、免费的单页就绪度检查，尤其关注爬虫访问和结构化数据时，可选 SoRank GEO Audit。分数应视为诊断而非预测；购买更广泛套件前，应审查促销价格、上下文链接控制和自动发布设置。"
+        },
+        "sourceUrls": ["https://www.sorank.com/seo-tool/geo-audit", "https://www.sorank.com/pricing", "https://www.sorank.com/terms-of-use"],
+        "verifiedAt": "2026-11-28"
+      }
+    ],
+    "platforms": ["ChatGPT", "Claude", "Gemini", "Grok", "Google AI Overviews"],
+    "pricing": "Freemium",
+    "sources": [
+      { "label": { "en": "SoRank GEO Audit", "zh": "SoRank GEO 审计" }, "url": "https://www.sorank.com/seo-tool/geo-audit" },
+      { "label": { "en": "SoRank pricing", "zh": "SoRank 定价" }, "url": "https://www.sorank.com/pricing" },
+      { "label": { "en": "SoRank terms of use", "zh": "SoRank 使用条款" }, "url": "https://www.sorank.com/terms-of-use" },
+      { "label": { "en": "SoRank sale conditions", "zh": "SoRank 销售条件" }, "url": "https://www.sorank.com/terms-and-conditions-of-sale" },
+      { "label": { "en": "SoRank refund policy", "zh": "SoRank 退款政策" }, "url": "https://www.sorank.com/refund-and-cancellation-policy" },
+      { "label": { "en": "SoRank privacy policy", "zh": "SoRank 隐私政策" }, "url": "https://www.sorank.com/privacy-policy" },
+      { "label": { "en": "SoRank legal notice", "zh": "SoRank 法律公告" }, "url": "https://www.sorank.com/legal-notice" },
+      { "label": { "en": "SoRank contact", "zh": "SoRank 联系方式" }, "url": "https://www.sorank.com/contact" }
+    ],
+    "verifiedAt": "2026-11-28",
+    "status": "published",
+    "featuredOrder": 147,
+    "sponsored": false
   }
 ]
