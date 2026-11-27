@@ -21422,5 +21422,1468 @@
         "verifiedAt": "2026-11-26"
       }
     ]
+  },
+  {
+    "slug": "pixis-visibility",
+    "name": "Pixis Visibility",
+    "category": "ai-visibility",
+    "website": "https://pixis.ai/products/pixis-visibility/",
+    "logo": null,
+    "description": {
+      "en": "Credit-based AI visibility platform that tracks ChatGPT, Gemini, Perplexity and Claude, then turns audit findings into content briefs, drafts and published pages.",
+      "zh": "基于 credits 的 AI 可见性平台，追踪 ChatGPT、Gemini、Perplexity 和 Claude，并把审计发现转化为内容简报、草稿与可发布页面。"
+    },
+    "tags": {
+      "en": ["AI visibility tracking", "Citation analysis", "GEO content execution"],
+      "zh": ["AI 可见性追踪", "引用分析", "GEO 内容执行"]
+    },
+    "features": {
+      "en": [
+        "ChatGPT, Gemini, Perplexity and Claude tracking on every plan",
+        "Mentions, citations, competitor prompts, sentiment and framing",
+        "Custom prompt monitoring with live answer views",
+        "SEO, GEO and technical audits",
+        "Content briefs, drafts and WordPress publishing",
+        "Google Search Console and Slack integrations",
+        "Agency workspaces and white-label reports",
+        "MCP access, automations and scheduled reports"
+      ],
+      "zh": [
+        "所有套餐均追踪 ChatGPT、Gemini、Perplexity 和 Claude",
+        "提及、引用、竞品提示词、情绪与表述框架分析",
+        "自定义提示词监测与实时回答查看",
+        "SEO、GEO 与技术审计",
+        "内容简报、草稿与 WordPress 发布",
+        "Google Search Console 与 Slack 集成",
+        "代理商工作空间与白标报告",
+        "MCP 访问、自动化与定时报告"
+      ]
+    },
+    "audience": {
+      "en": "Marketing and content teams, agencies and multi-brand organizations that need AI answer monitoring together with SEO and content execution.",
+      "zh": "需要同时进行 AI 回答监测、SEO 与内容执行的营销和内容团队、代理商及多品牌组织。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Track brand mentions, citations, competitor appearances, sentiment and framing for custom prompts across four answer engines, with views by funnel stage and region.",
+          "zh": "针对自定义提示词，在四个回答引擎上追踪品牌提及、引用、竞品出现、情绪和表述框架，并按漏斗阶段与地区查看。"
+        },
+        "summary": {
+          "en": "Monitor mentions, citations, competitors, sentiment and framing across ChatGPT, Gemini, Perplexity and Claude.",
+          "zh": "在 ChatGPT、Gemini、Perplexity 和 Claude 上监测提及、引用、竞品、情绪与表述框架。"
+        },
+        "sourceUrls": [
+          "https://pixis.ai/products/pixis-visibility/",
+          "https://pixis.ai/products/pixis-visibility/pricing/"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "Run SEO, GEO and technical audits, generate prioritized briefs and first drafts, and publish through WordPress; teams can also connect Google Search Console and send reports to Slack.",
+          "zh": "运行 SEO、GEO 和技术审计，生成按优先级排序的简报与初稿，并通过 WordPress 发布；团队还可连接 Google Search Console，并将报告发送到 Slack。"
+        },
+        "summary": {
+          "en": "Audit pages, create briefs and drafts, publish to WordPress, and connect GSC or Slack.",
+          "zh": "审计页面、生成简报与草稿、发布到 WordPress，并连接 GSC 或 Slack。"
+        },
+        "sourceUrls": [
+          "https://pixis.ai/products/pixis-visibility/",
+          "https://pixis.ai/products/pixis-visibility/pricing/"
+        ],
+        "verifiedAt": "2026-11-26"
+      }
+    ],
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "Free is $0 with a starting allowance of 850 credits and no credit card. It includes SEO, GEO, Technical and Execute access, prompt analysis, briefs, drafts and audits, plus tracking on all four included AI engines.",
+          "zh": "Free 为 0 美元，提供起始 850 credits，无需信用卡；包含 SEO、GEO、Technical 和 Execute 权限、提示词分析、简报、草稿与审计，并追踪全部四个内置 AI 引擎。"
+        },
+        "summary": {
+          "en": "Free: $0, 850 starting credits, no card, core SEO/GEO/technical tools and four-engine tracking.",
+          "zh": "Free：0 美元、起始 850 credits、无需信用卡，含核心 SEO／GEO／技术工具和四引擎追踪。"
+        },
+        "sourceUrls": [
+          "https://pixis.ai/products/pixis-visibility/pricing/"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "Growth is listed at $100 with 1,000 credits renewed every month and $0.100 per credit. Premium is listed at $400 with 5,000 credits renewed every month and $0.080 per credit. Growth adds automations, scheduled reports and email support; Premium adds priority support and higher-volume content and audit use. The public page does not explicitly label the billing period beside either listed price or publish annual totals.",
+          "zh": "Growth 标价 100 美元，每月更新 1,000 credits，每 credit 0.100 美元；Premium 标价 400 美元，每月更新 5,000 credits，每 credit 0.080 美元。Growth 增加自动化、定时报告和邮件支持；Premium 增加优先支持及更高量的内容与审计用量。公开页面没有在这两个标价旁明确标注计费周期，也未公布年度总额。"
+        },
+        "summary": {
+          "en": "Growth $100 and Premium $400 are listed prices with 1,000/5,000 credits per month; the price billing period and annual totals are not explicit.",
+          "zh": "Growth 标价 100 美元、Premium 标价 400 美元，分别每月 1,000／5,000 credits；价格计费周期与年度总额未明确。"
+        },
+        "sourceUrls": [
+          "https://pixis.ai/products/pixis-visibility/pricing/"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "Enterprise uses custom pricing and credits. It includes custom AI engines, content and clusters, custom integrations, a dedicated manager and all-time history, and requires booking a demo.",
+          "zh": "Enterprise 采用定制价格与 credits，包含自定义 AI 引擎、内容和主题集群、自定义集成、专属客户经理及全部历史记录，需要预约演示。"
+        },
+        "summary": {
+          "en": "Enterprise is custom-priced with custom engines, integrations, a dedicated manager and all-time history.",
+          "zh": "Enterprise 定制报价，含自定义引擎、集成、专属客户经理和全部历史记录。"
+        },
+        "sourceUrls": [
+          "https://pixis.ai/products/pixis-visibility/pricing/"
+        ],
+        "verifiedAt": "2026-11-26"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "Monthly credit renewal does not by itself establish the billing interval for the listed $100 and $400 prices. The public pricing page gives no annual totals, so buyers should confirm the actual charge period and credit consumption at checkout rather than treating these figures as verified monthly charges.",
+          "zh": "每月更新 credits 本身不能证明标价 100 和 400 美元的计费周期。公开定价页没有年度总额，购买前应在结账页确认实际收费周期与 credit 消耗，不应把这两个数字直接当作已核实的月付金额。"
+        },
+        "summary": {
+          "en": "The $100/$400 price billing period is unstated; monthly credit renewal is not proof of monthly billing.",
+          "zh": "100／400 美元标价的计费周期未说明；每月更新 credits 不等于已证实按月收费。"
+        },
+        "sourceUrls": [
+          "https://pixis.ai/products/pixis-visibility/pricing/"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "The product terms state that AI output may be inaccurate or incomplete and requires human review. AI features use providers including OpenAI, OpenRouter and HIX AI; the pricing FAQ says customer data is not used to train models, but inference still involves sending relevant data to those providers.",
+          "zh": "产品条款说明 AI 输出可能不准确或不完整，需要人工复核。AI 功能使用 OpenAI、OpenRouter 和 HIX AI 等提供商；定价 FAQ 称客户数据不用于训练模型，但推理仍会向这些提供商发送相关数据。"
+        },
+        "summary": {
+          "en": "AI output needs human review; inference uses third-party providers even though Pixis says customer data is not used for training.",
+          "zh": "AI 输出需人工复核；尽管 Pixis 称客户数据不用于训练，推理仍会使用第三方提供商。"
+        },
+        "sourceUrls": [
+          "https://visibility.pixis.ai/terms",
+          "https://pixis.ai/products/pixis-visibility/pricing/"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "The corporate privacy policy identifies Aiquire Inc. doing business as Pixis and explicitly covers Pixis Visibility. The application privacy policy and terms use Pixis or Pixis Visibility branding; users should rely on the corporate policy for the named operating entity and review both documents before submitting brand or website data.",
+          "zh": "公司隐私政策明确运营主体为以 Pixis 名义经营的 Aiquire Inc.，并覆盖 Pixis Visibility。应用隐私政策与条款使用 Pixis 或 Pixis Visibility 品牌名称；提交品牌或网站数据前，应结合公司政策确认运营主体并阅读两份文件。"
+        },
+        "summary": {
+          "en": "Aiquire Inc. d/b/a Pixis is the named operator; app documents use Pixis Visibility branding and should be reviewed alongside the corporate policy.",
+          "zh": "公司政策列明运营主体为以 Pixis 名义经营的 Aiquire Inc.；应用文件使用 Pixis Visibility 品牌，应结合公司政策阅读。"
+        },
+        "sourceUrls": [
+          "https://pixis.ai/privacy-policy/",
+          "https://visibility.pixis.ai/privacy",
+          "https://visibility.pixis.ai/terms"
+        ],
+        "verifiedAt": "2026-11-26"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Pixis Visibility is an ongoing, credit-based workflow spanning four AI engines, audits and content publishing; Growth and Premium list $100 and $400 but do not explicitly state the price billing period. Radar by Pixelmojo is organized around fixed-scope audits: $5/$12/$40 packs for 1/3/10 audits, or $199/month for 40 full audits and weekly monitoring of up to 12 approved questions on one site. Choose Pixis for continuous visibility and content execution; choose Radar when a defined audit package and explicit per-audit pricing fit the workload.",
+          "zh": "Pixis Visibility 是覆盖四个 AI 引擎、审计和内容发布的持续性 credits 工作流；Growth 与 Premium 标价 100 和 400 美元，但没有明确说明价格计费周期。Radar by Pixelmojo 以固定范围审计为主：5／12／40 美元套餐分别含 1／3／10 次审计，或每月 199 美元含 40 次完整审计，以及一个站点最多 12 个已批准问题的每周监测。需要持续可见性与内容执行时选 Pixis；需要范围明确、单次审计价格清晰时选 Radar。"
+        },
+        "alternativeSlug": "pixelmojo-radar",
+        "sourceUrls": [
+          "https://pixis.ai/products/pixis-visibility/pricing/",
+          "https://www.pixelmojo.io/platform"
+        ],
+        "verifiedAt": "2026-11-26"
+      }
+    ],
+    "platforms": ["Web"],
+    "pricing": "Freemium",
+    "sources": [
+      {
+        "label": { "en": "Pixis Visibility product page", "zh": "Pixis Visibility 产品页" },
+        "url": "https://pixis.ai/products/pixis-visibility/"
+      },
+      {
+        "label": { "en": "Pixis Visibility pricing", "zh": "Pixis Visibility 定价" },
+        "url": "https://pixis.ai/products/pixis-visibility/pricing/"
+      },
+      {
+        "label": { "en": "Pixis Visibility application", "zh": "Pixis Visibility 应用" },
+        "url": "https://visibility.pixis.ai/"
+      },
+      {
+        "label": { "en": "Pixis Visibility privacy policy", "zh": "Pixis Visibility 隐私政策" },
+        "url": "https://visibility.pixis.ai/privacy"
+      },
+      {
+        "label": { "en": "Pixis Visibility terms", "zh": "Pixis Visibility 服务条款" },
+        "url": "https://visibility.pixis.ai/terms"
+      },
+      {
+        "label": { "en": "Pixis corporate privacy policy", "zh": "Pixis 公司隐私政策" },
+        "url": "https://pixis.ai/privacy-policy/"
+      },
+      {
+        "label": { "en": "Radar product page (comparison reference)", "zh": "Radar 产品页（对比参考）" },
+        "url": "https://www.pixelmojo.io/platform"
+      }
+    ],
+    "verifiedAt": "2026-11-26",
+    "status": "published",
+    "featuredOrder": 133,
+    "sponsored": false
+  },
+  {
+    "slug": "pixelmojo-radar",
+    "name": "Radar by Pixelmojo",
+    "category": "geo-audit",
+    "website": "https://www.pixelmojo.io/platform",
+    "logo": null,
+    "description": {
+      "en": "Self-service 13-tool AI visibility audit combining free technical readiness checks with paid live AI-response, citation and competitor tests.",
+      "zh": "自助式 13 工具 AI 可见性审计，将免费技术准备度检查与付费的实时 AI 回答、引用和竞品测试结合。"
+    },
+    "tags": {
+      "en": ["AI readiness audit", "AI citation testing", "Competitor share of voice"],
+      "zh": ["AI 准备度审计", "AI 引用测试", "竞品声量占比"]
+    },
+    "features": {
+      "en": [
+        "13-tool GEO, AEO and LLM citation audit",
+        "Six free technical checks and an AI Readiness score",
+        "Paid live AI tests for citations, source influence and hallucination detection",
+        "Reddit and YouTube brand monitoring",
+        "Prompt Share of Voice and competitor benchmarking",
+        "PDF reports, score history and comparisons",
+        "Pro weekly pulse re-scans and monitoring of up to 12 approved questions",
+        "Public full sample report covering four live answer engines"
+      ],
+      "zh": [
+        "13 工具 GEO、AEO 与 LLM 引用审计",
+        "六项免费技术检查与 AI Readiness 评分",
+        "付费实时 AI 测试，覆盖引用、来源影响和幻觉检测",
+        "Reddit 与 YouTube 品牌监测",
+        "提示词声量占比与竞品基准对比",
+        "PDF 报告、评分历史与对比",
+        "Pro 每周脉冲复扫，并监测最多 12 个已批准问题",
+        "覆盖四个实时回答引擎的完整公开样例报告"
+      ]
+    },
+    "audience": {
+      "en": "Agencies, in-house SEO and GEO teams, and businesses that need a defined audit package before prioritizing website and AI-search fixes.",
+      "zh": "需要在确定网站与 AI 搜索修复优先级前购买明确审计套餐的代理商、内部 SEO／GEO 团队及企业。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Run a point-in-time domain audit to inspect crawler access, robots.txt, llms.txt, schema, page readiness and entity signals, then turn severity and effort findings into an action list.",
+          "zh": "进行单次域名审计，检查爬虫访问、robots.txt、llms.txt、结构化数据、页面准备度和实体信号，再按严重程度与工作量形成修复清单。"
+        },
+        "summary": {
+          "en": "Audit crawl access, schema, page readiness and entity signals, with prioritized technical fixes.",
+          "zh": "审计爬虫访问、结构化数据、页面准备度和实体信号，并生成优先技术修复清单。"
+        },
+        "sourceUrls": [
+          "https://www.pixelmojo.io/platform"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "Use a paid full audit to test answer-engine citations, source influence, prompt Share of Voice, hallucinations and brand disambiguation; Pro adds weekly pulse re-scans and monitoring of up to 12 approved questions for one site.",
+          "zh": "通过付费完整审计测试回答引擎引用、来源影响、提示词声量占比、幻觉和品牌消歧；Pro 增加每周脉冲复扫，并监测一个站点最多 12 个已批准问题。"
+        },
+        "summary": {
+          "en": "Test citations, source influence, prompt share of voice and hallucinations; Pro monitors up to 12 questions weekly.",
+          "zh": "测试引用、来源影响、提示词声量占比与幻觉；Pro 每周监测最多 12 个问题。"
+        },
+        "sourceUrls": [
+          "https://www.pixelmojo.io/platform"
+        ],
+        "verifiedAt": "2026-11-26"
+      }
+    ],
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "Free is $0 with email-code verification and no credit card. It includes six technical tools, the AI Readiness score and five strategist messages; the seven live AI-response checks are paid.",
+          "zh": "Free 为 0 美元，通过邮箱验证码核验且无需信用卡；包含六项技术工具、AI Readiness 评分和五条 strategist 消息，七项实时 AI 回答检查需付费。"
+        },
+        "summary": {
+          "en": "Free: $0, email-code verification, no card, six technical tools, readiness score and five strategist messages.",
+          "zh": "Free：0 美元、邮箱验证码、无需信用卡，含六项技术工具、准备度评分和五条 strategist 消息。"
+        },
+        "sourceUrls": [
+          "https://www.pixelmojo.io/platform",
+          "https://www.pixelmojo.io/terms-of-service"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "One full audit costs $5; three cost $12 ($4 each); ten cost $40 ($4 each). Purchased audit credits do not expire.",
+          "zh": "一次完整审计 5 美元；三次 12 美元（每次 4 美元）；十次 40 美元（每次 4 美元）。购买的审计 credits 不过期。"
+        },
+        "summary": {
+          "en": "Audit packs: 1 for $5, 3 for $12, or 10 for $40; purchased credits never expire.",
+          "zh": "审计套餐：1 次 5 美元、3 次 12 美元或 10 次 40 美元；购买的 credits 不过期。"
+        },
+        "sourceUrls": [
+          "https://www.pixelmojo.io/platform"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "Pro is $199/month with 40 full audits each month, all 13 tools, watched domains, weekly pulse re-scans, weekly AI-answer monitoring of up to 12 approved questions for one site, unlimited strategist access, PDF reports, history and comparisons. There is no annual contract; the monthly allowance resets and unused Pro audits do not roll over.",
+          "zh": "Pro 每月 199 美元，含每月 40 次完整审计、全部 13 个工具、监听域名、每周脉冲复扫、一个站点最多 12 个已批准问题的每周 AI 回答监测、无限 strategist 使用、PDF 报告、历史与对比。无年度合同；月度额度重置，未用的 Pro 审计次数不结转。"
+        },
+        "summary": {
+          "en": "Pro $199/month: 40 audits, all 13 tools, weekly re-scans and up to 12 monitored questions on one site; no rollover.",
+          "zh": "Pro 每月 199 美元：40 次审计、全部 13 个工具、每周复扫及一个站点最多 12 个监测问题；额度不结转。"
+        },
+        "sourceUrls": [
+          "https://www.pixelmojo.io/platform",
+          "https://www.pixelmojo.io/terms-of-service"
+        ],
+        "verifiedAt": "2026-11-26"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "The product page describes one free technical readiness audit per domain, while the terms describe one free tool test per email address verified by email code, with the current lineup shown on the tools page. Exact free eligibility therefore depends on the current flow; repeated free full audits should not be assumed.",
+          "zh": "产品页描述每个域名可进行一次免费技术准备度审计，而条款描述每个邮箱经验证码核验可进行一次免费工具测试，具体项目以当前工具页为准。因此免费资格取决于当前流程，不应假定可重复获得免费完整审计。"
+        },
+        "summary": {
+          "en": "Free eligibility differs by domain on the product page and by verified email in the terms; repeated free full audits are not guaranteed.",
+          "zh": "产品页按域名、条款按已验证邮箱描述免费资格；不保证可重复获得免费完整审计。"
+        },
+        "sourceUrls": [
+          "https://www.pixelmojo.io/platform",
+          "https://www.pixelmojo.io/terms-of-service"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "Live AI answers change over time, and Radar does not guarantee citations, rankings, visibility or commercial outcomes. A credit is consumed when a run starts, including a partially completed run; Pro allowances reset monthly and do not roll over.",
+          "zh": "实时 AI 回答会随时间变化，Radar 不保证引用、排名、可见性或商业结果。运行开始即消耗 credit，包括未完成的运行；Pro 额度每月重置且不结转。"
+        },
+        "summary": {
+          "en": "Results are time-sensitive with no outcome guarantee; started runs consume credits and Pro allowances do not roll over.",
+          "zh": "结果受时间影响且不保证成效；运行开始即消耗 credits，Pro 额度不结转。"
+        },
+        "sourceUrls": [
+          "https://www.pixelmojo.io/terms-of-service"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "Submitted domains are sent to OpenAI, Anthropic, Google and Perplexity, and public Reddit and YouTube content may be scanned. Answer text, citations and page reviews are deleted after 90 days, but mention and citation indicators may remain; improvement records have no automatic expiry, and a hashed record of free-trial use remains after erasure.",
+          "zh": "提交的域名会发送给 OpenAI、Anthropic、Google 和 Perplexity，并可能扫描公开 Reddit 与 YouTube 内容。回答文本、引用和页面评审在 90 天后删除，但提及与引用指标可能保留；改进记录不会自动过期，擦除后仍会保留免费试用使用的哈希记录。"
+        },
+        "summary": {
+          "en": "Domains go to four AI providers; answer data deletes after 90 days, while indicators, improvement records and a trial-use hash may remain.",
+          "zh": "域名会发送给四家 AI 提供商；回答数据 90 天后删除，指标、改进记录和试用使用哈希可能保留。"
+        },
+        "sourceUrls": [
+          "https://www.pixelmojo.io/privacy-policy"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "Paddle is the Merchant of Record for Radar credit payments. Refund requests are accepted within 14 days subject to the refund policy's eligibility conditions; professional-services fees are separate and non-refundable once work begins.",
+          "zh": "Radar credit 付款由 Paddle 作为 Merchant of Record。退款政策允许在 14 天内提出申请，但需满足资格条件；专业服务费用单独处理，工作开始后不退款。"
+        },
+        "summary": {
+          "en": "Paddle is Merchant of Record; Radar refunds have a conditional 14-day request window, while started professional services are non-refundable.",
+          "zh": "Paddle 为 Merchant of Record；Radar 退款有 14 天申请期及附加条件，已开始的专业服务不退款。"
+        },
+        "sourceUrls": [
+          "https://www.pixelmojo.io/refund-policy",
+          "https://www.pixelmojo.io/terms-of-service"
+        ],
+        "verifiedAt": "2026-11-26"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Radar combines six free technical checks with paid live AI-response checks and audit packs from $5; its $199/month Pro plan includes 40 full audits and weekly monitoring of up to 12 approved questions on one site. Lumina GEO Readiness offers no-signup, unlimited core 66-check audits and 50-URL batches, but its Action Plan, Answer Capsules and Live Probe share a free quota of 10 calls per day unless the user supplies an OpenAI key. Choose Radar for a packaged technical-plus-live-answer audit; choose Lumina for frequent free static audits and optional bring-your-own-key AI calls.",
+          "zh": "Radar 将六项免费技术检查与付费实时 AI 回答检查结合，审计套餐 5 美元起；每月 199 美元的 Pro 含 40 次完整审计，以及一个站点最多 12 个已批准问题的每周监测。Lumina GEO Readiness 提供无需注册、不限次数的核心 66 项检查和最多 50 个 URL 的批量审计，但 Action Plan、Answer Capsules 与 Live Probe 共用每天 10 次免费额度，除非用户提供 OpenAI key。需要打包的技术加实时回答审计时选 Radar；需要频繁免费静态审计和可选自带 key 的 AI 调用时选 Lumina。"
+        },
+        "alternativeSlug": "lumina-geo-readiness",
+        "sourceUrls": [
+          "https://www.pixelmojo.io/platform",
+          "https://lumina-seo.com/tools/geo-readiness/"
+        ],
+        "verifiedAt": "2026-11-26"
+      }
+    ],
+    "platforms": ["Web"],
+    "pricing": "Freemium",
+    "sources": [
+      {
+        "label": { "en": "Radar product and pricing page", "zh": "Radar 产品与定价页" },
+        "url": "https://www.pixelmojo.io/platform"
+      },
+      {
+        "label": { "en": "Radar full sample report", "zh": "Radar 完整样例报告" },
+        "url": "https://www.pixelmojo.io/platform/sample-report"
+      },
+      {
+        "label": { "en": "Pixelmojo terms of service", "zh": "Pixelmojo 服务条款" },
+        "url": "https://www.pixelmojo.io/terms-of-service"
+      },
+      {
+        "label": { "en": "Pixelmojo privacy policy", "zh": "Pixelmojo 隐私政策" },
+        "url": "https://www.pixelmojo.io/privacy-policy"
+      },
+      {
+        "label": { "en": "Pixelmojo refund policy", "zh": "Pixelmojo 退款政策" },
+        "url": "https://www.pixelmojo.io/refund-policy"
+      },
+      {
+        "label": { "en": "Lumina GEO Readiness (comparison reference)", "zh": "Lumina GEO Readiness（对比参考）" },
+        "url": "https://lumina-seo.com/tools/geo-readiness/"
+      }
+    ],
+    "verifiedAt": "2026-11-26",
+    "status": "published",
+    "featuredOrder": 134,
+    "sponsored": false
+  },
+  {
+    "slug": "lumina-geo-readiness",
+    "name": "Lumina GEO Readiness",
+    "category": "geo-audit",
+    "website": "https://lumina-seo.com/tools/geo-readiness/",
+    "logo": null,
+    "description": {
+      "en": "Free, no-signup GEO readiness auditor with 66 checks per page, 50-URL batch mode, per-engine scoring and an optional live OpenAI citation probe.",
+      "zh": "免费、无需注册的 GEO 准备度审计工具，每页执行 66 项检查，支持最多 50 个 URL 批量审计、分引擎评分和可选实时 OpenAI 引用探测。"
+    },
+    "tags": {
+      "en": ["Free GEO audit", "Batch site audit", "AI citation probe"],
+      "zh": ["免费 GEO 审计", "批量网站审计", "AI 引用探测"]
+    },
+    "features": {
+      "en": [
+        "66 checks per page across seven GEO categories",
+        "Crawler access checks covering 24 bots",
+        "Per-engine scoring for ChatGPT, Perplexity, Google AI Overviews, Gemini and Bing Copilot",
+        "Section-level citability heatmap and sentence analysis",
+        "Batch mode for up to 50 URLs with cross-page findings",
+        "CSV and report export",
+        "Live Probe sends three generated queries to an OpenAI model with web search",
+        "Unlimited core audits plus optional bring-your-own-key AI use"
+      ],
+      "zh": [
+        "每页跨七类 GEO 项目执行 66 项检查",
+        "覆盖 24 个爬虫的访问检查",
+        "为 ChatGPT、Perplexity、Google AI Overviews、Gemini 和 Bing Copilot 分别评分",
+        "区块级可引用性热力图与句子分析",
+        "最多 50 个 URL 的批量模式及跨页面发现",
+        "CSV 与报告导出",
+        "Live Probe 将三个生成查询发送给带网页搜索的 OpenAI 模型",
+        "不限次数的核心审计，以及可选的自带 key AI 使用"
+      ]
+    },
+    "audience": {
+      "en": "Site owners, SEO practitioners and content teams that want free page and batch diagnostics before investing in ongoing AI visibility monitoring.",
+      "zh": "希望在投入持续 AI 可见性监测前获得免费单页与批量诊断的网站所有者、SEO 从业者和内容团队。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Audit one page or up to 50 URLs for crawler access, structured data, content citability, technical signals, entity consistency and llms.txt signals, then prioritize cross-page failures.",
+          "zh": "对单个页面或最多 50 个 URL 审计爬虫访问、结构化数据、内容可引用性、技术信号、实体一致性和 llms.txt 信号，并确定跨页面问题的优先级。"
+        },
+        "summary": {
+          "en": "Run free single-page or 50-URL audits across crawl, schema, content, technical and entity signals.",
+          "zh": "免费审计单页或最多 50 个 URL，覆盖爬虫、结构化数据、内容、技术和实体信号。"
+        },
+        "sourceUrls": [
+          "https://lumina-seo.com/tools/geo-readiness/"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "Use section heatmaps, sentence-level suggestions, Answer Capsules and the Live Probe to identify extractability problems and check whether the exact URL appears in citations from an OpenAI model's web search.",
+          "zh": "使用区块热力图、句子级建议、Answer Capsules 和 Live Probe 识别可提取性问题，并检查精确 URL 是否出现在 OpenAI 模型网页搜索的引用中。"
+        },
+        "summary": {
+          "en": "Find extraction problems with heatmaps and rewrite suggestions, then test URL citations through Live Probe.",
+          "zh": "通过热力图和改写建议发现提取问题，再用 Live Probe 测试 URL 引用。"
+        },
+        "sourceUrls": [
+          "https://lumina-seo.com/tools/geo-readiness/"
+        ],
+        "verifiedAt": "2026-11-26"
+      }
+    ],
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "The core tool is completely free with no signup. The 66-check audit, per-engine scoring, section heatmap, sentence analysis and batch mode for up to 50 URLs run without limits.",
+          "zh": "核心工具完全免费且无需注册。66 项检查、分引擎评分、区块热力图、句子分析和最多 50 个 URL 的批量模式均不限次数。"
+        },
+        "summary": {
+          "en": "Free with no signup: unlimited 66-check audits, per-engine scores, heatmaps, sentence analysis and 50-URL batches.",
+          "zh": "免费无需注册：不限次数的 66 项检查、分引擎评分、热力图、句子分析和 50 URL 批量审计。"
+        },
+        "sourceUrls": [
+          "https://lumina-seo.com/tools/geo-readiness/"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "Action Plan, Answer Capsules and Live Probe share a free quota of 10 calls per day. Users can bring their own OpenAI key for unlimited use; OpenAI provider costs are paid directly by the user rather than through a Lumina subscription.",
+          "zh": "Action Plan、Answer Capsules 和 Live Probe 共用每天 10 次免费额度。用户可自带 OpenAI key 不限次数使用；OpenAI 提供商费用由用户直接支付，不通过 Lumina 订阅收取。"
+        },
+        "summary": {
+          "en": "Three AI features share 10 free calls/day; bring your own OpenAI key for unlimited use and pay the provider directly.",
+          "zh": "三项 AI 功能共用每天 10 次免费额度；自带 OpenAI key 可不限次数使用，并直接向提供商付费。"
+        },
+        "sourceUrls": [
+          "https://lumina-seo.com/tools/geo-readiness/"
+        ],
+        "verifiedAt": "2026-11-26"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "Content and schema weightings are Lumina's own heuristics, not rules published by the answer engines. Per-engine rings are intended to compare areas of a page, not to predict whether an engine will cite it.",
+          "zh": "内容与结构化数据权重是 Lumina 自己的启发式规则，不是回答引擎公布的规则。分引擎环形图用于比较页面不同方面，不能预测引擎是否会引用该页。"
+        },
+        "summary": {
+          "en": "Weights are proprietary heuristics; per-engine scores compare areas but do not predict citations.",
+          "zh": "权重为自有启发式；分引擎评分用于比较方面，不能预测引用。"
+        },
+        "sourceUrls": [
+          "https://lumina-seo.com/tools/geo-readiness/"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "Live Probe generates three queries and sends them to one OpenAI model with web search. It does not test the ChatGPT consumer product or the other engines, and answers can change between runs; answer-capsule length is also a writing heuristic rather than an engine requirement.",
+          "zh": "Live Probe 生成三个查询，并发送给一个带网页搜索的 OpenAI 模型。它不测试 ChatGPT 消费端产品或其他引擎，回答可能在不同运行间变化；Answer Capsule 的长度也只是写作启发式，不是引擎要求。"
+        },
+        "summary": {
+          "en": "Live Probe tests one OpenAI model with three changing queries, not ChatGPT or every engine; capsule length is heuristic.",
+          "zh": "Live Probe 用三个会变化的查询测试一个 OpenAI 模型，不覆盖 ChatGPT 或所有引擎；胶囊长度为启发式。"
+        },
+        "sourceUrls": [
+          "https://lumina-seo.com/tools/geo-readiness/"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "Lumina is operated by Julien El-Bahy as a private individual in Austria, is not a registered business and states that it has no commercial intent. The public footer provides an imprint and privacy policy, but no dedicated Terms of Service page was found.",
+          "zh": "Lumina 由奥地利个人 Julien El-Bahy 运营，不是注册企业，并声明无商业意图。公开页脚提供 imprint 和隐私政策，但未找到独立服务条款页面。"
+        },
+        "summary": {
+          "en": "A private individual operates the free tool; a substantive imprint and privacy policy exist, but no dedicated Terms page was found.",
+          "zh": "该免费工具由个人运营；有实质性 imprint 和隐私政策，但未找到独立条款页。"
+        },
+        "sourceUrls": [
+          "https://lumina-seo.com/imprint",
+          "https://lumina-seo.com/privacy-policy"
+        ],
+        "verifiedAt": "2026-11-26"
+      },
+      {
+        "description": {
+          "en": "The extension's on-page checks run locally, while cloud AI requests are forwarded to OpenAI and data requests to DataForSEO. API keys stay in the browser or pass through the proxy; IP-based credit counters delete after 24 or 48 hours, cached DataForSEO answers remain for 24 hours to 7 days, and daily cost records without IP addresses are kept for 40 days.",
+          "zh": "扩展的页面检查在本地运行，云端 AI 请求转发给 OpenAI，数据请求转发给 DataForSEO。API key 保存在浏览器或仅通过代理传递；基于 IP 的额度计数在 24 或 48 小时后删除，缓存的 DataForSEO 回答保留 24 小时至 7 天，不含 IP 的每日成本记录保留 40 天。"
+        },
+        "summary": {
+          "en": "Cloud calls reach OpenAI/DataForSEO; keys stay browser-side or pass through, IP counters delete in 24–48 hours and cost records in 40 days.",
+          "zh": "云端调用会发送给 OpenAI／DataForSEO；key 保存在浏览器或仅传递，IP 计数 24–48 小时删除，成本记录 40 天删除。"
+        },
+        "sourceUrls": [
+          "https://lumina-seo.com/privacy-policy"
+        ],
+        "verifiedAt": "2026-11-26"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Lumina GEO Readiness is free with no signup and runs its core 66-check audit and 50-URL batches without limits; its three AI features share 10 free calls per day, or become unlimited with a user-supplied OpenAI key. Radar by Pixelmojo charges $5/$12/$40 for 1/3/10 full audits and $199/month for 40 audits plus weekly monitoring of up to 12 approved questions, but combines technical checks with paid live AI-response tests. Choose Lumina for repeated free diagnostics and self-managed AI costs; choose Radar for a packaged live-answer audit and scheduled monitoring.",
+          "zh": "Lumina GEO Readiness 免费且无需注册，核心 66 项检查和 50 URL 批量审计不限次数；三项 AI 功能共用每天 10 次免费额度，用户提供 OpenAI key 后可不限次数。Radar by Pixelmojo 的 1／3／10 次完整审计分别收费 5／12／40 美元，每月 199 美元含 40 次审计及最多 12 个已批准问题的每周监测，并将技术检查与付费实时 AI 回答测试结合。需要反复免费诊断并自行管理 AI 成本时选 Lumina；需要打包的实时回答审计和定期监测时选 Radar。"
+        },
+        "alternativeSlug": "pixelmojo-radar",
+        "sourceUrls": [
+          "https://lumina-seo.com/tools/geo-readiness/",
+          "https://www.pixelmojo.io/platform"
+        ],
+        "verifiedAt": "2026-11-26"
+      }
+    ],
+    "platforms": ["Web", "Chrome extension"],
+    "pricing": "Free",
+    "sources": [
+      {
+        "label": { "en": "Lumina GEO Readiness product page", "zh": "Lumina GEO Readiness 产品页" },
+        "url": "https://lumina-seo.com/tools/geo-readiness/"
+      },
+      {
+        "label": { "en": "Lumina privacy policy", "zh": "Lumina 隐私政策" },
+        "url": "https://lumina-seo.com/privacy-policy"
+      },
+      {
+        "label": { "en": "Lumina imprint", "zh": "Lumina imprint" },
+        "url": "https://lumina-seo.com/imprint"
+      },
+      {
+        "label": { "en": "Lumina about page", "zh": "Lumina 关于页" },
+        "url": "https://lumina-seo.com/about"
+      },
+      {
+        "label": { "en": "Radar product page (comparison reference)", "zh": "Radar 产品页（对比参考）" },
+        "url": "https://www.pixelmojo.io/platform"
+      }
+    ],
+    "verifiedAt": "2026-11-26",
+    "status": "published",
+    "featuredOrder": 135,
+    "sponsored": false
+  },
+  {
+    "slug": "opttab",
+    "name": "Opttab",
+    "category": "content-geo",
+    "website": "https://opttab.com/",
+    "logo": null,
+    "description": {
+      "en": "An AI search workspace that combines answer-engine visibility tracking with prompt generation, content briefs and drafts, citation-readiness scoring, review workflows and CMS publishing.",
+      "zh": "将答案引擎可见度追踪、提示词生成、内容简报与草稿、引用就绪度评分、审核流程和 CMS 发布集中在同一工作区的 AI 搜索平台。"
+    },
+    "tags": {
+      "en": ["Answer engine analytics", "Content studio", "AI publishing"],
+      "zh": ["答案引擎分析", "内容工作室", "AI 发布"]
+    },
+    "features": {
+      "en": [
+        "Track visibility, mentions, position, share of voice, sentiment, citations and cited source domains by AI model, country, language and prompt.",
+        "Compare competitors with leaderboards and head-to-head views, and schedule tracked prompts daily, weekly or monthly.",
+        "Generate content briefs and drafts from weak prompts or content gaps, score citation readiness, and review or approve output before publishing.",
+        "Import existing articles and publish through integrations such as WordPress; every plan also includes a website builder.",
+        "Export through reporting, API and MCP starting on Starter; higher plans add more workspaces, API keys, MCP servers and log capacity.",
+        "Plan and track outreach and include social posts and backlinks; guest posts start on Starter."
+      ],
+      "zh": [
+        "按 AI 模型、国家、语言和提示词追踪可见度、提及、位置、声量份额、情绪、引用与被引来源域名。",
+        "通过排行榜和正面对比比较竞品，并可按每天、每周或每月安排提示词追踪。",
+        "根据表现薄弱的提示词或内容缺口生成内容简报与草稿，评估引用就绪度，并在发布前审核或批准输出。",
+        "导入已有文章并通过 WordPress 等集成发布；所有套餐均含网站构建器。",
+        "从 Starter 起提供报表、API 和 MCP 导出；更高套餐增加工作区、API key、MCP 服务器和日志容量。",
+        "规划并追踪外联，套餐含社交帖文和反向链接；访客文章从 Starter 起提供。"
+      ]
+    },
+    "audience": {
+      "en": "GEO, SEO, content and growth teams that need answer monitoring and content execution in one workspace.",
+      "zh": "需要在同一工作区完成回答监测与内容执行的 GEO、SEO、内容和增长团队。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Build a recurring benchmark for brand visibility, cited sources and competitor share of voice across selected answer engines and markets.",
+          "zh": "针对选定答案引擎和市场，建立品牌可见度、引用来源与竞品声量份额的定期基准。"
+        },
+        "summary": {
+          "en": "Benchmark brand visibility, citations and competitor share by engine and market.",
+          "zh": "按引擎和市场比较品牌可见度、引用与竞品声量。"
+        },
+        "sourceUrls": ["https://opttab.com/platform/answer-engine-analytics"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "Turn prompts where the brand is weak or absent into briefs, drafts and optimization tasks, then review and publish approved content.",
+          "zh": "将品牌表现薄弱或缺失的提示词转化为简报、草稿和优化任务，审核后发布获批内容。"
+        },
+        "summary": {
+          "en": "Convert answer and content gaps into reviewed briefs, drafts and published pages.",
+          "zh": "把回答与内容缺口转化为经审核的简报、草稿和发布页面。"
+        },
+        "sourceUrls": ["https://opttab.com/platform/content-studio", "https://opttab.com/platform/prompt-generator"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "Feed measured answer performance into reporting, API or MCP workflows for agencies and multi-workspace teams.",
+          "zh": "将测得的回答表现接入报表、API 或 MCP 工作流，服务代理商和多工作区团队。"
+        },
+        "summary": {
+          "en": "Use reporting, API and MCP for agency and multi-workspace workflows.",
+          "zh": "用报表、API 和 MCP 支持代理商与多工作区流程。"
+        },
+        "sourceUrls": ["https://opttab.com/pricing", "https://opttab.com/platform/geo-aeo"],
+        "verifiedAt": "2026-11-27"
+      }
+    ],
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "Monthly self-serve plans are Lite at €49, Starter at €139 and Growth at €449. Lite includes 40 prompts, 6,000 responses per month, 5 content creations, 5 optimizations, 10 agent pages and 1 workspace, with Google AI Mode and Google AI Overviews. Starter includes 180 prompts, 24,000 responses, 10 creations, 10 optimizations, 20 agent pages, 20 product improvements and 2 workspaces, adding ChatGPT and Gemini. Growth includes 450 prompts, 48,000 responses, 40 creations, 40 optimizations, 100 agent pages, 200 product improvements, 400 outreach actions and 6 workspaces, adding Perplexity and Bing AI Mode. All three have unlimited users.",
+          "zh": "月付自助套餐为 Lite €49、Starter €139、Growth €449。Lite 含 40 个提示词、每月 6,000 次响应、5 次内容创作、5 次优化、10 个代理页面和 1 个工作区，覆盖 Google AI Mode 与 Google AI Overviews。Starter 含 180 个提示词、24,000 次响应、10 次创作、10 次优化、20 个代理页面、20 项产品改进和 2 个工作区，并增加 ChatGPT 与 Gemini。Growth 含 450 个提示词、48,000 次响应、40 次创作、40 次优化、100 个代理页面、200 项产品改进、400 次外联操作和 6 个工作区，并增加 Perplexity 与 Bing AI Mode。三档均不限用户数。"
+        },
+        "summary": {
+          "en": "Lite €49/mo: 40 prompts/6,000 responses; Starter €139: 180/24,000; Growth €449: 450/48,000. Content, agent-page and workspace quotas rise by tier.",
+          "zh": "Lite €49/月含 40 提示词/6,000 响应；Starter €139 含 180/24,000；Growth €449 含 450/48,000；内容、代理页面与工作区额度逐档增加。"
+        },
+        "sourceUrls": ["https://opttab.com/pricing"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "Yearly billing is €399 for Lite, €1,199 for Starter and €3,999 for Growth, billed upfront for 12 months. The page displays monthly equivalents of €33, €100 and €333 respectively. Prices exclude VAT and other applicable taxes, renew automatically, and cancellation takes effect at the end of the current billing period. Fees are generally non-refundable, subject to specific contractual exceptions.",
+          "zh": "Lite、Starter、Growth 的年付账单分别为 €399、€1,199、€3,999，一次性预付 12 个月；页面显示的月均折算价分别为 €33、€100、€333。价格不含增值税及其他适用税费，自动续费，取消在当前账期结束时生效。费用原则上不退，特定合同例外除外。"
+        },
+        "summary": {
+          "en": "Yearly upfront: €399 Lite, €1,199 Starter, €3,999 Growth (displayed €33/€100/€333 per month); VAT excluded, auto-renewing and generally non-refundable.",
+          "zh": "年付预付 €399／€1,199／€3,999（显示月均 €33／€100／€333）；不含增值税、自动续费且原则上不退。"
+        },
+        "sourceUrls": ["https://opttab.com/pricing", "https://opttab.com/legal/terms-of-service"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "Lite and Starter offer seven-day trials that require a payment card and convert to paid unless canceled. Growth and Enterprise have no trial. Unused allowances do not roll over. Enterprise promises unlimited prompts, responses, workspaces, agent pages, content and product improvements subject to fair use; overages may be restricted, upgraded or charged at platform rates.",
+          "zh": "Lite 与 Starter 提供七天试用，需要支付卡，未取消则转为付费。Growth 与 Enterprise 无试用。未使用额度不结转。Enterprise 在合理使用前提下承诺不限提示词、响应、工作区、代理页面、内容和产品改进；超限可能被限制、要求升级或按平台费率收费。"
+        },
+        "summary": {
+          "en": "Seven-day card-required trials on Lite/Starter auto-convert; Growth/Enterprise have none. No rollover; Enterprise unlimited is fair-use limited.",
+          "zh": "Lite／Starter 七天试用需支付卡并自动转付费；Growth／Enterprise 无试用；额度不结转，Enterprise 不限量受合理使用限制。"
+        },
+        "sourceUrls": ["https://opttab.com/pricing"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "Enterprise is custom-priced and adds Grok, Claude, Mistral and DeepSeek, SSO, a Brand Agent with its own MCP server, unlimited API and MCP access, and dedicated support. Starter includes 5 API keys, 1 MCP server and a 25,000,000 log count; Growth raises these to 20 keys, 10 MCP servers and 100,000,000. Reporting and API/MCP export start at Starter, while every plan includes social posts and backlinks and guest posts start at Starter.",
+          "zh": "Enterprise 定制定价，增加 Grok、Claude、Mistral、DeepSeek、SSO、带独立 MCP 服务器的 Brand Agent、不限 API 与 MCP 访问及专属支持。Starter 含 5 个 API key、1 个 MCP 服务器和 25,000,000 日志计数；Growth 提升至 20 个 key、10 个 MCP 服务器和 100,000,000。报表及 API／MCP 导出从 Starter 起提供；所有套餐含社交帖文与反向链接，访客文章从 Starter 起提供。"
+        },
+        "summary": {
+          "en": "Enterprise custom adds four engines, SSO and unlimited API/MCP; API/MCP and reporting start at Starter, with 5 keys/1 server versus Growth's 20/10.",
+          "zh": "Enterprise 定制，增加四个引擎、SSO 与不限 API／MCP；API／MCP 和报表从 Starter 起，5 key/1 服务器对比 Growth 的 20/10。"
+        },
+        "sourceUrls": ["https://opttab.com/pricing"],
+        "verifiedAt": "2026-11-27"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "One response is one tracked prompt run on one AI model, so multi-model schedules consume the allowance faster than the prompt count alone suggests. Tracking can be daily, weekly or monthly on every plan, but Meta AI is not tracked. Engine coverage expands by tier and Enterprise.",
+          "zh": "一次响应等于一个受追踪提示词在一个 AI 模型上的一次运行，因此多模型安排的额度消耗快于仅看提示词数量。所有套餐均可每天、每周或每月追踪，但不追踪 Meta AI。引擎覆盖随套餐与 Enterprise 扩展。"
+        },
+        "summary": {
+          "en": "Responses count prompt runs per model; multi-model schedules use quota faster. Meta AI is not tracked and engines vary by plan.",
+          "zh": "响应按提示词逐模型运行计次；多模型更快耗额度；不追踪 Meta AI，引擎随套餐变化。"
+        },
+        "sourceUrls": ["https://opttab.com/pricing", "https://opttab.com/platform/answer-engine-analytics"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "Measurements are snapshots of Opttab's own tracked prompts, not observations of real users' private ChatGPT conversations. Personalized answers can differ, and users should not place personal or confidential data in tracked prompts. No ranking, mention, citation, traffic, conversion, sales or revenue outcome is guaranteed.",
+          "zh": "测量是 Opttab 自行追踪提示词所得的快照，不是对真实用户私密 ChatGPT 对话的观察。个性化回答可能不同，用户不应在受追踪提示词中放入个人或机密数据。不保证排名、提及、引用、流量、转化、销售或收入结果。"
+        },
+        "summary": {
+          "en": "Tracked-prompt snapshots are not private user conversations or personalized results; avoid sensitive prompts and expect no outcome guarantee.",
+          "zh": "追踪提示词快照不等于私密用户对话或个性化结果；避免敏感提示词，且不保证业务结果。"
+        },
+        "sourceUrls": ["https://opttab.com/platform/answer-engine-analytics", "https://opttab.com/legal/terms-of-service"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "AI-generated output requires human review. As between Opttab and the customer, the customer owns generated output as far as law permits, but copyright protection is not guaranteed and similar output may be generated for others. The service is for business use only and users must be at least 18.",
+          "zh": "AI 生成内容需要人工审核。在 Opttab 与客户之间，客户在法律允许范围内拥有生成输出，但不保证版权保护，也可能为其他人生成相似输出。服务仅供商业使用，用户须年满 18 岁。"
+        },
+        "summary": {
+          "en": "Human review is required; output ownership is not a copyright guarantee and similar output may exist. Business users must be 18+.",
+          "zh": "需人工审核；输出所有权不等于版权保证，也可能存在相似输出；商业用户须年满 18 岁。"
+        },
+        "sourceUrls": ["https://opttab.com/legal/terms-of-service", "https://opttab.com/platform/content-studio"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "The operator is Opttab B.V., a Netherlands private limited company at Keizersgracht 520H, 1017 EK Amsterdam, KvK 42094716, VAT NL869689575B01; its managing director is Arda Ulusoy. Dutch law and Amsterdam courts apply. Privacy identifies OpenAI, Anthropic and Google as AI providers under terms that do not permit training on API-submitted data, and Opttab says it does not use customer data to train models.",
+          "zh": "运营方为荷兰私人有限公司 Opttab B.V.，地址 Keizersgracht 520H, 1017 EK Amsterdam，KvK 42094716，税号 NL869689575B01，董事为 Arda Ulusoy；适用荷兰法律与阿姆斯特丹法院。隐私政策列明 OpenAI、Anthropic、Google 为 AI 提供商，其条款不允许用 API 提交数据训练；Opttab 表示不使用客户数据训练模型。"
+        },
+        "summary": {
+          "en": "Operated by Opttab B.V. in Amsterdam under Dutch law; named AI providers' API terms and Opttab's policy bar training on customer data.",
+          "zh": "由阿姆斯特丹 Opttab B.V. 依荷兰法运营；所列 AI 提供商的 API 条款与 Opttab 政策禁止用客户数据训练。"
+        },
+        "sourceUrls": ["https://opttab.com/legal/imprint", "https://opttab.com/legal/terms-of-service", "https://opttab.com/legal/privacy-policy"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "Customer data is stored in the EU on AWS Ireland, with some providers outside the EEA under adequacy or standard contractual clause safeguards. Data can be exported during the subscription and for 30 days after it ends, then deleted subject to legal requirements.",
+          "zh": "客户数据存储在欧盟的 AWS Ireland；部分提供商位于欧洲经济区外，适用充分性认定或标准合同条款保障。订阅期间及结束后 30 天内可导出数据，之后按法律要求删除。"
+        },
+        "summary": {
+          "en": "EU storage on AWS Ireland with safeguarded non-EEA processing; export is available through 30 days after subscription end.",
+          "zh": "数据存于 AWS Ireland 欧盟节点，非欧洲经济区处理有保障；订阅结束后 30 天内仍可导出。"
+        },
+        "sourceUrls": ["https://opttab.com/legal/privacy-policy", "https://opttab.com/legal/terms-of-service"],
+        "verifiedAt": "2026-11-27"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Choose Opttab when answer analytics and content production must share one workflow and you need a lower entry plan for prompt tracking. DeepSmith also combines tracking and content, but its $99/month Pro plan includes 20 articles and CSV/API export; Opttab starts API/MCP and reporting at Starter and counts each prompt run separately for every model.",
+          "zh": "需要把回答分析与内容生产放在同一流程，并希望以较低门槛开始提示词追踪时选 Opttab。DeepSmith 同样结合追踪与内容，但其每月 99 美元的 Pro 含 20 篇文章及 CSV／API 导出；Opttab 从 Starter 起提供 API／MCP 和报表，并逐模型计入每次提示词运行。"
+        },
+        "alternativeSlug": "deepsmith",
+        "sourceUrls": ["https://opttab.com/pricing", "https://opttab.com/platform/content-studio", "https://deepsmith.ai/", "https://deepsmith.ai/pricing"],
+        "verifiedAt": "2026-11-27"
+      }
+    ],
+    "platforms": ["Web", "WordPress", "ChatGPT", "Gemini", "Perplexity", "Claude", "Grok", "Mistral", "DeepSeek"],
+    "pricing": "Paid",
+    "sources": [
+      { "label": { "en": "Opttab answer engine analytics", "zh": "Opttab 答案引擎分析" }, "url": "https://opttab.com/platform/answer-engine-analytics" },
+      { "label": { "en": "Opttab Content Studio", "zh": "Opttab 内容工作室" }, "url": "https://opttab.com/platform/content-studio" },
+      { "label": { "en": "Opttab prompt generator", "zh": "Opttab 提示词生成器" }, "url": "https://opttab.com/platform/prompt-generator" },
+      { "label": { "en": "Opttab GEO and AEO platform", "zh": "Opttab GEO 与 AEO 平台" }, "url": "https://opttab.com/platform/geo-aeo" },
+      { "label": { "en": "Opttab pricing", "zh": "Opttab 定价" }, "url": "https://opttab.com/pricing" },
+      { "label": { "en": "Opttab imprint", "zh": "Opttab imprint" }, "url": "https://opttab.com/legal/imprint" },
+      { "label": { "en": "Opttab terms of service", "zh": "Opttab 服务条款" }, "url": "https://opttab.com/legal/terms-of-service" },
+      { "label": { "en": "Opttab privacy policy", "zh": "Opttab 隐私政策" }, "url": "https://opttab.com/legal/privacy-policy" },
+      { "label": { "en": "DeepSmith product page (comparison reference)", "zh": "DeepSmith 产品页（对比参考）" }, "url": "https://deepsmith.ai/" },
+      { "label": { "en": "DeepSmith pricing (comparison reference)", "zh": "DeepSmith 定价（对比参考）" }, "url": "https://deepsmith.ai/pricing" }
+    ],
+    "verifiedAt": "2026-11-27",
+    "status": "published",
+    "featuredOrder": 136,
+    "sponsored": false
+  },
+  {
+    "slug": "moz-pro",
+    "name": "Moz Pro",
+    "category": "citations",
+    "website": "https://moz.com/products/pro",
+    "logo": null,
+    "description": {
+      "en": "A paid SEO research platform whose AI Visibility workspace tracks prompts and shows the domains, pages, linking sources and authority metrics cited in AI answers.",
+      "zh": "付费 SEO 研究平台，其 AI Visibility 工作区追踪提示词，并展示 AI 回答引用的域名、页面、链接来源与权威度指标。"
+    },
+    "tags": {
+      "en": ["Citation analytics", "AI visibility dashboards", "SEO research"],
+      "zh": ["引用分析", "AI 可见度看板", "SEO 研究"]
+    },
+    "features": {
+      "en": [
+        "Track prompts weekly on GPT, Gemini and Google AI Mode, with 150, 300 or 600 prompts on Standard, Medium or Large.",
+        "Inspect total citations, unique cited pages and domains, and how often the tracked domain is cited.",
+        "View Domain Authority and Spam Score distributions, linking domains and linking pages beside citation data.",
+        "Filter cited pages into all cited pages, pages where only the brand is mentioned, and pages where the brand is not mentioned.",
+        "Open prompt and response associations and export citation tables for further analysis.",
+        "Use 3, 6 or 12 AI Visibility dashboards and 2, 10 or 50 AI Content Briefs per month on the three AI-enabled plans."
+      ],
+      "zh": [
+        "在 GPT、Gemini 与 Google AI Mode 上每周追踪提示词，Standard、Medium、Large 分别含 150、300、600 个。",
+        "查看引用总数、唯一被引页面与域名，以及被追踪域名被引用的次数。",
+        "在引用数据旁查看 Domain Authority、Spam Score 分布、链接域名和链接页面。",
+        "将被引页面筛选为全部被引页面、仅提及品牌的页面和未提及品牌的页面。",
+        "打开提示词与回答的关联，并导出引用表进行进一步分析。",
+        "三个启用 AI 的套餐分别提供 3、6、12 个 AI Visibility 看板，以及每月 2、10、50 份 AI Content Brief。"
+      ]
+    },
+    "audience": {
+      "en": "SEO and digital marketing teams that need AI citation evidence connected to a broader search research workflow.",
+      "zh": "需要把 AI 引用证据接入更广泛搜索研究流程的 SEO 与数字营销团队。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Identify which domains and pages AI answers cite for tracked prompts, then filter for pages that mention the brand and pages that do not.",
+          "zh": "识别 AI 回答针对受追踪提示词引用的域名和页面，并筛选提及品牌与未提及品牌的页面。"
+        },
+        "summary": {
+          "en": "Find cited domains and pages, split by whether they mention the brand.",
+          "zh": "查找被引域名和页面，并按是否提及品牌分类。"
+        },
+        "sourceUrls": ["https://moz.com/help/ai-research/ai-visibility/citations"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "Assess citation sources with Domain Authority, Spam Score and linking-domain or linking-page context instead of treating every citation as equally authoritative.",
+          "zh": "结合 Domain Authority、Spam Score 及链接域名或页面背景评估引用来源，而非把所有引用视为同等权威。"
+        },
+        "summary": {
+          "en": "Evaluate citation sources with authority, spam and linking context.",
+          "zh": "结合权威度、垃圾分数和链接背景评估引用来源。"
+        },
+        "sourceUrls": ["https://moz.com/help/ai-research/ai-visibility/citations"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "Use tracked prompt results and AI Content Briefs to prioritize search-content research while keeping citation evidence in the same Moz Pro workspace.",
+          "zh": "利用受追踪提示词结果和 AI Content Brief 确定搜索内容研究优先级，同时在同一 Moz Pro 工作区保留引用证据。"
+        },
+        "summary": {
+          "en": "Prioritize content research with prompt results and AI Content Briefs beside citation evidence.",
+          "zh": "根据提示词结果与 AI Content Brief 安排内容研究，并同时查看引用证据。"
+        },
+        "sourceUrls": ["https://moz.com/products/pro/pricing", "https://moz.com/blog/ai-research-workflow-moz-pro"],
+        "verifiedAt": "2026-11-27"
+      }
+    ],
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "Standard is $99 USD/month or $950 billed for the first year, displayed as $79/month, and includes 150 tracked prompts, 3 AI Visibility dashboards, weekly GPT/Gemini/Google AI Mode tracking, 2 AI Content Briefs per month, 1 user and 3 tracked sites. Medium is $179/month or $1,719 for the first year, displayed as $143/month, with 300 prompts, 6 dashboards, 10 briefs, 2 users and 10 sites. Large is $299/month or $2,868 for the first year, displayed as $239/month, with 600 prompts, 12 dashboards, 50 briefs, 3 users and 25 sites. The annual amounts are labeled first-year bills, not permanent annual prices.",
+          "zh": "Standard 为每月 99 美元或首年账单 950 美元，页面显示折合 79 美元/月，含 150 个受追踪提示词、3 个 AI Visibility 看板、每周 GPT／Gemini／Google AI Mode 追踪、每月 2 份 AI Content Brief、1 名用户和 3 个追踪站点。Medium 为每月 179 美元或首年 1,719 美元，显示折合 143 美元/月，含 300 个提示词、6 个看板、10 份简报、2 名用户和 10 个站点。Large 为每月 299 美元或首年 2,868 美元，显示折合 239 美元/月，含 600 个提示词、12 个看板、50 份简报、3 名用户和 25 个站点。年金额明确标为首年账单，并非永久年价。"
+        },
+        "summary": {
+          "en": "Standard $99/mo or $950 first year: 150 prompts/3 dashboards/2 briefs. Medium $179 or $1,719: 300/6/10. Large $299 or $2,868: 600/12/50; users and sites also scale.",
+          "zh": "Standard 月付 $99／首年 $950，含 150 提示词/3 看板/2 简报；Medium $179／$1,719，含 300/6/10；Large $299／$2,868，含 600/12/50；用户与站点也逐档增加。"
+        },
+        "sourceUrls": ["https://moz.com/products/pro/pricing"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "A separate Starter plan is advertised at $49/month for one website, but the fetched pricing section does not enumerate its AI Visibility prompt, dashboard or brief quotas. Enterprise requires contacting sales. Additional AI Visibility dashboards cost $20 each and additional prompts cost $50 per 100 prompts.",
+          "zh": "另有 Starter 套餐宣传为每月 49 美元、1 个网站，但本轮读取的定价区段未列明其 AI Visibility 提示词、看板或简报额度。Enterprise 需联系销售。额外 AI Visibility 看板每个 20 美元，额外提示词每 100 个 50 美元。"
+        },
+        "summary": {
+          "en": "Starter is $49/month for one site, but its AI quotas were not published in the fetched section; Enterprise is sales-led. Add-ons: $20/dashboard and $50/100 prompts.",
+          "zh": "Starter 每月 $49、1 个站点，但读取区段未公布 AI 额度；Enterprise 联系销售；加购为每看板 $20、每 100 提示词 $50。"
+        },
+        "sourceUrls": ["https://moz.com/products/pro/pricing"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "The free trial applies to Medium monthly only, requires a valid card and may create an up-to-$1 authorization that is voided. It converts to paid automatically and should be canceled at least 24 hours before the trial ends; the public help page does not state the trial duration. Upgrading the plan or buying add-ons during the trial ends it and starts paid billing.",
+          "zh": "免费试用仅适用于 Medium 月付，需要有效支付卡，可能产生最高 1 美元但会撤销的预授权。试用自动转为付费，应在结束前至少 24 小时取消；公开帮助页未说明试用时长。试用期间升级套餐或购买附加项会结束试用并开始付费计费。"
+        },
+        "summary": {
+          "en": "Trial: Medium monthly only, card required, possible voided $1 hold, auto-converts; cancel 24+ hours early. Duration is not published and upgrades end the trial.",
+          "zh": "试用仅限 Medium 月付，需支付卡，可能撤销 $1 预授权并自动转付费；至少提前 24 小时取消；时长未公布，升级会结束试用。"
+        },
+        "sourceUrls": ["https://moz.com/help/your-account/getting-started/free-trial"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "Self-serve subscriptions renew monthly or annually according to the selected term. Cancellation is available at any time, prevents future renewal and retains access until the paid term ends. General Conditions state that cancellation does not produce a refund, and fees generally exclude applicable taxes.",
+          "zh": "自助订阅按所选周期每月或每年自动续费。可随时取消，取消阻止后续续费并保留至已付费周期结束。通用条款规定取消不产生退款，费用通常不含适用税费。"
+        },
+        "summary": {
+          "en": "Monthly or annual auto-renewal; cancel anytime for the end of the paid term. Cancellation is non-refundable and taxes are generally extra.",
+          "zh": "按月或按年自动续费；可随时取消并保留至付费期结束；取消不退费，通常另计税费。"
+        },
+        "sourceUrls": ["https://moz.com/pro-general-conditions", "https://moz.com/products/pro/pricing"],
+        "verifiedAt": "2026-11-27"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "Do not infer Starter's AI quotas from Standard, Medium or Large: the public pricing section reviewed here does not enumerate them. The three higher plans also differ in users, tracked sites, prompt capacity, dashboards and monthly AI Content Briefs, so compare equivalent plan levels rather than the entry price alone.",
+          "zh": "不要用 Standard、Medium 或 Large 的 AI 额度推断 Starter：本轮查看的公开定价区段未列明这些数据。三个较高套餐在用户数、追踪站点、提示词容量、看板与每月 AI Content Brief 上也不同，应比较相同档位而非只看起步价。"
+        },
+        "summary": {
+          "en": "Starter AI quotas are unverified; prompt, dashboard, brief, site and user limits differ across the higher plans.",
+          "zh": "Starter 的 AI 额度未核实；较高套餐的提示词、看板、简报、站点和用户限制各不相同。"
+        },
+        "sourceUrls": ["https://moz.com/products/pro/pricing"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "Citation reports describe answers to the prompts and schedule selected for the project. They are not a census of every AI answer or a guarantee of future citations, rankings, traffic or revenue.",
+          "zh": "引用报告描述项目所选提示词和安排下的回答，不是对所有 AI 回答的全量普查，也不保证未来引用、排名、流量或收入。"
+        },
+        "summary": {
+          "en": "Citation reports are limited to the selected prompts and schedule, not all AI answers or a future-performance guarantee.",
+          "zh": "引用报告仅覆盖所选提示词与安排，不代表所有 AI 回答，也不保证未来表现。"
+        },
+        "sourceUrls": ["https://moz.com/help/ai-research/ai-visibility", "https://moz.com/help/ai-research/ai-visibility/citations"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "The privacy policy does not specifically identify AI processors, prompt handling or a vendor-side commitment not to train on AI Visibility data. General Conditions prohibit the subscriber from using service data to train AI systems, but that is a restriction on the customer and is not evidence of Moz's own model-training policy.",
+          "zh": "隐私政策未具体列明 AI 处理商、提示词处理方式或 Moz 不训练 AI Visibility 数据的自身承诺。通用条款禁止订阅者使用服务数据训练 AI 系统，但这是对客户的限制，不能证明 Moz 自身的模型训练政策。"
+        },
+        "summary": {
+          "en": "AI processors, prompt handling and Moz's no-training position are unspecified; the no-training clause restricts customers only.",
+          "zh": "AI 处理商、提示词处理和 Moz 自身不训练立场未明确；不训练条款仅限制客户。"
+        },
+        "sourceUrls": ["https://moz.com/privacy-policy", "https://moz.com/pro-general-conditions"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "The legal operator is SEOmoz, Inc., a Delaware corporation at 360 Park Ave. S., 17th Floor, New York, NY 10010; Moz identifies itself as a Ziff Davis company. New York law applies, with US billing addresses subject to New York arbitration and class-action and jury waivers. The privacy policy discloses sharing with Ziff Davis companies and global processors, international transfers under DPF or SCC mechanisms, and account-data retention for the account's life plus a reasonable legally compliant period.",
+          "zh": "法律运营方为特拉华州公司 SEOmoz, Inc.，地址 360 Park Ave. S., 17th Floor, New York, NY 10010；Moz 自称为 Ziff Davis 旗下公司。适用纽约州法律，美国账单地址受纽约仲裁、集体诉讼与陪审团放弃条款约束。隐私政策披露与 Ziff Davis 公司及全球处理商共享、依 DPF 或 SCC 机制进行国际传输，账户数据保留至账户存续期加上合理合法期限。"
+        },
+        "summary": {
+          "en": "SEOmoz, Inc. is a Delaware company within Ziff Davis; New York law and US arbitration/waivers apply. Group sharing, international transfers and account-life retention are disclosed.",
+          "zh": "SEOmoz, Inc. 是 Ziff Davis 旗下特拉华州公司；适用纽约法律及美国仲裁/弃权条款；披露集团共享、国际传输和账户存续期留存。"
+        },
+        "sourceUrls": ["https://moz.com/pro-general-conditions", "https://moz.com/privacy-policy"],
+        "verifiedAt": "2026-11-27"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Choose Moz Pro when citation investigation needs Domain Authority, Spam Score, linking-domain and linking-page context, filters and table exports. LLM Pulse is focused on cited domains, hosts and pages, brand mention detection and citation shares; compare prompt counting, engine coverage and dashboards because Moz charges responses per prompt-model runs while LLM Pulse counts a tracked prompt once across its included models.",
+          "zh": "需要结合 Domain Authority、Spam Score、链接域名与链接页面背景、筛选和表格导出来调查引用时选 Moz Pro。LLM Pulse 侧重被引域名、主机和页面、品牌提及检测与引用份额；应比较提示词计数、引擎覆盖和看板，因为 Moz 按提示词逐模型运行计费，而 LLM Pulse 对一个受追踪提示词在其所含模型间只计一次。"
+        },
+        "alternativeSlug": "llm-pulse",
+        "sourceUrls": ["https://moz.com/help/ai-research/ai-visibility/citations", "https://moz.com/products/pro/pricing", "https://llmpulse.ai/help-center/tracking-citation-sources", "https://llmpulse.ai/pricing"],
+        "verifiedAt": "2026-11-27"
+      }
+    ],
+    "platforms": ["Web", "ChatGPT", "Gemini", "Google AI Mode"],
+    "pricing": "Paid",
+    "sources": [
+      { "label": { "en": "Moz Pro AI research workflow", "zh": "Moz Pro AI 研究工作流" }, "url": "https://moz.com/blog/ai-research-workflow-moz-pro" },
+      { "label": { "en": "Moz AI Visibility citations help", "zh": "Moz AI Visibility 引用帮助" }, "url": "https://moz.com/help/ai-research/ai-visibility/citations" },
+      { "label": { "en": "Moz AI Visibility help", "zh": "Moz AI Visibility 帮助" }, "url": "https://moz.com/help/ai-research/ai-visibility" },
+      { "label": { "en": "Moz Pro pricing", "zh": "Moz Pro 定价" }, "url": "https://moz.com/products/pro/pricing" },
+      { "label": { "en": "Moz Pro and AI Explorer General Conditions", "zh": "Moz Pro 与 AI Explorer 通用条款" }, "url": "https://moz.com/pro-general-conditions" },
+      { "label": { "en": "Moz privacy policy", "zh": "Moz 隐私政策" }, "url": "https://moz.com/privacy-policy" },
+      { "label": { "en": "Moz free trial help", "zh": "Moz 免费试用帮助" }, "url": "https://moz.com/help/your-account/getting-started/free-trial" },
+      { "label": { "en": "LLM Pulse citation-source documentation (comparison reference)", "zh": "LLM Pulse 引用来源文档（对比参考）" }, "url": "https://llmpulse.ai/help-center/tracking-citation-sources" },
+      { "label": { "en": "LLM Pulse pricing (comparison reference)", "zh": "LLM Pulse 定价（对比参考）" }, "url": "https://llmpulse.ai/pricing" }
+    ],
+    "verifiedAt": "2026-11-27",
+    "status": "published",
+    "featuredOrder": 137,
+    "sponsored": false
+  },
+  {
+    "slug": "visibai",
+    "name": "VisibAI",
+    "category": "local-geo",
+    "website": "https://getvisibai.com/",
+    "logo": null,
+    "description": {
+      "en": "A local-business AI visibility audit service that generates industry and location questions, checks brand mentions, competitor share and citations across AI platforms, and provides prioritized fixes.",
+      "zh": "面向本地企业的 AI 可见度审计服务，按行业与地区生成问题，跨 AI 平台检查品牌提及、竞品份额和引用，并提供按优先级排列的修复建议。"
+    },
+    "tags": {
+      "en": ["Local AI visibility", "Competitor share", "AI audits"],
+      "zh": ["本地 AI 可见度", "竞品份额", "AI 审计"]
+    },
+    "features": {
+      "en": [
+        "Audit a local business using its URL, industry and optional city to generate geographically relevant questions.",
+        "Measure brand mentions, competitor share, citations and remediation suggestions across ChatGPT, Perplexity, Claude, Gemini, Mistral and You.com.",
+        "Use free, one-off or recurring audit options, with manual and scheduled audits on higher plans.",
+        "Set a custom competitor list, use AI accuracy and multi-region or product-line tracking on higher tiers.",
+        "Receive PDF reports, email alerts, article allowances, fix lists and white-label reporting on eligible plans.",
+        "Add eight-platform coverage, custom query volume, 300+ monthly audits, SLA and automated fixes with Enterprise."
+      ],
+      "zh": [
+        "使用企业网址、行业和可选城市审计本地企业，生成与地区相关的问题。",
+        "跨 ChatGPT、Perplexity、Claude、Gemini、Mistral 和 You.com 衡量品牌提及、竞品份额、引用与修复建议。",
+        "提供免费、一次性或定期审计选项，较高套餐支持手动和定时审计。",
+        "在较高档位设置自定义竞品名单，并使用 AI 准确性、多地区或产品线追踪。",
+        "在适用套餐获得 PDF 报告、邮件提醒、文章额度、修复清单和白标报告。",
+        "Enterprise 可增加八平台覆盖、自定义问题量、每月 300+ 次审计、SLA 和自动修复。"
+      ]
+    },
+    "audience": {
+      "en": "Local businesses and agencies that want repeatable AI-answer audits for location-specific brand discovery and competitor visibility.",
+      "zh": "希望对本地品牌发现和竞品可见度进行可重复 AI 回答审计的本地企业与代理商。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Generate local questions around a business, industry and optional city, then inspect where AI answers mention the brand, cite sources or recommend competitors.",
+          "zh": "围绕企业、行业和可选城市生成本地问题，再检查 AI 回答在何处提及品牌、引用来源或推荐竞品。"
+        },
+        "summary": {
+          "en": "Audit local AI recommendations for brand mentions, competitor share and citations.",
+          "zh": "审计本地 AI 推荐中的品牌提及、竞品份额和引用。"
+        },
+        "sourceUrls": ["https://getvisibai.com/", "https://getvisibai.com/docs/first-audit"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "Turn audit findings into a prioritized fix list and AI action plan, with higher plans adding alerting, scheduled measurements and article creation.",
+          "zh": "把审计结果转为按优先级排列的修复清单和 AI 行动计划，较高套餐另加提醒、定时测量和文章生成。"
+        },
+        "summary": {
+          "en": "Convert audit findings into prioritized fixes, with alerts, scheduling and articles on eligible plans.",
+          "zh": "把审计发现转为优先修复项，适用套餐另含提醒、定时测量与文章。"
+        },
+        "sourceUrls": ["https://getvisibai.com/"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "Manage multiple client locations or brands through Agency and Enterprise plans, using shared audit pools, team access, white-label subdomains and custom queries.",
+          "zh": "通过 Agency 与 Enterprise 管理多个客户位置或品牌，使用共享审计额度池、团队访问、白标子域名和自定义问题。"
+        },
+        "summary": {
+          "en": "Manage multi-client audits with pooled quotas, team access, white-label reporting and custom queries.",
+          "zh": "用共享额度池、团队访问、白标报告和自定义问题管理多客户审计。"
+        },
+        "sourceUrls": ["https://getvisibai.com/"],
+        "verifiedAt": "2026-11-27"
+      }
+    ],
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "Free is €0 with no card, one audit per 90 days, ChatGPT only, 20 queries, a visibility score and the top three issues; an email is requested to deliver the report. Starter is a €29 one-off purchase, not a subscription, with one audit on four platforms, 26 queries and 104 AI checks, competitor names, the full fix list, PDF and one article per audit.",
+          "zh": "Free 为 0 欧元、无需支付卡，每 90 天一次审计，仅用 ChatGPT、20 个问题、可见度评分和前三个问题；报告通过邮箱交付。Starter 为一次性购买 29 欧元而非订阅，包含四平台一次审计、26 个问题和 104 次 AI 检查、竞品名称、完整修复清单、PDF 和每次审计一篇文章。"
+        },
+        "summary": {
+          "en": "Free: €0, one audit/90 days, ChatGPT, 20 queries, email report. Starter: €29 one-off, four platforms, 26 queries/104 checks, PDF, competitors and one article.",
+          "zh": "Free：€0、每 90 天一次、ChatGPT、20 问题、邮箱报告；Starter：一次性 €29、四平台、26 问题/104 检查、PDF、竞品与一篇文章。"
+        },
+        "sourceUrls": ["https://getvisibai.com/", "https://getvisibai.com/docs/first-audit"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "Pro is €79/month, cancel anytime, with 10 audits per month, five platforms, 26 queries and 130 checks per audit, a custom competitor list, fix list, AI action plan, email alerts and four articles per month. Brand is €149/month for one brand with 50 manual and scheduled audits, six platforms and 156 checks per audit, AI accuracy audits, product-line and multi-region tracking, 10 saved competitors, 30 articles per month and fix files.",
+          "zh": "Pro 为每月 79 欧元，可随时取消，含每月 10 次审计、五平台、每次审计 26 个问题和 130 次检查、自定义竞品名单、修复清单、AI 行动计划、邮件提醒和每月四篇文章。Brand 为单个品牌每月 149 欧元，含 50 次手动和定时审计、六平台和每次审计 156 次检查、AI 准确性审计、产品线与多地区追踪、10 个已保存竞品、每月 30 篇文章和修复文件。"
+        },
+        "summary": {
+          "en": "Pro €79/mo: 10 audits, five platforms, 26 queries/130 checks each, alerts, competitors, action plan and 4 articles. Brand €149: 50 audits, six platforms/156 checks, multi-region and 30 articles.",
+          "zh": "Pro €79/月：10 次审计、五平台、每次 26 问题/130 检查、提醒、竞品、行动计划与 4 篇文章；Brand €149：50 次审计、六平台/156 检查、多地区与 30 篇文章。"
+        },
+        "sourceUrls": ["https://getvisibai.com/"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "Brand Plus is presented as a +€100/month add-on that raises Brand to 80 audits per month and adds a custom domain, removal of 'Powered by VisibAI' and priority support; structured data lists Brand Plus at €249/month, consistent with €149 plus €100. Agency is €149/month for up to 25 clients with 50 audits per month shared across clients, six platforms and 156 checks, up to 20 custom queries, 10 competitors per client, a white-label subdomain, agency dashboard, 10 team members and 30 pooled articles. Agency Plus adds €100/month for 80 audits, custom domain, unbranded PDFs and priority support; structured data lists €249/month.",
+          "zh": "Brand Plus 展示为每月加购 100 欧元，使 Brand 增至每月 80 次审计，并增加自定义域名、移除“Powered by VisibAI”和优先支持；结构化数据列出的 Brand Plus 为每月 249 欧元，与 149 加 100 一致。Agency 为每月 149 欧元，最多 25 个客户、客户间共享每月 50 次审计、六平台和 156 次检查、最多 20 个自定义问题、每客户 10 个竞品、白标子域名、代理商看板、10 名团队成员和共享的 30 篇文章额度。Agency Plus 每月加购 100 欧元，获得 80 次审计、自定义域名、无品牌 PDF 和优先支持；结构化数据列出 249 欧元。"
+        },
+        "summary": {
+          "en": "Agency €149/mo: up to 25 clients sharing 50 audits, six platforms, custom queries, white-label, 10 seats and 30 pooled articles. Brand/Agency Plus add €100/mo for 80 audits and extra white-label/support benefits; structured totals are €249.",
+          "zh": "Agency €149/月：最多 25 客户共享 50 次审计、六平台、自定义问题、白标、10 席位和共享 30 篇文章；Brand/Agency Plus 加 €100/月获 80 次审计及更多白标/支持权益，结构化总额为 €249。"
+        },
+        "sourceUrls": ["https://getvisibai.com/"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "Enterprise is custom-priced for eight platforms, 300+ audits per month by contract, custom queries, a dedicated SLA and automatic fixes. Annual plans are advertised as 'pay for 10 months, get 12,' but annual totals are not published and should not be calculated from that slogan. One-off audits are charged at purchase and monthly subscriptions are billed in advance; cancellation takes effect at the billing-period end. A seven-day refund policy applies to first-time purchases.",
+          "zh": "Enterprise 为定制价格，按合同提供八平台、每月 300+ 次审计、自定义问题、专属 SLA 和自动修复。年付套餐宣传“付 10 个月得 12 个月”，但未公布年度总额，不应据此自行计算。一次性审计在购买时扣费，月订阅提前账单；取消在当前计费周期结束时生效。首次购买适用七天退款政策。"
+        },
+        "summary": {
+          "en": "Enterprise: custom eight-platform contract with 300+ audits/month. Annual billing advertises 10 months for 12 but publishes no totals; monthly plans bill in advance, cancellation is period-end, and first-time purchases have a 7-day refund window.",
+          "zh": "Enterprise 定制八平台合同，每月 300+ 次审计；年付宣传付 10 个月得 12 个月但无总额；月付提前账单、周期末取消，首次购买享 7 天退款窗口。"
+        },
+        "sourceUrls": ["https://getvisibai.com/", "https://getvisibai.com/terms"],
+        "verifiedAt": "2026-11-27"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "The score documentation describes a weighted average of appearance rate, mention quality, citation rate, position and cross-platform consistency without publishing numerical weights. A benchmark article instead says the score is currently 50% answer visibility and 50% technical readiness. The article uses 976 websites from February 22 to October 12, 2026, while the homepage says 800 websites across 28 industries, refreshed November 26. Treat the score as the vendor's proprietary metric, not a validated universal ranking.",
+          "zh": "评分文档称分数是出现率、提及质量、引用率、位置和跨平台一致性的加权平均，但未公布数值权重。基准文章则称当前分数为 50% 回答可见度加 50% 技术准备度。文章使用 2026 年 2 月 22 日至 10 月 12 日的 976 个网站，而首页称覆盖 28 个行业的 800 个网站、于 11 月 26 日刷新。应把该分数视为厂商专有指标，而非经过验证的通用排名。"
+        },
+        "summary": {
+          "en": "Official score definitions conflict: five unspecified-weighted factors versus 50/50 visibility/readiness; benchmark samples also differ (976 versus 800). It is not a universal ranking.",
+          "zh": "官方评分口径冲突：五项未公布权重对比 50/50 可见度/准备度；基准样本也有 976 与 800 的差异；并非通用排名。"
+        },
+        "sourceUrls": ["https://getvisibai.com/docs/understanding-score", "https://getvisibai.com/blog/ai-visibility-benchmarks-by-industry-2026", "https://getvisibai.com/"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "The homepage says Mistral uses model training memory while ChatGPT, Claude, Perplexity, Gemini and You.com use live web retrieval. AI answers can vary between scans, and the reviewed documentation does not publish a repeat-sampling protocol or geographic controls. The industry benchmark is self-selected and only shows industries with at least 15 sites, so its percentages are not a representative population estimate.",
+          "zh": "首页称 Mistral 使用模型训练记忆，而 ChatGPT、Claude、Perplexity、Gemini 和 You.com 使用实时网页检索。AI 回答可能随扫描变化，本轮查看的文档未公布重复抽样协议或地区控制。行业基准为自选样本，且只展示至少有 15 个网站的行业，因此其百分比不代表总体估计。"
+        },
+        "summary": {
+          "en": "Mistral uses training memory, answers vary, and repeat-sampling or geographic controls are unpublished; benchmarks are self-selected and industry-thresholded.",
+          "zh": "Mistral 使用训练记忆，回答会变化，重复抽样或地区控制未公布；基准为自选样本且有行业样本量门槛。"
+        },
+        "sourceUrls": ["https://getvisibai.com/", "https://getvisibai.com/blog/ai-visibility-benchmarks-by-industry-2026"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "The homepage video says industry and location are auto-detected, while first-audit documentation says the user provides the industry and optionally a city. Confirm these inputs before comparing audits from different configurations. The terms describe informational reports, not a guarantee of visibility improvement; report resale requires an Agency plan.",
+          "zh": "首页视频称行业和地区自动识别，而首次审计文档称用户提供行业并可选择填写城市。比较不同配置的审计前应先确认这些输入。条款说明报告仅供信息参考，不保证可见度提升；转售报告需要 Agency 套餐。"
+        },
+        "summary": {
+          "en": "Input descriptions conflict: auto-detection versus user-entered industry and optional city; reports are informational and resale requires Agency.",
+          "zh": "输入说明冲突：自动识别对比用户填写行业和可选城市；报告仅供参考，转售需 Agency。"
+        },
+        "sourceUrls": ["https://getvisibai.com/", "https://getvisibai.com/docs/first-audit", "https://getvisibai.com/terms"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "Bianchi Web is operated by Francesco Bianchi as a sole trader registered in Prague, Czech Republic; Kelviq is Merchant of Record. Privacy documentation names AI and infrastructure providers and says business API terms do not allow provider training on submitted data. Account and audit history remain while the account is active, and deletion requests are handled within 30 days, but maximum retention for no-account emailed reports is not stated. Italian law and courts apply, with EU consumer ODR rights and liability limited to fees paid in the prior 30 days.",
+          "zh": "Bianchi Web 由 Francesco Bianchi 作为个体经营者运营，注册于捷克布拉格；Kelviq 为商户记录方。隐私文件列出 AI 和基础设施处理商，并称商业 API 条款不允许处理商使用提交数据训练。账户和审计历史在账户存续期间保留，删除请求在 30 天内处理，但无账户邮箱报告的最长保留期未说明。适用意大利法律和法院，保留欧盟消费者 ODR 权利，责任限于前 30 天支付的费用。"
+        },
+        "summary": {
+          "en": "Prague sole trader Francesco Bianchi operates Bianchi Web; Kelviq bills. Provider no-training is described for business APIs. Anonymous-report retention is unstated; Italian law and a 30-day-fee liability cap apply.",
+          "zh": "Bianchi Web 由布拉格个体经营者 Francesco Bianchi 运营，Kelviq 收款；商业 API 有处理商不训练说明；匿名报告保留期未说明；适用意大利法律及前 30 天费用责任上限。"
+        },
+        "sourceUrls": ["https://getvisibai.com/privacy", "https://getvisibai.com/terms"],
+        "verifiedAt": "2026-11-27"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Choose VisibAI for free, one-off or recurring local-business audits with competitor lists and multi-platform fixes; Rank.ai is better suited to recurring daily city-specific questions. Rank.ai asks ChatGPT, Claude and Gemini through APIs with web search and separates Google Maps grid scans from AI answers. Its Starter is $49/month or $39/month billed yearly at $468, with five AI questions; Free has no ongoing AI questions. Sampling methods and scores are not universal rankings, so compare query design, platforms and audit frequency before switching.",
+          "zh": "需要免费、一次性或定期的本地企业审计，并包含竞品名单和多平台修复建议时选 VisibAI；更适合持续每日追踪城市特定问题时看 Rank.ai。Rank.ai 通过带网页搜索的 API 询问 ChatGPT、Claude 和 Gemini，并把 Google Maps 网格扫描与 AI 回答分开。其 Starter 为每月 49 美元或按年账单 468 美元、折合每月 39 美元，含五个 AI 问题；Free 无持续 AI 问题。抽样方法和分数并非通用排名，切换前应比较问题设计、平台与审计频率。"
+        },
+        "alternativeSlug": "rank-ai",
+        "sourceUrls": ["https://getvisibai.com/", "https://www.rank.ai/product/local", "https://www.rank.ai/pricing"],
+        "verifiedAt": "2026-11-27"
+      }
+    ],
+    "platforms": ["Web", "ChatGPT", "Perplexity", "Claude", "Gemini", "Mistral", "You.com", "Bing", "Grok"],
+    "pricing": "Freemium",
+    "sources": [
+      { "label": { "en": "VisibAI product and pricing", "zh": "VisibAI 产品与定价" }, "url": "https://getvisibai.com/" },
+      { "label": { "en": "VisibAI first-audit documentation", "zh": "VisibAI 首次审计文档" }, "url": "https://getvisibai.com/docs/first-audit" },
+      { "label": { "en": "VisibAI score documentation", "zh": "VisibAI 评分文档" }, "url": "https://getvisibai.com/docs/understanding-score" },
+      { "label": { "en": "VisibAI 2026 industry benchmark", "zh": "VisibAI 2026 行业基准" }, "url": "https://getvisibai.com/blog/ai-visibility-benchmarks-by-industry-2026" },
+      { "label": { "en": "VisibAI terms", "zh": "VisibAI 条款" }, "url": "https://getvisibai.com/terms" },
+      { "label": { "en": "VisibAI privacy", "zh": "VisibAI 隐私政策" }, "url": "https://getvisibai.com/privacy" },
+      { "label": { "en": "Rank.ai Local product (comparison reference)", "zh": "Rank.ai Local 产品（对比参考）" }, "url": "https://www.rank.ai/product/local" },
+      { "label": { "en": "Rank.ai pricing (comparison reference)", "zh": "Rank.ai 定价（对比参考）" }, "url": "https://www.rank.ai/pricing" }
+    ],
+    "verifiedAt": "2026-11-27",
+    "status": "published",
+    "featuredOrder": 138,
+    "sponsored": false
+  },
+  {
+    "slug": "shruwd",
+    "name": "Shruwd",
+    "category": "ai-traffic",
+    "website": "https://shruwd.io/",
+    "logo": null,
+    "description": {
+      "en": "An AI visibility and crawler-log analytics service that combines repeated AI-answer sampling with read-only server or CDN log analysis and official crawler IP verification.",
+      "zh": "AI 可见度与爬虫日志分析服务，把重复 AI 回答抽样与只读服务器或 CDN 日志分析、官方爬虫 IP 核验结合起来。"
+    },
+    "tags": {
+      "en": ["AI crawler logs", "Answer monitoring", "Referral research"],
+      "zh": ["AI 爬虫日志", "回答监测", "推荐流量研究"]
+    },
+    "features": {
+      "en": [
+        "Analyze server or CDN crawler logs without changing site responses, including on the free plan.",
+        "Recognize 13 crawlers across eight vendors, verify claimed AI-crawler hits against vendor-published IP ranges and exclude unverified hits from metrics.",
+        "Separate live-retrieval crawlers from training crawlers and from human referral traffic.",
+        "Sample AI answers for mention rate, share of voice, prominence and citation frequency without blending them into one score.",
+        "Track weekly measurements, diagnostic families, rechecks, Search Console data and history within plan limits.",
+        "Configure Cloudflare, Vercel and Netlify log ingestion, or use answer measurements without connected logs."
+      ],
+      "zh": [
+        "分析服务器或 CDN 爬虫日志而不改变站点响应，免费套餐也包含该能力。",
+        "识别八家厂商的 13 种爬虫，依据厂商公布的 IP 段核验声称的 AI 爬虫命中，并将未核验命中排除在指标外。",
+        "把实时检索爬虫与训练爬虫、真人推荐流量区分开。",
+        "抽样 AI 回答的提及率、声音份额、显著度和引用频率，不合并成单一分数。",
+        "在套餐限制内追踪每周测量、诊断类别、复查、Search Console 数据和历史记录。",
+        "配置 Cloudflare、Vercel 和 Netlify 日志接入，或不连接日志只使用回答测量。"
+      ]
+    },
+    "audience": {
+      "en": "Technical SEO, analytics and growth teams that need to distinguish verified AI crawler activity from sampled AI-answer visibility and human referrals.",
+      "zh": "需要区分已核验 AI 爬虫活动、抽样 AI 回答可见度和真人推荐流量的技术 SEO、分析与增长团队。"
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Confirm which claimed AI crawler requests come from published vendor IP ranges, then review crawled pages and separate training crawlers from live-retrieval crawlers.",
+          "zh": "确认声称的 AI 爬虫请求中哪些来自厂商公布的 IP 段，再查看被抓取页面，并区分训练爬虫和实时检索爬虫。"
+        },
+        "summary": {
+          "en": "Verify AI crawler requests against vendor IP ranges and separate retrieval from training crawlers.",
+          "zh": "依据厂商 IP 段核验 AI 爬虫请求，并区分检索与训练爬虫。"
+        },
+        "sourceUrls": ["https://shruwd.io/features/ai-crawler-logs", "https://shruwd.io/docs/crawler-logs/crawlers-tracked.md"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "Monitor brand mentions, competitor share of voice, prominence and citations across repeated AI-answer samples, with weekly measurements on paid plans.",
+          "zh": "在重复 AI 回答样本中监测品牌提及、竞品声音份额、显著度和引用，付费套餐按周测量。"
+        },
+        "summary": {
+          "en": "Track brand and competitor answer visibility with weekly repeated sampling on paid plans.",
+          "zh": "付费套餐通过每周重复抽样追踪品牌和竞品回答可见度。"
+        },
+        "sourceUrls": ["https://shruwd.io/methodology", "https://shruwd.io/pricing"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "Use rechecks to investigate meaningful changes in answer visibility, and read crawler-log counts alongside answer estimates without treating either as proof of human referral revenue.",
+          "zh": "使用复查调查回答可见度的显著变化，并把爬虫日志计数与回答估计并列阅读，而不把任一数据当作真人推荐收入的证明。"
+        },
+        "summary": {
+          "en": "Investigate answer changes with rechecks and compare log counts with estimates, not referral revenue proof.",
+          "zh": "用复查调查回答变化，把日志计数与估计并列比较，但不视为推荐收入证明。"
+        },
+        "sourceUrls": ["https://shruwd.io/methodology"],
+        "verifiedAt": "2026-11-27"
+      }
+    ],
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "Crawl is free with no card and does not expire. It includes one answer measurement per domain ever, one snapshot each on Google AI Overviews, Google AI Mode, ChatGPT, Gemini and Perplexity, 10 prompts with one repetition, the top three access findings, no rechecks, 30 days of history, 100,000 crawler-log lines per month, one brand and two team members. Crawler-log ingestion recurs monthly even though the free answer measurement is one per domain ever.",
+          "zh": "Crawl 免费、无需支付卡且不过期。包含每个域名一次回答测量，在 Google AI Overviews、Google AI Mode、ChatGPT、Gemini 和 Perplexity 各一次快照、10 个提示词和一次重复、前三个访问问题、无复查、30 天历史、每月 100,000 行爬虫日志、一个品牌和两名团队成员。虽然免费回答测量每个域名仅一次，但爬虫日志接入按月持续。"
+        },
+        "summary": {
+          "en": "Crawl: free, no card, 1 answer measurement/domain ever, 5-engine snapshot, 10 prompts, no rechecks, 30-day history, 100K log lines/month, 1 brand and 2 seats.",
+          "zh": "Crawl：免费、无需卡、每域名仅 1 次回答测量、五引擎快照、10 提示词、无复查、30 天历史、每月 10 万日志行、1 品牌和 2 席位。"
+        },
+        "sourceUrls": ["https://shruwd.io/pricing"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "Starter is $49 USD/month or $490/year with weekly measurements, 25 prompts and three repetitions, all diagnostic families, one recheck per month, 90 days of history, 500,000 log lines per month, one brand and five team members. Pro is $149/month or $1,490/year with weekly measurements, 100 prompts shared across up to three brands and three repetitions, all diagnostics, six rechecks per month, 13 months of history, 2 million log lines per month, Search Console, three brands and 15 team members. Taxes are added where applicable.",
+          "zh": "Starter 为每月 49 美元或每年 490 美元，含每周测量、25 个提示词和三次重复、全部诊断类别、每月一次复查、90 天历史、每月 500,000 行日志、一个品牌和五名团队成员。Pro 为每月 149 美元或每年 1,490 美元，含每周测量、最多三个品牌共享的 100 个提示词和三次重复、全部诊断、每月六次复查、13 个月历史、每月 200 万行日志、Search Console、三个品牌和 15 名团队成员。适用税费另加。"
+        },
+        "summary": {
+          "en": "Starter $49/mo or $490/yr: 25 prompts, 1 recheck/mo, 500K log lines/mo. Pro $149/mo or $1,490/yr: 100 prompts across 3 brands, 6 rechecks/mo, 2M log lines/mo and Search Console; taxes extra.",
+          "zh": "Starter $49/月或 $490/年：25 提示词、每月 1 复查、每月 50 万日志行；Pro $149/月或 $1,490/年：3 品牌共享 100 提示词、每月 6 复查、每月 200 万日志行及 Search Console；税费另计。"
+        },
+        "sourceUrls": ["https://shruwd.io/pricing"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "Starter has a 14-day trial once per account and site, requires a card and converts automatically unless canceled. The separate Crawl plan does not require a card. Every plan limit is a hard stop; there is no usage-overage billing.",
+          "zh": "Starter 提供每个账户和站点一次的 14 天试用，需要支付卡，未取消则自动续为付费。单独的 Crawl 套餐无需支付卡。所有套餐额度都是硬性上限，不按超量使用收费。"
+        },
+        "summary": {
+          "en": "Starter trial: 14 days, once per account/site, card required, auto-converts; free Crawl needs no card. All limits are hard stops with no overage billing.",
+          "zh": "Starter 试用 14 天、每账户/站点一次、需卡并自动转付费；免费 Crawl 无需卡；额度均为硬上限，无超量收费。"
+        },
+        "sourceUrls": ["https://shruwd.io/pricing", "https://shruwd.io/terms"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "Paid plans renew automatically monthly or annually. Cancellation leaves access through the paid period and then moves the account to free. Fees are non-refundable except where law requires.",
+          "zh": "付费套餐按月或按年自动续费。取消后仍可使用至已付费期结束，随后账户转为免费。除法律要求外，费用不退款。"
+        },
+        "summary": {
+          "en": "Paid plans auto-renew monthly or yearly; cancellation keeps access to period end, then downgrades to free. Fees are non-refundable except as legally required.",
+          "zh": "付费套餐按月或按年自动续费；取消后保留至周期末再转免费；除法律要求外不退款。"
+        },
+        "sourceUrls": ["https://shruwd.io/pricing", "https://shruwd.io/terms"],
+        "verifiedAt": "2026-11-27"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "AI-answer results are repeated samples with uncertainty ranges, not exact counts. Paid plans use at least three repetitions per prompt; rechecks use nine or more repetitions per engine and require statistical significance after multiple-comparison correction plus at least a five-point movement. Provider or model changes are marked rather than credited to the customer.",
+          "zh": "AI 回答结果是带不确定区间的重复样本，不是精确计数。付费套餐每个提示词至少重复三次；复查每个引擎使用至少九次重复，并要求经多重比较校正后具有统计显著性，且移动至少五点。服务商或模型变化会标注，而不归因于客户。"
+        },
+        "summary": {
+          "en": "Answers are sampled estimates: paid plans repeat 3+ times; rechecks use 9+ per engine and require corrected significance plus a 5-point move. Model changes are marked.",
+          "zh": "回答为抽样估计：付费套餐重复至少 3 次；复查每引擎至少 9 次，需校正显著性和 5 点变化；模型变化会标注。"
+        },
+        "sourceUrls": ["https://shruwd.io/methodology"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "Answer sampling is US English without individual history or settings and uses a third-party data provider for ChatGPT and Gemini apps, Google result pages and Perplexity Sonar API. Results proxy a controlled sample, not any one person's experience. Crawler-log counts are exact records, but crawler activity alone does not prove human AI referrals, citations, rankings, traffic or revenue.",
+          "zh": "回答抽样使用无个人历史或设置的美国英语，并借助第三方数据提供商获取 ChatGPT、Gemini 应用、Google 结果页和 Perplexity Sonar API。结果是受控样本的代理，不代表任何个人的体验。爬虫日志计数是精确记录，但爬虫活动本身不能证明真人 AI 推荐、引用、排名、流量或收入。"
+        },
+        "summary": {
+          "en": "Sampling is US English through a third-party provider, not a person's answers. Log counts are exact records, but crawls do not prove referrals, citations, rankings or revenue.",
+          "zh": "抽样为经第三方提供商进行的美国英语样本，不代表个人回答；日志计数精确，但爬取不能证明推荐、引用、排名或收入。"
+        },
+        "sourceUrls": ["https://shruwd.io/methodology", "https://shruwd.io/features/ai-crawler-logs"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "Claimed crawler hits are verified against vendor-published IP ranges refreshed every 24 hours; if refresh fails, the last known-good ranges remain. Verified hits count toward metrics and unverified hits are shown separately. Google-Extended and Applebot-Extended are robots.txt tokens, not crawlers; Google AI Overviews and AI Mode use Googlebot rather than a separate Google AI crawler.",
+          "zh": "声称的爬虫命中会对照每 24 小时刷新一次的厂商公布 IP 段核验；刷新失败时保留最后可用版本。已核验命中计入指标，未核验命中单独显示。Google-Extended 与 Applebot-Extended 是 robots.txt 令牌而非爬虫；Google AI Overviews 和 AI Mode 使用 Googlebot，而非单独的 Google AI 爬虫。"
+        },
+        "summary": {
+          "en": "IP ranges refresh daily and may fall back to the last good version; only verified hits count. Extended robots tokens are not crawlers, and Google AI uses Googlebot.",
+          "zh": "IP 段每日刷新，失败时沿用最后可用版本；仅已核验命中计数；Extended 令牌不是爬虫，Google AI 使用 Googlebot。"
+        },
+        "sourceUrls": ["https://shruwd.io/features/ai-crawler-logs", "https://shruwd.io/docs/crawler-logs/crawlers-tracked.md"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "Lemon Tree Ventures, LLC operates Shruwd from Dover, Delaware; privacy requires business use and age 16+, while Terms require age 18+. DataForSEO collects AI answers and Anthropic may draft setup suggestions from homepage or Search Console data. Ordinary visitor log lines are discarded on receipt and requester IPs are not stored; raw AI answers remain 400 days, per-page crawler detail 90 days and daily crawler totals while the account is open. Workspace erasure can be requested within 30 days. Delaware law applies.",
+          "zh": "Shruwd 由特拉华州多佛市的 Lemon Tree Ventures, LLC 运营；隐私政策要求商业使用且年满 16 岁，条款要求年满 18 岁。DataForSEO 收集 AI 回答，Anthropic 可能根据首页或 Search Console 数据起草设置建议。普通访客日志行在收到时丢弃，请求方 IP 不保存；原始 AI 回答保留 400 天、每页爬虫详情保留 90 天、每日爬虫汇总在账户存续期间保留。可在 30 天内请求删除工作区。适用特拉华州法律。"
+        },
+        "summary": {
+          "en": "Delaware LLC; privacy says business use/16+, Terms say 18+. Third parties process answers; raw answers stay 400 days, page crawler detail 90 days, daily totals while open. Erasure requests: 30 days.",
+          "zh": "特拉华州 LLC；隐私称商业使用/16+，条款称 18+；第三方处理回答；原始回答保留 400 天、页面爬虫详情 90 天、每日汇总存续至账户关闭；删除请求 30 天。"
+        },
+        "sourceUrls": ["https://shruwd.io/privacy", "https://shruwd.io/terms"],
+        "verifiedAt": "2026-11-27"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Choose Shruwd when one workspace must combine repeated AI-answer measurements with exact, IP-verified crawler-log counts. Known Agents separately offers AI Chat Referral Tracking for human traffic from ChatGPT, Claude, Gemini and other chat platforms, plus crawler reporting. Compare volume and retention: Shruwd's free plan includes 100,000 log lines per month but only one answer measurement per domain, while Known Agents' current monthly Free plan allows one project and 100,000 events, Startup $29 for three projects and 1 million events, and Growth $299 for ten projects and 10 million events. Never substitute crawler requests for measured human referrals.",
+          "zh": "需要同一工作区结合重复 AI 回答测量与精确、经 IP 核验的爬虫日志计数时选 Shruwd。Known Agents 则分别提供追踪来自 ChatGPT、Claude、Gemini 等聊天平台的真人 AI 推荐流量，以及爬虫报告。应比较用量和保留规则：Shruwd 免费套餐含每月 100,000 行日志但每个域名仅一次回答测量；Known Agents 当前月付 Free 含一个项目和 100,000 事件，Startup 29 美元含三个项目和 100 万事件，Growth 299 美元含十个项目和 1,000 万事件。不要用爬虫请求替代实测真人推荐。"
+        },
+        "alternativeSlug": "known-agents",
+        "sourceUrls": ["https://shruwd.io/features/ai-crawler-logs", "https://shruwd.io/pricing", "https://knownagents.com/products/ai-chat-referral-tracking", "https://knownagents.com/pricing"],
+        "verifiedAt": "2026-11-27"
+      }
+    ],
+    "platforms": ["Web", "Cloudflare", "Vercel", "Netlify"],
+    "pricing": "Freemium",
+    "sources": [
+      { "label": { "en": "Shruwd product overview", "zh": "Shruwd 产品概览" }, "url": "https://shruwd.io/" },
+      { "label": { "en": "Shruwd AI crawler logs", "zh": "Shruwd AI 爬虫日志" }, "url": "https://shruwd.io/features/ai-crawler-logs" },
+      { "label": { "en": "Shruwd methodology", "zh": "Shruwd 方法说明" }, "url": "https://shruwd.io/methodology" },
+      { "label": { "en": "Shruwd pricing", "zh": "Shruwd 定价" }, "url": "https://shruwd.io/pricing" },
+      { "label": { "en": "Shruwd terms", "zh": "Shruwd 条款" }, "url": "https://shruwd.io/terms" },
+      { "label": { "en": "Shruwd privacy", "zh": "Shruwd 隐私政策" }, "url": "https://shruwd.io/privacy" },
+      { "label": { "en": "Shruwd tracked crawlers documentation", "zh": "Shruwd 追踪爬虫文档" }, "url": "https://shruwd.io/docs/crawler-logs/crawlers-tracked.md" },
+      { "label": { "en": "Known Agents AI Chat Referral Tracking (comparison reference)", "zh": "Known Agents AI 聊天推荐追踪（对比参考）" }, "url": "https://knownagents.com/products/ai-chat-referral-tracking" },
+      { "label": { "en": "Known Agents pricing (comparison reference)", "zh": "Known Agents 定价（对比参考）" }, "url": "https://knownagents.com/pricing" }
+    ],
+    "verifiedAt": "2026-11-27",
+    "status": "published",
+    "featuredOrder": 139,
+    "sponsored": false
   }
 ]
