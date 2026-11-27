@@ -22885,5 +22885,436 @@
     "status": "published",
     "featuredOrder": 139,
     "sponsored": false
+  },
+  {
+    "slug": "sway",
+    "name": "Sway",
+    "website": "https://getsway.ai/",
+    "logo": null,
+    "category": "ai-visibility",
+    "description": {
+      "en": "Monitor brand visibility and recommendations in AI answers, identify cited sources and competitors, and use Sway's Lynx agent to write and test fixes. Starter tracks one brand across ChatGPT, Google AI Overviews, Google AI Mode, Claude, Gemini and Perplexity; paid plans start at $99 USD/month after a 7-day free trial, with API access and direct site delivery starting on higher tiers.",
+      "zh": "监测品牌在 AI 回答中的可见度与推荐，识别引用来源和竞品，并使用 Sway 的 Lynx 智能体编写和测试修复方案。Starter 可追踪一个品牌，覆盖 ChatGPT、Google AI Overviews、Google AI Mode、Claude、Gemini 和 Perplexity；付费套餐在 7 天免费试用后每月 99 美元起，API 访问和直接站点交付从更高套餐起提供。"
+    },
+    "audience": {
+      "en": "In-house marketing, SEO and growth teams that want answer-level visibility monitoring plus a guided remediation workflow for their own website.",
+      "zh": "希望获得回答级可见度监测，并为其自有网站使用引导式修复流程的企业内部营销、SEO 和增长团队。"
+    },
+    "tags": {
+      "en": ["AI visibility", "Brand mentions", "GEO fixes"],
+      "zh": ["AI 可见度", "品牌提及", "GEO 修复"]
+    },
+    "features": {
+      "en": ["Daily checks of ChatGPT, Google AI Overviews and Google AI Mode; monthly checks of Claude, Gemini and Perplexity on every plan", "Prompts derived from the customer's Google Search Console with brand-name searches excluded from the score", "Question, answer, source and competitor views with brand presence, recommendation share and citation rate", "Lynx agent writes prioritized fixes, which require user approval before changes are published", "Before-and-after fix measurement compares 42 days before shipment with 7 days after and evaluates results at days 14, 28 and 49", "Starter, Pro and Agency include six to 24 months of history, unlimited seats and MCP access"],
+      "zh": ["所有套餐每日检查 ChatGPT、Google AI Overviews 和 Google AI Mode，每月检查 Claude、Gemini 和 Perplexity", "从客户 Google Search Console 提取提示词，品牌名搜索不计入得分", "问题、回答、来源和竞品视图，展示品牌出现率、推荐份额和引用率", "Lynx 智能体编写优先级修复方案，变更发布前需用户批准", "修复前后测量对比发布前 42 天与发布后 7 天，并在第 14、28、49 天评估结果", "Starter、Pro 和 Agency 提供 6 至 24 个月历史、无限席位和 MCP 访问"]
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Run an initial visibility audit across six AI answer surfaces using non-branded prompts derived from Search Console, then review brand mentions, recommendations, cited pages and rivals in one question-level report.",
+          "zh": "使用从 Search Console 提取的非品牌提示词，在六个 AI 回答入口进行初始可见度审计，并在同一问题级报告中查看品牌提及、推荐、引用页面和竞品。"
+        },
+        "summary": {
+          "en": "Audit six AI answer surfaces with non-branded Search Console prompts and review mentions, recommendations, sources and rivals.",
+          "zh": "使用 Search Console 非品牌提示词审计六个 AI 回答入口，并查看提及、推荐、来源和竞品。"
+        },
+        "sourceUrls": ["https://getsway.ai/", "https://getsway.ai/methods", "https://getsway.ai/pricing"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "Track answer visibility over time and compare brands or countries within a plan's quota, with daily sampling for ChatGPT, Google AI Overviews and Google AI Mode and monthly sampling for Claude, Gemini and Perplexity.",
+          "zh": "在套餐额度内持续追踪回答可见度并比较品牌或国家；ChatGPT、Google AI Overviews 和 Google AI Mode 每日抽样，Claude、Gemini 和 Perplexity 每月抽样。"
+        },
+        "summary": {
+          "en": "Track visibility over time across brands and countries, with daily sampling for three Google/ChatGPT surfaces and monthly sampling for three other engines.",
+          "zh": "跨品牌和国家持续追踪可见度；三个 Google/ChatGPT 入口每日抽样，另外三个引擎每月抽样。"
+        },
+        "sourceUrls": ["https://getsway.ai/methods", "https://getsway.ai/pricing"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "Have Lynx draft prioritized content or technical fixes, approve changes before publication, and use Sway's before-and-after measurements to judge whether a fix changed answer visibility.",
+          "zh": "让 Lynx 起草优先级内容或技术修复方案，在发布前批准变更，并使用 Sway 的前后对比测量判断修复是否改变了回答可见度。"
+        },
+        "summary": {
+          "en": "Draft and approve Lynx fixes, then measure whether the change affected AI answer visibility.",
+          "zh": "起草并批准 Lynx 修复方案，再测量变更是否影响 AI 回答可见度。"
+        },
+        "sourceUrls": ["https://getsway.ai/", "https://getsway.ai/methods"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "Give agencies a client reporting workflow with white-label reports and pitch reports on Agency, while Starter and Pro provide standard reports for in-house or client analysis.",
+          "zh": "Agency 通过白标报告和推介报告为代理商提供客户报告流程，Starter 和 Pro 则提供用于内部或客户分析的标准报告。"
+        },
+        "summary": {
+          "en": "Agency adds white-label and pitch reports for client work; Starter and Pro provide standard reporting.",
+          "zh": "Agency 增加白标和推介报告以支持客户工作；Starter 和 Pro 提供标准报告。"
+        },
+        "sourceUrls": ["https://getsway.ai/pricing"],
+        "verifiedAt": "2026-11-27"
+      }
+    ],
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "Starter costs $99 USD/month and includes one brand, 50 prompts checked daily, one country, six months of history, written and measured fixes, unlimited seats and MCP access. It does not include API access or direct delivery of fixes to the customer's site.",
+          "zh": "Starter 每月 99 美元，包含一个品牌、每日检查 50 个提示词、一个国家、6 个月历史、编写和测量修复方案、无限席位和 MCP 访问；不包含 API 访问或把修复直接交付到客户站点。"
+        },
+        "summary": {
+          "en": "Starter: $99 USD/month for 1 brand, 50 daily prompts, 1 country, 6 months of history and measured fixes; no API or direct site delivery.",
+          "zh": "Starter：每月 99 美元，含 1 品牌、每日 50 提示词、1 国家、6 个月历史和修复测量；无 API 或直接站点交付。"
+        },
+        "sourceUrls": ["https://getsway.ai/pricing"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "Pro costs $249 USD/month with three brands, 150 prompts checked daily, up to three countries per brand, 12 months of history, fixes delivered to the site, sentiment by topic and API access. Agency costs $499 USD/month with ten brands, 350 prompts checked daily, any country, 24 months of history, white-label reports, pitch reports and everything in Pro.",
+          "zh": "Pro 每月 249 美元，含三个品牌、每日检查 150 个提示词、每品牌最多三个国家、12 个月历史、修复交付到站点、按主题的情绪分析和 API 访问。Agency 每月 499 美元，含十个品牌、每日检查 350 个提示词、任意国家、24 个月历史、白标报告、推介报告以及 Pro 的全部功能。"
+        },
+        "summary": {
+          "en": "Pro: $249 USD/month, 3 brands, 150 daily prompts, up to 3 countries/brand, 12 months history, site delivery and API. Agency: $499/month, 10 brands, 350 daily prompts, 24 months history and white-label reports.",
+          "zh": "Pro：每月 249 美元，3 品牌、每日 150 提示词、每品牌最多 3 国家、12 个月历史、站点交付和 API；Agency：每月 499 美元，10 品牌、每日 350 提示词、24 个月历史及白标报告。"
+        },
+        "sourceUrls": ["https://getsway.ai/pricing"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "Sway offers a 7-day free trial without a card. Paddle is the merchant of record and handles cards, invoices and sales tax. The first payment is fully refundable within 14 days; monthly renewals are not refunded except where law requires or a service problem prevented use. Paid plans can be canceled at any time and access continues to the end of the paid period.",
+          "zh": "Sway 提供无需支付卡的 7 天免费试用。Paddle 为登记商户，处理支付卡、发票和销售税。首次付款后 14 天内可全额退款；除法律要求或服务问题导致无法使用外，月度续费不退款。付费套餐可随时取消，访问权持续至已付费期结束。"
+        },
+        "summary": {
+          "en": "7-day trial, no card. Paddle handles payment and tax; first payment refundable within 14 days. Monthly renewals are generally non-refundable, and cancellation keeps access to period end.",
+          "zh": "7 天试用、无需卡；Paddle 处理支付和税费；首次付款 14 天内可退；月度续费原则上不退款，取消后保留至周期末。"
+        },
+        "sourceUrls": ["https://getsway.ai/pricing", "https://getsway.ai/terms", "https://getsway.ai/refunds"],
+        "verifiedAt": "2026-11-27"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "All six AI engines are included, but sampling differs: ChatGPT, Google AI Overviews and Google AI Mode are checked daily, while Claude, Gemini and Perplexity are checked monthly. Claude, Gemini and Perplexity are asked through APIs with web search and no chat history; each prompt is asked from its country, but Gemini cannot set a country. Results represent a controlled sample rather than every user's answers.",
+          "zh": "六个 AI 引擎均包含在内，但抽样频率不同：ChatGPT、Google AI Overviews 和 Google AI Mode 每日检查，Claude、Gemini 和 Perplexity 每月检查。Claude、Gemini 和 Perplexity 通过启用网页搜索的 API 提问，且不使用聊天历史；每个提示词从对应国家提问，但 Gemini 无法设置国家。结果是受控样本，不代表所有用户的回答。"
+        },
+        "summary": {
+          "en": "Sampling is daily for ChatGPT/Google surfaces and monthly for Claude/Gemini/Perplexity; three engines use API web search without history, and results are controlled samples.",
+          "zh": "ChatGPT/Google 入口每日抽样，Claude/Gemini/Perplexity 每月抽样；后三者使用无历史的 API 网页搜索，结果为受控样本。"
+        },
+        "sourceUrls": ["https://getsway.ai/methods", "https://getsway.ai/pricing"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "Prompts come from Search Console and brand-name searches are excluded from the score, so accounts with limited relevant Search Console data may get a narrow prompt set. Daily checks continue when monthly lookup limits are exhausted, but new lookups wait until the next month. Monthly lookup limits are 30 on Starter, 100 on Pro and 300 on Agency; brand-lookup limits are 1, 2 and 10 respectively.",
+          "zh": "提示词来自 Search Console，品牌名搜索不计入得分，因此相关搜索数据有限的账户可能获得较窄的提示词集合。月度查询额度用完后每日检查仍继续，但新查询要等到下个月。Starter、Pro 和 Agency 的每月查询额度分别为 30、100 和 300，品牌查询额度分别为 1、2 和 10。"
+        },
+        "summary": {
+          "en": "Prompts depend on Search Console and exclude brand-name searches. Lookups reset monthly: 30/100/300 total and 1/2/10 brand lookups across Starter/Pro/Agency.",
+          "zh": "提示词依赖 Search Console 且排除品牌名搜索；Starter/Pro/Agency 每月总查询为 30/100/300，品牌查询为 1/2/10。"
+        },
+        "sourceUrls": ["https://getsway.ai/methods", "https://getsway.ai/pricing"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "Plan limits are hard caps: Starter includes 100 tracked keywords and 500 site-audit pages, Pro includes 500 keywords and 1,000 pages, and Agency includes 1,000 keywords and 5,000 pages. API access starts on Pro, and direct WordPress or Elementor delivery is listed for Pro and Agency; Starter writes and measures fixes without publishing them to the site.",
+          "zh": "套餐额度为硬性上限：Starter 含 100 个追踪关键词和 500 个站点审计页面，Pro 含 500 个关键词和 1,000 个页面，Agency 含 1,000 个关键词和 5,000 个页面。API 从 Pro 起提供，Pro 和 Agency 列出 WordPress 或 Elementor 直接交付；Starter 编写和测量修复但不发布到站点。"
+        },
+        "summary": {
+          "en": "Hard caps: 100/500/1,000 tracked keywords and 500/1,000/5,000 audit pages. API starts on Pro; direct WordPress/Elementor delivery is Pro/Agency only.",
+          "zh": "硬性上限：追踪关键词 100/500/1,000，审计页面 500/1,000/5,000；API 从 Pro 起，WordPress/Elementor 直接交付仅 Pro/Agency。"
+        },
+        "sourceUrls": ["https://getsway.ai/pricing"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "Fix measurement needs enough answers on both sides of a change. Sway compares 42 days before shipment with 7 days after, judges results at 14, 28 and 49 days, and labels a comparison with fewer than eight answers on either side as too early to tell. The measurement is evidence of change in the sampled answers, not a guarantee of ranking or recommendation.",
+          "zh": "修复效果测量需要变更前后都有足够回答。Sway 对比发布前 42 天与发布后 7 天，并在第 14、28、49 天判断结果；任一侧少于八个回答时标记为“尚无法判断”。该测量证明抽样回答中的变化，不保证排名或推荐。"
+        },
+        "summary": {
+          "en": "Fix tests compare 42 days before with 7 days after and need at least 8 answers per side; they measure sampled change, not guaranteed rankings or recommendations.",
+          "zh": "修复测试对比前 42 天与后 7 天，每侧至少需 8 个回答；衡量的是抽样变化，不保证排名或推荐。"
+        },
+        "sourceUrls": ["https://getsway.ai/methods"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "Sway is operated by Roei Shoustak, trading as Sway, in Tel Aviv, Israel. The terms require users to be 18 or older, authorize access to connected accounts and include a class-action waiver; the privacy policy says personal data may be processed in the United States and other countries.",
+          "zh": "Sway 由以色列特拉维夫的 Roei Shoustak 以 Sway 商号运营。条款要求用户年满 18 岁、授权访问已连接账户，并包含集体诉讼弃权；隐私政策称个人数据可能在美国及其他国家处理。"
+        },
+        "summary": {
+          "en": "Israeli sole trader; users must be 18+, authorize connected-account access and accept a class-action waiver. Personal data may be processed in the US and elsewhere.",
+          "zh": "以色列个体经营者；用户须年满 18 岁、授权连接账户并接受集体诉讼弃权；个人数据可能在美国等地处理。"
+        },
+        "sourceUrls": ["https://getsway.ai/terms", "https://getsway.ai/privacy"],
+        "verifiedAt": "2026-11-27"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Choose Sway when the main job is monitoring brand visibility across multiple AI answer surfaces and moving from findings to approved fixes with before-and-after measurement. Compare the plan's prompt, country and history quotas and the daily-versus-monthly sampling cadence; teams that only need a one-time audit or crawler-log analytics should check whether those workflows are covered elsewhere.",
+          "zh": "主要需求是跨多个 AI 回答入口监测品牌可见度，并从发现推进到经批准的修复及前后效果测量时，可选 Sway。应比较套餐的提示词、国家和历史额度，以及每日与每月抽样频率；只需要一次性审计或爬虫日志分析的团队，应确认其他工具是否更合适。"
+        },
+        "sourceUrls": ["https://getsway.ai/", "https://getsway.ai/pricing", "https://getsway.ai/methods"],
+        "verifiedAt": "2026-11-27"
+      }
+    ],
+    "platforms": ["ChatGPT", "Google AI Overviews", "Google AI Mode", "Claude", "Gemini", "Perplexity"],
+    "pricing": "Paid",
+    "sources": [
+      { "label": { "en": "Sway product overview", "zh": "Sway 产品概览" }, "url": "https://getsway.ai/" },
+      { "label": { "en": "Sway pricing", "zh": "Sway 定价" }, "url": "https://getsway.ai/pricing" },
+      { "label": { "en": "Sway methodology", "zh": "Sway 方法说明" }, "url": "https://getsway.ai/methods" },
+      { "label": { "en": "Sway terms", "zh": "Sway 服务条款" }, "url": "https://getsway.ai/terms" },
+      { "label": { "en": "Sway privacy policy", "zh": "Sway 隐私政策" }, "url": "https://getsway.ai/privacy" },
+      { "label": { "en": "Sway refund policy", "zh": "Sway 退款政策" }, "url": "https://getsway.ai/refunds" }
+    ],
+    "verifiedAt": "2026-11-27",
+    "status": "published",
+    "featuredOrder": 140,
+    "sponsored": false
+  },
+  {
+    "slug": "recoradar",
+    "name": "RecoRadar",
+    "website": "https://recoradar.app/",
+    "logo": null,
+    "category": "local-geo",
+    "description": {
+      "en": "Audit whether ChatGPT, Claude, Gemini, Google AI Mode and Google AI Overviews recommend a local business, see which rivals they recommend instead, and review the exact questions, answers, sources and Google Maps context. RecoRadar has a free plan with one audit per month; paid plans start at $19 USD/month for one business or $49/month for agencies with 30 monthly audits and weekly tracking for five businesses.",
+      "zh": "审计 ChatGPT、Claude、Gemini、Google AI Mode 和 Google AI Overviews 是否推荐某家本地企业，查看它们转而推荐哪些竞品，并检查具体问题、回答、来源和 Google Maps 背景。RecoRadar 免费套餐每月提供一次审计；付费套餐单个企业每月 19 美元起，代理商套餐每月 49 美元，含 30 次月度审计和五个企业的每周追踪。"
+    },
+    "audience": {
+      "en": "Local businesses, marketing agencies and SEO consultants that need repeatable AI recommendation audits, competitor context and client-ready local visibility reports.",
+      "zh": "需要可重复的 AI 推荐审计、竞品背景和可直接交付客户的本地可见度报告的本地企业、营销代理商与 SEO 顾问。"
+    },
+    "tags": {
+      "en": ["Local GEO", "AI visibility", "Competitors"],
+      "zh": ["本地 GEO", "AI 可见度", "竞品"]
+    },
+    "features": {
+      "en": ["Six city-specific customer questions per business, with the business name excluded from the questions", "Reports show whether each AI recommends the business, the exact answer and sources, rival recommendations and Google Maps position", "ChatGPT, Claude and Gemini use official APIs with web search; Google AI Mode and AI Overviews use DataForSEO and are labeled as such", "Weekly tracking emails changes in recommendation counts, a new report link and a fresh pitch", "Starter and Agency add cited-directory pages, AI-agent site checks, prospect lists, market scans and follow-up tests", "Agency adds white-label reports, custom questions and daily checks for tracked businesses"],
+      "zh": ["每家企业使用六个包含城市名的客户问题，问题中不包含企业名称", "报告展示各 AI 是否推荐该企业、具体回答和来源、竞品推荐以及 Google Maps 位置", "ChatGPT、Claude 和 Gemini 使用启用网页搜索的官方 API；Google AI Mode 和 AI Overviews 使用 DataForSEO 并明确标注", "每周追踪通过邮件发送推荐数量变化、新报告链接和新的推介文案", "Starter 和 Agency 增加被引用目录页面、AI 智能体站点检查、潜在客户名单、市场扫描和后续测试", "Agency 增加白标报告、自定义问题和已追踪企业的每日检查"]
+    },
+    "useCases": [
+      {
+        "description": {
+          "en": "Run a local visibility audit for one business to see whether five AI surfaces recommend it, which competitors appear instead, and which pages and directories are cited for city-specific customer questions.",
+          "zh": "为单家企业运行本地可见度审计，查看五个 AI 入口是否推荐它、出现的是哪些竞品，以及针对城市客户问题引用了哪些页面和目录。"
+        },
+        "summary": {
+          "en": "Audit one local business across five AI surfaces and see rival recommendations, cited pages and city-specific answers.",
+          "zh": "在五个 AI 入口审计单家本地企业，查看竞品推荐、引用页面和城市相关回答。"
+        },
+        "sourceUrls": ["https://recoradar.app/", "https://recoradar.app/features", "https://recoradar.app/methodology"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "Use Google Maps position, ratings and reviews for the top three rivals alongside AI recommendations to understand the local competitive context behind a visibility result.",
+          "zh": "将 Google Maps 位置、前三竞品的评分和评论与 AI 推荐并列使用，以理解可见度结果背后的本地竞争背景。"
+        },
+        "summary": {
+          "en": "Read AI recommendations beside Google Maps position and the ratings and reviews of the top three rivals.",
+          "zh": "将 AI 推荐与 Google Maps 位置及前三竞品的评分和评论并列阅读。"
+        },
+        "sourceUrls": ["https://recoradar.app/features", "https://recoradar.app/methodology"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "Send prospects or clients a branded report with every question, answer and source, a paste-ready pitch and a non-expiring link; Starter and Agency add PDF download and custom branding, while Agency removes RecoRadar branding.",
+          "zh": "向潜在客户或客户发送包含全部问题、回答和来源、可直接粘贴的推介文案及不过期链接的品牌报告；Starter 和 Agency 增加 PDF 下载和自定义品牌，Agency 移除 RecoRadar 品牌。"
+        },
+        "summary": {
+          "en": "Share client-ready reports with all answers and sources; paid tiers add PDF and branding, and Agency removes RecoRadar branding.",
+          "zh": "分享含全部回答和来源的客户报告；付费套餐增加 PDF 和品牌定制，Agency 移除 RecoRadar 品牌。"
+        },
+        "sourceUrls": ["https://recoradar.app/pricing", "https://recoradar.app/features"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "Track local clients week to week without spending plan audits, then use Starter or Agency follow-up tests, cited-page change tracking and market scans to investigate why recommendations changed.",
+          "zh": "每周持续追踪本地客户而不消耗套餐审计额度，再使用 Starter 或 Agency 的后续测试、被引用页面变化追踪和市场扫描调查推荐为何变化。"
+        },
+        "summary": {
+          "en": "Track clients weekly without using audits, then investigate recommendation changes with follow-up tests, page-change tracking and market scans.",
+          "zh": "每周追踪客户而不消耗审计，再通过后续测试、页面变化追踪和市场扫描调查推荐变化。"
+        },
+        "sourceUrls": ["https://recoradar.app/pricing", "https://recoradar.app/features"],
+        "verifiedAt": "2026-11-27"
+      }
+    ],
+    "pricingDetails": [
+      {
+        "description": {
+          "en": "Free costs $0 with no card and includes one audit per month, ChatGPT, Claude and Gemini, the full report with RecoRadar branding, every question, answer and source, a paste-ready pitch, report-open notifications and report links that do not expire.",
+          "zh": "Free 为 0 美元且无需支付卡，包含每月一次审计、ChatGPT、Claude 和 Gemini、带 RecoRadar 品牌的完整报告、全部问题、回答和来源、可直接粘贴的推介文案、报告打开通知和不过期的报告链接。"
+        },
+        "summary": {
+          "en": "Free: $0, no card, 1 audit/month on ChatGPT/Claude/Gemini, full branded report, pitch and non-expiring report links.",
+          "zh": "Free：0 美元、无需卡、每月 1 次审计，覆盖 ChatGPT/Claude/Gemini，含完整品牌报告、推介文案和不过期链接。"
+        },
+        "sourceUrls": ["https://recoradar.app/pricing"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "Owner costs $19 USD/month for one business, checked every week, with ChatGPT, Claude, Gemini, Google AI Mode and Google AI Overviews, the full report and a PDF copy.",
+          "zh": "Owner 每月 19 美元，适用于一家企业，每周检查，覆盖 ChatGPT、Claude、Gemini、Google AI Mode 和 Google AI Overviews，提供完整报告和 PDF 副本。"
+        },
+        "summary": {
+          "en": "Owner: $19 USD/month for 1 business, checked weekly across all five AI surfaces, with a full report and PDF.",
+          "zh": "Owner：每月 19 美元，1 家企业每周检查，覆盖全部五个 AI 入口，含完整报告和 PDF。"
+        },
+        "sourceUrls": ["https://recoradar.app/pricing"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "Starter costs $49 USD/month with 30 audits per month, all five AI surfaces, weekly tracking for five businesses without using audits, custom logo, color and booking link with a Powered by RecoRadar line, PDF download, 25 lead-form checks per day, CSV prospect lists up to 50 rows, market scans up to 100 businesses, cited-page change tracking, follow-up tests, cited-directory pages, AI-agent site checks and questions about up to two neighborhoods.",
+          "zh": "Starter 每月 49 美元，含 30 次月度审计、全部五个 AI 入口、五个企业的不消耗审计的每周追踪、带 Powered by RecoRadar 字样的自定义标志、颜色和预约链接、PDF 下载、每天 25 次线索表单检查、最多 50 行的 CSV 潜在客户名单、最多 100 家企业的市场扫描、被引用页面变化追踪、后续测试、被引用目录页面、AI 智能体站点检查，以及最多两个社区的问题。"
+        },
+        "summary": {
+          "en": "Starter: $49 USD/month, 30 audits, all five AI surfaces, weekly tracking for 5 businesses, custom branding, PDF, lead form, market scans and follow-up tests.",
+          "zh": "Starter：每月 49 美元，30 次审计、五个 AI 入口、5 家企业每周追踪、自定义品牌、PDF、线索表单、市场扫描和后续测试。"
+        },
+        "sourceUrls": ["https://recoradar.app/pricing", "https://recoradar.app/features"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "Agency costs $149 USD/month with 100 audits per month, all five AI surfaces, weekly tracking for 20 businesses without using audits, no RecoRadar branding, PDF download, the core Starter prospecting and diagnostic features, custom questions for up to 20 per business and daily checks that use audits on six days of the week.",
+          "zh": "Agency 每月 149 美元，含 100 次月度审计、全部五个 AI 入口、20 家企业的不消耗审计的每周追踪、无 RecoRadar 品牌、PDF 下载、Starter 的核心潜在客户与诊断功能、每家企业最多 20 个自定义问题，以及每周六天消耗审计的每日检查。"
+        },
+        "summary": {
+          "en": "Agency: $149 USD/month, 100 audits, all five AI surfaces, weekly tracking for 20 businesses, no RecoRadar branding, custom questions and daily checks.",
+          "zh": "Agency：每月 149 美元，100 次审计、五个 AI 入口、20 家企业每周追踪、无 RecoRadar 品牌、自定义问题和每日检查。"
+        },
+        "sourceUrls": ["https://recoradar.app/pricing"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "Top Pick is an optional $19 USD/month add-on for Starter and Agency that asks ChatGPT, Claude and Gemini to choose a single business. Polar is the merchant of record and handles cards, invoices and sales tax. At verification, the site advertised temporary promotions: 20% off for 12 months for the first 20 agencies and 50% off the first payment with code BLACKFRIDAY from November 27 to December 1, 2026; these are promotions rather than standard plan prices.",
+          "zh": "Top Pick 是 Starter 和 Agency 的可选附加项，每月 19 美元，会让 ChatGPT、Claude 和 Gemini 选择单一企业。Polar 为登记商户，处理支付卡、发票和销售税。核验时网站显示临时优惠：前 20 家代理商可享 12 个月八折，2026 年 11 月 27 日至 12 月 1 日使用 BLACKFRIDAY 代码可享首次付款五折；这些是促销，不是标准套餐价格。"
+        },
+        "summary": {
+          "en": "Top Pick adds $19 USD/month. Polar handles payment and tax. Temporary offers observed: 20% off for 12 months for the first 20 agencies and 50% off first payment Nov 27–Dec 1, 2026 with BLACKFRIDAY.",
+          "zh": "Top Pick 附加项每月 19 美元；Polar 处理支付和税费；观察到临时优惠：前 20 家代理商 12 个月八折，2026-11-27 至 12-01 用 BLACKFRIDAY 享首次付款五折。"
+        },
+        "sourceUrls": ["https://recoradar.app/pricing"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "Paid plans renew automatically and can be canceled from the billing page, with access continuing until the end of the paid period. Unused audits do not roll over, no extra credits can be purchased and failed audits are returned. The first payment is refundable in full within 14 days once per customer; renewals, upgrades and partial months are not refunded, and accepting a refund ends the paid plan immediately.",
+          "zh": "付费套餐自动续费，可在账单页面取消，访问权持续至已付费期结束。未使用审计不结转，不能购买额外额度，失败的审计会返还。每位客户首次付款后 14 天内可获全额退款一次；续费、升级和不足一个月的费用不退款，接受退款后付费套餐立即结束。"
+        },
+        "summary": {
+          "en": "Paid plans auto-renew; cancel anytime with access to period end. Audits do not roll over. First payment refundable within 14 days once; renewals and partial months are not refunded.",
+          "zh": "付费套餐自动续费，可随时取消并保留至周期末；审计不结转；首次付款 14 天内可退一次，续费和不足月费用不退。"
+        },
+        "sourceUrls": ["https://recoradar.app/pricing", "https://recoradar.app/refunds"],
+        "verifiedAt": "2026-11-27"
+      }
+    ],
+    "limitations": [
+      {
+        "description": {
+          "en": "Google AI Mode and Google AI Overviews are included only on Owner, Starter and Agency. Google has no official API for these surfaces, so RecoRadar uses DataForSEO and Google Search to collect them; every report discloses that source. The free plan covers only ChatGPT, Claude and Gemini.",
+          "zh": "Google AI Mode 和 Google AI Overviews 仅包含在 Owner、Starter 和 Agency 中。Google 没有面向这些入口的官方 API，因此 RecoRadar 使用 DataForSEO 和 Google Search 收集，且每份报告都会注明该来源。免费套餐仅覆盖 ChatGPT、Claude 和 Gemini。"
+        },
+        "summary": {
+          "en": "Google AI Mode and AI Overviews require a paid plan and come from DataForSEO/Google Search because no official Google API exists; Free covers only ChatGPT, Claude and Gemini.",
+          "zh": "Google AI Mode 和 AI Overviews 需付费套餐，并通过 DataForSEO/Google Search 获取，因为 Google 无官方 API；Free 仅覆盖 ChatGPT、Claude 和 Gemini。"
+        },
+        "sourceUrls": ["https://recoradar.app/pricing", "https://recoradar.app/methodology"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "One audit means one business, six customer questions on three AI surfaces and 18 answers; Starter and Agency add the two Google AI surfaces for up to 30 answers. Asking every question twice uses two audits, running a business again counts as a new audit, and weekly tracking does not consume audits. Unused audits reset at the next billing period.",
+          "zh": "一次审计指一家企业、六个客户问题、三个 AI 入口和 18 个回答；Starter 和 Agency 增加两个 Google AI 入口，最多 30 个回答。每个问题问两次会消耗两次审计，再次运行同一企业算新审计，每周追踪不消耗审计。未使用审计在下一计费周期重置。"
+        },
+        "summary": {
+          "en": "An audit is 1 business, 6 questions and 18 answers, or up to 30 on Starter/Agency. Repeats and reruns consume audits; weekly tracking does not; unused audits reset monthly.",
+          "zh": "一次审计为 1 企业、6 问题、18 回答，Starter/Agency 最多 30；重复和重跑消耗审计，每周追踪不消耗，未用审计按月重置。"
+        },
+        "sourceUrls": ["https://recoradar.app/pricing", "https://recoradar.app/methodology"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "ChatGPT, Claude and Gemini answers are collected through official APIs with web search and no chat history, not from an individual customer's app. Location is approximate, model and timestamp are shown, and answers can vary; RecoRadar says a one- or two-count difference between audits is normal variation, while three or more is worth investigating.",
+          "zh": "ChatGPT、Claude 和 Gemini 回答通过启用网页搜索且无聊天历史的官方 API 收集，不来自某个客户的应用。位置为近似值，报告显示模型和时间戳，回答可能变化；RecoRadar 称两次审计相差一两次属正常波动，三次及以上值得调查。"
+        },
+        "summary": {
+          "en": "API samples use web search without personal history and approximate location; answers vary. A 1–2 count difference is normal variation, while 3+ warrants investigation.",
+          "zh": "API 样本使用无个人历史的网页搜索和近似位置，回答会波动；相差 1–2 次属正常，3 次及以上值得调查。"
+        },
+        "sourceUrls": ["https://recoradar.app/methodology"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "Weekly tracking is limited to five businesses on Starter and 20 on Agency. Agency daily checks beyond the included weekly check use plan audits on six days of the week. The Top Pick add-on costs extra, follow-up tests use one additional audit, and custom questions above ten per business use two audits on Agency.",
+          "zh": "每周追踪在 Starter 上最多五个企业，在 Agency 上最多 20 个。Agency 除包含的每周检查外，每日检查会在每周六天消耗套餐审计。Top Pick 附加项需额外付费，后续测试额外消耗一次审计，Agency 每家企业超过十个自定义问题时使用两次审计。"
+        },
+        "summary": {
+          "en": "Weekly tracking covers 5 businesses on Starter and 20 on Agency; Agency daily checks use audits 6 days/week. Top Pick costs extra, and some follow-up/custom-question tests consume extra audits.",
+          "zh": "Starter/Agency 每周追踪分别为 5/20 家企业；Agency 每日检查每周 6 天消耗审计；Top Pick 额外收费，部分后续测试和自定义问题消耗额外审计。"
+        },
+        "sourceUrls": ["https://recoradar.app/pricing"],
+        "verifiedAt": "2026-11-27"
+      },
+      {
+        "description": {
+          "en": "Reports are shared by non-expiring links that remain available to anyone with the URL until deleted. The privacy policy describes approximate location, device and report-open tracking, plus third-party processors for AI answers, payments, email and analytics. RecoRadar is operated by Valerius vl. Omerovic Denis in Mostar, Bosnia and Herzegovina.",
+          "zh": "报告通过不过期的链接分享，任何拿到 URL 的人在删除前都可查看。隐私政策描述了近似位置、设备和报告打开追踪，以及用于 AI 回答、支付、邮件和分析的第三方处理方。RecoRadar 由波斯尼亚和黑塞哥维那莫斯塔尔的 Valerius vl. Omerovic Denis 运营。"
+        },
+        "summary": {
+          "en": "Non-expiring report links are accessible to anyone with the URL until deleted. Privacy covers approximate location, device/open tracking and third-party processors; operator is in Bosnia and Herzegovina.",
+          "zh": "不过期报告链接在删除前任何持有 URL 者均可查看；隐私涉及近似位置、设备/打开追踪和第三方处理方；运营方位于波黑。"
+        },
+        "sourceUrls": ["https://recoradar.app/pricing", "https://recoradar.app/privacy", "https://recoradar.app/terms"],
+        "verifiedAt": "2026-11-27"
+      }
+    ],
+    "selectionNotes": [
+      {
+        "description": {
+          "en": "Choose RecoRadar when the primary need is local-business AI recommendation audits for prospects or clients, including rival recommendations, Google Maps context and repeat tracking. Compare audit quotas, the five-business Starter tracking limit and the DataForSEO dependency for Google AI surfaces; teams needing broad multi-brand monitoring or technical crawler-log analysis should check whether those workflows are covered elsewhere.",
+          "zh": "主要需求是针对潜在客户或客户进行本地企业 AI 推荐审计，并需要竞品推荐、Google Maps 背景和重复追踪时，可选 RecoRadar。应比较审计额度、Starter 五个企业的追踪上限，以及 Google AI 入口对 DataForSEO 的依赖；需要广泛多品牌监测或技术爬虫日志分析的团队，应确认其他工具是否更合适。"
+        },
+        "sourceUrls": ["https://recoradar.app/features", "https://recoradar.app/pricing", "https://recoradar.app/methodology"],
+        "verifiedAt": "2026-11-27"
+      }
+    ],
+    "platforms": ["ChatGPT", "Claude", "Gemini", "Google AI Mode", "Google AI Overviews"],
+    "pricing": "Freemium",
+    "sources": [
+      { "label": { "en": "RecoRadar product overview", "zh": "RecoRadar 产品概览" }, "url": "https://recoradar.app/" },
+      { "label": { "en": "RecoRadar features", "zh": "RecoRadar 功能" }, "url": "https://recoradar.app/features" },
+      { "label": { "en": "RecoRadar pricing", "zh": "RecoRadar 定价" }, "url": "https://recoradar.app/pricing" },
+      { "label": { "en": "RecoRadar methodology", "zh": "RecoRadar 方法说明" }, "url": "https://recoradar.app/methodology" },
+      { "label": { "en": "RecoRadar terms", "zh": "RecoRadar 服务条款" }, "url": "https://recoradar.app/terms" },
+      { "label": { "en": "RecoRadar privacy policy", "zh": "RecoRadar 隐私政策" }, "url": "https://recoradar.app/privacy" },
+      { "label": { "en": "RecoRadar refund policy", "zh": "RecoRadar 退款政策" }, "url": "https://recoradar.app/refunds" }
+    ],
+    "verifiedAt": "2026-11-27",
+    "status": "published",
+    "featuredOrder": 141,
+    "sponsored": false
   }
 ]
