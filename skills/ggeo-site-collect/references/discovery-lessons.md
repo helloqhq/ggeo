@@ -35,8 +35,8 @@
 ### D-02 子产品收录看独立产品页+独立定价+清晰 GEO 核心
 - 症状／观察：Leapd Alex 有独立产品页与定价但母体是通用 AI 业务构建器；AI Rank Lab 是营销全家桶（GEO 仅一模块、INR-only 扣款）；SEOmator GEO Audit 是边界清晰的独立免费子工具。
 - 原因：子产品与「泛 AI 应用/宽套件」的边界不清时，收录会稀释目录相关性；沿用 seoptimer-geo-audit 先例可收录定义明确的子工具。
-- 策略调整：子产品仅在有独立产品页+独立定价+清晰 GEO/AI 搜索核心时收录；母体为通用 AI 应用或宽营销套件时暂缓并记为下轮候选；免费审计类子工具按 geo-audit 收录、website 落点取子工具页。同理暂缓 CLEO（Maps/Search/Social/Reviews/Leads 宽营销引擎）；GEOBase 虽属 AIBase，但有独立产品域名、独立套餐与协议，按独立产品收录。Qvery 主业为 AI 转型咨询，但 GEO Agent 有独立产品页、注册入口与自身 FAQ，按独立产品收录；Raccoon AI 的 GEO 有独立产品页但缺产品专属条款，按 D-05 暂缓，2026-11-23 复核补齐产品专属定价页（raccoonai.co/geo/pricing）后按独立产品收录，条款缺口写入 limitations。第五轮 Firecrawl AI Visibility Audit 同样以独立产品页、母体定价和清晰的单页技术审计边界收录，并明确不直接查询 AI 回答。本轮 Pixis Visibility 有独立产品页、定价、应用条款和覆盖该产品的公司隐私；Lumina 是有独立页面与明确免费范围的子工具。ToolsPivot 与 Juma 虽有免费审计页面，但分别因运营主体缺口和母子产品法律范围不清暂缓；BrightEdge、Ryze、Prefer、SearchEye 等宽套件未建立足够独立的核心。2026-11-28 轮 SoRank GEO Audit 有独立审计页、明确免费次数和独立就绪度边界，按 geo-audit 收录；其母体付费套餐价格必须与免费审计结果分开描述，不推定免费用户包含付费执行能力。
-- 记录：首次 2026-11-17 · 最近 2026-11-28 · 命中 7 次 · [搜集记录](../../../docs/research/2026-11-28-geo-sites.md)
+- 策略调整：子产品仅在有独立产品页+独立定价+清晰 GEO/AI 搜索核心时收录；母体为通用 AI 应用或宽营销套件时暂缓并记为下轮候选；免费审计类子工具按 geo-audit 收录、website 落点取子工具页。同理暂缓 CLEO（Maps/Search/Social/Reviews/Leads 宽营销引擎）；GEOBase 虽属 AIBase，但有独立产品域名、独立套餐与协议，按独立产品收录。Qvery 主业为 AI 转型咨询，但 GEO Agent 有独立产品页、注册入口与自身 FAQ，按独立产品收录；Raccoon AI 的 GEO 有独立产品页但缺产品专属条款，按 D-05 暂缓，2026-11-23 复核补齐产品专属定价页（raccoonai.co/geo/pricing）后按独立产品收录，条款缺口写入 limitations。第五轮 Firecrawl AI Visibility Audit 同样以独立产品页、母体定价和清晰的单页技术审计边界收录，并明确不直接查询 AI 回答。本轮 Pixis Visibility 有独立产品页、定价、应用条款和覆盖该产品的公司隐私；Lumina 是有独立页面与明确免费范围的子工具。ToolsPivot 与 Juma 虽有免费审计页面，但分别因运营主体缺口和母子产品法律范围不清暂缓；BrightEdge、Ryze、Prefer、SearchEye 等宽套件未建立足够独立的核心。2026-11-28 轮 SoRank GEO Audit 有独立审计页、明确免费次数和独立就绪度边界，按 geo-audit 收录；其母体付费套餐价格必须与免费审计结果分开描述，不推定免费用户包含付费执行能力。80 工具轮 DataForSEO LLM Mentions API 有独立能力页与按任务/行计费，MentionBird 免费提示词生成器与付费追踪器共享运营方但入口、功能和定价不同，均按边界清晰的独立子产品收录，并明确生成提示词不等于监测真实查询。
+- 记录：首次 2026-11-17 · 最近 2026-11-28 · 命中 8 次 · [搜集记录](../../../docs/research/2026-11-28-geo-sites-80.md)
 
 ### D-03 以人工代运营交付为主的代理商站点排除
 - 症状／观察：SkillMammoth 面向承包商行业提供网站设计/SEO 代运营（月度retainer+建站费），无自助软件产品。
